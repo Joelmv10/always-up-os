@@ -27,25 +27,24 @@
 
 | # | Tarea | Estado | Por qué este orden |
 |---|---|---|---|
-| 1 | **Embudo de ventas para inbound de becas (Instagram)** — qué mandar cuando alguien pregunta (guía/info), preguntas de cualificación, cómo agendar llamada, guion de cierre | 🔴 Nueva prioridad #1 | Ya hay leads reales entrando y **0 cerrados** — es una fuga activa, más barata de arreglar que conseguir leads nuevos |
+| 1 | **Embudo de ventas multi-servicio (no solo becas)** | ✅ Hecho (`02-sales/embudo-ventas.md`) — cualificación, ficha "qué mandar" por cada uno de los 5 servicios, agenda de llamada, guion de cierre, seguimiento. Preparado para el contenido variado que Joel publicará desde agosto | Ya hay leads reales entrando y **0 cerrados** — es una fuga activa, más barata de arreglar que conseguir leads nuevos |
 | 2 | Modelo financiero vivo (proyección hacia +$200k 2027) | 🟡 Siguiente | Sin esto no sabemos cuántos cierres reales necesita cada línea — informa la prioridad de todo lo demás |
 | 3 | SOP Team Experience / Coach Experience | 🟡 En curso | Barato de hacer ahora (proceso fresco), necesario antes de delegar/contratar |
 | 4 | Ejecutar outreach con la lista de clubes ya lista (Homefarm FC primero) | 🟢 Acción de Joel — plantilla y lista ya listas | Sigue siendo el objetivo #1 declarado (captación propia Team Experience) |
-| 5 | Seguir ampliando/filtrando la lista de clubes objetivo | 🟡 En progreso | Continuar mientras se ejecuta el outreach de los ya encontrados |
-| 6 | Perfil de LinkedIn (crear/perfeccionar el perfil, sin campaña de conexión masiva todavía) | 🟡 Se puede empezar ya, barato | Tener el perfil listo no compite con nada — la campaña de 200-300 conexiones se retrasa hasta que el embudo (#1) esté probado |
-| 7 | Lista detallada de universidades/academias EEUU con contacto nombrado | 🟡 Proyecto real, mayor alcance de lo acordado para la línea EEUU — **flag: decidir si se eleva prioridad de la línea 7 o se mantiene "oportunista"** | Alto valor pero es top-of-funnel — igual que LinkedIn, sin sentido antes de que el embudo convierta |
-| 8 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho, falta abogado | Exposición activa, no depende de nada más |
-| 9 | Resolver Renegades FC | 🟡 Seguimiento enviado, esperando respuesta | — |
-| 10 | International Program — términos comerciales exactos de la comisión | 🟡 Precio ya confirmado (45k/25k/5k€), falta el % de comisión | Rápido, sin dependencias |
-| 11 | Campaña activa de LinkedIn (200-300 conexiones, 50 conversaciones) | ⏸️ Después de #1 y #2 | No generar más leads hasta que el embudo actual convierta |
-| 12 | Perfeccionar presentaciones/web/documentos | ⏸️ **Conflicto con decisión previa de aparcar esto — mantener aparcado salvo que Joel lo eleve explícitamente.** Solo arreglos puntuales ya detectados (quitar "ESC Madrid", aclarar uso interno de Quality Servix) | Ya se decidió no priorizar — reabrir solo si Joel insiste |
-| 13 | Auditoría de servicios/pricing | ✅ Ya cubierto en gran parte (`lineas-de-negocio.md`, `playbook-ventas.md`) | Confirmar con Joel si falta algún ángulo específico |
-| 14 | CRM con leads y proceso de ventas | ✅ Ya hecho (`01-clients/pipeline.md`) | No reconstruir — usarlo |
-| 15 | WhatsApp Business + email corporativo | 🟡 Abierto, baja dificultad | Profesionalización básica |
-| 16 | Documentación de contratación (primer perfil: ventas) | 🟢 Más adelante | No urge hasta tener SOPs/embudo estables |
-| 17 | Estructura de sesiones/roles con Claude Code | ⏸️ La continuidad de memoria entre sesiones **ya funciona hoy** (repo + memoria persisten sin importar cuántas sesiones se abran) — lo que falta es diseñar roles específicos, y sigue siendo pronto para eso | Esperar a tener 2-3 semanas más de ritmo real antes de diseñar roles a ciegas |
-| 18 | Always Up Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte — pendiente que Joel pase la conversación real |
-| 19 | Marca personal / RRSS — plan y objetivos día a día | ⏸️ Sesión dedicada aparte (ya acordado antes) | No mezclar con estrategia general |
+| 5 | Seguir ampliando/filtrando la lista de clubes objetivo, **con EEUU como prioridad geográfica** | 🟡 En progreso | Decisión 2026-07-16: no se eleva la línea 7 (consultoría EEUU) como track aparte, pero sí se prioriza geografía EEUU dentro de esta tarea — encaja con la prioridad estratégica ya existente sin crear una iniciativa nueva |
+| 6 | Perfil de LinkedIn (crear/perfeccionar el perfil, sin campaña de conexión masiva todavía) | 🟡 Se puede empezar ya, barato | Tener el perfil listo no compite con nada — la campaña de 200-300 conexiones se retrasa hasta que el embudo (#1) esté probado en la práctica |
+| 7 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho, falta abogado | Exposición activa, no depende de nada más |
+| 8 | Resolver Renegades FC | 🟡 Seguimiento enviado, esperando respuesta | — |
+| 9 | International Program — términos comerciales exactos de la comisión | 🟡 Precio ya confirmado (45k/25k/5k€), falta el % de comisión | Rápido, sin dependencias |
+| 10 | Campaña activa de LinkedIn (200-300 conexiones, 50 conversaciones) | ⏸️ Después de #1 y #2 | No generar más leads hasta que el embudo actual convierta |
+| 11 | Perfeccionar presentaciones/web/documentos | ⏸️ **Conflicto con decisión previa de aparcar esto — mantener aparcado salvo que Joel lo eleve explícitamente.** Solo arreglos puntuales ya detectados (quitar "ESC Madrid", aclarar uso interno de Quality Servix) | Ya se decidió no priorizar — reabrir solo si Joel insiste |
+| 12 | Auditoría de servicios/pricing | ✅ Ya cubierto en gran parte (`lineas-de-negocio.md`, `playbook-ventas.md`) | Confirmar con Joel si falta algún ángulo específico |
+| 13 | CRM con leads y proceso de ventas | ✅ Ya hecho (`01-clients/pipeline.md`) | No reconstruir — usarlo |
+| 14 | WhatsApp Business + email corporativo | 🟡 Abierto, baja dificultad | Profesionalización básica |
+| 15 | Documentación de contratación (primer perfil: ventas) | 🟢 Más adelante | No urge hasta tener SOPs/embudo estables |
+| 16 | Estructura de sesiones/roles con Claude Code | ⏸️ La continuidad de memoria entre sesiones **ya funciona hoy** (repo + memoria persisten sin importar cuántas sesiones se abran) — lo que falta es diseñar roles específicos, y sigue siendo pronto para eso | Esperar a tener 2-3 semanas más de ritmo real antes de diseñar roles a ciegas |
+| 17 | Always Up Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte — pendiente que Joel pase la conversación real |
+| 18 | Marca personal / RRSS — plan y objetivos día a día | ⏸️ Sesión dedicada aparte (ya acordado antes) | No mezclar con estrategia general |
 
 ## Automatizaciones detectadas para más adelante (no urgentes hoy)
 
@@ -53,4 +52,4 @@ Del plan original, siguen siendo válidas cuando haya volumen suficiente para ju
 
 ## Próximo paso inmediato (revisado 2026-07-16)
 
-Empezar por **#1 (embudo de becas)** — es la fuga de conversión más urgente y barata de arreglar — en paralelo con **#2 (modelo financiero)** y **#3 (SOP, ya en curso)**. Joel: ejecutar **#4** (outreach a Homefarm FC) en cuanto tengas un rato. El resto espera.
+**#1 (embudo multi-servicio) ya está hecho.** Siguiente: **#2 (modelo financiero)** en paralelo con **#3 (SOP, ya en curso)**. Joel: ejecutar **#4** (outreach a Homefarm FC) en cuanto tengas un rato. El resto espera.
