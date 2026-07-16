@@ -36,7 +36,7 @@
 | 7 | Resolver Renegades FC | 🔴 Máxima prioridad — decide el objetivo de 2027 | Seguimiento enviado, esperando respuesta |
 | 8 | Perfil de LinkedIn (crear/perfeccionar el perfil, sin campaña de conexión masiva todavía) | 🟡 Se puede empezar ya, barato | Tener el perfil listo no compite con nada — la campaña de 200-300 conexiones se retrasa hasta que el embudo (#1) esté probado en la práctica |
 | 9 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho, falta abogado | Exposición activa, no depende de nada más |
-| 10 | WhatsApp Business + email corporativo | 🟡 En curso — guía paso a paso en marcha (2026-07-16) | Profesionalización básica, Joel lo está montando ahora |
+| 10 | WhatsApp Business | ⏸️ **Pausado hasta el 05/08/2026** — Joel usará el número +1 814 329 1929 (necesita estar en EEUU para recibir el SMS de verificación). Textos de bienvenida y respuestas rápidas ya listos en `02-sales/embudo-ventas.md`. Email corporativo (@alwaysup.es) ya funciona, no requiere trabajo | Bloqueado por logística de Joel, no por trabajo pendiente |
 | 11 | Campaña activa de LinkedIn (200-300 conexiones, 50 conversaciones) | ⏸️ Después de #1 y #6 | No generar más leads hasta que el embudo actual convierta |
 | 12 | Perfeccionar presentaciones/web/documentos | ⏸️ **Conflicto con decisión previa de aparcar esto — mantener aparcado salvo que Joel lo eleve explícitamente.** Solo arreglos puntuales ya detectados (quitar "ESC Madrid", aclarar uso interno de Quality Servix) | Ya se decidió no priorizar — reabrir solo si Joel insiste |
 | 13 | Auditoría de servicios/pricing | ✅ Ya cubierto en gran parte (`lineas-de-negocio.md`, `playbook-ventas.md`) | Confirmar con Joel si falta algún ángulo específico |
