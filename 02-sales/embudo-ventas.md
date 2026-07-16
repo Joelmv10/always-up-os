@@ -86,6 +86,73 @@ Requiere que Joel cree la cuenta de Calendly (Claude no puede crear cuentas en s
 - Primer seguimiento a los 7-10 días, corto, sin repetir el pitch completo (ver plantilla de seguimiento en [plantillas-outreach.md](plantillas-outreach.md), mismo principio aplica aquí).
 - Si no hay respuesta tras 2 seguimientos, pasar a "en pausa" — no insistir más sin señal de interés real.
 
+## Textos para WhatsApp Business (2026-07-16)
+
+> Requiere número propio para Always Up, distinto del personal de Joel — pendiente de decidir (número nuevo o reutilizar uno existente sin uso personal).
+
+**Mensaje de bienvenida (auto-respuesta al primer contacto):**
+```
+¡Hola! 👋 Gracias por escribir a Always Up.
+
+Cuéntame rápido para poder ayudarte mejor:
+- ¿Qué te interesa — una experiencia de tu equipo/club en España, una beca
+  deportiva en EEUU, el programa internacional con la Real Sociedad, o algo
+  distinto?
+- ¿Qué edad tiene el jugador/a y en qué país estáis?
+
+En cuanto lo sepa, te explico exactamente cómo podemos ayudarte 🙌
+```
+
+**Respuestas rápidas (`/atajo`), una por servicio:**
+
+`/becas`
+```
+¡Genial! Así funciona el proceso de becas universitarias en EEUU:
+trabajamos con University Soccer, que se encarga de todo el proceso
+(perfil, contacto con universidades, admisión). Para evaluar tu caso
+necesitamos un vídeo reciente jugando y tu situación académica.
+¿Me puedes contar la edad, posición y nivel del jugador/a?
+```
+
+`/colegio`
+```
+Para colegios privados en EEUU (boarding school) trabajamos con GEE,
+especializados en encontrar el colegio y beca académica que mejor encaje.
+¿Qué edad tiene y en qué curso está ahora mismo?
+```
+
+`/experience`
+```
+Team Experience: entrenamos con clubes profesionales españoles (Atlético
+de Madrid, Real Sociedad, Sporting de Gijón) — entrenamientos, partidos,
+instalaciones profesionales, todo incluido. Nuestro club de Irlanda llegó
+a ganar su primera liga en la historia tras estas experiencias 🏆
+¿Cuántos jugadores seríais y para qué fechas lo estáis pensando?
+```
+
+`/intlprogram`
+```
+El International Program es un programa residencial con la Real Sociedad
+en San Sebastián — 1, 5 o 10 meses, entrenando con su metodología y
+viviendo allí. Para evaluar el nivel necesitamos un vídeo del jugador/a.
+¿Qué duración os interesa más?
+```
+
+`/pd`
+```
+Player Development es un programa de desarrollo individual que estamos
+terminando de dar forma — te aviso en cuanto esté listo para arrancar.
+Mientras tanto, cuéntame tu caso para tenerlo guardado y ser de los
+primeros en saberlo.
+```
+
+`/llamada` (una vez cualificado, para pasar a videollamada)
+```
+Perfecto, con esto ya tengo lo que necesito. Te propongo que hablemos
+por videollamada para contarte todo con detalle — [enlace de Calendly].
+¿Te va bien esta semana?
+```
+
 ## Qué se puede automatizar de verdad (pregunta de Joel, 2026-07)
 
 **Sí, con una herramienta tipo ManyChat** (conectada a Instagram — Joel tiene que crear la cuenta, Claude no puede hacerlo en su nombre):
