@@ -17,6 +17,14 @@
 |---|---|---|---|
 | — | University Soccer / GEE | **0 cerrados** | Inbound de Instagram sin cerrar clientes todavía. Meta 2027: 4-5 jugadores |
 
+## Embudo — seguimiento de leads inbound (Instagram/DM, todos los servicios)
+
+> Registrar cada lead real aquí desde que se activa el embudo ([embudo-ventas.md](../02-sales/embudo-ventas.md)) — es la única forma de saber si las mejoras del embudo funcionan de verdad. Etapas: Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado / Perdido (con motivo).
+
+| Fecha | Nombre/contacto | Servicio | Etapa | Motivo si se pierde | Notas |
+|---|---|---|---|---|---|
+| *(sin leads registrados todavía — empezar a rellenar en cuanto se aplique el nuevo mensaje de cualificación)* | | | | | |
+
 ## Partners (relación, no clientes)
 
 | Partner | Rol | Contacto | Detalle |

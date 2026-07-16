@@ -52,7 +52,7 @@ Quick questions so I can point you to the right program:
 | Si pregunta por... | Qué mandar | Precio a mencionar si preguntan directamente |
 |---|---|---|
 | **Team/Coach Experience** (equipo/club quiere viajar a España) | Ficha corta: "training with pro Spanish clubs (Atlético, Real Sociedad, Sporting), full logistics included" + caso Greystones (título de liga) | $1.500 (5 días estándar) — desde $2.500-$3.500 si es formato premium multi-club |
-| **Becas EEUU** (jugador quiere estudiar+jugar en universidad) | Explicar el proceso vía University Soccer, pedir vídeo/perfil del jugador para evaluar nivel | $2.500-$4.000 lo paga el jugador a University Soccer (Joel no cobra directo al lead, cobra comisión de University Soccer) |
+| **Becas EEUU** (jugador quiere estudiar+jugar en universidad) | Enviar [guia-becas.md](guia-becas.md) (lead magnet) + pedir vídeo/perfil del jugador para evaluar nivel | $2.500-$4.000 lo paga el jugador a University Soccer (Joel no cobra directo al lead, cobra comisión de University Soccer) |
 | **Colegio privado EEUU** (más joven, boarding school) | Explicar proceso vía GEE | 2.500€-3.500€ (fee de GEE, aparte de matrícula del colegio) |
 | **International Program** (Real Sociedad, residencial) | Explicar los 3 formatos (1/5/10 meses), pedir perfil/vídeo para evaluación | 5.000€ / 25.000€ / 45.000€ según duración |
 | **Player Development** (guía individual, sin ser club ni beca) | **Servicio todavía en desarrollo — no comprometer precio ni programa cerrado.** Responder con interés genuino, explicar que es un programa personalizado que se está afinando, pedir contacto para avisar en cuanto esté listo, y registrar como lead caliente en el pipeline | Sin definir todavía |
@@ -72,13 +72,27 @@ Preguntas a incluir en el Calendly (ajustar según servicio): edad del jugador, 
 
 Requiere que Joel cree la cuenta de Calendly (Claude no puede crear cuentas en su nombre).
 
-### 5. Guion de la llamada (estructura, no un guion palabra por palabra)
+### 5. Guion de la llamada (estructura + preguntas reales por bloque)
 
-1. Reconfirmar el caso (edad, nivel, objetivo, presupuesto aproximado si es posible).
-2. Explicar el programa que mejor encaja, con el valor por delante del precio (ver [playbook-ventas.md](playbook-ventas.md)).
-3. Dar el precio con seguridad, sin disculparse por él.
-4. Preguntar directamente: "What would you need to feel confident moving forward?" — saca la objeción real en vez de asumirla (lección del caso Renegades: la objeción real no siempre es la que parece).
-5. Cerrar con un siguiente paso concreto y con fecha (no "lo pensamos y te digo" sin fecha) — ej. "¿Te parece si seguimos la próxima semana con estos datos concretos?"
+**Bloque 1 — Reconfirmar el caso (2-3 min):**
+- "Cuéntame un poco más de [jugador] — ¿cuánto lleva jugando a este nivel?"
+- "¿Qué es lo que más os importa ahora mismo — el fútbol, lo académico, la experiencia en sí, o un poco de todo?"
+- Para becas/colegio específicamente: "¿Tenéis ya alguna referencia de presupuesto que os iría bien, o todavía está abierto?"
+
+**Bloque 2 — Explicar el programa que mejor encaja (con el valor por delante del precio, ver [playbook-ventas.md](playbook-ventas.md)):**
+- Team/Coach Experience: liderar con el caso Greystones (título de liga) antes de hablar de logística.
+- Becas: liderar con el proceso y lo que hace especial a University Soccer (scouts en 4 países, ~400 colocados desde 2019), no con el precio.
+- International Program: liderar con la metodología de la Real Sociedad y el formato residencial, no con los tres precios de golpe.
+
+**Bloque 3 — Dar el precio con seguridad, sin disculparte por él.** Decirlo una vez, con naturalidad, y quedarte en silencio — no rellenar el silencio justificando el precio antes de que reaccionen.
+
+**Bloque 4 — Sacar la objeción real, no asumirla** (lección del caso Renegades: "es caro" resultó ser "el coste total del viaje + vuelos", no que el precio no fuera competitivo):
+- "¿Qué necesitarías ver para sentirte seguro dando el paso?"
+- Si dicen que es precio: "¿Es el número en sí, o es más el conjunto con otros gastos (viajes, otros costes)?" — distingue entre objeción de precio real y de presupuesto total.
+
+**Bloque 5 — Cerrar con siguiente paso concreto y con fecha** (nunca "lo pensamos y os digo" sin fecha):
+- "¿Os parece si seguimos el [día concreto] con esta info ya decidida?"
+- Si piden tiempo para decidir en familia/club: proponer tú la fecha del siguiente contacto, no dejar que quede abierto.
 
 ### 6. Seguimiento si no cierra en la llamada
 
