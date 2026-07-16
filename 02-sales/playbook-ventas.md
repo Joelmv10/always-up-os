@@ -18,7 +18,7 @@
 | Extra: tour de estadio/museo | Por persona | $30 | Add-on, no incluido en el paquete base |
 | Becas (University Soccer, universidad) | Colocación | Joel cobra 50% de $2.500-$4.000 que paga el jugador | Todo el proceso lo lleva University Soccer, Joel solo capta |
 | Becas (GEE, colegio privado) | Colocación | Joel cobra 50% de 2.500€-3.500€ que paga la familia | Mismo trato 50/50 que University Soccer |
-| International Program (Real Sociedad) | 1/5/10 meses, residencial | No publicado — cotización individual, ~$5k/$25k/$40k aprox (orden sin confirmar) | Ver [lineas-de-negocio.md](../00-company/lineas-de-negocio.md) línea 3 |
+| International Program (Real Sociedad) | 1 mes / 5 meses / 10 meses, residencial | 5.000€ / 25.000€ / 45.000€ | Confirmado. Ver [lineas-de-negocio.md](../00-company/lineas-de-negocio.md) línea 3 |
 
 **Benchmark de mercado (investigación 2026-07):** tours de grupo completos a España rondan $2.800-$3.800/jugador para 7-10 noches (fuente: Odisea Tours). Always Up está dentro de ese rango, no por encima. Competidor IFX ofrece semanas sueltas de academia desde ~$1.250/semana — mucho más barato pero sin el paquete completo (no es comparación justa si el cliente no lo tiene claro).
 

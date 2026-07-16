@@ -21,28 +21,36 @@
 | Migrar conocimiento disperso a la KB | 🟡 En progreso — historia, líneas de negocio, auditoría de marca y procesos ya documentados; falta seguir volcando lo que surja |
 | WhatsApp Business + email corporativo unificado | 🔴 Abierto — sin empezar |
 
-## Backlog priorizado (actualizado 2026-07-10)
+## Backlog priorizado (revisado 2026-07-16 — fusiona el backlog anterior con las 10 ideas propias de Joel)
 
-| # | Tarea | Estado | Por qué ahora |
+**Criterio de reordenación:** arreglar fugas de conversión ya detectadas pesa más que generar más leads nuevos; SOP/modelo financiero son baratos y desbloquean decisiones; todo lo que no sea Team Experience o Becas espera a que esto esté estable.
+
+| # | Tarea | Estado | Por qué este orden |
 |---|---|---|---|
-| 1 | Ampliar lista de clubes/academias objetivo para Team Experience más allá de Renegades FC/Greystones | 🟡 En progreso — 1ª tanda de candidatos encontrada (Homefarm FC Irlanda + varios de UK/Nórdicos/EEUU vía torneos), ver `01-clients/pipeline.md`. Falta filtrar y diseñar mensaje de contacto | Es el cuello de botella confirmado (demanda, no oferta) |
-| 2 | Resolver el riesgo de precio con Renegades FC | 🟡 Mensaje de seguimiento enviado 14/07 (check-in + apertura a ajustar, sin descuento concreto). **Esperando respuesta de Kimiko/Dr. Bethel** | Prospecto de mayor prioridad, en riesgo de perderse por precio |
-| 3 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho (`03-operations/checklist-legal-menores.md`) — falta revisión de abogado real | Exposición legal activa, no depende de nada más |
-| 4 | Playbook de ventas + pricing documentado por servicio | ✅ Hecho (`02-sales/playbook-ventas.md`) — pricing real, manejo de objeciones con caso Renegades, prueba social Greystones | Estandariza el cierre, hoy se improvisa cada vez |
-| 5 | Secuencia de outreach (mensaje inicial + seguimiento) para clubes objetivo | ✅ Hecho (`02-sales/plantillas-outreach.md`) — falta que Joel las use con la lista de candidatos (Homefarm FC primero, es el mejor perfil) | El intento anterior de Joel (contactos NCAA) no funcionó — hay que rediseñar el mensaje, no repetirlo |
-| 6 | Conversación con David: cerrar precio exacto del International Program (tramos 1/5/10 meses) | 🟡 Rápido, sin dependencias | Dato de economía real pendiente de una sola conversación |
-| 7 | WhatsApp Business + email corporativo | 🟡 Abierto, baja dificultad | Profesionalización básica |
-| 8 | SOP Team Experience / Coach Experience (documentar mientras el proceso está fresco) | 🟡 Abierto | Necesario antes de delegar o contratar |
-| 9 | Modelo financiero vivo (proyección hacia +$200k 2027 / +$1M a 5 años) | 🟡 Abierto | Ya hay objetivo, falta el plan numérico que lo sostenga |
-| 10 | Documentación de contratación (primer perfil: ventas) | 🟢 Más adelante | Ya identificado como el hueco de equipo, pero no urge hasta tener playbook/SOPs |
-| 11 | Web nueva / SEO / landing pages por segmento | ⏸️ Aparcado explícitamente por Joel | No repetir el error de invertir tiempo aquí antes de validar captación |
-| 12 | Estrategia de entrada EEUU (línea 7, fútbol/consultoría) | ⏸️ Sin track propio | Se detecta oportunistamente en conversaciones de la tarea #1 |
-| 13 | Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte |
+| 1 | **Embudo de ventas para inbound de becas (Instagram)** — qué mandar cuando alguien pregunta (guía/info), preguntas de cualificación, cómo agendar llamada, guion de cierre | 🔴 Nueva prioridad #1 | Ya hay leads reales entrando y **0 cerrados** — es una fuga activa, más barata de arreglar que conseguir leads nuevos |
+| 2 | Modelo financiero vivo (proyección hacia +$200k 2027) | 🟡 Siguiente | Sin esto no sabemos cuántos cierres reales necesita cada línea — informa la prioridad de todo lo demás |
+| 3 | SOP Team Experience / Coach Experience | 🟡 En curso | Barato de hacer ahora (proceso fresco), necesario antes de delegar/contratar |
+| 4 | Ejecutar outreach con la lista de clubes ya lista (Homefarm FC primero) | 🟢 Acción de Joel — plantilla y lista ya listas | Sigue siendo el objetivo #1 declarado (captación propia Team Experience) |
+| 5 | Seguir ampliando/filtrando la lista de clubes objetivo | 🟡 En progreso | Continuar mientras se ejecuta el outreach de los ya encontrados |
+| 6 | Perfil de LinkedIn (crear/perfeccionar el perfil, sin campaña de conexión masiva todavía) | 🟡 Se puede empezar ya, barato | Tener el perfil listo no compite con nada — la campaña de 200-300 conexiones se retrasa hasta que el embudo (#1) esté probado |
+| 7 | Lista detallada de universidades/academias EEUU con contacto nombrado | 🟡 Proyecto real, mayor alcance de lo acordado para la línea EEUU — **flag: decidir si se eleva prioridad de la línea 7 o se mantiene "oportunista"** | Alto valor pero es top-of-funnel — igual que LinkedIn, sin sentido antes de que el embudo convierta |
+| 8 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho, falta abogado | Exposición activa, no depende de nada más |
+| 9 | Resolver Renegades FC | 🟡 Seguimiento enviado, esperando respuesta | — |
+| 10 | International Program — términos comerciales exactos de la comisión | 🟡 Precio ya confirmado (45k/25k/5k€), falta el % de comisión | Rápido, sin dependencias |
+| 11 | Campaña activa de LinkedIn (200-300 conexiones, 50 conversaciones) | ⏸️ Después de #1 y #2 | No generar más leads hasta que el embudo actual convierta |
+| 12 | Perfeccionar presentaciones/web/documentos | ⏸️ **Conflicto con decisión previa de aparcar esto — mantener aparcado salvo que Joel lo eleve explícitamente.** Solo arreglos puntuales ya detectados (quitar "ESC Madrid", aclarar uso interno de Quality Servix) | Ya se decidió no priorizar — reabrir solo si Joel insiste |
+| 13 | Auditoría de servicios/pricing | ✅ Ya cubierto en gran parte (`lineas-de-negocio.md`, `playbook-ventas.md`) | Confirmar con Joel si falta algún ángulo específico |
+| 14 | CRM con leads y proceso de ventas | ✅ Ya hecho (`01-clients/pipeline.md`) | No reconstruir — usarlo |
+| 15 | WhatsApp Business + email corporativo | 🟡 Abierto, baja dificultad | Profesionalización básica |
+| 16 | Documentación de contratación (primer perfil: ventas) | 🟢 Más adelante | No urge hasta tener SOPs/embudo estables |
+| 17 | Estructura de sesiones/roles con Claude Code | ⏸️ La continuidad de memoria entre sesiones **ya funciona hoy** (repo + memoria persisten sin importar cuántas sesiones se abran) — lo que falta es diseñar roles específicos, y sigue siendo pronto para eso | Esperar a tener 2-3 semanas más de ritmo real antes de diseñar roles a ciegas |
+| 18 | Always Up Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte — pendiente que Joel pase la conversación real |
+| 19 | Marca personal / RRSS — plan y objetivos día a día | ⏸️ Sesión dedicada aparte (ya acordado antes) | No mezclar con estrategia general |
 
 ## Automatizaciones detectadas para más adelante (no urgentes hoy)
 
 Del plan original, siguen siendo válidas cuando haya volumen suficiente para justificarlas: alertas de estacionalidad (verano/Semana Santa), dashboard de encuestas de satisfacción/testimonios, recordatorio automático de renovación a clubes que ya trabajaron con vosotros, plantilla estándar de contrato con clubes. No se construyen todavía — requieren datos/volumen que hoy no existen.
 
-## Próximo paso inmediato
+## Próximo paso inmediato (revisado 2026-07-16)
 
-Empezar por las tareas **#1 y #2** (ambas relacionadas con el pipeline de Team Experience, que es el objetivo #1 declarado) en paralelo con **#3** (checklist legal, no depende de nada y hay exposición real). El resto del backlog espera a que estas avancen.
+Empezar por **#1 (embudo de becas)** — es la fuga de conversión más urgente y barata de arreglar — en paralelo con **#2 (modelo financiero)** y **#3 (SOP, ya en curso)**. Joel: ejecutar **#4** (outreach a Homefarm FC) en cuanto tengas un rato. El resto espera.

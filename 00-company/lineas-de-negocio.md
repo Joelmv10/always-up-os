@@ -42,9 +42,12 @@ Joel se queda con el 50% de la comisión por cada colocación que refiere. Sourc
 
 Incluye: 12h/semana de entrenamiento, análisis de vídeo individual semanal, datos GPS por sesión, entrenadores certificados de la RS, alojamiento en la "Olarain Residence" (habitación privada, manutención completa, supervisión 24/7), apoyo académico con colegios internacionales, clases de español (certificado de nivel funcional en 3 meses), y extras culturales (surf, gastronomía, partidos del primer equipo, excursiones).
 
-**Precio (aproximado, 2026-07-10):** Joel dio cifras de memoria, sin tenerlas a mano — $40.000 / $25.000 / $5.000 para los tramos 1/5/10 meses, pero **el orden exacto (qué precio corresponde a qué tramo) no está confirmado** — pendiente de que Joel lo confirme con el dato exacto delante. La lógica esperable sería 10 meses = $40.000, 5 meses = $25.000, 1 mes = $5.000 (a más duración, más precio total pero menor coste por mes), pero no se da por hecho hasta confirmarlo.
+**Precio confirmado (2026-07-16, dato del padre de Joel):**
+- **10 meses (Full Immersion):** 45.000€
+- **5 meses (Development):** 25.000€
+- **1 mes (Discovery):** 5.000€
 
-**Acción pendiente:** confirmar cifras exactas de precio por tramo, y los términos comerciales de la comisión de Always Up (si están en un contrato aparte).
+**Acción pendiente:** confirmar los términos comerciales exactos de la comisión de Always Up sobre estas cifras (si están en un contrato aparte con la Real Sociedad).
 
 ## 4. Oportunidades profesionales Alemania/España
 
