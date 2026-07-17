@@ -28,6 +28,27 @@ Seguimiento (día 2 / 5-7 / 10-14 / 20-40)
 Onboarding (ver SOP) → Experiencia → Testimonio + Referido
 ```
 
+## Acceso rápido — si preguntan esto, abre esto
+
+| Si el lead pregunta... | Abrir | Acción |
+|---|---|---|
+| "¿Cuánto cuesta?" | [playbook-ventas.md](playbook-ventas.md) | Copiar precio del servicio correspondiente — nunca sin contexto previo |
+| "¿Cómo funciona el proceso?" | Ficha del servicio (`ficha-*.md` o `guia-becas.md`) | Copiar y personalizar |
+| "Es muy caro" / compara con otros | [playbook-ventas.md](playbook-ventas.md) sección "Manejo de objeciones" | Diagnosticar antes de reaccionar |
+| Quiere agendar | Enlace de Calendly del servicio correspondiente | Enviar directamente |
+| Tras la llamada, qué mandar | [propuesta-template.md](propuesta-template.md) | Rellenar y enviar el mismo día |
+| No responde tras la propuesta | [embudo-ventas.md](embudo-ventas.md) sección 6 | Seguir cadencia día 2/5-7/10-14 |
+
+## Qué función cumple cada documento (para no enviar cosas "porque sí")
+
+| Documento | Su función |
+|---|---|
+| Ficha del servicio / guía de becas | Generar interés real e informar |
+| Caso Greystones / activos de autoridad | Generar confianza |
+| Preguntas frecuentes (dentro de cada ficha) | Eliminar objeciones antes de que aparezcan |
+| Propuesta escrita | Facilitar la decisión, dar algo concreto sobre lo que decidir |
+| Playbook (objeciones) | Cerrar cuando aparece resistencia |
+
 ## Ejemplo completo #1 — Becas EEUU (el caso más repetido)
 
 1. **Trigger:** alguien comenta en un vídeo de becas.

@@ -47,6 +47,17 @@
 | 17 | Always Up Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte — pendiente que Joel pase la conversación real |
 | 18 | Marca personal / RRSS — plan y objetivos día a día | ⏸️ Sesión dedicada aparte (ya acordado antes) | No mezclar con estrategia general |
 
+## Giro de esta semana: de construir a vender (2026-07)
+
+Después de varias sesiones construyendo (marca, web, presentaciones, CRM, embudo), la pregunta que filtra cada hora a partir de ahora es: **¿esto aumenta la probabilidad de cerrar un cliente este verano?** Si no, espera. El embudo y los materiales ya son suficientes para vender — no se sigue "completando" documentación de venta salvo que un cliente real revele un hueco concreto.
+
+**Las 3 cosas reales de esta semana, en orden:**
+1. **Enviar el primer outreach real** — Homefarm FC y los siguientes candidatos de la lista, con lo que ya existe (plantillas + fichas). Acción de Joel, hoy.
+2. **Reunir el material de autoridad que ya existe** (las fotos/pocos vídeos que Joel tiene) — tarea rápida, no bloquea el punto 1.
+3. **Seguir ampliando la lista de clubes objetivo** en paralelo — no como proyecto separado de "300 contactos", sino como continuación de la misma lista de Team Experience ya en marcha (es donde está el dinero, según el modelo financiero).
+
+**Explícitamente no es prioridad esta semana:** LinkedIn (bloqueado hasta Claude in Chrome), comisión del International Program (no mueve el cuello de botella actual, según Joel), ampliar más la documentación del embudo salvo que un cliente real lo exija.
+
 ## Automatizaciones detectadas para más adelante (no urgentes hoy)
 
 Del plan original, siguen siendo válidas cuando haya volumen suficiente para justificarlas: alertas de estacionalidad (verano/Semana Santa), dashboard de encuestas de satisfacción/testimonios, recordatorio automático de renovación a clubes que ya trabajaron con vosotros, plantilla estándar de contrato con clubes. No se construyen todavía — requieren datos/volumen que hoy no existen.
