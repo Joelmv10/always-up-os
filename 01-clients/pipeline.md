@@ -25,6 +25,8 @@
 |---|---|---|---|---|---|
 | *(sin leads registrados todavía — empezar a rellenar en cuanto se aplique el nuevo mensaje de cualificación)* | | | | | |
 
+**Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
+
 ## Partners (relación, no clientes)
 
 | Partner | Rol | Contacto | Detalle |

@@ -34,6 +34,10 @@
 4. Usar prueba social real, no genérica — el caso de Greystones (título de liga tras 3 años con Always Up) es el ejemplo más fuerte disponible.
 5. **Diagnosticar la objeción real antes de reaccionar** — en el caso de Renegades, "es caro" resultó ser "el coste total del viaje incluyendo vuelos es alto", no "vuestro precio no es competitivo". Son problemas distintos con soluciones distintas.
 
+## Sobre la urgencia en el cierre (idea de una revisión externa, 2026-07 — con un matiz importante)
+
+Dar una razón real para decidir pronto ayuda a cerrar (ej. "las fechas con el club anfitrión se coordinan con meses de antelación, cuanto antes confirméis más margen tenemos"). **Pero solo urgencia real, nunca inventada** ("solo quedan X plazas" cuando no es cierto). Always Up se diferencia precisamente por no ser una agencia agresiva — fabricar escasez falsa rompe esa confianza y es el tipo de táctica que un cliente institucional (director deportivo, universidad) detecta rápido y penaliza.
+
 ### Silencio tras propuesta
 
 Esperar ~2-3 semanas antes de un primer follow-up. Mensaje corto, sin repetir el pitch completo — check-in + reiterar apertura + proponer llamada (mejor que seguir por texto cuando hay que negociar).

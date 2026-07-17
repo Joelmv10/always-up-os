@@ -4,6 +4,14 @@
 
 **Por qué esto es la prioridad #1 ahora mismo:** ya hay inbound real (Instagram) que genera interés y videollamadas, pero **0 clientes cerrados hasta ahora**. El problema no es falta de leads, es falta de proceso entre "alguien pregunta" y "alguien firma". Arreglar esto vale más que conseguir más leads nuevos (LinkedIn, EEUU) mientras la fuga siga abierta.
 
+## Decisión sobre el "Always Up Sales System" (revisión externa, 2026-07)
+
+Joel compartió una revisión externa (vía ChatGPT actuando de CRO) que proponía convertir esto en un "Sales System" de 17 módulos con carpeta propia. Decisión tomada: **no se crea ninguna estructura paralela** — este repo (`01-clients`, `02-sales`, `03-operations`) sigue siendo la única fuente de verdad. Se adoptan las ideas buenas y baratas directamente aquí; se descartan o aplazan las que añaden infraestructura sin validar primero:
+
+- **Adoptado ahora:** nombres de llamada tipo diagnóstico (no "sales call"), propuesta escrita tras la llamada, petición explícita de referidos, revisión semanal de métricas, vídeos personalizados de prospección.
+- **Aplazado hasta validar el proceso manual con clientes reales:** email marketing/nurturing automático, sistema de puntuación de leads, automatización con ManyChat/HubSpot/n8n.
+- **No se construye todavía:** rama de embudo para Player Development (servicio sin programa/precio definido aún).
+
 ## Caso práctico: comentario en vídeo de becas (el más repetido hoy)
 
 **Diagnóstico de lo que Joel ya hacía:** responder al comentario público con "te escribo por privado" está bien (rápido, personal) — no cambiar. El problema estaba en el DM: *"Cuéntame tu situación"* es una **pregunta abierta**, y las preguntas abiertas bajan la tasa de respuesta porque obligan al lead a pensar qué escribir. Sustituir por preguntas concretas de respuesta rápida.
@@ -47,11 +55,11 @@ Quick questions so I can point you to the right program:
 
 **Por qué importa la 2ª pregunta:** desde agosto va a llegar gente interesada en cosas distintas (no solo becas) — esta pregunta dirige automáticamente a la ficha correcta del punto 3.
 
-### 3. Qué enviar según el servicio (ficha corta, no la presentación completa)
+### 3. Qué enviar según el servicio (ficha corta + activos de autoridad, no la presentación completa)
 
 | Si pregunta por... | Qué mandar | Precio a mencionar si preguntan directamente |
 |---|---|---|
-| **Team/Coach Experience** (equipo/club quiere viajar a España) | Ficha corta: "training with pro Spanish clubs (Atlético, Real Sociedad, Sporting), full logistics included" + caso Greystones (título de liga) | $1.500 (5 días estándar) — desde $2.500-$3.500 si es formato premium multi-club |
+| **Team/Coach Experience** (equipo/club quiere viajar a España) | Ficha corta: "training with pro Spanish clubs (Atlético, Real Sociedad, Sporting), full logistics included" + caso Greystones (título de liga) + **fotos/vídeos reales de experiencias pasadas si Joel los tiene (pendiente confirmar qué material existe)** | $1.500 (5 días estándar) — desde $2.500-$3.500 si es formato premium multi-club |
 | **Becas EEUU** (jugador quiere estudiar+jugar en universidad) | Enviar [guia-becas.md](guia-becas.md) (lead magnet) + pedir vídeo/perfil del jugador para evaluar nivel | $2.500-$4.000 lo paga el jugador a University Soccer (Joel no cobra directo al lead, cobra comisión de University Soccer) |
 | **Colegio privado EEUU** (más joven, boarding school) | Explicar proceso vía GEE | 2.500€-3.500€ (fee de GEE, aparte de matrícula del colegio) |
 | **International Program** (Real Sociedad, residencial) | Explicar los 3 formatos (1/5/10 meses), pedir perfil/vídeo para evaluación | 5.000€ / 25.000€ / 45.000€ según duración |
@@ -59,6 +67,8 @@ Quick questions so I can point you to the right program:
 | Alemania/España (oportunidades profesionales) | Mencionar que existe pero está en fase muy temprana — no es prioridad activa, no ofrecer como producto cerrado | Sin definir todavía |
 
 **Regla general:** nunca mandar precio como primer mensaje sin contexto — siempre después de entender el caso (edad, nivel, objetivo). Evita que el precio se lea sin el valor detrás.
+
+**Sobre "activos de autoridad" (idea de la revisión externa, 2026-07):** antes de la llamada, cuanta más prueba social real se mande (no solo texto), más confianza se genera. **Pendiente de Joel:** ¿existen fotos/vídeos reales de las experiencias con Greystones u otros clientes? Si sí, hay que reunirlos en una carpeta de acceso rápido — no inventar ni usar contenido genérico de stock.
 
 ### 4. Agendar llamada — combinar formulario + agenda en un solo paso
 
@@ -70,9 +80,20 @@ Preguntas a incluir en el Calendly (ajustar según servicio): edad del jugador, 
 
 **Cuándo sí tiene sentido un formulario aparte, sin Calendly integrado:** solo cuando el volumen crezca tanto que Joel no pueda cualificar por DM uno a uno — un formulario filtra antes de invertir tiempo. Con el volumen de hoy, ir directo por DM + Calendly con preguntas cierra más rápido que añadir un paso extra.
 
-Requiere que Joel cree la cuenta de Calendly (Claude no puede crear cuentas en su nombre).
+**Confirmado 2026-07: Joel ya tiene la cuenta de Calendly creada.** Pasos para añadir las preguntas de cualificación:
+1. En Calendly, ir al Event Type que uses para estas llamadas (o crear uno nuevo, ej. "Experience Planning Call — 20 min").
+2. Editar el evento → sección **"Invitee Questions"**.
+3. Añadir como preguntas obligatorias: edad del jugador, posición/nivel, país, qué servicio interesa (si el evento es genérico para varios servicios), y opcionalmente presupuesto aproximado.
+4. Guardar y usar el enlace de ese evento específico en el mensaje `/llamada` de WhatsApp Business y en el paso 3 del embudo.
+5. Si se quiere un evento distinto por servicio (ej. "Scholarship Assessment" vs "Experience Planning Call") con preguntas ligeramente distintas, se puede duplicar el Event Type y ajustar — opcional, no imprescindible al principio.
 
 ### 5. Guion de la llamada (estructura + preguntas reales por bloque)
+
+**Cómo llamar a la llamada, según servicio (idea de la revisión externa, adoptada — cambia la psicología de "me venden" a "me evalúan", coste cero):**
+- Team/Coach Experience → *"Experience Planning Call"*
+- Becas → *"Scholarship Assessment"*
+- Colegio privado → *"Academic & Athletic Assessment"*
+- International Program → *"Player Evaluation Call"*
 
 **Bloque 1 — Reconfirmar el caso (2-3 min):**
 - "Cuéntame un poco más de [jugador] — ¿cuánto lleva jugando a este nivel?"
@@ -94,11 +115,19 @@ Requiere que Joel cree la cuenta de Calendly (Claude no puede crear cuentas en s
 - "¿Os parece si seguimos el [día concreto] con esta info ya decidida?"
 - Si piden tiempo para decidir en familia/club: proponer tú la fecha del siguiente contacto, no dejar que quede abierto.
 
+### 5.5. Propuesta escrita — enviar siempre después de la llamada, no solo "quedamos en hablarlo"
+
+Idea adoptada de la revisión externa: cerrar una llamada sin dejar nada por escrito es la forma más fácil de perder un lead caliente. Usar la plantilla en [propuesta-template.md](propuesta-template.md) — un único documento reutilizable con campos variables (nombre, servicio, fechas, qué se ofrece, precio, siguiente paso), no una propuesta distinta por servicio.
+
 ### 6. Seguimiento si no cierra en la llamada
 
-- Registrar en [pipeline.md](../01-clients/pipeline.md) con fecha y motivo de la objeción real (no genérico).
-- Primer seguimiento a los 7-10 días, corto, sin repetir el pitch completo (ver plantilla de seguimiento en [plantillas-outreach.md](plantillas-outreach.md), mismo principio aplica aquí).
-- Si no hay respuesta tras 2 seguimientos, pasar a "en pausa" — no insistir más sin señal de interés real.
+Cadencia de seguimiento (afinada 2026-07, más específica que "7-10 días"):
+- **Día 2:** seguimiento corto tras enviar la propuesta, sin presionar — confirmar que la recibió bien.
+- **Día 5-7:** si no hay respuesta, mensaje breve con una pieza nueva de valor (ej. un caso de éxito adicional), no repetir el pitch.
+- **Día 10-14:** último seguimiento activo, directo — preguntar si sigue siendo el momento adecuado.
+- **Día 20-40 (opcional, solo si el lead era de calidad real):** un check-in muy espaciado, sin presión — a veces se cierra meses después.
+- Registrar en [pipeline.md](../01-clients/pipeline.md) siempre con fecha y motivo real de la objeción (no genérico).
+- Si no hay respuesta tras el seguimiento del día 10-14, pasar a "en pausa" — no insistir más sin señal de interés real.
 
 ## Textos para WhatsApp Business (2026-07-16)
 

@@ -54,6 +54,7 @@ Estructura tipo (ajustar según formato/duración):
 
 - [ ] Enviar encuesta de satisfacción (ya se hace, mantenerlo).
 - [ ] Pedir explícitamente un testimonio/caso de éxito — el caso de Greystones (título de liga) salió de una conversación de WhatsApp, no de un proceso sistemático. Sistematizar: preguntar directamente 2-3 meses después "¿cómo le ha ido al equipo desde la experiencia?".
+- [ ] **Pedir referido explícitamente** (idea adoptada de una revisión externa, 2026-07): tras un testimonio positivo, preguntar directamente si conocen otro club/academia al que le pueda interesar lo mismo — no asumir que llegará solo, como pasó con Greystones/Renegades (ambos vía partner, no por petición activa).
 - [ ] Registrar en [pipeline.md](../01-clients/pipeline.md) como cliente recurrente, con fecha de próximo contacto sugerido (según estacionalidad — verano/Semana Santa).
 - [ ] Actualizar `01-clients/clients/[nombre].md` con el historial de esta edición.
 

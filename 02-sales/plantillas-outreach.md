@@ -52,3 +52,7 @@ Joel
 - **Priorizar salida vía referencia** cuando exista (ej. pedir a Greystones que presente/recomiende a otro club irlandés) antes que el contacto totalmente frío.
 - Idioma: inglés por defecto (mercado objetivo es internacional) — versión en español solo si el club es español.
 - Cadencia: mensaje 1 → esperar 10-14 días → mensaje 2 → si tampoco hay respuesta, pasar a la siguiente cuenta de la lista sin insistir más (no hay señal de interés real).
+
+## Upgrade: vídeo personalizado en vez de (o junto a) el mensaje 1
+
+Idea adoptada de una revisión externa (2026-07): un vídeo corto de 20-30 segundos, personalizado ("Hola [Name], he visto que [Club] participó en..."), sube mucho la tasa de respuesta frente a texto — Joel confirmó que puede grabarlos. Usar para los prospectos de mayor prioridad de la lista (no hace falta para los 140 y pico de la lista de EEUU, sí para los top 10-15 candidatos reales como Homefarm FC). Grabar antes de escribir el mensaje 1, y adjuntar/enlazar el vídeo en el mismo mensaje.
