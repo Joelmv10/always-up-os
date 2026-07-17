@@ -38,8 +38,16 @@ Según lo confirmado por Joel (ver [procesos-actuales.md](procesos-actuales.md))
 - [ ] EEUU: si se factura directamente a un cliente/familia americana, revisar aplicabilidad de normativa estatal de protección de datos de menores.
 - [ ] Cualquier país de origen del cliente: verificar si exige algo adicional para menores viajando al extranjero sin ambos progenitores (autorizaciones de viaje, ya gestionadas hoy por cada familia — confirmar que Always Up no asume ninguna responsabilidad aquí por error).
 
+## 7. Estatus migratorio de Joel en EEUU (F1) — riesgo nuevo, sin resolver
+
+**Hallazgo (2026-07, recuperado de una conversación histórica con ChatGPT):** Joel está en EEUU con **visado de estudiante F1**. Un F1 tiene restricciones legales reales para **gestionar activamente una empresa, cobrar salario, o llevar operaciones del día a día en EEUU** sin autorización adicional (OPT/CPT) — incluso siendo propietario/fundador.
+
+- [ ] Hoy esto se evita porque la entidad que factura es española (Quality Servix Premium SL) y Joel opera mayoritariamente desde fuera de EEUU o sin cobrar directamente allí — **confirmar que esto sigue siendo así en la práctica**, no darlo por hecho.
+- [ ] **Riesgo concreto a vigilar:** si en algún momento se factura directamente desde EEUU, se cobra un salario allí, o se firma algo como representante de la empresa en suelo americano de forma que pueda interpretarse como "trabajo no autorizado" — esto podría poner en riesgo el estatus migratorio de Joel, no solo un tema fiscal.
+- [ ] Dado que la prioridad estratégica es precisamente crecer en el mercado de EEUU, este punto necesita resolverse con un abogado de inmigración (no solo un abogado mercantil) antes de operar de forma más visible allí (facturar, contratar, abrir una entidad en EEUU).
+
 ## Prioridad de ejecución
 
-Los puntos de las secciones 1, 2 y 3 son los más urgentes — son los que más exposición generan y los que menos cuesta resolver (formularios de consentimiento + pedir copia de pólizas de seguro ya existentes). Las secciones 4-6 pueden esperar a la revisión con un abogado real, pero no deberían quedar pendientes indefinidamente si se cierra un club nuevo (Renegades FC, Deportivo de la Coruña).
+Los puntos de las secciones 1, 2 y 3 son los más urgentes — son los que más exposición generan y los que menos cuesta resolver (formularios de consentimiento + pedir copia de pólizas de seguro ya existentes). Las secciones 4-6 pueden esperar a la revisión con un abogado real, pero no deberían quedar pendientes indefinidamente si se cierra un club nuevo (Renegades FC, Deportivo de la Coruña). **La sección 7 (estatus F1) es distinta a las demás — no es "cuanto antes mejor", es "antes de operar de forma más visible en EEUU"**, dado que la prioridad estratégica es precisamente ese mercado.
 
 **Siguiente paso recomendado:** que Joel/el CEO agende una consulta puntual con un abogado (puede ser una sola sesión, no una relación continuada) para validar o corregir este checklist antes de escalar captación propia.
