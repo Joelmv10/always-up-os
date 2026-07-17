@@ -69,6 +69,10 @@ Instagram @Joel_alwaysup, empezado 26/04/2026, 1.000 seguidores en 2 meses (cont
 
 *Joel pidió explícitamente tratar esta línea en una sesión propia y dedicada — no mezclarla con la estrategia general.*
 
+**Contenido ya preparado, encontrado en una conversación histórica de ChatGPT (28/05/2025):** 10 ideas de vídeo con guiones ya escritos por Joel, incluyendo uno con datos de sueldos España vs. EEUU (fuentes INE/NACE) y uno sobre su propia historia. Sin volcar todavía a un banco de contenido — pendiente.
+
+**Riesgo de asignación de tiempo (señalado 2026-07):** todo el enfoque de la marca personal es crecimiento indirecto/sin vender directamente — esto no ataca el cuello de botella real de la empresa (captación de clubes tipo Renegades). Antes de invertir muchas horas aquí, decidir explícitamente qué % del tiempo semanal de Joel va a esto vs. captación directa.
+
 ## 6. Always Up Player Development
 
 **Estado:** idea nueva, solo notas, sin lanzar.
@@ -76,6 +80,10 @@ Instagram @Joel_alwaysup, empezado 26/04/2026, 1.000 seguidores en 2 meses (cont
 **Concepto:** "Elite Development Pathway" — programa individual de guía y desarrollo de jugadores (12-25 años), en 5 fases: (1) Player Profile & Performance Assessment ("Always Up Player DNA Report"), (2) Plan de Desarrollo Individual, (3) Football Development, (4) Complete Player Development (mentalidad/nutrición/estilo de vida), (5) Opportunity Pathway. Apunta a 4 dolores de jugador: falta de camino claro, incertidumbre sobre si entrena bien, falta de guía/mentor, falta de acceso a oportunidades reales.
 
 Joel tiene otro hilo de conversación con IA más avanzado desarrollando esto en detalle (pendiente de que Joel lo comparta para revisarlo).
+
+**Origen documentado de la idea (conversación de ChatGPT, 28/05/2025):** nace de un vídeo viral de un preparador físico; nota propia de Joel en ese momento: *"que vean que me necesitan para ser futbolistas profesionales ellos o sus hijos."*
+
+**Insight clave a aplicar cuando se desarrolle (conversación de ChatGPT, 31/05/2025, cita textual):** *"Los padres son el verdadero cliente, y no el jugador... muchos negocios juveniles fracasan porque venden al usuario y no al comprador."* — el mensaje de venta de este servicio debe hablarle al padre que paga, no solo al jugador que lo usa.
 
 **Decisión (2026-07-10):** Joel quiere desarrollar esta línea de forma gradual, sin ser prioridad — la ve como su mejor motor de captación futuro vía redes sociales. Se trata en conjunto con la sesión dedicada de Marca Personal (línea 5), no como un track de desarrollo aparte.
 
