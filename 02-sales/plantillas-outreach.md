@@ -21,6 +21,8 @@ club's track record of European trips"].
 One of our long-term partner clubs from Ireland recently won their first
 league title in the club's history, and credited part of that to the training
 environment and mentality they experienced during their time with us in Spain.
+And with Spain now World Cup Champions, there's never been a better time for
+international teams to train and compete on Spanish soil.
 
 If bringing your players closer to professional football is something you'd
 consider for [next season/summer], I'd love to share more — happy to send
@@ -52,6 +54,10 @@ Joel
 - **Priorizar salida vía referencia** cuando exista (ej. pedir a Greystones que presente/recomiende a otro club irlandés) antes que el contacto totalmente frío.
 - Idioma: inglés por defecto (mercado objetivo es internacional) — versión en español solo si el club es español.
 - Cadencia: mensaje 1 → esperar 10-14 días → mensaje 2 → si tampoco hay respuesta, pasar a la siguiente cuenta de la lista sin insistir más (no hay señal de interés real).
+
+## Gancho de actualidad: España campeona del mundo (agosto 2026)
+
+Confirmado por un prospecto real (Renegades FC) que esto genera interés genuino — "con España campeona del mundo, esperamos más interés en este tipo de viajes". Usarlo en el mensaje 1 y en cualquier contenido de redes de las próximas semanas mientras siga siendo noticia reciente — no es un gancho permanente, aprovecharlo ahora.
 
 ## Upgrade: vídeo personalizado en vez de (o junto a) el mensaje 1
 

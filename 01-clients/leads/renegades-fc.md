@@ -1,17 +1,18 @@
 # Renegades FC (Bahamas)
 
-**Tipo:** lead en negociación — Team Experience. **Prioridad alta.**
+**Tipo:** lead perdido (Team Experience). **Puerta abierta para futuro.**
 
-## Situación
-- Quieren traer casi el club entero (~100 personas) para verano 2027.
-- Llegó vía partner (no es prospección propia).
-- En conversaciones activas con Joel.
-- **Riesgo:** el precio pasado les pareció caro; están comparando con otras empresas de la competencia.
+## Cierre (agosto 2026)
 
-## Abierto / siguiente acción
-- [ ] Confirmar qué precio se pasó y contra qué está comparando el club (¿otra agencia de experiencias de fútbol en España? ¿otro país?).
-- [ ] Decidir si se refuerza la comunicación de valor (acceso a instalaciones profesionales, metodología, exclusividad) antes de bajar precio.
-- [ ] Seguimiento activo — es el prospecto de mayor prioridad ("cerrarlo sí o sí").
+Kimiko confirmó que el club decide no seguir adelante — presupuesto total de la familia (programa + vuelos) no encaja, no un problema de precio de mercado. Joel respondió bien: agradeció la transparencia, **mantuvo el precio sin ceder** (explicó que la calidad de clubes de Primera no es negociable a ese nivel), y dejó la puerta abierta para el futuro. Kimiko mencionó que con España campeón del mundo esperan más interés de clubes en este tipo de viajes — dato a aprovechar en outreach general, no solo con ellos.
+
+**Siguiente contacto sugerido:** sin fecha fija — "cuando el timing encaje para el club" (palabras de Kimiko). Revisar en unos meses o si surge una señal (ej. nueva campaña de captación de fondos del club).
+
+**Lección para el resto del pipeline:** un solo prospecto grande no es un plan — hace falta volumen de candidatos de escala similar, no depender de que cierre uno solo. Ver [modelo-financiero.md](../../05-finance/modelo-financiero.md), recalculado tras esta pérdida.
+
+---
+
+## Histórico de la negociación (referencia)
 
 ## Propuesta real enviada (PDF "Experience 2027 Spain", revisado 2026-07-10)
 

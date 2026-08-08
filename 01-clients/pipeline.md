@@ -7,7 +7,7 @@
 | Nombre | País | Estado | Detalle | Última actualización |
 |---|---|---|---|---|
 | [Club irlandés (Greystones)](clients/greystones.md) | Irlanda | **Cliente activo/recurrente** | 5 Team Experience + 1 Coach Experience hasta 2025. Objetivo 2027: 2 equipos + 1 experiencia con entrenadores | 2026-07-10 |
-| [Renegades FC](leads/renegades-fc.md) | Bahamas | **En negociación — riesgo** | Quieren traer ~100 personas verano 2027. Precio pasado les pareció caro, comparando con otras empresas. Prioridad alta ("cerrarlo sí o sí") | 2026-07-10 |
+| [Renegades FC](leads/renegades-fc.md) | Bahamas | **Perdido (agosto 2026)** — puerta abierta a futuro | Presupuesto total (programa + vuelos) no encajaba, no problema de precio de mercado. Joel mantuvo el precio, no cedió. Kimiko: con España campeona del mundo, esperan más interés futuro | 2026-08 |
 | Deportivo de la Coruña | España (anfitrión, no viajero) | En negociación | Posible nuevo club anfitrión (como Atlético/Real Sociedad/Sporting) — dar seguimiento activo | 2026-07 (CLAUDE.md) |
 | Brasil (contacto propio) | Brasil | Nota / sin evaluar | Contacto personal de Joel, sin explorar todavía | 2026-07-10 |
 

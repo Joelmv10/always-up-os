@@ -81,18 +81,22 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 
 ## 4. Prioridad actual (actualizar cada semana)
 
-**Objetivo #1 vivo ahora mismo:** conseguir el primer acuerdo/cliente propio (no vía partner) para Team Experience, con foco en cerrar los prospectos ya identificados (Renegades FC, Greystones — ver `00-company/lineas-de-negocio.md`).
+**Objetivos vigentes (retomado agosto 2026, tras vacaciones):**
+- $200.000 facturados en Always Up en 2027 — **en riesgo real**, Renegades FC (el trato que "garantizaba" el objetivo) se perdió en agosto 2026. Ver `05-finance/modelo-financiero.md`.
+- Instagram: 10.000 seguidores antes de fin de 2026, 20.000 a finales de 2027.
+- **Primera venta real de Always Up en 1 mes** (desde agosto 2026) — objetivo con fecha, condiciona el trabajo de las próximas semanas. Ver plan de 30 días en `03-operations/roadmap-maestro.md`.
+- Contexto personal de Joel: nueva etapa en NY (nueva universidad, búsqueda de trabajo) — de fondo, no gestionado como tarea de Always Up salvo petición explícita. Recordatorio permanente: estatus F1 limita qué trabajo puede aceptar en EEUU.
 
 **Contexto:** a fecha 2026-07 hay 7 líneas de negocio identificadas (detalle en `00-company/lineas-de-negocio.md`). Se ha acordado enfocar tiempo operativo real en **2**: Team & Coach Experience (captación propia) y Becas deportivas (mejorar cierre del inbound que ya llega vía Instagram). Las otras 5 se documentan a nivel "one-pager" vendible, sin construir operativa todavía. Joel dispone de 10-20h/semana (sigue siendo estudiante a tiempo completo en EEUU); decisiones de estrategia/precio/tiempo las toma él solo, su padre solo interviene en gastos grandes, legal y firmas de club.
 
-**Roadmap y backlog completo:** ver `03-operations/roadmap-maestro.md` (viva, actualizar ahí el estado de cada tarea — esta lista de aquí es solo el resumen de las 3 tareas activas ahora mismo).
+**Roadmap y backlog completo:** ver `03-operations/roadmap-maestro.md` (viva, actualizar ahí el estado de cada tarea — esta lista de aquí es solo el resumen de las tareas activas ahora mismo).
 
-**En curso ahora mismo (2026-07-10):**
-- [x] Setup inicial del repo (git + estructura de carpetas) — 2026-07
-- [x] CRM ligero en el propio repo (`01-clients/pipeline.md`) — versión MVP sin herramientas externas
-- [ ] Ampliar lista de clubes objetivo para Team Experience más allá de Renegades FC/Greystones/Brasil
-- [ ] Resolver riesgo de precio con Renegades FC (comparando con competencia)
-- [ ] Checklist legal menores/GDPR/seguros
+**En curso ahora mismo (agosto 2026):**
+- [x] Setup inicial del repo + CRM ligero + embudo de ventas completo (`02-sales/manual-embudo-ventas.md`)
+- [x] Renegades FC — cerrado (perdido), gestionado correctamente, puerta abierta a futuro
+- [ ] Enviar el primer outreach real (Homefarm FC primero) — máxima prioridad ahora mismo
+- [ ] Ampliar la lista de clubes objetivo a más volumen (3-4 candidatos serios, no 1-2)
+- [ ] Checklist legal menores/GDPR/seguros — falta revisión de abogado
 - [ ] Sesión dedicada aparte: estrategia de marca personal (Instagram @Joel_alwaysup) + Player Development
 
 **Cómo trabajar esto en varias sesiones:** dividir el trabajo en chats/sesiones específicas por área (captación Team Experience, cierre de becas, marca personal, etc.) en vez de un único chat — el contexto no se pierde entre sesiones porque vive en este repo y en la memoria de Claude, no en el historial del chat.

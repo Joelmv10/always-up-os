@@ -4,6 +4,17 @@
 
 **Principio rector (del plan original, sigue vigente):** con 2 personas y objetivo de facturar x10 en 3 años, Claude Code tiene que multiplicar la capacidad de 2 personas, no añadirles trabajo. Cada tarea de este backlog se juzga por eso.
 
+## Objetivos vigentes (retomado tras vacaciones, agosto 2026)
+
+- **$200.000 facturados en Always Up en 2027** — en riesgo real tras perder Renegades FC, ver [modelo-financiero.md](../05-finance/modelo-financiero.md). Necesita más volumen de prospectos, no un solo cliente grande.
+- **Instagram: 10.000 seguidores antes de fin de 2026** (hito intermedio), **20.000 a finales de 2027** (meta final, sin cambios).
+- **Primera venta real de Always Up en 1 mes** — objetivo con fecha, es el que más debe condicionar el trabajo de las próximas semanas. Ver plan más abajo.
+- Contexto personal de Joel (nueva vida en NY, nueva universidad, búsqueda de trabajo) — de fondo, no se gestiona como tarea de Always Up salvo que Joel pida ayuda activa en algo concreto. Recordatorio: el estatus F1 sigue limitando qué tipo de trabajo puede aceptar en EEUU (ver `03-operations/checklist-legal-menores.md` sección 7).
+
+## Plan de 30 días — primera venta real
+
+Semana 1: contactar activamente a los candidatos ya identificados en [pipeline.md](../01-clients/pipeline.md) (Homefarm FC primero) + reanudar contenido de Instagram para generar inbound. Semana 2-3: llevar a llamada cualquier señal real (usar [manual-embudo-ventas.md](../02-sales/manual-embudo-ventas.md)), seguir ampliando la lista en paralelo. Semana 4: cerrar lo que esté más avanzado — no hace falta que sea un cliente grande, el objetivo es validar que el embudo cierra al menos una venta real. Revisar cada domingo con el ritual de métricas ya establecido en [pipeline.md](../01-clients/pipeline.md).
+
 ## Cambios de foco desde el plan original
 
 - **Web/presentaciones nuevas (Fase 1 del plan original): aparcado.** Joel decidió explícitamente no priorizar esto ahora — seguir avanzando en captación antes de perfeccionar web/presentaciones.
@@ -31,10 +42,10 @@
 | — | **Decisión "Always Up Sales System" (revisión externa, 2026-07):** no se crea repo/estructura paralela — se adopta lo barato (nombres de llamada, propuesta escrita, referidos, revisión semanal, vídeos personalizados) directamente en este repo. Se aplaza email marketing, lead scoring y automatización (ManyChat/HubSpot/n8n) hasta validar el proceso manual. No se construye rama de embudo para Player Development (sin programa/precio definido) | Evitar sobre-ingeniería antes de validar con clientes reales |
 | 2 | Modelo financiero vivo (proyección hacia +$200k 2027) | ✅ Hecho (`05-finance/modelo-financiero.md`) — **hallazgo clave: Renegades FC decide por sí solo si se llega a $200k**; sin él, el objetivo no se alcanza con lo que hay en marcha hoy | Sin esto no sabíamos cuántos cierres reales necesita cada línea |
 | 3 | SOP Team Experience / Coach Experience | ✅ Hecho (`03-operations/sop-team-coach-experience.md`), incluye petición explícita de referidos | Necesario antes de delegar/contratar |
-| 4 | Ejecutar outreach con la lista de clubes ya lista (Homefarm FC primero, con vídeo personalizado) | 🟢 Acción de Joel — plantilla, lista y ahora también la idea del vídeo de 20-30s ya listas | Necesario aunque cierre Renegades — el modelo muestra que sin 1-2 clientes nuevos más, tampoco se llega a $200k |
-| 5 | Seguir ampliando/filtrando la lista de clubes objetivo, **con EEUU como prioridad geográfica** | 🟡 En progreso | Decisión 2026-07-16: no se eleva la línea 7 (consultoría EEUU) como track aparte, pero sí se prioriza geografía EEUU dentro de esta tarea |
-| 6 | **International Program — cerrar % de comisión exacto con la Real Sociedad** | 🔴 Elevado de prioridad (2026-07-16) — el modelo financiero muestra que una sola colocación de temporada completa (45.000€) podría valer, en comisión, más que toda la meta de becas 2027 junta | Tarea más barata (una conversación) con más impacto potencial de todo el backlog |
-| 7 | Resolver Renegades FC | 🔴 Máxima prioridad — decide el objetivo de 2027 | Seguimiento enviado, esperando respuesta |
+| 4 | **Ejecutar outreach real, empezando hoy** (Homefarm FC primero, con vídeo personalizado y el gancho de España campeona del mundo) | 🔴 **Máxima prioridad ahora** — acción de Joel | Con Renegades perdido, ya no hay margen para seguir posponiendo el primer contacto real |
+| 5 | **Ampliar la lista de clubes objetivo a más volumen** (no solo 1-2 candidatos), con EEUU como prioridad geográfica | 🔴 Elevado (agosto 2026) — el hueco financiero dejado por Renegades requiere 3-4 clientes nuevos, no 1-2 | Sin más volumen en el embudo, el objetivo de $200k no es alcanzable con la tasa de conversión esperable |
+| 6 | International Program — cerrar % de comisión con la Real Sociedad | 🟢 Bajado de prioridad — decisión de Joel: no mueve el cuello de botella actual (conversaciones/llamadas). Queda como palanca de reserva si el hueco financiero sigue abierto en unos meses | Ver [modelo-financiero.md](../05-finance/modelo-financiero.md) |
+| 7 | ~~Resolver Renegades FC~~ | ✅ **Cerrado — perdido** (agosto 2026). Puerta abierta a futuro sin fecha fija. Ver [renegades-fc.md](../01-clients/leads/renegades-fc.md) | Joel gestionó bien el cierre, no cedió en precio |
 | 8 | Perfil de LinkedIn (revisar/mejorar) | ⏸️ **Bloqueado hasta que Joel instale Claude in Chrome** — Joel ya tiene el perfil creado, pendiente de revisión conjunta. Campaña de conexión masiva sigue después del embudo validado | Joel decidió esperar a tener la extensión para trabajar sobre su sesión real |
 | 9 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho (incluye ahora el riesgo del visado F1 de Joel), falta abogado | Exposición activa, no depende de nada más |
 | 10 | WhatsApp Business | ⏸️ **Pausado hasta el 05/08/2026** — Joel usará el número +1 814 329 1929 (necesita estar en EEUU para recibir el SMS de verificación). Textos de bienvenida y respuestas rápidas ya listos en `02-sales/embudo-ventas.md`. Email corporativo (@alwaysup.es) ya funciona, no requiere trabajo | Bloqueado por logística de Joel, no por trabajo pendiente |
@@ -47,14 +58,14 @@
 | 17 | Always Up Player Development (línea 6) | ⏸️ Ritmo propio, ligado a Marca Personal | Sesión dedicada aparte — pendiente que Joel pase la conversación real |
 | 18 | Marca personal / RRSS — plan y objetivos día a día | ⏸️ Sesión dedicada aparte (ya acordado antes) | No mezclar con estrategia general |
 
-## Giro de esta semana: de construir a vender (2026-07)
+## Giro de construir a vender — sigue vigente, ahora con más urgencia (retomado agosto 2026)
 
-Después de varias sesiones construyendo (marca, web, presentaciones, CRM, embudo), la pregunta que filtra cada hora a partir de ahora es: **¿esto aumenta la probabilidad de cerrar un cliente este verano?** Si no, espera. El embudo y los materiales ya son suficientes para vender — no se sigue "completando" documentación de venta salvo que un cliente real revele un hueco concreto.
+Después de varias sesiones construyendo (marca, web, presentaciones, CRM, embudo), la pregunta que filtra cada hora sigue siendo: **¿esto aumenta la probabilidad de cerrar un cliente?** El embudo y los materiales ya son suficientes para vender — no se sigue "completando" documentación de venta salvo que un cliente real revele un hueco concreto. Con Renegades perdido, esto ya no es una preferencia, es la única vía real hacia el objetivo de 2027.
 
-**Las 3 cosas reales de esta semana, en orden:**
-1. **Enviar el primer outreach real** — Homefarm FC y los siguientes candidatos de la lista, con lo que ya existe (plantillas + fichas). Acción de Joel, hoy.
-2. **Reunir el material de autoridad que ya existe** (las fotos/pocos vídeos que Joel tiene) — tarea rápida, no bloquea el punto 1.
-3. **Seguir ampliando la lista de clubes objetivo** en paralelo — no como proyecto separado de "300 contactos", sino como continuación de la misma lista de Team Experience ya en marcha (es donde está el dinero, según el modelo financiero).
+**Las 3 cosas reales ahora, en orden:**
+1. **Enviar el primer outreach real hoy** — Homefarm FC y los siguientes candidatos, con el gancho de España campeona del mundo. Acción de Joel.
+2. **Ampliar la lista de clubes objetivo a más volumen** (3-4 candidatos serios, no 1-2) — el hueco financiero de Renegades lo exige.
+3. **Reunir el material de autoridad que ya existe** (fotos/pocos vídeos) — tarea rápida, no bloquea el punto 1.
 
 **Explícitamente no es prioridad esta semana:** LinkedIn (bloqueado hasta Claude in Chrome), comisión del International Program (no mueve el cuello de botella actual, según Joel), ampliar más la documentación del embudo salvo que un cliente real lo exija.
 
