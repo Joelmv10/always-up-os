@@ -27,6 +27,9 @@
 | 2026-08 | Bauti / bautimoransalzano (IG) | Becas | Cualificado — esperando respuesta | — | Preguntó directamente por el sistema de becas |
 | 2026-08 | paixvi.b (IG) | Becas | Cualificado — esperando respuesta | — | Señal baja (mensaje de 1 palabra "Beca") |
 | 2026-08 | tartadefre (IG) | Sin definir todavía | Cualificado — esperando respuesta | — | Mensaje vago, respuesta ligera sin empujar a llamada |
+| 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — pero pide Inglaterra, no EEUU | Nuevo — aclarar encaje | — | Hijo de 13, fan Manchester City. Nuestro programa es EEUU, no Inglaterra — respuesta honesta sobre el desajuste |
+| 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | Cualificado — esperando respuesta | — | México, hijos entran a universidad en 1 año — lead fuerte, buen timing |
+| 2026-08 (contacto original 16/07) | Angelica Suarez Rivera / angelicamiami (IG) | Becas | Cualificado — esperando respuesta | — | Miami, hijo de 10 años, fase muy temprana de información |
 
 **Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
 
