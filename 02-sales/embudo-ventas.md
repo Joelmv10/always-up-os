@@ -12,6 +12,25 @@ Joel compartió una revisión externa (vía ChatGPT actuando de CRO) que propon�
 - **Aplazado hasta validar el proceso manual con clientes reales:** email marketing/nurturing automático, sistema de puntuación de leads, automatización con ManyChat/HubSpot/n8n.
 - **No se construye todavía:** rama de embudo para Player Development (servicio sin programa/precio definido aún).
 
+## Recuperación de backlog (mensajes/comentarios sin contestar tras una ausencia)
+
+> Situación real de agosto 2026: Joel volvió de vacaciones con ~3 semanas de DMs y comentarios sin contestar. Esta gente ya mostró interés real — probablemente más rápido de convertir que el outreach en frío, así que se trabaja primero.
+
+**Proceso:**
+1. Bloque de tiempo dedicado (1-2h seguidas), no a ratos sueltos.
+2. Comentarios primero (responder "te escribo por privado"), luego DMs de más reciente a más antiguo — pero contestar a **todos**, incluso los de hace semanas.
+3. Usar el mensaje de recuperación (no cualificación normal, reconoce el hueco de tiempo sin sobre-disculparse):
+
+```
+¡Hola! Perdona la tardanza en contestar — he estado unos días fuera.
+¿Sigues interesado/a? Si es así, cuéntame rápido:
+[preguntas de cualificación del servicio correspondiente — ver Paso 2 abajo,
+o sección 2 de "Las 5 etapas" según el servicio]
+```
+
+4. Configurar "Respuestas guardadas" en Instagram (cuenta Profesional/Creador → Ajustes → Mensajes → Respuestas guardadas) con este mensaje + las preguntas por servicio, para no escribir cada uno desde cero.
+5. Registrar cada respuesta en [pipeline.md](../01-clients/pipeline.md) según van contestando.
+
 ## Caso práctico: comentario en vídeo de becas (el más repetido hoy)
 
 **Diagnóstico de lo que Joel ya hacía:** responder al comentario público con "te escribo por privado" está bien (rápido, personal) — no cambiar. El problema estaba en el DM: *"Cuéntame tu situación"* es una **pregunta abierta**, y las preguntas abiertas bajan la tasa de respuesta porque obligan al lead a pensar qué escribir. Sustituir por preguntas concretas de respuesta rápida.
