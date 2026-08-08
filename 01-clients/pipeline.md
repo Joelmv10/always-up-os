@@ -30,6 +30,7 @@
 | 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — pero pide Inglaterra, no EEUU | Nuevo — aclarar encaje | — | Hijo de 13, fan Manchester City. Nuestro programa es EEUU, no Inglaterra — respuesta honesta sobre el desajuste |
 | 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | Cualificado — esperando respuesta | — | México, hijos entran a universidad en 1 año — lead fuerte, buen timing |
 | 2026-08 (contacto original 16/07) | Angelica Suarez Rivera / angelicamiami (IG) | Becas | Cualificado — esperando respuesta | — | Miami, hijo de 10 años, fase muy temprana de información |
+| 2026-08 (contacto original 30/06-03/07) | Ana Aida Uribe / aauribe (IG) | Becas | Enfriado — necesita reactivación | — | Hijo entra a último año en agosto, se gradúa mayo 2027. Conversación avanzada pero se quedó fría tras un enlace genérico a la web sin CTA claro. Encontrada revisando comentarios de posts, no en DMs |
 
 **Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
 
