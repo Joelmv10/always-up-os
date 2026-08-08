@@ -23,7 +23,10 @@
 
 | Fecha | Nombre/contacto | Servicio | Etapa | Motivo si se pierde | Notas |
 |---|---|---|---|---|---|
-| *(sin leads registrados todavía — empezar a rellenar en cuanto se aplique el nuevo mensaje de cualificación)* | | | | | |
+| 2026-08 | Francisco Ferreira (IG, 20 años, portugués) | Becas | Cualificado — esperando respuesta | — | Mejor lead del backlog, mensaje detallado pidiendo la experiencia personal de Joel |
+| 2026-08 | Bauti / bautimoransalzano (IG) | Becas | Cualificado — esperando respuesta | — | Preguntó directamente por el sistema de becas |
+| 2026-08 | paixvi.b (IG) | Becas | Cualificado — esperando respuesta | — | Señal baja (mensaje de 1 palabra "Beca") |
+| 2026-08 | tartadefre (IG) | Sin definir todavía | Cualificado — esperando respuesta | — | Mensaje vago, respuesta ligera sin empujar a llamada |
 
 **Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
 
