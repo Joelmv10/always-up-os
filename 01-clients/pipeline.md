@@ -31,6 +31,11 @@
 | 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | Cualificado — esperando respuesta | — | México, hijos entran a universidad en 1 año — lead fuerte, buen timing |
 | 2026-08 (contacto original 16/07) | Angelica Suarez Rivera / angelicamiami (IG) | Becas | Cualificado — esperando respuesta | — | Miami, hijo de 10 años, fase muy temprana de información |
 | 2026-08 (contacto original 30/06-03/07) | Ana Aida Uribe / aauribe (IG) | Becas | Enfriado — necesita reactivación | — | Hijo entra a último año en agosto, se gradúa mayo 2027. Conversación avanzada pero se quedó fría tras un enlace genérico a la web sin CTA claro. Encontrada revisando comentarios de posts, no en DMs |
+| 2026-08 (contacto original 14/07) | Jeinz Alzate / jeinzalzate (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 14 años, Florida, terminó temporada en academia, busca oportunidades |
+| 2026-08 (contacto original 14/07) | Anita / ani_0487 (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 16 años, delantero, estudiando — pregunta directa sobre cómo inscribirse |
+| 2026-08 (contacto original 08-15/07) | Gonzalo Caro - Fullmerkado Express / gonzalocarocontreras (IG) | Becas | **Videollamada acordada — solo falta proponer fecha** | — | Lead muy caliente, ya aceptó videollamada, esperando que Joel proponga día/hora |
+| 2026-08 (contacto original 16/07) | Tania Coeto / tania_coeto (IG) | Becas | **Videollamada en proceso de agendar — solo falta confirmar día** | — | Intentaba cerrar día para videollamada ("hoy o mañana"), se quedó sin respuesta |
+| 2026-08 | Edwin Serrato (IG) | Sin identificar | Pendiente | — | Joel lo mencionó como conversación pendiente pero no se pudo localizar la cuenta exacta — pedir confirmación del usuario |
 
 **Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
 
