@@ -24,10 +24,10 @@
 | Fecha | Nombre/contacto | Servicio | Etapa | Motivo si se pierde | Notas |
 |---|---|---|---|---|---|
 | 2026-08 | Francisco Ferreira (IG, 20 años, portugués) | Becas | Cualificado — esperando respuesta | — | Mejor lead del backlog, mensaje detallado pidiendo la experiencia personal de Joel |
-| 2026-08 | Bauti / bautimoransalzano (IG) | Becas | Cualificado — esperando respuesta | — | Preguntó directamente por el sistema de becas |
+| 2026-08 | Bauti / bautimoransalzano (IG) | Becas | **Todavía en "Solicitudes" sin aceptar — respuesta no enviada realmente** | — | Preguntó directamente por el sistema de becas ("como es lo del sistema de becas?"). Corregido 2026-08: el envío anterior no se había completado, sigue pendiente de verdad |
 | 2026-08 | paixvi.b (IG) | Becas | Cualificado — esperando respuesta | — | Señal baja (mensaje de 1 palabra "Beca") |
 | 2026-08 | tartadefre (IG) | Sin definir todavía | Cualificado — esperando respuesta | — | Mensaje vago, respuesta ligera sin empujar a llamada |
-| 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — pero pide Inglaterra, no EEUU | Nuevo — aclarar encaje | — | Hijo de 13, fan Manchester City. Nuestro programa es EEUU, no Inglaterra — respuesta honesta sobre el desajuste |
+| 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — originalmente pedía Inglaterra | **Re-enganchada — dijo "sí" a explorar la vía de EEUU** | — | Hijo de 13, fan Manchester City. Joel explicó honestamente que el programa es EEUU no Inglaterra, y ella respondió que sí le interesa igual — pendiente enviar explicación del proceso EEUU |
 | 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | Cualificado — esperando respuesta | — | México, hijos entran a universidad en 1 año — lead fuerte, buen timing |
 | 2026-08 (contacto original 16/07) | Angelica Suarez Rivera / angelicamiami (IG) | Becas | Cualificado — esperando respuesta | — | Miami, hijo de 10 años, fase muy temprana de información |
 | 2026-08 (contacto original 30/06-03/07) | Ana Aida Uribe / aauribe (IG) | Becas | Enfriado — necesita reactivación | — | Hijo entra a último año en agosto, se gradúa mayo 2027. Conversación avanzada pero se quedó fría tras un enlace genérico a la web sin CTA claro. Encontrada revisando comentarios de posts, no en DMs |
