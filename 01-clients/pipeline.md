@@ -23,9 +23,10 @@
 
 | Fecha | Nombre/contacto | Servicio | Etapa | Motivo si se pierde | Notas |
 |---|---|---|---|---|---|
-| 2026-08 | Francisco Ferreira (IG, 20 años, portugués) | Becas | Cualificado — esperando respuesta | — | Mejor lead del backlog, mensaje detallado pidiendo la experiencia personal de Joel |
+| 2026-08 | Francisco Ferreira / francisco_7ferreira (IG, 20 años, portugués, lateral derecho, 2ª división distrital) | Becas | **Respondió con su duda real — necesita respuesta reflexiva, no plantilla** | — | Dilema genuino: ir a EEUU en 2027 vs. quedarse en Portugal a estudiar sin ser profesional. Joel ya le dio una buena respuesta el 8/8 compartiendo su experiencia — él contestó con más detalle, toca responder de verdad a su pregunta |
 | 2026-08 | Bauti / bautimoransalzano (IG) | Becas | **Todavía en "Solicitudes" sin aceptar — respuesta no enviada realmente** | — | Preguntó directamente por el sistema de becas ("como es lo del sistema de becas?"). Corregido 2026-08: el envío anterior no se había completado, sigue pendiente de verdad |
-| 2026-08 | paixvi.b (IG) | Becas | Cualificado — esperando respuesta | — | Señal baja (mensaje de 1 palabra "Beca") |
+| 2026-08 | paixvi.b (IG) | Becas | **Cualificado con detalle — 17 años, extremo/lateral, ya vive en EEUU** | — | Corregido 2026-08: no es solo "Beca" de 1 palabra — tras las preguntas de Joel, respondió con perfil completo. Lead fuerte, ya está en EEUU |
+| 2026-08 | Paul Oliu / pmoliu (IG) | No es lead — invitación a podcast/canal D3 soccer | **Fecha por confirmar** | — | Quiere a Joel de invitado hablando de cómo se estructura el fútbol EEUU vs España. Joel ya aceptó, falta proponer fecha concreta — buena oportunidad de marca personal |
 | 2026-08 | tartadefre (IG) | Sin definir todavía | Cualificado — esperando respuesta | — | Mensaje vago, respuesta ligera sin empujar a llamada |
 | 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — originalmente pedía Inglaterra | **Re-enganchada — dijo "sí" a explorar la vía de EEUU** | — | Hijo de 13, fan Manchester City. Joel explicó honestamente que el programa es EEUU no Inglaterra, y ella respondió que sí le interesa igual — pendiente enviar explicación del proceso EEUU |
 | 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | Cualificado — esperando respuesta | — | México, hijos entran a universidad en 1 año — lead fuerte, buen timing |
