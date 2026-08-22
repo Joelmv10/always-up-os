@@ -65,9 +65,10 @@ El padre de Joel (Enrique Martínez Viñas) viajó a un Showcase en Puerto Rico 
 
 **Visión declarada del padre:** replicar experiencias similares en más países (República Dominicana, Bolivia, Costa Rica, EEUU) para tener captación de talento y contratación de experiencias internacionales todo el año.
 
-**Preguntas abiertas, pendientes de resolver con Joel:**
-- ¿Esta relación (SADE + Real Sociedad) pasa por Always Up/Quality Servix, o la está gestionando el padre al margen de la marca? El email no menciona Always Up ni Quality Servix en ningún momento.
-- Idea propia de Joel: explorar si él podría replicar este modelo de showcase en otros países via su propia red (Colombia, Suecia mencionados) — tratado como línea de exploración estratégica aparte, no como tarea operativa inmediata.
+**Confirmado por Joel (2026-08):**
+- **Sí pasa por Always Up** — todo lo que se cierre de este desarrollo se factura a través de Always Up/Quality Servix, no es una gestión personal del padre al margen de la marca.
+- **El showcase de Puerto Rico salió gracias a David** (CEO de University Soccer, amigo de la familia y ya partner de la línea de becas) — David tiene alcance más allá de las becas universitarias en EEUU; también conecta con SADE Soccer Academy en Puerto Rico. Confirma que la relación con David es más amplia de lo documentado hasta ahora — vigilar si aparecen más conexiones suyas relevantes para otras líneas.
+- Idea propia de Joel: explorar si él podría replicar este modelo de showcase en otros países vía su propia red (Colombia, Suecia mencionados) — tratado como línea de exploración estratégica aparte, no como tarea operativa inmediata.
 - Sin detalles de la reunión posterior con la RS (Joel no estuvo presente) más allá de que "salió bien" y se comentó el contenido de este email.
 
 ## 4. Oportunidades profesionales Alemania/España
