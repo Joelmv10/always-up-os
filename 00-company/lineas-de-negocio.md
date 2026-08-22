@@ -49,6 +49,27 @@ Incluye: 12h/semana de entrenamiento, análisis de vídeo individual semanal, da
 
 **Acción pendiente:** confirmar los términos comerciales exactos de la comisión de Always Up sobre estas cifras (si están en un contrato aparte con la Real Sociedad).
 
+## Desarrollo mayor (agosto 2026): Showcase en Puerto Rico con SADE Soccer Academy
+
+El padre de Joel (Enrique Martínez Viñas) viajó a un Showcase en Puerto Rico organizado junto a **SADE Soccer Academy** ([sadesocceracademy.com](https://www.sadesocceracademy.com/)) — academia con modelo de negocio casi idéntico al de Always Up (Player Test, International Program, Residential Program, University Program), ya partner de otro club de Primera (Levante UD).
+
+**Escala del evento:** 140 jugadores asistieron (24 chicas + 116 chicos, nacidos 2008-2012), con más de 50 rechazados por falta de espacio/tiempo — volumen muy superior a todo el pipeline de Instagram trabajado hasta ahora.
+
+**Tras el showcase, SADE propuso 6 líneas de negocio a la Real Sociedad** (email de Enrique a Ane, contacto de la RS, agosto 2026):
+1. Tecnificación en Zubieta, semana del 22-28 nov, 20-50 niños, ~700€/niño (a confirmar con posible descuento por volumen) + paquete de entradas RS-Sevilla ese fin de semana.
+2. Participación de al menos 1 equipo juvenil en la Donosti Cup 2027 (+ explorar Semana Santa con otro equipo).
+3. Repetir el Show-Case pero en exclusiva para la RS (con entrenadores propios del club), extendiéndolo a República Dominicana y explorando Miami/costa este de EEUU — 4-5 días por destino, mínimo 1 entrenador/preparador físico + 1 entrenador de porteros, todo pagado.
+4. Estructura de costes para la **Academia Internacional** (mayores de edad en temporada 2027/28) — conecta directamente con este programa (línea 3).
+5. Experiencia individual de 1 semana en Zubieta — muy demandada por familias de jugadores 2010/2011 (aún no aptos para la Academia Internacional). Posible versión de 1 mes, pero limitada a verano.
+6. Grupos de tecnificación de ~4 meses con entrenadores de la RS — señalado por la propia RS como el formato con más recorrido futuro (genera relación continuada con jugadores/familias).
+
+**Visión declarada del padre:** replicar experiencias similares en más países (República Dominicana, Bolivia, Costa Rica, EEUU) para tener captación de talento y contratación de experiencias internacionales todo el año.
+
+**Preguntas abiertas, pendientes de resolver con Joel:**
+- ¿Esta relación (SADE + Real Sociedad) pasa por Always Up/Quality Servix, o la está gestionando el padre al margen de la marca? El email no menciona Always Up ni Quality Servix en ningún momento.
+- Idea propia de Joel: explorar si él podría replicar este modelo de showcase en otros países via su propia red (Colombia, Suecia mencionados) — tratado como línea de exploración estratégica aparte, no como tarea operativa inmediata.
+- Sin detalles de la reunión posterior con la RS (Joel no estuvo presente) más allá de que "salió bien" y se comentó el contenido de este email.
+
 ## 4. Oportunidades profesionales Alemania/España
 
 **Estado:** muy temprano, en desarrollo con David, sin ningún cliente real todavía. **Explícitamente no prioritario para desarrollar** — el único objetivo ahora mismo es encontrar un primer cliente interesado (Joel ya ha recibido preguntas por redes sociales sin cerrar nada); no se construye nada más hasta que haya un cliente real pagando.
