@@ -36,6 +36,9 @@
 | 2026-08 (contacto original 14/07) | Anita / ani_0487 (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 16 años, delantero, estudiando — pregunta directa sobre cómo inscribirse |
 | 2026-08 (contacto original 08-15/07) | Gonzalo Caro - Fullmerkado Express / gonzalocarocontreras (IG) | Becas | **Propuso fecha concreta: jueves 8am — confirmar** | — | Lead muy caliente, videollamada casi cerrada, solo falta que Joel confirme esa hora |
 | 2026-08 (contacto original 16/07) | Tania Coeto / tania_coeto (IG) | Becas | **Videollamada en proceso de agendar — solo falta confirmar día** | — | Intentaba cerrar día para videollamada ("hoy o mañana"), se quedó sin respuesta |
+| 2026-08 | Margarita Vanegas / margaritavanegasoficial (IG) | Becas — **baloncesto, no fútbol** | **Cualificada — pedir vídeo y notas** | — | Jugador armador zurdo, Colombia, busca colegio/universidad. Corregido 2026-08: Always Up sí trabaja otros deportes además de fútbol, no solo el foco personal de Joel |
+| 2026-08 | Edwin Serrato / edwinserrato84 (IG) | Becas | **Mandó vídeo — pedir también situación académica** | — | Hijo de 13, interior/volante medio, Colombia. Ya envió vídeo reciente |
+| 2026-08 | Juan Roberto / juan_roberto_16 (IG) | Becas | Respuesta breve sin detalle ("Hola beca gracias") | — | Nota técnica: el primer envío mostró aviso de "cuenta no acepta solicitudes de cualquier persona" — verificar que le llegó bien |
 | 2026-08 (contacto original 15/07) | Edwin Serrato / edwinserrato84 (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 13 años, quiere enfocarlo hacia beca deportiva |
 | 2026-08 | Juan Roberto (IG) | Becas | **Sin revisar — "Hola beca gracias"** | — | Mensaje nuevo detectado, pendiente de abrir y cualificar |
 | 2026-08 | Edwin Serrato (IG) | Sin identificar | Pendiente | — | Joel lo mencionó como conversación pendiente pero no se pudo localizar la cuenta exacta — pedir confirmación del usuario |
