@@ -99,20 +99,20 @@ Preguntas a incluir en el Calendly (ajustar según servicio): edad del jugador, 
 
 **Cuándo sí tiene sentido un formulario aparte, sin Calendly integrado:** solo cuando el volumen crezca tanto que Joel no pueda cualificar por DM uno a uno — un formulario filtra antes de invertir tiempo. Con el volumen de hoy, ir directo por DM + Calendly con preguntas cierra más rápido que añadir un paso extra.
 
-**Confirmado 2026-07: Joel ya tiene la cuenta de Calendly creada.** Pasos para añadir las preguntas de cualificación:
-1. En Calendly, ir al Event Type que uses para estas llamadas (o crear uno nuevo, ej. "Experience Planning Call — 20 min").
-2. Editar el evento → sección **"Invitee Questions"**.
-3. Añadir como preguntas obligatorias: edad del jugador, posición/nivel, país, qué servicio interesa (si el evento es genérico para varios servicios), y opcionalmente presupuesto aproximado.
-4. Guardar y usar el enlace de ese evento específico en el mensaje `/llamada` de WhatsApp Business y en el paso 3 del embudo.
-5. Si se quiere un evento distinto por servicio (ej. "Scholarship Assessment" vs "Experience Planning Call") con preguntas ligeramente distintas, se puede duplicar el Event Type y ajustar — opcional, no imprescindible al principio.
+**Hecho (2026-08): Joel creó un único evento de Calendly, "Always Up - Assessment Call"**, más simple que la idea original de un evento por servicio — resuelve el "qué servicio" con la primera pregunta en vez de con eventos separados. Preguntas reales configuradas:
+1. What would you like to discuss? (Team Experience / Coach Experience / USA Sports Scholarships / International Program / Professional Football Opportunities / Player Development / Other)
+2. Who are you / what is your role? (Player / Parent / Coach / Academy Director / Sporting-Technical Director / Club Director / University Staff / Other)
+3. What country are you currently based in?
+4. Who is the opportunity for? (Myself / My son-daughter / My team-club / My organization / Other)
+5. Please briefly tell us about your situation and what you are looking to achieve.
+6. What would you ideally like to achieve and when?
+7. (Opcional) Is there anything you'd like us to review before the call? (vídeo del jugador, perfil del equipo, etc.)
+
+La pregunta 2 (rol de quien reserva) es una mejora real sobre lo planteado inicialmente — permite saber antes de la llamada si quien reserva es un jugador suelto o un Academy/Technical Director, y ajustar el enfoque en consecuencia. Falta solo que Joel añada sus horarios de disponibilidad.
 
 ### 5. Guion de la llamada (estructura + preguntas reales por bloque)
 
-**Cómo llamar a la llamada, según servicio (idea de la revisión externa, adoptada — cambia la psicología de "me venden" a "me evalúan", coste cero):**
-- Team/Coach Experience → *"Experience Planning Call"*
-- Becas → *"Scholarship Assessment"*
-- Colegio privado → *"Academic & Athletic Assessment"*
-- International Program → *"Player Evaluation Call"*
+**Nombre real usado (2026-08):** Joel unificó todo en un solo evento, **"Always Up - Assessment Call"** — cumple igual el objetivo de sonar a evaluación y no a venta, simplificando de paso la gestión (un evento, no cinco).
 
 **Bloque 1 — Reconfirmar el caso (2-3 min):**
 - "Cuéntame un poco más de [jugador] — ¿cuánto lleva jugando a este nivel?"
