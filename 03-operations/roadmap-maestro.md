@@ -30,7 +30,7 @@ Semana 1: contactar activamente a los candidatos ya identificados en [pipeline.m
 | Checklist legal menores/GDPR/seguros | 🔴 Abierto — pendiente, prioridad alta (exposición real con menores 8-20 años) |
 | CRM mínimo viable | ✅ Versión ligera hecha (`01-clients/pipeline.md`) |
 | Migrar conocimiento disperso a la KB | 🟡 En progreso — historia, líneas de negocio, auditoría de marca y procesos ya documentados; falta seguir volcando lo que surja |
-| WhatsApp Business + email corporativo unificado | ✅ WhatsApp Business instalado (2026-08) — email ya funcionaba |
+| WhatsApp Business + email corporativo unificado | ✅ Instalado (2026-08) — email ya funcionaba. Textos de bienvenida/respuestas rápidas **aplazados a propósito** (decisión de Joel: sin contactos todavía no tiene sentido automatizarlo, se hace cuando haya volumen real) |
 
 ## Backlog priorizado (revisado 2026-07-16 — fusiona el backlog anterior con las 10 ideas propias de Joel)
 
