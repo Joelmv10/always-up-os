@@ -30,7 +30,7 @@ Semana 1: contactar activamente a los candidatos ya identificados en [pipeline.m
 | Checklist legal menores/GDPR/seguros | 🔴 Abierto — pendiente, prioridad alta (exposición real con menores 8-20 años) |
 | CRM mínimo viable | ✅ Versión ligera hecha (`01-clients/pipeline.md`) |
 | Migrar conocimiento disperso a la KB | 🟡 En progreso — historia, líneas de negocio, auditoría de marca y procesos ya documentados; falta seguir volcando lo que surja |
-| WhatsApp Business + email corporativo unificado | 🔴 Abierto — sin empezar |
+| WhatsApp Business + email corporativo unificado | ✅ WhatsApp Business instalado (2026-08) — email ya funcionaba |
 
 ## Backlog priorizado (revisado 2026-07-16 — fusiona el backlog anterior con las 10 ideas propias de Joel)
 
@@ -48,7 +48,7 @@ Semana 1: contactar activamente a los candidatos ya identificados en [pipeline.m
 | 7 | ~~Resolver Renegades FC~~ | ✅ **Cerrado — perdido** (agosto 2026). Puerta abierta a futuro sin fecha fija. Ver [renegades-fc.md](../01-clients/leads/renegades-fc.md) | Joel gestionó bien el cierre, no cedió en precio |
 | 8 | Perfil de LinkedIn (revisar/mejorar) | ⏸️ **Bloqueado hasta que Joel instale Claude in Chrome** — Joel ya tiene el perfil creado, pendiente de revisión conjunta. Campaña de conexión masiva sigue después del embudo validado | Joel decidió esperar a tener la extensión para trabajar sobre su sesión real |
 | 9 | Checklist legal menores/GDPR/seguros | 🟡 Borrador hecho (incluye ahora el riesgo del visado F1 de Joel), falta abogado | Exposición activa, no depende de nada más |
-| 10 | WhatsApp Business | ⏸️ **Pausado hasta el 05/08/2026** — Joel usará el número +1 814 329 1929 (necesita estar en EEUU para recibir el SMS de verificación). Textos de bienvenida y respuestas rápidas ya listos en `02-sales/embudo-ventas.md`. Email corporativo (@alwaysup.es) ya funciona, no requiere trabajo | Bloqueado por logística de Joel, no por trabajo pendiente |
+| 10 | WhatsApp Business | ✅ **Instalado (2026-08)** con el +1 814 329 1929 — falta pegar los textos de bienvenida/respuestas rápidas de `02-sales/embudo-ventas.md` dentro de la app | Email corporativo (@alwaysup.es) ya funcionaba, no requería trabajo |
 | 11 | Campaña activa de LinkedIn (200-300 conexiones, 50 conversaciones) | ⏸️ Después de #1 y #6 | No generar más leads hasta que el embudo actual convierta |
 | 12 | Perfeccionar presentaciones/web/documentos | ⏸️ **Conflicto con decisión previa de aparcar esto — mantener aparcado salvo que Joel lo eleve explícitamente.** Solo arreglos puntuales ya detectados (quitar "ESC Madrid", aclarar uso interno de Quality Servix) | Ya se decidió no priorizar — reabrir solo si Joel insiste |
 | 13 | Auditoría de servicios/pricing | ✅ Ya cubierto en gran parte (`lineas-de-negocio.md`, `playbook-ventas.md`) | Confirmar con Joel si falta algún ángulo específico |
