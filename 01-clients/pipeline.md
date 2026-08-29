@@ -19,29 +19,9 @@
 
 ## Embudo — seguimiento de leads inbound (Instagram/DM, todos los servicios)
 
-> Registrar cada lead real aquí desde que se activa el embudo ([embudo-ventas.md](../02-sales/embudo-ventas.md)) — es la única forma de saber si las mejoras del embudo funcionan de verdad. Etapas: Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado / Perdido (con motivo).
-
-| Fecha | Nombre/contacto | Servicio | Etapa | Motivo si se pierde | Notas |
-|---|---|---|---|---|---|
-| 2026-08 | Francisco Ferreira / francisco_7ferreira (IG, 20 años, portugués, lateral derecho, 2ª división distrital) | Becas | **Mandó vídeo — solo falta acusar recibo y evaluar** | — | Dilema genuino: ir a EEUU en 2027 vs. quedarse en Portugal a estudiar sin ser profesional. Joel ya le dio una buena respuesta compartiendo su experiencia, él pidió evaluación y ya mandó el vídeo |
-| 2026-08 | Bauti / bautimoransalzano (IG) | Becas | **Todavía en "Solicitudes" sin aceptar — respuesta no enviada realmente** | — | Preguntó directamente por el sistema de becas ("como es lo del sistema de becas?"). 2 semanas sin aceptar la solicitud |
-| 2026-08 | Pavel Gomez / paixvi.b (IG) | Becas | **Lead fuerte — proponer videollamada** | — | 17 años, GPA 3.0, junior (Osceola HS, clase 2027), ya en EEUU, mandó highlight video. Quiere seguir compitiendo en fútbol y sacar diploma — perfil real para becas universitarias |
-| 2026-08 | Paul Oliu / pmoliu (IG) | No es lead — invitación a podcast/canal D3 soccer | **Dio fechas (27/28, jueves o viernes) — falta que Joel confirme hora** | — | Quiere a Joel de invitado hablando de cómo se estructura el fútbol EEUU vs España — buena oportunidad de marca personal |
-| 2026-08 | tartadefre (IG) | Sin definir todavía | Cualificado — esperando respuesta | — | Mensaje vago, respuesta ligera sin empujar a llamada |
-| 2026-08 (contacto original 16/07) | Barbara Cuellar / bcshisha (IG) | Becas — originalmente pedía Inglaterra | **Re-enganchada — dijo "sí" a explorar la vía de EEUU** | — | Hijo de 13, fan Manchester City. Joel explicó honestamente que el programa es EEUU no Inglaterra, y ella respondió que sí le interesa igual — pendiente enviar explicación del proceso EEUU |
-| 2026-08 (contacto original 20/07) | Omar Escamilla / omare815 (IG) | Becas | **Respondió con datos completos — pedirle el vídeo** | — | Gemelos de 17 años (uno lateral, otro mediapunta), México, tienen vídeo reciente de mayo 2026 listo para mandar — solo falta que Joel lo pida |
-| 2026-08 (contacto original 16/07) | Angelica Suarez Rivera / angelicamiami (IG) | Becas | **Pidió la guía — enviar guia-becas.md** | — | Miami, hijo de 10 años. Respondió "Ok gracias por favor" tras el ofrecimiento de Joel de mandar la guía — solo falta enviarla |
-| 2026-08 (contacto original 30/06-03/07) | Ana Aida Uribe / aauribe (IG) | Becas | Enfriado — necesita reactivación | — | Hijo entra a último año en agosto, se gradúa mayo 2027. Conversación avanzada pero se quedó fría tras un enlace genérico a la web sin CTA claro. Encontrada revisando comentarios de posts, no en DMs |
-| 2026-08 (contacto original 14/07) | Jeinz Alzate / jeinzalzate (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 14 años, Florida, terminó temporada en academia, busca oportunidades |
-| 2026-08 (contacto original 14/07) | Anita / ani_0487 (IG) | Becas | Cualificado — esperando respuesta | — | Hijo de 16 años, delantero, estudiando — pregunta directa sobre cómo inscribirse |
-| 2026-08 (contacto original 08-15/07) | Gonzalo Caro - Fullmerkado Express / gonzalocarocontreras (IG) | Becas | **Propuso fecha concreta: jueves 8am — confirmar** | — | Lead muy caliente, videollamada casi cerrada, solo falta que Joel confirme esa hora |
-| 2026-08 (contacto original 16/07) | Tania Coeto / tania_coeto (IG) | Becas | **Videollamada en proceso de agendar — solo falta confirmar día** | — | Intentaba cerrar día para videollamada ("hoy o mañana"), se quedó sin respuesta |
-| 2026-08 | Margarita Vanegas / margaritavanegasoficial (IG) | Becas — **baloncesto, no fútbol** | **Cualificada — pedir vídeo y notas** | — | Jugador armador zurdo, Colombia, busca colegio/universidad. Corregido 2026-08: Always Up sí trabaja otros deportes además de fútbol, no solo el foco personal de Joel |
-| 2026-08 | Edwin Serrato / edwinserrato84 (IG) | Becas | **Mandó vídeo — pedir también situación académica** | — | Hijo de 13, interior/volante medio, Colombia. Ya envió vídeo reciente |
-| 2026-08 | Juan Roberto / juan_roberto_16 (IG) | Becas | Respuesta breve sin detalle ("Hola beca gracias") | — | Nota técnica: el primer envío mostró aviso de "cuenta no acepta solicitudes de cualquier persona" — verificar que le llegó bien |
-| 2026-08 | Edwin Serrato (IG) | Sin identificar | Pendiente | — | Joel lo mencionó como conversación pendiente pero no se pudo localizar la cuenta exacta — pedir confirmación del usuario |
-
-**Ritual de revisión semanal (idea adoptada de una revisión externa, 2026-07):** cada domingo, mirar esta tabla y contar cuántos leads hay en cada etapa (Nuevo → Cualificado → Llamada agendada → Llamada realizada → Cerrado/Perdido). Si un número baja mucho de una semana a otra en una etapa concreta, ahí está el punto a mejorar esa semana — no hace falta un dashboard, esta tabla ya sirve mientras el volumen sea bajo.
+> **Migrado a [crm-ventas.xlsx](crm-ventas.xlsx) el 2026-08-29** (pestaña "Segmento C - Becas") — esa hoja es ahora la fuente única de verdad para el día a día de estos leads (permite filtrar, ordenar y ver totales por etapa automáticamente). No se actualiza más esta tabla en Markdown para evitar que las dos versiones diverjan. Los leads que no son de becas (Team/Coach Experience) siguen arriba, en la tabla de esta misma página.
+>
+> **Ritual de revisión semanal** (sigue vigente, ahora sobre el Excel): cada domingo, abrir la pestaña "Hoy" de [crm-ventas.xlsx](crm-ventas.xlsx) y revisar el resumen por etapa. Si un número baja mucho de una semana a otra, ahí está el punto a mejorar esa semana.
 
 ## Partners (relación, no clientes)
 
@@ -54,18 +34,6 @@
 
 ## Clubes viajeros objetivo (Team Experience) — candidatos sin contactar todavía
 
-> Investigación 2026-07-10: no existe un directorio público de "clubes que quieren viajar a España" — estos nombres salen de listas de participantes de torneos tipo Costa Daurada Cup / ECNL International IberCup, es decir, clubes que **ya demuestran gastar dinero en este tipo de viaje**. Ninguno ha sido contactado todavía — es lista de research, no pipeline activo.
-
-| Club/Academia | País | Motivo de interés | Fuente |
-|---|---|---|---|
-| **Homefarm FC** | Irlanda | Chicas U13-U16, mismo perfil exacto que Greystones (irlandés, viaja a España) | Testimonio en dbsportstours.com |
-| Maidstone United, Morecambe Hawks, Whitehaven AFC, Lower Ormond, Holbeach United, Hastings United | Reino Unido | Participantes confirmados Costa Daurada Cup 2026 | costadauradacup.com |
-| Søreide IL | Noruega | Participante confirmado Costa Daurada Cup 2026 | costadauradacup.com |
-| IA Akranes | Islandia | Participante confirmado Costa Daurada Cup 2026 | costadauradacup.com |
-| Excelsior Rotterdam | Países Bajos | Participante confirmado Costa Daurada Cup 2026 | costadauradacup.com |
-| ODP Louisiana | EEUU | Participante confirmado Costa Daurada Cup 2026 — encaja con el foco EEUU | costadauradacup.com |
-| ~140 clubes ECNL de EEUU (Dallas Texans, Charlotte SA, Philadelphia Union Academy, Seattle United, San Diego Surf, etc.) | EEUU | Participantes del ECNL International IberCup 2026 — ya pagan por viajar a torneos contra academias europeas. **Aviso: categoría U11/U12 7v7, más jóvenes que el perfil típico de Always Up** — filtrar por edad antes de contactar | soccerwire.com / theecnl.com |
-
-**Competencia identificada** (relevante para entender contra quién compite Always Up en precio): IFX, DBS Sports Tours (irlandeses, organizan Costa Daurada Cup), Soccer Elite Tours, Soccer Inter-Action, International Soccer Academy. Ver [renegades-fc.md](leads/renegades-fc.md) para el detalle de precios de IFX.
-
-**Siguiente paso:** filtrar esta lista por perfil (edad, país prioritario) y empezar el diseño del mensaje de contacto — sin repetir el enfoque que ya falló con los contactos NCAA de Joel.
+> **Migrado a [crm-ventas.xlsx](crm-ventas.xlsx) el 2026-08-29** — pestaña "Segmento A - Clubes" (perfil Greystones/Homefarm, prioridad principal) y pestaña "Segmento B - America" (universidades/clubes EEUU, prioridad secundaria). Incluye contacto, email, estado y el email ya redactado por candidato — más completo de lo que permitía esta tabla. Ver [plan-ventas-maestro.md](../02-sales/plan-ventas-maestro.md) para la estrategia de segmentación completa.
+>
+> **Competencia identificada** (contexto que sigue aquí porque es relevante para pricing, no solo para outreach): IFX, DBS Sports Tours (irlandeses, organizan Costa Daurada Cup), Soccer Elite Tours, Soccer Inter-Action, International Soccer Academy, y (nuevo hallazgo 2026-08) Alandis Travel (partnership con la academia del Sevilla FC — el competidor más parecido a Always Up), Premier International Tours, WorldStrides. Ver [renegades-fc.md](leads/renegades-fc.md) para precios de IFX y [plan-ventas-maestro.md](../02-sales/plan-ventas-maestro.md) sección 2 para el resto.

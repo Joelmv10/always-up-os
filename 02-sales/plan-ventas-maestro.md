@@ -112,6 +112,10 @@ Joel
 
 (133 palabras — ajustar el `[specific reason]` acorta o alarga ligeramente, pero mantener la estructura corta.)
 
+## 6b. CRM operativo diario
+
+Desde 2026-08-29, el seguimiento día a día de todo esto vive en [crm-ventas.xlsx](../01-clients/crm-ventas.xlsx) (6 pestañas: Hoy, Segmento A - Clubes, Segmento B - America, Segmento C - Becas, LinkedIn - Plan diario, Oportunidades y notas) — reemplaza las tablas de leads que antes estaban en [pipeline.md](../01-clients/pipeline.md). Este documento (plan-ventas-maestro.md) sigue siendo la estrategia; el Excel es la ejecución diaria. Actualizar el Excel cada día trabajado, actualizar este documento solo cuando cambie la estrategia en sí.
+
 ## 7. Próximos pasos inmediatos
 
 1. Enviar el mensaje recortado a Homefarm FC (ya preparado con contactos reales — pendiente de que Joel lo mande).
