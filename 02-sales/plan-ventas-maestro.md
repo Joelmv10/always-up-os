@@ -124,6 +124,23 @@ Desde 2026-08-29, el seguimiento día a día de todo esto vive en [crm-ventas.xl
 4. Segmento B (universidades NCAA): dejarlo en pausa hasta tener 2-3 conversaciones reales en marcha del Segmento A — no antes.
 5. LinkedIn: esperar a la sesión conjunta de revisión de perfil antes de empezar a mandar mensajes.
 
+## 8. Revisión externa (2026-08-29) — qué se adopta y qué no
+
+Joel compartió una revisión de otra IA planteando un "Always Up Sales System" con 4 rutas (Team Experience, Becas, International Program, Player Opportunities) y un CRM más orientado a funnel/conversión. Registro aquí qué se adopta y qué se descarta, para no volver a discutirlo de cero cada vez que llegue una revisión nueva.
+
+**Adoptado (ya aplicado en [crm-ventas.xlsx](../01-clients/crm-ventas.xlsx) y [manual-embudo-ventas.md](manual-embudo-ventas.md)):**
+- Columna "Próxima acción" explícita en cada lead, en vez de solo "Estado" — añadida a Segmento A y B (Segmento C ya la tenía).
+- Pestaña Dashboard con funnel/estado actual por línea de negocio (Team Experience, Becas, International Program, Player Opportunities), no solo un recuento plano.
+- Vídeo personalizado y LinkedIn con investigación previa reservados para los prospectos top, no para toda la lista — coincide con lo ya establecido en [plantillas-outreach.md](plantillas-outreach.md).
+- Guion de "lista de espera" para Player Development y guion de evaluación (nunca prometer contrato/prueba) para Player Opportunities — añadidos a [manual-embudo-ventas.md](manual-embudo-ventas.md).
+- Distinción automatizar-ya (fórmulas, estados, plantillas, recordatorios) vs. no-automatizar-todavía (conversación, negociación, cierre) — coincide exactamente con lo que ya se le había explicado a Joel antes de crear el Excel.
+
+**Descartado, con motivo:**
+- **Meta de "300 prospects"** — la revisión la plantea como hipótesis de trabajo, no como compromiso, pero conviene ser explícitos: contradice el hallazgo de esta misma investigación (sección 4) de que listas pequeñas y bien investigadas convierten mejor que listas grandes sin filtrar, y no encaja con la capacidad real de Always Up (2 personas, Joel con 10-20h/semana, sin automatización de envío). Se mantiene como techo aspiracional a largo plazo, no como objetivo de este mes — el objetivo de septiembre sigue siendo los 10-15 candidatos serios de Segmento A ya identificados, escalando solo cuando el mensaje ya esté demostrado que convierte.
+- **Reestructurar `02-sales/` en subcarpetas** (CRM/, SOP/, Outreach/, Calls/, Proposals/, Assets/, Follow-ups/, Playbooks/) — es la segunda vez que una revisión externa propone esto (la primera fue en julio 2026, ver `03-operations/roadmap-maestro.md` backlog item 1). Ya se decidió entonces no crear estructura paralela, y sigue aplicando: el contenido ya existe y funciona en archivos planos con enlaces cruzados (playbook-ventas.md, plantillas-outreach.md, propuesta-template.md, activos-autoridad.md, manual-embudo-ventas.md, este documento) — mover archivos a carpetas no añade nada funcional y sí rompe enlaces existentes.
+- **Renombrar el evento de Calendly** a "Spain Experience Planning Call" — Joel ya creó y está usando "Always Up - Assessment Call" como evento único para las 4 líneas, con buenas preguntas de cualificación ya integradas (ver [embudo-ventas.md](embudo-ventas.md) sección 4). No hay motivo real para cambiarlo.
+- **Funnel completo para Player Opportunities (Alemania/España)** — Joel ya decidió explícitamente que esta línea no es prioritaria hasta tener un primer cliente real ([lineas-de-negocio.md](../00-company/lineas-de-negocio.md) línea 4). Se mantiene solo el guion de respuesta cuidadosa, no un funnel activo.
+
 ## Fuentes de esta investigación (2026-08)
 
 - [UNC Women's Soccer trip to Dublin](https://tarheeltribune.com/2026/08/18/unc-womens-soccer-match-to-dublin-first-team-trip-abroad-in-15-years-presents-plenty-of-challenges/)

@@ -92,9 +92,27 @@ Onboarding (ver SOP) → Experiencia → Testimonio + Referido
 
 Usar el mismo ejemplo #1, sustituyendo la ficha de becas por la explicación de GEE (`/colegio` en [embudo-ventas.md](embudo-ventas.md) sección de WhatsApp Business) — mismo evento de Calendly "Always Up - Assessment Call" para todos los servicios.
 
-## Player Development — todavía no
+## Player Development — todavía no (lista de espera, no funnel)
 
-No tiene ficha, Calendly, ni propuesta propia — el programa no está definido. Si llega un lead: responder con calidez genuina, explicar que se está terminando de dar forma, y registrar como lead caliente en [pipeline.md](../01-clients/pipeline.md) para avisar en cuanto esté listo. No inventar programa ni precio.
+No tiene ficha, Calendly, ni propuesta propia — el programa no está definido. Si llega un lead, usar exactamente este guion (captura demanda sin comprometer nada):
+
+```
+"We're currently developing a personalized Player Development program. We're
+already speaking with players who are interested in joining the first cohort.
+If you'd like, I can send you a short questionnaire so we can understand your
+profile."
+```
+
+Registrar en la pestaña "Oportunidades y notas" de [crm-ventas.xlsx](../01-clients/crm-ventas.xlsx), no como lead activo en ningún segmento — no inventar programa ni precio.
+
+## Player Opportunities / Oportunidades profesionales Alemania-España — solo si preguntan
+
+Línea 4 de [lineas-de-negocio.md](../00-company/lineas-de-negocio.md), explícitamente no prioritaria hasta tener un primer cliente real. Si un lead pregunta directamente por esto, **cuidado con el lenguaje** — nunca prometer un resultado, siempre enmarcarlo como evaluación:
+
+- ❌ Nunca decir: "te conseguimos ser profesional", "prueba garantizada", "fichaje".
+- ✅ Sí decir: evaluación de perfil, preparación, contactos, orientación, y "trials cuando exista encaje real".
+
+Ejemplo de respuesta: *"We evaluate your profile and, when there's a real fit, we work to connect you with real opportunities — trials, trainings, contacts. We never promise a contract or a guaranteed trial, but we do offer honest evaluation and real connections."* Protege la marca de expectativas rotas, especialmente tratándose de menores/familias.
 
 ## Reglas que aplican a los 4 ejemplos, sin excepción
 
