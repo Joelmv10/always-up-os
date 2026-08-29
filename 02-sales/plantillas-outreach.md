@@ -1,6 +1,8 @@
 # Plantillas de outreach — clubes objetivo
 
-> Para usar con la lista de [pipeline.md](../01-clients/pipeline.md). Ver [playbook-ventas.md](playbook-ventas.md) para contexto de pricing/objeciones. **No repetir el enfoque anterior de Joel con contactos NCAA (mensaje directo en frío, sin respuesta)** — esta secuencia parte de identificar primero a la persona correcta (entrenador/director deportivo) y usa la prueba social real desde el primer mensaje.
+> Para usar con la lista de [pipeline.md](../01-clients/pipeline.md). Ver [playbook-ventas.md](playbook-ventas.md) para contexto de pricing/objeciones y [plan-ventas-maestro.md](plan-ventas-maestro.md) para la estrategia de segmentación/canal. **No repetir el enfoque anterior de Joel con contactos NCAA (mensaje directo en frío, sin respuesta)** — esta secuencia parte de identificar primero a la persona correcta (entrenador/director deportivo) y usa la prueba social real desde el primer mensaje.
+>
+> **Regla 2026 (datos reales, ver plan-ventas-maestro.md sección 4):** asunto <7 palabras, cuerpo <125 palabras, una sola CTA y que sea binaria ("¿tendrías 15 min esta semana?" en vez de "cuéntame qué te parece"). El mensaje 1 de abajo se mantiene como referencia de estructura — usar la versión recortada de [plan-ventas-maestro.md](plan-ventas-maestro.md) sección 6 como plantilla real a partir de ahora.
 
 ## Mensaje 1 — primer contacto (email o redes)
 

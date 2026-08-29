@@ -1,6 +1,8 @@
 # Manual operativo — qué hacer, en qué orden, con qué documento
 
 > **Este es el documento que abres cada vez que tengas un lead nuevo.** Todo lo demás en `02-sales/` es material de apoyo referenciado desde aquí — no hace falta memorizar dónde está cada cosa, solo seguir este manual paso a paso. Actualizar este documento si algo del proceso cambia.
+>
+> Para saber **a quién ir a buscar y por qué canal** (antes de que exista el lead), ver [plan-ventas-maestro.md](plan-ventas-maestro.md) — este manual empieza donde ese plan termina: en el momento en que hay un lead real.
 
 ## El flujo completo, de un vistazo
 
