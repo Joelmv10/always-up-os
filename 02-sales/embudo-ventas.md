@@ -157,6 +157,38 @@ CRM: Etapa → "Nuevo" con nota "solo info, revisar más adelante" — **no** ma
 
 **Regla para elegir entre las 3:** si dudas entre B y C, pregúntate si con un vídeo *hoy* el caso sería defendible en una llamada — si sí, es B; si el problema es la edad o el nivel en sí (no la falta de vídeo), es C.
 
+### Caso real: ya cualificado, pero pregunta por prueba social antes de la llamada (2026-09)
+
+A veces, tras las 4 preguntas, el lead no solo responde con datos buenos — además pregunta por pruebas ("¿con qué universidades trabajáis?", "¿tenéis contacto con coaches?", "¿ejemplos de jugadores colocados?") o pregunta algo personal sobre Joel ("¿estás en EEUU?"). Esto **no es una objeción, es una señal de compra fuerte** — no lo trates como un obstáculo, es alguien decidiendo si confiar. Responder con honestidad + la prueba real que sí tenemos, sin fabricar nombres de universidades o jugadores concretos que no estén confirmados:
+
+```
+¡Qué bien lo de [nombres], gracias por todo el detalle! 🙌
+
+Sobre tu pregunta: yo personalmente ahora mismo estoy en EEUU (Nueva York,
+estudiando), y el proceso de colocación en universidades lo llevamos con
+nuestro equipo que trabaja directamente allí, con contacto con coaches y
+universidades según el perfil de cada jugador — eso es justo lo que vemos
+en la llamada, con vuestro caso concreto.
+
+Para que te hagas una idea: hemos colocado cerca de 400 jugadores en
+universidades de EEUU desde 2019, con contacto directo en varios países.
+
+Con último año de prepa y el objetivo de agosto 2027, el timing es bueno
+para empezar ya. Te propongo:
+1. Me mandáis el vídeo que ya tenéis de cada uno (el del año pasado vale
+   para arrancar, no hace falta esperar al actualizado)
+2. Agendamos la llamada aquí: [Calendly]
+
+Ahí vemos todo con detalle — universidades, proceso, y qué encaja mejor
+para cada uno de los dos 🙌
+```
+
+**Por qué está escrito así:**
+- Responde la pregunta personal con honestidad simple, sin dar más vueltas de las necesarias.
+- Usa la única cifra agregada que sí está verificada (~400 colocados desde 2019, scouts en varios países — ver [playbook-ventas.md](playbook-ventas.md)/línea de becas) — **nunca inventar nombres concretos de universidades, coaches o jugadores** que no estén confirmados; el detalle específico se da en la llamada, no por escrito.
+- No bloquea por el vídeo "actualizado" que están preparando — el que ya tienen alcanza para empezar, así no se pierde tiempo esperando.
+- Cierra con Calendly porque ya hay señal real suficiente (edad, nivel, plazo, nivel de detalle en las preguntas) — no hace falta seguir cualificando por texto.
+
 ## Las 5 etapas (versión general, para el resto de servicios)
 
 ### 1. Mensaje entrante — alguien pregunta por info
