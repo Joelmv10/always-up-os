@@ -41,17 +41,76 @@ o sección 2 de "Las 5 etapas" según el servicio]
 ```
 Hola! 👋 Vi tu comentario en el vídeo sobre becas deportivas — genial que estés interesado.
 
-Para poder ayudarte lo mejor posible, cuéntame rápido:
-1. ¿Qué edad tiene el jugador/a y en qué posición juega?
-2. ¿Buscáis más universidad (carrera + fútbol) o también valoráis colegio privado en EEUU?
-3. ¿En qué país estáis ahora?
+Para poder ayudarte de verdad, cuéntame rápido:
+1. ¿Qué edad tiene el jugador/a y en qué curso/año está ahora? (¿cuándo se gradúa?)
+2. ¿En qué equipo/categoría juega hoy y suele ser titular? (club, academia, selección…)
+3. ¿Tenéis un vídeo reciente jugando (últimos ~6 meses)?
+4. ¿En qué país estáis ahora?
 
 Con esto te digo exactamente cómo os podemos ayudar 🙌
 ```
 
+**Por qué estas 4 y no otras** (Joel pidió medir el nivel real, 2026-08):
+- **Edad + año de graduación** → sin esto no hay forma de saber si hay un plazo real. Un niño de 10-13 años es "solo info", no una llamada — el proceso serio empieza a los 15-16.
+- **Nivel al que juega hoy** → es el dato que más determina si una beca es realista. Alguien que apenas juega en un equipo de nivel bajo no va a conseguir beca universitaria en EEUU, y una llamada ahí es tiempo perdido — mejor decírselo con cariño por texto.
+- **Vídeo reciente** → sin vídeo no se puede evaluar, así que no se puede hacer una llamada útil. Si no lo tiene, el siguiente paso es conseguirlo, no agendar.
+- **País** → afecta a visado, coste total y realismo del caso.
+
 **Paso 3 — dos caminos según la respuesta (esto es lo que faltaba):**
-- **Señal real** (contestan rápido, con detalle, edad/nivel/país coherentes): pasar directo al enlace de reserva de llamada (con preguntas de cualificación integradas — ver más abajo) + PDF corto de becas. No alargar la conversación por texto.
-- **Vago/solo curioseando** (respuesta corta tipo "sí me interesa, cuéntame más" sin datos): mandar info básica async sin empujar llamada todavía, marcar como "solo info" en el pipeline, no todos merecen el mismo esfuerzo de seguimiento.
+- **Señal real** (contesta rápido y con detalle: juega a buen nivel, se gradúa en 1-2 años, tiene o puede conseguir vídeo): pasar directo al enlace de reserva de llamada + guía corta de becas. No alargar por texto.
+- **Vago / no encaja** (respuesta corta sin datos, jugador muy joven, sin vídeo ni forma de conseguirlo, nivel claramente bajo): mandar info básica async, **no** agendar llamada, marcar "solo info" en el CRM, y dejar la puerta abierta sin perseguir ("cuando tengas un vídeo / cuando estéis más cerca de la graduación, escríbeme y lo vemos").
+
+### Cuando piden videollamada antes de estar cualificados (situación real de agosto 2026)
+
+Pasa a menudo: alguien lee la guía y responde *"el siguiente paso es programar la videollamada"* — sin que sepas todavía su nivel. **Regla: no se agenda la llamada hasta tener respuesta concreta a nivel + vídeo (+ año de graduación en becas).** No es decir que no — es anteponer 3 preguntas, enmarcadas como preparación:
+
+```
+¡Perfecto! Antes de la videollamada, para que sea lo más útil posible y poder
+evaluar bien el caso, cuéntame 3 cosas rápidas:
+1. ¿En qué equipo/categoría juega ahora y suele ser titular?
+2. ¿Tenéis un vídeo reciente jugando? (si no, ese es el primer paso antes de la llamada)
+3. ¿Cómo va de notas/promedio? (cuenta para la admisión en EEUU)
+
+Con esto preparo la llamada con algo concreto que deciros.
+```
+
+Si contesta con señal real → mandas el Calendly. Si contesta con vaguedad o no contesta → se ha autodescartado, marcar "solo info".
+
+**Nota de CRM:** cuando un lead salta de Instagram a WhatsApp, apunta ya el número de teléfono junto a su handle en la pestaña "Segmento C - Becas" de [crm-ventas.xlsx](../01-clients/crm-ventas.xlsx) y pega ahí sus respuestas — así no vuelves a perder el perfil al cambiar de canal (problema real que te ha pasado).
+
+### Dos ejemplos reales resueltos
+
+**Ejemplo A — padre mexicano, gemelos de 17, último año de prepa** (pidió videollamada tras leer la guía):
+```
+¡Perfecto! Con 17 años y último curso, el momento es ahora — hay que moverse
+esta temporada para entrada en otoño 2027. Antes de la videollamada, para
+poder evaluar de verdad su caso, cuéntame 3 cosas rápidas:
+1. ¿En qué equipo/categoría juegan ahora y suelen ser titulares?
+2. ¿Tienen algún vídeo reciente jugando? Si no, es el primer paso antes de la llamada.
+3. ¿Cómo van de promedio en la prepa? (cuenta para la admisión en EEUU)
+
+Con esto preparo la llamada con algo concreto para deciros.
+```
+(Está razonablemente bien de plazo y edad — solo falta nivel, vídeo y notas antes de agendar.)
+
+**Ejemplo B — mensaje de Marruecos: "I love football and want to play in the future, would you accept me and let me join you?"**
+Aquí hay un malentendido de base (cree que Always Up es un club al que te apuntas o haces prueba). Respuesta honesta, cálida, que reencuadra y cualifica de una vez:
+```
+Hi! Thanks for reaching out. Quick note on what we do: Always Up isn't a club
+you join — we help players get football scholarships at US universities (study
++ play) and we run training programs in Spain with professional clubs. Both are
+paid programs. Scholarships work best for players aged 15-18 who already compete
+regularly and have solid school grades.
+
+To see if we can realistically help you, tell me honestly:
+1. How old are you and what year of school are you in?
+2. What level do you play at now (club, league)?
+3. Do you have a recent video playing?
+4. Would your family be able to support a paid program?
+
+Being honest helps me tell you straight whether this is realistic for you.
+```
+(Es un lead de baja probabilidad: programa enfocado a EEUU, lo paga la familia, sin datos que sugieran encaje. Merece **una** respuesta de cualificación — no perseguirlo si no llega señal real.)
 
 ## Las 5 etapas (versión general, para el resto de servicios)
 
@@ -170,10 +229,13 @@ En cuanto lo sepa, te explico exactamente cómo podemos ayudarte 🙌
 `/becas`
 ```
 ¡Genial! Así funciona el proceso de becas universitarias en EEUU:
-trabajamos con University Soccer, que se encarga de todo el proceso
-(perfil, contacto con universidades, admisión). Para evaluar tu caso
-necesitamos un vídeo reciente jugando y tu situación académica.
-¿Me puedes contar la edad, posición y nivel del jugador/a?
+nos encargamos de todo el proceso (perfil, contacto con universidades,
+admisión). Para evaluar tu caso necesitamos:
+1. Edad y año de graduación del jugador/a
+2. Equipo/categoría en la que juega ahora (¿titular?)
+3. Vídeo reciente jugando (últimos ~6 meses)
+4. Situación académica (promedio/notas)
+Cuéntame esos 4 y te digo si es realista y cuál es el siguiente paso.
 ```
 
 `/colegio`

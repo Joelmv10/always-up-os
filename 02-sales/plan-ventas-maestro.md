@@ -70,21 +70,14 @@ No cambia de estrategia — sigue funcionando (backlog real de leads en pipeline
 ### Referidos — el canal más barato, infrautilizado
 Greystones es cliente desde 2024 con testimonio fuerte y nunca se le ha pedido explícitamente un referido a otro club irlandés. Ya está como paso explícito en el SOP (fase 7) pero no se ha ejecutado todavía porque no ha habido una experiencia reciente que lo dispare. Anotar como acción a ejecutar en la próxima interacción real con Greystones.
 
-## 5. Preguntas de cualificación — Instagram (antes de agendar llamada)
+## 5. Preguntas de cualificación — Instagram/WhatsApp (antes de agendar llamada)
 
-Objetivo: que solo lleguen a videollamada leads con potencial real, sin perder la calidez que ya funciona en las conversaciones de Joel. Usar como filtro **después** del interés inicial, **antes** de mandar el enlace de Calendly — no como interrogatorio, como 2-3 preguntas naturales dentro de la conversación.
+El detalle operativo completo (preguntas exactas por servicio, la regla de "no agendar hasta tener nivel + vídeo", scripts de copia-pega y ejemplos reales resueltos) vive en [embudo-ventas.md](embudo-ventas.md) — sección "Caso práctico: comentario en vídeo de becas" y "Cuando piden videollamada antes de estar cualificados".
 
-**Para Becas (EEUU):**
-1. Edad del jugador/a y año de graduación (¿2026, 2027, 2028+?) — filtra por urgencia real del proceso.
-2. Nivel competitivo actual (¿liga/categoría, club o academia, minutos que juega?) — sin esto no se puede evaluar en serio.
-3. ¿Tiene vídeo reciente (últimos 6 meses) para evaluar? — si no lo tiene, pedirlo es el siguiente paso antes de la llamada, no la llamada en sí.
-
-**Para Team/Coach Experience:**
-1. ¿Quién decide en el club (entrenador, junta directiva, comité de padres)? — si quien escribe no tiene ninguna influencia real en la decisión, la llamada pierde valor.
-2. Número aproximado de jugadores/edad del grupo.
-3. ¿Hay fecha o temporada ya en mente (verano 2027, Semana Santa...)? — sin ventana temporal real, es "solo información", no lead cualificado (ya es la categoría que existe en el embudo).
-
-**Regla general:** si el lead responde con vaguedad a las 2-3 preguntas, no se fuerza la llamada — se le da la información en async con calidez (ya es la regla actual) y se marca "solo info" en pipeline.md. Si responde con datos concretos, se manda el enlace de Calendly directamente.
+Resumen de la lógica:
+- **Becas:** edad + año de graduación, nivel al que juega hoy (¿titular?), ¿vídeo reciente?, país. Un jugador <14-15 años o sin vídeo es "solo info", no una llamada.
+- **Team/Coach Experience:** rol de quien escribe (¿decide o influye?), nº de jugadores/edad, ventana temporal (temporada/fechas). Sin ventana real es "solo info".
+- **Regla:** respuestas concretas y con encaje → enviar Calendly. Respuestas vagas, jugador muy joven, sin vídeo, o nivel bajo → info async, marcar "solo info" en el CRM, no perseguir.
 
 ## 6. Plantilla de mensaje 1 recortada (aplicar la regla de <125 palabras)
 
