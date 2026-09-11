@@ -112,6 +112,51 @@ Being honest helps me tell you straight whether this is realistic for you.
 ```
 (Es un lead de baja probabilidad: programa enfocado a EEUU, lo paga la familia, sin datos que sugieran encaje. Merece **una** respuesta de cualificación — no perseguirlo si no llega señal real.)
 
+### Qué responder cuando ya contestan a las 4 preguntas
+
+Tres respuestas posibles según lo que digan — mirar primero cuál encaja antes de escribir nada, no hay una única plantilla:
+
+**A) Encaja bien Y tiene vídeo → mandar el Calendly ya:**
+```
+¡Perfecto, [nombre]! Con esto ya tengo una idea clara — [1 línea que recoja lo
+que dijeron, ej. "con 17 años, jugando de titular en [equipo/liga] y
+graduándose en 2027, el timing es bueno"].
+
+El siguiente paso es una videollamada donde evaluamos el vídeo con más
+detalle y os cuento exactamente cómo sería el proceso para vuestro caso.
+Aquí el enlace para elegir el día que mejor os venga: [Calendly]
+
+Nos vemos ahí 🙌
+```
+CRM: Etapa → "Llamada agendada" (en cuanto reserve) o "Cualificado" mientras tanto. Próxima acción → "Esperar reserva de Calendly".
+
+**B) Encaja en edad/nivel pero falta el vídeo → pedirlo, no agendar todavía:**
+```
+¡Genial, gracias por contarme! Con esa edad y ese nivel encaja bien. Lo único
+que necesito antes de la llamada es un vídeo reciente jugando (últimos
+meses) — puede ser de un partido o entreno, no hace falta que sea
+profesional, solo que se le vea jugar con claridad.
+
+En cuanto lo tengas me lo mandas y agendamos la llamada con eso ya evaluado 🙌
+```
+CRM: Etapa → "Cualificado". Próxima acción → "Esperar vídeo". Si no llega en 1-2 semanas, un único recordatorio suave — sin perseguir más.
+
+**C) No encaja todavía (muy joven, nivel bajo, o respuesta vaga) → info async, sin llamada, con cariño real:**
+```
+¡Gracias por contarme! Ahora mismo, [con X años / al nivel que juega hoy],
+todavía es pronto para el proceso de becas universitarias — normalmente
+arranca en serio a partir de los 15-16 años, cuando ya se puede evaluar
+bien el nivel competitivo.
+
+Te dejo igualmente la guía con todo el proceso para que la tengáis a mano:
+[guia-becas.md] — y en cuanto [esté más cerca de esa edad / juegue a un
+nivel más competitivo / tengáis vídeo], escríbeme sin problema y lo
+retomamos con calma.
+```
+CRM: Etapa → "Nuevo" con nota "solo info, revisar más adelante" — **no** marcar como perdido (puede volver en 1-2 años con el mismo hijo), pero tampoco como cualificado.
+
+**Regla para elegir entre las 3:** si dudas entre B y C, pregúntate si con un vídeo *hoy* el caso sería defendible en una llamada — si sí, es B; si el problema es la edad o el nivel en sí (no la falta de vídeo), es C.
+
 ## Las 5 etapas (versión general, para el resto de servicios)
 
 ### 1. Mensaje entrante — alguien pregunta por info
