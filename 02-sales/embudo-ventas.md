@@ -112,6 +112,30 @@ Being honest helps me tell you straight whether this is realistic for you.
 ```
 (Es un lead de baja probabilidad: programa enfocado a EEUU, lo paga la familia, sin datos que sugieran encaje. Merece **una** respuesta de cualificación — no perseguirlo si no llega señal real.)
 
+**Ejemplo C — nivel bajo (2ª Regional), pero honesto y con plazo real (2026-09):** 20 años, empieza un grado superior de deporte (termina junio 2028), quiere ir a EEUU con beca al terminar, juega en 2ª Regional de Madrid (el nivel más bajo), ya pagó por unas pruebas con otra empresa y le dieron un presupuesto que no podía permitirse. Aquí el nivel sí es un problema real, pero el lead se lo merece con matices — nunca decir "tu nivel no es suficiente" en esos términos (suena a juicio personal), sino enmarcarlo como un hecho sobre cómo reclutan los entrenadores. **Nunca llamar "agencia" a Always Up** (sí se puede usar la palabra para describir lo que hizo la otra empresa, si el lead ya la usó):
+
+```
+Te agradezco mucho la honestidad, de verdad — no es fácil escribir eso
+y habla muy bien de ti.
+
+Te lo digo con la misma sinceridad: nadie te debería garantizar una
+beca jugando en 2ª Regional — no suele ser la primera opción de los
+entrenadores, así que si alguien te lo promete sin más, desconfía.
+
+Para poder ayudarte de verdad, cuéntame dos cosas: ¿qué presupuesto
+tendrías en mente para este proceso, y cuáles son tus objetivos
+exactos buscando ir a EEUU?
+
+Con esto ya te puedo decir con honestidad qué es realista y cómo
+podríamos ayudarte 🙌
+```
+
+**Por qué está escrito así:**
+- Devuelve honestidad con honestidad — no es una plantilla fría, reconoce lo que el lead ya hizo bien.
+- El nivel se presenta como un hecho externo (cómo buscan los entrenadores), no como un defecto del jugador — mismo mensaje, mucho menos hiriente.
+- En vez de cerrar la conversación ("vuelve en 1-2 años"), se sigue cualificando con presupuesto y objetivos — un lead honesto con plazo real (aunque lejano) merece más esfuerzo que uno vago, incluso si el nivel es bajo hoy.
+- Ojo con el presupuesto que responda: **no negociar precio ni prometer descuentos por escrito** — eso es una decisión de Joel, no algo que se resuelve en el DM.
+
 ### Qué responder cuando ya contestan a las 4 preguntas
 
 Tres respuestas posibles según lo que digan — mirar primero cuál encaja antes de escribir nada, no hay una única plantilla:
