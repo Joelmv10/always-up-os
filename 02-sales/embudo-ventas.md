@@ -185,19 +185,30 @@ CRM: Etapa → "Nuevo" con nota "solo info, revisar más adelante" — **no** ma
 
 Un padre escribe porque su hijo ya tiene beca de instituto en EEUU **por béisbol**, visado F1 de 5 años ya en marcha, y 2 años de instituto por delante. Menciona que el béisbol universitario es muy competitivo y que quiere usar estos años para "explorar otras vías" — **no confundir esto con que el hijo quiera cambiar a fútbol** (error real cometido aquí la primera vez: no asumir que "explorar otras vías" significa fútbol solo porque escribe a Always Up). El hijo juega béisbol, no fútbol, y la vía deportiva correcta sigue siendo esa — no tiene sentido ni es honesto intentar reconducirlo hacia un deporte que no juega, aunque sea el que domina Always Up.
 
-**Qué hacer en un caso así:** no ofrecer nada de fútbol de entrada. Aclarar primero, con una pregunta directa, qué esperaba la familia de Always Up — puede ser la parte académica (si el servicio la cubre independientemente del deporte, confirmar con Joel antes de prometer nada) o puede que simplemente no haya encaje real, y hay que decirlo con honestidad si es el caso.
+**Qué hacer en un caso así:** no ofrecer nada de fútbol de entrada, ni presuponer que Always Up puede resolver la parte deportiva de un deporte que no es el suyo. Presentar los dos caminos reales de la familia — seguir con el béisbol para la vía deportiva, y la vía académica en paralelo — sin prometer que Always Up gestiona directamente el reclutamiento de béisbol:
 
 ```
-¡Gracias por la aclaración! Con el béisbol seguís el camino correcto,
-no hace falta cambiar nada ahí — es vuestra vía natural y ya está
-funcionando (la beca del instituto lo demuestra).
+¡Qué bien lo del béisbol, enhorabuena por la beca! Y tienes toda la
+razón con lo del nivel — el béisbol universitario en EEUU es
+brutalmente competitivo, así que es una decisión inteligente pensarlo
+con tiempo.
 
-Para entender bien en qué os podríamos ayudar nosotros: nuestro fuerte
-es el fútbol, así que si la idea era explorar algo fuera del béisbol,
-cuéntame un poco más qué tenías en mente — ¿te referías más a la parte
-académica de cara a la universidad, o hay algo relacionado con el
-fútbol en la familia (otro hijo, o el propio chico en otro contexto)?
+Con 2 años de instituto por delante y el visado ya resuelto, tenéis
+básicamente dos caminos reales que podéis trabajar en paralelo: seguir
+desarrollando el béisbol de cara a una beca deportiva (nada
+garantizado, pero con estos 2 años por delante es un buen momento para
+construirlo) y una beca académica, que depende del expediente y es
+independiente del deporte.
+
+Para poder aconsejarte con criterio, cuéntame: ¿en qué nivel está
+jugando ahora mismo (equipo del instituto, ligas, si hay algún vídeo
+reciente)? Y en lo académico, ¿cómo va de notas?
+
+Con esto te digo con honestidad qué es lo más realista para estos 2
+años.
 ```
+
+**Nota abierta:** queda pendiente confirmar si el servicio de beca académica de Always Up/partner es independiente del deporte (aplicable aunque el chico no juegue fútbol) — hasta confirmarlo, no prometer gestión activa de esa vía, solo dar consejo honesto.
 
 ### Caso real: ya cualificado, pero pregunta por prueba social antes de la llamada (2026-09)
 
