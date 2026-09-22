@@ -136,6 +136,27 @@ podríamos ayudarte 🙌
 - En vez de cerrar la conversación ("vuelve en 1-2 años"), se sigue cualificando con presupuesto y objetivos — un lead honesto con plazo real (aunque lejano) merece más esfuerzo que uno vago, incluso si el nivel es bajo hoy.
 - Ojo con el presupuesto que responda: **no negociar precio ni prometer descuentos por escrito** — eso es una decisión de Joel, no algo que se resuelve en el DM.
 
+**Desenlace real (2026-09):** respondió con presupuesto ("no más de 5 cifras" — nuestro precio real, $2.500-4.000, cae claramente dentro) y con una actitud realista y sana (no exige programa top, está dispuesto a empezar en nivel medio-bajo e ir subiendo). Esto cambia el caso: **con contexto ya acumulado en varios mensajes, sí se puede dar el precio real** (no es "precio sin contexto", es la 3ª+ interacción). También preguntó si le convendría subir de equipo este año — respuesta honesta: sí. Y como ya mencionó tener un vídeo de unas pruebas recientes, es el momento de pedirlo:
+
+```
+¡Perdona la espera! Aquí estoy 🙌
+
+Con ese presupuesto en mente vas bien — nuestro proceso está en el
+entorno de $2.500-4.000, así que entra dentro de lo que planteas.
+
+Sobre tu pregunta: sí, subir de nivel este año (aunque sea a 1ª
+Regional o Preferente) es importante de verdad — cuanto más arriba
+juegues, más fácil es que un coach en EEUU se fije en ti, y con tu
+actitud de "empezar en un nivel medio-bajo e ir subiendo" tienes justo
+el enfoque que mejor funciona en este proceso.
+
+Mándame el vídeo de las pruebas que hiciste hace un par de semanas y
+le echo un primer vistazo — con eso ya te puedo decir algo más
+concreto sobre qué encajaría contigo de cara a 2028.
+```
+
+**Lección:** un lead "C" no es definitivo — con el tiempo y las respuestas correctas puede convertirse en B (falta solo el vídeo). No cerrar la puerta del todo es lo que permitió recuperar este caso.
+
 ### Qué responder cuando ya contestan a las 4 preguntas
 
 Tres respuestas posibles según lo que digan — mirar primero cuál encaja antes de escribir nada, no hay una única plantilla:
