@@ -141,21 +141,18 @@ podríamos ayudarte 🙌
 **Error real cometido aquí — cuidado con repetirlo:** su "presupuesto" se refería al **coste del año en EEUU** (matrícula, vida allí — lo que cubre o no una beca), no al precio de nuestro servicio ($2.500-4.000). Son dos cosas totalmente distintas y es fácil confundirlas porque ambas son "presupuesto" en la misma frase — **siempre confirmar a qué presupuesto se refiere el lead antes de contestar con una cifra.** El coste real del año depende de la universidad y de cuánta beca (deportiva y/o académica) se consiga — no inventar cifras típicas de cobertura, eso es justo lo que resuelve la evaluación caso por caso.
 
 ```
-Perdona, te había entendido mal — el presupuesto de $2.500-4.000 es
-nuestro servicio (el proceso de evaluación y contacto con
-universidades), no el coste del año en sí en EEUU. Son dos cosas
-distintas.
-
-El coste real de estudiar allí depende mucho de la universidad y de
-cuánta beca (deportiva y/o académica) se consiga — puede ir desde casi
-cubierto del todo hasta bastante más caro, según el programa. Parte de
-lo que hacemos en la evaluación es precisamente buscar universidades
-donde el conjunto (matrícula + beca) encaje con lo que la familia
-puede permitirse.
+Hay muchas opciones dentro de EEUU — distintas ligas universitarias y
+niveles, y el coste real depende mucho de cuánta beca se consiga:
+puede ir desde 0€ (beca completa) hasta más de 40.000€/año si la
+cobertura es menor. Nos adaptamos siempre a lo que busques, a tus
+objetivos y a tus preferencias.
 
 Para orientarte bien: ¿qué presupuesto anual manejaríais como familia
-para el año en EEUU, contando ya con la beca? Con eso filtro mejor qué
-tipo de programas tendrían sentido para ti.
+para el año en EEUU, ya contando con la beca? Con eso puedo decirte
+qué tipo de programas tendrían sentido para ti.
+
+Y en cuanto puedas, mándame el vídeo de las pruebas que hiciste hace
+un par de semanas para ir evaluando tu nivel actual 🙌
 ```
 
 Sobre subir de equipo este año: respuesta honesta, sí ayuda — cuanto más arriba juegue, más fácil que un coach en EEUU se fije en él. Y como ya mencionó tener vídeo de unas pruebas recientes, sigue siendo el momento de pedirlo una vez se aclare el presupuesto real.
