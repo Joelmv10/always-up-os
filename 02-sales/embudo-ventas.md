@@ -181,32 +181,22 @@ CRM: Etapa → "Nuevo" con nota "solo info, revisar más adelante" — **no** ma
 
 **Regla para elegir entre las 3:** si dudas entre B y C, pregúntate si con un vídeo *hoy* el caso sería defendible en una llamada — si sí, es B; si el problema es la edad o el nivel en sí (no la falta de vídeo), es C.
 
-### Caso nuevo: ya está en EEUU con visado resuelto, quiere cambiar de deporte (2026-09)
+### Caso nuevo: ya está en EEUU con visado resuelto, deporte distinto al fútbol (2026-09)
 
-Variante distinta a todo lo anterior — un padre escribe porque su hijo ya tiene beca de instituto en EEUU **por béisbol**, visado F1 de 5 años ya en marcha, y 2 años de instituto por delante. El padre es realista sobre lo competitivo que es el béisbol universitario y quiere explorar "otras vías" (probablemente fútbol, ya que escribe a Always Up, pero no lo dice explícitamente — no asumirlo).
+Un padre escribe porque su hijo ya tiene beca de instituto en EEUU **por béisbol**, visado F1 de 5 años ya en marcha, y 2 años de instituto por delante. Menciona que el béisbol universitario es muy competitivo y que quiere usar estos años para "explorar otras vías" — **no confundir esto con que el hijo quiera cambiar a fútbol** (error real cometido aquí la primera vez: no asumir que "explorar otras vías" significa fútbol solo porque escribe a Always Up). El hijo juega béisbol, no fútbol, y la vía deportiva correcta sigue siendo esa — no tiene sentido ni es honesto intentar reconducirlo hacia un deporte que no juega, aunque sea el que domina Always Up.
 
-**Por qué es un caso distinto:** no hay que resolver visado ni logística de entrada a EEUU — eso ya está hecho. Lo único que falta es la parte deportiva: si el chico ya juega fútbol y a qué nivel. 2 años de instituto por delante es una ventana buena para construir un perfil, pero solo si hay una base real de la que partir — no se puede aconsejar nada sin esa información.
-
-**Importante (corrección de Joel, 2026-09):** no prometer ni insinuar que el cambio a fútbol vaya a traducirse en una beca — presentar **dos caminos reales en paralelo, sin garantizar ninguno**: beca deportiva (posible si el hijo se desarrolla bien en estos 2 años, no algo asegurado desde ya) y beca académica (depende del expediente, independiente del deporte). No presuponer cuál es el camino bueno antes de tener datos.
+**Qué hacer en un caso así:** no ofrecer nada de fútbol de entrada. Aclarar primero, con una pregunta directa, qué esperaba la familia de Always Up — puede ser la parte académica (si el servicio la cubre independientemente del deporte, confirmar con Joel antes de prometer nada) o puede que simplemente no haya encaje real, y hay que decirlo con honestidad si es el caso.
 
 ```
-¡Qué bien lo del béisbol, enhorabuena por la beca! Y tienes toda la razón
-con lo del nivel — el béisbol universitario en EEUU es brutalmente
-competitivo, así que es una decisión inteligente pensarlo con tiempo.
+¡Gracias por la aclaración! Con el béisbol seguís el camino correcto,
+no hace falta cambiar nada ahí — es vuestra vía natural y ya está
+funcionando (la beca del instituto lo demuestra).
 
-Con 2 años de instituto por delante y el visado ya resuelto, hay
-básicamente dos caminos que se pueden trabajar en paralelo: una beca
-deportiva (si tu hijo se desarrolla bien en el fútbol estos 2 años, es
-una posibilidad real, aunque no algo garantizado desde ahora) y una beca
-académica, que depende del expediente y no está ligada al deporte.
-
-Para ver por dónde empezar, cuéntame: ¿tu hijo juega fútbol
-actualmente, o sería prácticamente empezar de cero? Si ya juega, dime
-en qué posición y a qué nivel (equipo del instituto, club,
-selección...), y si tenéis algún vídeo reciente. Y en lo académico,
-¿cómo va de notas?
-
-Con esto te digo con honestidad qué es realista en estos 2 años.
+Para entender bien en qué os podríamos ayudar nosotros: nuestro fuerte
+es el fútbol, así que si la idea era explorar algo fuera del béisbol,
+cuéntame un poco más qué tenías en mente — ¿te referías más a la parte
+académica de cara a la universidad, o hay algo relacionado con el
+fútbol en la familia (otro hijo, o el propio chico en otro contexto)?
 ```
 
 ### Caso real: ya cualificado, pero pregunta por prueba social antes de la llamada (2026-09)
