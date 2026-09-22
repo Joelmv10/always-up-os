@@ -187,21 +187,26 @@ Variante distinta a todo lo anterior — un padre escribe porque su hijo ya tien
 
 **Por qué es un caso distinto:** no hay que resolver visado ni logística de entrada a EEUU — eso ya está hecho. Lo único que falta es la parte deportiva: si el chico ya juega fútbol y a qué nivel. 2 años de instituto por delante es una ventana buena para construir un perfil, pero solo si hay una base real de la que partir — no se puede aconsejar nada sin esa información.
 
+**Importante (corrección de Joel, 2026-09):** no prometer ni insinuar que el cambio a fútbol vaya a traducirse en una beca — presentar **dos caminos reales en paralelo, sin garantizar ninguno**: beca deportiva (posible si el hijo se desarrolla bien en estos 2 años, no algo asegurado desde ya) y beca académica (depende del expediente, independiente del deporte). No presuponer cuál es el camino bueno antes de tener datos.
+
 ```
 ¡Qué bien lo del béisbol, enhorabuena por la beca! Y tienes toda la razón
 con lo del nivel — el béisbol universitario en EEUU es brutalmente
 competitivo, así que es una decisión inteligente pensarlo con tiempo.
 
-Con 2 años de instituto por delante y el visado ya resuelto, en realidad
-estáis en una posición muy buena para explorar el fútbol de cara a la
-universidad — es tiempo suficiente para construir un perfil sólido si
-hay una base de la que partir.
+Con 2 años de instituto por delante y el visado ya resuelto, hay
+básicamente dos caminos que se pueden trabajar en paralelo: una beca
+deportiva (si tu hijo se desarrolla bien en el fútbol estos 2 años, es
+una posibilidad real, aunque no algo garantizado desde ahora) y una beca
+académica, que depende del expediente y no está ligada al deporte.
 
-Cuéntame: ¿tu hijo juega fútbol actualmente, o sería prácticamente
-empezar de cero? Si ya juega, dime en qué posición y a qué nivel
-(equipo del instituto, club, selección...), y si tenéis algún vídeo
-reciente. Con eso te digo con honestidad qué es realista en estos 2
-años.
+Para ver por dónde empezar, cuéntame: ¿tu hijo juega fútbol
+actualmente, o sería prácticamente empezar de cero? Si ya juega, dime
+en qué posición y a qué nivel (equipo del instituto, club,
+selección...), y si tenéis algún vídeo reciente. Y en lo académico,
+¿cómo va de notas?
+
+Con esto te digo con honestidad qué es realista en estos 2 años.
 ```
 
 ### Caso real: ya cualificado, pero pregunta por prueba social antes de la llamada (2026-09)
