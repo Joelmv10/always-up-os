@@ -181,6 +181,29 @@ CRM: Etapa → "Nuevo" con nota "solo info, revisar más adelante" — **no** ma
 
 **Regla para elegir entre las 3:** si dudas entre B y C, pregúntate si con un vídeo *hoy* el caso sería defendible en una llamada — si sí, es B; si el problema es la edad o el nivel en sí (no la falta de vídeo), es C.
 
+### Caso nuevo: ya está en EEUU con visado resuelto, quiere cambiar de deporte (2026-09)
+
+Variante distinta a todo lo anterior — un padre escribe porque su hijo ya tiene beca de instituto en EEUU **por béisbol**, visado F1 de 5 años ya en marcha, y 2 años de instituto por delante. El padre es realista sobre lo competitivo que es el béisbol universitario y quiere explorar "otras vías" (probablemente fútbol, ya que escribe a Always Up, pero no lo dice explícitamente — no asumirlo).
+
+**Por qué es un caso distinto:** no hay que resolver visado ni logística de entrada a EEUU — eso ya está hecho. Lo único que falta es la parte deportiva: si el chico ya juega fútbol y a qué nivel. 2 años de instituto por delante es una ventana buena para construir un perfil, pero solo si hay una base real de la que partir — no se puede aconsejar nada sin esa información.
+
+```
+¡Qué bien lo del béisbol, enhorabuena por la beca! Y tienes toda la razón
+con lo del nivel — el béisbol universitario en EEUU es brutalmente
+competitivo, así que es una decisión inteligente pensarlo con tiempo.
+
+Con 2 años de instituto por delante y el visado ya resuelto, en realidad
+estáis en una posición muy buena para explorar el fútbol de cara a la
+universidad — es tiempo suficiente para construir un perfil sólido si
+hay una base de la que partir.
+
+Cuéntame: ¿tu hijo juega fútbol actualmente, o sería prácticamente
+empezar de cero? Si ya juega, dime en qué posición y a qué nivel
+(equipo del instituto, club, selección...), y si tenéis algún vídeo
+reciente. Con eso te digo con honestidad qué es realista en estos 2
+años.
+```
+
 ### Caso real: ya cualificado, pero pregunta por prueba social antes de la llamada (2026-09)
 
 A veces, tras las 4 preguntas, el lead no solo responde con datos buenos — además pregunta por pruebas ("¿con qué universidades trabajáis?", "¿tenéis contacto con coaches?", "¿ejemplos de jugadores colocados?") o pregunta algo personal sobre Joel ("¿estás en EEUU?"). Esto **no es una objeción, es una señal de compra fuerte** — no lo trates como un obstáculo, es alguien decidiendo si confiar. Responder con honestidad + la prueba real que sí tenemos, sin fabricar nombres de universidades o jugadores concretos que no estén confirmados:
