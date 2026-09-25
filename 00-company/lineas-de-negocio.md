@@ -21,6 +21,43 @@ A fecha 2026-07, hay 7 líneas/iniciativas, en estados de madurez muy distintos.
 
 **Auditoría de materiales (2026-07):** ver [auditoria-materiales-marca.md](auditoria-materiales-marca.md) para el detalle de presentaciones, web y hallazgos a resolver.
 
+## Nuevo formato explorado (septiembre 2026): Campus Internacional ATM/Real Sociedad fuera de España
+
+**Estado: en pausa, Joel retomará "en los próximos días/semanas".** No confundir con Team Experience (niños viajan a España) ni Coach Experience (entrenadores vienen a Madrid) — este es un **tercer modelo**: el club manda a SUS entrenadores fuera de España a dar un campus oficial de su Academia en instalaciones de un socio local. Always Up sería el "socio local" que firma con el club.
+
+**Origen (2026-09):** el Atlético de Madrid (Rodrigo Povedano/Irene López, Área Expansión Internacional) contactó a Enrique tras ser referido por Alberto González, para valorar Campus en Bélgica, Países Bajos y Luxemburgo — hay una academia real ya interesada en esos países. Enrique tuvo llamada con ATM el 22/09/2026 y recibió la guía oficial ("ESP Camp Int 2026-2027.pdf") + el formulario de Due Diligence ("Cuestionario_Campus.pdf").
+
+**Condiciones económicas oficiales de ATM (temporada 2026-27), fee fijo por campus de 5 días:**
+
+| Opción | Entrenadores ATM | Participantes | Formato | Fee |
+|---|---|---|---|---|
+| 1 | 2 | 70 | Jornada completa | 8.000€ |
+| 2 | 3 | 105 | Jornada completa | 11.250€ |
+| 3 | 4 | 140 | Jornada completa | 14.500€ |
+| 4 | 2 | 140 (70+70) | Doble turno | 10.000€ |
+| 5 | 3 | 210 (105+105) | Doble turno | 15.000€ |
+
+**Costes adicionales que el socio local (Always Up) debe cubrir, no incluidos en el fee:** vuelos, hotel 3*+ pensión completa (~5 noches), transporte local, seguro de viaje y visados de todos los entrenadores ATM que viajen. Con Bélgica/NL/Luxemburgo (Schengen) el visado es 0€. Estimación de partida (sin cotizar aún, verificar antes de dar precio en firme): ~1.050€/entrenador (vuelo ~200€ + hotel 5 noches ~750€ + transporte ~75€ + seguro ~25€). Kits Nike obligatorios: 49€+IVA/participante, coste que normalmente se repercute a las familias (no es margen propio).
+
+**Análisis de margen (2026-09, aplicando el mismo 35% que en Team Experience) — recomendación: empezar por la Opción 4 (2 entrenadores/140 doble turno, fee 10.000€):**
+- Coste total (fee + logística 2 entrenadores): ~12.100€
+- Precio de venta a la academia con 35% margen: ~18.620€ → beneficio ~6.520€
+- Precio por participante: ~133€ (más vendible que las ~210-220€/participante de las opciones de jornada única, y con menor riesgo logístico que las opciones de 3-4 entrenadores)
+
+**Riesgos y preguntas abiertas, a resolver antes de dar precio en firme:**
+1. **Cashflow:** ATM cobra 50% al firmar contrato + 50% (y ropa) antes de empezar el programa — Always Up paga a ATM antes de necesariamente haber cobrado de la academia. El contrato con la academia debería exigir un calendario de pago igual de rápido o más.
+2. **Riesgo de aforo:** el fee de ATM es fijo entren los niños que entren. El documento de ATM dice explícitamente que el socio local es responsable de la promoción para llenar el programa — ese riesgo debería trasladarse contractualmente a la academia local, no quedarse en Always Up.
+3. **Entrenadores locales obligatorios:** por cada entrenador ATM debe haber 2 entrenadores locales de la organización — coste que lógicamente asume la academia local (tiene la plantilla), pero debe quedar explícito en el acuerdo.
+4. **Restricciones de marca estrictas:** ATM prohíbe expresamente promocionar esto como "vía de acceso a la Academia" o con lenguaje tipo "sé un ganador" — solo como programa formativo/lúdico, y todo material promocional necesita aprobación previa de ATM.
+5. **Decisión de fondo sin resolver — Opción A vs. B:**
+   - **A) Always Up como parte contratante directa** — firma con ATM, paga fee+logística, revende a la academia con margen (los ~6.500-10.000€/campus calculados arriba). Asume el riesgo de aforo y cashflow.
+   - **B) Always Up como intermediario/bróker** — la academia local firma directamente con ATM (Due Diligence y riesgo financiero suyos), Always Up cobra comisión por haber conectado la relación. Mucho menos riesgo, mucho menos beneficio, y el documento de ATM está escrito pensando en un socio local que opera directamente, no en un modelo de comisión.
+   - Por cómo está el hilo de correos (a Enrique le piden el Due Diligence y la presentación del proyecto directamente a él), todo apunta a que ATM ya asume la Opción A — hay que confirmarlo explícitamente antes de avanzar.
+
+**Real Sociedad:** Joel quiere explorar el mismo modelo de campus fuera de España con la Real Sociedad — a día de hoy no hay un documento de condiciones equivalente al de ATM (falta conseguirlo). Tratar como exploración paralela, no asumir que las condiciones económicas serán las mismas que las del Atlético.
+
+**Próximo paso cuando Joel lo retome:** confirmar Opción A vs. B con su padre, cotizar de verdad vuelos/hotel para la ciudad concreta, y decidir si se construye una calculadora en Excel (como la del CRM) para poder ajustar estos números en vivo.
+
 ## 2. Becas deportivas (EEUU)
 
 **Estado:** activo, vía el acuerdo de referidos con David (University Soccer/GEE).
