@@ -62,7 +62,15 @@ Basado en datos reales de 2026 (Apollo.io, Snov.io, benchmarks de +20M emails):
 - Dirigirse siempre a una persona con cargo concreto (director deportivo, head coach, no "el club" en genérico) — igual que ya se hace con Homefarm (Karl Higgins, Mark Kelly, Aaron Doherty).
 - Mensaje basado en una señal real (post reciente del club/entrenador, participación en torneo, resultado), nunca plantilla fría sin contexto.
 - Warm > cold: si existe una conexión mutua o un club que pueda presentar (Greystones a otro club irlandés), usarla antes que el contacto totalmente frío — ya es principio en [plantillas-outreach.md](plantillas-outreach.md).
-- Requiere perfil de Joel ya optimizado antes de empezar a usarlo activamente (tarea pendiente de Joel, session con Claude in Chrome para revisar juntos).
+- **Perfil terminado (2026-09-26)** — arranca uso diario el 28/09/2026 en dos fases:
+  - **Semana 1 (28/09-04/10):** 5-10 conexiones/día con gente conocida (Mercy University, Mount Aloysius, contactos de fútbol en España), sin vender nada — construir una base real antes de contactar decisores, para que la cuenta no parezca falsa (2 conexiones y cero actividad es justo lo que hacía sospechosa la cuenta antes).
+  - **Semana 2 en adelante:** 5 conexiones/día a decisores reales de Segmento A/B, nota corta (LinkedIn limita a 300 caracteres):
+    ```
+    Hi [Nombre], saw [Club]'s [torneo/gira/resultado reciente] — we run football
+    experiences in Spain with Atlético de Madrid & Real Sociedad academies.
+    Would love to connect.
+    ```
+  - Registrar cada día en `01-clients/crm-ventas.xlsx` pestaña "LinkedIn - Plan diario".
 
 ### Instagram — sigue siendo el canal de inbound orgánico
 No cambia de estrategia — sigue funcionando (backlog real de leads en pipeline.md lo demuestra). Lo que falta no es más volumen aquí, es mejor cualificación antes de la llamada (sección 5) y mejor seguimiento del backlog ya existente.
