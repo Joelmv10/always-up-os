@@ -50,6 +50,29 @@ Best,
 Joel
 ```
 
+## Mensaje alternativo — Campus Internacional (academias, no solo clubes con presupuesto de viaje)
+
+Usar cuando el contacto es de una academia/club que probablemente no viaja (por tamaño, presupuesto o perfil), pero sí podría traer entrenadores a sus propias instalaciones. Comprador distinto al de Team Experience — no mezclar los dos mensajes en el primer contacto.
+
+```
+Hi [Name],
+
+I'm Joel, I run Always Up — we bring official Academy coaches from Atletico
+de Madrid and Real Sociedad to run certified training camps at clubs'
+own facilities, anywhere in the world.
+
+I came across [Academy] and thought this could be a strong fit for your
+players, without the cost or logistics of traveling to Spain.
+
+Would you be open to a short call to see if a camp at [Academy] could work
+for your calendar?
+
+Best,
+Joel
+```
+
+**Nota (2026-10):** con el visto bueno de ATM y Real Sociedad para comercializar esto, pero cualquier texto final que se publique (web, LinkedIn, deck) necesita su aprobación antes de salir — no bloquea el outreach 1 a 1 por email/LinkedIn.
+
 ## Notas de uso
 
 - **Personalizar siempre el motivo de contacto** — no enviar el mensaje 1 genérico sin el `[specific reason]` relleno. Si no hay un motivo real y específico, no está listo para contactar todavía.
