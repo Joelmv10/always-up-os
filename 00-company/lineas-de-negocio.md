@@ -58,6 +58,8 @@ A fecha 2026-07, hay 7 líneas/iniciativas, en estados de madurez muy distintos.
 
 **Próximo paso cuando Joel lo retome:** confirmar Opción A vs. B con su padre, cotizar de verdad vuelos/hotel para la ciudad concreta, y decidir si se construye una calculadora en Excel (como la del CRM) para poder ajustar estos números en vivo.
 
+**Hallazgo (2026-10-01): Real Sociedad "Soccer Stage"** — formato propio y más barato que el Team Experience estándar, encontrado en deck `Real Sociedad - FOOTBALL STAGE.pdf`. 5 días sin alojamiento: 500€/persona; 5 días con 4 noches de alojamiento: 850€/persona. Versión de 3 días: 300€ / 500€ con alojamiento. Incluye ropa de entrenamiento RS. Puede servir como entrada de precio más accesible para un primer acuerdo con un club nuevo, antes de subir al Team Experience completo — confirmar con Joel si esto es un producto propio de Zubieta o el mismo Team Experience con otro nombre.
+
 ## 2. Becas deportivas (EEUU)
 
 **Estado:** activo, vía el acuerdo de referidos con David (University Soccer/GEE).
