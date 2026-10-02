@@ -41,10 +41,26 @@ Revisados los 14 documentos + la carpeta de marca que existen hoy. 5 problemas r
 | **Redes sociales (contenido, no venta directa)** | Fotos/extractos de los decks ya existentes, nunca el PDF completo | — | Igual cuidado con fotos de menores que en LinkedIn |
 | **Enviar la web** | Solo cuando el lead ya ha mostrado señal real (no en el primer mensaje) — mismo principio que con el precio | — | Ver `embudo-ventas.md` regla general |
 
-## 3. Lo que crear a continuación (en orden)
+## 3. Arquitectura definitiva de materiales (2026-10, revisada — no reusar el deck antiguo de Quality Servix)
 
-1. Rehacer la portada/pie de `Quality Servix_Inglés.pdf` → "Always Up" (es el material de mayor impacto, arreglarlo primero).
-2. Resolver las fotos de menores en el deck de LinkedIn (ya hablado, pendiente de ejecutar).
-3. One-pager de Campus Internacional en voz Always Up.
-4. Versión GEE en voz Always Up (equivalente a `guia-becas.md` pero para colegio privado).
-5. Eliminar duplicados (`presentacia3n-gee-...pdf`) y marcar versiones obsoletas (`AlwaysUp - Experiences (PDF).pdf`, `PPT RS IRP ENG.pdf`) para no volver a dudar cuál usar.
+No un único documento gigante ni reciclar el deck de 27 páginas (desactualizado — falta Sporting de Gijón, cubre solo 2 de los servicios). Dos capas:
+
+1. **Un deck corto de empresa** (8-10 páginas, todos los servicios a nivel resumen) — para LinkedIn Featured y contexto general. Por crear.
+2. **Una ficha corta por servicio** (1-2 páginas, marca Always Up) — se manda cuando ya se sabe qué le interesa al lead.
+
+**Estado de las fichas por servicio:**
+
+| Servicio | Estado |
+|---|---|
+| Team & Coach Experience | ✅ Hecha — `02-sales/assets/Always-Up-Team-Coach-Experience.pdf` (2026-10-01) |
+| Deck corto de empresa | Pendiente |
+| Becas EEUU | Pendiente — gap real, hoy se manda `guia-becas.md` sin marca |
+| Campus Internacional | Pendiente |
+| International Program (Real Sociedad) | Pendiente |
+| GEE (colegio privado) | Pendiente — hoy se usa el deck del socio, sin marca propia |
+
+**Limpieza pendiente, baja prioridad:** eliminar duplicado `presentacia3n-gee-...pdf`, marcar como obsoletas `AlwaysUp - Experiences (PDF).pdf` y `PPT RS IRP ENG.pdf` una vez existan las fichas propias que las sustituyan.
+
+## 4. Política de adjuntos por email (ver `embudo-ventas.md` para el detalle completo)
+
+Nunca ningún adjunto en el primer contacto en frío — solo texto. La ficha del servicio se manda cuando el lead ya respondió con interés. El deck de empresa, solo antes de la llamada si hace falta más contexto. Firma con marca (logo, colores) solo en conversaciones ya iniciadas, nunca en frío.
