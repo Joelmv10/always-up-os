@@ -52,7 +52,8 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 
 | Servicio | Estado |
 |---|---|
-| Team & Coach Experience | ✅ Hecha — `02-sales/assets/Always-Up-Team-Coach-Experience.pdf` (2026-10-01) |
+| Team Experience | ✅ Hecha — `02-sales/assets/Always-Up-Team-Experience.pdf` (2 págs, sin precio, 2026-10-02) |
+| Coach Experience | ✅ Hecha — `02-sales/assets/Always-Up-Coach-Experience.pdf` (2 págs, sin precio, 2026-10-02) |
 | Deck corto de empresa | Pendiente |
 | Becas EEUU | Pendiente — gap real, hoy se manda `guia-becas.md` sin marca |
 | Campus Internacional | Pendiente |
@@ -64,3 +65,12 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 ## 4. Política de adjuntos por email (ver `embudo-ventas.md` para el detalle completo)
 
 Nunca ningún adjunto en el primer contacto en frío — solo texto. La ficha del servicio se manda cuando el lead ya respondió con interés. El deck de empresa, solo antes de la llamada si hace falta más contexto. Firma con marca (logo, colores) solo en conversaciones ya iniciadas, nunca en frío.
+
+## 5. Criterios de diseño de las fichas (aprendidos, aplicar a todas las que falten)
+
+- **Sin precio en la ficha.** Se da en la llamada y en la propuesta a medida: un número sin contexto hace que mucha gente deje de responder antes de ver el valor.
+- **Una ficha por servicio**, nunca dos servicios mezclados (Team y Coach incluyen cosas distintas).
+- **Escudos de los clubes y fotos reales de instalaciones/estadios** (de los materiales oficiales de los clubes), nunca fotos con menores identificables.
+- **Estructura:** hero + qué es + por qué Always Up + qué incluye con detalle real + semana tipo + testimonio + cómo funciona en 4 pasos + CTA a Calendly.
+- **Pendiente:** escudo oficial del Real Sporting de Gijón (ahora hay una etiqueta de texto); recomendable un visto bueno rápido de ATM/RS sobre el uso de sus escudos y fotos en materiales de venta, como ya exigen para Campus Internacional.
+- **Qué adjuntar en cada etapa por lead:** columna "Qué adjuntar (por etapa)" en `01-clients/crm-ventas.xlsx` (Segmentos A, B y C).
