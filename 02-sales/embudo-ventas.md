@@ -300,6 +300,19 @@ Quick questions so I can point you to the right program:
 
 **Regla general:** nunca mandar precio como primer mensaje sin contexto — siempre después de entender el caso (edad, nivel, objetivo). Evita que el precio se lea sin el valor detrás.
 
+### Qué adjuntar en cada email, según el momento (2026-10)
+
+**Nunca ningún adjunto en el primer contacto en frío** — baja la entregabilidad (más riesgo de spam) y le pide a un desconocido un esfuerzo que no se ha ganado todavía. El primer email vende la conversación, no el servicio.
+
+| Momento | Qué mandar |
+|---|---|
+| 1er contacto (frío) | Solo texto, sin adjuntos ni enlaces |
+| Responde con interés | Ficha corta del servicio concreto — una sola, la relevante |
+| Antes de la llamada | Deck corto de empresa, solo si añade algo que la ficha no cubre |
+| Después de la llamada | Propuesta escrita (`propuesta-template.md`) + ficha como respaldo si hay que reenviar internamente |
+
+**Firma de email:** texto plano (sin logo/imágenes) para el primer contacto en frío — una firma con imágenes a un desconocido también baja entregabilidad. Firma con marca (logo, colores) solo en conversaciones ya iniciadas.
+
 **Sobre "activos de autoridad" (idea de la revisión externa, 2026-07):** antes de la llamada, cuanta más prueba social real se mande (no solo texto), más confianza se genera. **Pendiente de Joel:** ¿existen fotos/vídeos reales de las experiencias con Greystones u otros clientes? Si sí, hay que reunirlos en una carpeta de acceso rápido — no inventar ni usar contenido genérico de stock.
 
 ### 4. Agendar llamada — combinar formulario + agenda en un solo paso
