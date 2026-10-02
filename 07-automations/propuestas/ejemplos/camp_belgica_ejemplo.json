@@ -1,0 +1,12 @@
+{
+  "servicio": "camp",
+  "cliente": "Example Academy (Belgium)",
+  "fecha": "2 October 2026",
+  "moneda": "€",
+  "objetivo": "Example text: you want to offer your players an official Atletico de Madrid Academy camp in your own facilities, without travelling to Spain, and run it in the summer holidays.",
+  "propuesta": "One 5-day International Camp led by Academy coaches, in double shift format for up to 140 players (Option 4).",
+  "datos": [["Option", "4 - double shift, 2 Academy coaches, up to 140 players (70 + 70)"], ["Duration", "5 days"], ["Venue", "Your facilities (to be approved by the club)"], ["Dates", "To be agreed with the club"]],
+  "precio": {"lineas": [{"concepto": "Camp fee - Option 4", "detalle": "5 days, 2 Academy coaches, up to 140 players, double shift", "importe": 14500}, {"concepto": "Official Nike kit", "detalle": "Per player, billed separately; order 45+ days before", "importe": 70, "suma": false}], "nota": "Prices exclude taxes and the club staff's travel costs. Each additional week or venue is quoted as an independent camp.", "pago": "50% at contract signing; remaining 50% together with the kits, before the camp starts."},
+  "siguiente_paso": "Send us the information in section 4 of the project document by 16 October 2026 so we can present the project to the Academy.",
+  "terminos_extra": []
+}

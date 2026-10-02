@@ -1,0 +1,11 @@
+{
+  "servicio": "becas",
+  "cliente": "Example Family (Gabriel and Rafael)",
+  "fecha": "2 October 2026",
+  "moneda": "$",
+  "objetivo": "Example text: your sons, born in 2009 and finishing high school this year, want to start a US university in August 2027 combining football and studies, with the best scholarship their profile allows.",
+  "propuesta": "A full scholarship pathway process for each player, starting with an evaluation of the video and academic record, so we can tell you honestly which levels and programmes are realistic before going further.",
+  "datos": [["Players", "2 (twins), left back and midfielder"], ["Target start", "August 2027"], ["Current level", "Club academy in Monterrey, regular starters"], ["First step", "Video + academic transcript evaluation"]],
+  "precio": {"lineas": [{"concepto": "Scholarship pathway service", "detalle": "Per player - to be confirmed after the evaluation", "importe": 0}], "mostrar_total": false, "nota": "Illustrative example. Price shown per player once the evaluation confirms the pathway.", "pago": "Agreed in writing before starting the process."},
+  "siguiente_paso": "Send us each player's latest video and academic record this week; we will return the first evaluation within 5 working days."
+}

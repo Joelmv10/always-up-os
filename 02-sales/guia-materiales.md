@@ -48,17 +48,20 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 1. **Un deck corto de empresa** (8-10 páginas, todos los servicios a nivel resumen) — para LinkedIn Featured y contexto general. Por crear.
 2. **Una ficha corta por servicio** (1-2 páginas, marca Always Up) — se manda cuando ya se sabe qué le interesa al lead.
 
-**Estado de las fichas por servicio:**
+**Estado de los materiales (2026-10-02):**
 
-| Servicio | Estado |
-|---|---|
-| Team Experience | ✅ Hecha — `02-sales/assets/Always-Up-Team-Experience.pdf` (2 págs, sin precio, 2026-10-02) |
-| Coach Experience | ✅ Hecha — `02-sales/assets/Always-Up-Coach-Experience.pdf` (2 págs, sin precio, 2026-10-02) |
-| Deck corto de empresa | Pendiente |
-| Becas EEUU | Pendiente — gap real, hoy se manda `guia-becas.md` sin marca |
-| Campus Internacional | Pendiente |
-| International Program (Real Sociedad) | Pendiente |
-| GEE (colegio privado) | Pendiente — hoy se usa el deck del socio, sin marca propia |
+| Material | Estado | Archivo |
+|---|---|---|
+| Deck de empresa (12 diapositivas, horizontal, sin menores identificables) | ✅ Hecho — sirve para LinkedIn Featured y contactos del sector. Diapositiva 7 (International Camps): pedir visto bueno a ATM/RS antes de publicarlo en abierto | `02-sales/assets/Always-Up-Company-Deck.pdf` |
+| Ficha Team Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Team-Experience.pdf` |
+| Ficha Coach Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Coach-Experience.pdf` |
+| Propuesta escrita por servicio (Team, Coach, Camp, Becas, Programa) | ✅ Generador con marca | `07-automations/propuestas/generar_propuesta.py` (ver `propuesta-template.md`) |
+| Ficha Becas EEUU con marca | Pendiente — gap real, hoy se manda `guia-becas.md` sin marca | — |
+| Ficha Campus Internacional | Pendiente (hay slide en el deck de empresa y plantilla de mensaje) | — |
+| Ficha International Program (Real Sociedad) | Pendiente (hay slide en el deck de empresa) | — |
+| Ficha GEE (colegio privado) | Pendiente — hoy se usa el deck del socio, sin marca propia | — |
+
+**Uso del deck vs las fichas:** las fichas Team/Coach son privadas (se mandan 1 a 1 a un lead que ya respondió con interés, pueden llevar fotos reales de equipos); el deck de empresa es el único apto para publicar en abierto (LinkedIn) porque no tiene menores identificables.
 
 **Limpieza pendiente, baja prioridad:** eliminar duplicado `presentacia3n-gee-...pdf`, marcar como obsoletas `AlwaysUp - Experiences (PDF).pdf` y `PPT RS IRP ENG.pdf` una vez existan las fichas propias que las sustituyan.
 
@@ -68,6 +71,7 @@ Nunca ningún adjunto en el primer contacto en frío — solo texto. La ficha de
 
 ## 5. Criterios de diseño de las fichas (aprendidos, aplicar a todas las que falten)
 
+- **Aviso de redacción (importante):** no decir que los tres clubes son de "primera división". Atlético y Real Sociedad sí; el Real Sporting de Gijón compite en LaLiga Hypermotion (segunda) según lo último que consta — usar "clubes profesionales de LaLiga" y confirmar su categoría actual antes de afirmar otra cosa.
 - **Sin precio en la ficha.** Se da en la llamada y en la propuesta a medida: un número sin contexto hace que mucha gente deje de responder antes de ver el valor.
 - **Una ficha por servicio**, nunca dos servicios mezclados (Team y Coach incluyen cosas distintas).
 - **Escudos de los clubes y fotos reales de instalaciones/estadios** (de los materiales oficiales de los clubes), nunca fotos con menores identificables.

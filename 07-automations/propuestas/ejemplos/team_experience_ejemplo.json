@@ -1,0 +1,13 @@
+{
+  "servicio": "team",
+  "cliente": "Example Club U15 Girls",
+  "fecha": "2 October 2026",
+  "validez": "30 days (subject to club availability)",
+  "moneda": "$",
+  "objetivo": "Example text: you told us you want to bring your U15 girls squad to Spain in March to prepare the second half of the season, train with a professional academy methodology and play competitive friendlies at the level of your group.",
+  "propuesta": "A 5-day Team Experience at Atletico de Madrid's academy facilities (Alcala de Henares), with training sessions led by Academy coaches, two friendly matches against Academy teams and a visit to the Riyadh Air Metropolitano and club museum.",
+  "datos": [["Programme", "Team Experience, 5 days, 1 club"], ["Host club", "Atletico de Madrid (Academy)"], ["Dates", "Arrival 28 March, departure 1 April 2027 (to be confirmed with the club)"], ["Group", "24 players + 4 coaches"], ["Accommodation", "Club residence or hotel next to the facilities, full board"]],
+  "programa_detalle": ["Day 1: arrival in Madrid, transfer to the residence, club values talk", "Days 2-4: daily training with Academy coaches and friendly matches against Academy teams", "Stadium and museum tour; first-team match if the calendar allows", "Day 5: final session and departure"],
+  "precio": {"lineas": [{"concepto": "Team Experience", "detalle": "24 players x $1,500 (5 days, 1 club)", "importe": 36000}, {"concepto": "Coaching staff", "detalle": "4 coaches, to be agreed", "importe": 0}], "nota": "Illustrative example. Final price adjusted to group size and dates.", "pago": "Schedule agreed in writing at confirmation."},
+  "siguiente_paso": "Confirm the dates and group size before 30 October 2026 so we can secure the facilities and residence with the club."
+}
