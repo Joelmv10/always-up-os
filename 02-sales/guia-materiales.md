@@ -52,7 +52,8 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 
 | Material | Estado | Archivo |
 |---|---|---|
-| Deck de empresa (12 diapositivas, horizontal, sin menores identificables) | ✅ Hecho — sirve para LinkedIn Featured y contactos del sector. Diapositiva 7 (International Camps): pedir visto bueno a ATM/RS antes de publicarlo en abierto | `02-sales/assets/Always-Up-Company-Deck.pdf` |
+| Deck de empresa — **versión completa** (14 diapositivas: fotos reales de equipos, galería de experiencias) | ✅ Para enviar 1 a 1 a contactos del sector. Nunca publicar en abierto (hay menores identificables) | `02-sales/assets/Always-Up-Company-Deck.pdf` |
+| Deck de empresa — **versión pública** (13 diapositivas, sin menores identificables) | ✅ Para LinkedIn Featured. Diapositiva de International Camps: pedir visto bueno a ATM/RS antes de publicarlo | `02-sales/assets/Always-Up-Company-Deck-Public.pdf` |
 | Ficha Team Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Team-Experience.pdf` |
 | Ficha Coach Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Coach-Experience.pdf` |
 | Propuesta escrita por servicio (Team, Coach, Camp, Becas, Programa) | ✅ Generador con marca | `07-automations/propuestas/generar_propuesta.py` (ver `propuesta-template.md`) |
@@ -61,7 +62,9 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 | Ficha International Program (Real Sociedad) | Pendiente (hay slide en el deck de empresa) | — |
 | Ficha GEE (colegio privado) | Pendiente — hoy se usa el deck del socio, sin marca propia | — |
 
-**Uso del deck vs las fichas:** las fichas Team/Coach son privadas (se mandan 1 a 1 a un lead que ya respondió con interés, pueden llevar fotos reales de equipos); el deck de empresa es el único apto para publicar en abierto (LinkedIn) porque no tiene menores identificables.
+**Cómo se generan:** todo sale de `07-automations/materiales/` (`python3 preparar_imagenes.py` y `python3 materiales.py todo`). Los scripts viven en el repo, no en carpetas temporales: para cambiar texto o fotos se edita ahí y se regenera. Pies de foto verificados: no rotular una foto con un club o lugar sin confirmarlo (error ya corregido con la foto del "training at Zubieta").
+
+**Uso:** las fichas Team/Coach y el deck completo son privados (se mandan 1 a 1 a un lead que ya respondió con interés, con fotos reales de equipos); solo la versión pública del deck se puede subir a LinkedIn.
 
 **Limpieza pendiente, baja prioridad:** eliminar duplicado `presentacia3n-gee-...pdf`, marcar como obsoletas `AlwaysUp - Experiences (PDF).pdf` y `PPT RS IRP ENG.pdf` una vez existan las fichas propias que las sustituyan.
 
