@@ -57,7 +57,7 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 | Ficha Team Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Team-Experience.pdf` |
 | Ficha Coach Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Coach-Experience.pdf` |
 | Propuesta escrita por servicio (Team, Coach, Camp, Becas, Programa) | ✅ Generador con marca | `07-automations/propuestas/generar_propuesta.py` (ver `propuesta-template.md`) |
-| Ficha Becas EEUU con marca | Pendiente — gap real, hoy se manda `guia-becas.md` sin marca | — |
+| Ficha Becas EEUU (2 págs, español, para familias/jugadores, sin precio) | ✅ Hecha — sustituye a mandar `guia-becas.md` sin marca | `02-sales/assets/Always-Up-Becas-EEUU.pdf` |
 | Ficha Campus Internacional | Pendiente (hay slide en el deck de empresa y plantilla de mensaje) | — |
 | Ficha International Program (Real Sociedad) | Pendiente (hay slide en el deck de empresa) | — |
 | Ficha GEE (colegio privado) | Pendiente — hoy se usa el deck del socio, sin marca propia | — |

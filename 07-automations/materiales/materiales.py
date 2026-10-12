@@ -61,6 +61,57 @@ def gradient_photo(path, w, h, focus, g0, g1, scale=3, strength=0.95):
     arr = arr*(1-al[..., None]) + navy*al[..., None]
     o = Image.fromarray(arr.astype("uint8")); bb = io.BytesIO(); o.save(bb, "JPEG", quality=90); bb.seek(0); return ImageReader(bb)
 
+
+# ------------------------------------------------------------------ programa real de 5 días (Atlético de Madrid)
+WEEK_DAYS = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"]
+WEEK_BANDS = ["BREAKFAST", "MORNING", "LUNCH", "AFTERNOON", "DINNER"]
+M_ = lambda t: (t, "meal")
+WEEK = [  # banda -> día -> lista de (hora, texto, tipo)  |  texto de comida
+    [None, "Breakfast at the residence", "Breakfast at the residence", "Breakfast at the residence", "Breakfast at the residence"],
+    [[("09:55", "Arrival in Madrid, airport transfer", "travel"), ("11:30", "Club values talk, residence", "club")],
+     [("10:00–11:30", "Collective training session, CD Alcalá", "train")], [("11:00", "Training viewing, CD Majadahonda", "club")],
+     [("10:00–11:30", "Collective training session, CD Alcalá", "train")], [("10:00–11:30", "Collective training session, CD Alcalá", "train")]],
+    ["Lunch at the residence"]*5,
+    [[("16:00–17:00", "Collective training session, CD Alcalá", "train")], [("17:30–21:00", "Match vs Academy team, CD Alcalá", "match")],
+     [("16:30–18:00", "Stadium and museum tour, Riyadh Air Metropolitano", "club"), ("18:30–21:00", "Match vs Academy team, CD Alcalá", "match")],
+     [("17:30–19:15", "Match vs Academy team, CD Alcalá", "match"), ("Evening", "First-team match viewing, Metropolitano (calendar permitting)", "club")],
+     [("16:25", "Departure from Madrid", "travel")]],
+    ["Dinner at the residence"]*4 + [None],
+]
+MEAL_COL = {"BREAKFAST": colors.HexColor("#3A7D5A"), "LUNCH": colors.HexColor("#B0402F"), "DINNER": NAVY}
+
+SHORT = {"Breakfast at the residence": "Breakfast", "Lunch at the residence": "Lunch", "Dinner at the residence": "Dinner",
+         "Stadium and museum tour, Riyadh Air Metropolitano": "Stadium & museum tour, Metropolitano",
+         "First-team match viewing, Metropolitano (calendar permitting)": "First-team match viewing (calendar permitting)",
+         "Arrival in Madrid, airport transfer": "Arrival, airport transfer", "Club values talk, residence": "Club values talk", "Collective training session, CD Alcalá": "Collective training, CD Alcalá",
+         "Match vs Academy team, CD Alcalá": "Match vs Academy team, CD Alcalá"}
+
+def schedule_grid(c, x, y_top, total_w, label_w, band_h, font, lead, time_font, short=False):
+    gap = 3; cw = (total_w-label_w-gap*5)/5; x0 = x+label_w+gap
+    for i, d in enumerate(WEEK_DAYS):
+        xx = x0+i*(cw+gap); c.setFillColor(NAVY); c.rect(xx, y_top-20, cw, 20, stroke=0, fill=1)
+        c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 9); c.drawCentredString(xx+cw/2, y_top-13.5, d)
+    y = y_top-23
+    for b, bname in enumerate(WEEK_BANDS):
+        bh = band_h[b]
+        c.setFillColor(MEAL_COL.get(bname, NAVY)); c.setFont("Helvetica-Bold", 7.2); c.drawString(x, y-bh/2-2.5, bname)
+        for i in range(5):
+            xx = x0+i*(cw+gap); cell = WEEK[b][i]
+            if short and isinstance(cell, str): cell = SHORT.get(cell, cell)
+            if cell is None:
+                c.setFillColor(colors.HexColor("#F6F6F6")); c.roundRect(xx, y-bh, cw, bh, 3, stroke=0, fill=1); continue
+            if isinstance(cell, str):
+                c.setFillColor(T_MEAL); c.roundRect(xx, y-bh, cw, bh, 3, stroke=0, fill=1)
+                c.setFillColor(MEAL_COL[bname]); c.setFont("Helvetica-Bold", font); c.drawString(xx+6, y-bh/2-font*0.35, cell); continue
+            n = len(cell); ih = (bh-gap*(n-1))/n; yy = y
+            for tm, tx, typ in cell:
+                if short: tx = SHORT.get(tx, tx)
+                c.setFillColor(TCOL[typ]); c.roundRect(xx, yy-ih, cw, ih, 3, stroke=0, fill=1)
+                c.setFillColor(NAVY); c.setFont("Helvetica-Bold", time_font); c.drawString(xx+5, yy-time_font-3, tm)
+                para(c, tx, sty("sg", fontSize=font, leading=lead), xx+5, yy-time_font-6, cw-10); yy -= ih+gap
+        y -= bh+gap
+    return y
+
 # ================================================================== FICHAS (A4 vertical)
 W, H = A4; M = 36
 BODY = sty("b", fontSize=9.9, leading=14.2); SMALL = sty("s", fontSize=8.3, leading=11.4, textColor=GREY)
@@ -206,20 +257,14 @@ def build_team():
 
     y = f_mini_header(c, "TEAM EXPERIENCE")
     y = f_h2(c, "Example of a Team Experience hired for five days", y)
-    days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"]; rows = ["MORNING", "AFTERNOON", "EVENING"]
-    grid = [
-        [("09:55 Arrival in Madrid, airport transfer · 11:30 Club values talk at the residence", "club"), ("10:00–11:30 Collective training session, Alcalá", "train"), ("11:00 Training viewing, Majadahonda", "club"), ("10:00–11:30 Collective training session, Alcalá", "train"), ("10:00–11:30 Collective training session, Alcalá", "train")],
-        [("16:00 Collective training session, Alcalá", "train"), ("17:30–21:00 Match vs Academy team, Alcalá", "match"), ("16:30 Stadium and museum tour, Metropolitano · 18:30 Match vs Academy team", "match"), ("17:30 Match vs Academy team, Alcalá", "match"), ("16:25 Departure from Madrid", "travel")],
-        [("Dinner at the residence", "meal"), ("Dinner at the residence", "meal"), ("Dinner at the residence", "meal"), ("First-team match viewing at the Metropolitano (calendar permitting)", "club"), ("Dinner at the residence", "meal")],
-    ]
-    y = f_timetable(c, y, days, rows, grid, 52, 7.5, 9.4)
+    y = schedule_grid(c, M, y, W-2*M, 52, [16, 58, 16, 90, 16], 7.2, 8.8, 7.4, short=True)
     f_legend(c, y-4, [(T_TRAIN, "Training"), (T_MATCH, "Matches"), (T_CLUB, "Club experience"), (T_MEAL, "Meals"), (T_TRAVEL, "Travel")]); y -= 18
-    para(c, "Real example: full board in the club residence, all transfers in authorised buses, 1.5-hour training sessions every day, stadium and museum visit and free time for any activity. "
-            "<b>Every programme is built to measure for each club.</b>", SMALL, M, y, W-2*M); y -= 36
+    para(c, "Real example from a 5-day programme: full board in the club residence, all transfers in authorised buses, 1.5-hour training sessions every day, stadium and museum visit. "
+            "<b>Every programme is built to measure for each club.</b>", SMALL, M, y, W-2*M); y -= 34
     y = f_photo_row(c, [(f"{NW}/au_p01_0.png", "REAL TEAMS WITH ALWAYS UP", (0.5, 0.6)), (f"{NW}/au_p05_0.png", "ZUBIETA · REAL SOCIEDAD", (0.5, 0.55)),
-                        (f"{NW}/au_p13_4.png", "PRESS ROOM · ATLÉTICO", (0.5, 0.55)), (f"{NW}/au_p13_0.png", "WOMEN’S TEAM · ZUBIETA", (0.5, 0.55))], y, 84, "REAL EXPERIENCES"); y -= 8
+                        (f"{NW}/au_p13_4.png", "PRESS ROOM · ATLÉTICO", (0.5, 0.55)), (f"{NW}/au_p13_0.png", "WOMEN’S TEAM · ZUBIETA", (0.5, 0.55))], y, 74, "REAL EXPERIENCES"); y -= 8
     y = f_photo_row(c, [(f"{IM}/tebro_p12_2.png", "SPORTS CITY · ATLÉTICO", (0.5, 0.5)), (f"{IM}/qs_p05_0.png", "ZUBIETA · REAL SOCIEDAD", (0.5, 0.5)),
-                        (f"{NW}/au_p03_7.png", "MAREO · REAL SPORTING", (0.5, 0.5)), (f"{NW}/spor__DSC4194.png", "CLUB RESIDENCE · MAREO", (0.5, 0.5))], y, 80, "WHERE YOU TRAIN AND STAY"); y -= 10
+                        (f"{NW}/au_p03_7.png", "MAREO · REAL SPORTING", (0.5, 0.5)), (f"{NW}/spor__DSC4194.png", "CLUB RESIDENCE · MAREO", (0.5, 0.5))], y, 70, "WHERE YOU TRAIN AND STAY"); y -= 10
     f_quote(c, y, 66, "No doubt our Atlético de Madrid Experience helped us win our league title... it gives players the belief they are special.",
             "Long-term partner club, Ireland — after three years training with Always Up"); y -= 76
     f_steps(c, y, STEPS); y -= 66
@@ -264,6 +309,58 @@ def build_coach():
     f_quote(c, y, 56, "Watching these teams train was a dream for our coaches.", "International club coach — Coach Experience in Madrid"); y -= 66
     f_steps(c, y, STEPS); y -= 66
     f_cta(c, y, 54, "Want to bring your staff to Spain?", f"Book a 20-minute planning call: {CAL}  ·  or reply to this email.")
+    f_footer(c); c.showPage(); c.save(); return out
+
+
+# ================================================================== FICHA BECAS (familias y jugadores, en español)
+def build_becas():
+    out = f"{OUTDIR}/Always-Up-Becas-EEUU.pdf"; c = canvas.Canvas(out, pagesize=A4)
+    c.setTitle("Always Up - Becas de fútbol en EE. UU."); c.setAuthor("Always Up")
+    y = f_hero(c, f"{NW}/au_p09_1.png", "BECAS EN EE. UU.",
+               "Estudia y juega en una universidad americana. Te acompañamos en todo el proceso, de la evaluación a la llegada.",
+               (0.5, 0.40), hh=300, g0=0.45, g1=0.85, tb=72)
+    y -= 14
+    bw = (W-2*M-16)/3
+    stats = [("+1.146", "universidades y colegios con los que trabajamos"), ("+705", "atletas gestionados en EE. UU."), ("100%", "personalizado: evaluamos tu perfil antes de nada")]
+    for i, (n, d) in enumerate(stats):
+        x = M+i*(bw+8); c.setFillColor(LIGHT); c.roundRect(x, y-70, bw, 70, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y-70, 3.5, 70, stroke=0, fill=1)
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 22); c.drawString(x+14, y-30, n); para(c, d, sty("sd", fontSize=8.8, leading=11.5, textColor=GREY), x+14, y-38, bw-24)
+    y -= 70+12; y = f_h2(c, "Cómo funciona", y)
+    steps_ = [("Evaluación", "Revisamos tu vídeo, tu nivel y tus notas, y te decimos con honestidad qué es realista."), ("Perfil deportivo", "Creamos tu currículum deportivo personalizado."),
+              ("Contacto con entrenadores", "Hablamos directamente con entrenadores de universidades y high schools que encajan contigo."), ("Ofertas y admisión", "Te ayudamos a decidir, y con la admisión y el visado."),
+              ("Llegada y seguimiento", "Te acompañamos para que empieces bien tu etapa en EE. UU.")]
+    for i, (t_, b_) in enumerate(steps_):
+        yy = y - i*44
+        c.setFillColor(RED); c.circle(M+13, yy-16, 13, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 13); c.drawCentredString(M+13, yy-20.5, str(i+1))
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 11.5); c.drawString(M+36, yy-12, t_); para(c, b_, sty("ss", fontSize=9.6, leading=12.6), M+36, yy-17, W-2*M-40)
+    y -= 5*44+6; y = f_h2(c, "Qué incluye", y)
+    inc = [("Evaluación deportiva", "de tu perfil y tu vídeo."), ("Currículum deportivo", "personalizado."), ("Comunicación directa", "con entrenadores de universidades y high schools."),
+           ("Gestión de requisitos", "académicos y administrativos."), ("Apoyo en admisión y visado.", ""), ("Oportunidades de beca", "adaptadas a tu nivel, notas y objetivos.")]
+    f_bullets(c, inc, y, gap=4)
+    f_footer(c); c.showPage()
+
+    y = f_mini_header(c, "BECAS DE FÚTBOL EN EE. UU.")
+    y = f_h2(c, "Para quién es", y)
+    y = f_chips(c, y, ["Jugadores y jugadoras de 15 a 18 años", "Últimos cursos de bachillerato", "Nivel competitivo real"]); y -= 4
+    y = f_chips(c, y, ["Con vídeo reciente", "Con expediente académico"]); y -= 12
+    y = f_h2(c, "Qué necesitamos para empezar", y)
+    need = [("Edad y año de graduación", "para saber si hay plazo real."), ("Equipo y categoría actual", "y si eres titular."), ("Vídeo reciente", "jugando (últimos 6 meses)."), ("Notas", "o expediente académico.")]
+    nw = (W-2*M-24)/4
+    for i, (a_, b_) in enumerate(need):
+        x = M+i*(nw+8); c.setFillColor(LIGHT); c.roundRect(x, y-86, nw, 86, 6, stroke=0, fill=1); c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 20); c.drawString(x+12, y-28, str(i+1))
+        para(c, f"<b>{a_}</b><br/>{b_}", sty("nd", fontSize=8.8, leading=11.4), x+12, y-34, nw-20)
+    y -= 86+12; y = f_h2(c, "Preguntas frecuentes", y)
+    faqs = [("¿Aseguráis la beca?", "No. Nadie puede garantizarla: depende de tu nivel, tus notas y del interés de los entrenadores. Te decimos con honestidad qué es realista en tu caso."),
+            ("¿Cuánto cuesta el año en EE. UU.?", "Hay muchas opciones y ligas universitarias (NCAA, NAIA, junior colleges). El coste va desde 0 (beca completa) hasta más de 40.000 $ al año según el programa, y nos adaptamos a tus objetivos y preferencias."),
+            ("¿Cuánto cuesta el proceso con Always Up?", "Lo vemos en la llamada, una vez evaluado tu caso, para darte algo concreto y no un número genérico."),
+            ("¿Cuándo conviene empezar?", "Cuanto antes: lo ideal es 12 meses o más antes de la fecha de entrada."),
+            ("¿Tengo que ser de nivel muy alto?", "No siempre. Hay programas de distintos niveles, y lo importante es encontrar el encaje adecuado para ti.")]
+    for q, a_ in faqs:
+        h1 = para(c, f"<b>{q}</b>", sty("fq", fontSize=9.8, leading=12.4, textColor=NAVY), M, y, W-2*M); y -= h1+1
+        h2_ = para(c, a_, sty("fa", fontSize=9.2, leading=12.4), M, y, W-2*M); y -= h2_+8
+    y -= 4
+    f_photo_row(c, [(f"{NW}/au_p09_0.png", "COMPITIENDO EN EE. UU.", (0.5, 0.45)), (f"{NW}/au_p09_1.png", "JUGADORES ESPAÑOLES EN EL FÚTBOL UNIVERSITARIO", (0.5, 0.45))], y, 78); y -= 90
+    f_cta(c, y, 64, "Da el primer paso", f"Agenda tu llamada de evaluación: {CAL}  ·  o responde a este mensaje con tu vídeo.")
     f_footer(c); c.showPage(); c.save(); return out
 
 # ================================================================== DECK (16:9 horizontal)
@@ -376,21 +473,8 @@ def build_deck(public):
              ("Built for", "team trips and pre-seasons, one to two weeks. Optional DonostiCup / MadCup.")],
             [(f"{IM}/tebro_p12_2.png", "SPORTS CITY · ATLÉTICO DE MADRID", (0.5, 0.5)), (f"{NW}/au_p05_0.png", "TRAINING AT ZUBIETA · REAL SOCIEDAD", (0.5, 0.5))])
     chrome("Team Experience"); title("Example of a Team Experience hired for five days", sub="Every programme is built to measure for each club: dates, level, age group and objectives.")
-    days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"]
-    grid = [[("09:55 Arrival in Madrid, airport transfer<br/>11:30 Club values talk at the residence", "club"), ("10:00–11:30 Collective training session, CD Alcalá", "train"), ("11:00 Training viewing, CD Majadahonda", "club"), ("10:00–11:30 Collective training session, CD Alcalá", "train"), ("10:00–11:30 Collective training session, CD Alcalá", "train")],
-            [("16:00 Collective training session, CD Alcalá", "train"), ("17:30–21:00 Match vs Academy team, CD Alcalá", "match"), ("16:30 Stadium and museum tour, Riyadh Air Metropolitano<br/>18:30 Match vs Academy team, CD Alcalá", "match"), ("17:30 Match vs Academy team, CD Alcalá<br/>Evening: first-team match viewing, Metropolitano (calendar permitting)", "match"), ("16:25 Departure from Madrid", "travel")]]
-    lw = 62; gap = 4; cwid = (DW-2*DM-lw-gap*5)/5; x0 = DM+lw+gap; yy = DH-170
-    for i, d in enumerate(days):
-        x = x0+i*(cwid+gap); c.setFillColor(NAVY); c.rect(x, yy-22, cwid, 22, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 10); c.drawCentredString(x+cwid/2, yy-15, d)
-    y = yy-26
-    for r, rn in enumerate(["MORNING", "AFTERNOON"]):
-        rh = 92; c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 9); c.drawString(DM, y-rh/2-3, rn)
-        for i in range(5):
-            txt, typ = grid[r][i]; x = x0+i*(cwid+gap); c.setFillColor(TCOL[typ]); c.roundRect(x, y-rh, cwid, rh, 4, stroke=0, fill=1); para(c, txt, sty("tt", fontSize=9.3, leading=12.2), x+8, y-8, cwid-16)
-        y -= rh+gap
-    c.setFillColor(T_MEAL); c.roundRect(x0, y-34, 5*cwid+4*gap, 34, 4, stroke=0, fill=1); c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 9); c.drawString(DM, y-21, "MEALS")
-    para(c, "Breakfast, lunch and dinner at the club residence every day (or at a hotel next to the facilities).", sty("ml", fontSize=9.6, leading=12), x0+10, y-9, 5*cwid-10); y -= 34+gap
-    bullets([("Full board", "in the club residence · <b>all transfers</b> in authorised buses · <b>1.5-hour</b> training sessions every day · stadium and museum visit · free time for any activity of the team.")], DM, y-12, DW-2*DM, gap=4, size=10.5); c.showPage()
+    y = schedule_grid(c, DM, DH-150, DW-2*DM, 70, [20, 52, 20, 74, 20], 8.6, 11, 8.6); y -= 6
+    bullets([("Full board", "in the club residence · <b>all transfers</b> in authorised buses · <b>1.5-hour</b> training sessions every day · stadium and museum visit · free time for any activity of the team.")], DM, y-6, DW-2*DM, gap=4, size=10.5); c.showPage()
 
     # 6 coach
     service("Coach Experience", "Coach Experience", "Learn the methodology from inside the clubs.",
@@ -463,5 +547,5 @@ def build_deck(public):
 
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "todo"
-    if what in ("fichas", "todo"): print(build_team()); print(build_coach())
+    if what in ("fichas", "todo"): print(build_team()); print(build_coach()); print(build_becas())
     if what in ("deck", "todo"): print(build_deck(False)); print(build_deck(True))
