@@ -226,10 +226,11 @@ LI="Bonjour {first}, je suis Joel, je dirige Always Up. Nous emmenons des équip
 DM="Bonjour ! Je suis Joel d'Always Up. Nous emmenons des équipes de jeunes en Espagne pour des semaines d'entraînement (Atlético de Madrid, Real Sociedad). J'ai écrit au club récemment. Qui serait la bonne personne pour parler des déplacements des équipes de jeunes ?"),
 }
 
-HOW_EMAIL = ("En Outlook: Nuevo correo. Pega Para, Asunto y Texto tal cual (la firma ya va dentro). Sin adjuntos. "
-             "Flecha junto a Enviar > Programar envío > elige fecha y la hora de Nueva York de la columna D.")
+HOW_EMAIL = ("Nuevo correo desde joel.martinez@alwaysup.es. Pega Para, Asunto y Texto tal cual (la firma ya va dentro). Sin adjuntos. "
+             "Si tu correo permite programar (webmail de Hostinger/Titan: flecha junto a Enviar > Programar), hazlo para la hora de la columna D. "
+             "Si no, plan B: envíalo a mano a las 07:30 de Nueva York (ver LEEME).")
 HOW_FU = ("Abre el correo original en Enviados > Responder (así queda en el mismo hilo). Pega el texto. Sin adjuntos. "
-          "Programa el envío a la hora de la columna D. Antes de programar, mira en el CRM que no haya contestado por otro canal.")
+          "Programa el envío a la hora de la columna D o, si no puedes programar, envíalo a mano a las 07:30 de Nueva York. Antes, mira en el CRM que no haya contestado por otro canal.")
 HOW_LI = ("A mano en LinkedIn: perfil de la persona > Conectar > Añadir nota > pegar el texto (máx. 300 caracteres). "
           "Si no deja añadir nota, conecta sin nota y manda el texto cuando acepte.")
 HOW_DM = "A mano desde la cuenta de la red indicada. Solo si no ha contestado al follow-up 2. Sin enlaces."
@@ -355,8 +356,8 @@ def build_calendar(sends):
         prev = dd - dt.timedelta(days=1)
         if prev < start:
             prev = start
-        add(prev, "20:00", 1200, "Team/Coach", "Programar en Outlook los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
-            "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma abajo, sin adjuntos. Programa el envío a la hora indicada.\n%s\nImportante: si usas Outlook de escritorio clásico, el ordenador debe estar encendido y con Outlook abierto a esa hora; con Outlook web o el Outlook nuevo, el envío sale solo desde el servidor." % (dd.strftime("%d/%m"), "\n".join(lines)),
+        add(prev, "20:00", 1200, "Team/Coach", "Preparar (y programar si puedes) los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
+            "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma abajo, sin adjuntos. Programa el envío a la hora indicada si tu correo lo permite (ver LEEME). Si no puedes programar, no pasa nada: mañana a las 07:30 de Nueva York los envías a mano.\n%s" % (dd.strftime("%d/%m"), "\n".join(lines)),
             "Textos para copiar", 15 + 5 * len(items))
         add(dd, "8:00", 481, "Team/Coach", "Comprobar que salieron los correos de hoy y que no hay rebotes",
             "Carpeta Enviados: confirma que están. Recibidos: busca avisos de rebote (suelen llegar en minutos). Si uno rebota: apunta cuál en la columna Notas de esta fila y avísame; busco otra dirección del club y te la preparo.",
@@ -374,7 +375,7 @@ def build_calendar(sends):
             who = label(s["club"])
             add(s["date"], local_to_ny(s["date"], s["tz"]), int(local_to_ny(s["date"], s["tz"])[:2]) * 60 + int(local_to_ny(s["date"], s["tz"])[3:]),
                 "Team/Coach", "SALE (programado): %s a %s" % (s["kind"], who),
-                "No tienes que hacer nada a esta hora si lo programaste la víspera. Si no lo programaste, envíalo cuando te despiertes. Texto en 'Textos para copiar'.",
+                "No tienes que hacer nada a esta hora si lo programaste la víspera. Si no pudiste programar, envíalo a mano a las 07:30 de Nueva York. Texto en 'Textos para copiar'.",
                 "Textos para copiar", 0)
 
     # --- tareas puntuales
@@ -688,7 +689,7 @@ def sheet_readme(wb):
     blocks = [
         ("TU RUTINA", ""),
         ("Cada mañana (15 min)", "Abre Calendario diario. Hoy sale en amarillo. Haz lo que diga, marca Hecho. Revisa bandeja, Instagram y WhatsApp."),
-        ("La víspera (20 min)", "Programa en Outlook los correos del día siguiente. El calendario te dice cuáles, a qué hora de Nueva York y de dónde copiar el texto."),
+        ("La víspera (20 min)", "Prepara los correos del día siguiente. Si tu correo permite programar, déjalos programados. Si no, los envías a mano a las 07:30 de Nueva York. El calendario te dice cuáles y de dónde copiar el texto."),
         ("Cada viernes (20 min)", "Revisión semanal: cuéntame respuestas, rebotes y llamadas. Yo actualizo el plan y preparo la siguiente tanda."),
         ("Cada lunes (5 min)", "Escríbeme «investiga 10 clubes más». Yo verifico contactos y dejo los correos listos."),
         ("PESTAÑAS", ""),
@@ -699,9 +700,12 @@ def sheet_readme(wb):
         ("Verificación", "De dónde sale cada email y qué tan fiable es."),
         ("Segmento A / B / C", "Las listas de clubes (A), universidades y clubes de América (B) y leads de becas (C). Actualiza Estado y Fecha de último contacto."),
         ("Dashboard, LinkedIn, Oportunidades", "Fotos del embudo, registro de LinkedIn y notas sueltas."),
-        ("COMO PROGRAMAR UN CORREO EN OUTLOOK", ""),
-        ("Paso a paso", "Nuevo correo > pega Para, Asunto y Texto > flecha junto a Enviar > Programar envío > elige fecha y hora de Nueva York. Si usas Outlook de escritorio clásico, el ordenador debe estar encendido a esa hora. Con Outlook web o el Outlook nuevo sale solo."),
-        ("Por qué a las 09:30 locales", "Es el momento en que el responsable del club abre el correo en su jornada. Martes a jueves funcionan mejor que lunes (bandeja llena) y viernes (desconectan)."),
+        ("COMO ENVIAR A LA HORA CORRECTA", ""),
+        ("Tu correo", "joel.martinez@alwaysup.es está alojado en Hostinger, no en Microsoft. Outlook conectado a ese tipo de cuenta (IMAP) NO tiene 'Programar envío': ese botón solo funciona con cuentas de Microsoft. Por eso no lo veías."),
+        ("Opción 1 (la mejor)", "Entra al webmail de Hostinger (hpanel.hostinger.com > Correo electrónico > Abrir webmail, o mail.hostinger.com) con tu cuenta. Ahí, junto al botón Enviar, suele haber una flecha con 'Programar envío'. Funciona desde el servidor, aunque tu ordenador esté apagado. Pruébalo con un correo a ti mismo antes de usarlo con un club."),
+        ("Opción 2", "Outlook de escritorio clásico: en el correo, pestaña Opciones > Retrasar entrega > 'No entregar antes de' + fecha y hora. Funciona, pero Outlook debe estar abierto y el ordenador encendido a esa hora. Outlook nuevo y Outlook web no tienen esta opción para cuentas IMAP."),
+        ("Plan B (sin programar)", "Envíalo tú a mano a las 07:30 de Nueva York. Son las 12:30 o 13:30 en Reino Unido, Irlanda, Noruega o Islandia: sigue siendo horario laboral, solo que a media mañana o mediodía en vez de a primera hora. La diferencia de respuesta es pequeña: no vale la pena perder un envío por esto."),
+        ("Regla", "Lo importante es enviar martes a jueves en horario laboral del club. La hora exacta de las 09:30 es una mejora, no una condición."),
         ("REGLAS QUE NO SE ROMPEN", ""),
         ("Nunca", "Adjuntos en el primer correo. Nombrar al partner de becas. Prometer becas o fichajes. Inventar urgencia. Discutir precio por escrito sin tu decisión."),
         ("Si contestan", "Paras la cadencia de ese club y abres 'Respuestas tipo' (hoja Textos para copiar). Menos de 4 horas de respuesta en horario del club."),

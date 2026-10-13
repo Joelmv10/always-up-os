@@ -89,3 +89,5 @@ El objetivo no es "presentar Always Up" sino dejar la llamada con **una fecha de
 ## 9. Métricas semanales (ver hoja Hoy del CRM)
 
 Enviados, respuestas, llamadas agendadas, llamadas hechas, propuestas, cierres. A partir de 30 emails enviados podemos comparar asuntos y CTA. Hasta entonces, no se cambia nada para "probar".
+
+> **Nota 13/10/2026:** joel.martinez@alwaysup.es está en Hostinger (IMAP), así que Outlook no ofrece "Programar envío". Ver pestaña LEEME del Excel: webmail de Hostinger, retrasar entrega en Outlook clásico, o envío a mano a las 07:30 de Nueva York.
