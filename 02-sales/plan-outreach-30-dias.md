@@ -91,3 +91,14 @@ El objetivo no es "presentar Always Up" sino dejar la llamada con **una fecha de
 Enviados, respuestas, llamadas agendadas, llamadas hechas, propuestas, cierres. A partir de 30 emails enviados podemos comparar asuntos y CTA. Hasta entonces, no se cambia nada para "probar".
 
 > **Nota 13/10/2026:** joel.martinez@alwaysup.es está en Hostinger (IMAP), así que Outlook no ofrece "Programar envío". Ver pestaña LEEME del Excel: webmail de Hostinger, retrasar entrega en Outlook clásico, o envío a mano a las 07:30 de Nueva York.
+
+## 10. Entregabilidad (que los correos no caigan en spam)
+
+Diagnóstico del 13/10/2026 sobre `alwaysup.es` (Hostinger): SPF y DKIM están publicados y DMARC existe en modo `p=none`, así que la autenticación está bien configurada. Los tres correos de prueba de Joel cayeron en spam en la bandeja de su compañero. La causa más probable es **reputación**: dominio nuevo, poco volumen, sin historial de respuestas, y pruebas con asunto "Prueba" y cuerpo casi vacío, que cualquier filtro castiga. No es culpa de programar envíos.
+
+Qué se hace:
+1. Prueba en Gmail con "Mostrar original" (SPF, DKIM, DMARC deben decir PASS) y en mail-tester.com (nota objetivo 8/10 o más).
+2. **Calentar el dominio:** 5 correos reales a gente de confianza que responda. Si caen en spam, marcarlos "No es spam".
+3. Mantener correos de texto plano, sin imágenes ni enlaces, un destinatario por correo, volumen bajo (como ahora).
+4. Si tras 2 semanas siguen cayendo en spam: pasar el buzón a Google Workspace (unos 6 a 7 euros al mes por usuario; comprobar precio actual), que además trae envío programado. Decisión de Joel; no urgente hasta tener los resultados de la prueba.
+5. Como respaldo, cada email a un club va acompañado de LinkedIn y, si no hay respuesta, de un DM: no dependemos de un solo canal.

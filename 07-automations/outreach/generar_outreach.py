@@ -279,8 +279,8 @@ def build_sends():
 
 # ------------------------------------------------------- plantillas de respuesta
 REPLIES = [
-    ("Responde: quiere hablar", "Great, thanks for getting back to me. Here are two times that could work for a call: {A} or {B} (your time). If neither suits, tell me what does and I'll adapt. I'll send a calendar invite as soon as we pick one.\n\nBest,\n" + SIG,
-     "Menos de 4 horas. Sustituye {A} y {B} por dos horarios reales en su zona horaria."),
+    ("Responde: quiere hablar", "Great, thanks for getting back to me. Here is a link to my calendar where you can pick a time that suits you (it shows your local time): {Calendly}. If you'd rather, tell me a couple of times that work and I'll adapt.\n\nBest,\n" + SIG,
+     "Menos de 4 horas. Sustituye {Calendly} por el enlace del evento 'Always Up Intro Call' (cuando lo tengas). Mientras tanto, ofrece dos horarios de la tabla de LEEME convertidos a su hora."),
     ("Responde: pide información", "Of course. I've attached our company overview and the programme sheet for Team Experience. If it's easier to talk it through, I'm happy to jump on a quick call as well, just tell me what time suits you.\n\nBest,\n" + SIG,
      "Adjunta Always-Up-Company-Deck.pdf y Always-Up-Team-Experience.pdf (02-sales/assets). Menos de 4 horas."),
     ("Responde: pregunta el precio", "It depends on the dates and the size of the group. As a reference, the five day programme starts at around $1,500 per player. A 15 minute call would let me give you an exact figure for your squad.\n\nBest,\n" + SIG,
@@ -291,8 +291,6 @@ REPLIES = [
      "Luego escribe al nombre que te den (usa un email 1 con su nombre) y menciona a quien te derivó."),
     ("Pedir testimonio y presentaciones al club irlandés", "Hi [nombre], hope you and the squad are doing well. I have a small favour to ask. We're building up Always Up and your league title story means a lot to us. Would you be happy to share two or three lines about what the experience did for the players, or even a short video message? And if you know any other clubs who would enjoy a trip like yours, an introduction from you would help us enormously. Thank you so much.\n\nJoel",
      "Mándalo tú o Enrique, por WhatsApp. El nombre del contacto lo pones tú. Si dice que sí, pídele una foto del trofeo con los jugadores (con permiso del club)."),
-    ("Reactivar a Leonardo Uren (WhatsApp)", "Hi Leonardo! Hope you and the team are doing well.\n\nIt's been a while since we last spoke, and a lot has happened on our side too. We've been growing our international work, and with Spain being World Cup champions there's a lot more interest from clubs and academies in connecting with Spanish football, so it felt like a good moment to pick this back up.\n\nI still think there's real potential in a Brazil and Spain connection, with players and teams coming to train in Spain and maybe the other way around too. Would you be up for reopening the conversation? My dad would join again as well. It doesn't need to be tied to a specific trip this time. Even 20 or 30 minutes whenever suits you would be great.\n\nLet me know!",
-     "WhatsApp, miércoles 14/10 hacia las 10:00 de Nueva York (11:00 en Brasilia)."),
 ]
 
 BANNED = [r"—", r"–", r" - ", r"\bdelve\b", r"\bleverage\b", r"\bseamless", r"\btailored\b", r"\bjourney\b", r"\bunlock\b", r"I hope this email finds you",
@@ -381,9 +379,13 @@ def build_calendar(sends):
     # --- tareas puntuales
     A = add
     A(D(2026, 10, 13), "Tarde", 1000, "Becas", "Omar: anotado el follow-up enviado hoy", "Nada que hacer. Si responde, pásame su mensaje. Si no, el 20/10 envías el último mensaje (ver ese día).", "Segmento C - Becas, fila Omar", 0)
-    A(D(2026, 10, 14), "10:00", 600, "Brasil/Campus", "WhatsApp a Leonardo Uren para reactivar la conversación",
-      "Copia el texto de 'Reactivar a Leonardo Uren' (hoja Textos para copiar, sección Respuestas tipo). Son las 11:00 en Brasilia. Es un posible partner, no un cliente normal: sin adjuntos.", "Textos para copiar", 5)
-    A(D(2026, 10, 14), "Libre", 650, "Transversal", "Pasarme tu horario de clases para montar el Calendly", "Escríbeme tus horas libres reales entre semana (zona Nueva York). Con eso preparo las franjas de llamada y el enlace para la firma.", "Chat con Claude", 5)
+    A(D(2026, 10, 13), "21:00", 1260, "Transversal", "Prueba de entregabilidad (por qué tus correos caen en spam)",
+      "1) Desde joel.martinez@alwaysup.es manda a tu Gmail personal un correo con texto normal (pega el de Holbeach) y asunto normal. 2) Ábrelo en Gmail > tres puntos > Mostrar original: copia lo que ponga en SPF, DKIM y DMARC (deben decir PASS). 3) Entra en mail-tester.com, copia la dirección que te da, mándale desde alwaysup.es el mismo texto y pulsa 'Then check your score'. Pásame la nota y el resultado de SPF, DKIM y DMARC. No pegues nada más.", "Chat con Claude", 15)
+    A(D(2026, 10, 14), "Libre", 650, "Transversal", "Confirmar que Apple Mail envió los correos programados", "A las 08:00 mira Enviados en alwaysup.es: ¿salieron a la hora? Si no salieron, envíalos a mano (plan B 07:30). Cuéntame qué pasó para decidir si seguimos con Apple Mail.", "Mail de Apple", 5)
+    A(D(2026, 10, 15), "Libre", 650, "Transversal", "Ajustar Calendly por mercado (franjas distintas para clubes y familias)",
+      "Mira la tabla de franjas en LEEME. Resumen: para clubes de Europa solo sirven Martes 13:00 a 15:00 y Miércoles 11:00 a 12:30 (hora NY). Para familias de América sirven Lunes y Jueves por la tarde. Pasos: crea el evento 'Always Up Intro Call' (20 min, Zoom) con la agenda Europa, y deja 'USA Scholarship Assessment' con la agenda Américas. Luego pásame el enlace de cada uno.", "Calendly", 20)
+    A(D(2026, 10, 15), "Libre", 655, "Transversal", "Calentar el dominio: 5 correos reales a gente de confianza",
+      "Escribe desde alwaysup.es a 5 personas (familia, amigos, conocidos con Gmail, Outlook o iCloud) un correo normal con una pregunta, y pídeles que respondan. Si caen en spam, que lo marquen como 'No es spam'. Es la forma más rápida de mejorar la reputación de un dominio nuevo.", "", 15)
     A(D(2026, 10, 14), "Libre", 660, "Becas", "Daniel (MLS NEXT): conseguir su usuario de Instagram", "Fila 20 de Segmento C. Sin el usuario no se puede continuar la conversación.", "Segmento C - Becas", 5)
     A(D(2026, 10, 15), "Libre", 640, "Becas", "Darme tu feedback sobre la ficha de Becas EEUU", "Ábrela (02-sales/assets/Always-Up-Becas-EEUU.pdf) y dime qué cambiarías. Antes de cambiar nada te digo si me parece buena idea.", "02-sales/assets", 15)
     A(D(2026, 10, 15), "Libre", 645, "Team/Coach", "Pedir al club irlandés testimonio y presentaciones", "Es lo que más puede acelerar ventas: un club que ya compró habla mejor de nosotros que cualquier email. Texto en 'Respuestas tipo'. Puedes mandarlo tú o Enrique.", "Textos para copiar (Respuestas tipo)", 15)
@@ -701,11 +703,15 @@ def sheet_readme(wb):
         ("Segmento A / B / C", "Las listas de clubes (A), universidades y clubes de América (B) y leads de becas (C). Actualiza Estado y Fecha de último contacto."),
         ("Dashboard, LinkedIn, Oportunidades", "Fotos del embudo, registro de LinkedIn y notas sueltas."),
         ("COMO ENVIAR A LA HORA CORRECTA", ""),
-        ("Tu correo", "joel.martinez@alwaysup.es está alojado en Hostinger, no en Microsoft. Outlook conectado a ese tipo de cuenta (IMAP) NO tiene 'Programar envío': ese botón solo funciona con cuentas de Microsoft. Por eso no lo veías."),
-        ("Opción 1 (la mejor)", "Entra al webmail de Hostinger (hpanel.hostinger.com > Correo electrónico > Abrir webmail, o mail.hostinger.com) con tu cuenta. Ahí, junto al botón Enviar, suele haber una flecha con 'Programar envío'. Funciona desde el servidor, aunque tu ordenador esté apagado. Pruébalo con un correo a ti mismo antes de usarlo con un club."),
-        ("Opción 2", "Outlook de escritorio clásico: en el correo, pestaña Opciones > Retrasar entrega > 'No entregar antes de' + fecha y hora. Funciona, pero Outlook debe estar abierto y el ordenador encendido a esa hora. Outlook nuevo y Outlook web no tienen esta opción para cuentas IMAP."),
-        ("Plan B (sin programar)", "Envíalo tú a mano a las 07:30 de Nueva York. Son las 12:30 o 13:30 en Reino Unido, Irlanda, Noruega o Islandia: sigue siendo horario laboral, solo que a media mañana o mediodía en vez de a primera hora. La diferencia de respuesta es pequeña: no vale la pena perder un envío por esto."),
-        ("Regla", "Lo importante es enviar martes a jueves en horario laboral del club. La hora exacta de las 09:30 es una mejora, no una condición."),
+        ("Tu correo", "joel.martinez@alwaysup.es está alojado en Hostinger. Outlook con ese tipo de cuenta (IMAP) no tiene 'Programar envío', y el webmail de Hostinger lo cobra aparte."),
+        ("Opción 1 (la que has probado)", "Mail de Apple: botón Enviar con la flecha > Enviar más tarde. Pendiente de confirmar el 14/10: si Mail o el Mac están cerrados o dormidos a esa hora, puede que no salga. Mira Enviados a las 08:00."),
+        ("Opción 2", "Outlook de escritorio clásico: Opciones > Retrasar entrega. Funciona solo con Outlook abierto y el ordenador encendido."),
+        ("Plan B (el más seguro)", "Envío a mano a las 07:30 de Nueva York (12:30 o 13:30 en Europa). Sigue siendo horario laboral. La hora exacta de las 09:30 es una mejora, no una condición: lo importante es enviar de martes a jueves."),
+        ("TUS FRANJAS DE LLAMADA", ""),
+        ("Lo que tienes en Calendly (hora Nueva York)", "Dom 12:00 a 17:00 | Lun 17:30 a 21:00 | Mar 13:00 a 19:00 | Mié 11:00 a 12:30 | Jue 17:00 a 21:00 | Vie 14:00 a 18:00 | Sáb no disponible."),
+        ("Clubes de Europa (+5 h en UK e Irlanda, +6 h en Noruega, Francia y Países Bajos; +4 y +5 del 25 al 31/10)", "Sirven: Martes 13:00 a 15:00 (18:00 a 20:00 en UK, buen horario para comités de voluntarios) y Miércoles 11:00 a 12:30 (16:00 a 17:30 en UK). Mal: Lunes y Jueves por la tarde (ya es de madrugada allí), Viernes (noche) y Domingo (tarde de domingo)."),
+        ("Familias de América (México, Latinoamérica, EEUU)", "Sirven: Lunes y Jueves por la tarde y Martes 17:00 a 19:00."),
+        ("Recomendación", "Dos agendas en Calendly: 'Europa' (martes 13:00 a 15:00 y miércoles 11:00 a 12:30) para 'Always Up Intro Call', y 'Américas' (lunes y jueves tarde, martes 17:00 a 19:00) para 'USA Scholarship Assessment'. Así un club nunca ve una hora de madrugada. Cambia también el nombre 'Assessment Call' para clubes: 'Assessment' es un término de becas."),
         ("REGLAS QUE NO SE ROMPEN", ""),
         ("Nunca", "Adjuntos en el primer correo. Nombrar al partner de becas. Prometer becas o fichajes. Inventar urgencia. Discutir precio por escrito sin tu decisión."),
         ("Si contestan", "Paras la cadencia de ese club y abres 'Respuestas tipo' (hoja Textos para copiar). Menos de 4 horas de respuesta en horario del club."),
@@ -776,8 +782,9 @@ def update_segment_a(wb, sends):
     setnote("Morecambe Hawks", "13/10/2026: solo equipo local pequeño de liga amateur. Descartado.")
     r = by_name.get("Leonardo Uren / equipo (Brasil) — posible partner, no solo cliente")
     if r:
-        sa.cell(row=r, column=12, value=REPLIES[-1][1])
-        sa.cell(row=r, column=10, value="Enviar el WhatsApp de reactivación el 14/10 a las 10:00 hora Nueva York.")
+        sa.cell(row=r, column=9, value="Perdido")
+        sa.cell(row=r, column=10, value="Decisión de Joel (13/10/2026): no insistir. Reabrir solo si él escribe.")
+        sa.cell(row=r, column=15, value=(sa.cell(row=r, column=15).value or "") + " | 13/10/2026: Joel decide no reactivar: varios intentos y las dos últimas sin respuesta.")
     # Hoy: metas realistas
     h = wb["Hoy"]
     h["A11"].value = "Métrica"; h["B11"].value = "Meta semanal"
