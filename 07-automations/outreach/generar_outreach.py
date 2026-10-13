@@ -465,7 +465,22 @@ def dig_mx(domain):
 
 
 # ------------------------------------------------------------------- hojas
+def read_saved(wb, sheet, key_cols, val_cols, header_row=4):
+    """Lee lo que Joel ha rellenado a mano para conservarlo al regenerar."""
+    saved = {}
+    if sheet not in wb.sheetnames:
+        return saved
+    ws = wb[sheet]
+    for r in range(header_row + 1, ws.max_row + 1):
+        key = tuple(str(ws.cell(row=r, column=c).value) for c in key_cols)
+        vals = tuple(ws.cell(row=r, column=c).value for c in val_cols)
+        if any(v not in (None, "", "Pendiente", "Automático") for v in vals):
+            saved[key] = vals
+    return saved
+
+
 def sheet_calendar(wb, cal):
+    saved = read_saved(wb, "Calendario diario", (1, 5), (9, 10))
     ws = fresh(wb, "Calendario diario", 0)
     title(ws, "Calendario diario: 13 de octubre a 13 de noviembre de 2026",
           "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Las filas «SALE (programado)» son informativas: el correo sale solo si lo programaste la víspera. "
@@ -508,6 +523,10 @@ def sheet_calendar(wb, cal):
                 cell.font = Font(size=10, bold=True)
         ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
         ws.cell(row=r, column=3).alignment = Alignment(horizontal="center", vertical="top")
+        key = (str(t["date"]) + " 00:00:00", t["task"])
+        if key in saved:
+            ws.cell(row=r, column=9, value=saved[key][0] or "Pendiente")
+            ws.cell(row=r, column=10, value=saved[key][1])
         if informative:
             ws.cell(row=r, column=9, value="Automático")
         else:
@@ -526,6 +545,7 @@ def sheet_calendar(wb, cal):
 
 
 def sheet_texts(wb, sends):
+    saved = read_saved(wb, "Textos para copiar", (1, 4, 5), (10,))
     ws = fresh(wb, "Textos para copiar", 1)
     title(ws, "Textos para copiar y pegar",
           "Una fila por envío, ordenada por fecha. Filtra la columna Fecha para ver solo el día que toca. Copia Para, Asunto y Texto sin cambiar nada: la firma ya va incluida. "
@@ -549,6 +569,9 @@ def sheet_texts(wb, sends):
             c.border = BORDER
             c.font = Font(size=10)
             c.fill = PatternFill("solid", fgColor=col.get(s["kind"], GREY))
+        k = (str(s["date"]) + " 00:00:00", s["club"], s["kind"])
+        if k in saved:
+            ws.cell(row=r, column=10, value=saved[k][0])
         ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
         ws.cell(row=r, column=3).alignment = Alignment(horizontal="center", vertical="top")
         ws.row_dimensions[r].height = min(max(est_height(s["body"], 78), est_height(s["how"], 44), 60), 330)
@@ -762,13 +785,21 @@ def update_segment_a(wb, sends):
         if p.get("person"):
             sa.cell(row=r, column=6, value=p["person"])
         sa.cell(row=r, column=11, value=p["subj"])
-        if e1:
+        advanced = sa.cell(row=r, column=9).value in ("Enviado", "Respondido", "Llamada agendada", "Llamada realizada", "Cerrado", "Perdido", "En negociación", "Solo info")
+        if advanced and e1:
+            e1 = None
+            fu1 = next((x for x in mine if x["kind"] == "Follow-up 1"), None)
+        if advanced:
+            pass
+        elif e1:
             sa.cell(row=r, column=9, value="Listo para enviar")
             sa.cell(row=r, column=10, value="Enviar el %s a las %s hora Nueva York (09:30 locales). Textos en la hoja 'Textos para copiar'." % (
                 e1["date"].strftime("%d/%m/%Y"), local_to_ny(e1["date"], e1["tz"])))
             sa.cell(row=r, column=12, value=e1["body"])
         else:
             sa.cell(row=r, column=10, value="Follow-up 1 el %s en el mismo hilo. Textos en la hoja 'Textos para copiar'." % fu1["date"].strftime("%d/%m/%Y"))
+        if advanced and fu1:
+            pass
     # notas puntuales
     def setnote(name, text, append=False):
         r = by_name.get(name)
