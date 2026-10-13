@@ -53,7 +53,7 @@ No un único documento gigante ni reciclar el deck de 27 páginas (desactualizad
 | Material | Estado | Archivo |
 |---|---|---|
 | Deck de empresa — **versión completa** (14 diapositivas: fotos reales de equipos, galería de experiencias) | ✅ Para enviar 1 a 1 a contactos del sector. Nunca publicar en abierto (hay menores identificables) | `02-sales/assets/Always-Up-Company-Deck.pdf` |
-| Deck de empresa — **versión pública** (13 diapositivas, sin menores identificables) | ✅ Subido a LinkedIn Featured el 13/10/2026. Diapositiva de International Camps: pedir visto bueno a ATM/RS antes de publicarlo | `02-sales/assets/Always-Up-Company-Deck-Public.pdf` |
+| Deck de empresa — **versión pública** (13 diapositivas, sin menores identificables) | ✅ Subido a LinkedIn Featured el 13/10/2026. Diapositiva de International Camps: ATM/RS han dado el visto bueno (confirmado por Joel el 13/10/2026) | `02-sales/assets/Always-Up-Company-Deck-Public.pdf` |
 | Ficha Team Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Team-Experience.pdf` |
 | Ficha Coach Experience (2 págs, sin precio, fotos reales) | ✅ Hecha | `02-sales/assets/Always-Up-Coach-Experience.pdf` |
 | Propuesta escrita por servicio (Team, Coach, Camp, Becas, Programa) | ✅ Generador con marca | `07-automations/propuestas/generar_propuesta.py` (ver `propuesta-template.md`) |

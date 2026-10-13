@@ -94,7 +94,8 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 **En curso ahora mismo (agosto 2026):**
 - [x] Setup inicial del repo + CRM ligero + embudo de ventas completo (`02-sales/manual-embudo-ventas.md`)
 - [x] Renegades FC — cerrado (perdido), gestionado correctamente, puerta abierta a futuro
-- [ ] Enviar el primer outreach real (Homefarm FC primero) — máxima prioridad ahora mismo
+- [x] Primeros 3 emails de outreach enviados el 13/10/2026 (Home Farm, Hastings; el de Søreide rebotó y se reenvía el 14/10)
+- [ ] Ejecutar el plan de outreach de 30 días: ver pestaña `Calendario diario` de `01-clients/crm-ventas.xlsx` y `02-sales/plan-outreach-30-dias.md` y `02-sales/plan-captacion-todos-los-servicios.md`
 - [ ] Ampliar la lista de clubes objetivo a más volumen (3-4 candidatos serios, no 1-2)
 - [ ] Checklist legal menores/GDPR/seguros — falta revisión de abogado
 - [ ] Sesión dedicada aparte: estrategia de marca personal (Instagram @Joel_alwaysup) + Player Development

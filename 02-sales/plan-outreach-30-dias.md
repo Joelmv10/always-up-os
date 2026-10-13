@@ -1,6 +1,6 @@
 # Plan de outreach: 13 oct a 13 nov 2026
 
-> Objetivo del mes: **primeras videollamadas de venta con clubes y primera venta real**. Los textos exactos están en la hoja `Outreach - Copiar y pegar` del CRM (`01-clients/crm-ventas.xlsx`), ordenada por fecha. Este documento explica el sistema; la hoja es lo que se usa cada día.
+> Objetivo del mes: **primeras videollamadas de venta con clubes y primera venta real**. Lo que haces cada día está en la pestaña `Calendario diario` del CRM (`01-clients/crm-ventas.xlsx`) y los textos exactos en `Textos para copiar`. Este documento explica el sistema; el Excel es lo que se usa cada día. Plan para todos los servicios: `plan-captacion-todos-los-servicios.md`.
 > Los textos se generan con `07-automations/outreach/generar_outreach.py` (ver `02-sales/outreach-textos-generados.md`). Para añadir un club: añadirlo en el script y volver a ejecutarlo.
 
 ## 1. Lo que hay que tener claro (honestidad primero)
@@ -23,7 +23,7 @@
 
 **Por qué esta cadencia:** la mayoría de respuestas llegan a partir del 2.º o 3.er contacto, y a los comités de club (voluntarios, leen por la noche) les cuadra mejor una semana que tres días. Tres emails más el cierre es el máximo razonable; más se convierte en insistir.
 
-**Dos cambios respecto a lo que había en el CRM:** (1) los follow-ups pasan de día 14 a **día 7 y 14** (antes solo había uno, el 27/10); (2) el email 1 incluye siempre una **pregunta de dos opciones** ("¿llamada corta o prefieres un resumen de una página?"), porque contestar "mándame el resumen" es mucho más fácil que aceptar una llamada con un desconocido, y esa respuesta ya cuenta como lead.
+**Dos cambios respecto a lo que había en el CRM:** (1) los follow-ups pasan de día 14 a **día 7 y 14**; (2) el email 1 incluye siempre una **pregunta de dos opciones** (llamada corta o un resumen). Si piden el resumen, se envían el **deck de empresa y la ficha del servicio**, más dos horarios por si quieren llamada después (ver `Respuestas tipo` en la hoja de textos). Mucho club no quiere una videollamada sin saber algo más, y esa respuesta ya cuenta como lead.
 
 ## 3. Calendario de las próximas dos semanas
 
@@ -40,24 +40,21 @@
 
 Después sigue la hoja. Envía en horario laboral del destinatario: a ti te toca de madrugada en Nueva York, así que **escribe el correo la noche anterior y usa "Programar envío"** (en Outlook: flecha junto a Enviar, "Programar envío").
 
-## 4. Control de calidad antes de pulsar enviar (obligatorio)
+## 4. Control de calidad: lo hace Claude, Joel copia y pega
 
-Cada fallo en un primer contacto es un lead perdido; el lunes lo vimos con Home Farm (saludo con tres nombres) y con Søreide (dirección que rebota).
+**Claude comprueba antes de dejar un correo en el Excel** (lo hace el script `generar_outreach.py`, que se niega a generar la hoja si algo falla):
+1. Destinatario verificado en la web del club o en directorio, con nivel de fiabilidad anotado en la pestaña `Verificación`, y dominio con servidor de correo activo.
+2. Saludo a una sola persona o "Hi team". Nunca varios nombres.
+3. Sin placeholders, nombre del club bien escrito, firma completa, sin adjuntos.
+4. Menos de 150 palabras en el primer correo.
+5. **Tono humano**: sin guiones largos ni palabras típicas de texto generado (leverage, journey, seamless...), frases cortas, contracciones normales.
 
-1. **Para**: coincide con la hoja; el dominio es el del club.
-2. **Saludo**: una persona o "Hi team"; nunca varios nombres separados por barras.
-3. **Sin corchetes ni huecos** sin rellenar, nombre del club bien escrito.
-4. **Firma** de texto plano al final. **Sin adjuntos.**
-5. **Hora programada** = 09:30 locales del destinatario.
-6. **5 minutos después de enviar**: abre la bandeja. Los rebotes llegan casi al instante (el de Søreide llegó en el mismo minuto). Si rebota: no lo des por perdido, busca otra dirección del club y repite.
-7. **Marca la fila** como hecha, con la fecha real, y pasa el estado en el CRM.
-
-El script comprueba por su cuenta placeholders, saludos múltiples y longitud (<150 palabras). Eso no sustituye los puntos 1, 5 y 6, que son humanos.
+**Lo único que no puede hacer Claude, y hace Joel en 2 minutos:** mirar la bandeja a los pocos minutos del envío por si hay rebote (ningún método garantiza que un buzón exista hasta que se envía). Está como tarea diaria en el calendario. Si rebota, Claude busca otra dirección.
 
 ## 5. Lo que pasó con Søreide y los datos pendientes de verificar
 
 - **Rebote de Søreide (13/10):** `ungdomsutvalget@soreideil.no` es un alias que reenvía a una cuenta (`@bergensskolen.com`) que ya no existe. El correo **no llegó**. Reenvío el 14/10 a `fotball@soreideil.no`, la dirección general de la sección de fútbol según la web del club, dirigido a Marius Engen (sportslig leder) y Gunn Eklund Breisnes (leder).
-- **Whitehaven:** el email de Luke Johnston (presidente) lo he sacado de un buscador, no de la web del club. Antes de enviar, comprueba en whitehavenafc.com/contact que existe. Si no, usa la dirección que figure ahí. Es el presidente del club, no necesariamente quien lleva las chicas; el correo ya pide que te redirija.
+- **Whitehaven:** el email de Luke Johnston (presidente) aparece como contacto del club en dos búsquedas, pero la página de contacto de su web (comprobada abriéndola) no lo muestra en texto, así que **no se puede confirmar al 100 %**. El dominio recibe correo. Plan B anotado en la pestaña `Verificación`: Facebook del club o teléfono. El correo ya pide que te redirija a quien lleve las chicas.
 - **Maidstone e IA Akranes:** solo tengo dirección general, así que el correo pide que te indiquen a la persona correcta. Este tipo de correo suele obtener más respuestas que uno dirigido a nadie, pero tienes que tratar la respuesta como "me han dado un nombre" y escribir un segundo correo al nombre.
 - **Costa Daurada Cup:** los clubes ya fueron a Salou en 2026 (Semana Santa y 29/06-01/07). Aparecer en la lista confirma que estaban inscritos, no que fueran; por eso los textos nuevos dicen "listed for the Costa Daurada Cup".
 
@@ -85,7 +82,7 @@ El objetivo no es "presentar Always Up" sino dejar la llamada con **una fecha de
 
 ## 8. Cómo ganar volumen sin perder calidad
 
-- **Cantera ya localizada:** Costa Daurada Cup (clubes del extranjero que ya viajan a España): Lower Ormond (Inglaterra), Morecambe Hawks, ES Manival, MBC FC, FC Porte d'Aquitaine (Francia), Team ALTI, JP Preparation, AEM, Virtu Academy. Excelsior Rotterdam es un club profesional con academia: prioridad baja. Fuente: costadauradacup.com (páginas de equipos confirmados).
+- **Cantera Costa Daurada Cup, ya trabajada:** salen 9 clubes con contacto. Lo que queda (Lower Ormond, ES Manival, MBC FC, Team ALTI, JP Preparation, AEM) es flojo: sin contacto fiable o clubes que no encajan (Morecambe Hawks es un equipo local pequeño). Esa fuente está casi agotada, así que la siguiente tanda necesita otras fuentes (abajo).
 - **Otras fuentes con el mismo perfil (club que ya viaja):** listas de participantes de otros torneos juveniles internacionales de España (Dream Cup, Barcelona y Madrid), y clubes juveniles de Irlanda/Reino Unido/Noruega/Países Bajos que publican sus giras en redes. Siempre clubes que **ya** viajan: venderles un cambio de destino es más fácil que convencer a un club que nunca ha viajado.
 - **Ritmo:** 10 clubes nuevos por sesión, con **nombre del decisor y email verificado en la web del club**, antes de escribir. Dime "investiga 10 más" y los preparo con el mismo formato. Lo que no se puede verificar queda marcado.
 
