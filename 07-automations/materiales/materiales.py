@@ -315,53 +315,70 @@ def build_coach():
 # ================================================================== FICHA BECAS (familias y jugadores, en español)
 def build_becas():
     out = f"{OUTDIR}/Always-Up-Becas-EEUU.pdf"; c = canvas.Canvas(out, pagesize=A4)
-    c.setTitle("Always Up - Becas de fútbol en EE. UU."); c.setAuthor("Always Up")
-    y = f_hero(c, f"{NW}/au_p09_1.png", "BECAS EN EE. UU.",
-               "Estudia y juega en una universidad americana. Te acompañamos en todo el proceso, de la evaluación a la llegada.",
-               (0.5, 0.40), hh=300, g0=0.45, g1=0.85, tb=72)
+    c.setTitle("Always Up - Becas deportivas en EE. UU."); c.setAuthor("Always Up")
+    # ---------------- página 1: qué es y lo que casi nadie sabe
+    y = f_hero(c, f"{NW}/au_p09_1.png", "ESTUDIA Y COMPITE EN EE. UU.",
+               "Becas y oportunidades deportivas en high schools y universidades americanas, en fútbol y en otros deportes. Te acompañamos desde la evaluación hasta tu llegada.",
+               (0.5, 0.0), hh=290, g0=0.50, g1=0.92, tb=84)
     y -= 14
     bw = (W-2*M-16)/3
-    stats = [("+1.146", "universidades y colegios con los que trabajamos"), ("+705", "atletas gestionados en EE. UU."), ("100%", "personalizado: evaluamos tu perfil antes de nada")]
-    for i, (n, d) in enumerate(stats):
-        x = M+i*(bw+8); c.setFillColor(LIGHT); c.roundRect(x, y-70, bw, 70, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y-70, 3.5, 70, stroke=0, fill=1)
+    stats = [("~2.000", "universidades y colleges con deporte universitario (NCAA, NAIA y NJCAA)"), ("+2.900", "equipos universitarios de fútbol, masculinos y femeninos"),
+             ("15 a 23", "años: de high school a la universidad, y másters según el caso")]
+    for i_, (n, d) in enumerate(stats):
+        x = M+i_*(bw+8); c.setFillColor(LIGHT); c.roundRect(x, y-70, bw, 70, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y-70, 3.5, 70, stroke=0, fill=1)
         c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 22); c.drawString(x+14, y-30, n); para(c, d, sty("sd", fontSize=8.8, leading=11.5, textColor=GREY), x+14, y-38, bw-24)
-    y -= 70+12; y = f_h2(c, "Cómo funciona", y)
-    steps_ = [("Evaluación", "Revisamos tu vídeo, tu nivel y tus notas, y te decimos con honestidad qué es realista."), ("Perfil deportivo", "Creamos tu currículum deportivo personalizado."),
-              ("Contacto con entrenadores", "Hablamos directamente con entrenadores de universidades y high schools que encajan contigo."), ("Ofertas y admisión", "Te ayudamos a decidir, y con la admisión y el visado."),
-              ("Llegada y seguimiento", "Te acompañamos para que empieces bien tu etapa en EE. UU.")]
-    for i, (t_, b_) in enumerate(steps_):
-        yy = y - i*44
-        c.setFillColor(RED); c.circle(M+13, yy-16, 13, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 13); c.drawCentredString(M+13, yy-20.5, str(i+1))
-        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 11.5); c.drawString(M+36, yy-12, t_); para(c, b_, sty("ss", fontSize=9.6, leading=12.6), M+36, yy-17, W-2*M-40)
-    y -= 5*44+6; y = f_h2(c, "Qué incluye", y)
-    inc = [("Evaluación deportiva", "de tu perfil y tu vídeo."), ("Currículum deportivo", "personalizado."), ("Comunicación directa", "con entrenadores de universidades y high schools."),
-           ("Gestión de requisitos", "académicos y administrativos."), ("Apoyo en admisión y visado.", ""), ("Oportunidades de beca", "adaptadas a tu nivel, notas y objetivos.")]
-    f_bullets(c, inc, y, gap=4)
+    y -= 70+12; y = f_h2(c, "Lo que mucha gente no sabe antes de empezar", y)
+    know = [("No todas las becas son completas.", "La mayoría son parciales, y es lo normal. El objetivo no es el 100 %, sino encontrar el mejor equilibrio entre nivel deportivo, universidad y coste real para tu familia."),
+            ("El momento importa.", "Los entrenadores suelen decidir a quién quieren 12 a 18 meses antes de que el jugador empiece. Empezar tarde no lo cierra todo, pero limita las opciones."),
+            ("El deporte no es lo único que se evalúa.", "Pesan también las notas (hay mínimos académicos para competir en la NCAA), el nivel de inglés y tener vídeo reciente de partidos."),
+            ("High school y universidad son caminos distintos.", "En la universidad hay becas deportivas y académicas. En high school suelen ser plazas en colegios privados con ayudas parciales. Te decimos cuál encaja con tu edad y tus objetivos.")]
+    y = f_bullets(c, know, y, gap=7)
+    y -= 6; y = f_h2(c, "Un sistema con muchas puertas", y)
+    lw_ = 250; lh_ = lw_*341/1024
+    c.drawImage(ImageReader(f"{NW}/au_p11_2.png"), M, y-lh_, lw_, lh_)
+    para(c, "La NCAA (divisiones I, II y III), la NAIA y los junior colleges (NJCAA) tienen niveles, presupuestos y reglas muy distintos, para jugadores muy distintos. Parte de nuestro trabajo es encontrar la puerta que encaja contigo.",
+         sty("sy", fontSize=9.6, leading=13), M+lw_+16, y-4, W-2*M-lw_-16)
+    y -= lh_+14
+    f_photo_row(c, [(f"{NW}/au_p09_0.png", "COMPITIENDO EN EE. UU.", (0.5, 0.22)), (f"{NW}/au_p11_0.png", "EQUIPO UNIVERSITARIO", (0.5, 0.55))], y, 96)
     f_footer(c); c.showPage()
 
-    y = f_mini_header(c, "BECAS DE FÚTBOL EN EE. UU.")
+    # ---------------- página 2: cómo funciona, preguntas y siguiente paso
+    y = f_mini_header(c, "BECAS DEPORTIVAS EN EE. UU.")
     y = f_h2(c, "Para quién es", y)
-    y = f_chips(c, y, ["Jugadores y jugadoras de 15 a 18 años", "Últimos cursos de bachillerato", "Nivel competitivo real"]); y -= 4
-    y = f_chips(c, y, ["Con vídeo reciente", "Con expediente académico"]); y -= 12
-    y = f_h2(c, "Qué necesitamos para empezar", y)
-    need = [("Edad y año de graduación", "para saber si hay plazo real."), ("Equipo y categoría actual", "y si eres titular."), ("Vídeo reciente", "jugando (últimos 6 meses)."), ("Notas", "o expediente académico.")]
-    nw = (W-2*M-24)/4
-    for i, (a_, b_) in enumerate(need):
-        x = M+i*(nw+8); c.setFillColor(LIGHT); c.roundRect(x, y-86, nw, 86, 6, stroke=0, fill=1); c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 20); c.drawString(x+12, y-28, str(i+1))
-        para(c, f"<b>{a_}</b><br/>{b_}", sty("nd", fontSize=8.8, leading=11.4), x+12, y-34, nw-20)
-    y -= 86+12; y = f_h2(c, "Preguntas frecuentes", y)
+    y = f_chips(c, y, ["Deportistas de 15 a 23 años", "High school, universidad y másters", "Fútbol y otros deportes"]); y -= 2
+    y = f_chips(c, y, ["Con vídeo reciente", "Con expediente académico"]); y -= 8
+    y = f_h2(c, "Cómo funciona y qué incluye", y)
+    steps_ = [("Evaluación", "Revisamos tu vídeo, tu nivel y tus notas, y te decimos con honestidad qué es realista."),
+              ("Perfil deportivo", "Creamos tu currículum deportivo y académico personalizado."),
+              ("Contacto con entrenadores", "Hablamos directamente con entrenadores de universidades y high schools que encajan contigo."),
+              ("Oportunidades y admisión", "Buscamos oportunidades de beca según tu nivel, tus notas y tus objetivos, y te ayudamos con los requisitos, la admisión y el visado."),
+              ("Llegada y seguimiento", "Te acompañamos para que empieces bien tu etapa en EE. UU.")]
+    for i_, (t_, b_) in enumerate(steps_):
+        yy = y
+        c.setFillColor(RED); c.circle(M+11, yy-13, 11, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 11.5); c.drawCentredString(M+11, yy-17, str(i_+1))
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 11); c.drawString(M+32, yy-10, t_); hb = para(c, b_, sty("ss", fontSize=9.3, leading=12), M+32, yy-14, W-2*M-36)
+        y = yy - max(34, 14 + hb + 9)
+    y -= 4; y = f_h2(c, "Preguntas frecuentes", y)
     faqs = [("¿Aseguráis la beca?", "No. Nadie puede garantizarla: depende de tu nivel, tus notas y del interés de los entrenadores. Te decimos con honestidad qué es realista en tu caso."),
-            ("¿Cuánto cuesta el año en EE. UU.?", "Hay muchas opciones y ligas universitarias (NCAA, NAIA, junior colleges). El coste va desde 0 (beca completa) hasta más de 40.000 $ al año según el programa, y nos adaptamos a tus objetivos y preferencias."),
+            ("¿Cuánto cuesta el año en EE. UU.?", "Hay muchas opciones. El coste va desde 0 (beca completa) hasta más de 40.000 $ al año, según el programa, y nos adaptamos a tus objetivos."),
             ("¿Cuánto cuesta el proceso con Always Up?", "Lo vemos en la llamada, una vez evaluado tu caso, para darte algo concreto y no un número genérico."),
             ("¿Cuándo conviene empezar?", "Cuanto antes: lo ideal es 12 meses o más antes de la fecha de entrada."),
-            ("¿Tengo que ser de nivel muy alto?", "No siempre. Hay programas de distintos niveles, y lo importante es encontrar el encaje adecuado para ti.")]
+            ("¿Y si practico otro deporte?", "Nuestro foco es el fútbol, pero también podemos orientarte si practicas baloncesto, béisbol u otro deporte. Cuéntanos el tuyo y te decimos qué es realista.")]
     for q, a_ in faqs:
-        h1 = para(c, f"<b>{q}</b>", sty("fq", fontSize=9.8, leading=12.4, textColor=NAVY), M, y, W-2*M); y -= h1+1
-        h2_ = para(c, a_, sty("fa", fontSize=9.2, leading=12.4), M, y, W-2*M); y -= h2_+8
-    y -= 4
-    f_photo_row(c, [(f"{NW}/au_p09_0.png", "COMPITIENDO EN EE. UU.", (0.5, 0.45)), (f"{NW}/au_p09_1.png", "JUGADORES ESPAÑOLES EN EL FÚTBOL UNIVERSITARIO", (0.5, 0.45))], y, 78); y -= 90
-    f_cta(c, y, 64, "Da el primer paso", f"Agenda tu llamada de evaluación: {CAL}  ·  o responde a este mensaje con tu vídeo.")
-    f_footer(c); c.showPage(); c.save(); return out
+        h1 = para(c, f"<b>{q}</b>", sty("fq", fontSize=9.6, leading=12), M, y, W-2*M); y -= h1+1
+        h2_ = para(c, a_, sty("fa", fontSize=9, leading=11.8), M, y, W-2*M); y -= h2_+6
+    y -= 4; y = f_h2(c, "Para dar el primer paso, necesitamos", y)
+    need = [("Edad y curso", "para saber qué plazos hay."), ("Deporte, equipo y categoría", "y si eres titular."), ("Vídeo reciente", "jugando (últimos 6 meses)."), ("Notas", "o expediente académico.")]
+    nw = (W-2*M-24)/4
+    for i_, (a_, b_) in enumerate(need):
+        x = M+i_*(nw+8); c.setFillColor(LIGHT); c.roundRect(x, y-62, nw, 62, 6, stroke=0, fill=1); c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 15); c.drawString(x+10, y-21, str(i_+1))
+        para(c, f"<b>{a_}</b> {b_}", sty("nd", fontSize=8.4, leading=10.6), x+30, y-9, nw-38)
+    y -= 62+10
+    f_cta(c, y, 62, "Agenda tu llamada de evaluación", f"{CAL}  ·  o responde con tu vídeo.")
+    y -= 62+8
+    f_footer(c)
+    c.setFillColor(GREY); c.setFont("Helvetica-Oblique", 6.8); c.drawString(M, 40, "Cifras aproximadas de la NCAA, la NAIA, la NJCAA y NCSA; pueden variar por temporada.")
+    c.showPage(); c.save(); return out
 
 # ================================================================== DECK (16:9 horizontal)
 DW, DH = 960, 540; DM = 54
