@@ -348,7 +348,7 @@ def build_calendar(sends):
             continue
         lines = ["• %s | %s | programar para las %s hora Nueva York (09:30 allí)" % (label(x["club"]), x["kind"], local_to_ny(x["date"], x["tz"])) for x in items]
         prev = max(dd - dt.timedelta(days=1), D(2026, 10, 14))
-        if dd > TODAY_BUILD:
+        if dd > D(2026, 10, 14):
             add(prev, "Tarde", 1200, "Team/Coach", "Programar en Apple Mail los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
                 "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma, sin adjuntos. En Mail: flecha junto a Enviar > Enviar más tarde > fecha y hora indicadas.\n%s\nRegla: una vez programado, NO lo envíes a mano (se duplicaría). Si a las 08:00 no aparece enviado, entonces sí." % (dd.strftime("%d/%m"), "\n".join(lines)),
                 "Textos para copiar", 15 + 5 * len(items))
