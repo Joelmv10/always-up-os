@@ -226,10 +226,10 @@ LI="Bonjour {first}, je suis Joel, je dirige Always Up. Nous emmenons des équip
 DM="Bonjour ! Je suis Joel d'Always Up. Nous emmenons des équipes de jeunes en Espagne pour des semaines d'entraînement (Atlético de Madrid, Real Sociedad). J'ai écrit au club récemment. Qui serait la bonne personne pour parler des déplacements des équipes de jeunes ?"),
 }
 
-HOW_EMAIL = ("Correo nuevo desde joel.martinez@alwaysup.es en Mail. Pega Para, Asunto y Texto tal cual (la firma ya va dentro). Sin adjuntos. "
-             "Envíalo a mano a las 07:30 de Nueva York.")
-HOW_FU = ("Abre el correo original en Enviados > Responder (así queda en el mismo hilo). Pega el texto. Sin adjuntos. "
-          "Envíalo a las 07:30 de Nueva York. Antes, mira en el CRM que no haya contestado por otro canal.")
+HOW_EMAIL = ("En Mail: correo nuevo desde joel.martinez@alwaysup.es. Pega Para, Asunto y Texto tal cual (la firma ya va dentro). Sin adjuntos. "
+             "Flecha junto a Enviar > Enviar más tarde > fecha y la hora de la columna C. Una vez programado, no lo envíes a mano.")
+HOW_FU = ("Busca el correo original por destinatario (Outlook buscador > All folders, o Mail > Enviados) y pulsa Responder para que quede en el mismo hilo. Pega el texto. Sin adjuntos. "
+          "Envíalo más tarde a la hora de la columna C. Antes, mira en el CRM que no haya contestado por otro canal.")
 HOW_LI = ("A mano en LinkedIn: perfil de la persona > Conectar > Añadir nota > pegar el texto (máx. 300 caracteres). "
           "Si no deja añadir nota, conecta sin nota y manda el texto cuando acepte.")
 HOW_DM = "A mano desde la cuenta de la red indicada. Solo si no ha contestado al follow-up 2. Sin enlaces."
@@ -338,7 +338,7 @@ def build_calendar(sends):
                 "Textos para copiar (final de la hoja)", 15)
         d += dt.timedelta(days=1)
 
-    # --- envíos por fecha: se envían a mano a las 07:30 hora Nueva York
+    # --- envíos por fecha: se programan la víspera en Apple Mail; se confirman a las 08:00
     by_date = {}
     for s in sends:
         if s["tz"] and s["date"] >= TODAY_BUILD:
@@ -346,9 +346,15 @@ def build_calendar(sends):
     for dd, items in sorted(by_date.items()):
         if dd > end:
             continue
-        add(dd, "07:45", 465, "Team/Coach", "Comprobar rebotes de los correos que acabas de enviar",
-            "Cinco minutos después de enviar, mira Recibidos: los rebotes llegan casi al instante (mensaje del sistema con 'Undeliverable' o 'permanent fatal errors'). Si hay uno, anótalo en la columna Notas y avísame: busco otra dirección del club y te la dejo preparada. Mira también Enviados para confirmar que salieron.",
-            "Enviados / Recibidos", 5)
+        lines = ["• %s | %s | programar para las %s hora Nueva York (09:30 allí)" % (label(x["club"]), x["kind"], local_to_ny(x["date"], x["tz"])) for x in items]
+        prev = max(dd - dt.timedelta(days=1), D(2026, 10, 14))
+        if dd > TODAY_BUILD:
+            add(prev, "Tarde", 1200, "Team/Coach", "Programar en Apple Mail los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
+                "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma, sin adjuntos. En Mail: flecha junto a Enviar > Enviar más tarde > fecha y hora indicadas.\n%s\nRegla: una vez programado, NO lo envíes a mano (se duplicaría). Si a las 08:00 no aparece enviado, entonces sí." % (dd.strftime("%d/%m"), "\n".join(lines)),
+                "Textos para copiar", 15 + 5 * len(items))
+        add(dd, "8:00", 481, "Team/Coach", "Confirmar que salieron los correos de hoy y mirar rebotes",
+            "Para cada correo: en Outlook, buscador > escribe el destinatario > 'All folders' (el correo puede estar en 'INBOX.Sent' o 'Sent Messages', no solo en 'Sent'); o en Mail, mira el buzón Enviados. Si aparece: marca Hecho en 'Textos para copiar'. Si NO aparece: envíalo ya a mano. Después mira Recibidos por si hay rebote ('Undeliverable' o 'permanent fatal errors'); si lo hay, anótalo y avísame.",
+            "Outlook buscador / Mail Enviados", 10)
     for s in sends:
         if s["date"] < TODAY_BUILD or s["date"] > end:
             continue
@@ -361,9 +367,10 @@ def build_calendar(sends):
         if s["kind"] in ("Email 1", "Follow-up 1", "Follow-up 2", "Cierre"):
             who = label(s["club"])
             loc = dt.datetime(s["date"].year, s["date"].month, s["date"].day, 7, 30, tzinfo=NY).astimezone(ZoneInfo(s["tz"])).strftime("%H:%M")
-            add(s["date"], "07:30", 450, "Team/Coach", "ENVIAR %s a %s" % (s["kind"].lower().replace("cierre", "cierre"), who),
-                "Copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha de hoy). Revisa en 30 segundos: saludo, nombre del club, firma abajo, sin adjuntos. Envía. Allí son las %s, horario laboral. Si es un follow-up, responde dentro del hilo del correo anterior (Enviados > abrir > Responder)." % loc,
-                "Textos para copiar", 5)
+            nyt = local_to_ny(s["date"], s["tz"])
+            add(s["date"], nyt, int(nyt[:2]) * 60 + int(nyt[3:]), "Team/Coach", "ENVIAR %s a %s" % (s["kind"].lower(), who),
+                "Sale a las %s hora Nueva York (09:30 allí) si lo programaste la víspera. No hace falta hacer nada a esta hora. Si es follow-up, se envía respondiendo al correo original (búscalo por destinatario en Outlook o Mail y pulsa Responder)." % nyt,
+                "Textos para copiar", 0)
 
     # --- tareas puntuales
     A = add
@@ -371,6 +378,7 @@ def build_calendar(sends):
     A(D(2026, 10, 13), "21:00", 1260, "Transversal", "Prueba de entregabilidad (por qué tus correos caen en spam)",
       "1) Desde joel.martinez@alwaysup.es manda a tu Gmail personal un correo con texto normal (pega el de Holbeach) y asunto normal. 2) Ábrelo en Gmail > tres puntos > Mostrar original: copia lo que ponga en SPF, DKIM y DMARC (deben decir PASS). 3) Entra en mail-tester.com, copia la dirección que te da, mándale desde alwaysup.es el mismo texto y pulsa 'Then check your score'. Pásame la nota y el resultado de SPF, DKIM y DMARC. No pegues nada más.", "Chat con Claude", 15)
     A(D(2026, 10, 14), "Libre", 650, "Transversal", "Opcional: pruebas de envío programado en Apple Mail (máx. 15 min)", "Programa un correo a ti mismo a 10 minutos con (1) Mail abierto y el Mac despierto, (2) Mail cerrado, (3) Mac en reposo. Anota cuál sale. Si ninguno funciona con el Mac apagado, no se programa: se envía a mano a las 07:30.", "Mail de Apple", 15)
+    A(D(2026, 10, 14), "Libre", 640, "Team/Coach", "Comprobar si Søreide y Holbeach recibieron el correo una o dos veces", "En Outlook: buscador > 'fotball@soreideil.no' y luego 'callum@holbeachunitedacademy.com' > All folders. Cuenta cuántas copias hay y a qué hora salió cada una. Dime el resultado: si hay duplicado, no escribas nada al club (disculparse llama más la atención); solo se responde con naturalidad si ellos lo mencionan.", "Outlook buscador", 5)
     A(D(2026, 10, 14), "Libre", 655, "Transversal", "Prueba de spam con Microsoft (antes del lote del jueves)",
       "Tres de los cinco clubes del jueves y Hastings usan correo Microsoft 365, que es el filtro más estricto con dominios nuevos. Manda el correo de Whitehaven (texto normal) a una cuenta Outlook o Hotmail (la tuya, de un amigo o una gratuita que crees tú) y mira si cae en Recibidos o en Correo no deseado. Cuéntame el resultado. Si cae en spam, lo marcas 'No es spam' y repetimos mañana.", "Chat con Claude", 10)
     A(D(2026, 10, 15), "Libre", 650, "Transversal", "Ajustar Calendly por mercado (franjas distintas para clubes y familias)",
@@ -471,7 +479,7 @@ def sheet_calendar(wb, cal):
     saved = read_saved(wb, "Calendario diario", (1, 5), (9, 10))
     ws = fresh(wb, "Calendario diario", 0)
     title(ws, "Calendario diario: 13 de octubre a 13 de noviembre de 2026",
-          "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se envían a mano a las 07:30 (hora de Nueva York), que son las 12:30 o 13:30 en Europa. "
+          "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se programan la víspera en Apple Mail (Enviar más tarde) para las 09:30 de cada club; a las 08:00 compruebas que salieron. "
           "Cambia la columna Estado a Hecho al terminar. Hoy se marca en amarillo. Si algo queda Pendiente de un día anterior, sale en rojo.", span=9)
     head(ws, 4, ["Fecha", "Día", "Hora (NY)", "Servicio", "Tarea", "Cómo se hace, paso a paso", "Dónde está el texto", "Min", "Estado"],
          [11, 11, 9, 16, 40, 78, 24, 6, 12])
@@ -537,8 +545,8 @@ def sheet_texts(wb, sends):
     ws = fresh(wb, "Textos para copiar", 1)
     title(ws, "Textos para copiar y pegar",
           "Una fila por envío, ordenada por fecha. Filtra la columna Fecha para ver solo el día que toca. Copia Para, Asunto y Texto sin cambiar nada: la firma ya va incluida. "
-          "Hora = cuándo enviarlo a mano (07:30 de Nueva York; entre paréntesis, la hora allí). Los textos están revisados por Claude: sin guiones largos, sin placeholders, saludo a una sola persona.", span=11)
-    head(ws, 4, ["Fecha", "Día", "Enviar a las (NY)", "Club", "Tipo", "Para", "Asunto", "Texto para pegar", "Cómo enviarlo", "Hecho (fecha real)", "Qué hacer si..."],
+          "Hora = a qué hora de Nueva York programar el envío (son las 09:30 en el país del club). Los textos están revisados por Claude: sin guiones largos, sin placeholders, saludo a una sola persona.", span=11)
+    head(ws, 4, ["Fecha", "Día", "Programar para (NY)", "Club", "Tipo", "Para", "Asunto", "Texto para pegar", "Cómo enviarlo", "Hecho (fecha real)", "Qué hacer si..."],
          [11, 9, 14, 26, 15, 30, 34, 78, 44, 14, 36])
     col = {"Email 1": LBLUE, "Follow-up 1": LYEL, "Follow-up 2": LORG, "Cierre": "EEEEEE", "LinkedIn conectar": "F3E8FF", "DM en redes": "F3E8FF"}
     ifs = {"Email 1": "Rebota: avísame y busco otra dirección. Contesta: para la cadencia y mira 'Respuestas tipo' abajo.",
@@ -549,11 +557,7 @@ def sheet_texts(wb, sends):
     for s in sends:
         if s["date"] < TODAY_BUILD:
             continue
-        if s["tz"]:
-            loc = dt.datetime(s["date"].year, s["date"].month, s["date"].day, 7, 30, tzinfo=NY).astimezone(ZoneInfo(s["tz"])).strftime("%H:%M")
-            ny = "07:30 (allí %s)" % loc
-        else:
-            ny = "Libre"
+        ny = ("%s (09:30 allí)" % local_to_ny(s["date"], s["tz"])) if s["tz"] else "Libre"
         vals = [s["date"], spanish_day(s["date"]).capitalize(), ny, s["club"], s["kind"], s["to"], s["subj"], s["body"], s["how"], None, ifs.get(s["kind"], "")]
         for i, v in enumerate(vals, 1):
             c = ws.cell(row=r, column=i, value=v)
@@ -718,9 +722,12 @@ def sheet_readme(wb):
         ("Segmento A / B / C", "Las listas de clubes (A), universidades y clubes de América (B) y leads de becas (C). Actualiza Estado y Fecha de último contacto."),
         ("Dashboard, LinkedIn, Oportunidades", "Fotos del embudo, registro de LinkedIn y notas sueltas."),
         ("COMO Y CUANDO ENVIAR", ""),
-        ("Regla actual (14/10/2026)", "Los correos se envían a mano a las 07:30 de Nueva York (12:30 o 13:30 en Europa). El 14/10 el envío programado con Apple Mail no salió, y no se programa nada hasta entender el motivo."),
-        ("Por qué sirve", "Es horario laboral del club. Lo que importa es enviar de martes a jueves, no la hora exacta de las 09:30. Y te encaja con tu revisión de las 08:00."),
-        ("Si encuentras un método fiable", "Si tras tus pruebas encuentras una forma de programar que funcione con el ordenador apagado, se puede volver a usar. Mientras tanto, a mano."),
+        ("Qué se ha comprobado (14/10/2026)", "El envío programado con Mail de Apple SÍ sale: llegó con Mail abierto, con Mail cerrado y con el Mac en reposo. Puede retrasarse unos 10 minutos y no avisa. Los correos programados del 14/10 sí salieron (Holbeach, 04:41)."),
+        ("Por qué parecía que no salían", "El correo enviado se guarda en carpetas distintas según el programa: 'Sent' (Outlook), 'INBOX.Sent' (servidor) y 'Sent Messages' (Mail). No lo ves donde miras. Para comprobar: Outlook > buscador > escribe el destinatario > All folders."),
+        ("Cómo se programa", "Mail: correo nuevo, pega todo, flecha junto a Enviar > Enviar más tarde > fecha y hora de la columna 'Programar para (NY)'. Se programa la víspera por la tarde."),
+        ("Regla para no duplicar", "Una vez programado un correo, no lo envíes a mano. A las 08:00 busca al destinatario en todas las carpetas: si aparece, marca Hecho; solo si no aparece, lo envías a mano."),
+        ("Control", "La fuente de verdad es esta hoja: columna 'Hecho (fecha real)' de 'Textos para copiar' y el CRM. No dependas de la carpeta Enviados de ningún programa."),
+        ("Truco opcional", "Pon tu Gmail personal en copia oculta (CCO) de cada correo a un club: recibirás una copia como prueba de que salió, y verás en Gmail si entra en bandeja. El club no lo ve."),
         ("TUS FRANJAS DE LLAMADA", ""),
         ("Lo que tienes en Calendly (hora Nueva York)", "Dom 12:00 a 17:00 | Lun 17:30 a 21:00 | Mar 13:00 a 19:00 | Mié 11:00 a 12:30 | Jue 17:00 a 21:00 | Vie 14:00 a 18:00 | Sáb no disponible."),
         ("Clubes de Europa (+5 h en UK e Irlanda, +6 h en Noruega, Francia y Países Bajos; +4 y +5 del 25 al 31/10)", "Sirven: Martes 13:00 a 15:00 (18:00 a 20:00 en UK, buen horario para comités de voluntarios) y Miércoles 11:00 a 12:30 (16:00 a 17:30 en UK). Mal: Lunes y Jueves por la tarde (ya es de madrugada allí), Viernes (noche) y Domingo (tarde de domingo)."),
