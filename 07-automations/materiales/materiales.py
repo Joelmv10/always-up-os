@@ -322,8 +322,8 @@ def build_becas():
                (0.5, 0.0), hh=290, g0=0.50, g1=0.92, tb=84)
     y -= 14
     bw = (W-2*M-16)/3
-    stats = [("~2.000", "universidades y colleges con deporte universitario (NCAA, NAIA y NJCAA)"), ("+2.900", "equipos universitarios de fútbol, masculinos y femeninos"),
-             ("15 a 23", "años: de high school a la universidad, y másters según el caso")]
+    stats = [("+1.146", "universidades y colegios de nuestra red de colaboración en EE. UU."), ("+705", "atletas gestionados en EE. UU. por nuestra red"),
+             ("100%", "personalizado: evaluamos tu perfil antes de nada")]
     for i_, (n, d) in enumerate(stats):
         x = M+i_*(bw+8); c.setFillColor(LIGHT); c.roundRect(x, y-70, bw, 70, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y-70, 3.5, 70, stroke=0, fill=1)
         c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 22); c.drawString(x+14, y-30, n); para(c, d, sty("sd", fontSize=8.8, leading=11.5, textColor=GREY), x+14, y-38, bw-24)
@@ -331,15 +331,20 @@ def build_becas():
     know = [("No todas las becas son completas.", "La mayoría son parciales, y es lo normal. El objetivo no es el 100 %, sino encontrar el mejor equilibrio entre nivel deportivo, universidad y coste real para tu familia."),
             ("El momento importa.", "Los entrenadores suelen decidir a quién quieren 12 a 18 meses antes de que el jugador empiece. Empezar tarde no lo cierra todo, pero limita las opciones."),
             ("El deporte no es lo único que se evalúa.", "Pesan también las notas (hay mínimos académicos para competir en la NCAA), el nivel de inglés y tener vídeo reciente de partidos."),
-            ("High school y universidad son caminos distintos.", "En la universidad hay becas deportivas y académicas. En high school suelen ser plazas en colegios privados con ayudas parciales. Te decimos cuál encaja con tu edad y tus objetivos.")]
+            ("No hace falta ser de élite.", "Hay cientos de universidades de niveles muy distintos (NCAA I, II y III, NAIA y junior colleges), así que hay sitio para jugadores de niveles muy distintos. El reto es encontrar el tuyo.")]
     y = f_bullets(c, know, y, gap=7)
-    y -= 6; y = f_h2(c, "Un sistema con muchas puertas", y)
-    lw_ = 250; lh_ = lw_*341/1024
+    y -= 4; ytop = y
+    phw = 188; colw = W-2*M-phw-18; ph_ = min(max(ytop-48, 150), 250)
+    c.drawImage(fit(f"{NW}/au_p09_0.png", phw, ph_, (0.5, 0.50)), W-M-phw, ytop-ph_, phw, ph_)
+    c.setFillColor(colors.Color(0, 0.08, 0.3, alpha=0.78)); c.rect(W-M-phw, ytop-ph_, phw, 15, stroke=0, fill=1)
+    c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 7); c.drawString(W-M-phw+5, ytop-ph_+4.6, "COMPITIENDO EN EE. UU.")
+    y = f_h2(c, "Un sistema con muchas puertas", y)
+    lw_ = min(colw, 250); lh_ = lw_*341/1024
     c.drawImage(ImageReader(f"{NW}/au_p11_2.png"), M, y-lh_, lw_, lh_)
-    para(c, "La NCAA (divisiones I, II y III), la NAIA y los junior colleges (NJCAA) tienen niveles, presupuestos y reglas muy distintos, para jugadores muy distintos. Parte de nuestro trabajo es encontrar la puerta que encaja contigo.",
-         sty("sy", fontSize=9.6, leading=13), M+lw_+16, y-4, W-2*M-lw_-16)
-    y -= lh_+14
-    f_photo_row(c, [(f"{NW}/au_p09_0.png", "COMPITIENDO EN EE. UU.", (0.5, 0.22)), (f"{NW}/au_p11_0.png", "EQUIPO UNIVERSITARIO", (0.5, 0.55))], y, 96)
+    y -= lh_+10
+    para(c, "Casi 2.000 universidades y colleges de la NCAA (divisiones I, II y III), la NAIA y los junior colleges (NJCAA), con más de 2.900 equipos de fútbol entre masculinos y femeninos. Niveles, presupuestos y reglas muy distintos, para jugadores muy distintos. Parte de nuestro trabajo es encontrar la puerta que encaja contigo.",
+         sty("sy", fontSize=9.6, leading=13), M, y, colw)
+    c.setFillColor(GREY); c.setFont("Helvetica-Oblique", 6.8); c.drawString(M, 40, "Cifras de la NCAA, la NAIA y la NJCAA aproximadas; pueden variar por temporada.")
     f_footer(c); c.showPage()
 
     # ---------------- página 2: cómo funciona, preguntas y siguiente paso
@@ -377,7 +382,6 @@ def build_becas():
     f_cta(c, y, 62, "Agenda tu llamada de evaluación", f"{CAL}  ·  o responde con tu vídeo.")
     y -= 62+8
     f_footer(c)
-    c.setFillColor(GREY); c.setFont("Helvetica-Oblique", 6.8); c.drawString(M, 40, "Cifras aproximadas de la NCAA, la NAIA, la NJCAA y NCSA; pueden variar por temporada.")
     c.showPage(); c.save(); return out
 
 # ================================================================== DECK (16:9 horizontal)
