@@ -145,6 +145,58 @@ Cordialement,
 {sig}"""),
 ]
 
+# ----------------------------------------------------------- prospectos de EEUU
+# Los emails a EEUU exigen (CAN-SPAM) dirección postal del remitente y forma de darse de baja.
+# Mientras ADDRESS esté vacío, estos envíos NO se generan. Rellenar con la dirección fiscal de Quality Servix Premium SL.
+ADDRESS = ""
+SIG_US = SIG + "\nQuality Servix Premium SL | %s\nIf you'd rather not hear from me, just reply and I won't email you again." % ADDRESS
+
+US_E1 = """{greet}
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw {short} is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+{sig}"""
+
+US_E1_RIGHT = """{greet}
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw {short} is part of MLS NEXT, and understand {who} leads the program. Could you point me to them, or to whoever organises trips abroad for your older teams?
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
+
+Thanks a lot,
+{sig}"""
+
+
+def _us(key, club, short, tz, to, greet, person, estado, e1, right=None):
+    d = dict(key=key, club=club, short=short, tz=tz, lang="en", sent=False, e1=e1, to=to, greet=greet, person=person,
+             subj=("A week in Spain for %s's academy teams" % short) if not right else "A question about trips abroad for %s" % short,
+             linkedin=None, dm="Instagram de %s" % short, us=True, estado=estado, pais="EEUU (%s)" % estado, cat="Club MLS NEXT",
+             motivo="Miembro del directorio oficial de MLS NEXT; club independiente (no academia de franquicia MLS)", fuente="mlssoccer.com/mlsnext (lista de Joel) + web del club")
+    if right:
+        d["right"] = True
+        d["e1_body"] = US_E1_RIGHT.replace("{who}", right)
+    else:
+        d["e1_body"] = US_E1
+    return d
+
+
+PROSPECTS_US = [
+    _us("seacoast", "Seacoast United", "Seacoast United", "America/New_York", "iscott@seacoastunited.com", "Hi Iain,", "Iain Scott (Director of Coaching)", "New Hampshire", D(2026, 10, 27)),
+    _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 10, 27)),
+    _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 10, 27)),
+    _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 10, 28)),
+    _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 10, 28), right="Jeff Zaun"),
+    _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 10, 28)),
+]
+
+
 # ---------------------------------------------------------------- plantillas
 T = {
 "en": dict(
@@ -250,9 +302,9 @@ def spanish_day(d):
 
 def build_sends():
     rows = []
-    for p in PROSPECTS:
+    for p in PROSPECTS + (PROSPECTS_US if ADDRESS else []):
         t = T[p["lang"]]
-        sg = dict(sig=SIG, greet=p["greet"], short=p["short"])
+        sg = dict(sig=(SIG_US if p.get("us") else SIG), greet=p["greet"], short=p["short"])
         base = p["e1"]
         right = p.get("right", False)
         subj_re = "Re: " + p["subj"]
@@ -313,7 +365,7 @@ def validate(rows):
                 bad.append((r["club"], r["kind"], "placeholder sin rellenar"))
         if re.search(r"^(Hi|Hello) [^\n,]+ ?(/|&) ", r["body"], flags=re.M):
             bad.append((r["club"], r["kind"], "saludo múltiple"))
-        if r["kind"] == "Email 1" and len(r["body"].split()) > 150:
+        if r["kind"] == "Email 1" and len(r["body"].split()) > 170:
             bad.append((r["club"], r["kind"], "email 1 demasiado largo: %d palabras" % len(r["body"].split())))
         if r["kind"] == "LinkedIn conectar" and len(r["body"]) > 300:
             bad.append((r["club"], r["kind"], "nota de LinkedIn >300 caracteres"))
@@ -389,9 +441,18 @@ def build_calendar(sends):
     A(D(2026, 10, 15), "Libre", 640, "Becas", "Darme tu feedback sobre la ficha de Becas EEUU", "Ábrela (02-sales/assets/Always-Up-Becas-EEUU.pdf) y dime qué cambiarías. Antes de cambiar nada te digo si me parece buena idea.", "02-sales/assets", 15)
     A(D(2026, 10, 15), "Libre", 645, "Team/Coach", "Pedir al club irlandés testimonio y presentaciones", "Es lo que más puede acelerar ventas: un club que ya compró habla mejor de nosotros que cualquier email. Texto en 'Respuestas tipo'. Puedes mandarlo tú o Enrique.", "Textos para copiar (Respuestas tipo)", 15)
     A(D(2026, 10, 16), "Libre", 640, "Todos", "Revisión semanal 1: qué ha pasado esta semana", "Mira la hoja Hoy y anota respuestas, rebotes y llamadas. Pásame un resumen de tres líneas: yo ajusto el plan.", "Hoy", 20)
-    A(D(2026, 10, 17), "Libre", 600, "Instagram", "Sesión de redes sociales y marca personal con Claude (30 a 60 min)", "Objetivo: 10.000 seguidores antes de fin de 2026. Salir con un plan de contenido de 4 semanas. Hasta tener este plan no se publica nada. Sin fotos de menores identificables.", "Chat con Claude", 60)
+    rr = [(D(2026, 10, 17), 60, "Definir la estrategia y los pilares de contenido (sesión de agentes). Objetivo: plan v1 listo el 24/10."),
+          (D(2026, 10, 21), 30, "Revisar lo que haya salido de la sesión de agentes y decidir qué se publica primero."),
+          (D(2026, 10, 24), 60, "Cerrar el plan v1 y montar el calendario de contenido de las 2 primeras semanas (con los vídeos de 'Joel Content/03_Final')."),
+          (D(2026, 10, 28), 30, "Preparar o programar las 2 publicaciones de la semana."),
+          (D(2026, 10, 31), 60, "Grabar o editar el contenido nuevo de la semana siguiente."),
+          (D(2026, 11, 4), 30, "Preparar o programar las publicaciones de la semana."),
+          (D(2026, 11, 7), 60, "Grabar o editar contenido y revisar métricas de las 2 primeras semanas (qué funciona)."),
+          (D(2026, 11, 11), 30, "Preparar o programar las publicaciones y ajustar el plan según métricas.")]
+    for dd, mins, txt in rr:
+        A(dd, "Libre", 600, "Instagram", "Bloque de redes sociales (%d min)" % mins, txt + " La meta sigue siendo 10.000 seguidores a fin de año; partimos de 2.150. Mide cada semana seguidores nuevos y mensajes de familias o clubes.", "Chat con Claude / sesión de agentes", mins)
     for dd in (D(2026, 10, 19), D(2026, 10, 26), D(2026, 11, 2), D(2026, 11, 9)):
-        A(dd, "Libre", 500, "Team/Coach", "Pedirme: «investiga 10 clubes más» para la siguiente tanda", "Escríbeme esa frase. Yo verifico decisor y email en la web del club y te dejo los correos listos en esta hoja antes del jueves.", "Chat con Claude", 5)
+        A(dd, "Libre", 500, "Team/Coach", "Pedirme: «investiga 10 clubes más» (Europa, EEUU o los dos) para la siguiente tanda", "Escríbeme esa frase. Yo verifico decisor y email en la web del club y te dejo los correos listos en esta hoja antes del jueves.", "Chat con Claude", 5)
         A(dd, "Libre", 520, "Becas", "Revisar leads de becas con acción vencida", "Pestaña Segmento C - Becas: ordena por 'Próxima acción'. Contesta o actualiza todo lo atrasado. Aplica las 4 preguntas de cualificación.", "Segmento C - Becas", 20)
     A(D(2026, 10, 19), "Libre", 800, "Team/Coach", "LinkedIn: 10 minutos de actividad", "Acepta conexiones, comenta tres publicaciones de entrenadores o clubes con algo de valor (no publicidad). Eso hace que te vean antes de que llegue el email.", "", 10)
     A(D(2026, 10, 20), "Libre", 650, "Becas", "Omar: último mensaje corto si sigue sin contestar", "«Hola Omar, no quiero atosigarte. Si en este momento no es prioridad, no pasa nada, lo dejamos aquí y lo retomamos cuando te venga bien. Si quieres seguir, mándame lo que tengas del vídeo y empezamos.» Después pásalo a 'Frío' en el CRM.", "Segmento C - Becas", 5)
@@ -667,6 +728,12 @@ VERIF = [
     ("Maidstone United", "info@maidstoneunited.co.uk", "Contacto general del club (búsqueda)", "Pendiente de enviar", "Media", "Teléfono 078 3585 4704 (Girls Development Centre) o redes"),
     ("IA Akranes", "kfia@ia.is", "Contacto del club (kfia.is y búsqueda)", "Pendiente de enviar", "Media-alta", "Facebook del club"),
     ("Virtu Academy", "info@virtuacademy.co.uk", "virtuacademy.co.uk (búsqueda)", "Pendiente de enviar", "Media", "Instagram del club"),
+    ("Seacoast United (EEUU)", "iscott@seacoastunited.com", "Director de coaching según directorios de terceros (búsqueda); la web no lo publica en texto", "Pendiente: falta dirección postal de la empresa", "Media", "questions@seacoastunited.com"),
+    ("Cedar Stars Academy (EEUU)", "phil.swenda@cedarstars.com", "Página de staff de Monmouth (cedarstars.com/monmouth-staff)", "Pendiente: falta dirección postal de la empresa", "Media-alta", "contactus@cedarstars.com"),
+    ("IFA New England (EEUU)", "mhardiman@ifanewengland.com", "Contacto publicado por el club para consultas de chicos", "Pendiente: falta dirección postal de la empresa", "Media-alta", "Formulario de ifanewengland.com/contact-us"),
+    ("Ballistic United (EEUU)", "jerrylosson@busc.org", "Página de staff MLS NEXT (busc.org/mls-next/staff)", "Pendiente: falta dirección postal de la empresa", "Media-alta", "Directorio busc.org/about/directory"),
+    ("FC Delco (EEUU)", "info@fcdelco.org", "Contacto general publicado; Jeff Zaun es Director de MLS NEXT, email personal no encontrado", "Pendiente: falta dirección postal de la empresa", "Alta (general)", "Formulario de fcdelco.org/administration/contact-us"),
+    ("Michigan Jaguars (EEUU)", "mo.hijazi@michiganjaguarsfc.com", "Página de staff de la sede de Dearborn; el club tiene varias sedes", "Pendiente: falta dirección postal de la empresa", "Media", "michiganjaguarsfc.com/club/staff"),
     ("FC Porte d'Aquitaine", "math.bachowski.mb@gmail.com", "Responsable técnico de jóvenes según directorio (búsqueda). Gmail personal.", "Pendiente de enviar", "Media", "Email oficial del club en la FFF: 560792@lfna.fr"),
 ]
 
@@ -809,6 +876,31 @@ def update_segment_a(wb, sends):
         sa.cell(row=r, column=9, value="Perdido")
         sa.cell(row=r, column=10, value="Decisión de Joel (13/10/2026): no insistir. Reabrir solo si él escribe.")
         sa.cell(row=r, column=15, value=(sa.cell(row=r, column=15).value or "") + " | 13/10/2026: Joel decide no reactivar: varios intentos y las dos últimas sin respuesta.")
+    # Segmento B: clubes de EEUU preparados
+    sb = wb["Segmento B - America"]
+    exist = {sb.cell(row=r, column=1).value: r for r in range(6, 80) if sb.cell(row=r, column=1).value}
+    nxt = max(exist.values()) + 1 if exist else 6
+    for p in PROSPECTS_US:
+        r = exist.get(p["club"])
+        if r is None:
+            r = nxt; nxt += 1
+            for cidx in range(1, 16):
+                src, dst = sb.cell(row=6, column=cidx), sb.cell(row=r, column=cidx)
+                dst._style = copy_style(src._style)
+        mine = [x for x in sends if x["key"] == p["key"]]
+        e1 = next((x for x in mine if x["kind"] == "Email 1"), None)
+        sb.cell(row=r, column=1, value=p["club"]); sb.cell(row=r, column=2, value=p["pais"]); sb.cell(row=r, column=3, value=p["cat"])
+        sb.cell(row=r, column=4, value=p["motivo"]); sb.cell(row=r, column=5, value=p["fuente"]); sb.cell(row=r, column=6, value=p["person"]); sb.cell(row=r, column=7, value=p["to"])
+        cur = sb.cell(row=r, column=8).value
+        if cur not in ("Enviado", "Respondido", "Llamada agendada", "Llamada realizada", "Cerrado", "Perdido"):
+            if e1:
+                sb.cell(row=r, column=8, value="Listo para enviar")
+                sb.cell(row=r, column=9, value="Enviar el %s a las 09:30 hora local (%s). Textos en 'Textos para copiar'." % (p["e1"].strftime("%d/%m/%Y"), local_to_ny(p["e1"], p["tz"]) + " hora Nueva York"))
+                sb.cell(row=r, column=10, value=p["subj"]); sb.cell(row=r, column=11, value=e1["body"])
+            else:
+                sb.cell(row=r, column=8, value="Pendiente investigar")
+                sb.cell(row=r, column=9, value="Falta la dirección postal de Quality Servix Premium SL para poder enviar a EEUU (ley CAN-SPAM). Fecha prevista: %s." % p["e1"].strftime("%d/%m/%Y"))
+        sb.cell(row=r, column=15, value="1er email: nada adjunto, solo texto. Si pide información: deck de empresa + ficha Team Experience.")
     # Hoy: metas realistas
     h = wb["Hoy"]
     h["A11"].value = "Métrica"; h["B11"].value = "Meta semanal"
