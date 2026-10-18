@@ -2,6 +2,31 @@
 
 > Preparado el 15/10/2026 para que Joel y Enrique las hablen juntos. Fuente: `lineas-de-negocio.md` (secciones Campus Internacional e International Program) y los documentos de ATM. Las cifras de coste son estimaciones documentadas, no cotizaciones.
 
+## Resoluciones del 16/10/2026 (respuestas de Joel tras hablar con Enrique)
+
+**Campus Internacional**
+1. Firma **Always Up con el Atlético** (opción A).
+2. Se vende a la academia a **fee fijo**; conseguir a los jugadores es responsabilidad del club o la academia.
+3. **No adelantamos dinero**: la forma de pago la tiene que aceptar el club.
+4. Los seguros del campus los tiene el Atlético. Está cerrado, no es urgente mientras no haya un campus firmado.
+5. Tenemos el consentimiento de la Real Sociedad pero no un documento de condiciones. El Atlético suele mandar 3 entrenadores. La Real Sociedad se adapta más al cliente y es menos invasiva.
+
+**Bélgica:** el contacto belga ya recibió la oferta. Dice que **no le salen las cuentas**: en Bélgica no puede cobrar más de 300 € por niño y los costes (entrenadores, campo, y vuelos, alojamiento y comida de los entrenadores del Atlético) podrían hacerle perder dinero. Ha propuesto otras opciones que se están valorando. Joel las contará cuando las tenga.
+
+**International Program**
+1. Mínimo viable: unos **9 a 10 jugadores**.
+2. Los grupos son por temporada y **se puede reservar antes de la temporada**.
+3. **Always Up siempre cobra** y luego paga a la Real Sociedad o a quien corresponda.
+4. Contrato con el **club de origen y con el club destino**.
+5. **Devoluciones: 0.** Con las cancelaciones se puede hacer poco.
+6. **Comisión y precio: por definir**, porque aún no hay cliente.
+
+**Lectura de Claude:** (a) El campus de Bélgica muestra que el modelo solo sale con muchos niños (140 o más) y con capacidad de cobrar más de unos 130 a 200 € por niño. Se puede explorar una propuesta más ligera con la Real Sociedad. Hasta entonces, sin ficha ni outreach. (b) El International Program es un producto de **grupo**: se vende a un club de origen o academia con 9 o 10 jugadores (por ejemplo SADE Puerto Rico) o a familias que se agrupen, no a un jugador suelto. (c) "Devoluciones 0" puede no ser válida con familias consumidoras en España o la UE: revisarlo con un abogado antes de ponerlo por escrito.
+
+**Pendiente para la sesión del 23/10:** anticipo y cancelación de Team Experience, precio y comisión del International Program, opciones de Bélgica y la tecnificación en Zubieta (22 a 28 de noviembre).
+
+---
+
 ## A. Campus Internacional (Atlético de Madrid y Real Sociedad fuera de España)
 
 ### Qué es, en dos frases

@@ -14,8 +14,13 @@ Buena idea, con cuatro ajustes:
 3. **Límites NCAA.** Las giras al extranjero de los equipos NCAA están limitadas (en general una cada pocos años por programa). Hay que preguntar a cada uno cuándo hicieron la última antes de proponer fechas. Es una regla que conviene confirmar con la propia NCAA.
 4. **Cumplimiento (CAN-SPAM).** Los emails comerciales a EEUU, también a empresas, deben llevar dirección postal del remitente y una forma clara de darse de baja. Está incluido en la plantilla de EEUU, pero falta la dirección fiscal de Quality Servix Premium SL para generar los correos.
 
-## Estado de la primera tanda (6 clubes, ya investigados)
-Seacoast United (Iain Scott), Cedar Stars Academy (Phil Swenda), IFA New England (Matt Hardiman), Ballistic United (Jerry Losson), FC Delco (pedir a Jeff Zaun) y Michigan Jaguars (Mo Hijazi). Están en `Segmento B - America` del CRM. Los correos se generarán en cuanto esté la dirección postal.
+## Calendario (decidido por Joel el 18/10/2026: empezar la primera o segunda semana de noviembre)
+- **Tanda 1 (6 clubes):** 3 y 4 de noviembre. **Tanda 2 (6 clubes):** 10 y 11 de noviembre.
+- **Universidades (D2, D3, NAIA, junior colleges):** investigación en octubre y noviembre, primeros envíos desde la segunda quincena de noviembre, después de su temporada.
+- Claude verifica contactos poco a poco y deja los correos preparados en cada actualización del Excel.
+
+## Estado de las tandas (12 clubes ya investigados)
+Tanda 1: Seacoast United, Cedar Stars Academy, IFA New England, Ballistic United, FC Delco y Michigan Jaguars. Tanda 2: Lou Fusz Athletic, St. Louis Scott Gallagher, Cincinnati United, Tampa Bay United, Bethesda SC y Sockers FC Chicago. Están en `Segmento B - America` del CRM. Los correos se generarán en cuanto esté la dirección postal.
 
 ## Pendiente de Joel
 - Dirección postal fiscal de Quality Servix Premium SL.

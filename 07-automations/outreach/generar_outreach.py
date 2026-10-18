@@ -188,12 +188,18 @@ def _us(key, club, short, tz, to, greet, person, estado, e1, right=None):
 
 
 PROSPECTS_US = [
-    _us("seacoast", "Seacoast United", "Seacoast United", "America/New_York", "iscott@seacoastunited.com", "Hi Iain,", "Iain Scott (Director of Coaching)", "New Hampshire", D(2026, 10, 27)),
-    _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 10, 27)),
-    _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 10, 27)),
-    _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 10, 28)),
-    _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 10, 28), right="Jeff Zaun"),
-    _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 10, 28)),
+    _us("seacoast", "Seacoast United", "Seacoast United", "America/New_York", "iscott@seacoastunited.com", "Hi Iain,", "Iain Scott (Director of Coaching)", "New Hampshire", D(2026, 11, 3)),
+    _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 11, 3)),
+    _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 11, 3)),
+    _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 11, 4)),
+    _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 11, 4), right="Jeff Zaun"),
+    _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 11, 4)),
+    _us("loufusz", "Lou Fusz Athletic", "Lou Fusz Athletic", "America/Chicago", "matt.mueller@loufuszathletic.com", "Hi Matt,", "Matt Mueller (Director of Coaching and Competition)", "Misuri", D(2026, 11, 10)),
+    _us("slsg", "St. Louis Scott Gallagher", "St. Louis Scott Gallagher", "America/Chicago", "strittschuh@slsgsoccer.com", "Hi Steve,", "Steve Trittschuh (MLS NEXT Director)", "Misuri", D(2026, 11, 10)),
+    _us("cincyunited", "Cincinnati United Premier", "Cincinnati United", "America/New_York", "rhands@cincinnatiunitedsc.com", "Hi Reece,", "Reece Hands (Technical Director y MLS NEXT Director)", "Ohio", D(2026, 11, 10)),
+    _us("tbu", "Tampa Bay United", "Tampa Bay United", "America/New_York", "fgonzalez@tbusc.com", "Hi Fernando,", "Fernando Gonzalez (MLS NEXT Director)", "Florida", D(2026, 11, 11)),
+    _us("bethesda", "Bethesda Soccer Club", "Bethesda SC", "America/New_York", "dbiss@bethesdasoccer.org", "Hi Derek,", "Derek Biss (Academy Director, MLS NEXT)", "Maryland", D(2026, 11, 11)),
+    _us("sockers", "Sockers FC Chicago", "Sockers FC Chicago", "America/Chicago", "admin@sockersfcchicago.com", "Hi team,", "Oleg Vatchev (Director de Metodología MLS NEXT; email personal sin confirmar)", "Illinois", D(2026, 11, 11), right="Oleg Vatchev"),
 ]
 
 
@@ -342,8 +348,8 @@ REPLIES = [
      "Luego escribe al nombre que te den (usa un email 1 con su nombre) y menciona a quien te derivó."),
     ("Daniel (MLS NEXT): follow-up por Instagram", "Hola Daniel, ¿qué tal? Hace unas semanas hablamos de tu duda entre 1º y 2º de Bachillerato y de cómo encajaría con el proceso universitario en EEUU. Te escribo solo para saber si sigues con ganas de explorarlo.\n\nSi es así, mándame tu posición y, si tienes, un vídeo o enlace de algún partido de la MLS NEXT, y te cuento con calma qué opciones reales habría en tu caso. Cuanto antes lo veamos, más margen hay para decidir bien lo del curso.\n\nY si ahora no es el momento, no pasa nada, dímelo y lo dejamos aquí.",
      "Instagram. Un solo follow-up. Si no contesta en 7 días, pasa a Frío en el CRM. No pidas más datos en este mensaje."),
-    ("Pedir testimonio y presentaciones al club irlandés", "Hi [nombre], hope you and the squad are doing well. I have a small favour to ask. We're building up Always Up and your league title story means a lot to us. Would you be happy to share two or three lines about what the experience did for the players, or even a short video message? And if you know any other clubs who would enjoy a trip like yours, an introduction from you would help us enormously. Thank you so much.\n\nJoel",
-     "Mándalo tú o Enrique, por WhatsApp. El nombre del contacto lo pones tú. Si dice que sí, pídele una foto del trofeo con los jugadores (con permiso del club)."),
+    ("Club irlandés: permiso para su testimonio y presentaciones (WhatsApp)", "Hi [nombre], hope you and the squad are doing well, and congratulations again on the league title.\n\nI have two small favours to ask, only if you're comfortable with them. First, would you be happy for us to quote what your coach said about the Atlético trip helping the team? Even better, if one of the coaches could send two or three lines, or a 30 second video message, in their own words. Second, if you know other clubs who might enjoy a trip like yours, an introduction from you would help us a lot.\n\nThanks so much either way, and I hope we see you in Spain again soon.\n\nJoel",
+     "WhatsApp. Lo manda quien tenga la relación con el club (Joel o Enrique). Cambia [nombre] por el nombre del contacto. Si acepta, guarda su respuesta en 08-knowledge-base y pásamela para usarla en el deck, la web y los emails."),
 ]
 
 BANNED = [r"—", r"–", r" - ", r"\bdelve\b", r"\bleverage\b", r"\bseamless", r"\btailored\b", r"\bjourney\b", r"\bunlock\b", r"I hope this email finds you",
@@ -382,7 +388,7 @@ def build_calendar(sends):
     def add(d, t, sk, svc, task, how, where="", mins=10):
         C.append(dict(date=d, time=t, sk=sk, svc=svc, task=task, how=how, where=where, mins=mins))
 
-    start, end = D(2026, 10, 13), D(2026, 11, 13)
+    start, end = D(2026, 10, 13), D(2026, 11, 27)
     d = start
     while d <= end:
         wd = d.weekday()
@@ -439,34 +445,35 @@ def build_calendar(sends):
       "Escribe desde alwaysup.es a 2 o 3 personas más (familia, amigos, conocidos con Gmail, Outlook o iCloud) un correo normal con una pregunta, y pídeles que respondan. Si caen en spam, que lo marquen como 'No es spam'. Es la forma más rápida de mejorar la reputación de un dominio nuevo.", "", 15)
     A(D(2026, 10, 14), "12:00", 720, "Becas", "Daniel (MLS NEXT): enviar el follow-up por Instagram", "No contestó a tu mensaje del 21/09. Mi consejo: un único follow-up corto con salida fácil, y si no responde en 7 días, pasarlo a 'Frío'. Texto en 'Respuestas tipo' (Daniel). Mejor entre las 12:00 y las 14:00 de Nueva York (18:00 a 20:00 en España, cuando está libre de clase). Después apunta en el CRM la fecha de envío.", "Textos para copiar (Respuestas tipo)", 5)
     A(D(2026, 10, 15), "Libre", 640, "Becas", "Darme tu feedback sobre la ficha de Becas EEUU", "Ábrela (02-sales/assets/Always-Up-Becas-EEUU.pdf) y dime qué cambiarías. Antes de cambiar nada te digo si me parece buena idea.", "02-sales/assets", 15)
-    A(D(2026, 10, 15), "Libre", 645, "Team/Coach", "Pedir al club irlandés testimonio y presentaciones", "Es lo que más puede acelerar ventas: un club que ya compró habla mejor de nosotros que cualquier email. Texto en 'Respuestas tipo'. Puedes mandarlo tú o Enrique.", "Textos para copiar (Respuestas tipo)", 15)
+    A(D(2026, 10, 15), "Libre", 645, "Team/Coach", "Pedir al club irlandés permiso para su testimonio y 2 o 3 presentaciones", "Qué es: el club irlandés que ganó su primera liga es nuestra mejor prueba. Queremos (1) que confirmen que podemos citar lo que dijeron y, si pueden, una frase o un vídeo corto de un entrenador, y (2) que nos presenten a 2 o 3 clubes que conozcan. Pasos: 1) pregunta a Enrique quién es tu contacto en ese club; 2) mándale por WhatsApp el texto de 'Respuestas tipo' (ponle su nombre); 3) si contesta, guarda lo que mande y avísame para usarlo. Si prefieres que lo mande Enrique, también vale: es su relación.", "Textos para copiar (Respuestas tipo)", 15)
     A(D(2026, 10, 16), "Libre", 640, "Todos", "Revisión semanal 1: qué ha pasado esta semana", "Mira la hoja Hoy y anota respuestas, rebotes y llamadas. Pásame un resumen de tres líneas: yo ajusto el plan.", "Hoy", 20)
-    rr = [(D(2026, 10, 17), 60, "Definir la estrategia y los pilares de contenido (sesión de agentes). Objetivo: plan v1 listo el 24/10."),
-          (D(2026, 10, 21), 30, "Revisar lo que haya salido de la sesión de agentes y decidir qué se publica primero."),
+    rr = [(D(2026, 10, 21), 45, "Definir la estrategia y los pilares de contenido con la sesión de agentes y decidir qué se publica primero. Objetivo: plan v1 listo el 24/10."),
           (D(2026, 10, 24), 60, "Cerrar el plan v1 y montar el calendario de contenido de las 2 primeras semanas (con los vídeos de 'Joel Content/03_Final')."),
           (D(2026, 10, 28), 30, "Preparar o programar las 2 publicaciones de la semana."),
           (D(2026, 10, 31), 60, "Grabar o editar el contenido nuevo de la semana siguiente."),
           (D(2026, 11, 4), 30, "Preparar o programar las publicaciones de la semana."),
           (D(2026, 11, 7), 60, "Grabar o editar contenido y revisar métricas de las 2 primeras semanas (qué funciona)."),
-          (D(2026, 11, 11), 30, "Preparar o programar las publicaciones y ajustar el plan según métricas.")]
+          (D(2026, 11, 11), 30, "Preparar o programar las publicaciones y ajustar el plan según métricas."),
+          (D(2026, 11, 14), 60, "Grabar o editar el contenido de la semana siguiente."), (D(2026, 11, 18), 30, "Preparar o programar las publicaciones."),
+          (D(2026, 11, 21), 60, "Grabar o editar contenido y revisar métricas."), (D(2026, 11, 25), 30, "Preparar o programar las publicaciones.")]
     for dd, mins, txt in rr:
         A(dd, "Libre", 600, "Instagram", "Bloque de redes sociales (%d min)" % mins, txt + " La meta sigue siendo 10.000 seguidores a fin de año; partimos de 2.150. Mide cada semana seguidores nuevos y mensajes de familias o clubes.", "Chat con Claude / sesión de agentes", mins)
-    for dd in (D(2026, 10, 19), D(2026, 10, 26), D(2026, 11, 2), D(2026, 11, 9)):
+    for dd in (D(2026, 10, 19), D(2026, 10, 26), D(2026, 11, 2), D(2026, 11, 9), D(2026, 11, 16), D(2026, 11, 23)):
         A(dd, "Libre", 500, "Team/Coach", "Pedirme: «investiga 10 clubes más» (Europa, EEUU o los dos) para la siguiente tanda", "Escríbeme esa frase. Yo verifico decisor y email en la web del club y te dejo los correos listos en esta hoja antes del jueves.", "Chat con Claude", 5)
         A(dd, "Libre", 520, "Becas", "Revisar leads de becas con acción vencida", "Pestaña Segmento C - Becas: ordena por 'Próxima acción'. Contesta o actualiza todo lo atrasado. Aplica las 4 preguntas de cualificación.", "Segmento C - Becas", 20)
     A(D(2026, 10, 19), "Libre", 800, "Team/Coach", "LinkedIn: 10 minutos de actividad", "Acepta conexiones, comenta tres publicaciones de entrenadores o clubes con algo de valor (no publicidad). Eso hace que te vean antes de que llegue el email.", "", 10)
     A(D(2026, 10, 20), "Libre", 650, "Becas", "Omar: último mensaje corto si sigue sin contestar", "«Hola Omar, no quiero atosigarte. Si en este momento no es prioridad, no pasa nada, lo dejamos aquí y lo retomamos cuando te venga bien. Si quieres seguir, mándame lo que tengas del vídeo y empezamos.» Después pásalo a 'Frío' en el CRM.", "Segmento C - Becas", 5)
     A(D(2026, 10, 22), "Libre", 640, "Team/Coach", "Preguntar a Atlético y Real Sociedad por las fechas reales de Semana Santa y verano 2027", "Necesitamos saber qué semanas hay disponibles y hasta cuándo se pueden reservar. Con eso tendremos urgencia real y honesta para los follow-ups (hoy no la tenemos). Puede hacerlo Enrique.", "", 20)
-    A(D(2026, 10, 23), "Libre", 640, "Todos", "Sesión con Enrique: política de anticipo y Campus Internacional", "Dos decisiones: (1) qué anticipo pedimos para reservar fechas (sugiero 20 a 30 % con condiciones de cancelación escritas) y qué dice el contrato sobre menores y seguros; (2) estructura A o B del Campus Internacional con ATM y RS y quién asume el riesgo de plazas. Sin esto, las llamadas acaban en «lo pensamos».", "plan-outreach-30-dias.md sección 7", 45)
-    A(D(2026, 10, 23), "Libre", 650, "International Program", "Preguntar a Real Sociedad por plazas y plazos del International Program 2027", "Para poder vender con fechas límite reales. Lo puede preguntar Enrique en la misma conversación.", "", 10)
+    A(D(2026, 10, 23), "Libre", 640, "Todos", "Sesión con Enrique: Team Experience, International Program y opciones de Bélgica", "Ya decidido el 16/10: Campus Internacional (firma Always Up con el Atlético, precio fijo, sin adelantar dinero, seguros del Atlético). Pendiente de hablar: (1) Team Experience: anticipo para reservar fechas (sugiero 20 a 30 %) y condiciones de cancelación por escrito, más contrato y seguros con menores; (2) International Program: precio por jugador y nuestra comisión; (3) Bélgica: qué opciones ha propuesto el contacto y si pedimos a la Real Sociedad una propuesta más flexible; (4) si se confirmó la tecnificación en Zubieta del 22 al 28 de noviembre. Detalle en 00-company/decisiones-pendientes-enrique.md.", "plan-outreach-30-dias.md sección 7", 45)
+    A(D(2026, 10, 23), "Libre", 650, "International Program", "Cerrar el precio y la comisión del International Program con Enrique", "Es lo único que falta para poder preparar una ficha y hablar con SADE: precio por jugador y qué cobra Always Up. Ya sabemos: mínimo 9 o 10 jugadores, se reserva antes de la temporada y Always Up cobra y luego paga a la Real Sociedad.", "", 10)
     A(D(2026, 10, 24), "Libre", 600, "GEE / Fichas", "Revisar las nuevas fichas (GEE, Campus Internacional, International Program)", "Las preparo yo tras tu feedback de la ficha de Becas. Tú revisas y me dices qué cambiar.", "02-sales/assets", 30)
-    A(D(2026, 10, 26), "Libre", 640, "Campus Internacional", "Retomar los contactos cálidos del Campus Internacional (Bélgica y Puerto Rico/SADE)", "Escríbeme cómo está cada uno. Con la decisión de la sesión del 23/10 les contestamos con una propuesta clara. No hacemos outreach frío de este servicio todavía.", "Oportunidades y notas", 15)
+    A(D(2026, 10, 26), "Libre", 640, "Campus Internacional", "Campus Internacional: contarme las opciones que proponga el contacto de Bélgica", "Cuando las tengas, dímelas y vemos si salen las cuentas. No hacemos outreach frío ni ficha de este servicio hasta entonces.", "Oportunidades y notas", 15)
     A(D(2026, 10, 27), "Libre", 640, "Team/Coach", "Enviar la tanda 3 de emails (los textos los tengo listos tras tu petición del 19/10)", "Aparecerán en la hoja Textos para copiar con su hora de programación.", "Textos para copiar", 20)
     A(D(2026, 10, 28), "Libre", 640, "Becas", "Piloto: 5 mensajes a entrenadores de club o instituto que tengan jugadores de 15 a 18 años", "Yo investigo la lista y los textos (se entregan el 26/10). La idea: un entrenador que recomienda la ficha de Becas trae varias familias a la vez. Los textos nunca nombran al partner ni prometen becas.", "Textos para copiar", 25)
     A(D(2026, 11, 3), "Libre", 640, "Team/Coach", "Enviar la tanda 4 de emails", "Mismo proceso. Los textos estarán en la hoja tras tu petición del 26/10.", "Textos para copiar", 20)
     A(D(2026, 11, 6), "Libre", 640, "Todos", "Revisión semanal 4: qué asunto y qué mensaje funcionan mejor", "Con ya 20 o 30 emails enviados se puede empezar a comparar. Pásame respuestas por email para ajustar.", "Hoy", 20)
     A(D(2026, 11, 9), "Libre", 640, "Todos", "Revisión del mes con Claude (45 min)", "Resultados, qué cambiamos, qué dejamos y plan del segundo mes. Comprobamos si llegamos a la primera venta real. Valoramos también la automatización del envío (objetivo de Joel: cientos de correos a la semana): Google Workspace, herramienta de envíos con calentamiento y qué se puede delegar.", "Chat con Claude", 45)
-    for dd in (D(2026, 10, 16), D(2026, 10, 23), D(2026, 10, 30), D(2026, 11, 6), D(2026, 11, 13)):
+    for dd in (D(2026, 10, 16), D(2026, 10, 23), D(2026, 10, 30), D(2026, 11, 6), D(2026, 11, 13), D(2026, 11, 20), D(2026, 11, 27)):
         A(dd, "Libre", 990, "Todos", "Actualizar el CRM con lo que ha pasado esta semana", "Estado y fecha de último contacto de cada club o lead. Así la hoja Hoy cuenta bien.", "Segmento A, B, C", 15)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
@@ -684,17 +691,17 @@ def sheet_services(wb):
          "10 leads cualificados, 3 llamadas, 1 cierre (Omar, Daniel o el del béisbol son los más avanzados).",
          "Ficha Becas EEUU + vídeo del jugador.",
          "Depende del nivel real del jugador. No descontar como primera respuesta: primero diagnosticar la objeción."),
-        ("Campus Internacional (ATM y Real Sociedad fuera de España)", "2 (pocas operaciones, alto valor)", "Academias o clubes extranjeros que quieren entrenadores del Atlético o la Real en su ciudad",
-         "Contactos cálidos primero: Bélgica, SADE Puerto Rico, Leonardo Uren (Brasil). Sin outreach frío hasta decidir la estructura.",
-         "Solo con contactos cálidos, tras decidir estructura A o B con Enrique (23/10).",
-         "Retomar los 3 contactos cálidos. Decidir estructura y política de pago.",
-         "Decisión tomada y 3 conversaciones activas.", "Diapositiva del deck. Ficha pendiente.",
-         "Riesgo de caja (cobro 50/50) y de plazas sin llenar. No vender sin decidir quién asume el riesgo."),
-        ("International Program (Real Sociedad)", "2", "Familias de jugadores de 12 a 18 años y academias extranjeras",
-         "Instagram, referidos y los contactos de Puerto Rico y Brasil. No hay outreach frío.",
-         "Se ofrece cuando el perfil del lead encaja (edad y nivel), nunca como premio de consolación.",
-         "Recoger interés entrante. Preguntar a RS por plazas y plazos 2027.", "Respuesta de RS y ficha preparada.", "Diapositiva del deck. Ficha pendiente.",
-         "Sin fechas de plazas no hay urgencia real. No inventarla."),
+        ("Campus Internacional (ATM y Real Sociedad fuera de España)", "3 (en pausa)", "Academias o clubes extranjeros con 140 o más niños capaces de pagar unos 130 a 200 € por niño",
+         "Solo contactos cálidos: el contacto de Bélgica, SADE Puerto Rico. Sin outreach frío.",
+         "No hay primer mensaje: solo conversaciones con contactos cálidos.",
+         "Esperar las opciones que proponga el contacto belga. Hipótesis a explorar: pedir a la Real Sociedad una propuesta más flexible (menos entrenadores, formato más ligero).",
+         "Ninguno: no hay ficha ni outreach hasta que una versión de la propuesta salga las cuentas.", "Diapositiva del deck.",
+         "Bélgica: el contacto dice que no le salen las cuentas (tope de 300 € por niño y los costes de entrenadores, campo, vuelos, alojamiento y comida de los entrenadores del Atlético). Decisiones tomadas el 16/10: firma Always Up con el Atlético, precio fijo a la academia, no se adelanta dinero y los seguros del campus los pone el Atlético."),
+        ("International Program (Real Sociedad)", "2", "Un club de origen o academia con un grupo de 9 a 10 jugadores, o varias familias que se agrupen",
+         "Academias con volumen (por ejemplo SADE Puerto Rico, que reunió a 140 jugadores en su showcase), clubes de origen con los que ya hablamos y, para llegar a 9 o 10, familias de Instagram.",
+         "Una temporada completa de entrenamiento y vida en la Real Sociedad. Siempre se habla de un grupo, no de un jugador suelto.",
+         "Recoger interés. Hablar con SADE. Cerrar con Enrique el precio por jugador y nuestra comisión.", "Comisión y precio definidos y una conversación con SADE.", "Diapositiva del deck. Ficha para clubes y academias cuando haya precio.",
+         "Mínimo viable: 9 o 10 jugadores. Se reserva antes de la temporada. Nosotros cobramos y luego pagamos a la Real Sociedad, con contrato con el club de origen y con el destino. Devoluciones 0. Con familias consumidoras esa cláusula puede no ser válida: revisar con abogado. Precio y comisión por definir."),
         ("GEE (colegios privados en EEUU)", "3", "Familias de jugadores de 14 a 17 años que buscan high school privado en EEUU",
          "Dentro de la cualificación de Becas, como opción cuando encaja. Es un partner externo.",
          "Se menciona en la conversación de becas, no es un primer mensaje.",
@@ -734,6 +741,12 @@ VERIF = [
     ("Ballistic United (EEUU)", "jerrylosson@busc.org", "Página de staff MLS NEXT (busc.org/mls-next/staff)", "Pendiente: falta dirección postal de la empresa", "Media-alta", "Directorio busc.org/about/directory"),
     ("FC Delco (EEUU)", "info@fcdelco.org", "Contacto general publicado; Jeff Zaun es Director de MLS NEXT, email personal no encontrado", "Pendiente: falta dirección postal de la empresa", "Alta (general)", "Formulario de fcdelco.org/administration/contact-us"),
     ("Michigan Jaguars (EEUU)", "mo.hijazi@michiganjaguarsfc.com", "Página de staff de la sede de Dearborn; el club tiene varias sedes", "Pendiente: falta dirección postal de la empresa", "Media", "michiganjaguarsfc.com/club/staff"),
+    ("Lou Fusz Athletic (EEUU)", "matt.mueller@loufuszathletic.com", "Directorio de staff del club (búsqueda)", "Pendiente: falta dirección postal de la empresa", "Media-alta", "loufuszathletic.com/inside-lfa/staff"),
+    ("St. Louis Scott Gallagher (EEUU)", "strittschuh@slsgsoccer.com", "Página de MLS NEXT del club (slsgsoccer.com)", "Pendiente: falta dirección postal de la empresa", "Media-alta", "Formulario del club"),
+    ("Cincinnati United (EEUU)", "rhands@cincinnatiunitedsc.com", "Directorio de coaching del club (búsqueda)", "Pendiente: falta dirección postal de la empresa", "Media", "cincinnatiunitedsc.com/contact-us"),
+    ("Tampa Bay United (EEUU)", "fgonzalez@tbusc.com", "Directorio de staff del club (búsqueda)", "Pendiente: falta dirección postal de la empresa", "Media", "tbusc.com/about/staff"),
+    ("Bethesda SC (EEUU)", "dbiss@bethesdasoccer.org", "Página del club (bethesdasoccer.org/derek-biss)", "Pendiente: falta dirección postal de la empresa", "Alta", "Contacto general del club"),
+    ("Sockers FC Chicago (EEUU)", "admin@sockersfcchicago.com", "Contacto general publicado; Oleg Vatchev lleva MLS NEXT, email personal no encontrado", "Pendiente: falta dirección postal de la empresa", "Alta (general)", "sockersfcchicago.com/contact-us"),
     ("FC Porte d'Aquitaine", "math.bachowski.mb@gmail.com", "Responsable técnico de jóvenes según directorio (búsqueda). Gmail personal.", "Pendiente de enviar", "Media", "Email oficial del club en la FFF: 560792@lfna.fr"),
 ]
 
