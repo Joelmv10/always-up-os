@@ -47,7 +47,8 @@ Después sigue la hoja. Envía en horario laboral del destinatario: a ti te toca
 2. Saludo a una sola persona o "Hi team". Nunca varios nombres.
 3. Sin placeholders, nombre del club bien escrito, firma completa, sin adjuntos.
 4. Menos de 150 palabras en el primer correo.
-5. **Tono humano**: sin guiones largos ni palabras típicas de texto generado (leverage, journey, seamless...), frases cortas, contracciones normales.
+5. **Persona en el cargo**: la persona sigue en el puesto según una fuente reciente (el 19/10 descubrimos que el contacto de Holbeach había dejado el club en agosto: no se vuelve a enviar sin comprobarlo).
+6. **Tono humano**: sin guiones largos ni palabras típicas de texto generado (leverage, journey, seamless...), frases cortas, contracciones normales.
 
 **Lo único que no puede hacer Claude, y hace Joel en 2 minutos:** mirar la bandeja a los pocos minutos del envío por si hay rebote (ningún método garantiza que un buzón exista hasta que se envía). Está como tarea diaria en el calendario. Si rebota, Claude busca otra dirección.
 

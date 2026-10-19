@@ -15,7 +15,8 @@ Buena idea, con cuatro ajustes:
 4. **Cumplimiento (CAN-SPAM).** Los emails comerciales a EEUU, también a empresas, deben llevar dirección postal del remitente y una forma clara de darse de baja. Está incluido en la plantilla de EEUU, pero falta la dirección fiscal de Quality Servix Premium SL para generar los correos.
 
 ## Calendario (decidido por Joel el 18/10/2026: empezar la primera o segunda semana de noviembre)
-- **Tanda 1 (6 clubes):** 3 y 4 de noviembre. **Tanda 2 (6 clubes):** 10 y 11 de noviembre.
+- **Tanda 1 (6 clubes):** 3 y 4 de noviembre. **Tanda 2 (6 clubes):** 10 y 11 de noviembre. **Tanda 3 (2 clubes):** 17 y 18 de noviembre (Walnut Creek Surf y Chicago FC United).
+- **Nueva fuente (19/10):** la lista de clubes inscritos en la Donosti Cup 2026 (`01-clients/listados/donosti-cup-2026-clubes-internacionales.md`): clubes que ya viajan a San Sebastián. Seacoast United y Walnut Creek Surf aparecen ahí, y el correo lo usa como gancho.
 - **Universidades (D2, D3, NAIA, junior colleges):** investigación en octubre y noviembre, primeros envíos desde la segunda quincena de noviembre, después de su temporada.
 - Claude verifica contactos poco a poco y deja los correos preparados en cada actualización del Excel.
 

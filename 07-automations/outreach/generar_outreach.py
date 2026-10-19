@@ -45,10 +45,10 @@ PROSPECTS = [
     dict(key="hastings", club="Hastings United (Girls Academy)", short="Hastings United", tz="Europe/London", lang="en", sent=True,
          e1=D(2026, 10, 13), to="georgia.townsend@hastingsunited.com", greet="Hi Georgia,", person="Georgia Townsend (Head of Girls Academy)",
          subj="Bringing Hastings United's Girls Academy to train with LaLiga clubs in Spain",
-         linkedin=(D(2026, 10, 15), "Georgia Townsend"), dm="Instagram de Hastings United"),
+         linkedin=(D(2026, 10, 20), "Georgia Townsend", "https://www.linkedin.com/in/georgia-townsend-5b17321a4/", "Media: figura en East Sussex College Group, que patrocina la academia. Antes de conectar, comprueba que su perfil habla de fútbol, Hastings o la academia; si no, no conectes."), dm="Instagram de Hastings United"),
     dict(key="soreide", club="Søreide IL", short="Søreide IL", tz="Europe/Oslo", lang="en", sent=False,
          e1=D(2026, 10, 14), to="fotball@soreideil.no", greet="Hi Marius and Gunn,", person="Marius Engen (sportslig leder) / Gunn Eklund Breisnes (leder)",
-         subj="A week in Spain for Søreide's youth teams", linkedin=(D(2026, 10, 16), "Marius Engen"), dm="Facebook o Instagram de Søreide IL",
+         subj="A week in Spain for Søreide's youth teams", linkedin=None, dm="Facebook o Instagram de Søreide IL",
          e1_body="""{greet}
 
 I'm Joel, I run Always Up. My first email bounced from your youth committee address, so I'm writing to you directly.
@@ -63,7 +63,7 @@ Best,
 {sig}"""),
     dict(key="holbeach", club="Holbeach United", short="Holbeach United", tz="Europe/London", lang="en", sent=False,
          e1=D(2026, 10, 14), to="callum@holbeachunitedacademy.com", greet="Hi Callum,", person="Callum Lawe (Vice Chairman, Football & Education Academy)",
-         subj="A week in Spain for Holbeach's academy squads", linkedin=(D(2026, 10, 16), "Callum Lawe"), dm="Instagram @holbeachunitedcsa",
+         subj="A week in Spain for Holbeach's academy squads", linkedin=None, dm="Instagram @holbeachunitedcsa", stop_after_e1=True,
          e1_body="""{greet}
 
 I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
@@ -76,9 +76,28 @@ Would you be up for a quick call next week? If you'd rather see the details firs
 
 Best,
 {sig}"""),
+    dict(key="holbeach_dan", club="Holbeach United (Dan Lester)", short="Holbeach United", tz="Europe/London", lang="en", sent=False,
+         e1=D(2026, 10, 21), to="dan@holbeachunitedacademy.com", greet="Hi Dan,", person="Dan Lester (director y responsable de educación de la Football & Education Academy)",
+         subj="A week in Spain for Holbeach's academy squads",
+         linkedin=[(D(2026, 10, 22), "Dan Lester", "Pega en el buscador de LinkedIn: Dan Lester Holbeach United", "Sin enlace directo (no sale en buscadores). Comprueba que el perfil dice Holbeach United."),
+                   (D(2026, 10, 22), "Callum Lawe", "Pega en el buscador de LinkedIn: Callum Lawe Masar Athletic", "Sin enlace directo. Se ha ido a Abu Dhabi a montar Masar Athletic (fútbol y educación). Comprueba que menciona Holbeach o Masar.",
+                    "Hi Callum, I'm Joel, I run Always Up. I emailed you at Holbeach before realising you'd moved on to Masar Athletic, congratulations. If you ever want players to train in Spain with Atlético de Madrid or Real Sociedad facilities, I'd be glad to help. Joel")],
+         dm="Instagram @holbeachunitedcsa",
+         e1_body="""{greet}
+
+I'm Joel, I run Always Up. I wrote last week to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+{sig}"""),
     dict(key="whitehaven", club="Whitehaven AFC (Juniors Girls U13-U15)", short="Whitehaven", tz="Europe/London", lang="en", sent=False,
          e1=D(2026, 10, 15), to="Luke.johnston@whitehavenafc.com", greet="Hi Luke,", person="Luke Johnston (Chairman)",
-         subj="A week in Spain for Whitehaven's girls teams", linkedin=(D(2026, 10, 19), "Luke Johnston"), dm="Facebook de Whitehaven AFC (plan B si el email rebota)",
+         subj="A week in Spain for Whitehaven's girls teams", linkedin=(D(2026, 10, 20), "Luke Johnston", "https://www.linkedin.com/in/lukerobertjohnston/", "Media baja: perfil de Luke Johnston en Whitehaven. Comprueba que menciona Whitehaven AFC (presidente) antes de conectar."), dm="Facebook de Whitehaven AFC (plan B si el email rebota)",
          e1_body="""{greet}
 
 I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
@@ -155,7 +174,7 @@ US_E1 = """{greet}
 
 I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
-I saw {short} is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+I saw {short} {hook}, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
 
@@ -166,7 +185,7 @@ US_E1_RIGHT = """{greet}
 
 I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
-I saw {short} is part of MLS NEXT, and understand {who} leads the program. Could you point me to them, or to whoever organises trips abroad for your older teams?
+I saw {short} {hook}, and understand {who} leads the program. Could you point me to them, or to whoever organises trips abroad for your older teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
 
@@ -174,31 +193,35 @@ Thanks a lot,
 {sig}"""
 
 
-def _us(key, club, short, tz, to, greet, person, estado, e1, right=None):
+def _us(key, club, short, tz, to, greet, person, estado, e1, right=None, hook="is part of MLS NEXT", li=None):
     d = dict(key=key, club=club, short=short, tz=tz, lang="en", sent=False, e1=e1, to=to, greet=greet, person=person,
              subj=("A week in Spain for %s's academy teams" % short) if not right else "A question about trips abroad for %s" % short,
              linkedin=None, dm="Instagram de %s" % short, us=True, estado=estado, pais="EEUU (%s)" % estado, cat="Club MLS NEXT",
              motivo="Miembro del directorio oficial de MLS NEXT; club independiente (no academia de franquicia MLS)", fuente="mlssoccer.com/mlsnext (lista de Joel) + web del club")
     if right:
         d["right"] = True
-        d["e1_body"] = US_E1_RIGHT.replace("{who}", right)
+        d["e1_body"] = US_E1_RIGHT.replace("{who}", right).replace("{hook}", hook)
     else:
-        d["e1_body"] = US_E1
+        d["e1_body"] = US_E1.replace("{hook}", hook)
+    if li:
+        d["linkedin"] = (e1 + dt.timedelta(days=2), li[0], li[1], li[2])
     return d
 
 
 PROSPECTS_US = [
-    _us("seacoast", "Seacoast United", "Seacoast United", "America/New_York", "iscott@seacoastunited.com", "Hi Iain,", "Iain Scott (Director of Coaching)", "New Hampshire", D(2026, 11, 3)),
-    _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 11, 3)),
-    _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 11, 3)),
-    _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 11, 4)),
-    _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 11, 4), right="Jeff Zaun"),
-    _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 11, 4)),
-    _us("loufusz", "Lou Fusz Athletic", "Lou Fusz Athletic", "America/Chicago", "matt.mueller@loufuszathletic.com", "Hi Matt,", "Matt Mueller (Director of Coaching and Competition)", "Misuri", D(2026, 11, 10)),
-    _us("slsg", "St. Louis Scott Gallagher", "St. Louis Scott Gallagher", "America/Chicago", "strittschuh@slsgsoccer.com", "Hi Steve,", "Steve Trittschuh (MLS NEXT Director)", "Misuri", D(2026, 11, 10)),
-    _us("cincyunited", "Cincinnati United Premier", "Cincinnati United", "America/New_York", "rhands@cincinnatiunitedsc.com", "Hi Reece,", "Reece Hands (Technical Director y MLS NEXT Director)", "Ohio", D(2026, 11, 10)),
-    _us("tbu", "Tampa Bay United", "Tampa Bay United", "America/New_York", "fgonzalez@tbusc.com", "Hi Fernando,", "Fernando Gonzalez (MLS NEXT Director)", "Florida", D(2026, 11, 11)),
-    _us("bethesda", "Bethesda Soccer Club", "Bethesda SC", "America/New_York", "dbiss@bethesdasoccer.org", "Hi Derek,", "Derek Biss (Academy Director, MLS NEXT)", "Maryland", D(2026, 11, 11)),
+    _us("seacoast", "Seacoast United", "Seacoast United", "America/New_York", "iscott@seacoastunited.com", "Hi Iain,", "Iain Scott (Director of Coaching)", "New Hampshire", D(2026, 11, 3), hook="was down for the Donosti Cup in San Sebastián this summer", li=("Iain Scott", "Pega en el buscador de LinkedIn: Iain Scott Seacoast United", "Sin enlace directo. Comprueba que el perfil dice Seacoast United.")),
+    _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 11, 3), li=("Phil Swenda", "Pega en el buscador de LinkedIn: Phil Swenda Cedar Stars Academy", "Sin enlace directo. Comprueba que dice Cedar Stars.")),
+    _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 11, 3), li=("Matt Hardiman", "https://www.linkedin.com/in/matt-hardiman-3639a459/", "Alta: aparece como IFA New England (Boston).")),
+    _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 11, 4), li=("Jerry Losson", "Pega en el buscador de LinkedIn: Jerry Losson Ballistic United", "Sin enlace directo. Comprueba que dice Ballistic United.")),
+    _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 11, 4), right="Jeff Zaun", li=("Jeff Zaun", "Pega en el buscador de LinkedIn: Jeff Zaun FC Delco", "Sin enlace directo. Comprueba que dice FC Delco.")),
+    _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 11, 4), li=("Mo Hijazi", "https://www.linkedin.com/in/mo-hijazi-757b3829/", "Media-alta: Dearborn, Míchigan; entrenador y director de coaching. Comprueba que menciona Michigan Jaguars.")),
+    _us("loufusz", "Lou Fusz Athletic", "Lou Fusz Athletic", "America/Chicago", "matt.mueller@loufuszathletic.com", "Hi Matt,", "Matt Mueller (Director of Coaching and Competition)", "Misuri", D(2026, 11, 10), li=("Matt Mueller", "Pega en el buscador de LinkedIn: Matt Mueller Lou Fusz Athletic", "Nombre muy común: el perfil que sale en buscadores es de otra empresa. Comprueba que dice Lou Fusz Athletic.")),
+    _us("slsg", "St. Louis Scott Gallagher", "St. Louis Scott Gallagher", "America/Chicago", "strittschuh@slsgsoccer.com", "Hi Steve,", "Steve Trittschuh (MLS NEXT Director)", "Misuri", D(2026, 11, 10), li=("Steve Trittschuh", "Pega en el buscador de LinkedIn: Steve Trittschuh St. Louis Scott Gallagher", "Sin enlace directo. Comprueba que dice Scott Gallagher.")),
+    _us("cincyunited", "Cincinnati United Premier", "Cincinnati United", "America/New_York", "rhands@cincinnatiunitedsc.com", "Hi Reece,", "Reece Hands (Technical Director y MLS NEXT Director)", "Ohio", D(2026, 11, 10), li=("Reece Hands", "https://www.linkedin.com/in/reece-hands-39547419b/", "Alta: Boys Technical Director, Cincinnati United.")),
+    _us("tbu", "Tampa Bay United", "Tampa Bay United", "America/New_York", "fgonzalez@tbusc.com", "Hi Fernando,", "Fernando Gonzalez (MLS NEXT Director)", "Florida", D(2026, 11, 11), li=("Fernando Gonzalez", "Pega en el buscador de LinkedIn: Fernando Gonzalez Tampa Bay United", "Nombre muy común: comprueba que dice Tampa Bay United.")),
+    _us("bethesda", "Bethesda Soccer Club", "Bethesda SC", "America/New_York", "dbiss@bethesdasoccer.org", "Hi Derek,", "Derek Biss (Academy Director, MLS NEXT)", "Maryland", D(2026, 11, 11), li=("Derek Biss", "https://www.linkedin.com/in/derek-biss-8b518b11/", "Alta: MLSNext Academy Director, Bethesda Soccer Club.")),
+    _us("walnut", "Walnut Creek Surf", "Walnut Creek Surf", "America/Los_Angeles", "mani@wcsc.org", "Hi Mani,", "Mani Salimpour (Director of Coaching)", "California", D(2026, 11, 17), hook="was down for the Donosti Cup in San Sebastián this summer", li=("Mani Salimpour", "Pega en el buscador de LinkedIn: Mani Salimpour Walnut Creek Surf", "Sin enlace directo. Comprueba que dice Walnut Creek Surf.")),
+    _us("chicagofcu", "Chicago FC United", "Chicago FC United", "America/Chicago", "info@chicagofcunited.com", "Hi team,", "Jeff DeGroot (MLS NEXT Academy Director; email personal sin confirmar)", "Illinois", D(2026, 11, 17), right="Jeff DeGroot"),
     _us("sockers", "Sockers FC Chicago", "Sockers FC Chicago", "America/Chicago", "admin@sockersfcchicago.com", "Hi team,", "Oleg Vatchev (Director de Metodología MLS NEXT; email personal sin confirmar)", "Illinois", D(2026, 11, 11), right="Oleg Vatchev"),
 ]
 
@@ -317,10 +340,16 @@ def build_sends():
         if not p["sent"]:
             rows.append(dict(date=base, club=p["club"], kind="Email 1", to=p["to"], subj=p["subj"], body=p["e1_body"].format(**sg),
                              how=HOW_EMAIL, tz=p["tz"], key=p["key"]))
-        if p["linkedin"]:
-            d, who = p["linkedin"]
-            rows.append(dict(date=d, club=p["club"], kind="LinkedIn conectar", to=who, subj="(nota de conexión)",
-                             body=t["LI"].format(first=who.split()[0]), how=HOW_LI, tz=None, key=p["key"]))
+        lis = p["linkedin"]
+        if lis:
+            lis = lis if isinstance(lis, list) else [lis]
+            for item in lis:
+                d, who, how_, conf_ = item[0], item[1], item[2], item[3]
+                note_ = item[4] if len(item) > 4 else t["LI"].format(first=who.split()[0])
+                rows.append(dict(date=d, club=p["club"], kind="LinkedIn conectar", to=who, subj="(nota de conexión)",
+                                 body=note_, how=HOW_LI, tz=None, key=p["key"], li_link=how_, li_conf=conf_))
+        if p.get("stop_after_e1"):
+            continue
         fu1 = (t["FU1_RIGHT"] if right and t["FU1_RIGHT"] else t["FU1"]).format(**sg)
         rows.append(dict(date=base + dt.timedelta(days=7), club=p["club"], kind="Follow-up 1", to=p["to"], subj=subj_re, body=fu1,
                          how=HOW_FU, tz=p["tz"], key=p["key"]))
@@ -420,7 +449,7 @@ def build_calendar(sends):
             continue
         if s["kind"] == "LinkedIn conectar":
             add(s["date"], "Libre", 700, "Team/Coach", "LinkedIn: conectar con %s (%s)" % (s["to"], label(s["club"])),
-                s["how"] + " Texto: «%s»" % s["body"], "Textos para copiar", 5)
+                "Perfil: %s  |  Fiabilidad: %s  |  %s  Texto de la nota: «%s»" % (s["li_link"], s["li_conf"], s["how"], s["body"]), "LinkedIn - Conexiones", 5)
         if s["kind"] == "DM en redes":
             add(s["date"], "Libre", 710, "Team/Coach", "Opcional: DM a %s (%s)" % (s["to"], label(s["club"])),
                 "Solo si el club no ha respondido a nada. " + s["how"] + " Texto: «%s»" % s["body"], "Textos para copiar", 5)
@@ -445,7 +474,7 @@ def build_calendar(sends):
       "Escribe desde alwaysup.es a 2 o 3 personas más (familia, amigos, conocidos con Gmail, Outlook o iCloud) un correo normal con una pregunta, y pídeles que respondan. Si caen en spam, que lo marquen como 'No es spam'. Es la forma más rápida de mejorar la reputación de un dominio nuevo.", "", 15)
     A(D(2026, 10, 14), "12:00", 720, "Becas", "Daniel (MLS NEXT): enviar el follow-up por Instagram", "No contestó a tu mensaje del 21/09. Mi consejo: un único follow-up corto con salida fácil, y si no responde en 7 días, pasarlo a 'Frío'. Texto en 'Respuestas tipo' (Daniel). Mejor entre las 12:00 y las 14:00 de Nueva York (18:00 a 20:00 en España, cuando está libre de clase). Después apunta en el CRM la fecha de envío.", "Textos para copiar (Respuestas tipo)", 5)
     A(D(2026, 10, 15), "Libre", 640, "Becas", "Darme tu feedback sobre la ficha de Becas EEUU", "Ábrela (02-sales/assets/Always-Up-Becas-EEUU.pdf) y dime qué cambiarías. Antes de cambiar nada te digo si me parece buena idea.", "02-sales/assets", 15)
-    A(D(2026, 10, 15), "Libre", 645, "Team/Coach", "Pedir al club irlandés permiso para su testimonio y 2 o 3 presentaciones", "Qué es: el club irlandés que ganó su primera liga es nuestra mejor prueba. Queremos (1) que confirmen que podemos citar lo que dijeron y, si pueden, una frase o un vídeo corto de un entrenador, y (2) que nos presenten a 2 o 3 clubes que conozcan. Pasos: 1) pregunta a Enrique quién es tu contacto en ese club; 2) mándale por WhatsApp el texto de 'Respuestas tipo' (ponle su nombre); 3) si contesta, guarda lo que mande y avísame para usarlo. Si prefieres que lo mande Enrique, también vale: es su relación.", "Textos para copiar (Respuestas tipo)", 15)
+    A(D(2026, 11, 2), "Libre", 645, "Team/Coach", "Greystones: preguntar a Enrique si ya pidió el testimonio y las presentaciones", "Decidido el 19/10 con Enrique: se hace sí o sí. Nuestro contacto está de baja por paternidad, así que Enrique le escribirá en unas dos semanas. Esta semana no hay nada que hacer. Hoy solo preguntas a Enrique cómo va; si ya contestó, pásame lo que haya dicho. El texto base está en 'Textos para copiar' (Respuestas tipo).", "Textos para copiar (Respuestas tipo)", 5)
     A(D(2026, 10, 16), "Libre", 640, "Todos", "Revisión semanal 1: qué ha pasado esta semana", "Mira la hoja Hoy y anota respuestas, rebotes y llamadas. Pásame un resumen de tres líneas: yo ajusto el plan.", "Hoy", 20)
     rr = [(D(2026, 10, 21), 45, "Definir la estrategia y los pilares de contenido con la sesión de agentes y decidir qué se publica primero. Objetivo: plan v1 listo el 24/10."),
           (D(2026, 10, 24), 60, "Cerrar el plan v1 y montar el calendario de contenido de las 2 primeras semanas (con los vídeos de 'Joel Content/03_Final')."),
@@ -730,7 +759,10 @@ VERIF = [
     ("Home Farm FC", "homefarmfc@gmail.com", "Email del club en dbsportstours; enviado 13/10", "Entregado (sin rebote a las 21:30 de España)", "Alta", "Facebook del club"),
     ("Hastings United", "georgia.townsend@hastingsunited.com", "Directorio de la academia; enviado 13/10", "Entregado (sin rebote)", "Alta", "Instagram del club"),
     ("Søreide IL", "fotball@soreideil.no", "soreideil.no/fotball/kontaktinformasjon (publicado por el club)", "Pendiente de enviar", "Alta", "Facebook del club"),
-    ("Holbeach United", "callum@holbeachunitedacademy.com", "holbeachunitedcsa.org.uk/contact (Callum Lawe, vicepresidente de la Academia)", "Pendiente de enviar", "Alta", "info@holbeachunitedcsa.org.uk"),
+    ("Holbeach United (Callum Lawe)", "callum@holbeachunitedacademy.com", "holbeachunitedcsa.org.uk/contact. ATENCIÓN: Callum Lawe dejó el club (lincsonline, ago 2026) y se fue a Abu Dhabi", "Enviado 14/10, probablemente sin lector", "Baja: persona ya no está", "dan@holbeachunitedacademy.com (Dan Lester)"),
+    ("Holbeach United (Dan Lester)", "dan@holbeachunitedacademy.com", "Director y responsable de educación de la academia (búsqueda; coincide con el dominio de la academia)", "Pendiente de enviar el 21/10", "Media", "info@holbeachunitedcsa.org.uk"),
+    ("Walnut Creek Surf (EEUU)", "mani@wcsc.org", "Página de staff del club (wcsc.org/club-operations)", "Pendiente: falta dirección postal de la empresa", "Alta", "Contacto del club en wcsc.org"),
+    ("Chicago FC United (EEUU)", "info@chicagofcunited.com", "Contacto general del club; Jeff DeGroot es MLS Next Academy Director, sin email personal publicado", "Pendiente: falta dirección postal de la empresa", "Alta (general)", "Teléfono 847-386-6579"),
     ("Whitehaven AFC", "Luke.johnston@whitehavenafc.com", "Aparece como email de contacto del club en dos búsquedas. La web no lo muestra en texto (lo comprobé abriendo la página).", "Pendiente de enviar", "Media", "Facebook de Whitehaven AFC o teléfono +44 1946 692211"),
     ("Maidstone United", "info@maidstoneunited.co.uk", "Contacto general del club (búsqueda)", "Pendiente de enviar", "Media", "Teléfono 078 3585 4704 (Girls Development Centre) o redes"),
     ("IA Akranes", "kfia@ia.is", "Contacto del club (kfia.is y búsqueda)", "Pendiente de enviar", "Media-alta", "Facebook del club"),
@@ -779,6 +811,79 @@ def sheet_verif(wb):
     ws.sheet_properties.tabColor = NAVY
 
 
+def sheet_linkedin(wb, sends):
+    saved = read_saved(wb, "LinkedIn - Conexiones", (2, 3), (8, 9))
+    ws = fresh(wb, "LinkedIn - Conexiones", 4)
+    title(ws, "LinkedIn: conexiones con decisores (se hacen a mano)",
+          "Cada fila es una persona. Columna D: enlace directo al perfil o el texto exacto que debes pegar en el buscador de LinkedIn. Antes de conectar, comprueba que el cargo o el club del perfil coincide (columna E te dice cuánta confianza tengo). "
+          "Copia la nota de la columna F (máx. 300 caracteres). Si tu cuenta no te deja añadir nota, conecta sin nota y manda el texto cuando acepten. Ritmo: 4 a 8 a la semana, 2 días después del email. No se automatiza.", span=9)
+    head(ws, 4, ["Fecha", "Persona", "Club", "Perfil (enlace o qué buscar)", "Fiabilidad", "Nota de conexión (copiar y pegar)", "Cargo / quién es", "Hecho", "Notas"],
+         [11, 20, 26, 52, 38, 70, 34, 12, 30])
+    people = {}
+    for p in PROSPECTS + PROSPECTS_US:
+        people[p["key"]] = p
+    r = 5
+    for x in sends:
+        if x["kind"] != "LinkedIn conectar" or x["date"] < D(2026, 10, 19):
+            continue
+        p = people.get(x["key"], {})
+        vals = [x["date"], x["to"], label(x["club"]), x["li_link"], x["li_conf"], x["body"], p.get("person", ""), None, None]
+        k = (x["to"], label(x["club"]))
+        old = saved.get(k)
+        if old:
+            vals[7], vals[8] = old
+        for i, v in enumerate(vals, 1):
+            c = ws.cell(row=r, column=i, value=v)
+            c.alignment = Alignment(wrap_text=True, vertical="top"); c.border = BORDER; c.font = Font(size=10)
+        ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
+        ws.cell(row=r, column=1).fill = PatternFill("solid", fgColor="F3E8FF")
+        ws.row_dimensions[r].height = max(est_height(x["body"], 70), est_height(x["li_link"], 52), est_height(x["li_conf"], 38), 48)
+        r += 1
+    dv = DataValidation(type="list", formula1='"Pendiente,Hecho,Saltado"', allow_blank=True)
+    ws.add_data_validation(dv)
+    for rr in range(5, r):
+        if ws.cell(row=rr, column=8).value is None:
+            ws.cell(row=rr, column=8, value="Pendiente")
+        dv.add(ws.cell(row=rr, column=8))
+    ws.freeze_panes = "A5"
+    ws.sheet_properties.tabColor = "7B3FA0"
+
+
+def apply_registro(wb):
+    """Aplica registro.json (lo que ha pasado de verdad) al Excel: estados de clubes, 'Hecho' en textos y tareas hechas."""
+    import json
+    path = os.path.join(HERE, "registro.json")
+    if not os.path.exists(path):
+        return
+    reg = json.load(open(path, encoding="utf-8"))
+    people = {p["key"]: p for p in PROSPECTS + PROSPECTS_US}
+    sa, sb, tx, cal = wb["Segmento A - Clubes"], wb["Segmento B - America"], wb["Textos para copiar"], wb["Calendario diario"]
+    for e in reg.get("envios", []):
+        p = people.get(e["key"])
+        if not p:
+            continue
+        d = dt.datetime.strptime(e["date"], "%Y-%m-%d")
+        for ws, col_estado in ((sa, 9), (sb, 8)):
+            for r in range(6, ws.max_row + 1):
+                if ws.cell(row=r, column=1).value == p["club"]:
+                    ws.cell(row=r, column=col_estado, value="Enviado")
+                    cf = 13 if ws is sa else 12
+                    ws.cell(row=r, column=cf, value=d); ws.cell(row=r, column=cf + 1, value=d)
+                    ws.cell(row=r, column=cf).number_format = "DD/MM/YYYY"; ws.cell(row=r, column=cf + 1).number_format = "DD/MM/YYYY"
+        for r in range(5, tx.max_row + 1):
+            if tx.cell(row=r, column=4).value == p["club"] and tx.cell(row=r, column=5).value == e["kind"]:
+                tx.cell(row=r, column=10, value=d); tx.cell(row=r, column=10).number_format = "DD/MM/YYYY"
+    for t in reg.get("tareas", []):
+        d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
+        for r in range(5, cal.max_row + 1):
+            a = cal.cell(row=r, column=1).value
+            title_ = cal.cell(row=r, column=5).value or ""
+            if isinstance(a, dt.datetime) and a.date() == d and title_.startswith(t["task"]):
+                cal.cell(row=r, column=9, value="Hecho")
+                if not cal.cell(row=r, column=10).value:
+                    cal.cell(row=r, column=10, value=t.get("nota"))
+
+
 def sheet_readme(wb):
     ws = fresh(wb, "LEEME", 0)
     ws.column_dimensions["A"].width = 24
@@ -796,6 +901,7 @@ def sheet_readme(wb):
         ("PESTAÑAS", ""),
         ("Calendario diario", "Tu lista de tareas por día, con hora, pasos y dónde está el texto. Es lo único que necesitas mirar a diario."),
         ("Textos para copiar", "Todos los correos, notas de LinkedIn y mensajes, listos para pegar. Incluye respuestas tipo para cuando contesten."),
+        ("LinkedIn - Conexiones", "Las personas con las que conectar en LinkedIn: enlace o qué buscar, nota para copiar y fecha. Se hacen a mano."),
         ("Hoy", "Panel con números (se calculan solos desde las pestañas de segmento)."),
         ("Plan por servicio", "Cómo conseguimos clientes en cada servicio y en qué orden."),
         ("Verificación", "De dónde sale cada email y qué tan fiable es."),
@@ -937,10 +1043,12 @@ def main():
     update_segment_a(wb, sends)
     sheet_calendar(wb, cal)
     sheet_texts(wb, sends)
+    sheet_linkedin(wb, sends)
     sheet_services(wb)
     sheet_verif(wb)
     sheet_readme(wb)
-    order = ["LEEME", "Calendario diario", "Hoy", "Textos para copiar", "Plan por servicio", "Verificación", "Segmento A - Clubes",
+    apply_registro(wb)
+    order = ["LEEME", "Calendario diario", "Hoy", "Textos para copiar", "LinkedIn - Conexiones", "Plan por servicio", "Verificación", "Segmento A - Clubes",
              "Segmento B - America", "Segmento C - Becas", "Dashboard", "LinkedIn - Plan diario", "Oportunidades y notas"]
     wb._sheets = [wb[n] for n in order if n in wb.sheetnames] + [s for s in wb._sheets if s.title not in order]
     wb.active = 1

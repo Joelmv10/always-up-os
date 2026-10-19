@@ -152,3 +152,26 @@ Joel Martinez
 Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
+
+## Holbeach United (Dan Lester): email 1 (enviar 21/10/2026 a las 04:30 hora Nueva York)
+
+**Para:** dan@holbeachunitedacademy.com
+
+**Asunto:** A week in Spain for Holbeach's academy squads
+
+```
+Hi Dan,
+
+I'm Joel, I run Always Up. I wrote last week to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```

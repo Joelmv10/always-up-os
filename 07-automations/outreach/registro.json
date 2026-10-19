@@ -1,0 +1,36 @@
+{
+  "_nota": "Registro de lo que ha ocurrido de verdad (envíos y tareas hechas). El script lo aplica al Excel en cada ejecución, así el estado no depende de qué versión del archivo tenga abierta Joel. Se actualiza con lo que Joel cuenta en el chat.",
+  "envios": [
+    {"key": "homefarm", "kind": "Email 1", "date": "2026-10-13"},
+    {"key": "hastings", "kind": "Email 1", "date": "2026-10-13"},
+    {"key": "soreide", "kind": "Email 1", "date": "2026-10-14", "nota": "Enviado a mano 14/10 (8:34). El primer intento del 13/10 rebotó."},
+    {"key": "holbeach", "kind": "Email 1", "date": "2026-10-14", "nota": "Salió programado 14/10 (4:41), posible duplicado. Callum Lawe ya no está en el club."},
+    {"key": "maidstone", "kind": "Email 1", "date": "2026-10-15"},
+    {"key": "whitehaven", "kind": "Email 1", "date": "2026-10-15"},
+    {"key": "akranes", "kind": "Email 1", "date": "2026-10-15"}
+  ],
+  "tareas": [
+    {"date": "2026-10-13", "task": "Revisión diaria", "nota": "Hecho"},
+    {"date": "2026-10-13", "task": "Omar: anotado", "nota": "Hecho"},
+    {"date": "2026-10-13", "task": "Prueba de entregabilidad", "nota": "SPF, DKIM y DMARC en PASS; llegó a bandeja de Gmail"},
+    {"date": "2026-10-14", "task": "Revisión diaria", "nota": "Hecho"},
+    {"date": "2026-10-14", "task": "ENVIAR email 1 a Søreide", "nota": "Enviado a mano 14/10 (8:34)"},
+    {"date": "2026-10-14", "task": "ENVIAR email 1 a Holbeach", "nota": "Salió programado 14/10 (4:41)"},
+    {"date": "2026-10-14", "task": "Confirmar que salieron", "nota": "Revisado"},
+    {"date": "2026-10-14", "task": "Comprobar si Søreide y Holbeach", "nota": "Søreide 1 envío; Holbeach 2 o 3"},
+    {"date": "2026-10-14", "task": "Opcional: pruebas de envío programado", "nota": "Sale con Mail cerrado y Mac en reposo"},
+    {"date": "2026-10-14", "task": "Prueba de spam con Microsoft", "nota": "3 cuentas Outlook: todas en bandeja principal"},
+    {"date": "2026-10-14", "task": "Daniel (MLS NEXT): enviar el follow-up", "nota": "Enviado el 14/10"},
+    {"date": "2026-10-14", "task": "Programar en Apple Mail los envíos del jueves", "nota": "Programados los 3"},
+    {"date": "2026-10-15", "task": "ENVIAR email 1 a", "nota": "Programado y enviado; copia CCO recibida"},
+    {"date": "2026-10-15", "task": "Revisión diaria", "nota": "Sin novedades"},
+    {"date": "2026-10-15", "task": "Confirmar que salieron", "nota": "Salieron (INBOX.Sent), sin rebotes"},
+    {"date": "2026-10-15", "task": "Darme tu feedback sobre la ficha de Becas", "nota": "Versión 3 aprobada como ficha oficial"},
+    {"date": "2026-10-16", "task": "Revisión diaria", "nota": "Sin novedades"},
+    {"date": "2026-10-16", "task": "Revisión semanal 1", "nota": "Sin respuestas ni rebotes en la primera semana"},
+    {"date": "2026-10-16", "task": "Actualizar el CRM", "nota": "CRM actualizado el 19/10"},
+    {"date": "2026-10-19", "task": "Revisión diaria", "nota": "Sin novedades"},
+    {"date": "2026-10-19", "task": "Pedirme: «investiga 10 clubes más»", "nota": "Hecho 19/10"},
+    {"date": "2026-10-20", "task": "Consultar con la oficina internacional", "nota": "Ya consultado: sin problema con el F-1"}
+  ]
+}
