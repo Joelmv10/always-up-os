@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Presentación de colaboración para un socio o canal (por ejemplo Gonzalo, Argentina). 16:9, español.
 
-Uso:  python3 propuesta_socio.py            -> genera 01-clients/propuestas/Always-Up-Propuesta-Gonzalo-Argentina-2028.pdf
+Uso:  python3 propuesta_socio.py            -> genera 01-clients/propuestas/Always-Up-Propuesta-Gonzalo-Lamas-Argentina-2028.pdf
 Diseño: estilo Always Up corporativo (azul #254264, granate #922E32, crema #F4F1E8), títulos en Georgia, logo y águila de la marca.
 Contenido: mezcla de la presentación de Enrique (v3) y la de Joel. Sin precios. Cambiar NOMBRE, ANIO o los textos en este archivo.
 Dependencias: reportlab, pillow, numpy y materiales.py (esta misma carpeta). Fotos de .cache (ejecutar preparar_imagenes.py antes).
@@ -18,8 +18,8 @@ import materiales as M
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BRAND = os.path.join(HERE, "brand")
-NOMBRE, ANIO = "Gonzalo", "2028"
-OUT = os.path.abspath(os.path.join(HERE, "..", "..", "01-clients", "propuestas", "Always-Up-Propuesta-Gonzalo-Argentina-2028.pdf"))
+NOMBRE, ANIO = "Gonzalo Lamas", "2028"
+OUT = os.path.abspath(os.path.join(HERE, "..", "..", "01-clients", "propuestas", "Always-Up-Propuesta-Gonzalo-Lamas-Argentina-2028.pdf"))
 
 NAVY = colors.HexColor("#254264"); WINE = colors.HexColor("#922E32"); CREAM = colors.HexColor("#F4F1E8")
 INK = colors.HexColor("#1F2937"); GREY = colors.HexColor("#5B6573"); WHITE = colors.white
@@ -101,12 +101,12 @@ def item(s, name, x, y, head, body, w=6.2, fill=NAVY, d=0.52, hs=13.5):
     return h1 + h2
 
 
-def card_icon(s, name, x, y, w, h, head, body, num=None, fill=NAVY, bg=WHITE, hs=16):
-    s.box(x, y, w, h, bg)
-    s.icon(name, x+0.30, y+0.28, 0.58, fill)
-    ps = M.ParagraphStyle("ch", fontName="GeorgiaB", fontSize=hs, leading=hs*1.2, textColor=NAVY)
+def card_icon(s, name, x, y, w, h, head, body, num=None, fill=NAVY, bg=WHITE, hs=16, dark=False):
+    s.box(x, y, w, h, NAVY if dark else bg)
+    s.icon(name, x+0.30, y+0.28, 0.58, WINE if dark else fill)
+    ps = M.ParagraphStyle("ch", fontName="GeorgiaB", fontSize=hs, leading=hs*1.2, textColor=WHITE if dark else NAVY)
     h1 = para(s.c, head, ps, (x+0.30)*S, H-(y+1.10)*S, (w-0.6)*S)
-    para(s.c, body, st("cb", fontSize=11.2, leading=15, textColor=GREY), (x+0.30)*S, H-(y+1.10)*S-h1-5, (w-0.6)*S)
+    para(s.c, body, st("cb", fontSize=11.2, leading=15, textColor=colors.HexColor("#DCE3EC") if dark else GREY), (x+0.30)*S, H-(y+1.10)*S-h1-5, (w-0.6)*S)
     if num:
         s.c.setFillColor(WINE); s.c.setFont("GeorgiaB", 24); s.c.drawRightString((x+w-0.3)*S, H-(y+0.78)*S, num)
 
@@ -145,7 +145,7 @@ def build():
     s = new(CREAM); s.eyebrow("Por qué trabajar con nosotros"); s.logo(); s.title("Lo que cambia para tu negocio", w=10)
     s.text("Más opciones para tus clientes, un solo interlocutor en España y la relación con tu cliente siempre en tus manos.", 0.75, 1.75, 11, 13)
     ben = [("stadium", "Nuevos destinos", "Madrid, San Sebastián y Gijón, con el Atlético, la Real Sociedad y el Sporting.", NAVY),
-           ("chart", "Nuevas líneas de negocio", "Campus en Argentina, Coach Experience, torneos y becas en EE. UU. amplían lo que puedes vender.", WINE),
+           ("chart", "Nuevas líneas de negocio", "Jugadores a entrenar y probar en España, campus en Argentina, Coach Experience, torneos y becas amplían lo que puedes vender.", WINE),
            ("handshake", "Tú mantienes la relación", "Trabajamos como tu equipo en España. Tu cliente sigue siendo tuyo.", NAVY),
            ("group", "Grupos grandes", "Combinamos clubes, sedes, categorías y fechas sin perder calidad.", WINE),
            ("bed", "Todo resuelto", "Residencias de los clubes, traslados, entradas y un único interlocutor antes, durante y después del viaje.", NAVY),
@@ -163,9 +163,8 @@ def build():
                        ("globe", "Experiencia internacional", "Programas para clubes, academias y entrenadores de Europa y América."),
                        ("grad", "Conocimiento del sistema universitario de EE. UU.", "Experiencia propia como jugador NCAA y partners especializados en becas.")]:
         item(s, ic, 0.75, yy, h_, b_, w=6.6, d=0.46, hs=12.5); yy += 0.95
-    s.box(8.55, 1.5, 4.2, 5.3, CREAM)
-    c.drawImage(img("aguila_cabeza.png"), 9.2*S, H-(1.5+2.75)*S, 2.9*S, 2.78*S, mask="auto")
-    para(c, "“Always Up es estar siempre arriba, siempre dispuesto al desafío y a darlo todo.”", M.ParagraphStyle("q", fontName="GeorgiaI", fontSize=14, leading=20, textColor=NAVY, alignment=1), 8.85*S, H-4.45*S, 3.6*S)
+    s.photo(f"{NW}/au_p02_0.png", 8.55, 1.5, 4.2, 2.55, (0.5, 0.6), "Amistoso contra la academia del Atlético")
+    s.photo(f"{NW}/au_p13_5.png", 8.55, 4.2, 4.2, 2.6, (0.5, 0.5), "Día de partido · Metropolitano")
     s.done()
 
     # 5 valores ------------------------------------------------------------
@@ -217,11 +216,24 @@ def build():
              ("book", "Colegios", "Viajes deportivos y culturales: entrenamientos con entrenadores de LaLiga, partidos, estadios y visitas, para todos los niveles.", WINE),
              ("runner", "Academias", "Team Experience de alto nivel, campus en Argentina con entrenadores de LaLiga y Coach Experience para su staff.", NAVY),
              ("board", "Entrenadores", "Coach Experience: ponencias, observación de entrenamientos y partidos en la academia del club.", WINE),
-             ("grad", "Jugadores con proyección", "Becas deportivo-académicas en EE. UU. y pruebas en clubes españoles para mayores de edad.", NAVY)]
+             ("grad", "Jugadores que quieren probar", "Venir a España a entrenar, jugar y probar con clubes, o seguir su camino con becas en EE. UU.", NAVY)]
     for i, (ic, h_, b_, col) in enumerate(kinds):
         x = 0.75+(i % 3)*4.0 if i < 3 else 0.75+(i-3)*4.0+2.0
         y0 = 2.05 if i < 3 else 4.65
-        card_icon(s, ic, x, y0, 3.75, 2.4, h_, b_, fill=col, bg=CREAM, hs=15)
+        card_icon(s, ic, x, y0, 3.75, 2.4, h_, b_, fill=col, bg=CREAM, hs=15, dark=(i == 4))
+    s.done()
+
+    # 8b jugadores a España ------------------------------------------------
+    s = new(WHITE); s.photo(os.path.join(SOC, "atm_entrenamiento.png"), 0, 0, 5.0, 7.5, (0.5, 0.5)); s.logo()
+    s.eyebrow("Servicio · Jugadores en España", 5.6); s.title("Que tus jugadores vivan el fútbol español", 5.6, 0.95, 7.1, 26)
+    s.text("Entrenar, jugar y probar: una forma de que tus jugadores vean de cerca cómo se trabaja en un club de LaLiga.", 5.6, 2.25, 7.0, 12.5, INK)
+    yy = 3.15
+    for ic, h_, b_ in [("runner", "Entrenar en la cantera", "De una semana a un mes entrenando con la metodología de un club de LaLiga, con alojamiento y comidas en la residencia."),
+                       ("trophy", "Jugar partidos", "Amistosos contra equipos de la zona y de academias, con informe individual de cada jugador al terminar."),
+                       ("binoc", "Probar con clubes españoles", "Organizamos pruebas en clubes para jugadores mayores de edad. Con menores, experiencias de entrenamiento, siempre cumpliendo la normativa FIFA."),
+                       ("globe", "Quedarse más tiempo", "Programa Internacional con la Real Sociedad: 1, 5 o 10 meses, con apoyo académico y clases de español.")]:
+        hh = item(s, ic, 5.6, yy, h_, b_, w=7.0, d=0.46, hs=12.5); yy += max(0.9, hh/S+0.3)
+    c.setFillColor(GREY); c.setFont("Helvetica-Oblique", 9.5); c.drawString(5.6*S, H-7.05*S, "Las pruebas no garantizan un fichaje: dependen del nivel del jugador y del interés de cada club.")
     s.done()
 
     # 9 team experience -----------------------------------------------------
@@ -247,8 +259,10 @@ def build():
     for d_, t_ in days:
         s.box(0.75, yy, 1.35, 0.4, WINE, 4); c.setFillColor(WHITE); c.setFont("Helvetica-Bold", 9.5); c.drawCentredString((0.75+0.675)*S, H-(yy+0.26)*S, d_)
         para(c, t_, st("dy", fontSize=12, leading=16, textColor=INK), 2.3*S, H-(yy-0.02)*S, 5.7*S); yy += 0.82
-    s.photo(f"{IM}/tebro_p13_2.png", 8.7, 1.5, 4.0, 2.65, (0.5, 0.5), "Estadio · Atlético de Madrid")
-    s.photo(f"{NW}/au_p05_0.png", 8.7, 4.3, 4.0, 2.5, (0.5, 0.5), "Zubieta · Real Sociedad"); s.done()
+    s.photo(f"{IM}/tebro_p06_2.png", 8.7, 1.8, 4.0, 1.95, (0.5, 0.5), "Academia · Atlético de Madrid")
+    s.photo(f"{IM}/tebro_p07_3.png", 8.7, 3.9, 4.0, 1.4, (0.5, 0.5), "Residencia del club")
+    s.photo(f"{IM}/tebro_p16_2.png", 8.7, 5.45, 4.0, 1.4, (0.5, 0.5), "Gimnasio de alto rendimiento")
+    s.done()
 
     # 11 campus -------------------------------------------------------------
     s = new(WHITE); s.photo(f"{NW}/au_p13_2.png", 0, 0, 5.7, 7.5, (0.5, 0.5)); s.logo()
@@ -263,32 +277,35 @@ def build():
 
     # 12 más servicios ------------------------------------------------------
     s = new(CREAM); s.eyebrow("Más servicios para tus clientes"); s.logo(); s.title("Servicios que se combinan entre sí", w=10.4)
-    cols = [("board", "Coach Experience", NAVY, ["Ponencias con los departamentos del club", "Observación de entrenamientos de U12 a U19", "Metodología, preparación física, porteros, análisis y psicología"]),
-            ("trophy", "Torneos y pretemporadas", WINE, ["MadCup (Madrid, finales de junio) y DonostiCup (San Sebastián, julio, más de 30 países)", "Torneos de academias en invierno y Semana Santa", "Pretemporadas y stages a medida, con inscripción, alojamiento y amistosos"]),
-            ("grad", "Becas en EE. UU.", NAVY, ["Evaluación, perfil y vídeo de presentación", "Contacto con universidades y high schools", "Trámites, visado y acompañamiento. Las becas no se pueden garantizar: dependen del nivel y las notas"])]
+    cols = [("runner", "Jugadores en España", WINE, ["Entrenar y jugar en la cantera de un club de LaLiga", "Pruebas en clubes para mayores de edad", "De una semana a una temporada completa"]),
+            ("board", "Coach Experience", NAVY, ["Ponencias con los departamentos del club", "Observación de entrenamientos de U12 a U19", "Metodología, preparación física, porteros y análisis"]),
+            ("trophy", "Torneos y stages", WINE, ["MadCup (Madrid, finales de junio) y DonostiCup (San Sebastián, julio)", "Torneos de academias en invierno y Semana Santa", "Pretemporadas y stages a medida"]),
+            ("grad", "Becas en EE. UU.", NAVY, ["Evaluación, perfil y vídeo de presentación", "Contacto con universidades y high schools", "Trámites, visado y acompañamiento. Las becas no se pueden garantizar"])]
+    cw4 = 2.85
     for i, (ic, h_, col, items_) in enumerate(cols):
-        x = 0.75+i*4.0; s.box(x, 2.05, 3.75, 4.2, WHITE); s.icon(ic, x+0.3, 2.3, 0.6, col)
-        c.setFillColor(NAVY); c.setFont("GeorgiaB", 17); c.drawString((x+0.3)*S, H-3.4*S, h_)
-        yy = 3.75
+        x = 0.75+i*(cw4+0.12); s.box(x, 2.05, cw4, 4.4, WHITE); s.icon(ic, x+0.25, 2.3, 0.58, col)
+        c.setFillColor(NAVY); c.setFont("GeorgiaB", 15); c.drawString((x+0.25)*S, H-3.35*S, h_)
+        yy = 3.7
         for t_ in items_:
-            c.setFillColor(WINE); c.rect((x+0.3)*S, H-(yy+0.14)*S, 5, 5, stroke=0, fill=1)
-            hh = para(c, t_, st("ms", fontSize=11.5, leading=15.5, textColor=INK), (x+0.5)*S, H-yy*S, 3.0*S); yy += max(0.55, hh/S+0.2)
+            c.setFillColor(WINE); c.rect((x+0.25)*S, H-(yy+0.14)*S, 5, 5, stroke=0, fill=1)
+            hh = para(c, t_, st("ms", fontSize=11, leading=15, textColor=INK), (x+0.45)*S, H-yy*S, (cw4-0.65)*S); yy += max(0.55, hh/S+0.2)
     s.done()
 
     # 13 año 2028 -----------------------------------------------------------
     s = new(WHITE); s.eyebrow("Ejemplo ilustrativo"); s.logo(); s.title(f"Un año {ANIO} de trabajo conjunto", w=10)
     s.text("Así podría organizarse la oferta para tus clientes a lo largo del año, aprovechando el calendario argentino.", 0.75, 1.75, 11, 13)
     s.rect(0.75, 3.35, 11.75, 0.06, NAVY)
-    tl = [("ENE – FEB", "Grupos a España y campus", "Tu verano coincide con la temporada española en plena competición: entrenamientos, LaLiga y Champions. O campus en Argentina.", NAVY),
+    tl = [("ENE – FEB", "Grupos a España y campus", "Tu verano coincide con la temporada española en plena competición. O campus en Argentina.", NAVY),
           ("MAR – ABR", "Coach Experience", "Formación en España para entrenadores de clubes y academias.", WINE),
-          ("JUL", "Vacaciones de invierno", "Grupos de colegios y clubes: torneos internacionales (MadCup, DonostiCup) y experiencias en clubes de LaLiga.", NAVY),
-          ("TODO EL AÑO", "Becas en EE. UU.", "Acompañamiento a jugadores con proyección universitaria.", WINE)]
+          ("JUL", "Vacaciones de invierno", "Grupos de colegios y clubes: MadCup, DonostiCup y experiencias en clubes de LaLiga.", NAVY),
+          ("TODO EL AÑO", "Jugadores en España", "Una semana, un mes o una temporada entrenando y probando con clubes.", WINE),
+          ("TODO EL AÑO", "Becas en EE. UU.", "Acompañamiento a jugadores con proyección universitaria.", NAVY)]
     for i, (when, h_, b_, col) in enumerate(tl):
-        x = 0.75+i*3.0; c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 11); c.drawString(x*S, H-2.85*S, when)
+        x = 0.75+i*2.38; c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 10.5); c.drawString(x*S, H-2.85*S, when)
         c.setFillColor(col); c.circle((x+0.2)*S, H-3.38*S, 0.2*S, stroke=0, fill=1)
-        s.box(x, 3.9, 2.8, 2.7, CREAM)
-        para(c, h_, M.ParagraphStyle("th", fontName="GeorgiaB", fontSize=15, leading=18, textColor=NAVY), (x+0.25)*S, H-4.1*S, 2.35*S)
-        para(c, b_, st("tb", fontSize=11, leading=15, textColor=GREY), (x+0.25)*S, H-4.85*S, 2.35*S)
+        s.box(x, 3.9, 2.25, 2.7, CREAM)
+        para(c, h_, M.ParagraphStyle("th", fontName="GeorgiaB", fontSize=14, leading=17, textColor=NAVY), (x+0.2)*S, H-4.1*S, 1.9*S)
+        para(c, b_, st("tb", fontSize=10.5, leading=14.5, textColor=GREY), (x+0.2)*S, H-4.85*S, 1.9*S)
     s.done()
 
     # 14 formas de trabajar juntos -----------------------------------------
@@ -312,7 +329,7 @@ def build():
     s.text("Con tus respuestas preparamos una propuesta concreta, no genérica.", 0.75, 1.75, 11, 13)
     qs = [("group", "Tus grupos", "¿Qué edades, niveles y tipos de grupo mueves (equipos, colegios, familias)?"), ("chart", f"Volumen para {ANIO}", "¿Cuántas personas te gustaría mover y en qué ventanas del año?"),
           ("heart", "Lo que valoran", "¿Qué buscan hoy tus clientes: competir, formarse, vivir la experiencia?"), ("plane", "Cómo viajan hoy", "¿Cómo organizas los viajes actuales y qué te gustaría mejorar?"),
-          ("ticket", "Presupuesto", "¿Qué rango por persona maneja tu comunidad?"), ("grad", "Otros servicios", "¿Te interesan también entrenadores, jugadores en residencia o becas en EE. UU.?")]
+          ("ticket", "Presupuesto", "¿Qué rango por persona maneja tu comunidad?"), ("grad", "Otros servicios", "¿Te interesan también jugadores que quieran probar en España, entrenadores o becas en EE. UU.?")]
     for i, (ic, h_, b_) in enumerate(qs):
         card_icon(s, ic, 0.75+(i % 3)*4.0, 2.3+(i//3)*2.35, 3.75, 2.15, h_, b_, fill=NAVY if i % 2 == 0 else WINE, bg=CREAM, hs=16)
     s.done()
@@ -336,9 +353,9 @@ def build():
     c.drawImage(img("aguila.png"), 7.0*S, H-(0.9+4.98)*S, 5.9*S, 4.98*S, mask="auto")
     c.drawImage(img("logo.png"), 0.85*S, H-(1.1+1.7)*S, 2.6*S, 1.7*S, mask="auto")
     para(c, "Siempre arriba. Siempre a medida.", M.ParagraphStyle("end", fontName="GeorgiaB", fontSize=32, leading=38, textColor=NAVY), 0.85*S, H-3.15*S, 6.0*S)
-    yy = 4.75
-    for k, v in [("Joel Martinez", "joel.martinez@alwaysup.es  ·  +1 (814) 329 1929"), ("Enrique Martínez", "enrique.martinez@qualityservix.com"), ("Web", "alwaysup.es")]:
-        c.setFillColor(WINE); c.setFont("Helvetica-Bold", 10); c.drawString(0.85*S, H-yy*S, k.upper()); c.setFillColor(INK); c.setFont("Helvetica", 13); c.drawString(0.85*S, H-(yy+0.3)*S, v); yy += 0.72
+    yy = 4.85
+    for k, v in [("Correo", "joel.martinez@alwaysup.es"), ("Teléfono", "+1 (814) 329 1929")]:
+        c.setFillColor(WINE); c.setFont("Helvetica-Bold", 10); c.drawString(0.85*S, H-yy*S, k.upper()); c.setFillColor(INK); c.setFont("Helvetica", 15); c.drawString(0.85*S, H-(yy+0.34)*S, v); yy += 0.85
     c.showPage()
     c.save()
     return OUT
