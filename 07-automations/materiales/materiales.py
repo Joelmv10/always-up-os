@@ -566,7 +566,150 @@ def build_deck(public):
         c.setFillColor(CREAM); c.setFont("Helvetica-Bold", 10); c.drawString(DM, y, k.upper()); c.setFillColor(colors.white); c.setFont("Helvetica", 13); c.drawString(DM+90, y, v); y -= 26
     c.showPage(); c.save(); return out
 
+
+# ================================================================== PROPUESTA PARA UN SOCIO / DISTRIBUIDOR (16:9, español)
+def build_partner(nombre="Gonzalo", anio="2028", slug="Gonzalo-Argentina"):
+    outdir = os.path.abspath(os.path.join(HERE, "..", "..", "01-clients", "propuestas")); os.makedirs(outdir, exist_ok=True)
+    out = f"{outdir}/Always-Up-Propuesta-{slug}.pdf"
+    c = canvas.Canvas(out, pagesize=(DW, DH)); c.setTitle(f"Always Up - Propuesta de colaboración para {nombre}"); c.setAuthor("Always Up")
+    page = [0]
+
+    def chrome(section):
+        page[0] += 1; d_logo(c, DM, DH-24, 58)
+        c.setFillColor(GREY); c.setFont("Helvetica-Bold", 8.5); c.drawRightString(DW-DM, DH-38, section.upper())
+        c.setStrokeColor(colors.HexColor("#D5DAE5")); c.setLineWidth(0.8); c.line(DM, 36, DW-DM, 36)
+        c.setFillColor(GREY); c.setFont("Helvetica", 8.5); c.drawString(DM, 20, "Always Up  ·  alwaysup.es  ·  joel.martinez@alwaysup.es"); c.drawRightString(DW-DM, 20, str(page[0]))
+
+    def title(text, sub=None, sub_w=None):
+        y = DH-92; c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 27 if len(text) > 40 else 30); c.drawString(DM, y, text)
+        c.setFillColor(RED); c.rect(DM, y-12, 46, 3.5, stroke=0, fill=1)
+        if sub: para(c, sub, sty("sub", fontSize=12.5, leading=17, textColor=GREY), DM, y-24, sub_w or (DW-2*DM-30))
+
+    def panel(path, x, y, w, h, focus=(0.5, 0.5), cap=None):
+        c.drawImage(d_fit(path, w, h, focus), x, y, w, h)
+        if cap:
+            c.setFillColor(colors.Color(0, 0.08, 0.3, alpha=0.8)); c.rect(x, y, w, 20, stroke=0, fill=1)
+            c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 8); c.drawString(x+8, y+6.5, cap)
+
+    def card(x, y_top, w, h, head, body, tag=""):
+        c.setFillColor(LIGHT); c.roundRect(x, y_top-h, w, h, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y_top-h, 4, h, stroke=0, fill=1)
+        yy = y_top-17
+        if tag:
+            c.setFillColor(GREY); c.setFont("Helvetica-Bold", 7.6); c.drawString(x+16, yy, tag.upper()); yy -= 19
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 14); c.drawString(x+16, yy, head)
+        para(c, body, sty("cb", fontSize=10.2, leading=14), x+16, yy-10, w-28)
+
+    # 1 portada
+    page[0] += 1
+    c.drawImage(d_fit(f"{IM}/qs_p04_0.png", DW-430, DH, (0.5, 0.5)), 430, 0, DW-430, DH)
+    c.setFillColor(NAVY); c.rect(0, 0, 430, DH, stroke=0, fill=1); c.setFillColor(RED); c.rect(430, 0, 5, DH, stroke=0, fill=1)
+    c.setFillColor(colors.white); c.roundRect(DM-10, DH-124, 150, 96, 8, stroke=0, fill=1); d_logo(c, DM-2, DH-34, 134)
+    c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 31); c.drawString(DM, 328, "Experiencias de fútbol"); c.drawString(DM, 290, "en España"); c.drawString(DM, 252, "para tu comunidad")
+    c.setFillColor(CREAM); c.setFont("Helvetica-Oblique", 14); c.drawString(DM, 218, f"Propuesta de colaboración {anio}")
+    c.setFillColor(colors.white); c.setFont("Helvetica", 11.5); c.drawString(DM, 192, f"Preparada para {nombre}  ·  Octubre 2026")
+    d_crests(c, DM, 100, 44, 18, white_card=True)
+    c.setFillColor(colors.white); c.setFont("Helvetica", 8.8); c.drawString(DM, 70, "Atlético de Madrid  ·  Real Sociedad  ·  Real Sporting de Gijón"); c.showPage()
+
+    # 2 punto de partida
+    chrome("Punto de partida"); title("Sumar, no sustituir", sub="Lo que hablamos en nuestra reunión, y lo que queremos construir juntos.", sub_w=520)
+    for i, (h_, b_) in enumerate([("Tu red", "Familias, niños y clubes en Argentina, con grupos que ya viajan a España."), ("Tu objetivo", "Ver qué más podemos ofrecer a tu comunidad y cómo trabajar juntos a partir de %s." % anio),
+                                  ("Nuestro punto de partida", "Tu 2027 ya está organizado. No venimos a cambiar nada de lo que funciona: venimos a sumar opciones.")]):
+        card(DM, DH-150-i*118, 470, 104, h_, b_)
+    panel(f"{IM}/tebro_p12_2.png", 548, 62, 358, 372, (0.5, 0.5), "CIUDAD DEPORTIVA · ATLÉTICO DE MADRID"); c.showPage()
+
+    # 3 quiénes somos
+    chrome("Quiénes somos"); title("Acceso real al fútbol profesional español")
+    para(c, "Always Up conecta a equipos, entrenadores y jugadores de todo el mundo con entornos profesionales reales en España, a través de acuerdos directos con clubes de LaLiga.", sty("x", fontSize=13, leading=19, textColor=GREY), DM, DH-126, 800)
+    cw = (DW-2*DM-40)/3
+    for i, (img, n, d) in enumerate([(f"{IM}/tebro_p12_2.png", "Atlético de Madrid", "Ciudad Deportiva de Alcalá y residencia del club"), (f"{NW}/au_p03_0.png", "Real Sociedad", "Zubieta: una de las mejores canteras de Europa"), (f"{NW}/au_p03_7.png", "Real Sporting de Gijón", "Mareo: cantera y residencia")]):
+        xx = DM+i*(cw+20); c.drawImage(d_fit(img, cw, 128), xx, 236, cw, 128)
+        iw, ih = CREST_SZ[i]; chh = 38; cww = chh*iw/ih; c.drawImage(CRESTS[i], xx, 190, cww, chh, mask="auto")
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 13); c.drawString(xx+cww+12, 212, n); para(c, d, sty("d", fontSize=10, leading=13, textColor=GREY), xx+cww+12, 204, cw-cww-14)
+    for i, (h_, b_) in enumerate([("Instalaciones del club", "Entrenamientos y partidos en las instalaciones de los propios clubes."), ("Residencia incluida", "Alojamiento y comidas en la residencia del club, con supervisión."), ("Un solo interlocutor", "Nosotros coordinamos agenda, clubes y logística de principio a fin.")]):
+        card(DM+i*(cw+20), 150, cw, 96, h_, b_)
+    c.showPage()
+
+    # 4 a medida
+    chrome("Un programa a tu medida"); title("Tu comunidad, tu programa")
+    para(c, "Gracias a nuestros acuerdos con el Atlético de Madrid, la Real Sociedad y el Real Sporting, y al uso de sus instalaciones y residencias, diseñamos el programa que tu comunidad necesite.", sty("m", fontSize=15, leading=22), DM, DH-130, 560)
+    for i, (h_, b_) in enumerate([("Fechas y duración", "De unos días a una temporada completa."), ("Edades y nivel", "Desde categorías de base hasta juveniles y cuerpos técnicos."), ("Tamaño del grupo", "Equipos, selecciones, grupos mixtos con acompañantes."), ("Objetivos", "Competir, formarse, vivir la experiencia o abrir una vía profesional.")]):
+        x = DM+(i % 2)*288; y = DH-232-(i//2)*92; c.setFillColor(LIGHT); c.roundRect(x, y-80, 276, 80, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(x, y-80, 4, 80, stroke=0, fill=1)
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 13.5); c.drawString(x+16, y-26, h_); para(c, b_, sty("q", fontSize=10.2, leading=13.5, textColor=GREY), x+16, y-34, 246)
+    panel(f"{NW}/au_p13_4.png", 640, 150, 266, 284, (0.5, 0.5), "SALA DE PRENSA · ATLÉTICO DE MADRID")
+    c.setFillColor(NAVY); c.roundRect(DM, 62, 566, 56, 8, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 13)
+    c.drawString(DM+20, 95, "Si lo que imaginas no está en esta propuesta,"); c.setFillColor(CREAM); c.drawString(DM+20, 76, "lo estudiamos con los clubes.")
+    c.showPage()
+
+    # 5 formatos
+    chrome("Formatos"); title("Lo que podemos montar contigo", sub="Cada formato se adapta a tu grupo. Fechas, duración y condiciones se definen contigo.", sub_w=620)
+    cw = (DW-2*DM-32)/3; ch = 128
+    fm = [("Team Experience", "Equipos que entrenan y compiten en las instalaciones de los clubes: sesiones, partidos, análisis y visitas al estadio.", "Equipos y clubes"),
+          ("Giras y pretemporadas", "De 5 días a dos semanas, con partidos contra equipos de cantera y torneos opcionales como Donosti Cup o MadCup.", "Grupos con calendario propio"),
+          ("Coach Experience", "Cuerpos técnicos que observan sesiones profesionales, asisten a masterclasses y conocen la metodología del club.", "Entrenadores y staff"),
+          ("Programa Internacional Real Sociedad", "Inmersión en Zubieta: 1, 5 o 10 meses entrenando y viviendo en la cantera, con apoyo académico y clases de español.", "Jugadores"),
+          ("Study & Play USA", "Evaluación deportiva, currículum y contacto con entrenadores universitarios y de high school, con apoyo en admisión.", "Jugadores y familias"),
+          ("Campus en Argentina", "Entrenadores de los clubes viajan a vuestras instalaciones para dar un campus oficial. A estudiar según el número de participantes.", "Academias")]
+    for i, (h_, b_, t_) in enumerate(fm):
+        card(DM+(i % 3)*(cw+16), DH-168-(i//3)*(ch+14), cw, ch, h_, b_, t_)
+    c.showPage()
+
+    # 6 semana tipo
+    chrome("Un ejemplo"); title("Una semana tipo en la residencia del Atlético", sub="Ejemplo real de cinco días. Cada programa se construye a medida de cada grupo.", sub_w=560)
+    days = [("LUNES", "Llegada a Madrid, traslado a la residencia y charla de valores del club."), ("MARTES", "Entrenamiento colectivo por la mañana y partido contra un equipo de cantera por la tarde."),
+            ("MIÉRCOLES", "Visionado de un entrenamiento, visita al estadio y museo del Metropolitano y partido."), ("JUEVES", "Entrenamiento por la mañana y partido; visionado del primer equipo si el calendario lo permite."),
+            ("VIERNES", "Última sesión y salida.")]
+    yy = DH-168
+    for d_, t_ in days:
+        c.setFillColor(RED); c.roundRect(DM, yy-14, 82, 20, 4, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 8.8); c.drawCentredString(DM+41, yy-8, d_)
+        para(c, t_, sty("dy", fontSize=11, leading=14.5), DM+96, yy+6, 440); yy -= 52
+    c.setFillColor(LIGHT); c.roundRect(DM, 62, 536, 36, 6, stroke=0, fill=1); para(c, "<b>Incluido:</b> pensión completa en la residencia, todos los traslados y sesiones de hora y media cada día.", sty("inc", fontSize=10.5, leading=14), DM+14, 92, 510)
+    panel(f"{IM}/tebro_p13_2.png", 620, 232, 286, 200, (0.5, 0.5), "ESTADIO · ATLÉTICO DE MADRID"); panel(f"{NW}/au_p05_0.png", 620, 62, 286, 160, (0.5, 0.5), "ZUBIETA · REAL SOCIEDAD"); c.showPage()
+
+    # 7 formas de trabajar
+    chrome("Colaboración"); title("Tres formas de trabajar juntos", sub="No hay un solo modelo. Elegimos contigo el que mejor encaje con tu comunidad.", sub_w=620)
+    cw = (DW-2*DM-32)/3
+    for i, (l_, h_, b_) in enumerate([("A", "Tú traes, nosotros operamos", "Presentas grupos, familias o clubes de tu red y nosotros nos encargamos de todo: programa, clubes, alojamiento, traslados y seguimiento."),
+                                      ("B", "Programas con tu marca", "Programas diseñados para tu comunidad, con fechas y plazas por temporada, que presentas como propios con el respaldo de los clubes."),
+                                      ("C", "Alianza anual", "Un calendario compartido para %s con varios servicios: equipos, entrenadores, jugadores y becas, planificado con tiempo." % anio)]):
+        x = DM+i*(cw+16); y = DH-176; c.setFillColor(NAVY if i == 1 else LIGHT); c.roundRect(x, y-170, cw, 170, 6, stroke=0, fill=1); tc = colors.white if i == 1 else NAVY
+        c.setFillColor(CREAM if i == 1 else RED); c.circle(x+26, y-30, 14, stroke=0, fill=1); c.setFillColor(NAVY if i == 1 else colors.white); c.setFont("Helvetica-Bold", 14); c.drawCentredString(x+26, y-35, l_)
+        c.setFillColor(tc); c.setFont("Helvetica-Bold", 14); c.drawString(x+50, y-35, h_ if len(h_) < 26 else h_[:26]); 
+        para(c, b_, sty("wb", fontSize=11.2, leading=16, textColor=(colors.white if i == 1 else INK)), x+18, y-62, cw-36)
+    c.setFillColor(LIGHT); c.roundRect(DM, 120, DW-2*DM, 44, 6, stroke=0, fill=1); c.setFillColor(RED); c.rect(DM, 120, 4, 44, stroke=0, fill=1)
+    para(c, "<b>Las condiciones se definen juntos</b> según el volumen, los servicios y las fechas. Primero entendemos tu comunidad, después ponemos números.", sty("cn", fontSize=11, leading=15), DM+18, 156, DW-2*DM-40); c.showPage()
+
+    # 8 preguntas
+    chrome("Para preparar la propuesta"); title("Lo que nos ayudaría saber", sub="Con tus respuestas preparamos una propuesta concreta, no genérica.", sub_w=620)
+    qs = [("Tus grupos", "¿Qué edades, niveles y tipos de grupo mueves (equipos, familias, escuelas)?"), ("Volumen para %s" % anio, "¿Cuántas personas te gustaría mover y en qué ventanas del año?"),
+          ("Lo que valoran", "¿Qué buscan hoy tus familias y clubes: competir, formarse, vivir la experiencia?"), ("Cómo viajan hoy", "¿Cómo organizas los viajes actuales y qué te gustaría mejorar?"),
+          ("Presupuesto", "¿Qué rango por persona maneja tu comunidad?"), ("Otros servicios", "¿Te interesan también entrenadores, jugadores en residencia o becas en EEUU?")]
+    for i, (h_, b_) in enumerate(qs):
+        card(DM+(i % 2)*(DW-2*DM)//2+(8 if i % 2 else 0)-(0), DH-168-(i//2)*104, (DW-2*DM)//2-10, 92, h_, b_)
+    c.showPage()
+
+    # 9 pasos
+    chrome("Siguientes pasos"); title("Cómo lo haríamos")
+    sw = (DW-2*DM-42)/4
+    for i, (t_, b_) in enumerate([("Llamada", "30 minutos para conocer tu comunidad, tus objetivos y tus fechas."), ("Propuesta", "Un programa escrito a tu medida, con opciones y condiciones."), ("Plan %s" % anio, "Calendario, reserva de fechas y primer grupo."), ("Seguimiento", "Revisamos cada experiencia contigo y mejoramos la siguiente.")]):
+        x = DM+i*(sw+14); c.setFillColor(RED); c.circle(x+13, DH-190, 13, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 13); c.drawCentredString(x+13, DH-195, str(i+1))
+        c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 14); c.drawString(x+34, DH-195, t_); para(c, b_, sty("pb", fontSize=10.8, leading=15, textColor=GREY), x+34, DH-208, sw-40)
+    c.setFillColor(NAVY); c.roundRect(DM, 100, DW-2*DM, 150, 8, stroke=0, fill=1); c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 20); c.drawString(DM+26, 214, "Proponemos una llamada esta semana o la próxima")
+    para(c, "Dime qué día y a qué hora te viene bien en Argentina y nos adaptamos. Mi idea es salir de la llamada con un plan claro para %s." % anio, sty("ll", fontSize=13, leading=19, textColor=CREAM), DM+26, 192, DW-2*DM-52); c.showPage()
+
+    # 10 cierre
+    page[0] += 1
+    c.drawImage(gradient_photo(f"{IM}/qs_p16_0.png", DW, DH, (0.5, 0.45), 0.0, 1.0, scale=2.5), 0, 0, DW, DH)
+    c.setFillColor(colors.Color(0, 0.08, 0.3, alpha=0.55)); c.rect(0, 0, DW, DH, stroke=0, fill=1)
+    c.setFillColor(colors.white); c.roundRect(DM-10, DH-124, 150, 96, 8, stroke=0, fill=1); d_logo(c, DM-2, DH-34, 134)
+    c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 36); c.drawString(DM, 300, "Construyamos juntos"); c.drawString(DM, 254, "tu plan para %s" % anio)
+    c.setFillColor(CREAM); c.setFont("Helvetica", 15); c.drawString(DM, 214, "Cuéntanos tu comunidad y diseñamos el programa.")
+    y = 168
+    for k, v in [("Email", "joel.martinez@alwaysup.es"), ("Teléfono", "+1 (814) 329 1929"), ("Web", "alwaysup.es")]:
+        c.setFillColor(CREAM); c.setFont("Helvetica-Bold", 10); c.drawString(DM, y, k.upper()); c.setFillColor(colors.white); c.setFont("Helvetica", 13); c.drawString(DM+90, y, v); y -= 26
+    c.showPage(); c.save(); return out
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "todo"
     if what in ("fichas", "todo"): print(build_team()); print(build_coach()); print(build_becas())
     if what in ("deck", "todo"): print(build_deck(False)); print(build_deck(True))
+    if what == "partner": print(build_partner())
