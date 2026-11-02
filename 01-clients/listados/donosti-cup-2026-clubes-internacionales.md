@@ -10,3 +10,9 @@ Seacoast United (ya en nuestra lista), Strikers FC (MLS NEXT), Walnut Creek Surf
 
 ## Cómo se usa
 Cada club se investiga igual que los demás: decisor con nombre, email verificado en la web, comprobar que sigue en el cargo y preparar el correo. El gancho es verdadero y concreto: "was down for the Donosti Cup in San Sebastián this summer".
+
+
+## Otras fuentes de clubes que ya viajan (2/11/2026)
+- Páginas de torneos de Young Talents Group (Halloween Cup, Mare Nostrum Cup): publican equipos con país. La web bloquea la lectura automática, así que salieron por buscador: Ballymun United, St Kevin's, Athy Town, Bollington United. Si Joel las abre en su navegador y pega la lista, se aprovechan mejor.
+- Noticias de la Costa Daurada Cup de Semana Santa 2027 (21 a 25 de marzo): Cramond Girls, Washington United, Lower Ormond.
+- Prensa local sobre giras (Ross Juniors, Ross Gazette, 14/08/2026).

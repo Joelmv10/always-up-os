@@ -111,28 +111,30 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## FC Porte d'Aquitaine: email 1 (enviar 20/10/2026 a las 03:30 hora Nueva York)
+## Holbeach United (Dan Lester): email 1 (enviar 03/11/2026 a las 04:30 hora Nueva York)
 
-**Para:** math.bachowski.mb@gmail.com
+**Para:** dan@holbeachunitedacademy.com
 
-**Asunto:** Une semaine en Espagne pour les jeunes du FC Porte d'Aquitaine
+**Asunto:** A week in Spain for Holbeach's academy squads
 
 ```
-Bonjour Mathieu,
+Hi Dan,
 
-Je m'appelle Joel et je dirige Always Up. Nous emmenons des équipes de jeunes en Espagne pour une semaine d'entraînement dans les installations de l'Atlético de Madrid et de la Real Sociedad, avec des matchs contre des équipes de centres de formation locaux, la visite d'un stade, l'hébergement et les repas.
+I'm Joel, I run Always Up. I wrote recently to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
 
-J'ai vu que le FC Porte d'Aquitaine était inscrit à la Costa Daurada Cup cet été, et je me suis dit que cela pourrait intéresser vos U15 ou U17. Un de nos clubs partenaires en Irlande a remporté son premier titre de champion après quelques années avec nous.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
-Auriez-vous quelques minutes pour un appel la semaine prochaine ? Sinon, je peux d'abord vous envoyer une courte présentation.
+I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
-Cordialement,
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
 Joel Martinez
 Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## Virtu Academy: email 1 (enviar 20/10/2026 a las 04:30 hora Nueva York)
+## Virtu Academy: email 1 (enviar 03/11/2026 a las 04:30 hora Nueva York)
 
 **Para:** info@virtuacademy.co.uk
 
@@ -153,20 +155,108 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## Holbeach United (Dan Lester): email 1 (enviar 21/10/2026 a las 04:30 hora Nueva York)
+## FC Porte d'Aquitaine: email 1 (enviar 04/11/2026 a las 03:30 hora Nueva York)
 
-**Para:** dan@holbeachunitedacademy.com
+**Para:** math.bachowski.mb@gmail.com
 
-**Asunto:** A week in Spain for Holbeach's academy squads
+**Asunto:** Une semaine en Espagne pour les jeunes du FC Porte d'Aquitaine
 
 ```
-Hi Dan,
+Bonjour Mathieu,
 
-I'm Joel, I run Always Up. I wrote last week to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
+Je m'appelle Joel et je dirige Always Up. Nous emmenons des équipes de jeunes en Espagne pour une semaine d'entraînement dans les installations de l'Atlético de Madrid et de la Real Sociedad, avec des matchs contre des équipes de centres de formation locaux, la visite d'un stade, l'hébergement et les repas.
+
+J'ai vu que le FC Porte d'Aquitaine était inscrit à la Costa Daurada Cup cet été, et je me suis dit que cela pourrait intéresser vos U15 ou U17. Un de nos clubs partenaires en Irlande a remporté son premier titre de champion après quelques années avec nous.
+
+Auriez-vous quelques minutes pour un appel la semaine prochaine ? Sinon, je peux d'abord vous envoyer une courte présentation.
+
+Cordialement,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Ross Juniors FC: email 1 (enviar 04/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** info@rossjuniorsfc.com
+
+**Asunto:** Ross Juniors and a week in Spain
+
+```
+Hi Jim,
+
+I'm Joel, I run Always Up. I read about your under 14s winning the Spirit of Football trophy on the Costa Brava this summer, so congratulations, that's a lovely one to win.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. If the club is thinking about another trip, it could be a different kind of week for the players.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? Or I can send a short overview if that's easier.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Ballymun United FC: email 1 (enviar 05/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** boconnor@ballymununitedfc.com
+
+**Asunto:** A week in Spain for Ballymun United
+
+```
+Hi there,
+
+I'm Joel, I run Always Up. I saw Ballymun United on the list for the Halloween Cup in Salou last week, I hope it went well.
 
 We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
-I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## St Kevin's FC (Dublín): email 1 (enviar 05/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** admin@skbfc.com
+
+**Asunto:** A week in Spain for St Kevin's
+
+```
+Hi Sharon,
+
+I'm Joel, I run Always Up. I saw St Kevin's on the list for the Halloween Cup in Salou last week, so I thought I'd get in touch. Could you pass this on to Ken Donohoe, or let me know who looks after trips abroad?
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Bollington United FC: email 1 (enviar 10/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** chair@bollingtonunited.co.uk
+
+**Asunto:** A week in Spain for Bollington United
+
+```
+Hi David,
+
+I'm Joel, I run Always Up. I saw Bollington United on the list for the Halloween Cup in Salou last week, so Spain is clearly on the club's radar.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
 
