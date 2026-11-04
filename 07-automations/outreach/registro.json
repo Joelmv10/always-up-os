@@ -169,6 +169,21 @@
       "date": "2026-11-04",
       "task": "Decirme si Gonzalo Lamas",
       "nota": "Sí la tiene. Se retoma el 9/11"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Patrick: contestarle",
+      "nota": "Enviado. A la espera de que apruebe el texto"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Omar: contestarle",
+      "nota": "Enviado. Faltan notas e inglés"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "David: pasarle",
+      "nota": "Enviado. Valoración pedida para el 9/11"
     }
   ]
 }

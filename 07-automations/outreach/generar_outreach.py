@@ -230,8 +230,9 @@ PROSPECTS_US = [
 # Joel se atrasó desde el 20/10: nada de lo previsto para esas fechas consta como enviado. Se reagenda desde el 3/11.
 # Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
-HOY_A_MANO = D(2026, 11, 4)  # estos envíos salen a mano en cuanto Joel abra el Excel
-VERSION = "4/11/2026 tarde"
+HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
+VIERNES_PUENTE = D(2026, 11, 6)  # excepción al martes a jueves: recoge esos 4 envíos atrasados
+VERSION = "4/11/2026 noche"
 
 ROSS = """{greet}
 
@@ -413,12 +414,12 @@ for _p in PROSPECTS_US:
             _p["subj"] = _s
         _p["motivo"] = _m; _p["fuente"] = _f; _p["cat"] = "Club que ya viaja a España"
 
-_E1 = {"holbeach_dan": D(2026, 11, 4), "virtu": D(2026, 11, 4), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
+_E1 = {"holbeach_dan": D(2026, 11, 6), "virtu": D(2026, 11, 6), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
        "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
        "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
-_FU1 = {"homefarm": D(2026, 11, 4), "hastings": D(2026, 11, 4), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
+_FU1 = {"homefarm": D(2026, 11, 6), "hastings": D(2026, 11, 6), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
 for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] in _E1:
         _p["e1"] = _E1[_p["key"]]
@@ -620,7 +621,7 @@ def nivela(rows):
             if d2 != d:
                 d = d2
                 continue
-            if d.weekday() in (1, 2, 3) and carga.get(d, 0) < CAP_DIA:
+            if (d.weekday() in (1, 2, 3) or d == VIERNES_PUENTE) and carga.get(d, 0) < CAP_DIA:
                 break
             d += dt.timedelta(days=1)
         r["date"] = d
@@ -742,6 +743,8 @@ def build_calendar(sends):
             continue
         lines = ["• %s | %s | programar para las %s hora Nueva York (09:30 allí)" % (label(x["club"]), x["kind"], local_to_ny(x["date"], x["tz"])) for x in items]
         prev = max(dd - dt.timedelta(days=1), D(2026, 10, 14))
+        if dd == VIERNES_PUENTE:
+            prev = D(2026, 11, 4)  # Joel los programa esta misma noche junto con los del jueves
         if dd > D(2026, 10, 14):
             add(prev, "Tarde", 1200, "Team/Coach", "Programar en Apple Mail los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
                 "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma, sin adjuntos. En Mail: flecha junto a Enviar > Enviar más tarde > fecha y hora indicadas.\n%s\nRegla: una vez programado, NO lo envíes a mano (se duplicaría). Si a las 08:00 no aparece enviado, entonces sí." % (dd.strftime("%d/%m"), "\n".join(lines)),

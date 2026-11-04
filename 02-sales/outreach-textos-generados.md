@@ -111,50 +111,6 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## Holbeach United (Dan Lester): email 1 (enviar 04/11/2026 a las 04:30 hora Nueva York)
-
-**Para:** dan@holbeachunitedacademy.com
-
-**Asunto:** A week in Spain for Holbeach's academy squads
-
-```
-Hi Dan,
-
-I'm Joel, I run Always Up. I wrote recently to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
-
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
-
-Best,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-```
-
-## Virtu Academy: email 1 (enviar 04/11/2026 a las 04:30 hora Nueva York)
-
-**Para:** info@virtuacademy.co.uk
-
-**Asunto:** A question about trips to Spain for Virtu
-
-```
-Hi team,
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw Virtu Academy was down for the Costa Daurada Cup this year. Could you point me to the person who organises trips abroad for your teams?
-
-One of our partner clubs in Ireland won their first ever league title after a few years with us, so I'd be glad to share how it went for them.
-
-Thanks a lot,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-```
-
 ## Ballymun United FC: email 1 (enviar 05/11/2026 a las 04:30 hora Nueva York)
 
 **Para:** boconnor@ballymununitedfc.com
@@ -236,6 +192,50 @@ I'm Joel, I run Always Up. I saw St Kevin's on the list for the Halloween Cup in
 We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Holbeach United (Dan Lester): email 1 (enviar 06/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** dan@holbeachunitedacademy.com
+
+**Asunto:** A week in Spain for Holbeach's academy squads
+
+```
+Hi Dan,
+
+I'm Joel, I run Always Up. I wrote recently to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Virtu Academy: email 1 (enviar 06/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** info@virtuacademy.co.uk
+
+**Asunto:** A question about trips to Spain for Virtu
+
+```
+Hi team,
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw Virtu Academy was down for the Costa Daurada Cup this year. Could you point me to the person who organises trips abroad for your teams?
+
+One of our partner clubs in Ireland won their first ever league title after a few years with us, so I'd be glad to share how it went for them.
 
 Thanks a lot,
 Joel Martinez
@@ -335,7 +335,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Keadue Rovers FC (Girls): email 1 (enviar 12/11/2026 a las 04:30 hora Nueva York)
+## Keadue Rovers FC (Girls): email 1 (enviar 11/11/2026 a las 04:30 hora Nueva York)
 
 **Para:** keadueroversfc@gmail.com
 
@@ -358,7 +358,7 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## NJ14 International: email 1 (enviar 12/11/2026 a las 09:30 hora Nueva York)
+## NJ14 International: email 1 (enviar 11/11/2026 a las 09:30 hora Nueva York)
 
 **Para:** international@nj14soccerclub.com
 
@@ -381,7 +381,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Seacoast United: email 1 (enviar 12/11/2026 a las 09:30 hora Nueva York)
+## Seacoast United: email 1 (enviar 11/11/2026 a las 09:30 hora Nueva York)
 
 **Para:** iscott@seacoastunited.com
 
@@ -475,7 +475,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Ballistic United: email 1 (enviar 18/11/2026 a las 12:30 hora Nueva York)
+## Ballistic United: email 1 (enviar 19/11/2026 a las 12:30 hora Nueva York)
 
 **Para:** jerrylosson@busc.org
 
@@ -569,7 +569,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Wisconsin International Soccer: email 1 (enviar 01/12/2026 a las 10:30 hora Nueva York)
+## Wisconsin International Soccer: email 1 (enviar 24/11/2026 a las 10:30 hora Nueva York)
 
 **Para:** wisinternationalsoccer@gmail.com
 
@@ -707,7 +707,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Cincinnati United Premier: email 1 (enviar 15/12/2026 a las 09:30 hora Nueva York)
+## Cincinnati United Premier: email 1 (enviar 16/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** rhands@cincinnatiunitedsc.com
 
