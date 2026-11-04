@@ -232,7 +232,7 @@ PROSPECTS_US = [
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # excepción al martes a jueves: recoge esos 4 envíos atrasados
-VERSION = "4/11/2026 noche"
+VERSION = "4/11/2026 noche 2"
 
 ROSS = """{greet}
 
@@ -428,13 +428,41 @@ for _p in PROSPECTS + PROSPECTS_US:
     _li = _p.get("linkedin")
     if _p.get("us") and _li:
         _p["linkedin"] = (_p["e1"] + dt.timedelta(days=2),) + tuple(_li[1:])
-    if _p["key"] == "hastings":
-        _p["linkedin"] = (D(2026, 11, 4),) + tuple(_li[1:])
+    if _p["key"] == "hastings":  # conexión retirada sin querer el 4/11: LinkedIn obliga a esperar 3 semanas
+        _p["linkedin"] = (D(2026, 11, 26),) + tuple(_li[1:])
     if _p["key"] == "whitehaven":
-        _p["linkedin"] = (D(2026, 11, 4),) + tuple(_li[1:])
+        _p["linkedin"] = (D(2026, 11, 4), _li[1], _li[2], "Confirmado el 4/11: sigue de Chairman y director de Whitehaven (Companies House, director activo; su empresa LRJ Contracting está registrada en la dirección del club). Es el perfil correcto.")
     if _p["key"] == "holbeach_dan":
         _p["linkedin"] = [(D(2026, 11, 6),) + tuple(x[1:]) for x in _li]
         _p["e1_body"] = _p["e1_body"].replace("I wrote last week to Callum Lawe", "I wrote recently to Callum Lawe")
+
+PORTE_EN = """{greet}
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw FC Porte d'Aquitaine was down for the Costa Daurada Cup this summer, so I thought this could suit your U15 or U17 teams. One of our partner clubs in Ireland won their first ever league title after a few years with us.
+
+Sorry for writing in English, I don't speak French. We can talk in English or Spanish, whichever is easier for you. I can send you our presentation, or we could do a quick video call, no commitment.
+
+Best,
+{sig}"""
+# Decisión de Joel (4/11/2026): solo escribimos en idiomas en los que podemos seguir la conversación (inglés y español).
+_TORNEO = " We can also add a tournament, like MadCup in Madrid."
+_MAS = "We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.\n\n"
+_FRASE = "a stadium tour, and accommodation and meals all sorted."
+for _p in PROSPECTS + PROSPECTS_US:
+    if _p["key"] == "porte":
+        _p["lang"] = "en"; _p["e1_body"] = PORTE_EN; _p["subj"] = "A week in Spain for FC Porte d'Aquitaine's youth teams"; _p["greet"] = "Hi Mathieu,"
+    if _p.get("sent"):
+        continue
+    _b = _p["e1_body"]
+    if _p["key"] not in ("ballymun", "ross"):  # esos dos ya están programados con la frase larga
+        _b = _b.replace("after a few years of coming out with us, and their coaches said the trip helped.", "after a few years of coming out with us.")
+    if re.search(r"Cup|tournament|trophy", _b) and _FRASE in _b:
+        _b = _b.replace(_FRASE, _FRASE + _TORNEO)
+    if _p.get("right") and _b.rstrip().endswith("Thanks a lot,\n{sig}"):
+        _b = _b.replace("Thanks a lot,\n{sig}", _MAS + "Thanks a lot,\n{sig}")
+    _p["e1_body"] = _b
 
 LINKEDIN_EXTRA = [dict(date=D(2026, 11, 3), club="Networking", kind="LinkedIn conectar", to="Richard Clarke", subj="(nota de conexión)",
                        body="Hi Richard, I'm Joel, one of the students from your talk in my class. Your path from Arsenal to the Rapids and beyond really stayed with me. I'm building Always Up, a small football brand taking youth teams to Spain, and I'd love to stay in touch. Joel",
@@ -706,8 +734,9 @@ def validate(rows):
                 bad.append((r["club"], r["kind"], "placeholder sin rellenar"))
         if re.search(r"^(Hi|Hello) [^\n,]+ ?(/|&) ", r["body"], flags=re.M):
             bad.append((r["club"], r["kind"], "saludo múltiple"))
-        if r["kind"] == "Email 1" and len(r["body"].split()) > 170:
-            bad.append((r["club"], r["kind"], "email 1 demasiado largo: %d palabras" % len(r["body"].split())))
+        _sinfirma = r["body"].split("Joel Martinez\nFounder")[0]  # la firma legal de EEUU no cuenta
+        if r["kind"] == "Email 1" and len(_sinfirma.split()) > 150:
+            bad.append((r["club"], r["kind"], "email 1 demasiado largo: %d palabras sin firma" % len(_sinfirma.split())))
         if r["kind"] == "LinkedIn conectar" and len(r["body"]) > 300:
             bad.append((r["club"], r["kind"], "nota de LinkedIn >300 caracteres"))
         if r["kind"] != "Plantilla" and r["kind"] not in ("LinkedIn conectar", "DM en redes") and "Joel Martinez\nFounder" not in r["body"]:
@@ -921,6 +950,10 @@ def sheet_calendar(wb, cal):
             return True
         return any(e["date"] == t["date"].strftime("%Y-%m-%d") and t["task"].startswith(e["task"]) for e in _reg)
     cal = [t for t in cal if t["date"] >= REBASE or _hecha(t)]
+    unicas = {}
+    for t in cal:
+        unicas[t["task"]] = unicas.get(t["task"], 0) + 1
+    por_tarea = {k[1]: k for k in saved}
     ws = fresh(wb, "Calendario diario", 0)
     title(ws, "Calendario diario (versión %s)" % VERSION,
           "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se programan la víspera en Apple Mail (Enviar más tarde) para las 09:30 de cada club; a las 08:00 compruebas que salieron. "
@@ -964,6 +997,8 @@ def sheet_calendar(wb, cal):
         ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
         ws.cell(row=r, column=3).alignment = Alignment(horizontal="center", vertical="top")
         key = (str(t["date"]) + " 00:00:00", t["task"])
+        if key not in saved and unicas.get(t["task"]) == 1 and t["task"] in por_tarea:
+            key = por_tarea[t["task"]]  # la tarea cambió de fecha: conserva lo que Joel marcó
         if key in saved:
             ws.cell(row=r, column=9, value=saved[key][0] or "Pendiente")
             ws.cell(row=r, column=10, value=saved[key][1])
@@ -987,7 +1022,7 @@ def sheet_calendar(wb, cal):
 
 
 def sheet_texts(wb, sends):
-    saved = read_saved(wb, "Textos para copiar", (1, 4, 5), (10,))
+    saved = read_saved(wb, "Textos para copiar", (4, 5, 6), (10, 8))  # club, tipo y destinatario: no depende de la fecha
     ws = fresh(wb, "Textos para copiar", 1)
     title(ws, "Textos para copiar y pegar",
           "Una fila por envío, ordenada por fecha. Filtra la columna Fecha para ver solo el día que toca. Copia Para, Asunto y Texto sin cambiar nada: la firma ya va incluida. "
@@ -1013,9 +1048,10 @@ def sheet_texts(wb, sends):
             c.border = BORDER
             c.font = Font(size=10)
             c.fill = PatternFill("solid", fgColor=col.get(s["kind"], GREY))
-        k = (str(s["date"]) + " 00:00:00", s["club"], s["kind"])
-        if k in saved:
+        k = (s["club"], s["kind"], s["to"])
+        if k in saved and saved[k][0]:  # lo hecho no se toca: ni la marca ni el texto que salió
             ws.cell(row=r, column=10, value=saved[k][0])
+            ws.cell(row=r, column=8, value=saved[k][1])
         ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
         ws.cell(row=r, column=3).alignment = Alignment(horizontal="center", vertical="top")
         ws.row_dimensions[r].height = min(max(est_height(s["body"], 78), est_height(s["how"], 44), 60), 330)
@@ -1244,6 +1280,13 @@ def apply_registro(wb):
         for r in range(5, tx.max_row + 1):
             if tx.cell(row=r, column=4).value == p["club"] and tx.cell(row=r, column=5).value == e["kind"]:
                 tx.cell(row=r, column=10, value=d); tx.cell(row=r, column=10).number_format = "DD/MM/YYYY"
+    for e in reg.get("textos", []):
+        for r in range(5, tx.max_row + 1):
+            if tx.cell(row=r, column=4).value == e["club"] and tx.cell(row=r, column=6).value == e["to"]:
+                if e.get("date"):
+                    tx.cell(row=r, column=10, value=dt.datetime.strptime(e["date"], "%Y-%m-%d")); tx.cell(row=r, column=10).number_format = "DD/MM/YYYY"
+                if e.get("nota"):
+                    tx.cell(row=r, column=11, value=e["nota"])
     for t in reg.get("tareas", []):
         d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
         for r in range(5, cal.max_row + 1):
@@ -1358,7 +1401,7 @@ def update_segment_a(wb, sends):
             old = sa.cell(row=r, column=15).value or ""
             sa.cell(row=r, column=15, value=(old + " | " + text) if (append and old) else text)
     setnote("Søreide IL", "13/10/2026: el email 1 REBOTÓ (ungdomsutvalget@soreideil.no reenvía a una cuenta inexistente en bergensskolen.com). Contactos reales en soreideil.no/fotball/kontaktinformasjon. Reenvío el 14/10 a fotball@soreideil.no.")
-    setnote("Whitehaven AFC (Juniors Girls U13-U15)", "Email de Luke Johnston (presidente) sacado de buscadores; la web no lo muestra. Si rebota: Facebook o teléfono +44 1946 692211.")
+    setnote("Whitehaven AFC (Juniors Girls U13-U15)", "Confirmado el 4/11/2026 que sigue de Chairman y director (Companies House y web del club). Email de Luke Johnston (presidente) sacado de buscadores; la web no lo muestra. Si rebota: Facebook o teléfono +44 1946 692211.")
     setnote("Lower Ormond", "13/10/2026: aparece como club de Inglaterra en la edición de Semana Santa de la Costa Daurada Cup. No encuentro contacto fiable.", True)
     setnote("Excelsior Rotterdam", "13/10/2026: club profesional con academia. Perfil distinto, prioridad baja.")
     setnote("Morecambe Hawks", "13/10/2026: solo equipo local pequeño de liga amateur. Descartado.")

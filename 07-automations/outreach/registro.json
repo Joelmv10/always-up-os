@@ -37,6 +37,31 @@
       "key": "akranes",
       "kind": "Email 1",
       "date": "2026-10-15"
+    },
+    {
+      "key": "ballymun",
+      "kind": "Email 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "porte",
+      "kind": "Email 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "ross",
+      "kind": "Email 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "soreide",
+      "kind": "Follow-up 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "whitehaven",
+      "kind": "Follow-up 1",
+      "date": "2026-11-05"
     }
   ],
   "tareas": [
@@ -184,6 +209,18 @@
       "date": "2026-11-04",
       "task": "David: pasarle",
       "nota": "Enviado. Valoración pedida para el 9/11"
+    }
+  ],
+  "textos": [
+    {
+      "club": "Networking",
+      "to": "Richard Clarke",
+      "date": "2026-11-03"
+    },
+    {
+      "club": "Hastings United (Girls Academy)",
+      "to": "Georgia Townsend",
+      "nota": "4/11: Joel la sigue. La conexión se retiró sin querer y LinkedIn obliga a esperar 3 semanas. Reintentar desde el 26/11."
     }
   ]
 }
