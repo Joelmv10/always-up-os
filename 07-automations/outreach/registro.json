@@ -154,6 +154,22 @@
       "date": "2026-11-02",
       "task": "Pedirme: «investiga 10 clubes más»",
       "nota": "Hecho 2/11: 10 clubes nuevos (5 Europa, 5 EEUU)"
+    },
+    {
+      "date": "2026-11-03",
+      "task": "LinkedIn: conectar con Richard Clarke",
+      "nota": "Solicitud enviada con nota"
+    },
+    {
+      "date": "2026-11-03",
+      "task": "Greystones: mandar el WhatsApp a Patrick",
+      "nota": "Enviado. A la espera de respuesta"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Calentar el dominio",
+      "estado": "Pendiente",
+      "nota": "Enviados 2 de 3. Falta el tercero y contarme bandeja o spam y proveedor"
     }
   ]
 }

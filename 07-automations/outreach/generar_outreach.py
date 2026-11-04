@@ -229,7 +229,9 @@ PROSPECTS_US = [
 # ------------------------------------------------- replanificación del 2/11/2026
 # Joel se atrasó desde el 20/10: nada de lo previsto para esas fechas consta como enviado. Se reagenda desde el 3/11.
 # Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
-REBASE = D(2026, 11, 2)
+REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
+HOY_A_MANO = D(2026, 11, 4)  # estos envíos salen a mano en cuanto Joel abra el Excel
+VERSION = "4/11/2026"
 
 ROSS = """{greet}
 
@@ -270,7 +272,7 @@ Thanks a lot,
 
 BOLLINGTON = """{greet}
 
-I'm Joel, I run Always Up. I saw Bollington United on the list for the Halloween Cup in Salou last week, so Spain is clearly on the club's radar.
+I'm Joel, I run Always Up. I saw Bollington United on the list for the Halloween Cup in Salou recently, so Spain is clearly on the club's radar.
 
 We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
@@ -350,11 +352,12 @@ for _p in PROSPECTS_US:
     if _p["key"] == "nyempire":
         _p["e1_body"] = NYEMPIRE; _p["subj"] = "A week in Spain for NY Empire"; _p["form"] = True; _p["stop_after_e1"] = True; _p["motivo"] = "Preparó equipos para la Donosti Cup 2026. Club de Long Island, se puede quedar en persona."
 
-_E1 = {"holbeach_dan": D(2026, 11, 3), "virtu": D(2026, 11, 3), "porte": D(2026, 11, 4),
-       "seacoast": D(2026, 11, 11), "cedar": D(2026, 11, 12), "ifa": D(2026, 11, 18), "ballistic": D(2026, 11, 18), "delco": D(2026, 11, 19), "walnut": D(2026, 11, 19),
-       "loufusz": D(2026, 12, 1), "slsg": D(2026, 12, 1), "cincyunited": D(2026, 12, 2), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 3),
-       "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 10)}
-_FU1 = {"homefarm": D(2026, 11, 3), "hastings": D(2026, 11, 3), "soreide": D(2026, 11, 4), "whitehaven": D(2026, 11, 4), "maidstone": D(2026, 11, 5), "akranes": D(2026, 11, 5)}
+_E1 = {"holbeach_dan": D(2026, 11, 4), "virtu": D(2026, 11, 4), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
+       "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
+       "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
+       "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
+       "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
+_FU1 = {"homefarm": D(2026, 11, 4), "hastings": D(2026, 11, 4), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
 for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] in _E1:
         _p["e1"] = _E1[_p["key"]]
@@ -644,6 +647,10 @@ def build_calendar(sends):
             who = label(s["club"])
             loc = dt.datetime(s["date"].year, s["date"].month, s["date"].day, 7, 30, tzinfo=NY).astimezone(ZoneInfo(s["tz"])).strftime("%H:%M")
             nyt = local_to_ny(s["date"], s["tz"])
+            if s["date"] == HOY_A_MANO:
+                add(s["date"], "Ahora", 690, "Team/Coach", "ENVIAR %s a %s" % (s["kind"].lower(), who),
+                    "A mano, en cuanto abras el Excel (no lo programes). Texto en 'Textos para copiar', filtra por 04/11. Con tu Gmail en CCO. Si es follow-up, responde dentro del hilo del correo original (búscalo por destinatario).", "Textos para copiar", 5)
+                continue
             add(s["date"], nyt, int(nyt[:2]) * 60 + int(nyt[3:]), "Team/Coach", "ENVIAR %s a %s" % (s["kind"].lower(), who),
                 "Sale a las %s hora Nueva York (09:30 allí) si lo programaste la víspera. No hace falta hacer nada a esta hora. Si es follow-up, se envía respondiendo al correo original (búscalo por destinatario en Outlook o Mail y pulsa Responder)." % nyt,
                 "Textos para copiar", 0)
@@ -692,7 +699,7 @@ def build_calendar(sends):
     # --- replanificación del 2/11/2026: lo que sigue pendiente se mueve; lo que ya no aplica se quita
     drop = ("Revisar las nuevas fichas", "Enviar la tanda 3", "Enviar la tanda 4", "Greystones: preguntar a Enrique", "Pasarme la dirección postal", "Revisión semanal 4")
     C[:] = [x for x in C if not x["task"].startswith(drop)]
-    mover = {"Calentar el dominio": D(2026, 11, 2), "Sesión con Enrique": D(2026, 11, 6), "Cerrar el precio": D(2026, 11, 6), "Preguntar a Atlético y Real Sociedad": D(2026, 11, 6),
+    mover = {"Calentar el dominio": D(2026, 11, 4), "Sesión con Enrique": D(2026, 11, 6), "Cerrar el precio": D(2026, 11, 6), "Preguntar a Atlético y Real Sociedad": D(2026, 11, 6),
              "Campus Internacional: contarme": D(2026, 11, 6), "Piloto: 5 mensajes": D(2026, 11, 18), "Revisión del mes con Claude": D(2026, 11, 16)}
     for x in C:
         for k, v in mover.items():
@@ -702,9 +709,10 @@ def build_calendar(sends):
             x["task"] = "Calentar el dominio: 2 o 3 correos reales a amigos y familia"
             x["how"] = "Los textos están en 'Textos para copiar', al final (Calentar el dominio 1, 2 y 3, y el WhatsApp que va con ellos). Uno por persona, desde alwaysup.es. Apunta quién lo recibió en bandeja o en spam y qué proveedor usa, y cuéntamelo."
             x["where"] = "Textos para copiar (Respuestas tipo)"
-    add(D(2026, 11, 2), "Libre", 500, "Team/Coach", "URGENTE: pasarme la dirección postal fiscal de Quality Servix Premium SL", "Es el domicilio social de la empresa: sale en las facturas o en el Registro Mercantil; si no, pregúntaselo a Enrique o a la gestoría. La ley de EEUU la exige en cada email comercial. Sin ella no se generan los correos a EEUU, que empiezan el 11/11.", "Chat con Claude", 5)
-    add(D(2026, 11, 2), "Libre", 510, "Team/Coach", "Decirme qué se envió desde el 20/10 y si Gonzalo Lamas ya tiene la propuesta", "El Excel no muestra ningún envío desde el 15/10, así que lo he replanificado como si nada hubiera salido. Si algo sí salió, dímelo para no duplicar. Y si la propuesta a Gonzalo sigue sin enviar, es lo primero de esta semana.", "Chat con Claude", 5)
+    add(D(2026, 11, 4), "Libre", 500, "Team/Coach", "URGENTE: pasarme la dirección postal fiscal de Quality Servix Premium SL", "Es el domicilio social de la empresa: sale en las facturas o en el Registro Mercantil; si no, pregúntaselo a Enrique o a la gestoría. La ley de EEUU la exige en cada email comercial. Sin ella no se generan los correos a EEUU, que empiezan el 10/11.", "Chat con Claude", 5)
+    add(D(2026, 11, 4), "Libre", 510, "Team/Coach", "Decirme si Gonzalo Lamas ya tiene la propuesta y si salió algo desde el 20/10", "El Excel no muestra ningún envío desde el 15/10, así que lo he replanificado como si nada hubiera salido. Si algo sí salió, dímelo para no duplicar. Y si la propuesta a Gonzalo sigue sin enviar, es lo primero de esta semana.", "Chat con Claude", 5)
     add(D(2026, 11, 3), "Libre", 640, "Team/Coach", "Greystones: mandar el WhatsApp a Patrick", "Enrique ya le avisó. Antes, confirma con Enrique quién dijo la frase del título de liga. Texto en 'Respuestas tipo' (Greystones 1). Si contesta, me pasas lo que diga y te doy el mensaje 2.", "Textos para copiar (Respuestas tipo)", 10)
+    add(D(2026, 11, 6), "Libre", 630, "Team/Coach", "Mirar si Richard Clarke aceptó y si Patrick contestó", "Richard: 1 o 2 días después de aceptar, mándale el mensaje de 'Respuestas tipo', con algo concreto de su charla. Patrick: si dice que sí, 'Greystones 2'. Si aún no contesta, no insistas: acaba de ser padre. Le daría hasta el 16/11.", "Textos para copiar (Respuestas tipo)", 5)
     for dd in (D(2026, 11, 6), D(2026, 11, 13), D(2026, 11, 20), D(2026, 11, 27), D(2026, 12, 4), D(2026, 12, 11), D(2026, 12, 18)):
         add(dd, "Libre", 640, "Todos", "Revisión semanal: cuéntame respuestas, rebotes y llamadas", "Tres líneas por el chat bastan. Yo actualizo el Excel y ajusto el plan.", "Chat con Claude", 10)
     C.sort(key=lambda x: (x["date"], x["sk"]))
@@ -778,7 +786,7 @@ def read_saved(wb, sheet, key_cols, val_cols, header_row=4):
 def sheet_calendar(wb, cal):
     saved = read_saved(wb, "Calendario diario", (1, 5), (9, 10))
     ws = fresh(wb, "Calendario diario", 0)
-    title(ws, "Calendario diario, replanificado el 2 de noviembre de 2026",
+    title(ws, "Calendario diario (versión %s)" % VERSION,
           "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se programan la víspera en Apple Mail (Enviar más tarde) para las 09:30 de cada club; a las 08:00 compruebas que salieron. "
           "Cambia la columna Estado a Hecho al terminar. Hoy se marca en amarillo. Si algo queda Pendiente de un día anterior, sale en rojo.", span=9)
     head(ws, 4, ["Fecha", "Día", "Hora (NY)", "Servicio", "Tarea", "Cómo se hace, paso a paso", "Dónde está el texto", "Min", "Estado"],
@@ -860,6 +868,8 @@ def sheet_texts(wb, sends):
         if s["date"] < TODAY_BUILD:
             continue
         ny = ("%s (09:30 allí)" % local_to_ny(s["date"], s["tz"])) if s["tz"] else "Libre"
+        if s["tz"] and s["date"] == HOY_A_MANO:
+            ny = "Hoy, a mano"
         vals = [s["date"], spanish_day(s["date"]).capitalize(), ny, s["club"], s["kind"], s["to"], s["subj"], s["body"], s["how"], None, ifs.get(s["kind"], "")]
         for i, v in enumerate(vals, 1):
             c = ws.cell(row=r, column=i, value=v)
@@ -1095,7 +1105,7 @@ def apply_registro(wb):
             title_ = cal.cell(row=r, column=5).value or ""
             fecha = a.date() if isinstance(a, dt.datetime) else a
             if fecha == d and title_.startswith(t["task"]):
-                cal.cell(row=r, column=9, value="Hecho")
+                cal.cell(row=r, column=9, value=t.get("estado", "Hecho"))
                 if not cal.cell(row=r, column=10).value:
                     cal.cell(row=r, column=10, value=t.get("nota"))
 
@@ -1106,7 +1116,7 @@ def sheet_readme(wb):
     ws.column_dimensions["B"].width = 110
     ws["A1"] = "Always Up: CRM y plan de captación"
     ws["A1"].font = Font(bold=True, size=16, color=NAVY)
-    ws["A2"] = "Replanificado el 2/11/2026 desde lo último confirmado (15/10). Primero esta página (2 minutos), luego la pestaña Calendario diario. Lo anterior que no se hizo queda como Saltado."
+    ws["A2"] = "VERSIÓN %s. Si no ves esta fecha, tienes una copia antigua: cierra Excel sin guardar y abre 01-clients/crm-ventas.xlsx. Empieza por la pestaña Calendario diario." % VERSION
     ws["A2"].font = Font(italic=True, color="555555")
     blocks = [
         ("TU RUTINA", ""),
