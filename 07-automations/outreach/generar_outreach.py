@@ -166,8 +166,8 @@ Cordialement,
 
 # ----------------------------------------------------------- prospectos de EEUU
 # Los emails a EEUU exigen (CAN-SPAM) dirección postal del remitente y forma de darse de baja.
-# Mientras ADDRESS esté vacío, estos envíos NO se generan. Rellenar con la dirección fiscal de Quality Servix Premium SL.
-ADDRESS = ""
+# Mientras ADDRESS esté vacío, estos envíos NO se generan. Dirección fiscal de Quality Servix Premium SL (Joel, 4/11/2026).
+ADDRESS = "Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain"
 SIG_US = SIG + "\nQuality Servix Premium SL | %s\nIf you'd rather not hear from me, just reply and I won't email you again." % ADDRESS
 
 US_E1 = """{greet}
@@ -231,7 +231,7 @@ PROSPECTS_US = [
 # Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = D(2026, 11, 4)  # estos envíos salen a mano en cuanto Joel abra el Excel
-VERSION = "4/11/2026"
+VERSION = "4/11/2026 tarde"
 
 ROSS = """{greet}
 
@@ -351,6 +351,67 @@ for _p in PROSPECTS_US:
         _p["e1_body"] = NJ14; _p["subj"] = "An idea around your Donosti Cup trip"; _p["motivo"] = "Lleva equipos de chicas a la Donosti Cup 2027 (y Gothia Cup). Club en Nueva Jersey, cerca de Joel."
     if _p["key"] == "nyempire":
         _p["e1_body"] = NYEMPIRE; _p["subj"] = "A week in Spain for NY Empire"; _p["form"] = True; _p["stop_after_e1"] = True; _p["motivo"] = "Preparó equipos para la Donosti Cup 2026. Club de Long Island, se puede quedar en persona."
+
+# ------------------------------------------------- 10 clubes investigados el 4/11/2026
+_TRIP = "We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted."
+_PROOF = "One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped."
+_ASK = "Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?"
+_END = "Thanks a lot,\n{sig}"
+
+KEADUE = "{greet}\n\nI'm Joel, I run Always Up. I read about your under 14 girls going to the Barcelona Cup, and the table quiz to help get them there. That's a lot of effort from everyone involved, so well done.\n\n" + _TRIP + " It could be an idea for a future trip.\n\n" + _PROOF + "\n\n" + _ASK + "\n\n" + _END
+CARRIGALINE = "{greet}\n\nI'm Joel, I run Always Up. I read in the Echo about your under 11 girls at the Barcelona Girls Cup in Salou, so congratulations, that's a lovely one to bring home. Could you pass this on to Alan Hennessy, or let me know who looks after trips abroad at the club?\n\n" + _TRIP + "\n\n" + _PROOF + "\n\n" + _END
+LETTERKENNY = "{greet}\n\nI'm Joel, I run Always Up. I read about Letterkenny Rovers going out to the Barcelona Cup, so Spain isn't new for the club.\n\n" + _TRIP + " It could be a different kind of trip for your older schoolboy teams.\n\n" + _PROOF + "\n\n" + _ASK + "\n\n" + _END
+DALKEY = "{greet}\n\nI'm Joel, I run Always Up. I saw on your site that your under 14 girls played at the Barcelona Girls Cup in Salou a few years ago, so the club knows what a trip like that does for the players.\n\n" + _TRIP + "\n\n" + _PROOF + "\n\n" + _ASK + "\n\n" + _END
+PANNAL = "{greet}\n\nI'm Joel, I run Always Up. I read about your under 11 girls raising almost £15,000 for their tournament in Barcelona, which is brilliant. Could you pass this on to Chris McVey, or to whoever looks after trips abroad?\n\n" + _TRIP + "\n\n" + _PROOF + "\n\nMy email is joel.martinez@alwaysup.es.\n\n" + _END
+NYSC = "{greet}\n\nI'm Joel, I run Always Up, and I'm based here in New York. I saw NYSC's trip to the Donosti Cup, with stops in Barcelona and Madrid, so Spain is clearly on the club's radar.\n\n" + _TRIP + "\n\n" + _PROOF + "\n\nWe're close enough for a coffee or a quick call if you're open to it, or I can send a short overview first.\n\nBest,\n{sig}"
+DUSC = "{greet}\n\nI'm Joel, I run Always Up, and I'm based here in New York too. I saw Downtown United had a team heading to the Donosti Cup this summer. Could you pass this on to Alex Keaney or Jose Luis Rebay, or to whoever looks after trips abroad?\n\n" + _TRIP + "\n\n" + _PROOF + "\n\nWe're close enough for a coffee or a quick call.\n\n" + _END
+WISCONSIN = "{greet}\n\nI'm Joel, I run Always Up. I saw that Wisconsin International takes a team of players overseas every year for the Donosti Cup in San Sebastián, which is a great thing to offer them.\n\nWe work with Real Sociedad, whose academy is in San Sebastián, as well as Atlético de Madrid. So I wondered whether a few days of training at their facilities around the tournament could add something to your trip, with accommodation and meals all sorted.\n\nWould you be up for a quick call? Or I can send a short overview first.\n\nBest,\n{sig}"
+COLORADO = "{greet}\n\nI'm Joel, I run Always Up. I saw your CRYSC International tours to Spain, and how many players and families have joined them.\n\n" + _TRIP + " If you're planning your next tours, I'd be glad to show you what we could add, whether a full week or a few days inside a trip.\n\n" + _PROOF + "\n\nWould you be up for a quick call?\n\nBest,\n{sig}"
+
+PROSPECTS += [
+    dict(key="keadue", club="Keadue Rovers FC (Girls)", short="Keadue Rovers", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 11), right=True,
+         to="keadueroversfc@gmail.com", greet="Hi there,", person="Sin nombre publicado para las chicas: correo oficial del club", subj="A week in Spain for Keadue Rovers", linkedin=None, dm="Facebook de Keadue Rovers",
+         pais="Irlanda (Donegal)", cat="Chicas sub 14", motivo="Sub 14 chicas al Barcelona Cup de Cambrils, con recaudación de fondos (Donegal Live, 2026). Web activa el 30/10/2026. Club modesto: el precio puede ser un freno.", fuente="donegallive.ie / keadueroversfc.com", e1_body=KEADUE),
+    dict(key="carrigaline", club="Carrigaline United AFC", short="Carrigaline United", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 11), right=True,
+         to="cuafc.sec@gmail.com", greet="Hi there,", person="Secretaría del club; Alan Hennessy (entrenador de las sub 11)", subj="A week in Spain for Carrigaline United", linkedin=None, dm="Redes de Carrigaline United",
+         pais="Irlanda (Cork)", cat="Chicas sub 11 y sub 13; el mayor club amateur de Irlanda (1.700 jugadores)", motivo="Sub 11 chicas en el Barcelona Girls Cup de Salou (The Echo, 1/7/2026); también viajó un sub 13. Mercado irlandés y muchos equipos.", fuente="echolive.ie / carrigaline.clubzap.com/about", e1_body=CARRIGALINE),
+    dict(key="letterkenny", club="Letterkenny Rovers FC", short="Letterkenny Rovers", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 12), right=True,
+         to="info@letterkennyroversfc.ie", greet="Hi there,", person="Correo oficial del club (sin responsable de viajes publicado)", subj="A week in Spain for Letterkenny Rovers", linkedin=None, dm="Redes de Letterkenny Rovers",
+         pais="Irlanda (Donegal)", cat="Cantera, juega la liga nacional FAI", motivo="Viajaron al Barcelona Cup (Donegal Live, 2024).", fuente="donegallive.ie / letterkennyroversfc.ie", e1_body=LETTERKENNY),
+    dict(key="dalkey", club="Dalkey United FC", short="Dalkey United", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 12), right=True,
+         to="chairman@dalkeyunited.ie", greet="Hi there,", person="Presidencia del club (Dion, según el boletín de 2024; sin confirmar que siga)", subj="A week in Spain for Dalkey United", linkedin=None, dm="Redes de Dalkey United",
+         pais="Irlanda (Dublín)", cat="Chicas y chicos; cantera en Dublín", motivo="Sub 14 chicas en el Barcelona Girls Cup de Salou (web del club, hace más de 3 años). Gancho más antiguo que los demás.", fuente="dalkeyunited.clubzap.com / dalkeyunited.beehiiv.com", e1_body=DALKEY),
+    dict(key="pannal", club="Pannal Ash JFC", short="Pannal Ash", tz="Europe/London", lang="en", sent=False, e1=D(2026, 11, 12), form=True, stop_after_e1=True,
+         to="Formulario: pannal-ash.co.uk/contact", greet="Hi there,", person="Chris McVey (Chair); Mike Orton (Secretary). Sin email publicado: solo formulario", subj="A week in Spain for Pannal Ash", linkedin=None, dm="Redes de Pannal Ash",
+         pais="Reino Unido (Harrogate)", cat="Chicas sub 11; club de 5 a 18 años", motivo="Sub 11 chicas recaudaron casi 15.000 £ para un torneo en Barcelona (Stray Ferret). Club acreditado por la FA. El precio puede ser un freno.", fuente="thestrayferret.co.uk / pannal-ash.co.uk/about-us/club-contacts", e1_body=PANNAL),
+]
+
+PROSPECTS_US += [
+    _us("nysc", "New York Soccer Club", "NYSC", "America/New_York", "christian.gonzalez@newyorksoccerclub.org", "Hi Christian,", "Christian Gonzalez (President y Academy Director)", "Nueva York", D(2026, 11, 12),
+        li=("Christian Gonzalez", "Pega en el buscador de LinkedIn: Christian Gonzalez New York Soccer Club", "Nombre muy común: comprueba que dice New York Soccer Club.")),
+    _us("dusc", "Downtown United Soccer Club", "Downtown United", "America/New_York", "info@dusc.net", "Hi team,", "Alex Keaney (Technical Director chicas); Jose Luis Rebay (Technical Director chicos U11 a U15)", "Nueva York", D(2026, 11, 17), right="Alex Keaney",
+        li=("Jose Luis Rebay", "Pega en el buscador de LinkedIn: Jose Luis Rebay Downtown United", "Sin enlace directo. Comprueba que dice Downtown United.")),
+    _us("wisconsin", "Wisconsin International Soccer", "Wisconsin International", "America/Chicago", "wisinternationalsoccer@gmail.com", "Hi team,", "Correo oficial (organización sin ánimo de lucro; sin director publicado)", "Wisconsin", D(2026, 11, 18)),
+    _us("unitedpdx", "United PDX", "United PDX", "America/Los_Angeles", "info.unitedpdx@gmail.com", "Hi team,", "Ryan Youngblood (CEO); Brandon McNeil (COO)", "Oregón", D(2026, 11, 18), right="Ryan Youngblood", hook="was down for the Donosti Cup in San Sebastián this summer",
+        li=("Ryan Youngblood", "Pega en el buscador de LinkedIn: Ryan Youngblood United PDX", "Sin enlace directo. Comprueba que dice United PDX.")),
+    _us("colorado", "Colorado Rapids Youth Soccer (CRYSC International)", "CRYSC International", "America/Denver", "jeff.oleck@rapidsyouthsoccer.org", "Hi Jeff,", "Jeff Oleck (Director of International Travel; fuente de sept. 2025, el club parece haber pasado a Colorado Storm)", "Colorado", D(2026, 11, 11),
+        li=("Jeff Oleck", "Pega en el buscador de LinkedIn: Jeff Oleck Colorado Rapids Youth Soccer", "Sin enlace directo. Comprueba que sigue en el club.")),
+]
+_US_NEW = {
+    "nysc": (NYSC, "New York Soccer Club and a week in Spain", "Viaje a la Donosti Cup 2024 con Barcelona y Madrid, abierto a jugadores externos (web del club). Club de Nueva York, se puede quedar en persona.", "newyorksoccerclub.org/staff"),
+    "dusc": (DUSC, "A question about trips abroad for Downtown United", "Equipo en la Donosti Cup 2026 (itinerario de Premier International Tours). 5.000 participantes en Manhattan, se puede quedar en persona. Ya usa una agencia de viajes.", "dusc.net/about-us/staff/directors"),
+    "wisconsin": (WISCONSIN, "An idea around your Donosti Cup trip", "Su razón de ser es llevar un equipo al extranjero cada año; la web ya tiene sección Donosti Cup 2027. Antes de enviar: comprobar disponibilidad de la Real Sociedad, como con NJ14.", "wisconsininternationalsoccer.com"),
+    "unitedpdx": (None, None, "En la lista oficial de la Donosti Cup 2026. Unos 2.700 jugadores.", "donosticup.cupmanager.net / unitedpdx.com/directors"),
+    "colorado": (COLORADO, "Your next tours to Spain", "Tiene un director de viajes internacionales y más de 700 participantes en sus giras en 3 años, con viajes U14 a España en marzo de 2026. Es el mayor potencial de esta tanda. Ya organiza sus giras: se le ofrece añadir valor, no sustituirlas.", "coloradostorm.com/news/destination-spotlight-a-spanish-futbol-adventure"),
+}
+for _p in PROSPECTS_US:
+    if _p["key"] in _US_NEW:
+        _b, _s, _m, _f = _US_NEW[_p["key"]]
+        if _b:
+            _p["e1_body"] = _b
+        if _s:
+            _p["subj"] = _s
+        _p["motivo"] = _m; _p["fuente"] = _f; _p["cat"] = "Club que ya viaja a España"
 
 _E1 = {"holbeach_dan": D(2026, 11, 4), "virtu": D(2026, 11, 4), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
@@ -534,6 +595,46 @@ def build_sends():
     for x in LINKEDIN_EXTRA:
         rows.append(dict(x, how=HOW_LI))
     rows.sort(key=lambda r: (r["date"], r["club"]))
+    return nivela(rows)
+
+
+CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco tiempo de Joel)
+ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
+
+
+def nivela(rows):
+    """Reparte los envíos: máximo CAP_DIA al día, de martes a jueves, y al menos 5 días entre correos a un mismo club."""
+    us = {p["club"] for p in PROSPECTS_US}
+    carga, ultimo = {}, {}
+    orden = sorted(rows, key=lambda r: (r["date"], r["kind"] in ("Email 1", "Formulario web"), r["club"]))
+    for r in orden:
+        if r["kind"] == "DM en redes":
+            continue
+        if r["kind"] not in ENVIOS:
+            continue
+        d = r["date"]
+        if r["club"] in ultimo:
+            d = max(d, ultimo[r["club"]] + dt.timedelta(days=5))
+        while True:
+            d2 = ajusta(d, r["club"] in us)
+            if d2 != d:
+                d = d2
+                continue
+            if d.weekday() in (1, 2, 3) and carga.get(d, 0) < CAP_DIA:
+                break
+            d += dt.timedelta(days=1)
+        r["date"] = d
+        carga[d] = carga.get(d, 0) + 1
+        ultimo[r["club"]] = d
+    primero = {r["club"]: r["date"] for r in rows if r["kind"] in ("Email 1", "Formulario web")}
+    for r in rows:
+        if r["kind"] == "LinkedIn conectar" and r["club"] in primero and r["date"] < primero[r["club"]]:
+            r["date"] = primero[r["club"]] + dt.timedelta(days=2)
+        if r["kind"] == "DM en redes":
+            fu2 = [x["date"] for x in rows if x["club"] == r["club"] and x["kind"] == "Follow-up 2"]
+            if fu2:
+                r["date"] = fu2[0] + dt.timedelta(days=1)
+    rows.sort(key=lambda r: (r["date"], r["club"]))
     return rows
 
 
@@ -553,10 +654,26 @@ REPLIES = [
      "Instagram. Un solo follow-up. Si no contesta en 7 días, pasa a Frío en el CRM. No pidas más datos en este mensaje."),
     ("Greystones 1: WhatsApp a Patrick (lo manda Joel)", "Hi Patrick, it's Joel, Enrique's son. First of all, congratulations on Alexia, I hope you're all doing well and getting a bit of sleep.\n\nAs my dad mentioned, we're building up the Always Up brand and a new website, and what we did together with Greystones is the best example we have. There's no rush at all, whenever you have a quiet moment, could I ask you for a few small things?\n\n1. Two or three lines from you about what the experience meant for the players and the club. Or, if it's easier, a 30 second video on your phone.\n\n2. We have this line from the club after the league title: \"No doubt our Atletico de Madrid Experience helped us win our league title... it gives players the belief they are special.\" Would you be happy for us to use it, with the club's name?\n\n3. If you know other clubs who'd enjoy a trip like yours, an introduction from you would mean a lot.\n\nIf it helps, I can write a draft and you just change whatever you like. Thanks so much Patrick, and all the best to you and the family.\n\nJoel",
      "WhatsApp. Enrique ya le avisó de que le escribirías. Antes de enviar, comprueba con Enrique quién dijo la frase del punto 2. Detalles y usos en 02-sales/greystones-testimonio-y-referidos.md."),
-    ("Greystones 2: si Patrick dice que sí", "That's brilliant Patrick, thank you. To keep it easy, here's what would help most.\n\nFor a video, 30 to 60 seconds on your phone, held sideways, in good light. Just answer three questions: what did the week in Spain do for your players, what stood out most, and would you recommend it to another club and why. It doesn't need to be polished.\n\nCould you also confirm a few facts so we get them right: which team won the league and in which season, how many years you've been coming to Spain with us, and roughly how many teams and players have come?\n\nIf you're happy for us to use the club's name and crest, just say so. And if you have a photo of the squad with the trophy or from the trip we'd love one, but only if the parents have agreed to photos being shared.\n\nLast one: if a club ever wants to ask what it was really like, would you be okay chatting with them for ten minutes?\n\nThank you again.\n\nJoel",
-     "Solo si responde que sí. Nada se publica sin su OK por escrito (vale un WhatsApp). Fotos de menores: solo con consentimiento de los padres."),
-    ("Greystones 3: cuando acepte presentar a otros clubes", "Thank you Patrick. Whoever you think is a good fit, a short message from you introducing us works best, something like: \"I'd like to introduce you to Joel from Always Up, who organised our trips to Spain. Worth a quick chat.\" Then we take it from there, and we'll always mention that you pointed us their way.\n\nJoel",
+    ("Greystones 2: respuesta a Patrick con el borrador (WhatsApp, hoy)", "Ha, fair enough amigo! So glad you're all doing well, she's a lucky girl.\n\nThanks for all of this. Here's a draft for you, change anything you like, it has to sound like you and everything in it has to be true:\n\n\"We've been travelling to Spain with Always Up since 2024, with our teams and our coaches. The players train at Atlético de Madrid's facilities, play local academy sides and live like professionals for a week, and it gives them the belief that they're special. In 2026 we won the first league title in the club's history, and there's no doubt the Atlético experience played its part. Everything is organised for you from start to finish, which means a lot when you're responsible for a group of kids. I'd recommend Always Up to any club.\"\n\nIf you're happy with it, just tell me how you'd like your name and title to appear, and whether we can use the club's name and crest.\n\nThanks for the heads up on Lee, we'll leave him out completely and keep it to the club and the experience.\n\nAnd on number 3, no rush and no pressure at all. If someone comes to mind, let me know and I'll make it easy for you.\n\nGive Alexia a hug from us.\n\nJoel",
+     "Cópialo tal cual. Lee no se nombra en ningún sitio. El texto no se publica hasta que Patrick lo apruebe por escrito. Cuando conteste, pégamelo."),
+    ("Greystones 3: cuando apruebe el texto", "Brilliant, thanks Patrick. Last two small things, only if they're easy. Do you have a photo from one of the trips we could use? Only if the parents have agreed to photos being shared. And if a club ever wants to ask what it was really like, would you be okay chatting with them for ten minutes?\n\nJoel",
+     "Solo después de que apruebe el testimonio. No le pidas nada más hasta entonces."),
+    ("Greystones 4: cuando acepte presentar a otros clubes", "Thank you Patrick. Whoever you think is a good fit, a short message from you introducing us works best, something like: \"I'd like to introduce you to Joel from Always Up, who organised our trips to Spain. Worth a quick chat.\" Then we take it from there, and we'll always mention that you pointed us their way.\n\nJoel",
      "Cuando te den un nombre, escribe al club citando a Greystones en la primera línea."),
+    ("Omar: respuesta a los vídeos (WhatsApp, hoy)", "Hola Omar, muchas gracias, ya los tengo. Hoy mismo se los paso al equipo que hace la evaluación para que vean a Gabriel y a Rafael.\n\nPara que sea completa me faltan tres cosas de cada uno:\n\n1. Las calificaciones de los dos últimos años (una foto sirve).\n2. En qué año terminan la preparatoria.\n3. Qué nivel de inglés tienen, y si ya hicieron algún examen como TOEFL, Duolingo o SAT.\n\nY una pregunta: ¿buscan la misma universidad para los dos, o estarían abiertos a universidades distintas si a alguno le conviene más?\n\nEn cuanto tenga la valoración te escribo.\n\nJoel",
+     "No des fecha de la valoración hasta que David la confirme. No prometas beca ni división, y no vuelvas a hablar de precio: la oferta del 18/09 sigue siendo la misma."),
+    ("David (University Soccer): pedir la valoración de los gemelos (hoy)", "Hola David, ¿qué tal? Ha vuelto un lead de becas que se había enfriado: Omar Escamilla, de Monterrey, padre de los gemelos Gabriel (lateral izquierdo) y Rafael (medio). Tienen 17 años, miden 1,82, juegan en la filial mexicana del Club Dallas FC y el objetivo es agosto de 2027.\n\nMe acaba de mandar los vídeos de octubre:\nGabriel: https://youtube.com/@gabrielescamillaquiroga (empieza por Highlights mix SEP/OCT)\nRafael: https://youtube.com/@rafaelescamillaquiroga-t3x (empieza por Octuber 14,23,28 MIX)\n\nAntes de decidir, el padre quiere saber a qué división y a qué tipo de beca pueden aspirar. Ya le he pedido notas e inglés. ¿Me puedes dar tu valoración de cada uno para el lunes 9? Con el precio le ofrecimos en septiembre 2.000 $ en un pago o 250 $ + 2.500 $ por jugador, por si quieres tenerlo en cuenta.\n\nGracias,\nJoel",
+     "Es para David, no para Omar. Cuando te conteste, pégamelo y te preparo el mensaje a Omar."),
+    ("Gonzalo Lamas: retomar el lunes 9/11 (WhatsApp)", "Hola Gonzalo, ¿qué tal? Espero que el viaje a Barcelona con el club haya ido muy bien y que ya estés de vuelta en Buenos Aires.\n\nComo quedamos, te escribo para retomar. ¿Pudiste mirar la propuesta? Me encantaría saber qué te pareció y qué formato ves más útil para tu gente. ¿Te viene bien que hablemos 20 minutos esta semana? Dime qué día te encaja y me adapto a tu horario.\n\nUn abrazo,\nJoel",
+     "Envíalo a las 10:00 de Nueva York (12:00 en Buenos Aires). Si dice que sí: guion en 02-sales/guion-llamada-socio-argentina.md. Antes de la llamada hace falta que Enrique cierre modelo y comisión (sesión del 6/11)."),
+    ("Becas: reactivar a Pavel Gomez (Instagram)", "Hola Pavel, soy Joel de Always Up. Hablamos en verano sobre seguir compitiendo en la universidad. Como eres de la clase de 2027, los entrenadores ya están mirando a jugadores de tu año, así que quería saber cómo estás. ¿Sigue en pie la idea? Si es así, hablamos 15 minutos esta semana. Y si ya lo tienes resuelto, dímelo sin problema y me alegro.",
+     "El más urgente: ya vive en EEUU y se gradúa en 2027. Un solo mensaje, sin insistir."),
+    ("Becas: reactivar a Francisco Ferreira (Instagram)", "Hola Francisco, soy Joel de Always Up. Hablamos en verano y me mandaste tu vídeo. Me contaste que dudabas entre ir a EEUU en 2027 o quedarte estudiando en Portugal. ¿Has podido decidir algo? Si EEUU sigue siendo una opción, te cuento los siguientes pasos. Y si te quedas en Portugal, me lo dices sin problema.",
+     "Un solo mensaje, sin insistir."),
+    ("Becas: reactivar a Gonzalo Caro y a Tania Coeto (Instagram)", "Hola, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
+     "Un mensaje a cada uno por separado. Un solo intento."),
+    ("Becas: reactivar a Anita (Instagram)", "Hola Anita, soy Joel de Always Up. En verano me preguntaste por la inscripción y creo que la respuesta se quedó pendiente, perdona. Empezamos con una evaluación, con un vídeo reciente jugando y las notas, y con eso vemos qué nivel de universidad tiene sentido. ¿Sigue en pie la idea? Si es así, mándame lo que tengas de vídeo.",
+     "Si ya le contestaste entonces, sáltate este. Un solo intento."),
     ("Richard Clarke: mensaje cuando acepte en LinkedIn", "Thanks for connecting, Richard. I really enjoyed your talk. I'm a student here in New York and I'm also building Always Up with my dad: we take youth teams to train at clubs like Atlético de Madrid and Real Sociedad.\n\nWe're at the very start with content and I'd value your advice. Would you have 15 minutes in the next few weeks? I'd love to hear what you'd focus on first if you were in our position. No pitch, I promise.\n\nJoel",
      "Mándalo 1 o 2 días después de que acepte. Si puedes, cambia la primera frase por algo concreto que dijera en la charla: es lo que hará que conteste. No le vendas nada."),
     ("Calentar el dominio 1: opinión sobre la web (familia o amigo)", "Asunto: Una opinión sobre la web\n\nHola [nombre], ¿qué tal todo?\n\nEstoy revisando la web de Always Up y me viene bien la opinión de alguien que la vea con ojos nuevos. ¿Puedes entrar un momento en alwaysup.es y decirme qué entiendes que hacemos y qué es lo primero que cambiarías? Con dos líneas me vale.\n\nUn abrazo,\nJoel Martinez\nFounder, Always Up\njoel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es",
@@ -698,6 +815,7 @@ def build_calendar(sends):
         A(dd, "Libre", 990, "Todos", "Actualizar el CRM con lo que ha pasado esta semana", "Estado y fecha de último contacto de cada club o lead. Así la hoja Hoy cuenta bien.", "Segmento A, B, C", 15)
     # --- replanificación del 2/11/2026: lo que sigue pendiente se mueve; lo que ya no aplica se quita
     drop = ("Revisar las nuevas fichas", "Enviar la tanda 3", "Enviar la tanda 4", "Greystones: preguntar a Enrique", "Pasarme la dirección postal", "Revisión semanal 4")
+    drop += ("Revisar leads de becas", "Pedirme: «investiga 10 clubes más»")  # desde el 4/11 los lleva Claude en la revisión semanal
     C[:] = [x for x in C if not x["task"].startswith(drop)]
     mover = {"Calentar el dominio": D(2026, 11, 4), "Sesión con Enrique": D(2026, 11, 6), "Cerrar el precio": D(2026, 11, 6), "Preguntar a Atlético y Real Sociedad": D(2026, 11, 6),
              "Campus Internacional: contarme": D(2026, 11, 6), "Piloto: 5 mensajes": D(2026, 11, 18), "Revisión del mes con Claude": D(2026, 11, 16)}
@@ -712,9 +830,16 @@ def build_calendar(sends):
     add(D(2026, 11, 4), "Libre", 500, "Team/Coach", "URGENTE: pasarme la dirección postal fiscal de Quality Servix Premium SL", "Es el domicilio social de la empresa: sale en las facturas o en el Registro Mercantil; si no, pregúntaselo a Enrique o a la gestoría. La ley de EEUU la exige en cada email comercial. Sin ella no se generan los correos a EEUU, que empiezan el 10/11.", "Chat con Claude", 5)
     add(D(2026, 11, 4), "Libre", 510, "Team/Coach", "Decirme si Gonzalo Lamas ya tiene la propuesta y si salió algo desde el 20/10", "El Excel no muestra ningún envío desde el 15/10, así que lo he replanificado como si nada hubiera salido. Si algo sí salió, dímelo para no duplicar. Y si la propuesta a Gonzalo sigue sin enviar, es lo primero de esta semana.", "Chat con Claude", 5)
     add(D(2026, 11, 3), "Libre", 640, "Team/Coach", "Greystones: mandar el WhatsApp a Patrick", "Enrique ya le avisó. Antes, confirma con Enrique quién dijo la frase del título de liga. Texto en 'Respuestas tipo' (Greystones 1). Si contesta, me pasas lo que diga y te doy el mensaje 2.", "Textos para copiar (Respuestas tipo)", 10)
-    add(D(2026, 11, 6), "Libre", 630, "Team/Coach", "Mirar si Richard Clarke aceptó y si Patrick contestó", "Richard: 1 o 2 días después de aceptar, mándale el mensaje de 'Respuestas tipo', con algo concreto de su charla. Patrick: si dice que sí, 'Greystones 2'. Si aún no contesta, no insistas: acaba de ser padre. Le daría hasta el 16/11.", "Textos para copiar (Respuestas tipo)", 5)
+    add(D(2026, 11, 6), "Libre", 630, "Team/Coach", "Mirar si Richard Clarke aceptó y si Patrick contestó", "Richard: 1 o 2 días después de aceptar, mándale el mensaje de 'Respuestas tipo', con algo concreto de su charla. Patrick: si aprobó el texto, 'Greystones 3' y pégame lo que dijo. Si aún no contesta, no insistas: acaba de ser padre.", "Textos para copiar (Respuestas tipo)", 5)
     for dd in (D(2026, 11, 6), D(2026, 11, 13), D(2026, 11, 20), D(2026, 11, 27), D(2026, 12, 4), D(2026, 12, 11), D(2026, 12, 18)):
-        add(dd, "Libre", 640, "Todos", "Revisión semanal: cuéntame respuestas, rebotes y llamadas", "Tres líneas por el chat bastan. Yo actualizo el Excel y ajusto el plan.", "Chat con Claude", 10)
+        add(dd, "Libre", 640, "Todos", "Revisión semanal: cuéntame respuestas, rebotes y llamadas", "Tres líneas por el chat bastan. Pega también cualquier mensaje de becas que te haya llegado por Instagram o WhatsApp. Con eso actualizo el Excel y preparo las respuestas, los seguimientos y 10 clubes más.", "Chat con Claude", 10)
+    add(D(2026, 11, 4), "Ahora", 20, "Team/Coach", "Patrick: contestarle con el borrador del testimonio", "WhatsApp. Texto listo: copia y pega. Lee no se nombra. Cuando conteste, pégame lo que diga.", "Textos para copiar (Respuestas tipo): Greystones 2", 3)
+    add(D(2026, 11, 4), "Ahora", 21, "Becas", "Omar: contestarle y pedir notas e inglés", "WhatsApp. Texto listo. Sin prometer beca ni división.", "Textos para copiar (Respuestas tipo): Omar", 3)
+    add(D(2026, 11, 4), "Ahora", 22, "Becas", "David: pasarle los vídeos de los gemelos para la valoración", "Por donde hables con David. Texto listo, con los enlaces. Cuando conteste, pégamelo.", "Textos para copiar (Respuestas tipo): David", 3)
+    add(D(2026, 11, 6), "Libre", 620, "Becas", "Becas: un último mensaje a 5 leads de verano", "Instagram. Un mensaje a cada uno: Pavel Gomez, Francisco Ferreira, Gonzalo Caro, Tania Coeto y Anita. Si sabes que alguno no es cliente, sáltalo. Omar ha vuelto tras 5 semanas en silencio, y esto cuesta 10 minutos. Solo un intento. Pégame lo que contesten.", "Textos para copiar (Respuestas tipo): Becas", 10)
+    add(D(2026, 11, 9), "10:00", 480, "Team/Coach", "Gonzalo Lamas: escribirle para retomar", "WhatsApp, 10:00 de Nueva York (12:00 en Buenos Aires). Ya habrá vuelto de Barcelona. Texto listo. Si acepta la llamada, avísame y repasamos el guion.", "Textos para copiar (Respuestas tipo): Gonzalo Lamas", 3)
+    add(D(2026, 11, 9), "Libre", 620, "Becas", "Omar: pegarme lo que hayan dicho David y Omar", "Con la valoración de David y los datos de Omar te preparo el siguiente mensaje. Si David no ha contestado, recuérdaselo hoy.", "Chat con Claude", 3)
+    add(D(2026, 11, 16), "Libre", 620, "Team/Coach", "Patrick: si no ha contestado al borrador, recordárselo una vez", "«Hi Patrick, no rush at all, just checking you saw the draft. Change whatever you like.» Solo si sigue sin contestar. Si ya aprobó, no hace falta nada.", "Aquí mismo", 2)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
@@ -785,6 +910,14 @@ def read_saved(wb, sheet, key_cols, val_cols, header_row=4):
 
 def sheet_calendar(wb, cal):
     saved = read_saved(wb, "Calendario diario", (1, 5), (9, 10))
+    # Lo saltado de semanas pasadas ya no se enseña: confundía con tareas pendientes (4/11/2026).
+    import json
+    _reg = json.load(open(os.path.join(HERE, "registro.json"), encoding="utf-8")).get("tareas", [])
+    def _hecha(t):
+        if (saved.get((str(t["date"]) + " 00:00:00", t["task"])) or (None,))[0] == "Hecho":
+            return True
+        return any(e["date"] == t["date"].strftime("%Y-%m-%d") and t["task"].startswith(e["task"]) for e in _reg)
+    cal = [t for t in cal if t["date"] >= REBASE or _hecha(t)]
     ws = fresh(wb, "Calendario diario", 0)
     title(ws, "Calendario diario (versión %s)" % VERSION,
           "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se programan la víspera en Apple Mail (Enviar más tarde) para las 09:30 de cada club; a las 08:00 compruebas que salieron. "
@@ -971,6 +1104,16 @@ def sheet_services(wb):
 
 
 VERIF = [
+    ("Keadue Rovers FC (Girls)", "keadueroversfc@gmail.com", "keadueroversfc.com, web activa el 30/10/2026", "Pendiente", "Alta (correo del club)", "Facebook del club"),
+    ("Carrigaline United AFC", "cuafc.sec@gmail.com", "carrigaline.clubzap.com/about", "Pendiente", "Alta (correo del club)", "Redes del club"),
+    ("Letterkenny Rovers FC", "info@letterkennyroversfc.ie", "Pie de letterkennyroversfc.ie; dominio con MX", "Pendiente", "Alta (correo del club)", "Redes del club"),
+    ("Dalkey United FC", "chairman@dalkeyunited.ie", "Boletín del club de 2024; dominio con MX", "Pendiente", "Media (correo de 2024; mirar rebote)", "media@dalkeyunited.ie"),
+    ("Pannal Ash JFC", "Formulario: pannal-ash.co.uk/contact", "Comité en pannal-ash.co.uk/about-us/club-contacts; sin email publicado", "Pendiente", "Alta (formulario)", "Redes del club"),
+    ("New York Soccer Club", "christian.gonzalez@newyorksoccerclub.org", "newyorksoccerclub.org/staff; dominio con MX", "Pendiente", "Alta", "LinkedIn; info@newyorksoccerclub.org"),
+    ("Downtown United Soccer Club", "info@dusc.net", "dusc.net/about-us/contact; directores en dusc.net/about-us/staff/directors", "Pendiente", "Alta (correo del club)", "LinkedIn de Jose Luis Rebay"),
+    ("Wisconsin International Soccer", "wisinternationalsoccer@gmail.com", "wisconsininternationalsoccer.com", "Pendiente", "Alta (correo del club)", "Formulario de su web"),
+    ("United PDX", "info.unitedpdx@gmail.com", "unitedpdx.com/contact; directivos en unitedpdx.com/directors", "Pendiente", "Alta (correo del club)", "LinkedIn de Ryan Youngblood"),
+    ("Colorado Rapids Youth Soccer (CRYSC International)", "jeff.oleck@rapidsyouthsoccer.org", "Noticia del club de sept. 2025; dominio con MX. El club parece haber pasado a Colorado Storm", "Pendiente", "Media (mirar rebote)", "info@coloradostorm.com"),
     ("Home Farm FC", "homefarmfc@gmail.com", "Email del club en dbsportstours; enviado 13/10", "Entregado (sin rebote a las 21:30 de España)", "Alta", "Facebook del club"),
     ("Hastings United", "georgia.townsend@hastingsunited.com", "Directorio de la academia; enviado 13/10", "Entregado (sin rebote)", "Alta", "Instagram del club"),
     ("Søreide IL", "fotball@soreideil.no", "soreideil.no/fotball/kontaktinformasjon (publicado por el club)", "Pendiente de enviar", "Alta", "Facebook del club"),
@@ -1025,7 +1168,7 @@ def sheet_verif(wb):
         ws.cell(row=i, column=6).fill = PatternFill("solid", fgColor=(LGRN if conf == "Alta" else LYEL))
         ws.row_dimensions[i].height = est_height(src, 56, 30)
     r = 5 + len(VERIF) + 1
-    notes = ["Descartados el 2/11: Washington United (la web del club está caída y no hay certeza de que sea el de la Costa Daurada), Athy Town AFC (email antiguo sin confirmar; probar por Facebook), Lower Ormond (sin contacto), South Bay United y California Republic SC (sin datos fiables).", "Descartados tras investigar (13/10): Morecambe Hawks United (equipo local pequeño, no encaja), Team ALTI (sin datos fiables), Lower Ormond (existe en la lista de Semana Santa pero no encuentro contacto).",
+    notes = ["Descartados el 4/11 por no tener email verificable: West Cork Academy (David Hall, buen perfil: probar por Facebook), Strikers FC Irvine, Ballymoney United, Moyola Park, Chapeltown Juniors y MEK Galaxy.", "Descartados el 2/11: Washington United (la web del club está caída y no hay certeza de que sea el de la Costa Daurada), Athy Town AFC (email antiguo sin confirmar; probar por Facebook), Lower Ormond (sin contacto), South Bay United y California Republic SC (sin datos fiables).", "Descartados tras investigar (13/10): Morecambe Hawks United (equipo local pequeño, no encaja), Team ALTI (sin datos fiables), Lower Ormond (existe en la lista de Semana Santa pero no encuentro contacto).",
              "Excelsior Rotterdam: club profesional con academia (Joep Breimer, jefe de desarrollo de la cantera). Perfil distinto, prioridad baja."]
     for n in notes:
         ws.cell(row=r, column=1, value=n)
@@ -1123,7 +1266,7 @@ def sheet_readme(wb):
         ("Cada mañana (15 min)", "Abre Calendario diario. Hoy sale en amarillo. Haz lo que diga, marca Hecho. Revisa bandeja, Instagram y WhatsApp."),
         ("La víspera (20 min)", "Prepara los correos del día siguiente. Si tu correo permite programar, déjalos programados. Si no, los envías a mano a las 07:30 de Nueva York. El calendario te dice cuáles y de dónde copiar el texto."),
         ("Cada viernes (20 min)", "Revisión semanal: cuéntame respuestas, rebotes y llamadas. Yo actualizo el plan y preparo la siguiente tanda."),
-        ("Cada lunes (5 min)", "Escríbeme «investiga 10 clubes más». Yo verifico contactos y dejo los correos listos."),
+        ("Becas e investigación", "Los llevo yo. Tú me pegas por el chat lo que te llegue por Instagram o WhatsApp, y te devuelvo la respuesta, la próxima acción y la fecha para copiar y pegar. En cada revisión del viernes añado más clubes."),
         ("PESTAÑAS", ""),
         ("Calendario diario", "Tu lista de tareas por día, con hora, pasos y dónde está el texto. Es lo único que necesitas mirar a diario."),
         ("Textos para copiar", "Todos los correos, notas de LinkedIn y mensajes, listos para pegar. Incluye respuestas tipo para cuando contesten."),
@@ -1254,6 +1397,42 @@ def update_segment_a(wb, sends):
     h["A14"].value = "Conexiones de LinkedIn con nota personalizada"; h["B14"].value = "5"
 
 
+def update_segment_c(wb):
+    """Estado real de los leads de becas (4/11/2026). Joel: no hay conversaciones activas salvo Omar."""
+    ws = wb["Segmento C - Becas"]
+    hoy = dt.datetime(2026, 11, 4)
+    OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés."
+    cambios = {
+        "Omar Escamilla": ("Llamada realizada", "Valoración de David y notas de Omar. Siguiente mensaje el 9/11.", OMAR),
+        "Pavel Gomez": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+        "Francisco Ferreira": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+        "Gonzalo Caro": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+        "Tania Coeto": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+        "Anita": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+    }
+    for r in range(5, ws.max_row + 1):
+        nombre = str(ws.cell(row=r, column=1).value or "")
+        if not nombre or nombre.startswith("Nombre"):
+            continue
+        hit = next((k for k in cambios if nombre.startswith(k)), None)
+        if hit:
+            etapa, prox, nota = cambios[hit]
+            ws.cell(row=r, column=5, value=etapa); ws.cell(row=r, column=8, value=prox); ws.cell(row=r, column=9, value=hoy)
+            if hit == "Omar Escamilla":
+                ws.cell(row=r, column=6, value="Sí: vídeos de octubre de los dos")
+            if nota and nota not in str(ws.cell(row=r, column=10).value or ""):
+                ws.cell(row=r, column=10, value=(str(ws.cell(row=r, column=10).value or "") + " | " + nota).strip(" |"))
+        elif ws.cell(row=r, column=5).value != "Perdido":
+            ws.cell(row=r, column=5, value="Perdido")
+            ws.cell(row=r, column=8, value="Frío: sin conversación activa (Joel, 4/11/2026). Si vuelve a escribir, pégaselo a Claude.")
+            ws.cell(row=r, column=9, value=hoy)
+    ws2 = wb["Oportunidades y notas"]
+    for r in range(1, ws2.max_row + 1):
+        if "Gonzalo Lamas" in str(ws2.cell(row=r, column=3).value or ""):
+            ws2.cell(row=r, column=5, value="Tiene la propuesta. Estaba 10 días en Barcelona con un club. Joel le escribe el lunes 9/11, cuando haya vuelto a Buenos Aires.")
+            ws2.cell(row=r, column=6, value="Propuesta enviada")
+
+
 def main():
     sends = build_sends()
     rep_rows = [dict(club="-", kind="Plantilla", body=b, subj="") for _, b, _ in REPLIES]
@@ -1267,6 +1446,7 @@ def main():
     if "Outreach - Copiar y pegar" in wb.sheetnames:
         del wb["Outreach - Copiar y pegar"]
     update_segment_a(wb, sends)
+    update_segment_c(wb)
     sheet_calendar(wb, cal)
     sheet_texts(wb, sends)
     sheet_linkedin(wb, sends)

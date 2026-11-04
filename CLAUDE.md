@@ -96,6 +96,8 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 - [x] Renegades FC — cerrado (perdido), gestionado correctamente, puerta abierta a futuro
 - [x] Primeros 3 emails de outreach enviados el 13/10/2026 (Home Farm, Hastings; el de Søreide rebotó y se reenvía el 14/10)
 - [ ] Ejecutar el plan de outreach de 30 días: ver pestaña `Calendario diario` de `01-clients/crm-ventas.xlsx` y `02-sales/plan-outreach-30-dias.md` y `02-sales/plan-captacion-todos-los-servicios.md`
+- [ ] Gonzalo Lamas (socio Argentina, ~1.000 personas en 2027) tiene la propuesta; Joel le escribe el 9/11. Enrique debe cerrar modelo y comisión antes de la llamada
+- [ ] Becas: Omar (gemelos) reactivado el 4/11, valoración pendiente de David. Claude lleva el seguimiento de becas: Joel pega los mensajes y copia las respuestas
 - [ ] Ampliar la lista de clubes objetivo a más volumen (3-4 candidatos serios, no 1-2)
 - [ ] Checklist legal menores/GDPR/seguros — falta revisión de abogado
 - [ ] Sesión dedicada aparte: estrategia de marca personal (Instagram @Joel_alwaysup) + Player Development

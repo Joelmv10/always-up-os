@@ -1,6 +1,13 @@
 # Greystones: testimonio, presentaciones y referencia
 
-> Actualizado el 2/11/2026. Greystones es nuestro único cliente recurrente (desde 2024; 105.000 € el último ejercicio, 4 equipos en 2025) y nunca se le ha pedido de forma explícita un referido ni un testimonio firmado. El contacto es **Patrick**, que acaba de tener a su hija Alexia. Enrique ya le avisó por WhatsApp de que Joel le escribiría. **Lo manda Joel.**
+> Actualizado el 4/11/2026. Greystones es nuestro único cliente recurrente (desde 2024; 105.000 € el último ejercicio, 4 equipos en 2025) y nunca se le ha pedido de forma explícita un referido ni un testimonio firmado. El contacto es **Patrick**, que acaba de tener a su hija Alexia. Enrique ya le avisó por WhatsApp de que Joel le escribiría. **Lo manda Joel.**
+
+## Respuesta de Patrick (4/11/2026)
+1. Testimonio: que redactemos lo que queramos y él pone su nombre. Se lo mandamos para que lo cambie: tiene que ser verdad y sonar a él. No se publica sin su OK por escrito.
+2. **Lee ya no está en el club y su equipo ha desaparecido: Lee no se nombra en ningún sitio.** Sí podemos usar el equipo y la experiencia. La frase del título de liga sigue anónima ("partner club in Ireland") hasta que Patrick apruebe su texto; entonces se sustituye por el de Patrick.
+3. Presentaciones: lo pensará. No se le insiste.
+
+**A vigilar:** Greystones es el único cliente recurrente y acaba de perder ese equipo y a ese entrenador. Enrique debería preguntarle por los planes de 2027 cuando Patrick esté de vuelta.
 
 ## Qué pedimos y para qué lo usamos
 
@@ -16,9 +23,7 @@
 Por qué en dos mensajes: pedirlo todo de golpe a alguien con una recién nacida frena la respuesta. El primero pide lo esencial y ofrece redactarle el borrador.
 
 ## Los textos
-Están en la hoja `Textos para copiar` del CRM, sección Respuestas tipo: "Greystones 1", "Greystones 2" y "Greystones 3". Se generan desde `07-automations/outreach/generar_outreach.py`.
-
-**Comprobar antes de enviar:** quién dijo exactamente la frase del título de liga ("No doubt our Atletico de Madrid Experience helped us win our league title... it gives players the belief they are special"). En el repo consta como de los entrenadores del club, sin nombre.
+Están en la hoja `Textos para copiar` del CRM, sección Respuestas tipo: "Greystones 1" (enviado), "Greystones 2" (borrador del testimonio), "Greystones 3" (foto y referencia) y "Greystones 4" (presentaciones). Se generan desde `07-automations/outreach/generar_outreach.py`.
 
 ## Reglas de uso
 - Nada se publica sin su OK por escrito (vale un WhatsApp).

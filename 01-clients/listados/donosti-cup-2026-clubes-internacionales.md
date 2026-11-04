@@ -16,3 +16,4 @@ Cada club se investiga igual que los demás: decisor con nombre, email verificad
 - Páginas de torneos de Young Talents Group (Halloween Cup, Mare Nostrum Cup): publican equipos con país. La web bloquea la lectura automática, así que salieron por buscador: Ballymun United, St Kevin's, Athy Town, Bollington United. Si Joel las abre en su navegador y pega la lista, se aprovechan mejor.
 - Noticias de la Costa Daurada Cup de Semana Santa 2027 (21 a 25 de marzo): Cramond Girls, Washington United, Lower Ormond.
 - Prensa local sobre giras (Ross Juniors, Ross Gazette, 14/08/2026).
+- Prensa local irlandesa e inglesa sobre el Barcelona Cup y el Barcelona Girls Cup (4/11/2026): Keadue Rovers, Carrigaline United, Letterkenny Rovers, Pannal Ash. Noticias de los propios clubes: NYSC y CRYSC International. Itinerarios de agencias: Downtown United (Premier International Tours). Con esto se ve que muchos clubes ya usan agencias de viajes.

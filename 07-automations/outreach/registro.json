@@ -141,19 +141,9 @@
       "nota": "Sin novedades"
     },
     {
-      "date": "2026-10-19",
-      "task": "Pedirme: «investiga 10 clubes más»",
-      "nota": "Hecho 19/10"
-    },
-    {
       "date": "2026-10-20",
       "task": "Consultar con la oficina internacional",
       "nota": "Ya consultado: sin problema con el F-1"
-    },
-    {
-      "date": "2026-11-02",
-      "task": "Pedirme: «investiga 10 clubes más»",
-      "nota": "Hecho 2/11: 10 clubes nuevos (5 Europa, 5 EEUU)"
     },
     {
       "date": "2026-11-03",
@@ -168,8 +158,17 @@
     {
       "date": "2026-11-04",
       "task": "Calentar el dominio",
-      "estado": "Pendiente",
-      "nota": "Enviados 2 de 3. Falta el tercero y contarme bandeja o spam y proveedor"
+      "nota": "Enviados 2, los dos en bandeja principal. Joel decide no mandar el tercero"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "URGENTE: pasarme la dirección postal",
+      "nota": "Recibida. Ya está en los correos a EEUU"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Decirme si Gonzalo Lamas",
+      "nota": "Sí la tiene. Se retoma el 9/11"
     }
   ]
 }
