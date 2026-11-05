@@ -232,7 +232,7 @@ PROSPECTS_US = [
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # excepción al martes a jueves: recoge esos 4 envíos atrasados
-VERSION = "4/11/2026 noche 2"
+VERSION = "4/11/2026 noche 3"
 
 ROSS = """{greet}
 
@@ -437,7 +437,7 @@ for _p in PROSPECTS + PROSPECTS_US:
         _p["e1_body"] = _p["e1_body"].replace("I wrote last week to Callum Lawe", "I wrote recently to Callum Lawe")
 
 # Decisión de Joel (4/11/2026): solo escribimos en idiomas en los que podemos seguir la conversación (inglés y español).
-_TORNEO = " We can also add a tournament, like MadCup in Madrid."
+_TORNEO = " We can also add a tournament, like MadCup in Madrid or the Donosti Cup."  # Joel, 4/11
 _MAS = "We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.\n\n"
 _FRASE = "a stadium tour, and accommodation and meals all sorted."
 for _p in PROSPECTS + PROSPECTS_US:
@@ -445,7 +445,9 @@ for _p in PROSPECTS + PROSPECTS_US:
         _p["lang"] = "en"; _p["e1_body"] = _p["e1_body"].replace("{greet}", "Bonjour Mathieu,"); _p["greet"] = "Hi Mathieu,"
     if _p["key"] == "ross":  # programado con el párrafo de Joel
         _p["e1_body"] = _p["e1_body"].replace(_FRASE, "a stadium tour, and accommodation and meals all sorted and inscription to tournaments.")
-    if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte"):  # ya programados: se quedan como están
+    if _p["key"] == "virtu":  # programado con esta versión
+        _p["e1_body"] = _p["e1_body"].replace(_FRASE, _FRASE + " We can also add a tournament, like MadCup in Madrid.")
+    if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte", "virtu"):  # ya programados: se quedan como están
         continue
     _b = _p["e1_body"]
     if re.search(r"Cup|tournament|trophy", _b) and _FRASE in _b:
@@ -453,6 +455,24 @@ for _p in PROSPECTS + PROSPECTS_US:
     if _p.get("right") and _b.rstrip().endswith("Thanks a lot,\n{sig}"):
         _b = _b.replace("Thanks a lot,\n{sig}", _MAS + "Thanks a lot,\n{sig}")
     _p["e1_body"] = _b
+
+# Enlaces directos (4/11/2026). "Alta": perfil leído o club visible en el buscador. "Media": abrir y comprobar el club antes de conectar.
+LINKS = {
+    "Dan Lester": ("https://www.linkedin.com/in/dan-lester-4079253b2/", "Confirmado el 4/11 en su perfil: Director & Head of Education en FEA Sports Group, que opera Holbeach United Football & Education Academy."),
+    "Callum Lawe": ("https://www.linkedin.com/in/callum-lawe-19ba7b190/", "Confirmado el 4/11 en su perfil: Co-Founder at Masar Athletic, Lincolnshire."),
+    "Jerry Losson": ("https://www.linkedin.com/in/jerry-losson-9b945a87/", "Alta: el buscador lo muestra en Ballistic United Soccer Club."),
+    "Christian Gonzalez": ("https://www.linkedin.com/in/christian-gonzalez-33751515/", "Alta: el buscador lo muestra en New York Soccer Club (Port Chester). Hay otros con este nombre: usa este enlace."),
+    "Federico Bianchi": ("https://www.linkedin.com/in/federico-bianchi-1b8767308/", "Alta: Executive Director at ALBION SC Santa Monica, según el buscador."),
+    "Ken Donohoe": ("https://www.linkedin.com/in/ken-donohoe-9a979582/", "Media: el buscador mezcla datos (St Kevin's y Pfizer). Conecta solo si el perfil dice St Kevin's."),
+    "David Spruce": ("https://www.linkedin.com/in/securedloans/", "Media: vive en Bollington y trabaja en una building society, sin mención al club. Conecta solo si el perfil menciona Bollington United."),
+}
+for _p in PROSPECTS + PROSPECTS_US:
+    _l = _p.get("linkedin")
+    if not _l:
+        continue
+    _items = _l if isinstance(_l, list) else [_l]
+    _nuevo = [(i[0], i[1], LINKS[i[1]][0], LINKS[i[1]][1]) + tuple(i[4:]) if i[1] in LINKS else i for i in _items]
+    _p["linkedin"] = _nuevo if isinstance(_l, list) else _nuevo[0]
 
 LINKEDIN_EXTRA = [dict(date=D(2026, 11, 3), club="Networking", kind="LinkedIn conectar", to="Richard Clarke", subj="(nota de conexión)",
                        body="Hi Richard, I'm Joel, one of the students from your talk in my class. Your path from Arsenal to the Rapids and beyond really stayed with me. I'm building Always Up, a small football brand taking youth teams to Spain, and I'd love to stay in touch. Joel",
@@ -1201,7 +1221,7 @@ def sheet_verif(wb):
         ws.cell(row=i, column=6).fill = PatternFill("solid", fgColor=(LGRN if conf == "Alta" else LYEL))
         ws.row_dimensions[i].height = est_height(src, 56, 30)
     r = 5 + len(VERIF) + 1
-    notes = ["Descartados el 4/11 por no tener email verificable: West Cork Academy (David Hall, buen perfil: probar por Facebook), Strikers FC Irvine, Ballymoney United, Moyola Park, Chapeltown Juniors y MEK Galaxy.", "Descartados el 2/11: Washington United (la web del club está caída y no hay certeza de que sea el de la Costa Daurada), Athy Town AFC (email antiguo sin confirmar; probar por Facebook), Lower Ormond (sin contacto), South Bay United y California Republic SC (sin datos fiables).", "Descartados tras investigar (13/10): Morecambe Hawks United (equipo local pequeño, no encaja), Team ALTI (sin datos fiables), Lower Ormond (existe en la lista de Semana Santa pero no encuentro contacto).",
+    notes = ["A revisar antes de su envío (4/11): Tampa Bay United. En LinkedIn aparece Jorge Zavala como Director of the MLS NEXT Homegrown Program, así que Fernando Gonzalez puede haber cambiado de puesto.", "Descartados el 4/11 por no tener email verificable: West Cork Academy (David Hall, buen perfil: probar por Facebook), Strikers FC Irvine, Ballymoney United, Moyola Park, Chapeltown Juniors y MEK Galaxy.", "Descartados el 2/11: Washington United (la web del club está caída y no hay certeza de que sea el de la Costa Daurada), Athy Town AFC (email antiguo sin confirmar; probar por Facebook), Lower Ormond (sin contacto), South Bay United y California Republic SC (sin datos fiables).", "Descartados tras investigar (13/10): Morecambe Hawks United (equipo local pequeño, no encaja), Team ALTI (sin datos fiables), Lower Ormond (existe en la lista de Semana Santa pero no encuentro contacto).",
              "Excelsior Rotterdam: club profesional con academia (Joep Breimer, jefe de desarrollo de la cantera). Perfil distinto, prioridad baja."]
     for n in notes:
         ws.cell(row=r, column=1, value=n)
