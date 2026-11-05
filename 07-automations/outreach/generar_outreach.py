@@ -231,9 +231,9 @@ PROSPECTS_US = [
 # Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
-VIERNES_PUENTE = None
+VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "4/11/2026 noche 3"
+VERSION = "5/11/2026"
 
 ROSS = """{greet}
 
@@ -415,7 +415,7 @@ for _p in PROSPECTS_US:
             _p["subj"] = _s
         _p["motivo"] = _m; _p["fuente"] = _f; _p["cat"] = "Club que ya viaja a España"
 
-_E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
+_E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 6), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
        "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
@@ -446,6 +446,8 @@ for _p in PROSPECTS + PROSPECTS_US:
         _p["lang"] = "en"; _p["e1_body"] = _p["e1_body"].replace("{greet}", "Bonjour Mathieu,"); _p["greet"] = "Hi Mathieu,"
     if _p["key"] == "ross":  # programado con el párrafo de Joel
         _p["e1_body"] = _p["e1_body"].replace(_FRASE, "a stadium tour, and accommodation and meals all sorted and inscription to tournaments.")
+    if _p["key"] == "soreide":
+        _p["greet"] = "Hi Marius,"  # regla de un solo nombre; el email 1 y el follow-up 1 ya salieron con dos
     if _p["key"] == "virtu":  # programado con esta versión
         _p["e1_body"] = _p["e1_body"].replace(_FRASE, _FRASE + " We can also add a tournament, like MadCup in Madrid.")
     if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte", "virtu"):  # ya programados: se quedan como están
@@ -630,6 +632,8 @@ def build_sends():
             fu1 = fu1.replace("in case it got buried.", "in case it got buried. Sorry for switching to English, I don't speak French. We can talk in English or Spanish, whichever is easier for you.")
         rows.append(dict(date=ajusta(f1, us), club=p["club"], kind="Follow-up 1", to=p["to"], subj=subj_re, body=fu1,
                          how=HOW_FU, tz=p["tz"], key=p["key"]))
+        if p["key"] == "homefarm":  # respondió el 5/11: se para la cadencia automática
+            continue
         rows.append(dict(date=ajusta(f1 + dt.timedelta(days=7), us), club=p["club"], kind="Follow-up 2", to=p["to"], subj=subj_re,
                          body=t["FU2"].format(**sg), how=HOW_FU, tz=p["tz"], key=p["key"]))
         rows.append(dict(date=ajusta(f1 + dt.timedelta(days=8), us), club=p["club"], kind="DM en redes", to=p["dm"], subj="(mensaje directo)",
@@ -722,6 +726,14 @@ REPLIES = [
      "Un mensaje a cada uno por separado. Un solo intento."),
     ("Becas: reactivar a Anita (Instagram)", "Hola Anita, soy Joel de Always Up. En verano me preguntaste por la inscripción y creo que la respuesta se quedó pendiente, perdona. Empezamos con una evaluación, con un vídeo reciente jugando y las notas, y con eso vemos qué nivel de universidad tiene sentido. ¿Sigue en pie la idea? Si es así, mándame lo que tengas de vídeo.",
      "Si ya le contestaste entonces, sáltate este. Un solo intento."),
+    ("Home Farm: respuesta (5/11), en el mismo hilo", "Thanks for letting me know, that's great.\n\nI've attached a short sheet with what a week looks like, in case it's useful for the coaches. If any of them would like to talk it through, I'm happy to jump on a quick video call, no commitment.\n\nDo you know which age groups are having a look? Then I can send the right details.\n\nBest,\n" + SIG,
+     "Adjunta 02-sales/assets/Always-Up-Team-Experience.pdf. Cancela lo demás de la secuencia: Home Farm ya no recibe más follow-ups automáticos."),
+    ("Omar: pedir las notas (WhatsApp, 5/11)", "Perfecto Omar, muchas gracias, es justo lo que necesitaba. Ya solo me faltan las calificaciones de los dos últimos años de cada uno (una foto sirve). En cuanto las tenga, lo paso todo junto al equipo de evaluación.\n\nJoel",
+     "No comentes qué significa el Duolingo ni a qué universidades da acceso: eso lo valora David."),
+    ("David: datos de los gemelos (5/11)", "Hola David, más datos de los gemelos Escamilla. Terminan la prepa en junio de 2027. Duolingo: Rafael 105 y Gabriel 110. Prefieren la misma universidad, pero están abiertos a universidades distintas si les beneficia. Las notas me las pasa Omar y te las reenvío en cuanto las tenga. ¿Sigue bien lo de la valoración para el lunes?\n\nGracias,\nJoel",
+     "Es para David. Cuando conteste, pégamelo."),
+    ("Itrupo: decir que no (Instagram)", "Hola Miguel, muchas gracias por pensar en mí. Ahora mismo no puedo aceptar colaboraciones con comisión, así que paso esta vez. ¡Mucha suerte con el proyecto!\n\nJoel",
+     "Sin stickers ni código: cobrar comisión desde EEUU es un riesgo con el F-1."),
     ("Richard Clarke: mensaje cuando acepte en LinkedIn", "Thanks for connecting, Richard. I really enjoyed your talk. I'm a student here in New York and I'm also building Always Up with my dad: we take youth teams to train at clubs like Atlético de Madrid and Real Sociedad.\n\nWe're at the very start with content and I'd value your advice. Would you have 15 minutes in the next few weeks? I'd love to hear what you'd focus on first if you were in our position. No pitch, I promise.\n\nJoel",
      "Mándalo 1 o 2 días después de que acepte. Si puedes, cambia la primera frase por algo concreto que dijera en la charla: es lo que hará que conteste. No le vendas nada."),
     ("Calentar el dominio 1: opinión sobre la web (familia o amigo)", "Asunto: Una opinión sobre la web\n\nHola [nombre], ¿qué tal todo?\n\nEstoy revisando la web de Always Up y me viene bien la opinión de alguien que la vea con ojos nuevos. ¿Puedes entrar un momento en alwaysup.es y decirme qué entiendes que hacemos y qué es lo primero que cambiarías? Con dos líneas me vale.\n\nUn abrazo,\nJoel Martinez\nFounder, Always Up\njoel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es",
@@ -751,7 +763,7 @@ def validate(rows):
                     bad.append((r["club"], r["kind"], "patrón no permitido: %s" % pat))
             if r["kind"] != "Plantilla" and re.search(r"\{[^}]*\}|\[[A-Za-z ]+\]", tx):
                 bad.append((r["club"], r["kind"], "placeholder sin rellenar"))
-        if re.search(r"^(Hi|Hello) [^\n,]+ ?(/|&) ", r["body"], flags=re.M):
+        if re.search(r"^(Hi|Hello) [^\n,]+ ?(/|&|\band\b) ", r["body"], flags=re.M):
             bad.append((r["club"], r["kind"], "saludo múltiple"))
         _sinfirma = r["body"].split("Joel Martinez\nFounder")[0]  # la firma legal de EEUU no cuenta
         if r["kind"] == "Email 1" and len(_sinfirma.split()) > 160:
@@ -792,10 +804,10 @@ def build_calendar(sends):
         lines = ["• %s | %s | programar para las %s hora Nueva York (09:30 allí)" % (label(x["club"]), x["kind"], local_to_ny(x["date"], x["tz"])) for x in items]
         prev = max(dd - dt.timedelta(days=1), D(2026, 10, 14))
         if dd == VIERNES_PUENTE:
-            prev = D(2026, 11, 4)  # Joel los programa esta misma noche junto con los del jueves
+            prev = D(2026, 11, 5)
         if dd > D(2026, 10, 14):
             add(prev, "Tarde", 1200, "Team/Coach", "Programar en Apple Mail los envíos del %s %s" % (spanish_day(dd), dd.strftime("%d/%m")),
-                "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma, sin adjuntos. En Mail: flecha junto a Enviar > Enviar más tarde > fecha y hora indicadas.\n%s\nRegla: una vez programado, NO lo envíes a mano (se duplicaría). Si a las 08:00 no aparece enviado, entonces sí." % (dd.strftime("%d/%m"), "\n".join(lines)),
+                "Para cada correo: copia Para, Asunto y Texto de la hoja 'Textos para copiar' (filtra por la fecha %s). Revisa en 30 segundos: saludo, nombre del club, firma, sin adjuntos. En Mail: flecha junto a Enviar > Enviar más tarde > fecha y hora indicadas.\n%s\nDeja el Mac enchufado y sin reposo: el 5/11 tres correos no salieron hasta abrir el ordenador. Regla: una vez programado, NO lo envíes a mano (se duplicaría). Si a las 08:00 no aparece enviado, mira primero el buzón Enviar más tarde." % (dd.strftime("%d/%m"), "\n".join(lines)),
                 "Textos para copiar", 15 + 5 * len(items))
         add(dd, "8:00", 481, "Team/Coach", "Confirmar que salieron los correos de hoy y mirar rebotes",
             "Para cada correo: en Outlook, buscador > escribe el destinatario > 'All folders' (el correo puede estar en 'INBOX.Sent' o 'Sent Messages', no solo en 'Sent'); o en Mail, mira el buzón Enviados. Si aparece: marca Hecho en 'Textos para copiar'. Si NO aparece: envíalo ya a mano. Después mira Recibidos por si hay rebote ('Undeliverable' o 'permanent fatal errors'); si lo hay, anótalo y avísame.",
@@ -887,7 +899,12 @@ def build_calendar(sends):
     add(D(2026, 11, 4), "Ahora", 20, "Team/Coach", "Patrick: contestarle con el borrador del testimonio", "WhatsApp. Texto listo: copia y pega. Lee no se nombra. Cuando conteste, pégame lo que diga.", "Textos para copiar (Respuestas tipo): Greystones 2", 3)
     add(D(2026, 11, 4), "Ahora", 21, "Becas", "Omar: contestarle y pedir notas e inglés", "WhatsApp. Texto listo. Sin prometer beca ni división.", "Textos para copiar (Respuestas tipo): Omar", 3)
     add(D(2026, 11, 4), "Ahora", 22, "Becas", "David: pasarle los vídeos de los gemelos para la valoración", "Por donde hables con David. Texto listo, con los enlaces. Cuando conteste, pégamelo.", "Textos para copiar (Respuestas tipo): David", 3)
-    add(D(2026, 11, 5), "8:00", 482, "Team/Coach", "Mirar que salieron los 10 correos de hoy y si St Kevin's estaba programado", "En Enviados deben estar Porte, Søreide, Ballymun, Ross, Whitehaven, Hastings, Home Farm, Dan Lester y Virtu, más St Kevin's si lo programaste. Si St Kevin's no salió, prográmalo para el viernes a las 04:30 de Nueva York. Si otro no salió, avísame antes de reenviarlo. Mira también los rebotes y cuéntame.", "Mail Enviados", 10)
+    add(D(2026, 11, 5), "8:00", 482, "Team/Coach", "Mirar que salieron los correos de hoy", "Salieron 9: Porte, Søreide, Ballymun, Ross, Whitehaven, Hastings, Home Farm, Dan Lester y Virtu. St Kevin's no salió: pasa al viernes. Mira los rebotes y cuéntame.", "Mail Enviados", 10)
+    add(D(2026, 11, 5), "Ahora", 20, "Team/Coach", "Home Farm: contestar en el mismo hilo y adjuntar la ficha", "Primera respuesta de un club. Texto listo y adjunta Always-Up-Team-Experience.pdf. Pégame lo que digan.", "Textos para copiar (Respuestas tipo): Home Farm", 3)
+    add(D(2026, 11, 5), "Ahora", 21, "Becas", "Omar: pedirle las notas", "WhatsApp. Texto listo.", "Textos para copiar (Respuestas tipo): Omar", 2)
+    add(D(2026, 11, 5), "Ahora", 22, "Becas", "David: pasarle los datos de los gemelos", "Texto listo.", "Textos para copiar (Respuestas tipo): David", 2)
+    add(D(2026, 11, 5), "Libre", 620, "Instagram", "Itrupo: contestar que no", "Texto listo. Cobrar comisión desde EEUU es un riesgo con el F-1.", "Textos para copiar (Respuestas tipo): Itrupo", 1)
+    add(D(2026, 11, 19), "Libre", 620, "Team/Coach", "Home Farm: preguntar qué dijeron los entrenadores", "Solo si no han contestado desde el 5/11. Un mensaje corto en el mismo hilo: «Hi, did the coaches get a chance to look at it? Happy to answer any questions.»", "Aquí mismo", 2)
     add(D(2026, 11, 6), "Libre", 620, "Becas", "Becas: un último mensaje a 5 leads de verano", "Instagram. Un mensaje a cada uno: Pavel Gomez, Francisco Ferreira, Gonzalo Caro, Tania Coeto y Anita. Si sabes que alguno no es cliente, sáltalo. Omar ha vuelto tras 5 semanas en silencio, y esto cuesta 10 minutos. Solo un intento. Pégame lo que contesten.", "Textos para copiar (Respuestas tipo): Becas", 10)
     add(D(2026, 11, 9), "10:00", 480, "Team/Coach", "Gonzalo Lamas: escribirle para retomar", "WhatsApp, 10:00 de Nueva York (12:00 en Buenos Aires). Ya habrá vuelto de Barcelona. Texto listo. Si acepta la llamada, avísame y repasamos el guion.", "Textos para copiar (Respuestas tipo): Gonzalo Lamas", 3)
     add(D(2026, 11, 9), "Libre", 620, "Becas", "Omar: pegarme lo que hayan dicho David y Omar", "Con la valoración de David y los datos de Omar te preparo el siguiente mensaje. Si David no ha contestado, recuérdaselo hoy.", "Chat con Claude", 3)
@@ -1314,6 +1331,13 @@ def apply_registro(wb):
                     li.cell(row=r, column=8, value="Hecho")
                 if e.get("nota"):
                     li.cell(row=r, column=9, value=e["nota"])
+    for club, estado, nota in reg.get("clubes", []):
+        for r in range(6, sa.max_row + 1):
+            if sa.cell(row=r, column=1).value == club:
+                sa.cell(row=r, column=9, value=estado)
+                old = str(sa.cell(row=r, column=15).value or "")
+                if nota not in old:
+                    sa.cell(row=r, column=15, value=(old + " | " + nota).strip(" |"))
     for t in reg.get("tareas", []):
         d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
         for r in range(5, cal.max_row + 1):
@@ -1474,9 +1498,9 @@ def update_segment_c(wb):
     """Estado real de los leads de becas (4/11/2026). Joel: no hay conversaciones activas salvo Omar."""
     ws = wb["Segmento C - Becas"]
     hoy = dt.datetime(2026, 11, 4)
-    OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés."
+    OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés. | Omar contesta el 4/11: terminan la prepa en junio de 2027; Duolingo Rafael 105 y Gabriel 110; prefieren la misma universidad, abiertos a distintas si les beneficia. Faltan las notas."
     cambios = {
-        "Omar Escamilla": ("Llamada realizada", "Valoración de David y notas de Omar. Siguiente mensaje el 9/11.", OMAR),
+        "Omar Escamilla": ("Llamada realizada", "Faltan las notas de Omar y la valoración de David. Siguiente paso el 9/11.", OMAR),
         "Pavel Gomez": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
         "Francisco Ferreira": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
         "Gonzalo Caro": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),

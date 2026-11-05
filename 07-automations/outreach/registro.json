@@ -250,6 +250,16 @@
       "date": "2026-11-04",
       "task": "LinkedIn: conectar con Callum Lawe",
       "nota": "Solicitud enviada; Joel acortó la nota por el límite de 200 caracteres"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Revisión diaria",
+      "nota": "Respondió Home Farm y Omar. Patrick lo ha leído."
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Mirar que salieron los correos de hoy",
+      "nota": "9 de 10. Los 3 últimos salieron a las 9:40, al abrir el Mac"
     }
   ],
   "textos": [
@@ -286,5 +296,12 @@
       "date": "2026-11-03",
       "nota": "Aceptó la conexión el 4/11."
     }
+  ],
+  "clubes": [
+    [
+      "Home Farm FC (chicas U13-U15)",
+      "Respondió",
+      "5/11: tras el follow-up contesta 'No, it was sent to Coaches direct for them to have a look at it'. Sin más cadencia automática. Preguntar el 19/11 si no contestan."
+    ]
   ]
 }
