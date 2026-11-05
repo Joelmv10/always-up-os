@@ -918,7 +918,9 @@ def build_calendar(sends):
     add(D(2026, 11, 9), "10:00", 480, "Team/Coach", "Gonzalo Lamas: escribirle para retomar", "WhatsApp, 10:00 de Nueva York (12:00 en Buenos Aires). Ya habrá vuelto de Barcelona. Texto listo. Si acepta la llamada, avísame y repasamos el guion.", "Textos para copiar (Respuestas tipo): Gonzalo Lamas", 3)
     add(D(2026, 11, 5), "Ahora", 25, "Becas", "David: contestarle sobre la valoración", "", "", 2)
     add(D(2026, 11, 5), "Ahora", 26, "Becas", "Omar: mandarle la valoración orientativa y proponer llamada", "WhatsApp. Texto listo. Cuando conteste con día y hora, avísame y te preparo un guion corto para la llamada.", "Textos para copiar (Respuestas tipo): Omar", 3)
-    add(D(2026, 11, 9), "Libre", 620, "Becas", "Omar: cerrar día de la llamada si no ha contestado", "Un mensaje corto: «Hola Omar, ¿te viene bien hablar esta semana? Dime día y hora.» Solo si no contestó a la valoración.", "Aquí mismo", 2)
+    add(D(2026, 11, 5), "Ahora", 27, "Becas", "Omar: fijar la hora de la llamada del martes", "WhatsApp: «Perfecto Omar. ¿Te viene bien el martes a las 4 o a las 5 de la tarde, hora de Monterrey? Te llamo por WhatsApp a este número.» Son las 17:00 o 18:00 de Nueva York: comprueba antes que estás libre.", "Aquí mismo", 2)
+    add(D(2026, 11, 9), "Libre", 620, "Becas", "Preparar la llamada con Omar: pregunta a David y guion", "Pregunta a David en una línea: «¿Esos precios son por jugador y año, y con alojamiento?». Lee el guion (10 minutos).", "02-sales/guion-llamada-omar.md", 15)
+    add(D(2026, 11, 10), "Tarde", 1100, "Becas", "LLAMADA con Omar (WhatsApp)", "A la hora que fijasteis (Monterrey va 1 hora por detrás de Nueva York). Sigue el guion. Después, pégame en el chat lo que se habló.", "02-sales/guion-llamada-omar.md", 25)
     add(D(2026, 11, 16), "Libre", 620, "Team/Coach", "Patrick: si no ha contestado al borrador, recordárselo una vez", "«Hi Patrick, no rush at all, just checking you saw the draft. Change whatever you like.» Solo si sigue sin contestar. Si ya aprobó, no hace falta nada.", "Aquí mismo", 2)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
@@ -1511,7 +1513,7 @@ def update_segment_c(wb):
     hoy = dt.datetime(2026, 11, 4)
     OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés. | Omar contesta el 4/11: terminan la prepa en junio de 2027; Duolingo Rafael 105 y Gabriel 110; prefieren la misma universidad, abiertos a distintas si les beneficia. Faltan las notas. | 5/11: valoración de David: \"son duritos\"; opciones NJCAA por 15 a 18k o NCAA DIII por 25k (pendiente aclarar si es coste anual por jugador para la familia)."
     cambios = {
-        "Omar Escamilla": ("Llamada realizada", "Valoración orientativa enviada a Omar con propuesta de llamada. Faltan las notas.", OMAR),
+        "Omar Escamilla": ("Llamada realizada", "Llamada el martes 10/11 por la tarde (guion en 02-sales/guion-llamada-omar.md). Faltan las notas.", OMAR),
         "Pavel Gomez": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
         "Francisco Ferreira": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
         "Gonzalo Caro": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
