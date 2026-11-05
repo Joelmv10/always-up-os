@@ -82,6 +82,11 @@
       "key": "virtu",
       "kind": "Email 1",
       "date": "2026-11-05"
+    },
+    {
+      "key": "stkevins",
+      "kind": "Email 1",
+      "date": "2026-11-06"
     }
   ],
   "tareas": [
@@ -259,7 +264,27 @@
     {
       "date": "2026-11-05",
       "task": "Mirar que salieron los correos de hoy",
-      "nota": "9 de 10. Los 3 últimos salieron a las 9:40, al abrir el Mac"
+      "nota": "9 de 10, sin rebotes. Los 3 últimos salieron a las 9:40, al abrir el Mac. St Kevin's no salió y va al 6/11"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Home Farm: contestar",
+      "nota": "Enviado con company deck y fichas de Team y Coach Experience"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Omar: pedirle las notas",
+      "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "David: pasarle los datos",
+      "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Programar en Apple Mail los envíos del viernes 06/11",
+      "nota": "St Kevin's programado"
     }
   ],
   "textos": [
