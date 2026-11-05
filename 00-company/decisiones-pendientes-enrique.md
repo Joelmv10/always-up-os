@@ -23,6 +23,14 @@
 
 **Lectura de Claude:** (a) El campus de Bélgica muestra que el modelo solo sale con muchos niños (140 o más) y con capacidad de cobrar más de unos 130 a 200 € por niño. Se puede explorar una propuesta más ligera con la Real Sociedad. Hasta entonces, sin ficha ni outreach. (b) El International Program es un producto de **grupo**: se vende a un club de origen o academia con 9 o 10 jugadores (por ejemplo SADE Puerto Rico) o a familias que se agrupen, no a un jugador suelto. (c) "Devoluciones 0" puede no ser válida con familias consumidoras en España o la UE: revisarlo con un abogado antes de ponerlo por escrito.
 
+## Respuestas de Enrique del 5/11/2026 (International Program, a raíz del lead de William)
+- Precio: hay que cerrarlo; los 25.000 € de 5 meses no son definitivos.
+- Un jugador solo, sin grupo: complicado. No hay programas individuales.
+- Próxima incorporación: como pronto, temporada 2027/28.
+- El jugador estaría en un club asociado y entrenaría en Zubieta con entrenadores de la Real Sociedad.
+- Comisión: por definir. Enrique "no se fía mucho de la Real": hay que darle una vuelta a todo el programa.
+- **Consecuencia:** la web realsociedadirp.com promete cosas que hoy no se cumplen (integración con un equipo de la Real, partidos de liga, programa de 1 mes todo el año). Hay que corregirla. A los leads, solo lo confirmado.
+
 **Pendiente para la sesión del 23/10:** anticipo y cancelación de Team Experience, precio y comisión del International Program, opciones de Bélgica y la tecnificación en Zubieta (22 a 28 de noviembre).
 
 ---

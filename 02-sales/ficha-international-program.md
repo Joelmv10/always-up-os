@@ -1,5 +1,7 @@
 # Ficha rápida: International Program (Real Sociedad)
 
+> **AVISO (5/11/2026): no usar esta ficha con leads hasta revisarla.** Enrique confirma que no hay programas individuales, que la próxima incorporación es como pronto en 2027/28, que el jugador iría a un club asociado entrenando en Zubieta y que el precio está por cerrar. Ver `00-company/decisiones-pendientes-enrique.md`.
+
 > Enviar por DM/WhatsApp tras cualificar un lead interesado en el programa residencial. Ver [lineas-de-negocio.md](../00-company/lineas-de-negocio.md) línea 3 para el detalle completo.
 
 ```
