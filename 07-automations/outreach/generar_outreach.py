@@ -676,7 +676,7 @@ def nivela(rows):
         ultimo[r["club"]] = d
     primero = {r["club"]: r["date"] for r in rows if r["kind"] in ("Email 1", "Formulario web")}
     for r in rows:
-        if r["kind"] == "LinkedIn conectar" and r["club"] in primero and r["date"] < primero[r["club"]]:
+        if r["kind"] == "LinkedIn conectar" and r["club"] in primero and r["date"] < primero[r["club"]] and r["date"] >= D(2026, 11, 5):
             r["date"] = primero[r["club"]] + dt.timedelta(days=2)
         if r["kind"] == "DM en redes":
             fu2 = [x["date"] for x in rows if x["club"] == r["club"] and x["kind"] == "Follow-up 2"]
@@ -887,7 +887,7 @@ def build_calendar(sends):
     add(D(2026, 11, 4), "Ahora", 20, "Team/Coach", "Patrick: contestarle con el borrador del testimonio", "WhatsApp. Texto listo: copia y pega. Lee no se nombra. Cuando conteste, pégame lo que diga.", "Textos para copiar (Respuestas tipo): Greystones 2", 3)
     add(D(2026, 11, 4), "Ahora", 21, "Becas", "Omar: contestarle y pedir notas e inglés", "WhatsApp. Texto listo. Sin prometer beca ni división.", "Textos para copiar (Respuestas tipo): Omar", 3)
     add(D(2026, 11, 4), "Ahora", 22, "Becas", "David: pasarle los vídeos de los gemelos para la valoración", "Por donde hables con David. Texto listo, con los enlaces. Cuando conteste, pégamelo.", "Textos para copiar (Respuestas tipo): David", 3)
-    add(D(2026, 11, 5), "8:00", 482, "Team/Coach", "Mirar que salieron los 11 correos de hoy y si St Kevin's estaba programado", "En Enviados deben estar Porte, Søreide, Ballymun, Ross, Whitehaven, Hastings, Home Farm, Dan Lester y Virtu, más St Kevin's si lo programaste. Si St Kevin's no salió, prográmalo para el viernes a las 04:30 de Nueva York. Si otro no salió, avísame antes de reenviarlo. Mira también los rebotes y cuéntame.", "Mail Enviados", 10)
+    add(D(2026, 11, 5), "8:00", 482, "Team/Coach", "Mirar que salieron los 10 correos de hoy y si St Kevin's estaba programado", "En Enviados deben estar Porte, Søreide, Ballymun, Ross, Whitehaven, Hastings, Home Farm, Dan Lester y Virtu, más St Kevin's si lo programaste. Si St Kevin's no salió, prográmalo para el viernes a las 04:30 de Nueva York. Si otro no salió, avísame antes de reenviarlo. Mira también los rebotes y cuéntame.", "Mail Enviados", 10)
     add(D(2026, 11, 6), "Libre", 620, "Becas", "Becas: un último mensaje a 5 leads de verano", "Instagram. Un mensaje a cada uno: Pavel Gomez, Francisco Ferreira, Gonzalo Caro, Tania Coeto y Anita. Si sabes que alguno no es cliente, sáltalo. Omar ha vuelto tras 5 semanas en silencio, y esto cuesta 10 minutos. Solo un intento. Pégame lo que contesten.", "Textos para copiar (Respuestas tipo): Becas", 10)
     add(D(2026, 11, 9), "10:00", 480, "Team/Coach", "Gonzalo Lamas: escribirle para retomar", "WhatsApp, 10:00 de Nueva York (12:00 en Buenos Aires). Ya habrá vuelto de Barcelona. Texto listo. Si acepta la llamada, avísame y repasamos el guion.", "Textos para copiar (Respuestas tipo): Gonzalo Lamas", 3)
     add(D(2026, 11, 9), "Libre", 620, "Becas", "Omar: pegarme lo que hayan dicho David y Omar", "Con la valoración de David y los datos de Omar te preparo el siguiente mensaje. Si David no ha contestado, recuérdaselo hoy.", "Chat con Claude", 3)
