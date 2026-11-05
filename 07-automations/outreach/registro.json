@@ -62,6 +62,26 @@
       "key": "whitehaven",
       "kind": "Follow-up 1",
       "date": "2026-11-05"
+    },
+    {
+      "key": "hastings",
+      "kind": "Follow-up 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "homefarm",
+      "kind": "Follow-up 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "holbeach_dan",
+      "kind": "Email 1",
+      "date": "2026-11-05"
+    },
+    {
+      "key": "virtu",
+      "kind": "Email 1",
+      "date": "2026-11-05"
     }
   ],
   "tareas": [
@@ -119,11 +139,6 @@
       "date": "2026-10-14",
       "task": "Daniel (MLS NEXT): enviar el follow-up",
       "nota": "Enviado el 14/10"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Programar en Apple Mail los envíos del jueves",
-      "nota": "Programados los 3"
     },
     {
       "date": "2026-10-15",
@@ -218,8 +233,23 @@
     {
       "date": "2026-11-04",
       "task": "Programar en Apple Mail los envíos del jueves 05/11",
-      "estado": "Pendiente",
-      "nota": "Programados Ballymun, Porte (en francés), Ross, Søreide y Whitehaven, sin poder editarlos. Falta confirmar St Kevin's"
+      "nota": "Programados los atrasados para el jueves. St Kevin's por confirmar"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Bloque de redes sociales (45 min)",
+      "estado": "Saltado",
+      "nota": "Sin tiempo hoy. Sigue el bloque del sábado 7/11"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "LinkedIn: conectar con Dan Lester",
+      "nota": "Solicitud con nota enviada"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "LinkedIn: conectar con Callum Lawe",
+      "nota": "Solicitud enviada; Joel acortó la nota por el límite de 200 caracteres"
     }
   ],
   "textos": [
@@ -238,6 +268,23 @@
       "to": "Luke Johnston",
       "date": "2026-11-04",
       "nota": "Solicitud con nota enviada el 4/11. Sigue de Chairman and Director (su perfil de LinkedIn, leído el 4/11)."
+    },
+    {
+      "club": "Holbeach United (Dan Lester)",
+      "to": "Dan Lester",
+      "date": "2026-11-04"
+    },
+    {
+      "club": "Holbeach United (Dan Lester)",
+      "to": "Callum Lawe",
+      "date": "2026-11-04",
+      "nota": "Joel acortó la nota por el límite de 200 caracteres."
+    },
+    {
+      "club": "Networking",
+      "to": "Richard Clarke",
+      "date": "2026-11-03",
+      "nota": "Aceptó la conexión el 4/11."
     }
   ]
 }

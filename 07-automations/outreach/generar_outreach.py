@@ -81,7 +81,7 @@ Best,
          subj="A week in Spain for Holbeach's academy squads",
          linkedin=[(D(2026, 10, 22), "Dan Lester", "Pega en el buscador de LinkedIn: Dan Lester Holbeach United", "Sin enlace directo (no sale en buscadores). Comprueba que el perfil dice Holbeach United."),
                    (D(2026, 10, 22), "Callum Lawe", "Pega en el buscador de LinkedIn: Callum Lawe Masar Athletic", "Sin enlace directo. Se ha ido a Abu Dhabi a montar Masar Athletic (fútbol y educación). Comprueba que menciona Holbeach o Masar.",
-                    "Hi Callum, I'm Joel, I run Always Up. I emailed you at Holbeach before realising you'd moved on to Masar Athletic, congratulations. If you ever want players to train in Spain with Atlético de Madrid or Real Sociedad facilities, I'd be glad to help. Joel")],
+                    "Hi Callum, I'm Joel from Always Up. I emailed you at Holbeach before seeing you'd moved to Masar Athletic, congratulations. If your players ever want to train in Spain, I'd be glad to help. Joel")],
          dm="Instagram @holbeachunitedcsa",
          e1_body="""{greet}
 
@@ -231,7 +231,8 @@ PROSPECTS_US = [
 # Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
-VIERNES_PUENTE = D(2026, 11, 6)  # excepción al martes a jueves: recoge esos 4 envíos atrasados
+VIERNES_PUENTE = None
+DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
 VERSION = "4/11/2026 noche 3"
 
 ROSS = """{greet}
@@ -414,12 +415,12 @@ for _p in PROSPECTS_US:
             _p["subj"] = _s
         _p["motivo"] = _m; _p["fuente"] = _f; _p["cat"] = "Club que ya viaja a España"
 
-_E1 = {"holbeach_dan": D(2026, 11, 6), "virtu": D(2026, 11, 6), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
+_E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 5), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
        "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
        "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
-_FU1 = {"homefarm": D(2026, 11, 6), "hastings": D(2026, 11, 6), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
+_FU1 = {"homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
 for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] in _E1:
         _p["e1"] = _E1[_p["key"]]
@@ -433,7 +434,7 @@ for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] == "whitehaven":
         _p["linkedin"] = (D(2026, 11, 4), _li[1], _li[2], "Confirmado el 4/11 en su propio perfil: Chairman and Director del club, además de su empresa LRJ Contracting. También Companies House (director activo).")
     if _p["key"] == "holbeach_dan":
-        _p["linkedin"] = [(D(2026, 11, 6),) + tuple(x[1:]) for x in _li]
+        _p["linkedin"] = [(D(2026, 11, 4),) + tuple(x[1:]) for x in _li]
         _p["e1_body"] = _p["e1_body"].replace("I wrote last week to Callum Lawe", "I wrote recently to Callum Lawe")
 
 # Decisión de Joel (4/11/2026): solo escribimos en idiomas en los que podemos seguir la conversación (inglés y español).
@@ -656,6 +657,10 @@ def nivela(rows):
         if r["kind"] not in ENVIOS:
             continue
         d = r["date"]
+        if d == DIA_PROGRAMADO:
+            carga[d] = carga.get(d, 0) + 1
+            ultimo[r["club"]] = d
+            continue
         if r["club"] in ultimo:
             d = max(d, ultimo[r["club"]] + dt.timedelta(days=5))
         while True:
@@ -751,8 +756,8 @@ def validate(rows):
         _sinfirma = r["body"].split("Joel Martinez\nFounder")[0]  # la firma legal de EEUU no cuenta
         if r["kind"] == "Email 1" and len(_sinfirma.split()) > 160:
             bad.append((r["club"], r["kind"], "email 1 demasiado largo: %d palabras sin firma" % len(_sinfirma.split())))
-        if r["kind"] == "LinkedIn conectar" and len(r["body"]) > 300:
-            bad.append((r["club"], r["kind"], "nota de LinkedIn >300 caracteres"))
+        if r["kind"] == "LinkedIn conectar" and len(r["body"]) > 200 and r.get("key") != "clarke":  # límite real de la cuenta de Joel
+            bad.append((r["club"], r["kind"], "nota de LinkedIn >200 caracteres"))
         if r["kind"] != "Plantilla" and r["kind"] not in ("LinkedIn conectar", "DM en redes") and "Joel Martinez\nFounder" not in r["body"]:
             bad.append((r["club"], r["kind"], "falta la firma"))
     return bad
@@ -876,12 +881,13 @@ def build_calendar(sends):
     add(D(2026, 11, 4), "Libre", 500, "Team/Coach", "URGENTE: pasarme la dirección postal fiscal de Quality Servix Premium SL", "Es el domicilio social de la empresa: sale en las facturas o en el Registro Mercantil; si no, pregúntaselo a Enrique o a la gestoría. La ley de EEUU la exige en cada email comercial. Sin ella no se generan los correos a EEUU, que empiezan el 10/11.", "Chat con Claude", 5)
     add(D(2026, 11, 4), "Libre", 510, "Team/Coach", "Decirme si Gonzalo Lamas ya tiene la propuesta y si salió algo desde el 20/10", "El Excel no muestra ningún envío desde el 15/10, así que lo he replanificado como si nada hubiera salido. Si algo sí salió, dímelo para no duplicar. Y si la propuesta a Gonzalo sigue sin enviar, es lo primero de esta semana.", "Chat con Claude", 5)
     add(D(2026, 11, 3), "Libre", 640, "Team/Coach", "Greystones: mandar el WhatsApp a Patrick", "Enrique ya le avisó. Antes, confirma con Enrique quién dijo la frase del título de liga. Texto en 'Respuestas tipo' (Greystones 1). Si contesta, me pasas lo que diga y te doy el mensaje 2.", "Textos para copiar (Respuestas tipo)", 10)
-    add(D(2026, 11, 6), "Libre", 630, "Team/Coach", "Mirar si Richard Clarke aceptó y si Patrick contestó", "Richard: 1 o 2 días después de aceptar, mándale el mensaje de 'Respuestas tipo', con algo concreto de su charla. Patrick: si aprobó el texto, 'Greystones 3' y pégame lo que dijo. Si aún no contesta, no insistas: acaba de ser padre.", "Textos para copiar (Respuestas tipo)", 5)
+    add(D(2026, 11, 6), "Libre", 630, "Team/Coach", "Richard Clarke: mandarle el mensaje; mirar si Patrick contestó", "Richard aceptó el 4/11. Mándale el mensaje de 'Respuestas tipo', añadiendo algo concreto de su charla (si me dices qué te llamó la atención, te lo dejo escrito). Patrick: si aprobó el texto, 'Greystones 3' y pégame lo que dijo. Si aún no contesta, no insistas: acaba de ser padre.", "Textos para copiar (Respuestas tipo)", 5)
     for dd in (D(2026, 11, 6), D(2026, 11, 13), D(2026, 11, 20), D(2026, 11, 27), D(2026, 12, 4), D(2026, 12, 11), D(2026, 12, 18)):
         add(dd, "Libre", 640, "Todos", "Revisión semanal: cuéntame respuestas, rebotes y llamadas", "Tres líneas por el chat bastan. Pega también cualquier mensaje de becas que te haya llegado por Instagram o WhatsApp. Con eso actualizo el Excel y preparo las respuestas, los seguimientos y 10 clubes más.", "Chat con Claude", 10)
     add(D(2026, 11, 4), "Ahora", 20, "Team/Coach", "Patrick: contestarle con el borrador del testimonio", "WhatsApp. Texto listo: copia y pega. Lee no se nombra. Cuando conteste, pégame lo que diga.", "Textos para copiar (Respuestas tipo): Greystones 2", 3)
     add(D(2026, 11, 4), "Ahora", 21, "Becas", "Omar: contestarle y pedir notas e inglés", "WhatsApp. Texto listo. Sin prometer beca ni división.", "Textos para copiar (Respuestas tipo): Omar", 3)
     add(D(2026, 11, 4), "Ahora", 22, "Becas", "David: pasarle los vídeos de los gemelos para la valoración", "Por donde hables con David. Texto listo, con los enlaces. Cuando conteste, pégamelo.", "Textos para copiar (Respuestas tipo): David", 3)
+    add(D(2026, 11, 5), "8:00", 482, "Team/Coach", "Mirar que salieron los 11 correos de hoy y si St Kevin's estaba programado", "En Enviados deben estar Porte, Søreide, Ballymun, Ross, Whitehaven, Hastings, Home Farm, Dan Lester y Virtu, más St Kevin's si lo programaste. Si St Kevin's no salió, prográmalo para el viernes a las 04:30 de Nueva York. Si otro no salió, avísame antes de reenviarlo. Mira también los rebotes y cuéntame.", "Mail Enviados", 10)
     add(D(2026, 11, 6), "Libre", 620, "Becas", "Becas: un último mensaje a 5 leads de verano", "Instagram. Un mensaje a cada uno: Pavel Gomez, Francisco Ferreira, Gonzalo Caro, Tania Coeto y Anita. Si sabes que alguno no es cliente, sáltalo. Omar ha vuelto tras 5 semanas en silencio, y esto cuesta 10 minutos. Solo un intento. Pégame lo que contesten.", "Textos para copiar (Respuestas tipo): Becas", 10)
     add(D(2026, 11, 9), "10:00", 480, "Team/Coach", "Gonzalo Lamas: escribirle para retomar", "WhatsApp, 10:00 de Nueva York (12:00 en Buenos Aires). Ya habrá vuelto de Barcelona. Texto listo. Si acepta la llamada, avísame y repasamos el guion.", "Textos para copiar (Respuestas tipo): Gonzalo Lamas", 3)
     add(D(2026, 11, 9), "Libre", 620, "Becas", "Omar: pegarme lo que hayan dicho David y Omar", "Con la valoración de David y los datos de Omar te preparo el siguiente mensaje. Si David no ha contestado, recuérdaselo hoy.", "Chat con Claude", 3)
@@ -1495,6 +1501,9 @@ def update_segment_c(wb):
             ws.cell(row=r, column=9, value=hoy)
     ws2 = wb["Oportunidades y notas"]
     for r in range(1, ws2.max_row + 1):
+        if "Richard Clarke" in str(ws2.cell(row=r, column=3).value or ""):
+            ws2.cell(row=r, column=5, value="Aceptó la conexión el 4/11. Mensaje pidiéndole 15 minutos el 6/11, sin vender nada.")
+            ws2.cell(row=r, column=6, value="Conectado")
         if "Gonzalo Lamas" in str(ws2.cell(row=r, column=3).value or ""):
             ws2.cell(row=r, column=5, value="Tiene la propuesta. Estaba 10 días en Barcelona con un club. Joel le escribe el lunes 9/11, cuando haya vuelto a Buenos Aires.")
             ws2.cell(row=r, column=6, value="Propuesta enviada")
