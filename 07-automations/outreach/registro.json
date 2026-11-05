@@ -209,6 +209,17 @@
       "date": "2026-11-04",
       "task": "David: pasarle",
       "nota": "Enviado. Valoración pedida para el 9/11"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "LinkedIn: conectar con Luke Johnston",
+      "nota": "Solicitud con nota enviada"
+    },
+    {
+      "date": "2026-11-04",
+      "task": "Programar en Apple Mail los envíos del jueves 05/11",
+      "estado": "Pendiente",
+      "nota": "Programados Ballymun, Porte (en francés), Ross, Søreide y Whitehaven, sin poder editarlos. Falta confirmar St Kevin's"
     }
   ],
   "textos": [
@@ -221,6 +232,12 @@
       "club": "Hastings United (Girls Academy)",
       "to": "Georgia Townsend",
       "nota": "4/11: Joel la sigue. La conexión se retiró sin querer y LinkedIn obliga a esperar 3 semanas. Reintentar desde el 26/11."
+    },
+    {
+      "club": "Whitehaven AFC (Juniors Girls U13-U15)",
+      "to": "Luke Johnston",
+      "date": "2026-11-04",
+      "nota": "Solicitud con nota enviada el 4/11. Sigue de Chairman and Director (su perfil de LinkedIn, leído el 4/11)."
     }
   ]
 }

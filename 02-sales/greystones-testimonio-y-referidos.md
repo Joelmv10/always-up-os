@@ -4,7 +4,7 @@
 
 ## Respuesta de Patrick (4/11/2026)
 1. Testimonio: que redactemos lo que queramos y él pone su nombre. Se lo mandamos para que lo cambie: tiene que ser verdad y sonar a él. No se publica sin su OK por escrito.
-2. **Lee ya no está en el club y su equipo ha desaparecido: Lee no se nombra en ningún sitio.** Sí podemos usar el equipo y la experiencia. La frase del título de liga sigue anónima ("partner club in Ireland") hasta que Patrick apruebe su texto; entonces se sustituye por el de Patrick.
+2. **Lee ya no está en el club y su equipo ha desaparecido: Lee no se nombra en ningún sitio.** Sí podemos usar el equipo y la experiencia. La frase del título de liga se sigue usando sin nombre, como dicha por un entrenador del club cuando trabajaba allí (decisión de Joel, 4/11/2026). El testimonio de Patrick va aparte.
 3. Presentaciones: lo pensará. No se le insiste.
 
 **A vigilar:** Greystones es el único cliente recurrente y acaba de perder ese equipo y a ese entrenador. Enrique debería preguntarle por los planes de 2027 cuando Patrick esté de vuelta.

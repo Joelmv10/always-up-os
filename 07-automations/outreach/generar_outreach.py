@@ -431,33 +431,23 @@ for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] == "hastings":  # conexión retirada sin querer el 4/11: LinkedIn obliga a esperar 3 semanas
         _p["linkedin"] = (D(2026, 11, 26),) + tuple(_li[1:])
     if _p["key"] == "whitehaven":
-        _p["linkedin"] = (D(2026, 11, 4), _li[1], _li[2], "Confirmado el 4/11: sigue de Chairman y director de Whitehaven (Companies House, director activo; su empresa LRJ Contracting está registrada en la dirección del club). Es el perfil correcto.")
+        _p["linkedin"] = (D(2026, 11, 4), _li[1], _li[2], "Confirmado el 4/11 en su propio perfil: Chairman and Director del club, además de su empresa LRJ Contracting. También Companies House (director activo).")
     if _p["key"] == "holbeach_dan":
         _p["linkedin"] = [(D(2026, 11, 6),) + tuple(x[1:]) for x in _li]
         _p["e1_body"] = _p["e1_body"].replace("I wrote last week to Callum Lawe", "I wrote recently to Callum Lawe")
 
-PORTE_EN = """{greet}
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw FC Porte d'Aquitaine was down for the Costa Daurada Cup this summer, so I thought this could suit your U15 or U17 teams. One of our partner clubs in Ireland won their first ever league title after a few years with us.
-
-Sorry for writing in English, I don't speak French. We can talk in English or Spanish, whichever is easier for you. I can send you our presentation, or we could do a quick video call, no commitment.
-
-Best,
-{sig}"""
 # Decisión de Joel (4/11/2026): solo escribimos en idiomas en los que podemos seguir la conversación (inglés y español).
 _TORNEO = " We can also add a tournament, like MadCup in Madrid."
 _MAS = "We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.\n\n"
 _FRASE = "a stadium tour, and accommodation and meals all sorted."
 for _p in PROSPECTS + PROSPECTS_US:
-    if _p["key"] == "porte":
-        _p["lang"] = "en"; _p["e1_body"] = PORTE_EN; _p["subj"] = "A week in Spain for FC Porte d'Aquitaine's youth teams"; _p["greet"] = "Hi Mathieu,"
-    if _p.get("sent"):
+    if _p["key"] == "porte":  # el email 1 ya está programado en francés y no se puede editar; lo demás, en inglés
+        _p["lang"] = "en"; _p["e1_body"] = _p["e1_body"].replace("{greet}", "Bonjour Mathieu,"); _p["greet"] = "Hi Mathieu,"
+    if _p["key"] == "ross":  # programado con el párrafo de Joel
+        _p["e1_body"] = _p["e1_body"].replace(_FRASE, "a stadium tour, and accommodation and meals all sorted and inscription to tournaments.")
+    if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte"):  # ya programados: se quedan como están
         continue
     _b = _p["e1_body"]
-    if _p["key"] not in ("ballymun", "ross"):  # esos dos ya están programados con la frase larga
-        _b = _b.replace("after a few years of coming out with us, and their coaches said the trip helped.", "after a few years of coming out with us.")
     if re.search(r"Cup|tournament|trophy", _b) and _FRASE in _b:
         _b = _b.replace(_FRASE, _FRASE + _TORNEO)
     if _p.get("right") and _b.rstrip().endswith("Thanks a lot,\n{sig}"):
@@ -501,6 +491,8 @@ Just following up on my email from last week in case it got buried.
 I'm trying to reach whoever organises trips for the youth teams. If that's not you, a name or a quick forward would be really appreciated.
 
 In short, it's five days in Madrid with training sessions, matches against local academy teams, a tour of the Metropolitano, and accommodation and meals all sorted by us.
+
+I can also send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 {sig}""",
@@ -613,6 +605,8 @@ def build_sends():
         if p.get("fu1_date"):
             fu1 = fu1.replace("my email from last week", "my email from a few weeks ago")
         us = p.get("us", False)
+        if p["key"] == "porte":
+            fu1 = fu1.replace("in case it got buried.", "in case it got buried. Sorry for switching to English, I don't speak French. We can talk in English or Spanish, whichever is easier for you.")
         rows.append(dict(date=ajusta(f1, us), club=p["club"], kind="Follow-up 1", to=p["to"], subj=subj_re, body=fu1,
                          how=HOW_FU, tz=p["tz"], key=p["key"]))
         rows.append(dict(date=ajusta(f1 + dt.timedelta(days=7), us), club=p["club"], kind="Follow-up 2", to=p["to"], subj=subj_re,
@@ -735,7 +729,7 @@ def validate(rows):
         if re.search(r"^(Hi|Hello) [^\n,]+ ?(/|&) ", r["body"], flags=re.M):
             bad.append((r["club"], r["kind"], "saludo múltiple"))
         _sinfirma = r["body"].split("Joel Martinez\nFounder")[0]  # la firma legal de EEUU no cuenta
-        if r["kind"] == "Email 1" and len(_sinfirma.split()) > 150:
+        if r["kind"] == "Email 1" and len(_sinfirma.split()) > 160:
             bad.append((r["club"], r["kind"], "email 1 demasiado largo: %d palabras sin firma" % len(_sinfirma.split())))
         if r["kind"] == "LinkedIn conectar" and len(r["body"]) > 300:
             bad.append((r["club"], r["kind"], "nota de LinkedIn >300 caracteres"))
@@ -1287,6 +1281,13 @@ def apply_registro(wb):
                     tx.cell(row=r, column=10, value=dt.datetime.strptime(e["date"], "%Y-%m-%d")); tx.cell(row=r, column=10).number_format = "DD/MM/YYYY"
                 if e.get("nota"):
                     tx.cell(row=r, column=11, value=e["nota"])
+        li = wb["LinkedIn - Conexiones"]
+        for r in range(5, li.max_row + 1):
+            if li.cell(row=r, column=2).value == e["to"]:
+                if e.get("date"):
+                    li.cell(row=r, column=8, value="Hecho")
+                if e.get("nota"):
+                    li.cell(row=r, column=9, value=e["nota"])
     for t in reg.get("tareas", []):
         d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
         for r in range(5, cal.max_row + 1):

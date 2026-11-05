@@ -11,7 +11,7 @@
 ```
 Hi Callum,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Holbeach was down for the Costa Daurada Cup this year, and your Football & Education Academy made me think a week like this could suit your older squads.
 
@@ -57,11 +57,13 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 Hi ÍA team,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw ÍA Akranes was down for the Costa Daurada Cup this year. Could you point me to the person who looks after trips abroad for your youth teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years with us, so I'd be glad to share how it went for them.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -78,11 +80,13 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 Hi team,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Maidstone United was down for the Costa Daurada Cup this summer and thought your Girls Development Centre could be a great fit. Could you point me to the right person to talk to about trips for the girls teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years with us, so I'd be glad to share how it went for them.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -99,7 +103,7 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 Hi Luke,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Whitehaven was down for the Costa Daurada Cup this summer, and that the club has girls teams from under 9 up to under 16, so I thought this could be a good fit.
 
@@ -166,7 +170,7 @@ Hi Jim,
 
 I'm Joel, I run Always Up. I read about your under 14s winning the Spirit of Football trophy on the Costa Brava this summer, so congratulations, that's a lovely one to win.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. If the club is thinking about another trip, it could be a different kind of week for the players.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted and inscription to tournaments. If the club is thinking about another trip, it could be a different kind of week for the players.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -189,9 +193,11 @@ Hi Sharon,
 
 I'm Joel, I run Always Up. I saw St Kevin's on the list for the Halloween Cup in Salou last week, so I thought I'd get in touch. Could you pass this on to Ken Donohoe, or let me know who looks after trips abroad?
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -210,7 +216,7 @@ Hi Dan,
 
 I'm Joel, I run Always Up. I wrote recently to Callum Lawe, but I understand he has moved to Abu Dhabi, so I'm writing to you as the person leading the Football & Education Academy.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Holbeach was down for the Costa Daurada Cup this year, and a week like this could suit your older squads. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -231,11 +237,13 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 Hi team,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Virtu Academy was down for the Costa Daurada Cup this year. Could you point me to the person who organises trips abroad for your teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years with us, so I'd be glad to share how it went for them.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -254,7 +262,7 @@ Hi David,
 
 I'm Joel, I run Always Up. I saw Bollington United on the list for the Halloween Cup in Salou recently, so Spain is clearly on the club's radar.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -300,9 +308,11 @@ Hi there,
 
 I'm Joel, I run Always Up. I read in the Echo about your under 11 girls at the Barcelona Girls Cup in Salou, so congratulations, that's a lovely one to bring home. Could you pass this on to Alan Hennessy, or let me know who looks after trips abroad at the club?
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -344,13 +354,15 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi there,
 
-I'm Joel, I run Always Up. I read about your under 14 girls going to the Barcelona Cup, and the table quiz to help get them there. That's a lot of effort from everyone involved, so well done.
+I'm Joel, I run Always Up. I read about your under 14 girls going to the Barcelona Cup, and the table quiz to help get them there. Well done to everyone involved.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. It could be an idea for a future trip.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -390,7 +402,7 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi Iain,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Seacoast United was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -413,13 +425,15 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi there,
 
-I'm Joel, I run Always Up. I saw on your site that your under 14 girls played at the Barcelona Girls Cup in Salou a few years ago, so the club knows what a trip like that does for the players.
+I'm Joel, I run Always Up. I saw on your site that your under 14 girls played at the Barcelona Girls Cup in Salou a few years ago.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -438,11 +452,13 @@ Hi there,
 
 I'm Joel, I run Always Up. I read about Letterkenny Rovers going out to the Barcelona Cup, so Spain isn't new for the club.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. It could be a different kind of trip for your older schoolboy teams.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -461,7 +477,7 @@ Hi Christian,
 
 I'm Joel, I run Always Up, and I'm based here in New York. I saw NYSC's trip to the Donosti Cup, with stops in Barcelona and Madrid, so Spain is clearly on the club's radar.
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -509,11 +525,11 @@ Hi team,
 
 I'm Joel, I run Always Up, and I'm based here in New York too. I saw Downtown United had a team heading to the Donosti Cup this summer. Could you pass this on to Alex Keaney or Jose Luis Rebay, or to whoever looks after trips abroad?
 
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
-We're close enough for a coffee or a quick call.
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -555,11 +571,13 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi team,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw United PDX was down for the Donosti Cup in San Sebastián this summer, and understand Ryan Youngblood leads the program. Could you point me to them, or to whoever organises trips abroad for your older teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
@@ -607,6 +625,8 @@ I saw FC Delco is part of MLS NEXT, and understand Jeff Zaun leads the program. 
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
 
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
+
 Thanks a lot,
 Joel Martinez
 Founder, Always Up
@@ -624,7 +644,7 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi Mani,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Walnut Creek Surf was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -647,7 +667,7 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi Federico,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw ALBION Santa Monica was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -785,7 +805,7 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi Thiago,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Fort Lauderdale United was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -814,6 +834,8 @@ I saw Sockers FC Chicago is part of MLS NEXT, and understand Oleg Vatchev leads 
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
 
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
+
 Thanks a lot,
 Joel Martinez
 Founder, Always Up
@@ -831,7 +853,7 @@ If you'd rather not hear from me, just reply and I won't email you again.
 ```
 Hi Dan,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid.
 
 I saw Capital Valley was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
@@ -859,6 +881,8 @@ I'm Joel, I run Always Up. We take youth teams to Spain for a week of training a
 I saw Chicago FC United is part of MLS NEXT, and understand Jeff DeGroot leads the program. Could you point me to them, or to whoever organises trips abroad for your older teams?
 
 One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, so I'd be glad to share how it went for them.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
 Joel Martinez
