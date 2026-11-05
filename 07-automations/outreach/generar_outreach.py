@@ -395,7 +395,7 @@ PROSPECTS_US += [
     _us("wisconsin", "Wisconsin International Soccer", "Wisconsin International", "America/Chicago", "wisinternationalsoccer@gmail.com", "Hi team,", "Correo oficial (organización sin ánimo de lucro; sin director publicado)", "Wisconsin", D(2026, 11, 18)),
     _us("unitedpdx", "United PDX", "United PDX", "America/Los_Angeles", "info.unitedpdx@gmail.com", "Hi team,", "Ryan Youngblood (CEO); Brandon McNeil (COO)", "Oregón", D(2026, 11, 18), right="Ryan Youngblood", hook="was down for the Donosti Cup in San Sebastián this summer",
         li=("Ryan Youngblood", "Pega en el buscador de LinkedIn: Ryan Youngblood United PDX", "Sin enlace directo. Comprueba que dice United PDX.")),
-    _us("colorado", "Colorado Rapids Youth Soccer (CRYSC International)", "CRYSC International", "America/Denver", "jeff.oleck@rapidsyouthsoccer.org", "Hi Jeff,", "Jeff Oleck (Director of International Travel; fuente de sept. 2025, el club parece haber pasado a Colorado Storm)", "Colorado", D(2026, 11, 11),
+    _us("colorado", "Colorado Rapids Youth Soccer (CRYSC International)", "CRYSC International", "America/Denver", "jeff.oleck@rapidsyouthsoccer.org", "Hi Jeff,", "Jeff Oleck (Director of International Travel; confirmado en rapidsyouthsoccer.org/resources/international-soccer-tours)", "Colorado", D(2026, 11, 11),
         li=("Jeff Oleck", "Pega en el buscador de LinkedIn: Jeff Oleck Colorado Rapids Youth Soccer", "Sin enlace directo. Comprueba que sigue en el club.")),
 ]
 _US_NEW = {
@@ -1166,7 +1166,7 @@ VERIF = [
     ("Downtown United Soccer Club", "info@dusc.net", "dusc.net/about-us/contact; directores en dusc.net/about-us/staff/directors", "Pendiente", "Alta (correo del club)", "LinkedIn de Jose Luis Rebay"),
     ("Wisconsin International Soccer", "wisinternationalsoccer@gmail.com", "wisconsininternationalsoccer.com", "Pendiente", "Alta (correo del club)", "Formulario de su web"),
     ("United PDX", "info.unitedpdx@gmail.com", "unitedpdx.com/contact; directivos en unitedpdx.com/directors", "Pendiente", "Alta (correo del club)", "LinkedIn de Ryan Youngblood"),
-    ("Colorado Rapids Youth Soccer (CRYSC International)", "jeff.oleck@rapidsyouthsoccer.org", "Noticia del club de sept. 2025; dominio con MX. El club parece haber pasado a Colorado Storm", "Pendiente", "Media (mirar rebote)", "info@coloradostorm.com"),
+    ("Colorado Rapids Youth Soccer (CRYSC International)", "jeff.oleck@rapidsyouthsoccer.org", "Página de giras internacionales del club (rapidsyouthsoccer.org/resources/international-soccer-tours); dominio con MX", "Pendiente", "Alta", "info@coloradostorm.com"),
     ("Home Farm FC", "homefarmfc@gmail.com", "Email del club en dbsportstours; enviado 13/10", "Entregado (sin rebote a las 21:30 de España)", "Alta", "Facebook del club"),
     ("Hastings United", "georgia.townsend@hastingsunited.com", "Directorio de la academia; enviado 13/10", "Entregado (sin rebote)", "Alta", "Instagram del club"),
     ("Søreide IL", "fotball@soreideil.no", "soreideil.no/fotball/kontaktinformasjon (publicado por el club)", "Pendiente de enviar", "Alta", "Facebook del club"),
