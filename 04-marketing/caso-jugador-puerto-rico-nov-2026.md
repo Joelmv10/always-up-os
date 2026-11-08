@@ -58,5 +58,18 @@ Solo con el permiso del club.
 - **Qué pedir al final:** "Si quieres vivir algo así, escríbeme ESPAÑA". Las respuestas llegan a Joel, y Claude prepara la respuesta y el seguimiento en el CRM.
 - **Qué medir:** visualizaciones, seguidores nuevos y mensajes de familias o clubes.
 
+## Qué hacer con el material, canal por canal (añadido el 8/11)
+| Canal | Qué | Cuándo |
+|---|---|---|
+| Historias | Ahora nada. Como mucho, un adelanto sin cara ("Hoy, en el Metropolitano con uno de nuestros jugadores"), y solo si Enrique da el OK. Con el consentimiento: un "diario de su semana" en 5 o 6 historias, más una historia destacada fija "Casos reales" en el perfil | En cuanto haya firma |
+| Reels | 3: el momento de entrar a la grada (gancho), "una semana entrenando en España" y el testimonio. Subtítulos siempre puestos, publicación conjunta entre @Joel_alwaysup y Always Up y, si quiere, el jugador | Uno por semana tras la firma |
+| Carrusel | "Del showcase de Puerto Rico a Madrid en 5 pasos": cómo funciona de verdad, sin prometer | Junto al segundo reel |
+| Joel a cámara | 45 a 60 segundos contando el caso y cómo trabajamos. Es lo que más confianza da | Tras el primer reel |
+| Guardar para más adelante | Todo el material en bruto en una carpeta de Drive (2026-11 Puerto Rico), nunca en el repo. Cuando cumpla 18 y si hay un resultado real, haremos un vídeo de "qué pasó después" | Siempre |
+| Clientes potenciales | Familias (becas e International Program): por WhatsApp, el testimonio de los padres y el reel del estadio cuando pregunten. Socios (Gonzalo, Puerto Rico): un vídeo corto como prueba. Clubes: una diapositiva de "jugadores que han venido" en el deck | Tras la firma |
+| Web | Una página de caso real: tres fotos, el vídeo de 60 segundos y una cita de los padres | Cuando tengamos el testimonio |
+| LinkedIn (Joel) | Una publicación sobre el caso, pensada para clubes, entrenadores y socios | Tras el primer reel |
+| Anuncios | Más adelante, promocionar el mejor reel entre familias de Puerto Rico, EEUU y América Latina. El consentimiento ya cubre los materiales comerciales | Cuando haya algo que vender: International Program 2027/28 o el próximo showcase |
+
 ## Lo que aprendemos para la próxima vez
 Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de grabación" fijo (esta misma lista) y una cláusula de consentimiento de imagen dentro del contrato de cada Team Experience y de cada programa, para no depender de avisos de última hora.
