@@ -58,6 +58,64 @@ Solo con el permiso del club.
 - **Qué pedir al final:** "Si quieres vivir algo así, escríbeme ESPAÑA". Las respuestas llegan a Joel, y Claude prepara la respuesta y el seguimiento en el CRM.
 - **Qué medir:** visualizaciones, seguidores nuevos y mensajes de familias o clubes.
 
+## Respuestas de Enrique (8/11) y decisiones
+- **Publicación:** se valora esperar a que cumpla 18 (finales de diciembre) y a ver cómo van las pruebas. Me parece bien: así se publica en enero, cuando las familias planifican. Aun así, los padres firman también, porque el material se graba siendo menor.
+- **Club:** permiso hablado. Enrique concreta los términos con el director deportivo.
+- **SADE y University Soccer:** Enrique lo habla con David el 9/11.
+- **Cómo aparece Always Up:** los padres conocieron a Enrique como representante de la Real Sociedad para el área internacional. Antes de grabarles, Enrique les explica con naturalidad que Always Up es su empresa, con la que organiza estos viajes. En el contenido, Always Up aparece como quien organiza su semana en España. No se habla en nombre de la Real Sociedad sin su permiso.
+
+## Plan de la semana (9 a 15/11)
+Depende del horario de entrenamientos, que tiene que pasar Enrique. Naiara no puede estar todos los días, así que hay tres fuentes de material:
+
+**A. Diario del jugador (lo graba él cada noche, 45 a 60 segundos, vertical, cámara frontal, con luz de frente).** Una pregunta por día:
+1. Domingo: "¿Qué sentiste al entrar al Metropolitano?"
+2. Lunes: "¿Cómo han sido tus primeros días en España? ¿Qué te ha sorprendido?"
+3. Martes: "¿Cómo ha ido el primer entrenamiento? ¿Qué diferencia notas con el fútbol de Puerto Rico?"
+4. Miércoles: "¿Qué te han pedido los entrenadores? ¿Qué estás aprendiendo?"
+5. Jueves: "¿Cómo es tu día a día aquí: entreno, comida, descanso?"
+6. Viernes: "¿Cómo te sientes después de la semana?"
+7. Final: "¿Qué le dirías a un chico de Puerto Rico que quiere venir a España?"
+
+**B. Entrenamientos (Naiara cuando pueda; si no, Enrique con el móvil).** En una sesión basta, con el permiso del club:
+- Llegada con la bolsa, atándose las botas, calentamiento y dos o tres ejercicios en los que se le vea a él.
+- Detalles: botas, balón y su cara de esfuerzo.
+- Si el entrenador acepta, 20 segundos suyos sobre cómo ve al jugador (sin hablar de fichajes).
+- A otros menores no se les reconoce la cara.
+
+**C. Vida en España (cualquiera de los tres).**
+- Comida española, paseo por la ciudad, transporte y descanso.
+- Sin mostrar la dirección del alojamiento.
+
+**D. Entrevista final (Naiara o Enrique, 10 minutos, horizontal, en un sitio tranquilo y con luz de ventana).**
+1. Preséntate: nombre, edad, posición y club en Puerto Rico.
+2. ¿Cómo empezó todo en el showcase?
+3. ¿Qué pensaste cuando te dijeron que venías a España?
+4. ¿Qué ha sido lo mejor de la semana?
+5. ¿Qué ha sido lo más difícil?
+6. ¿En qué has mejorado?
+7. ¿Cómo te hemos ayudado desde Always Up?
+8. ¿Qué te llevas de esta experiencia?
+9. ¿Qué le dirías a otro chico que sueña con esto?
+
+**E. Vídeo de los padres (selfie desde Puerto Rico, 30 a 60 segundos, horizontal y vertical).**
+1. ¿Quiénes sois y de quién sois padres?
+2. ¿Qué sentisteis cuando os propusieron que viajara a España?
+3. ¿Qué os dio confianza para dejarle venir?
+4. ¿Cómo lo habéis vivido desde Puerto Rico?
+5. ¿Lo recomendaríais a otras familias?
+
+**F. Datos que hay que apuntar (para los textos y la web).**
+- Nombre completo, fecha de nacimiento, posición y club en Puerto Rico.
+- Fecha y lugar del showcase.
+- Fechas del viaje, club con el que entrena (ciudad y categoría) y horario.
+- Resultado de la semana.
+- Estado de los permisos: club, padres y jugador.
+
+**Material y orden:**
+- Todo en una carpeta de Drive "2026-11 Puerto Rico", con un nombre por archivo: fecha_lugar_tipo (por ejemplo, 20261110_entreno_clip01).
+- Un micrófono de solapa para móvil (unos 20 a 30 €) mejora mucho las entrevistas.
+- Lo que se grabe no se publica hasta tener la autorización.
+
 ## Qué hacer con el material, canal por canal (añadido el 8/11)
 | Canal | Qué | Cuándo |
 |---|---|---|
