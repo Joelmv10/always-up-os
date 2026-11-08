@@ -1,0 +1,62 @@
+# Caso de contenido: el jugador de Puerto Rico en España (noviembre de 2026)
+
+> Preparado el 8/11/2026. Es un jugador que Enrique conoció en el showcase de Puerto Rico (con SADE, agosto de 2026). Ha llegado a España para entrenar unos días con un club español (Unión; entrenamiento el martes 10/11) y hoy va al Atlético contra el Barça en el Metropolitano. Graba Naiara (hermana de Joel). **Tiene 17 años: cumple 18 en mes y medio.**
+
+## Para qué sirve
+Es el primer caso real que podemos enseñar de un jugador que viene de América a España con Always Up. Sirve a tres públicos:
+- **Familias de América Latina y EEUU** (becas, International Program 2027/28 y futuros showcases): ven que es real y cercano.
+- **Clubes y academias** (Team Experience): ven que movemos a jugadores y les abrimos las puertas del fútbol español.
+- **Socios como Gonzalo Lamas o SADE**: prueba de que lo que prometemos pasa de verdad.
+
+## Reglas (no negociables)
+1. **No se publica nada** hasta tener el consentimiento de imagen firmado por los padres y por el jugador (texto abajo). Tampoco en las historias personales de Naiara, de Joel o de Enrique. Grabar sí, publicar no.
+2. **Nada de "fichaje", "firma" ni "pruebas" mientras sea menor.** Se habla de "una semana entrenando con un club español". Las normas FIFA limitan el traspaso internacional de menores, y no podemos aparecer como agentes. Cuando cumpla 18 y si hay resultado real, se cuenta tal cual.
+3. **No prometer en el contenido lo que no depende de nosotros** (que se quede, que fiche, becas).
+4. **Metropolitano:** el protagonista es él, no el partido. Segundos de ambiente, sí; jugadas del partido, no (los derechos son de LaLiga). No usar el escudo del Atlético o del Barça como si fuera un respaldo, ni en portadas.
+5. **El club (Unión):** pedir permiso antes de grabar el entrenamiento y antes de nombrarlo. Si hay otros menores, no se les reconoce la cara.
+6. **Puerto Rico / SADE:** si quieren publicar, que Always Up aparezca (publicación conjunta o etiquetada). Lo decide Enrique, porque SADE también es competidor.
+
+## Hoy: Metropolitano (lista para Naiara)
+Formato: sobre todo vertical (9:16) y algo en horizontal. 4K o 1080 a 30 fps, objetivo 1x (el zoom estropea la imagen de noche), limpiar la lente. Clips de 5 a 15 segundos, empezando 2 segundos antes de la acción.
+1. Llegada: él caminando hacia el estadio, de espaldas, con el estadio entero delante.
+2. Él mirando el estadio por fuera. Un detalle de la entrada en la mano, sin que se vea el QR.
+3. **El momento de entrar a la grada** y ver el campo por primera vez: es el plano más importante. Grabar su cara al verlo.
+4. Ya sentado: su reacción al himno, al ambiente y a un gol.
+5. Fotos: retrato con el campo detrás y una de espaldas mirando el campo.
+6. Planos de recurso: afición, bufandas, luces y marcador. Pocas jugadas.
+7. Dos o tres preguntas cortas, en un pasillo con menos ruido y el móvil cerca de la boca:
+   - "¿Qué se siente estar aquí?"
+   - "¿Qué esperas de esta semana en España?"
+   - "¿Qué le dirías a un chico de Puerto Rico que sueña con esto?"
+
+## Martes 10/11: entrenamiento con el club
+Solo con el permiso del club.
+1. Llegada a la ciudad deportiva con la bolsa.
+2. Atándose las botas y en el vestuario, si se puede.
+3. Calentamiento y dos o tres ejercicios en los que se le vea a él.
+4. Un momento con el entrenador, si el entrenador acepta salir.
+5. Al terminar, preguntas: "¿Cómo ha sido el primer entrenamiento?", "¿Qué diferencia hay con el fútbol en Puerto Rico?" y "¿Cómo te ha ayudado Always Up a estar aquí?".
+
+## Testimonios para el final de la semana
+- **Jugador (60 a 90 segundos, horizontal y vertical):** cómo empezó todo en el showcase, qué ha vivido, qué ha aprendido, qué consejo daría.
+- **Padres (vídeo selfie desde Puerto Rico, 30 a 60 segundos):** por qué confiaron, cómo se han sentido con su hijo en España y si lo recomendarían. Es lo que más convence a otras familias.
+
+## Consentimiento de imagen (para que lo firmen padres y jugador)
+> Texto de trabajo. Pendiente de revisión por el abogado (ver `03-operations/checklist-legal-menores.md`).
+
+"Nosotros, [nombre del padre] y [nombre de la madre], padres o tutores legales de [nombre del jugador], y él mismo, autorizamos a Quality Servix Premium SL (Always Up) a usar las fotos, vídeos y declaraciones grabadas durante su estancia en España en noviembre de 2026, con su nombre de pila, en las redes sociales, la web y los materiales comerciales de Always Up, sin compensación económica, durante un máximo de cinco años. Podemos retirar esta autorización en cualquier momento escribiendo a joel.martinez@alwaysup.es, y Always Up dejará de usar ese material desde ese momento. Firma y fecha."
+
+## Plan de publicación (cuando haya consentimiento)
+| Pieza | Formato | Mensaje |
+|---|---|---|
+| 1. Del showcase de Puerto Rico al Metropolitano | Reel de 20 a 30 segundos | El momento de entrar a la grada, como gancho |
+| 2. Una semana entrenando en España | Reel | El primer día con el club |
+| 3. Joel lo cuenta | Joel hablando a cámara | Cómo funciona, sin prometer nada; el caso como ejemplo |
+| 4. Testimonio del jugador y de sus padres | Reel y carrusel | La confianza |
+
+- **Dónde:** cuentas de Always Up y de Joel, y publicación conjunta con el jugador si quiere.
+- **Qué pedir al final:** "Si quieres vivir algo así, escríbeme ESPAÑA". Las respuestas llegan a Joel, y Claude prepara la respuesta y el seguimiento en el CRM.
+- **Qué medir:** visualizaciones, seguidores nuevos y mensajes de familias o clubes.
+
+## Lo que aprendemos para la próxima vez
+Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de grabación" fijo (esta misma lista) y una cláusula de consentimiento de imagen dentro del contrato de cada Team Experience y de cada programa, para no depender de avisos de última hora.
