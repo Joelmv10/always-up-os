@@ -310,6 +310,11 @@
       "date": "2026-11-05",
       "task": "William (Francia, 19 años): contestar",
       "nota": "Enviado el texto acordado con Enrique"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Caso PR: crear la carpeta de Drive",
+      "nota": "Creada. Naiara sube hoy lo del Metropolitano"
     }
   ],
   "textos": [
@@ -345,6 +350,11 @@
       "to": "Richard Clarke",
       "date": "2026-11-03",
       "nota": "Aceptó la conexión el 4/11."
+    },
+    {
+      "club": "St Kevin's FC (Dublín)",
+      "to": "admin@skbfc.com",
+      "nota": "En Enviados aparece 4 veces (pendiente de confirmar si salieron 4 copias). Follow-up retrasado al 25/11."
     }
   ],
   "clubes": [

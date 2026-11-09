@@ -512,7 +512,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Downtown United Soccer Club: email 1 (enviar 19/11/2026 a las 09:30 hora Nueva York)
+## Downtown United Soccer Club: email 1 (enviar 18/11/2026 a las 09:30 hora Nueva York)
 
 **Para:** info@dusc.net
 
@@ -608,7 +608,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## FC Delco: email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+## FC Delco: email 1 (enviar 08/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** info@fcdelco.org
 
@@ -794,30 +794,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Capital Valley FC: email 1 (enviar 17/12/2026 a las 12:30 hora Nueva York)
-
-**Para:** info@capvalleyfc.com
-
-**Asunto:** A week in Spain for Capital Valley's academy teams
-
-```
-Hi Dan,
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
-
-I saw Capital Valley was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
-
-Best,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
-If you'd rather not hear from me, just reply and I won't email you again.
-```
-
-## Fort Lauderdale United FC: email 1 (enviar 17/12/2026 a las 09:30 hora Nueva York)
+## Fort Lauderdale United FC: email 1 (enviar 16/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** thiago@ftlutd.com
 
@@ -858,6 +835,29 @@ One of our partner clubs in Ireland won their first ever league title after a fe
 We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
 
 Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Capital Valley FC: email 1 (enviar 07/01/2027 a las 12:30 hora Nueva York)
+
+**Para:** info@capvalleyfc.com
+
+**Asunto:** A week in Spain for Capital Valley's academy teams
+
+```
+Hi Dan,
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+I saw Capital Valley was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
 Joel Martinez
 Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es

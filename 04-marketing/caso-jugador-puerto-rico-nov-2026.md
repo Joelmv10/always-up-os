@@ -67,7 +67,7 @@ Solo con el permiso del club.
 ## Plan de la semana (9 a 15/11)
 Depende del horario de entrenamientos, que tiene que pasar Enrique. Naiara no puede estar todos los días, así que hay tres fuentes de material:
 
-**A. Diario del jugador (lo graba él cada noche, 45 a 60 segundos, vertical, cámara frontal, con luz de frente).** Una pregunta por día:
+**A. Diario del jugador: descartado el 9/11.** Joel prefiere recogerlo todo en la entrevista final (ver `caso-pr-entrevista-final-y-familia.md`). Estas preguntas quedan dentro de esa entrevista:
 1. Domingo: "¿Qué sentiste al entrar al Metropolitano?"
 2. Lunes: "¿Cómo han sido tus primeros días en España? ¿Qué te ha sorprendido?"
 3. Martes: "¿Cómo ha ido el primer entrenamiento? ¿Qué diferencia notas con el fútbol de Puerto Rico?"

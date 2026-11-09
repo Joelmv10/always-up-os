@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "9/11/2026"
+VERSION = "9/11/2026 (2)"
 
 ROSS = """{greet}
 
@@ -420,7 +420,7 @@ _E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026,
        "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
        "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
-_FU1 = {"homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
+_FU1 = {"stkevins": D(2026, 11, 25), "homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
 for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] in _E1:
         _p["e1"] = _E1[_p["key"]]
@@ -926,15 +926,18 @@ def build_calendar(sends):
     for x in C:
         if x["date"] in (D(2026, 11, 6), D(2026, 11, 7)) and not x["task"].startswith(("ENVIAR", "Revisión diaria", "Confirmar que salieron", "Bloque de redes")):
             x["date"] = D(2026, 11, 9)
+    # --- llamada con Enrique del 9/11: sustituye a las tareas sueltas para él que quedaron del viernes
+    C[:] = [x for x in C if not (x["date"] == D(2026, 11, 9) and x["task"].startswith(("Sesión con Enrique", "Preguntar a Atlético y Real Sociedad", "Campus Internacional: contarme", "Cerrar el precio y la comisión del International", "Web realsociedadirp.com", "Revisión semanal", "Actualizar el CRM")))]
+    add(D(2026, 11, 9), "Libre", 590, "Todos", "LLAMADA con Enrique (jugador de Puerto Rico, Gonzalo, International Program, Team Experience)", "Sigue el guion y apunta las respuestas. Después, mándale por WhatsApp su lista de la semana con el chico (está en el guion) y pásame a mí lo que hayáis decidido.", "00-company/llamada-enrique-2026-11-09.md", 50)
     # --- caso del jugador de Puerto Rico (plan en 04-marketing/caso-jugador-puerto-rico-nov-2026.md)
     PR = "04-marketing/caso-jugador-puerto-rico-nov-2026.md"
     add(D(2026, 11, 9), "Libre", 600, "Instagram", "Caso PR: crear la carpeta de Drive «2026-11 Puerto Rico» y compartirla", "Con Naiara y con Enrique, con permiso para subir archivos. Nombres de archivo: fecha_lugar_tipo (20261110_entreno_clip01). Nada de este material va al repo.", PR, 5)
-    add(D(2026, 11, 9), "Libre", 601, "Instagram", "Caso PR: mandar a Enrique el diario para el jugador y las preguntas para la madre", "Los dos textos están en el documento del caso. Que Enrique se lo pase al jugador hoy, para que el diario empiece esta noche.", PR, 5)
-    add(D(2026, 11, 9), "Libre", 602, "Instagram", "Caso PR: en la llamada con Enrique, cerrar horario, día de Naiara y cómo presentar Always Up", "1) Días y horas de entrenamiento. 2) Qué día puede grabar Naiara; si no puede, graba Enrique con la lista. 3) Que explique a la madre que Always Up es su empresa, antes del vídeo. 4) Qué acuerda con David sobre SADE y University Soccer. 5) ¿Esto es un servicio que vamos a vender? ¿Con qué precio y formato? 6) Si tenéis camiseta o sudadera de Always Up, que se la dé para la entrevista.", PR, 15)
-    for dd in (D(2026, 11, 10), D(2026, 11, 11), D(2026, 11, 12), D(2026, 11, 13), D(2026, 11, 14), D(2026, 11, 15)):
-        add(dd, "Noche", 1300, "Instagram", "Caso PR: mirar que llegó el diario del día (5 min)", "Abre la carpeta de Drive: ¿está el vídeo del jugador? ¿Se oye bien y tiene luz? Si falta, que Enrique se lo recuerde. Si algo sale mal, dímelo para corregirlo al día siguiente.", "Carpeta de Drive", 5)
+
+
+    add(D(2026, 11, 9), "Noche", 1300, "Instagram", "Caso PR: revisar lo que Naiara suba del Metropolitano y contármelo", "¿Está el momento de entrar a la grada? ¿Las preguntas se oyen bien? Dime qué hay y qué falta.", "Carpeta de Drive", 10)
     add(D(2026, 11, 10), "Libre", 603, "Instagram", "Caso PR: pasar a Naiara (o a Enrique) la lista del entrenamiento para el día que grabe", "La lista está en el documento del caso (apartado B). Solo si el club ha dado permiso.", PR, 3)
-    add(D(2026, 11, 15), "Libre", 600, "Instagram", "Caso PR: entrevista final y vídeo de los padres", "El último día del jugador en España: entrevista de 10 minutos (apartado D) y que la madre mande su vídeo (apartado E). Apunta los datos del apartado F.", PR, 20)
+    add(D(2026, 11, 13), "Libre", 600, "Instagram", "Caso PR: confirmar quién hace la entrevista final y cuándo", "El último día del jugador (confírmalo en la llamada del lunes). Pasa la guía a Naiara o a Enrique, y que tengan la camiseta preparada.", "04-marketing/caso-pr-entrevista-final-y-familia.md", 5)
+    add(D(2026, 11, 15), "Libre", 600, "Instagram", "Caso PR: entrevista final, fotos y mensaje a la madre", "Entrevista de 10 a 15 minutos siguiendo la guía, frases cortas a cámara y fotos (con la camiseta y con Enrique). Ese día Enrique manda a la madre el mensaje del vídeo, la autorización y las fotos de pequeño.", "04-marketing/caso-pr-entrevista-final-y-familia.md", 30)
     add(D(2026, 11, 16), "Libre", 600, "Instagram", "Caso PR: pasarme el inventario del material", "Dime en el chat qué hay: cuántos clips de cada momento, si están el diario, la entrevista y el vídeo de los padres, y qué ha salido bien o mal. Yo elijo los clips de cada pieza y escribo los textos.", "Chat con Claude", 10)
     add(D(2026, 11, 18), "Libre", 610, "Instagram", "Caso PR: montar el reel 1 (Del showcase al Metropolitano)", "En CapCut, de 15 a 25 segundos, vertical y con subtítulos. Guárdalo como borrador: no se publica hasta tener la autorización.", PR, 45)
     add(D(2026, 11, 25), "Libre", 610, "Instagram", "Caso PR: montar el reel 2 (una semana entrenando en España) y el carrusel", "Mismo proceso. Los textos te los dejo yo.", PR, 60)
