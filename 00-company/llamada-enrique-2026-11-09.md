@@ -46,3 +46,50 @@ Joel le escribe hoy a las 10:00. Si acepta la llamada, antes hace falta:
 ## 5. Otros (5 min)
 1. Campus Internacional: ¿qué opciones propuso el contacto de Bélgica?
 2. Omar (becas): llamada mañana. Valoración de David: junior college o NCAA División III. ¿Algo que deba saber?
+
+---
+
+## Resultado de la llamada (lo cuenta Joel el 9/11)
+
+**Agenda de Enrique:**
+- 10/11: va a Donosti. Ve al director deportivo del Real Unión de Irún, come con Iñigo y va al entrenamiento del jugador.
+- Después va a A Coruña: el responsable de la academia internacional del Deportivo y Daniel Aceval (freelance, con quien parece que se pueden hacer cosas).
+
+**Jugador de Puerto Rico:**
+- El Real Unión quiere verle del 10 al 22/11. El 10/11 cuenta el planning: entrenos, partidos y si entrena con otro club.
+- El 10/11 Enrique pregunta también si se puede grabar y nombrar al club.
+- Naiara solo puede ir un fin de semana que coincida con entreno o partido. Si no, lo graba todo Enrique.
+- Enrique habla con David esta noche.
+- La madre recibe esta noche el Anexo I (autorización de imagen) para firmarlo.
+- **Es un servicio que se va a vender:** pruebas pagadas con clubes españoles, con el viaje completo incluido. Faltan detalles.
+- Joel ya le ha pasado a Enrique su lista de tareas de la semana.
+
+**Gonzalo Lamas:** no se ha cerrado el modelo. Primero esperar a que conteste.
+
+**Servicios que Enrique trabaja con Iñigo el 10/11** (Joel: "todos listos para comercializar, faltan detalles"):
+1. Representación de jugadores.
+2. Tecnificaciones con los clubes con los que trabajamos, mediante academias internacionales.
+3. Academia internacional (International Program).
+4. Cursos de entrenador UEFA C y UEFA B en España, al estilo de WARUBI. David cree que es muy buen negocio.
+5. Pruebas de jugadores pagadas, como la de este chico (por ejemplo, un mes probando con varios clubes).
+6. Tecnificaciones individuales para menores (campus individual), por ejemplo con el Atlético.
+
+**Team Experience:**
+- **La Real Sociedad sí puede recibir equipos alrededor de la Donosti Cup.** Se desbloquean NJ14 y Wisconsin.
+- Fechas a medida y reserva cuando quiera el cliente. El servicio está cerrado.
+- Greystones: nada para 2027 todavía. Hay que preguntar.
+
+## Recomendación de Claude como CEO (9/11)
+1. **No se puede vender un servicio sin precio, qué incluye y condiciones por escrito.** Ahora mismo solo Team y Coach Experience lo tienen. Para cada servicio nuevo hace falta una ficha de una página con esos tres datos antes de ofrecerlo.
+2. **Orden para lanzar los servicios:**
+   - **Primero, pruebas pagadas para mayores de 18.** Tenemos un caso real (y de pago), la audiencia de Instagram de Joel es justo ese público, y hay leads de becas que no encajan en la universidad pero sí en una prueba (por ejemplo, Francisco, de 20 años, o William, de 19). Es la venta más rápida que tenemos.
+   - **Segundo, tecnificaciones individuales y para grupos.** Es Team Experience en pequeño, pero con menores viajando solos (tutela, seguros, autorizaciones), así que la checklist legal pasa a ser bloqueante.
+   - **Tercero, el International Program:** se vende para 2027/28, sin prisa.
+3. **Cursos UEFA: verificarlo antes de anunciarlo.** En España las licencias UEFA las expide la federación (RFEF y sus escuelas de entrenadores), no un club. Hay que confirmar la duración, las prácticas, el idioma y si un extranjero puede hacerlo en formato intensivo. Un "certificado del club" no es una licencia UEFA, y venderlo así nos expone a reclamaciones. Mientras tanto, Coach Experience con certificado de asistencia del club ya se puede vender.
+4. **Representación: para más adelante.**
+   - Exige licencia FIFA de agente, que tiene que tener una persona concreta.
+   - Hay reglas estrictas con menores.
+   - Hay conflicto de interés si el mismo jugador nos paga una prueba y le representamos.
+   - Hasta 2027 no se ofrece.
+5. **Deportivo:** está en negociación desde agosto. La visita de Enrique es la ocasión de salir con algo concreto: qué podemos vender con ellos y en qué condiciones.
+6. **Primera venta:** si la estancia de este chico la factura Quality Servix, es la primera venta real del año y hay que registrarla en finanzas. Pendiente de confirmar con Enrique el precio y quién factura.

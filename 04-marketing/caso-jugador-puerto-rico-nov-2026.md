@@ -1,6 +1,8 @@
 # Caso de contenido: el jugador de Puerto Rico en España (noviembre de 2026)
 
-> Preparado el 8/11/2026. Es un jugador que Enrique conoció en el showcase de Puerto Rico (con SADE, agosto de 2026). Ha llegado a España para entrenar unos días con un club español (Unión; entrenamiento el martes 10/11) y hoy va al Atlético contra el Barça en el Metropolitano. Graba Naiara (hermana de Joel). **Tiene 17 años: cumple 18 en mes y medio.**
+> Preparado el 8/11/2026. Es un jugador que Enrique conoció en el showcase de Puerto Rico (con SADE, agosto de 2026). Ha llegado a España para entrenar unos días con un club español (Unión; entrenamiento el martes 10/11) y hoy va al Atlético contra el Barça en el Metropolitano. Graba Naiara (hermana de Joel). **Tiene 17 años: cumple 18 el 5/1/2027.**
+
+> **Actualizado el 9/11:** entrena con el **Real Unión de Irún**, que quiere verle del 10 al 22/11. El club pasa el planning (entrenos, partidos, otros clubes) el 10/11. Graba casi todo Enrique; Naiara solo si coincide un fin de semana. Paquete para Enrique (qué grabar, entrevista final y mensaje a la madre) en `caso-pr-entrevista-final-y-familia.md`. Es un cliente de pago del servicio de pruebas (línea 4): es el primer caso real de ese servicio.
 
 ## Para qué sirve
 Es el primer caso real que podemos enseñar de un jugador que viene de América a España con Always Up. Sirve a tres públicos:
@@ -42,9 +44,9 @@ Solo con el permiso del club.
 - **Padres (vídeo selfie desde Puerto Rico, 30 a 60 segundos):** por qué confiaron, cómo se han sentido con su hijo en España y si lo recomendarían. Es lo que más convence a otras familias.
 
 ## Consentimiento de imagen (para que lo firmen padres y jugador)
-> Texto de trabajo. Pendiente de revisión por el abogado (ver `03-operations/checklist-legal-menores.md`).
+> **Sustituido el 9/11** por el documento real: «Anexo I al Acuerdo de Autorización, Familia del Jugador», que Enrique manda a firmar esa noche (padre, madre y jugador; organizador: Enrique). Lo que hay que respetar: los padres revisan antes cada pieza en la que él sea protagonista (cl. 7); no se publica el resultado de la prueba sin su permiso (cl. 5e); canales: web, Instagram, LinkedIn y envío privado a clubes y universidades (cl. 3); dura 24 meses; desde el 5/1/2027 el jugador tiene que ratificarla por escrito antes de publicar nada nuevo (cl. 9). El original no se guarda en el repo. El texto de abajo queda solo como referencia antigua.
 
-"Nosotros, [nombre del padre] y [nombre de la madre], padres o tutores legales de [nombre del jugador], y él mismo, autorizamos a Quality Servix Premium SL (Always Up) a usar las fotos, vídeos y declaraciones grabadas durante su estancia en España en noviembre de 2026, con su nombre de pila, en las redes sociales, la web y los materiales comerciales de Always Up, sin compensación económica, durante un máximo de cinco años. Podemos retirar esta autorización en cualquier momento escribiendo a joel.martinez@alwaysup.es, y Always Up dejará de usar ese material desde ese momento. Firma y fecha."
+Texto antiguo: "Nosotros, [nombre del padre] y [nombre de la madre], padres o tutores legales de [nombre del jugador], y él mismo, autorizamos a Quality Servix Premium SL (Always Up) a usar las fotos, vídeos y declaraciones grabadas durante su estancia en España en noviembre de 2026, con su nombre de pila, en las redes sociales, la web y los materiales comerciales de Always Up, sin compensación económica, durante un máximo de cinco años. Podemos retirar esta autorización en cualquier momento escribiendo a joel.martinez@alwaysup.es, y Always Up dejará de usar ese material desde ese momento. Firma y fecha."
 
 ## Plan de publicación (cuando haya consentimiento)
 | Pieza | Formato | Mensaje |
@@ -59,7 +61,7 @@ Solo con el permiso del club.
 - **Qué medir:** visualizaciones, seguidores nuevos y mensajes de familias o clubes.
 
 ## Respuestas de Enrique (8/11) y decisiones
-- **Publicación:** se valora esperar a que cumpla 18 (finales de diciembre) y a ver cómo van las pruebas. Me parece bien: así se publica en enero, cuando las familias planifican. Aun así, los padres firman también, porque el material se graba siendo menor.
+- **Publicación:** se valora esperar a que cumpla 18 (5/1/2027) y a ver cómo van las pruebas. Me parece bien: así se publica en enero, cuando las familias planifican. Aun así, los padres firman también, porque el material se graba siendo menor.
 - **Club:** permiso hablado. Enrique concreta los términos con el director deportivo.
 - **SADE y University Soccer:** Enrique lo habla con David el 9/11.
 - **Cómo aparece Always Up:** los padres conocieron a Enrique como representante de la Real Sociedad para el área internacional. Antes de grabarles, Enrique les explica con naturalidad que Always Up es su empresa, con la que organiza estos viajes. En el contenido, Always Up aparece como quien organiza su semana en España. No se habla en nombre de la Real Sociedad sin su permiso.
@@ -127,7 +129,7 @@ Depende del horario de entrenamientos, que tiene que pasar Enrique. Naiara no pu
 | Clientes potenciales | Familias (becas e International Program): por WhatsApp, el testimonio de los padres y el reel del estadio cuando pregunten. Socios (Gonzalo, Puerto Rico): un vídeo corto como prueba. Clubes: una diapositiva de "jugadores que han venido" en el deck | Tras la firma |
 | Web | Una página de caso real: tres fotos, el vídeo de 60 segundos y una cita de los padres | Cuando tengamos el testimonio |
 | LinkedIn (Joel) | Una publicación sobre el caso, pensada para clubes, entrenadores y socios | Tras el primer reel |
-| Anuncios | Más adelante, promocionar el mejor reel entre familias de Puerto Rico, EEUU y América Latina. El consentimiento ya cubre los materiales comerciales | Cuando haya algo que vender: International Program 2027/28 o el próximo showcase |
+| Anuncios | Más adelante, promocionar el mejor reel entre familias de Puerto Rico, EEUU y América Latina. **Ojo: el Anexo I no menciona los anuncios pagados**; antes de promocionar, pedir a los padres (o a él, ya mayor de edad) que lo autoricen por escrito | Cuando haya algo que vender: International Program 2027/28 o el próximo showcase |
 
 ## Lo que aprendemos para la próxima vez
 Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de grabación" fijo (esta misma lista) y una cláusula de consentimiento de imagen dentro del contrato de cada Team Experience y de cada programa, para no depender de avisos de última hora.

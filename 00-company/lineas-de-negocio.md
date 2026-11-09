@@ -175,3 +175,11 @@ Siete iniciativas, prácticamente una sola persona (Joel) ejecutando casi todas,
 
 ## Decisiones del 16/10/2026 sobre Campus Internacional e International Program
 Ver `decisiones-pendientes-enrique.md` (sección "Resoluciones"). Resumen: Campus Internacional se firma con el Atlético desde Always Up a fee fijo, sin adelantar dinero y con los seguros del Atlético; el contacto de Bélgica dice que no le salen las cuentas (tope de 300 € por niño) y propone otras opciones, en estudio. International Program: mínimo 9 a 10 jugadores por grupo, Always Up cobra y luego paga a la Real Sociedad, contrato con club de origen y destino, devoluciones 0, precio y comisión por definir.
+
+## Servicios nuevos o reactivados (9/11/2026)
+Enrique los trabaja con Iñigo (Real Sociedad) el 10/11. Joel los considera listos para vender a falta de detalles. La recomendación de Claude y su orden de prioridad están en `llamada-enrique-2026-11-09.md`.
+- **Pruebas de jugadores pagadas** (reactiva la línea 4): un jugador viene, por ejemplo, un mes a probar con clubes españoles y paga el viaje completo a Madrid. Primer caso real: el jugador de Puerto Rico con el Real Unión de Irún (10 al 22/11/2026). Solo mayores de 18 para fichar; con menores, "estancia de entrenamiento".
+- **Tecnificaciones** con los clubes con los que trabajamos (vía academias internacionales) y **tecnificaciones individuales para menores** (campus individual, por ejemplo con el Atlético).
+- **Cursos de entrenador UEFA C y UEFA B en España** (modelo WARUBI, propuesto por David). Antes de anunciarlo hay que verificar con la federación quién expide la licencia y en qué formato.
+- **Representación de jugadores.** Requiere licencia FIFA de agente. No se ofrece hasta 2027.
+- **Nuevos contactos:** Real Unión de Irún (director deportivo), la academia internacional del Deportivo y Daniel Aceval (freelance).

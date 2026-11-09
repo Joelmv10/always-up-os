@@ -8,7 +8,7 @@
 - Que son costes de la universidad, no de nuestro servicio.
 
 ## Antes de la llamada (lunes 9/11)
-- Preguntar a David en una línea si esos precios son por jugador y año, y si incluyen alojamiento.
+- **Confirmado por David (9/11):** los precios son por jugador y año, y normalmente lo incluyen todo: universidad, alojamiento y comida.
 - Tener a mano la oferta de septiembre: 2.000 $ por jugador en un pago, o 250 $ + 2.500 $. **No se cambia en la llamada.**
 
 ## Objetivo
@@ -20,6 +20,7 @@ Que Omar entienda las opciones reales y decida si seguimos. Si sigue, el siguien
 3. **Explicar las dos opciones (7 min).**
    - **Junior college:** dos años compitiendo y estudiando. Si rinden, pueden pasar a una universidad de cuatro años. Es un camino que usan muchos jugadores. No prometer a qué universidad ni a qué división llegarán.
    - **División III:** universidad de cuatro años desde el principio. No hay beca deportiva; la ayuda depende de las notas. Por eso necesitamos las calificaciones.
+   - **Qué incluye el precio:** es por jugador y por año, y normalmente lo incluye todo: universidad, alojamiento y comida. Son costes de la universidad, no de nuestro servicio.
    - **Los dos juntos:** se intenta la misma universidad, pero a veces hay mejores opciones por separado. Él ya dijo que está abierto si les beneficia.
 4. **Qué hacemos nosotros (3 min).** Evaluación completa, perfil para entrenadores, contacto directo con universidades y acompañamiento hasta la firma y la llegada. Nunca decir "beca garantizada" ni nombrar al partner.
 5. **Siguiente paso (3 min).** "Si queréis seguir, necesito las notas y un partido completo de cada uno. Con eso cerramos la valoración y empezamos a moverlos con entrenadores, porque para agosto de 2027 este es el momento."

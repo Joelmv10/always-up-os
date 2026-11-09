@@ -315,6 +315,62 @@
       "date": "2026-11-09",
       "task": "Caso PR: crear la carpeta de Drive",
       "nota": "Creada. Naiara sube hoy lo del Metropolitano"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "ENVIAR",
+      "nota": "Salió (registrado en Enviados)"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Omar: fijar la hora",
+      "nota": "Martes 10/11 por la tarde"
+    },
+    {
+      "date": "2026-11-05",
+      "task": "Itrupo",
+      "nota": "Decisión de Joel: de momento no se contesta"
+    },
+    {
+      "date": "2026-11-06",
+      "task": "ENVIAR",
+      "nota": "Salió. Aparece 4 veces en Enviados (por confirmar)"
+    },
+    {
+      "date": "2026-11-06",
+      "task": "Revisión diaria",
+      "nota": "Hecho"
+    },
+    {
+      "date": "2026-11-06",
+      "task": "Confirmar que salieron",
+      "nota": "Salió St Kevin's, sin rebotes"
+    },
+    {
+      "date": "2026-11-07",
+      "task": "Bloque de redes",
+      "estado": "Saltado",
+      "nota": "Sin tiempo. Esta semana Joel avanza con su plan de agentes de redes"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Revisión diaria",
+      "nota": "Hecho"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Gonzalo Lamas",
+      "nota": "Enviado. A la espera de que conteste"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "LLAMADA con Enrique",
+      "nota": "Hecha. Resumen y recomendación en 00-company/llamada-enrique-2026-11-09.md"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Preparar la llamada con Omar",
+      "nota": "David: por jugador y año, normalmente todo incluido (universidad, alojamiento y comida)"
     }
   ],
   "textos": [

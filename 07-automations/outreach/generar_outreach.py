@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "9/11/2026 (2)"
+VERSION = "9/11/2026 (3)"
 
 ROSS = """{greet}
 
@@ -350,7 +350,7 @@ PROSPECTS_US += [
 ]
 for _p in PROSPECTS_US:
     if _p["key"] == "nj14":
-        _p["e1_body"] = NJ14; _p["subj"] = "An idea around your Donosti Cup trip"; _p["motivo"] = "Lleva equipos de chicas a la Donosti Cup 2027 (y Gothia Cup). Club en Nueva Jersey, cerca de Joel."
+        _p["e1_body"] = NJ14; _p["subj"] = "An idea around your Donosti Cup trip"; _p["motivo"] = "Lleva equipos de chicas a la Donosti Cup 2027 (y Gothia Cup). Club en Nueva Jersey, cerca de Joel. La Real Sociedad confirmó el 9/11 que puede recibirles alrededor del torneo."
     if _p["key"] == "nyempire":
         _p["e1_body"] = NYEMPIRE; _p["subj"] = "A week in Spain for NY Empire"; _p["form"] = True; _p["stop_after_e1"] = True; _p["motivo"] = "Preparó equipos para la Donosti Cup 2026. Club de Long Island, se puede quedar en persona."
 
@@ -402,7 +402,7 @@ PROSPECTS_US += [
 _US_NEW = {
     "nysc": (NYSC, "New York Soccer Club and a week in Spain", "Viaje a la Donosti Cup 2024 con Barcelona y Madrid, abierto a jugadores externos (web del club). Club de Nueva York, se puede quedar en persona.", "newyorksoccerclub.org/staff"),
     "dusc": (DUSC, "A question about trips abroad for Downtown United", "Equipo en la Donosti Cup 2026 (itinerario de Premier International Tours). 5.000 participantes en Manhattan, se puede quedar en persona. Ya usa una agencia de viajes.", "dusc.net/about-us/staff/directors"),
-    "wisconsin": (WISCONSIN, "An idea around your Donosti Cup trip", "Su razón de ser es llevar un equipo al extranjero cada año; la web ya tiene sección Donosti Cup 2027. Antes de enviar: comprobar disponibilidad de la Real Sociedad, como con NJ14.", "wisconsininternationalsoccer.com"),
+    "wisconsin": (WISCONSIN, "An idea around your Donosti Cup trip", "Su razón de ser es llevar un equipo al extranjero cada año; la web ya tiene sección Donosti Cup 2027. La Real Sociedad confirmó el 9/11 que puede recibir equipos alrededor de la Donosti Cup.", "wisconsininternationalsoccer.com"),
     "unitedpdx": (None, None, "En la lista oficial de la Donosti Cup 2026. Unos 2.700 jugadores.", "donosticup.cupmanager.net / unitedpdx.com/directors"),
     "colorado": (COLORADO, "Your next tours to Spain", "Tiene un director de viajes internacionales y más de 700 participantes en sus giras en 3 años, con viajes U14 a España en marzo de 2026. Es el mayor potencial de esta tanda. Ya organiza sus giras: se le ofrece añadir valor, no sustituirlas.", "coloradostorm.com/news/destination-spotlight-a-spanish-futbol-adventure"),
 }
@@ -718,13 +718,15 @@ REPLIES = [
      "Es para David, no para Omar. Cuando te conteste, pégamelo y te preparo el mensaje a Omar."),
     ("Gonzalo Lamas: retomar el lunes 9/11 (WhatsApp)", "Hola Gonzalo, ¿qué tal? Espero que el viaje a Barcelona con el club haya ido muy bien y que ya estés de vuelta en Buenos Aires.\n\nComo quedamos, te escribo para retomar. ¿Pudiste mirar la propuesta? Me encantaría saber qué te pareció y qué formato ves más útil para tu gente. ¿Te viene bien que hablemos 20 minutos esta semana? Dime qué día te encaja y me adapto a tu horario.\n\nUn abrazo,\nJoel",
      "Envíalo a las 10:00 de Nueva York (12:00 en Buenos Aires). Si dice que sí: guion en 02-sales/guion-llamada-socio-argentina.md. Antes de la llamada hace falta que Enrique cierre modelo y comisión (sesión del 6/11)."),
-    ("Becas: reactivar a Pavel Gomez (Instagram)", "Hola Pavel, soy Joel de Always Up. Hablamos en verano sobre seguir compitiendo en la universidad. Como eres de la clase de 2027, los entrenadores ya están mirando a jugadores de tu año, así que quería saber cómo estás. ¿Sigue en pie la idea? Si es así, hablamos 15 minutos esta semana. Y si ya lo tienes resuelto, dímelo sin problema y me alegro.",
+    ("Becas: reactivar a Pavel Gomez (Instagram @paixvi.b)", "Hola Pavel, soy Joel de Always Up. Hablamos en verano sobre seguir compitiendo en la universidad. Como eres de la clase de 2027, los entrenadores ya están mirando a jugadores de tu año, así que quería saber cómo estás. ¿Sigue en pie la idea? Si es así, hablamos 15 minutos esta semana. Y si ya lo tienes resuelto, dímelo sin problema y me alegro.",
      "El más urgente: ya vive en EEUU y se gradúa en 2027. Un solo mensaje, sin insistir."),
-    ("Becas: reactivar a Francisco Ferreira (Instagram)", "Hola Francisco, soy Joel de Always Up. Hablamos en verano y me mandaste tu vídeo. Me contaste que dudabas entre ir a EEUU en 2027 o quedarte estudiando en Portugal. ¿Has podido decidir algo? Si EEUU sigue siendo una opción, te cuento los siguientes pasos. Y si te quedas en Portugal, me lo dices sin problema.",
+    ("Becas: reactivar a Francisco Ferreira (Instagram @francisco_7ferreira)", "Hola Francisco, soy Joel de Always Up. Hablamos en verano y me mandaste tu vídeo. Me contaste que dudabas entre ir a EEUU en 2027 o quedarte estudiando en Portugal. ¿Has podido decidir algo? Si EEUU sigue siendo una opción, te cuento los siguientes pasos. Y si te quedas en Portugal, me lo dices sin problema.",
      "Un solo mensaje, sin insistir."),
-    ("Becas: reactivar a Gonzalo Caro y a Tania Coeto (Instagram)", "Hola, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
-     "Un mensaje a cada uno por separado. Un solo intento."),
-    ("Becas: reactivar a Anita (Instagram)", "Hola Anita, soy Joel de Always Up. En verano me preguntaste por la inscripción y creo que la respuesta se quedó pendiente, perdona. Empezamos con una evaluación, con un vídeo reciente jugando y las notas, y con eso vemos qué nivel de universidad tiene sentido. ¿Sigue en pie la idea? Si es así, mándame lo que tengas de vídeo.",
+    ("Becas: reactivar a Gonzalo Caro (Instagram @gonzalocarocontreras)", "Hola Gonzalo, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
+     "Un solo intento."),
+    ("Becas: reactivar a Tania Coeto (Instagram @tania_coeto)", "Hola Tania, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
+     "Un solo intento."),
+    ("Becas: reactivar a Anita (Instagram @ani_0487)", "Hola Anita, soy Joel de Always Up. En verano me preguntaste por la inscripción y creo que la respuesta se quedó pendiente, perdona. Empezamos con una evaluación, con un vídeo reciente jugando y las notas, y con eso vemos qué nivel de universidad tiene sentido. ¿Sigue en pie la idea? Si es así, mándame lo que tengas de vídeo.",
      "Si ya le contestaste entonces, sáltate este. Un solo intento."),
     ("Home Farm: respuesta (5/11), en el mismo hilo", "Thanks for letting me know, that's great.\n\nI've attached a short sheet with what a week looks like, in case it's useful for the coaches. If any of them would like to talk it through, I'm happy to jump on a quick video call, no commitment.\n\nDo you know which age groups are having a look? Then I can send the right details.\n\nBest,\n" + SIG,
      "Adjunta 02-sales/assets/Always-Up-Team-Experience.pdf. Cancela lo demás de la secuencia: Home Farm ya no recibe más follow-ups automáticos."),
@@ -740,8 +742,12 @@ REPLIES = [
      "Versión de Joel: clara y por escrito. Si no tienes claro que el precio de David sea por jugador y año, pregúntaselo antes en una línea. Si Omar pregunta por alojamiento o por becas, contéstale en la llamada. Nunca hables de beca garantizada."),
     ("Itrupo: decir que no (Instagram)", "Hola Miguel, muchas gracias por pensar en mí. Ahora mismo no puedo aceptar colaboraciones con comisión, así que paso esta vez. ¡Mucha suerte con el proyecto!\n\nJoel",
      "Decisión tuya. Yo diría que no: es muy poco dinero y no ayuda a vender viajes."),
-    ("Richard Clarke: mensaje cuando acepte en LinkedIn", "Thanks for connecting, Richard. I really enjoyed your talk. I'm a student here in New York and I'm also building Always Up with my dad: we take youth teams to train at clubs like Atlético de Madrid and Real Sociedad.\n\nWe're at the very start with content and I'd value your advice. Would you have 15 minutes in the next few weeks? I'd love to hear what you'd focus on first if you were in our position. No pitch, I promise.\n\nJoel",
-     "Mándalo 1 o 2 días después de que acepte. Si puedes, cambia la primera frase por algo concreto que dijera en la charla: es lo que hará que conteste. No le vendas nada."),
+    ("Richard Clarke: mensaje cuando acepte en LinkedIn", "Thanks for connecting, Richard. I really enjoyed your talk, especially hearing how many clubs you've worked with around the world. It showed me you can build a life in football almost anywhere, and that stayed with me.\n\nI'm a student here in New York and I'm also building Always Up with my dad: we take youth teams to train at clubs like Atlético de Madrid and Real Sociedad. We're at the very start with content and I'd value your advice. Would you have 15 minutes in the next few weeks? I'd love to hear what you'd focus on first if you were in our position. No pitch, I promise.\n\nJoel",
+     "LinkedIn, mensaje directo. Ya lleva la frase de su charla que te gustó. No le vendas nada. Si contesta, pégamelo."),
+    ("Caso PR: cambios en el Anexo I antes de mandarlo (para Enrique, 9/11)", "Papá, he leído la autorización y está muy bien hecha. Antes de mandarla esta noche, cambiaría tres cosas:\n\n1. En la cláusula 10 queda sin rellenar el correo de contacto. Pon el tuyo o info@alwaysup.es.\n2. Pone \"Linkedln\" con l en vez de I.\n3. El organizador eres tú como persona, pero lo publicaremos en las cuentas de Always Up y en la mía (@Joel_alwaysup). En la cláusula 3, después de Instagram, añadiría: \"(cuentas de Always Up, de Quality Servix Premium SL, y @Joel_alwaysup)\".\n\nSi algún día queremos promocionar un vídeo con anuncios, habría que pedírselo aparte, porque no lo cubre.",
+     "WhatsApp a Enrique, hoy antes de que lo mande. El punto 3 es el importante: sin él, publicar en tu cuenta o en la de Always Up no queda claro."),
+    ("Caso PR: ratificación al cumplir 18 (WhatsApp al jugador, 5/1/2027)", "¡Felicidades por tus 18! Una cosa rápida: ahora que eres mayor de edad, ¿nos confirmas por escrito que sigues de acuerdo con la autorización de imagen que firmasteis en noviembre? Con un \"sí, estoy de acuerdo\" por aquí basta. ¡Un abrazo!",
+     "Lo manda Enrique o Joel. Sin esta respuesta no se publica nada nuevo (cláusula 9). Guarda una captura."),
     ("Calentar el dominio 1: opinión sobre la web (familia o amigo)", "Asunto: Una opinión sobre la web\n\nHola [nombre], ¿qué tal todo?\n\nEstoy revisando la web de Always Up y me viene bien la opinión de alguien que la vea con ojos nuevos. ¿Puedes entrar un momento en alwaysup.es y decirme qué entiendes que hacemos y qué es lo primero que cambiarías? Con dos líneas me vale.\n\nUn abrazo,\nJoel Martinez\nFounder, Always Up\njoel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es",
      "Desde joel.martinez@alwaysup.es, a una sola persona. Cambia [nombre]. Sin adjuntos."),
     ("Calentar el dominio 2: ¿conoces algún club? (amigo del fútbol)", "Asunto: ¿Conoces algún club o entrenador?\n\nHola [nombre], ¿cómo va la temporada?\n\nTe escribo desde el correo de Always Up porque estoy buscando clubes de fútbol base que suelan viajar con sus equipos. ¿Conoces a algún entrenador o club que lo haga, o que le pueda interesar venir a España? Si no se te ocurre nadie, dímelo también y no pasa nada.\n\nGracias y un abrazo,\nJoel Martinez\nFounder, Always Up\njoel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es",
@@ -947,6 +953,34 @@ def build_calendar(sends):
     for dd, txt in ((D(2027, 1, 7), "Publicar el reel 1, las historias del diario y la destacada «Casos reales»"), (D(2027, 1, 14), "Publicar el reel 2 y el carrusel"),
                     (D(2027, 1, 21), "Publicar tu vídeo a cámara y el post de LinkedIn"), (D(2027, 1, 28), "Publicar el testimonio y la página del caso en la web")):
         add(dd, "Libre", 610, "Instagram", "Caso PR: " + txt, "Solo si la autorización está firmada. Publicación conjunta entre @Joel_alwaysup y Always Up. Cierre: «Si quieres vivir algo así, escríbeme ESPAÑA». Pégame los mensajes que lleguen.", PR, 20)
+    # --- 9/11 (tarde): lo que cambia tras la llamada con Enrique
+    C[:] = [x for x in C if not x["task"].startswith("Caso PR: pasar a Naiara (o a Enrique) la lista")]
+    for x in C:
+        if x["task"].startswith("Bloque de redes sociales") and x["date"] in (D(2026, 11, 11), D(2026, 11, 14)):
+            x["task"] = "Redes: avanzar tu plan de agentes de redes sociales (%d min)" % x["mins"]
+            x["how"] = "Lo construyes tú esta semana. Cuando tengas la v1, pásamela y la reviso con dos números en mente: seguidores (de 2.150 hacia 10.000) y mensajes de familias o clubes, que es lo que acaba en ventas. El caso del jugador de Puerto Rico es el primer contenido fuerte: publicación desde el 7/1."
+        if x["task"].startswith("Caso PR: confirmar quién hace la entrevista final"):
+            x["task"] = "Caso PR: confirmar la fecha de la entrevista final y mandar a Enrique el mensaje para la madre"
+            x["how"] = "La estancia en el Real Unión es del 10 al 22/11. Con el planning, fija el día (el último o el último fin de semana, por si puede ir Naiara). Manda a Enrique el Mensaje 3 (para la madre): él decide si lo envía ya o el 22/11."
+            x["where"] = "04-marketing/caso-pr-entrevista-final-y-familia.md (Mensaje 3)"
+        if x["task"].startswith("Caso PR: entrevista final, fotos"):
+            x["date"] = D(2026, 11, 21)
+            x["task"] = "Caso PR: entrevista final y fotos (fecha provisional)"
+            x["how"] = "Enrique, o Naiara si puede ir ese fin de semana. Sigue el Mensaje 2: de 10 a 15 minutos, frases cortas a cámara y tres fotos (con la camiseta, con Enrique, con la bolsa o las botas). Todo a la carpeta de Drive."
+        if x["task"].startswith("Caso PR: pasarme el inventario"):
+            x["date"] = D(2026, 11, 23)
+            x["how"] = "Dime en el chat qué hay: clips del Metropolitano y del entrenamiento, la entrevista, el vídeo de los padres y las fotos, y qué ha salido bien o mal. Yo elijo los clips de cada pieza y escribo los textos."
+        if x["task"].startswith("Caso PR: confirmar con Enrique la autorización firmada"):
+            x["task"] = "Caso PR: comprobar el Anexo I firmado y cómo acabó la prueba"
+            x["how"] = "Que esté firmado por padre, madre y jugador, con una copia en Drive (no en el repo). Pregunta cómo acabó la prueba: el resultado no se publica sin permiso escrito de los padres (cláusula 5e). Cumple 18 el 5/1/2027."
+        if x["task"].startswith("Caso PR: Publicar"):
+            x["how"] = "Antes: (1) desde el 5/1, ratificación por escrito del jugador (cláusula 9); (2) manda la pieza a los padres y al jugador por WhatsApp y espera el visto bueno (cláusula 7). Publicación conjunta entre @Joel_alwaysup y Always Up. Cierre: «Si quieres vivir algo así, escríbeme ESPAÑA». Pégame los mensajes que lleguen."
+    add(D(2026, 11, 9), "Ahora", 30, "Instagram", "Caso PR: mandar a Enrique los cambios del Anexo I (antes de que lo mande esta noche)", "WhatsApp. Tres cambios: correo de contacto sin rellenar, «Linkedln» y que la autorización cubra las cuentas de Always Up y @Joel_alwaysup.", "Textos para copiar (Respuestas tipo): Anexo I", 3)
+    add(D(2026, 11, 9), "Ahora", 31, "Instagram", "Caso PR: mandar a Enrique los mensajes 1 y 2 (qué grabar y la entrevista final)", "WhatsApp, copia y pega los dos bloques. El mensaje a la madre (Mensaje 3) va el viernes 13/11.", "04-marketing/caso-pr-entrevista-final-y-familia.md", 3)
+    add(D(2026, 11, 10), "Noche", 1290, "Todos", "Enrique: cómo fue Donosti (planning del club, grabar y nombrar, Iñigo y los servicios)", "Pregúntale y pégame lo que diga: (1) el planning del 10 al 22/11; (2) si se puede grabar y nombrar al club; (3) qué cerró con Iñigo de cada servicio. Para las pruebas pagadas necesito tres datos: precio, duración y qué incluye. Con eso te hago la ficha.", "Chat con Claude", 10)
+    add(D(2026, 11, 12), "Noche", 1290, "Team/Coach", "Enrique: qué salió del Deportivo y de Daniel Aceval", "Pregúntale qué ofrecen, en qué condiciones y si hay algo que podamos vender ya. El Deportivo está en negociación desde agosto: lo que buscamos es un acuerdo concreto. Pégame lo que diga.", "Chat con Claude", 10)
+    add(D(2026, 11, 16), "Libre", 621, "Team/Coach", "Greystones 2027: decidir con Enrique cómo y cuándo se les pregunta", "Es el único cliente que ha repetido y no tiene nada para 2027. Propuesta: cuando Patrick apruebe el testimonio, Enrique (que tiene la relación) le pregunta qué planes tienen para Semana Santa o verano 2027.", "", 5)
+    add(D(2027, 1, 5), "Libre", 600, "Instagram", "Caso PR: pedir al jugador la ratificación por escrito (cumple 18 hoy)", "Sin su respuesta no se publica nada nuevo (cláusula 9). Guarda una captura en Drive.", "Textos para copiar (Respuestas tipo): ratificación", 3)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
