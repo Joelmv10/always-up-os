@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "5/11/2026"
+VERSION = "9/11/2026"
 
 ROSS = """{greet}
 
@@ -922,6 +922,28 @@ def build_calendar(sends):
     add(D(2026, 11, 9), "Libre", 620, "Becas", "Preparar la llamada con Omar: pregunta a David y guion", "Pregunta a David en una línea: «¿Esos precios son por jugador y año, y con alojamiento?». Lee el guion (10 minutos).", "02-sales/guion-llamada-omar.md", 15)
     add(D(2026, 11, 10), "Tarde", 1100, "Becas", "LLAMADA con Omar (WhatsApp)", "A la hora que fijasteis (Monterrey va 1 hora por detrás de Nueva York). Sigue el guion. Después, pégame en el chat lo que se habló.", "02-sales/guion-llamada-omar.md", 25)
     add(D(2026, 11, 16), "Libre", 620, "Team/Coach", "Patrick: si no ha contestado al borrador, recordárselo una vez", "«Hi Patrick, no rush at all, just checking you saw the draft. Change whatever you like.» Solo si sigue sin contestar. Si ya aprobó, no hace falta nada.", "Aquí mismo", 2)
+    # --- lo del viernes 6 y el sábado 7/11 que Joel deja para el lunes 9/11
+    for x in C:
+        if x["date"] in (D(2026, 11, 6), D(2026, 11, 7)) and not x["task"].startswith(("ENVIAR", "Revisión diaria", "Confirmar que salieron", "Bloque de redes")):
+            x["date"] = D(2026, 11, 9)
+    # --- caso del jugador de Puerto Rico (plan en 04-marketing/caso-jugador-puerto-rico-nov-2026.md)
+    PR = "04-marketing/caso-jugador-puerto-rico-nov-2026.md"
+    add(D(2026, 11, 9), "Libre", 600, "Instagram", "Caso PR: crear la carpeta de Drive «2026-11 Puerto Rico» y compartirla", "Con Naiara y con Enrique, con permiso para subir archivos. Nombres de archivo: fecha_lugar_tipo (20261110_entreno_clip01). Nada de este material va al repo.", PR, 5)
+    add(D(2026, 11, 9), "Libre", 601, "Instagram", "Caso PR: mandar a Enrique el diario para el jugador y las preguntas para la madre", "Los dos textos están en el documento del caso. Que Enrique se lo pase al jugador hoy, para que el diario empiece esta noche.", PR, 5)
+    add(D(2026, 11, 9), "Libre", 602, "Instagram", "Caso PR: en la llamada con Enrique, cerrar horario, día de Naiara y cómo presentar Always Up", "1) Días y horas de entrenamiento. 2) Qué día puede grabar Naiara; si no puede, graba Enrique con la lista. 3) Que explique a la madre que Always Up es su empresa, antes del vídeo. 4) Qué acuerda con David sobre SADE y University Soccer. 5) ¿Esto es un servicio que vamos a vender? ¿Con qué precio y formato? 6) Si tenéis camiseta o sudadera de Always Up, que se la dé para la entrevista.", PR, 15)
+    for dd in (D(2026, 11, 10), D(2026, 11, 11), D(2026, 11, 12), D(2026, 11, 13), D(2026, 11, 14), D(2026, 11, 15)):
+        add(dd, "Noche", 1300, "Instagram", "Caso PR: mirar que llegó el diario del día (5 min)", "Abre la carpeta de Drive: ¿está el vídeo del jugador? ¿Se oye bien y tiene luz? Si falta, que Enrique se lo recuerde. Si algo sale mal, dímelo para corregirlo al día siguiente.", "Carpeta de Drive", 5)
+    add(D(2026, 11, 10), "Libre", 603, "Instagram", "Caso PR: pasar a Naiara (o a Enrique) la lista del entrenamiento para el día que grabe", "La lista está en el documento del caso (apartado B). Solo si el club ha dado permiso.", PR, 3)
+    add(D(2026, 11, 15), "Libre", 600, "Instagram", "Caso PR: entrevista final y vídeo de los padres", "El último día del jugador en España: entrevista de 10 minutos (apartado D) y que la madre mande su vídeo (apartado E). Apunta los datos del apartado F.", PR, 20)
+    add(D(2026, 11, 16), "Libre", 600, "Instagram", "Caso PR: pasarme el inventario del material", "Dime en el chat qué hay: cuántos clips de cada momento, si están el diario, la entrevista y el vídeo de los padres, y qué ha salido bien o mal. Yo elijo los clips de cada pieza y escribo los textos.", "Chat con Claude", 10)
+    add(D(2026, 11, 18), "Libre", 610, "Instagram", "Caso PR: montar el reel 1 (Del showcase al Metropolitano)", "En CapCut, de 15 a 25 segundos, vertical y con subtítulos. Guárdalo como borrador: no se publica hasta tener la autorización.", PR, 45)
+    add(D(2026, 11, 25), "Libre", 610, "Instagram", "Caso PR: montar el reel 2 (una semana entrenando en España) y el carrusel", "Mismo proceso. Los textos te los dejo yo.", PR, 60)
+    add(D(2026, 12, 2), "Libre", 610, "Instagram", "Caso PR: montar el testimonio (jugador y padres)", "De 30 a 60 segundos. Es la pieza más valiosa: cuida el audio y los subtítulos.", PR, 45)
+    add(D(2026, 12, 9), "Libre", 610, "Instagram", "Caso PR: grabarte a cámara contando el caso", "De 45 a 60 segundos. Te dejo el guion antes. Sin prometer nada.", PR, 30)
+    add(D(2026, 12, 16), "Libre", 610, "Instagram", "Caso PR: confirmar con Enrique la autorización firmada", "Cumple 18 a finales de diciembre. Sin firma no se publica. Pregunta también cómo acabaron las pruebas, para el vídeo de qué pasó después.", "", 5)
+    for dd, txt in ((D(2027, 1, 7), "Publicar el reel 1, las historias del diario y la destacada «Casos reales»"), (D(2027, 1, 14), "Publicar el reel 2 y el carrusel"),
+                    (D(2027, 1, 21), "Publicar tu vídeo a cámara y el post de LinkedIn"), (D(2027, 1, 28), "Publicar el testimonio y la página del caso en la web")):
+        add(dd, "Libre", 610, "Instagram", "Caso PR: " + txt, "Solo si la autorización está firmada. Publicación conjunta entre @Joel_alwaysup y Always Up. Cierre: «Si quieres vivir algo así, escríbeme ESPAÑA». Pégame los mensajes que lleguen.", PR, 20)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
