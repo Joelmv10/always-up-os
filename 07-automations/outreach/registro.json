@@ -371,6 +371,32 @@
       "date": "2026-11-09",
       "task": "Preparar la llamada con Omar",
       "nota": "David: por jugador y año, normalmente todo incluido (universidad, alojamiento y comida)"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Caso PR: mandar a Enrique los cambios del Anexo",
+      "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Caso PR: mandar a Enrique los mensajes 1 y 2",
+      "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Becas: un último mensaje",
+      "nota": "Pavel: sí, llamada esta semana. Tania: no. Gonzalo Caro: cuenta equivocada. Francisco y Anita: sin respuesta"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Richard Clarke",
+      "nota": "Mensaje enviado"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "LinkedIn: conectar con Ken Donohoe",
+      "estado": "Saltado",
+      "nota": "Su perfil no dice St Kevin's: no se conecta"
     }
   ],
   "textos": [
@@ -411,6 +437,11 @@
       "club": "St Kevin's FC (Dublín)",
       "to": "admin@skbfc.com",
       "nota": "En Enviados aparece 4 veces (pendiente de confirmar si salieron 4 copias). Follow-up retrasado al 25/11."
+    },
+    {
+      "club": "St Kevin's FC (Dublín)",
+      "to": "Ken Donohoe",
+      "nota": "9/11: el perfil no dice St Kevin's. No se conecta."
     }
   ],
   "clubes": [

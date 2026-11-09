@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "9/11/2026 (3)"
+VERSION = "9/11/2026 (4)"
 
 ROSS = """{greet}
 
@@ -726,6 +726,12 @@ REPLIES = [
      "Un solo intento."),
     ("Becas: reactivar a Tania Coeto (Instagram @tania_coeto)", "Hola Tania, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
      "Un solo intento."),
+    ("Pavel: fijar la llamada (Instagram, 9/11)", "¡Genial, Pavel! Me alegro mucho. ¿Te viene bien el miércoles 11 o el jueves 12 a las 7 de la tarde, hora de Nueva York? Si prefieres otra hora, dime y me adapto. Y si quieres que esté también tu padre o tu madre, mejor todavía, así resolvemos las dudas de todos. ¿Te llamo por aquí o por WhatsApp?",
+     "Cambia la hora si tienes partido o entreno. Que estén los padres ayuda mucho: son los que deciden y pagan. Guion en 02-sales/guion-llamada-pavel.md."),
+    ("Tania: despedida (Instagram, 9/11)", "Gracias por contestar, Tania. Mucha suerte con todo, y si en algún momento te vuelve a interesar, aquí estoy.",
+     "Y se cierra. No se vuelve a escribir."),
+    ("Gonzalo Caro: cuenta equivocada (Instagram, 9/11)", "Perdona la confusión y muchas gracias por contestar. ¡Un saludo!",
+     "Después busca en tus mensajes de Instagram y WhatsApp de verano el hilo del Gonzalo de verdad. Si lo encuentras, pásame el usuario."),
     ("Becas: reactivar a Anita (Instagram @ani_0487)", "Hola Anita, soy Joel de Always Up. En verano me preguntaste por la inscripción y creo que la respuesta se quedó pendiente, perdona. Empezamos con una evaluación, con un vídeo reciente jugando y las notas, y con eso vemos qué nivel de universidad tiene sentido. ¿Sigue en pie la idea? Si es así, mándame lo que tengas de vídeo.",
      "Si ya le contestaste entonces, sáltate este. Un solo intento."),
     ("Home Farm: respuesta (5/11), en el mismo hilo", "Thanks for letting me know, that's great.\n\nI've attached a short sheet with what a week looks like, in case it's useful for the coaches. If any of them would like to talk it through, I'm happy to jump on a quick video call, no commitment.\n\nDo you know which age groups are having a look? Then I can send the right details.\n\nBest,\n" + SIG,
@@ -981,6 +987,13 @@ def build_calendar(sends):
     add(D(2026, 11, 12), "Noche", 1290, "Team/Coach", "Enrique: qué salió del Deportivo y de Daniel Aceval", "Pregúntale qué ofrecen, en qué condiciones y si hay algo que podamos vender ya. El Deportivo está en negociación desde agosto: lo que buscamos es un acuerdo concreto. Pégame lo que diga.", "Chat con Claude", 10)
     add(D(2026, 11, 16), "Libre", 621, "Team/Coach", "Greystones 2027: decidir con Enrique cómo y cuándo se les pregunta", "Es el único cliente que ha repetido y no tiene nada para 2027. Propuesta: cuando Patrick apruebe el testimonio, Enrique (que tiene la relación) le pregunta qué planes tienen para Semana Santa o verano 2027.", "", 5)
     add(D(2027, 1, 5), "Libre", 600, "Instagram", "Caso PR: pedir al jugador la ratificación por escrito (cumple 18 hoy)", "Sin su respuesta no se publica nada nuevo (cláusula 9). Guarda una captura en Drive.", "Textos para copiar (Respuestas tipo): ratificación", 3)
+    # --- 9/11 (noche): respuestas de becas y documento de reuniones de Enrique
+    C[:] = [x for x in C if not x["task"].startswith("Enrique: qué salió del Deportivo")]
+    add(D(2026, 11, 9), "Ahora", 32, "Todos", "Enrique: mandarle lo que añadimos a su documento de reuniones", "WhatsApp o correo. Texto listo. Incluye lo de los 60 niños cuando me cuentes qué es.", "00-company/reuniones-enrique-semana-2026-11-09.md", 3)
+    add(D(2026, 11, 9), "Ahora", 33, "Becas", "Pavel: proponerle día y hora para la llamada", "Instagram. Texto listo. Cuando confirme, dímelo y lo pongo en el calendario.", "Textos para copiar (Respuestas tipo): Pavel", 2)
+    add(D(2026, 11, 9), "Ahora", 34, "Becas", "Tania y Gonzalo Caro: cerrar con un mensaje corto", "Instagram. Textos listos. Busca también en tus mensajes de verano el hilo del Gonzalo de verdad.", "Textos para copiar (Respuestas tipo)", 3)
+    add(D(2026, 11, 12), "Libre", 1110, "Becas", "LLAMADA con Pavel (provisional: miércoles 11 o jueves 12)", "Cuando confirme la hora, la cambio. Sigue el guion. Después pégame lo que se habló.", "02-sales/guion-llamada-pavel.md", 20)
+    add(D(2026, 11, 13), "Noche", 1290, "Todos", "Enrique: resultado de las reuniones (David, Iñigo, Daniel Aceval y el Deportivo)", "Pídele lo que salió de cada una: precio, siguiente paso, quién y fecha. Para las pruebas pagadas necesito precio, duración y qué incluye. Si conoce a Luis Gendive (Arlington Soccer Club), que nos presente. Pégame lo que diga.", "00-company/reuniones-enrique-semana-2026-11-09.md", 15)
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
@@ -1573,11 +1586,11 @@ def update_segment_c(wb):
     OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés. | Omar contesta el 4/11: terminan la prepa en junio de 2027; Duolingo Rafael 105 y Gabriel 110; prefieren la misma universidad, abiertos a distintas si les beneficia. Faltan las notas. | 5/11: valoración de David: \"son duritos\"; opciones NJCAA por 15 a 18k o NCAA DIII por 25k (pendiente aclarar si es coste anual por jugador para la familia)."
     cambios = {
         "Omar Escamilla": ("Llamada realizada", "Llamada el martes 10/11 por la tarde (guion en 02-sales/guion-llamada-omar.md). Faltan las notas.", OMAR),
-        "Pavel Gomez": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
-        "Francisco Ferreira": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
-        "Gonzalo Caro": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
-        "Tania Coeto": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
-        "Anita": ("Cualificado", "Último mensaje el 6/11 (un solo intento). Si no contesta, Perdido.", None),
+        "Pavel Gomez": ("Cualificado", "9/11: quiere hablar 15 minutos esta semana. Fijar día y hora; guion en 02-sales/guion-llamada-pavel.md.", "9/11: responde que la idea sigue en pie."),
+        "Francisco Ferreira": ("Cualificado", "Último mensaje el 9/11. Si no contesta antes del 16/11, Perdido.", None),
+        "Gonzalo Caro": ("Perdido", "La cuenta de Instagram no es la del lead. Joel busca el hilo de verano; si no aparece, se queda en Perdido.", "9/11: la cuenta contesta que no es Gonzalo y que no tiene su contacto."),
+        "Tania Coeto": ("Perdido", "Cerrado. Despedida amable el 9/11.", "9/11: 'ya los planes cambiaron'."),
+        "Anita": ("Cualificado", "Último mensaje el 9/11. Si no contesta antes del 16/11, Perdido.", None),
     }
     for r in range(5, ws.max_row + 1):
         nombre = str(ws.cell(row=r, column=1).value or "")
