@@ -133,3 +133,22 @@ Depende del horario de entrenamientos, que tiene que pasar Enrique. Naiara no pu
 
 ## Lo que aprendemos para la próxima vez
 Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de grabación" fijo (esta misma lista) y una cláusula de consentimiento de imagen dentro del contrato de cada Team Experience y de cada programa, para no depender de avisos de última hora.
+
+## Material del Metropolitano (subido por Naiara el 9/11, revisado por Claude con las miniaturas)
+51 archivos (IMG_3969 a IMG_4021): 25 vídeos y 26 fotos.
+
+**Qué hay:**
+- **Llegada:** subiendo las escaleras con el letrero del estadio delante (3969, de espaldas, muy buen arranque). Exterior de noche (3970) y fotos delante del letrero (3971 a 3974).
+- **La estrella de Griezmann en el paseo de la fama:** él agachado tocándola (3975 a 3984). No estaba en la lista y es un momento con historia.
+- **Entrada a la grada:** 3985 a 3987 en vídeo (de espaldas entrando y mirando el campo). Es el plano clave del reel 1; hay que comprobar que se le ve la cara al ver el campo.
+- **Retratos con el campo detrás:** 3988 a 3991.
+- **Ambiente:** el tifo «CORAZÓN», el túnel de salida de los equipos y el campo (3993 a 4021). Él grabando con el móvil (4002) y fotos de él con el tifo (4013 y 4014).
+
+**Qué falta o hay que comprobar al verlos con sonido:**
+- Las preguntas cortas en un pasillo («¿Qué se siente estar aquí?»). En las miniaturas no se ve ningún clip de él hablando a cámara. Si no están, sus respuestas salen de la entrevista final.
+- Su reacción a un gol (4001 parece una celebración).
+- La orientación de cada clip (vertical u horizontal).
+
+**Uso:**
+- Las jugadas del partido (4008, 4009 y 4012) solo valen como segundos de ambiente, por los derechos de LaLiga.
+- Los escudos del Atlético y del Barça no van en portadas.

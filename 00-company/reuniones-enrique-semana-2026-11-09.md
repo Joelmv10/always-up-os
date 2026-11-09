@@ -64,3 +64,19 @@
 - **NY/NJ:** Joel puede verlos en persona.
 - **Arlington Soccer Club:** es un candidato muy bueno para Team Experience. Si Enrique conoce a Luis Gendive, mejor una presentación suya que un correo en frío.
 - **Yale y Montevallo:** los equipos universitarios de EEUU pueden hacer viajes al extranjero (en la NCAA, normalmente uno cada cuatro años). Se les puede ofrecer una pretemporada en España. Hay que verificar la norma de cada división antes de proponerlo.
+
+## Respuesta de Enrique (9/11, noche) y lo que aprendemos
+**Qué dijo:**
+- **Pruebas:** quiere una referencia de lo que paga la gente. Hay que encontrar el club que lo haga (no hace falta un club premium), definirlo y ofrecerlo cuando esté. Referencia en `02-sales/referencia-precio-pruebas.md`.
+- **Showcase con SADE:** SADE organiza y lo paga todo. Nosotros ponemos el precio por llevar entrenadores de primer nivel del club. Lo quiere ya, con el mismo plan que se hizo para Bélgica. Propuesta en `02-sales/precio-showcase-sade.md`.
+- **Academia internacional:**
+  - Solo se puede hacer con un club: hay que elegir cuál y cerrar el producto.
+  - Enrique la ve cada vez menos porque es muy cara, salvo que se ofrezca de forma individual ("siempre hay gente que paga").
+  - Está de acuerdo con la lista de espera y "temporada 2027/28" en la web esta semana.
+- **WARUBI:** David intentará sacar el precio. El Bayern ofrece un curso de entrenador por unos 4.500 €.
+- **Representación:** se hace con una agencia de representación muy top, la que tenía Iñigo cuando era jugador.
+- **Campus individuales:** son una experiencia como la de un equipo, pero individual. Hay que ver quién la puede ofrecer y en qué formato.
+- **Pruebas pagadas:** a definir.
+- **El punto 3 de su documento** era su guion personal para no olvidar temas, no una petición de ideas.
+
+**Lección para Claude:** lo que se le manda a Enrique tiene que ser nuevo y concreto (un número, un texto, una decisión), nunca advertencias genéricas que ya conoce. Él trabaja con su propio Claude. Antes de añadir nada a sus documentos, preguntar a Joel qué sabe ya Enrique.

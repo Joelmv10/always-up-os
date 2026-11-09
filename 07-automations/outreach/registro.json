@@ -87,6 +87,18 @@
       "key": "stkevins",
       "kind": "Email 1",
       "date": "2026-11-06"
+    },
+    {
+      "key": "akranes",
+      "kind": "Follow-up 1",
+      "date": "2026-11-09",
+      "nota": "Enviado a mano el 9/11 por la noche"
+    },
+    {
+      "key": "maidstone",
+      "kind": "Follow-up 1",
+      "date": "2026-11-09",
+      "nota": "Enviado a mano el 9/11 por la noche"
     }
   ],
   "tareas": [
@@ -397,6 +409,53 @@
       "task": "LinkedIn: conectar con Ken Donohoe",
       "estado": "Saltado",
       "nota": "Su perfil no dice St Kevin's: no se conecta"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Programar en Apple Mail los envíos del martes",
+      "nota": "Bollington y Cedar Stars programados. Akranes y Maidstone, enviados a mano esta noche"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "ENVIAR follow-up 1 a IA Akranes",
+      "nota": "Enviado a mano el 9/11 por la noche"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "ENVIAR follow-up 1 a Maidstone",
+      "nota": "Enviado a mano el 9/11 por la noche"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Formulario web: Cramond",
+      "estado": "Saltado",
+      "nota": "No hay formulario usable ni correo público (el de la web pide cuenta). Se deja"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Formulario web: NY Empire",
+      "estado": "Saltado",
+      "nota": "El formulario es para eventos y no admite mensaje. Pasa a LinkedIn (Rob Mannino)"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Caso PR: revisar lo que Naiara suba",
+      "nota": "51 archivos: 25 vídeos y 26 fotos. Revisados por Claude"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Enrique: mandarle lo que añadimos",
+      "nota": "Enviado. Su respuesta, en 00-company/reuniones-enrique-semana-2026-11-09.md"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Pavel: proponerle",
+      "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Tania y Gonzalo Caro",
+      "nota": "Enviado"
     }
   ],
   "textos": [
