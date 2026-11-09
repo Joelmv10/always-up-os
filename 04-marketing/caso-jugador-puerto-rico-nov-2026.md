@@ -2,7 +2,7 @@
 
 > Preparado el 8/11/2026. Es un jugador que Enrique conoció en el showcase de Puerto Rico (con SADE, agosto de 2026). Ha llegado a España para entrenar unos días con un club español (Unión; entrenamiento el martes 10/11) y hoy va al Atlético contra el Barça en el Metropolitano. Graba Naiara (hermana de Joel). **Tiene 17 años: cumple 18 el 5/1/2027.**
 
-> **Actualizado el 9/11:** entrena con el **Real Unión de Irún**, que quiere verle del 10 al 22/11. El club pasa el planning (entrenos, partidos, otros clubes) el 10/11. Graba casi todo Enrique; Naiara solo si coincide un fin de semana. Paquete para Enrique (qué grabar, entrevista final y mensaje a la madre) en `caso-pr-entrevista-final-y-familia.md`. Es un cliente de pago del servicio de pruebas (línea 4): es el primer caso real de ese servicio.
+> **Actualizado el 9/11:** entrena con el **Real Unión de Irún**, que quiere verle del 10 al 22/11. El club pasa el planning (entrenos, partidos, otros clubes) el 10/11. Graba casi todo Enrique; Naiara solo si coincide un fin de semana. Paquete para Enrique (qué grabar, entrevista final y mensaje a la madre) en `caso-pr-entrevista-final-y-familia.md`. No paga: viene gratis como ejemplo para enseñar el servicio de pruebas (línea 4), que se empieza a vender después (Joel, 9/11).
 
 ## Para qué sirve
 Es el primer caso real que podemos enseñar de un jugador que viene de América a España con Always Up. Sirve a tres públicos:

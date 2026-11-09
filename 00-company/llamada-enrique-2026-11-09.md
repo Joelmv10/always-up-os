@@ -92,4 +92,5 @@ Joel le escribe hoy a las 10:00. Si acepta la llamada, antes hace falta:
    - Hay conflicto de interés si el mismo jugador nos paga una prueba y le representamos.
    - Hasta 2027 no se ofrece.
 5. **Deportivo:** está en negociación desde agosto. La visita de Enrique es la ocasión de salir con algo concreto: qué podemos vender con ellos y en qué condiciones.
-6. **Primera venta:** si la estancia de este chico la factura Quality Servix, es la primera venta real del año y hay que registrarla en finanzas. Pendiente de confirmar con Enrique el precio y quién factura.
+6. **Primera venta:** este chico no paga (Joel, 9/11): ha venido gratis como ejemplo. Su coste cuenta como inversión en marketing. Los primeros clientes de pago pueden ser los otros chicos de la lista de Enrique, así que el precio tiene que estar cerrado antes de invitarles.
+7. **Cursos UEFA (aclaración de Joel, 9/11):** la licencia la expide la federación, y además se forman con los clubes. Falta saber qué federación o escuela, en qué idioma y en qué formato.
