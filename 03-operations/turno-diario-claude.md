@@ -20,6 +20,7 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
    - Mandar la tanda de conexiones del día, de 5 a 8, sin nota, comprobando en el perfil que el cargo y el club coinciden. Si no hay nadie preparado, conectar con decisores de los leads de la Donosti Cup (`01-clients/leads-donosti-cup.md`).
    - Clic a clic, sin scripts masivos. Si LinkedIn pide verificación, captcha o inicio de sesión, parar y avisar.
 4. **Trabajo de crecimiento del día** (uno por día, en este orden de semana):
+   Para cada uno se puede delegar en el agente del puesto (`.claude/agents/`): `analista-mercado` (lunes y sábado), `prospeccion-clubes` (martes y jueves), `becas-y-pruebas` (miércoles), `marketing-redes` (viernes) y `alianzas-socios` (cuando un socio pida algo). El turno revisa lo que entregan antes de guardarlo.
    - **Lunes:** competencia. Qué hacen Sports Tours, SLT, Ertheo, las agencias de la Donosti Cup (Avanza Sports, Elite Futbol Experience, Futlab, PL Sports, GFI) y otras; precios, ofertas, contenido; qué nos beneficia, qué nos perjudica y qué hacemos. Va en `08-knowledge-base/competencia.md`.
    - **Martes:** nuevos clubes para Team y Coach Experience. Decisor y correo comprobados en la web del club (empezar por el nivel 1 de la Donosti Cup). Se preparan como tanda nueva en el generador, pasando el validador.
    - **Miércoles:** becas y pruebas. Prescriptores (entrenadores de instituto y de club en Florida, México y Puerto Rico), programas de JUCO y NAIA y jugadores que terminan la universidad.
