@@ -86,3 +86,6 @@
 - **Iñigo:** buenas noticias sobre los servicios; se pueden hacer todos. Conclusión de los dos: **hay que centrar el tiro**. Hay muchas oportunidades, pero no hay clientes, e Iñigo y Enrique no pueden dedicarle tiempo hasta que esto genere ingresos, porque su fuente de ingresos principal es otra.
 - **Se plantean buscar a alguien que trabaje a tiempo completo** en Always Up para hacerlo crecer. Joel quiere ser esa persona y sabe que tiene que demostrarlo con clientes y dinero.
 - **Pendiente:** el planning del 10 al 22/11, si se puede grabar y nombrar al club, y la tarifa del club por entrenador y día para SADE.
+
+## Decisión de Joel (10/11): no se congela ningún servicio
+Claude propuso centrarse solo en SADE, las becas y Team Experience. Joel decide otra cosa: Iñigo y Enrique siguen desarrollando los servicios, y el foco de Joel y de Claude es **conseguir clientes de cualquier servicio, por cualquier canal**, para empezar a facturar en 2027 y demostrar que el negocio da para vivir. Cada servicio necesita un canal y un mensaje propios: Team Experience por correo y LinkedIn; Coach Experience, giras de equipos universitarios, pruebas en España y becas por la red de Joel (entrenadores universitarios, jugadores y agentes), Instagram y socios.
