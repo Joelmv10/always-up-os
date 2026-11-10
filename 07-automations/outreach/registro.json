@@ -509,6 +509,16 @@
       "date": "2026-11-12",
       "task": "LinkedIn: conectar con Rob Mannino",
       "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "LinkedIn: conectar con Jeff Oleck",
+      "nota": "Hecho por Claude el 10/11 (3 personas)"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "LinkedIn: conectar con Iain Scott",
+      "nota": "Hecho por Claude el 10/11 (Iain Scott y Martyn Keen)"
     }
   ],
   "textos": [
@@ -565,13 +575,31 @@
       "club": "Cedar Stars Academy",
       "to": "Phil Swenda",
       "date": "2026-11-10",
-      "nota": "Phil no aparece. 10/11: conectado sin nota con Christian Henry (Director of Coaching), John Saverio Antunes (Head Coach U16 MLS NEXT) y Lautaro Sosa Mendoza (Girls Head Coach)."
+      "nota": "Phil no aparece. 10/11: conectado sin nota con Christian Henry (Director of Coaching), John Saverio Antunes (Head Coach U16 MLS NEXT) y Lautaro Sosa Mendoza (Girls Head Coach). También Juan Santamaria (VP & Sporting Director). Christian Henry ACEPTÓ el 10/11."
     },
     {
       "club": "NY Empire FC",
       "to": "Rob Mannino",
       "date": "2026-11-10",
       "nota": "Rob no aparece. 10/11: conectado con Tyler Botte (EDP North Atlantic League Director, NY Club Soccer). Es una liga, no el club: puede abrir la puerta a muchos clubes."
+    },
+    {
+      "club": "Colorado Rapids Youth Soccer",
+      "to": "Jeff Oleck",
+      "date": "2026-11-10",
+      "nota": "10/11 (Claude, desde el perfil de Joel): Jeff Oleck (Director of International Travel), Danny Bills (Chief Sporting Director, Colorado Storm) y Maximilian Poland (11U-14U Boys Director). Sin nota."
+    },
+    {
+      "club": "Seacoast United",
+      "to": "Iain Scott",
+      "date": "2026-11-10",
+      "nota": "10/11 (Claude): Iain Scott (Director of Soccer Operations) y Martyn Keen (Director of Coaching, Maine). Sin nota."
+    },
+    {
+      "club": "Holbeach United",
+      "to": "Dan Lester",
+      "date": "2026-11-10",
+      "nota": "La invitación del 4/11 no estaba pendiente ni aceptada. Reenviada sin nota el 10/11."
     }
   ],
   "clubes": [
