@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "9/11/2026 (7)"
+VERSION = "10/11/2026"
 
 ROSS = """{greet}
 
@@ -727,6 +727,7 @@ REPLIES = [
     ("Becas: reactivar a Tania Coeto (Instagram @tania_coeto)", "Hola Tania, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
      "Un solo intento."),
     ("Pavel: fijar la llamada (Instagram, 9/11)", "¡Genial, Pavel! Me alegro mucho. ¿Te viene bien el miércoles 11 o el jueves 12 a las 7 de la tarde, hora de Nueva York? Si prefieres otra hora, dime y me adapto. Y si quieres que esté también tu padre o tu madre, mejor todavía, así resolvemos las dudas de todos. ¿Te llamo por aquí o por WhatsApp?",
+    ("Pavel: cambiar la llamada (Instagram, 10/11)", "¡Hola Pavel! Perdona, al final el miércoles no puedo porque estoy de viaje todo el día. ¿Te viene bien hoy a las 7? Si no, podría ser el jueves, pero todavía no te puedo confirmar la hora porque de miércoles a sábado estoy de viaje con el equipo. Y si esta semana no nos cuadra, la que viene la tengo totalmente libre, así que vamos hablando y lo cerramos. La hacemos por Zoom o por videollamada de WhatsApp, lo que te sea más cómodo.\n\nPara ir preparándola: ¿qué es lo que más te interesa hablar o qué dudas tienes?", "Línea opcional sobre los padres: «Lo de tus papás no te preocupes: si la semana que viene les viene mejor, buscamos un hueco en el que puedan estar, aunque sean 10 minutos.»"),
      "Cambia la hora si tienes partido o entreno. Que estén los padres ayuda mucho: son los que deciden y pagan. Guion en 02-sales/guion-llamada-pavel.md."),
     ("Tania: despedida (Instagram, 9/11)", "Gracias por contestar, Tania. Mucha suerte con todo, y si en algún momento te vuelve a interesar, aquí estoy.",
      "Y se cierra. No se vuelve a escribir."),
@@ -992,10 +993,10 @@ def build_calendar(sends):
     add(D(2026, 11, 9), "Ahora", 32, "Todos", "Enrique: mandarle lo que añadimos a su documento de reuniones", "WhatsApp o correo. Texto listo. Incluye lo de los 60 niños cuando me cuentes qué es.", "00-company/reuniones-enrique-semana-2026-11-09.md", 3)
     add(D(2026, 11, 9), "Ahora", 33, "Becas", "Pavel: proponerle día y hora para la llamada", "Instagram. Texto listo. Cuando confirme, dímelo y lo pongo en el calendario.", "Textos para copiar (Respuestas tipo): Pavel", 2)
     add(D(2026, 11, 9), "Ahora", 34, "Becas", "Tania y Gonzalo Caro: cerrar con un mensaje corto", "Instagram. Textos listos. Busca también en tus mensajes de verano el hilo del Gonzalo de verdad.", "Textos para copiar (Respuestas tipo)", 3)
-    add(D(2026, 11, 12), "Libre", 1110, "Becas", "LLAMADA con Pavel (provisional: miércoles 11 o jueves 12)", "Cuando confirme la hora, la cambio. Sigue el guion. Después pégame lo que se habló.", "02-sales/guion-llamada-pavel.md", 20)
+    add(D(2026, 11, 10), "Tarde", 1140, "Becas", "LLAMADA con Pavel (provisional: hoy a las 7, o jueves, o la semana que viene)", "Sus padres trabajan y no pueden estar: al final, pregúntale cuándo podrían escuchar 10 minutos, porque ellos deciden y pagan. Cuando confirme, la cambio. Sigue el guion. Después pégame lo que se habló.", "02-sales/guion-llamada-pavel.md", 20)
     add(D(2026, 11, 13), "Noche", 1290, "Todos", "Enrique: resultado de las reuniones (David, Iñigo, Daniel Aceval y el Deportivo)", "Pídele lo que salió de cada una: precio, siguiente paso, quién y fecha. Para las pruebas pagadas necesito precio, duración y qué incluye. Si conoce a Luis Gendive (Arlington Soccer Club), que nos presente. Pégame lo que diga.", "00-company/reuniones-enrique-semana-2026-11-09.md", 15)
     # --- 9/11 (noche): respuesta de Enrique, formularios que no existen y material de Naiara
-    add(D(2026, 11, 10), "Ahora", 20, "Todos", "Enrique: mandarle el precio del showcase para SADE y la referencia de precio de las pruebas", "WhatsApp. Texto corto y listo (sin repetirle nada que ya sepa). Lo que necesitamos de él: la tarifa del club por entrenador y día.", "02-sales/precio-showcase-sade.md y 02-sales/referencia-precio-pruebas.md", 3)
+    add(D(2026, 11, 10), "Noche", 1291, "Todos", "Enrique: hablar del precio del showcase para SADE y la referencia de precio de las pruebas", "Esta noche, en la misma conversación de Donosti (no por separado). Si quieres, usa el texto que te dejé el 10/11. Lo que necesitamos de él: la tarifa del club por entrenador y día.", "02-sales/precio-showcase-sade.md y 02-sales/referencia-precio-pruebas.md", 3)
     # --- 9/11 (noche): plan de contenido completo del caso (04-marketing/caso-pr-plan-contenido.md)
     C[:] = [x for x in C if not (x["task"].startswith("Caso PR: montar ") or x["task"].startswith("Caso PR: grabarte a cámara") or x["task"].startswith("Caso PR: Publicar"))]
     PLAN = "04-marketing/caso-pr-plan-contenido.md"
@@ -1609,7 +1610,7 @@ def update_segment_c(wb):
     OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés. | Omar contesta el 4/11: terminan la prepa en junio de 2027; Duolingo Rafael 105 y Gabriel 110; prefieren la misma universidad, abiertos a distintas si les beneficia. Faltan las notas. | 5/11: valoración de David: \"son duritos\"; opciones NJCAA por 15 a 18k o NCAA DIII por 25k (pendiente aclarar si es coste anual por jugador para la familia)."
     cambios = {
         "Omar Escamilla": ("Llamada realizada", "Llamada el martes 10/11 por la tarde (guion en 02-sales/guion-llamada-omar.md). Faltan las notas.", OMAR),
-        "Pavel Gomez": ("Cualificado", "9/11: quiere hablar 15 minutos esta semana. Fijar día y hora; guion en 02-sales/guion-llamada-pavel.md.", "9/11: responde que la idea sigue en pie."),
+        "Pavel Gomez": ("Cualificado", "10/11: le propones hoy a las 7, el jueves o la semana que viene (Joel de viaje de miércoles a sábado). Sus padres trabajan y no pueden estar. Guion en 02-sales/guion-llamada-pavel.md.", "9/11: responde que la idea sigue en pie."),
         "Francisco Ferreira": ("Cualificado", "Último mensaje el 9/11. Si no contesta antes del 16/11, Perdido.", None),
         "Gonzalo Caro": ("Perdido", "La cuenta de Instagram no es la del lead. Joel busca el hilo de verano; si no aparece, se queda en Perdido.", "9/11: la cuenta contesta que no es Gonzalo y que no tiene su contacto."),
         "Tania Coeto": ("Perdido", "Cerrado. Despedida amable el 9/11.", "9/11: 'ya los planes cambiaron'."),
