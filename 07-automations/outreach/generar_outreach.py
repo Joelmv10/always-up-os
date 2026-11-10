@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "10/11/2026"
+VERSION = "10/11/2026 (2)"
 
 ROSS = """{greet}
 
@@ -727,8 +727,10 @@ REPLIES = [
     ("Becas: reactivar a Tania Coeto (Instagram @tania_coeto)", "Hola Tania, soy Joel de Always Up. En verano intentamos cuadrar una llamada sobre EEUU y al final no se cerró, perdona. ¿Sigue en pie la idea? Si es así, dime un día de esta semana y lo hablamos. Y si ya no, me lo dices sin problema.",
      "Un solo intento."),
     ("Pavel: fijar la llamada (Instagram, 9/11)", "¡Genial, Pavel! Me alegro mucho. ¿Te viene bien el miércoles 11 o el jueves 12 a las 7 de la tarde, hora de Nueva York? Si prefieres otra hora, dime y me adapto. Y si quieres que esté también tu padre o tu madre, mejor todavía, así resolvemos las dudas de todos. ¿Te llamo por aquí o por WhatsApp?",
-    ("Pavel: cambiar la llamada (Instagram, 10/11)", "¡Hola Pavel! Perdona, al final el miércoles no puedo porque estoy de viaje todo el día. ¿Te viene bien hoy a las 7? Si no, podría ser el jueves, pero todavía no te puedo confirmar la hora porque de miércoles a sábado estoy de viaje con el equipo. Y si esta semana no nos cuadra, la que viene la tengo totalmente libre, así que vamos hablando y lo cerramos. La hacemos por Zoom o por videollamada de WhatsApp, lo que te sea más cómodo.\n\nPara ir preparándola: ¿qué es lo que más te interesa hablar o qué dudas tienes?", "Línea opcional sobre los padres: «Lo de tus papás no te preocupes: si la semana que viene les viene mejor, buscamos un hueco en el que puedan estar, aunque sean 10 minutos.»"),
      "Cambia la hora si tienes partido o entreno. Que estén los padres ayuda mucho: son los que deciden y pagan. Guion en 02-sales/guion-llamada-pavel.md."),
+    ("Pavel: cambiar la llamada (Instagram, 10/11)", "¡Hola Pavel! Perdona, al final el miércoles no puedo porque estoy de viaje todo el día. ¿Te viene bien hoy a las 7? Si no, podría ser el jueves, pero todavía no te puedo confirmar la hora porque de miércoles a sábado estoy de viaje con el equipo. Y si esta semana no nos cuadra, la que viene la tengo totalmente libre, así que vamos hablando y lo cerramos. La hacemos por Zoom o por videollamada de WhatsApp, lo que te sea más cómodo.\n\nPara ir preparándola: ¿qué es lo que más te interesa hablar o qué dudas tienes?", "Línea opcional sobre los padres: «Lo de tus papás no te preocupes: si la semana que viene les viene mejor, buscamos un hueco en el que puedan estar, aunque sean 10 minutos.»"),
+    ("LinkedIn: mensaje a Tyler Botte cuando acepte (EDP North Atlantic League Director)", "Thanks for connecting, Tyler. I'm Joel, I run Always Up here in New York. We take youth teams for training weeks in Spain, at Atlético de Madrid and Real Sociedad. I'd love to hear how EDP clubs usually plan trips abroad, and whether something like this could help some of your clubs. Open to a quick call whenever suits you. Joel",
+     "Es un director de liga, no de un club: no le vendemos un viaje, le pedimos consejo. Si contesta, lo que buscamos es que nos presente a 2 o 3 clubes de su liga."),
     ("Tania: despedida (Instagram, 9/11)", "Gracias por contestar, Tania. Mucha suerte con todo, y si en algún momento te vuelve a interesar, aquí estoy.",
      "Y se cierra. No se vuelve a escribir."),
     ("Gonzalo Caro: cuenta equivocada (Instagram, 9/11)", "Perdona la confusión y muchas gracias por contestar. ¡Un saludo!",
@@ -1368,9 +1370,9 @@ def sheet_linkedin(wb, sends):
     saved = read_saved(wb, "LinkedIn - Conexiones", (2, 3), (8, 9))
     ws = fresh(wb, "LinkedIn - Conexiones", 4)
     title(ws, "LinkedIn: conexiones con decisores (se hacen a mano)",
-          "Cada fila es una persona. Columna D: enlace directo al perfil o el texto exacto que debes pegar en el buscador de LinkedIn. Antes de conectar, comprueba que el cargo o el club del perfil coincide (columna E te dice cuánta confianza tengo). "
-          "Copia la nota de la columna F (máx. 300 caracteres). Si tu cuenta no te deja añadir nota, conecta sin nota y manda el texto cuando acepten. Ritmo: 4 a 8 a la semana, 2 días después del email. No se automatiza.", span=9)
-    head(ws, 4, ["Fecha", "Persona", "Club", "Perfil (enlace o qué buscar)", "Fiabilidad", "Nota de conexión (copiar y pegar)", "Cargo / quién es", "Hecho", "Notas"],
+          "Método desde el 10/11: conecta SIN nota (la cuenta gratis tiene pocas notas). Si la columna D tiene enlace, entra directo. Si no, busca el club en LinkedIn, abre la pestaña Personas y conecta con 2 o 3 decisores (Director of Coaching, Technical Director, Executive Director o Club Director). "
+          "Cuando acepten, mándales el mensaje de la columna F (los mensajes a contactos son gratis). Apunta en Notas con quién has conectado. Se puede conectar antes de la fecha, pero el mensaje se manda después de que salga el email al club. No se automatiza.", span=9)
+    head(ws, 4, ["Fecha", "Persona", "Club", "Perfil (enlace o qué buscar)", "Fiabilidad", "Mensaje cuando acepte (copiar y pegar)", "Cargo / quién es", "Hecho", "Notas"],
          [11, 20, 26, 52, 38, 70, 34, 12, 30])
     people = {}
     for p in PROSPECTS + PROSPECTS_US:
@@ -1380,7 +1382,13 @@ def sheet_linkedin(wb, sends):
         if x["kind"] != "LinkedIn conectar" or x["date"] < D(2026, 10, 19):
             continue
         p = people.get(x["key"], {})
-        vals = [x["date"], x["to"], label(x["club"]), x["li_link"], x["li_conf"], x["body"], p.get("person", "") or x.get("person_txt", ""), None, None]
+        link = x["li_link"]
+        if str(link).startswith("Pega en el buscador"):
+            link = "Busca «%s» en LinkedIn > Personas. Conecta con %s si aparece y con 1 o 2 decisores más (Director of Coaching, Technical Director, Executive Director, Club Director)." % (label(x["club"]), x["to"])
+        us = p in PROSPECTS_US
+        msg = ("Thanks for connecting! I'm Joel, I run Always Up%s. We take youth teams for training weeks in Spain, at Atlético de Madrid and Real Sociedad, with games against Spanish academy teams. "
+               "I emailed the club recently. Would a trip like that fit any of your teams in 2027? Happy to send the details. Joel") % (" here in New York" if us else "")
+        vals = [x["date"], x["to"], label(x["club"]), link, x["li_conf"], msg, p.get("person", "") or x.get("person_txt", ""), None, None]
         k = (x["to"], label(x["club"]))
         old = saved.get(k)
         if old:
@@ -1390,7 +1398,7 @@ def sheet_linkedin(wb, sends):
             c.alignment = Alignment(wrap_text=True, vertical="top"); c.border = BORDER; c.font = Font(size=10)
         ws.cell(row=r, column=1).number_format = "DD/MM/YYYY"
         ws.cell(row=r, column=1).fill = PatternFill("solid", fgColor="F3E8FF")
-        ws.row_dimensions[r].height = max(est_height(x["body"], 70), est_height(x["li_link"], 52), est_height(x["li_conf"], 38), 48)
+        ws.row_dimensions[r].height = max(est_height(msg, 70), est_height(link, 52), est_height(x["li_conf"], 38), 48)
         r += 1
     dv = DataValidation(type="list", formula1='"Pendiente,Hecho,Saltado"', allow_blank=True)
     ws.add_data_validation(dv)

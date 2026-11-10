@@ -105,6 +105,12 @@
       "kind": "Email 1",
       "date": "2026-11-10",
       "nota": "Salió a su hora (comprobado por Joel)"
+    },
+    {
+      "key": "cedar",
+      "kind": "Email 1",
+      "date": "2026-11-10",
+      "nota": "Salió a las 9:30 (comprobado por Joel)"
     }
   ],
   "tareas": [
@@ -462,6 +468,47 @@
       "date": "2026-11-09",
       "task": "Tania y Gonzalo Caro",
       "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Confirmar que salieron los correos de hoy",
+      "nota": "Bollington y Cedar Stars salieron. Sin rebotes"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "ENVIAR email 1 a Bollington",
+      "nota": "Salió a su hora"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "ENVIAR email 1 a Cedar Stars",
+      "nota": "Salió a las 9:30"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "LinkedIn: conectar con Rob Mannino",
+      "nota": "No aparece. Conectado con Tyler Botte (EDP North Atlantic League Director)"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Caso PR: descargar la carpeta",
+      "estado": "Saltado",
+      "nota": "No hace falta: Joel ve los clips al montar P1 (18/11) y Claude revisa el borrador"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con David Spruce",
+      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Phil Swenda",
+      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Rob Mannino",
+      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
     }
   ],
   "textos": [
@@ -507,6 +554,24 @@
       "club": "St Kevin's FC (Dublín)",
       "to": "Ken Donohoe",
       "nota": "9/11: el perfil no dice St Kevin's. No se conecta."
+    },
+    {
+      "club": "Bollington United FC",
+      "to": "David Spruce",
+      "date": "2026-11-10",
+      "nota": "10/11: conexión enviada sin nota. Cuando acepte, mensaje de la columna F."
+    },
+    {
+      "club": "Cedar Stars Academy",
+      "to": "Phil Swenda",
+      "date": "2026-11-10",
+      "nota": "Phil no aparece. 10/11: conectado sin nota con Christian Henry (Director of Coaching), John Saverio Antunes (Head Coach U16 MLS NEXT) y Lautaro Sosa Mendoza (Girls Head Coach)."
+    },
+    {
+      "club": "NY Empire FC",
+      "to": "Rob Mannino",
+      "date": "2026-11-10",
+      "nota": "Rob no aparece. 10/11: conectado con Tyler Botte (EDP North Atlantic League Director, NY Club Soccer). Es una liga, no el club: puede abrir la puerta a muchos clubes."
     }
   ],
   "clubes": [
