@@ -80,3 +80,9 @@
 - **El punto 3 de su documento** era su guion personal para no olvidar temas, no una petición de ideas.
 
 **Lección para Claude:** lo que se le manda a Enrique tiene que ser nuevo y concreto (un número, un texto, una decisión), nunca advertencias genéricas que ya conoce. Él trabaja con su propio Claude. Antes de añadir nada a sus documentos, preguntar a Joel qué sabe ya Enrique.
+
+## Resultado de Donosti (Enrique, 10/11 por la noche, contado por Joel)
+- **Real Unión de Irún:** apenas pudo hablar con ellos porque tenían un compromiso. El jugador ya se ha quedado entrenando allí y está muy contento.
+- **Iñigo:** buenas noticias sobre los servicios; se pueden hacer todos. Conclusión de los dos: **hay que centrar el tiro**. Hay muchas oportunidades, pero no hay clientes, e Iñigo y Enrique no pueden dedicarle tiempo hasta que esto genere ingresos, porque su fuente de ingresos principal es otra.
+- **Se plantean buscar a alguien que trabaje a tiempo completo** en Always Up para hacerlo crecer. Joel quiere ser esa persona y sabe que tiene que demostrarlo con clientes y dinero.
+- **Pendiente:** el planning del 10 al 22/11, si se puede grabar y nombrar al club, y la tarifa del club por entrenador y día para SADE.
