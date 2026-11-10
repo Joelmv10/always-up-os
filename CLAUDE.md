@@ -103,6 +103,8 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 - [ ] Checklist legal menores/GDPR/seguros — falta revisión de abogado
 - [ ] Sesión dedicada aparte: estrategia de marca personal (Instagram @Joel_alwaysup) + Player Development
 
+**Turno diario de Claude (desde el 11/11/2026):** Claude trabaja cada día por su cuenta (bandeja, LinkedIn, investigación, Excel e informe a las 7:30, y envío de los correos del día de martes a jueves). Manual en `03-operations/turno-diario-claude.md` e informes en `03-operations/informes/`.
+
 **Cómo trabajar esto en varias sesiones:** dividir el trabajo en chats/sesiones específicas por área (captación Team Experience, cierre de becas, marca personal, etc.) en vez de un único chat — el contexto no se pierde entre sesiones porque vive en este repo y en la memoria de Claude, no en el historial del chat.
 
 ---
