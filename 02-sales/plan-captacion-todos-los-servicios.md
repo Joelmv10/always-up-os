@@ -1,5 +1,7 @@
 # Plan maestro de captación: todos los servicios
 
+> **Actualizado el 10/11/2026:** las prioridades vigentes están en `estrategia-captacion-nov-2026.md`. Este documento queda como referencia de canales y ritmo.
+
 > Complementa `plan-outreach-30-dias.md` (que detalla el outreach a clubes) y `plan-ventas-maestro.md` (segmentación y reglas). La versión de trabajo está en la pestaña `Plan por servicio` del CRM. Creado el 13/10/2026.
 
 ## 1. Criterio de diseño
