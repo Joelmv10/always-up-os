@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "10/11/2026 (2)"
+VERSION = "10/11/2026 (3)"
 
 ROSS = """{greet}
 
@@ -650,6 +650,14 @@ CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco 
 ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
 
 
+LI_ADELANTO = {"Jeff Oleck": D(2026, 11, 11), "Iain Scott": D(2026, 11, 11),
+               "Jerry Losson": D(2026, 11, 12), "Jose Luis Rebay": D(2026, 11, 12), "Matt Hardiman": D(2026, 11, 12), "Christian Gonzalez": D(2026, 11, 12),
+               "Ryan Youngblood": D(2026, 11, 13), "Jeff Zaun": D(2026, 11, 13), "Mani Salimpour": D(2026, 11, 13),
+               "Federico Bianchi": D(2026, 11, 16), "Matt Mueller": D(2026, 11, 16), "Steve Trittschuh": D(2026, 11, 16),
+               "Reece Hands": D(2026, 11, 17), "Fernando Gonzalez": D(2026, 11, 17), "Derek Biss": D(2026, 11, 17),
+               "Thiago Oliveira": D(2026, 11, 18), "Mo Hijazi": D(2026, 11, 18)}
+
+
 def nivela(rows):
     """Reparte los envíos: máximo CAP_DIA al día, de martes a jueves, y al menos 5 días entre correos a un mismo club."""
     us = {p["club"] for p in PROSPECTS_US}
@@ -686,6 +694,9 @@ def nivela(rows):
             fu2 = [x["date"] for x in rows if x["club"] == r["club"] and x["kind"] == "Follow-up 2"]
             if fu2:
                 r["date"] = fu2[0] + dt.timedelta(days=1)
+    for r in rows:  # 10/11: conexiones adelantadas (objetivo de 5 a 8 al día, 2 o 3 personas por club)
+        if r["kind"] == "LinkedIn conectar" and r["to"] in LI_ADELANTO:
+            r["date"] = LI_ADELANTO[r["to"]]
     rows.sort(key=lambda r: (r["date"], r["club"]))
     return rows
 
@@ -729,6 +740,8 @@ REPLIES = [
     ("Pavel: fijar la llamada (Instagram, 9/11)", "¡Genial, Pavel! Me alegro mucho. ¿Te viene bien el miércoles 11 o el jueves 12 a las 7 de la tarde, hora de Nueva York? Si prefieres otra hora, dime y me adapto. Y si quieres que esté también tu padre o tu madre, mejor todavía, así resolvemos las dudas de todos. ¿Te llamo por aquí o por WhatsApp?",
      "Cambia la hora si tienes partido o entreno. Que estén los padres ayuda mucho: son los que deciden y pagan. Guion en 02-sales/guion-llamada-pavel.md."),
     ("Pavel: cambiar la llamada (Instagram, 10/11)", "¡Hola Pavel! Perdona, al final el miércoles no puedo porque estoy de viaje todo el día. ¿Te viene bien hoy a las 7? Si no, podría ser el jueves, pero todavía no te puedo confirmar la hora porque de miércoles a sábado estoy de viaje con el equipo. Y si esta semana no nos cuadra, la que viene la tengo totalmente libre, así que vamos hablando y lo cerramos. La hacemos por Zoom o por videollamada de WhatsApp, lo que te sea más cómodo.\n\nPara ir preparándola: ¿qué es lo que más te interesa hablar o qué dudas tienes?", "Línea opcional sobre los padres: «Lo de tus papás no te preocupes: si la semana que viene les viene mejor, buscamos un hueco en el que puedan estar, aunque sean 10 minutos.»"),
+    ("Pavel: confirmar el jueves (Instagram, 10/11)", "¡Perfecto, Pavel! Entonces el jueves a las 7. Te llamo por videollamada, aquí por Instagram o por WhatsApp, como prefieras (si es por WhatsApp, pásame tu número). Para aprovechar la llamada, si puedes mándame antes un vídeo de esta temporada y tus últimas notas. Así vemos qué opciones reales hay en JUCO y NAIA, sobre todo en Florida, y hablamos también de costes, que entiendo que es importante para vosotros.",
+     "No prometer beca ni universidad. Precio solo en la llamada y si pregunta."),
     ("LinkedIn: mensaje a Tyler Botte cuando acepte (EDP North Atlantic League Director)", "Thanks for connecting, Tyler. I'm Joel, I run Always Up here in New York. We take youth teams for training weeks in Spain, at Atlético de Madrid and Real Sociedad. I'd love to hear how EDP clubs usually plan trips abroad, and whether something like this could help some of your clubs. Open to a quick call whenever suits you. Joel",
      "Es un director de liga, no de un club: no le vendemos un viaje, le pedimos consejo. Si contesta, lo que buscamos es que nos presente a 2 o 3 clubes de su liga."),
     ("Tania: despedida (Instagram, 9/11)", "Gracias por contestar, Tania. Mucha suerte con todo, y si en algún momento te vuelve a interesar, aquí estoy.",
@@ -837,8 +850,9 @@ def build_calendar(sends):
         if s["date"] < TODAY_BUILD or s["date"] > end:
             continue
         if s["kind"] == "LinkedIn conectar":
-            add(s["date"], "Libre", 700, "Team/Coach", "LinkedIn: conectar con %s (%s)" % (s["to"], label(s["club"])),
-                "Perfil: %s  |  Fiabilidad: %s  |  %s  Texto de la nota: «%s»" % (s["li_link"], s["li_conf"], s["how"], s["body"]), "LinkedIn - Conexiones", 5)
+            busca = s["li_link"] if not str(s["li_link"]).startswith("Pega en el buscador") else "busca «%s» en LinkedIn > Personas" % label(s["club"])
+            add(s["date"], "Libre", 700, "Team/Coach", "LinkedIn: conectar con %s (%s) y 1 o 2 decisores más del club" % (s["to"], label(s["club"])),
+                "Sin nota. Perfil: %s. Si no aparece, conecta con el Director of Coaching, Technical Director o Executive Director. Apunta en la pestaña LinkedIn con quién conectas. Cuando acepten, el mensaje está en la columna F." % busca, "LinkedIn - Conexiones", 5)
         if s["kind"] == "Formulario web":
             add(s["date"], "Libre", 690, "Team/Coach", "Formulario web: %s" % label(s["club"]), "Abre %s, pega el texto de 'Textos para copiar' y envíalo. Deja tu correo. Sin follow-ups: no hay hilo." % s["to"].replace("Formulario: ", ""), "Textos para copiar", 5)
         if s["kind"] == "DM en redes":
@@ -986,6 +1000,7 @@ def build_calendar(sends):
             x["how"] = "Antes: (1) desde el 5/1, ratificación por escrito del jugador (cláusula 9); (2) manda la pieza a los padres y al jugador por WhatsApp y espera el visto bueno (cláusula 7). Publicación conjunta entre @Joel_alwaysup y Always Up. Cierre: «Si quieres vivir algo así, escríbeme ESPAÑA». Pégame los mensajes que lleguen."
     add(D(2026, 11, 9), "Ahora", 30, "Instagram", "Caso PR: mandar a Enrique los cambios del Anexo I (antes de que lo mande esta noche)", "WhatsApp. Tres cambios: correo de contacto sin rellenar, «Linkedln» y que la autorización cubra las cuentas de Always Up y @Joel_alwaysup.", "Textos para copiar (Respuestas tipo): Anexo I", 3)
     add(D(2026, 11, 9), "Ahora", 31, "Instagram", "Caso PR: mandar a Enrique los mensajes 1 y 2 (qué grabar y la entrevista final)", "WhatsApp, copia y pega los dos bloques. El mensaje a la madre (Mensaje 3) va el viernes 13/11.", "04-marketing/caso-pr-entrevista-final-y-familia.md", 3)
+    add(D(2026, 11, 11), "Libre", 640, "Becas", "Pavel: decidir el precio que le ofreces el jueves", "Le preocupa el coste. Recomendación: pago en dos partes en vez de uno único. Dímelo y lo dejo en el guion.", "02-sales/guion-llamada-pavel.md", 5)
     add(D(2026, 11, 10), "Noche", 1290, "Todos", "Enrique: cómo fue Donosti (planning del club, grabar y nombrar, Iñigo y los servicios)", "Pregúntale y pégame lo que diga: (1) el planning del 10 al 22/11; (2) si se puede grabar y nombrar al club; (3) qué cerró con Iñigo de cada servicio. Para las pruebas pagadas necesito tres datos: precio, duración y qué incluye. Con eso te hago la ficha.", "Chat con Claude", 10)
     add(D(2026, 11, 12), "Noche", 1290, "Team/Coach", "Enrique: qué salió del Deportivo y de Daniel Aceval", "Pregúntale qué ofrecen, en qué condiciones y si hay algo que podamos vender ya. El Deportivo está en negociación desde agosto: lo que buscamos es un acuerdo concreto. Pégame lo que diga.", "Chat con Claude", 10)
     add(D(2026, 11, 16), "Libre", 621, "Team/Coach", "Greystones 2027: decidir con Enrique cómo y cuándo se les pregunta", "Es el único cliente que ha repetido y no tiene nada para 2027. Propuesta: cuando Patrick apruebe el testimonio, Enrique (que tiene la relación) le pregunta qué planes tienen para Semana Santa o verano 2027.", "", 5)
@@ -995,7 +1010,7 @@ def build_calendar(sends):
     add(D(2026, 11, 9), "Ahora", 32, "Todos", "Enrique: mandarle lo que añadimos a su documento de reuniones", "WhatsApp o correo. Texto listo. Incluye lo de los 60 niños cuando me cuentes qué es.", "00-company/reuniones-enrique-semana-2026-11-09.md", 3)
     add(D(2026, 11, 9), "Ahora", 33, "Becas", "Pavel: proponerle día y hora para la llamada", "Instagram. Texto listo. Cuando confirme, dímelo y lo pongo en el calendario.", "Textos para copiar (Respuestas tipo): Pavel", 2)
     add(D(2026, 11, 9), "Ahora", 34, "Becas", "Tania y Gonzalo Caro: cerrar con un mensaje corto", "Instagram. Textos listos. Busca también en tus mensajes de verano el hilo del Gonzalo de verdad.", "Textos para copiar (Respuestas tipo)", 3)
-    add(D(2026, 11, 10), "Tarde", 1140, "Becas", "LLAMADA con Pavel (provisional: hoy a las 7, o jueves, o la semana que viene)", "Sus padres trabajan y no pueden estar: al final, pregúntale cuándo podrían escuchar 10 minutos, porque ellos deciden y pagan. Cuando confirme, la cambio. Sigue el guion. Después pégame lo que se habló.", "02-sales/guion-llamada-pavel.md", 20)
+    add(D(2026, 11, 12), "Tarde", 1140, "Becas", "LLAMADA con Pavel (jueves a las 7 de la tarde)", "Quiere JUCO o NAIA, sobre todo en Florida, y los agentes le parecen caros: lleva el precio decidido. Sus padres no estarán: al final, cierra una llamada corta con ellos la semana que viene. Sigue el guion. Después pégame lo que se habló.", "02-sales/guion-llamada-pavel.md", 20)
     add(D(2026, 11, 13), "Noche", 1290, "Todos", "Enrique: resultado de las reuniones (David, Iñigo, Daniel Aceval y el Deportivo)", "Pídele lo que salió de cada una: precio, siguiente paso, quién y fecha. Para las pruebas pagadas necesito precio, duración y qué incluye. Si conoce a Luis Gendive (Arlington Soccer Club), que nos presente. Pégame lo que diga.", "00-company/reuniones-enrique-semana-2026-11-09.md", 15)
     # --- 9/11 (noche): respuesta de Enrique, formularios que no existen y material de Naiara
     add(D(2026, 11, 10), "Noche", 1291, "Todos", "Enrique: hablar del precio del showcase para SADE y la referencia de precio de las pruebas", "Esta noche, en la misma conversación de Donosti (no por separado). Si quieres, usa el texto que te dejé el 10/11. Lo que necesitamos de él: la tarifa del club por entrenador y día.", "02-sales/precio-showcase-sade.md y 02-sales/referencia-precio-pruebas.md", 3)
@@ -1181,7 +1196,7 @@ def sheet_texts(wb, sends):
     ifs = {"Email 1": "Rebota: avísame y busco otra dirección. Contesta: para la cadencia y mira 'Respuestas tipo' abajo.",
            "Follow-up 1": "Si ya contestó por otro canal, no lo envíes.", "Follow-up 2": "Si contestó, no lo envíes.",
            "Cierre": "Tras este correo, pasa el club a 'Retomar en enero 2027' en el CRM.",
-           "LinkedIn conectar": "Si acepta, no mandes más mensajes hasta que conteste al email.", "DM en redes": "Solo si no hay respuesta a nada."}
+           "LinkedIn conectar": "Conecta sin nota. Cuando acepte, mándale el mensaje de la pestaña LinkedIn (columna F).", "DM en redes": "Solo si no hay respuesta a nada."}
     r = 5
     for s in sends:
         if s["date"] < TODAY_BUILD:
@@ -1387,7 +1402,7 @@ def sheet_linkedin(wb, sends):
             link = "Busca «%s» en LinkedIn > Personas. Conecta con %s si aparece y con 1 o 2 decisores más (Director of Coaching, Technical Director, Executive Director, Club Director)." % (label(x["club"]), x["to"])
         us = p in PROSPECTS_US
         msg = ("Thanks for connecting! I'm Joel, I run Always Up%s. We take youth teams for training weeks in Spain, at Atlético de Madrid and Real Sociedad, with games against Spanish academy teams. "
-               "I emailed the club recently. Would a trip like that fit any of your teams in 2027? Happy to send the details. Joel") % (" here in New York" if us else "")
+               "Would a trip like that fit any of your teams in 2027? Happy to send the details. Joel") % (" here in New York" if us else "")
         vals = [x["date"], x["to"], label(x["club"]), link, x["li_conf"], msg, p.get("person", "") or x.get("person_txt", ""), None, None]
         k = (x["to"], label(x["club"]))
         old = saved.get(k)
@@ -1618,7 +1633,7 @@ def update_segment_c(wb):
     OMAR = "4/11: Omar reaparece y manda vídeos de octubre de los dos (canales de YouTube de Gabriel y Rafael). Se pasan a David para la valoración y se le piden notas, año de graduación e inglés. | Omar contesta el 4/11: terminan la prepa en junio de 2027; Duolingo Rafael 105 y Gabriel 110; prefieren la misma universidad, abiertos a distintas si les beneficia. Faltan las notas. | 5/11: valoración de David: \"son duritos\"; opciones NJCAA por 15 a 18k o NCAA DIII por 25k (pendiente aclarar si es coste anual por jugador para la familia)."
     cambios = {
         "Omar Escamilla": ("Llamada realizada", "Llamada el martes 10/11 por la tarde (guion en 02-sales/guion-llamada-omar.md). Faltan las notas.", OMAR),
-        "Pavel Gomez": ("Cualificado", "10/11: le propones hoy a las 7, el jueves o la semana que viene (Joel de viaje de miércoles a sábado). Sus padres trabajan y no pueden estar. Guion en 02-sales/guion-llamada-pavel.md.", "9/11: responde que la idea sigue en pie."),
+        "Pavel Gomez": ("Cualificado", "10/11: llamada el jueves 12/11 a las 7. Busca JUCO o NAIA, sobre todo en Florida; los agentes le parecen caros. Padres no estarán. Joel decide el precio antes. Guion en 02-sales/guion-llamada-pavel.md.", "9/11: responde que la idea sigue en pie."),
         "Francisco Ferreira": ("Cualificado", "Último mensaje el 9/11. Si no contesta antes del 16/11, Perdido.", None),
         "Gonzalo Caro": ("Perdido", "La cuenta de Instagram no es la del lead. Joel busca el hilo de verano; si no aparece, se queda en Perdido.", "9/11: la cuenta contesta que no es Gonzalo y que no tiene su contacto."),
         "Tania Coeto": ("Perdido", "Cerrado. Despedida amable el 9/11.", "9/11: 'ya los planes cambiaron'."),
