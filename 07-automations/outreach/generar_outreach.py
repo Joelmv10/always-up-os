@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "9/11/2026 (5)"
+VERSION = "9/11/2026 (6)"
 
 ROSS = """{greet}
 
@@ -996,6 +996,7 @@ def build_calendar(sends):
     add(D(2026, 11, 13), "Noche", 1290, "Todos", "Enrique: resultado de las reuniones (David, Iñigo, Daniel Aceval y el Deportivo)", "Pídele lo que salió de cada una: precio, siguiente paso, quién y fecha. Para las pruebas pagadas necesito precio, duración y qué incluye. Si conoce a Luis Gendive (Arlington Soccer Club), que nos presente. Pégame lo que diga.", "00-company/reuniones-enrique-semana-2026-11-09.md", 15)
     # --- 9/11 (noche): respuesta de Enrique, formularios que no existen y material de Naiara
     add(D(2026, 11, 10), "Ahora", 20, "Todos", "Enrique: mandarle el precio del showcase para SADE y la referencia de precio de las pruebas", "WhatsApp. Texto corto y listo (sin repetirle nada que ya sepa). Lo que necesitamos de él: la tarifa del club por entrenador y día.", "02-sales/precio-showcase-sade.md y 02-sales/referencia-precio-pruebas.md", 3)
+    add(D(2026, 11, 10), "Libre", 650, "Instagram", "Caso PR: descargar la carpeta del Metropolitano a Descargas para que Claude revise los vídeos", "En Drive, abre la carpeta «2026-11 Puerto Rico», selecciona todo (Cmd+A), clic derecho y Descargar. Llega un .zip a Descargas: dime «descargado» y reviso los 25 vídeos enteros (duración, sonido y qué pasa en cada uno). Y dime quién es el chico de la chaqueta rosa de las fotos 3988 a 3991.", "Drive y chat con Claude", 3)
     add(D(2026, 11, 10), "Libre", 700, "Team/Coach", "LinkedIn: conectar con Rob Mannino (NY Empire FC, Club President)", "El formulario de su web es para eventos y no deja escribir mensaje, así que cambiamos de canal. Busca «Rob Mannino NY Empire» y comprueba que el perfil dice NY Empire. Nota (182 caracteres): «Hi Rob, I'm Joel, I run Always Up here in New York. We take youth teams to train at Atlético de Madrid and Real Sociedad. I saw ISX takes teams abroad and would love to connect. Joel». Ojo: sus juveniles (ISX) ya van a Brasil en 2027; lo nuestro sería para otro equipo o para 2028.", "LinkedIn", 5)
     add(D(2026, 11, 11), "Libre", 615, "International Program", "Web realsociedadirp.com: mandar los cambios a quien la lleve", "Acordado con Enrique: quitar lo que no podemos cumplir y poner «Próxima convocatoria: temporada 2027/28» con lista de espera. Textos en inglés y español, listos para pegar.", "06-web/realsociedadirp-cambios-2026-11.md", 10)
     C.sort(key=lambda x: (x["date"], x["sk"]))

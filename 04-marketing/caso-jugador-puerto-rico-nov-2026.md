@@ -134,21 +134,54 @@ Depende del horario de entrenamientos, que tiene que pasar Enrique. Naiara no pu
 ## Lo que aprendemos para la próxima vez
 Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de grabación" fijo (esta misma lista) y una cláusula de consentimiento de imagen dentro del contrato de cada Team Experience y de cada programa, para no depender de avisos de última hora.
 
-## Material del Metropolitano (subido por Naiara el 9/11, revisado por Claude con las miniaturas)
-51 archivos (IMG_3969 a IMG_4021): 25 vídeos y 26 fotos.
+## Material del Metropolitano (subido por Naiara el 9/11)
+51 archivos (IMG_3969 a IMG_4021): 26 fotos y 25 vídeos. **Revisión del 9/11 por la noche:** las 26 fotos, a tamaño completo; de los vídeos, solo el primer fotograma, porque el visor de Drive no los reproduce en el navegador de Claude. Para revisarlos enteros, con duración y sonido, Joel descarga la carpeta a Descargas (tarea del 10/11).
 
-**Qué hay:**
-- **Llegada:** subiendo las escaleras con el letrero del estadio delante (3969, de espaldas, muy buen arranque). Exterior de noche (3970) y fotos delante del letrero (3971 a 3974).
-- **La estrella de Griezmann en el paseo de la fama:** él agachado tocándola (3975 a 3984). No estaba en la lista y es un momento con historia.
-- **Entrada a la grada:** 3985 a 3987 en vídeo (de espaldas entrando y mirando el campo). Es el plano clave del reel 1; hay que comprobar que se le ve la cara al ver el campo.
-- **Retratos con el campo detrás:** 3988 a 3991.
-- **Ambiente:** el tifo «CORAZÓN», el túnel de salida de los equipos y el campo (3993 a 4021). Él grabando con el móvil (4002) y fotos de él con el tifo (4013 y 4014).
+**Corrección de la primera revisión:** los retratos 3988 a 3991 **no son del jugador**. El chico de la chaqueta rosa es otra persona. Pendiente que Joel confirme quién es. 4001 no es la reacción a un gol: son los jugadores entrando al túnel.
 
-**Qué falta o hay que comprobar al verlos con sonido:**
-- Las preguntas cortas en un pasillo («¿Qué se siente estar aquí?»). En las miniaturas no se ve ningún clip de él hablando a cámara. Si no están, sus respuestas salen de la entrevista final.
-- Su reacción a un gol (4001 parece una celebración).
-- La orientación de cada clip (vertical u horizontal).
+**Cómo reconocerle en el material:** lleva una chaqueta gris con capucha y un parche en la manga (escaleras, estrella y pasillo). En la grada se pone encima un plumas azul marino.
 
-**Uso:**
-- Las jugadas del partido (4008, 4009 y 4012) solo valen como segundos de ambiente, por los derechos de LaLiga.
-- Los escudos del Atlético y del Barça no van en portadas.
+### Lo mejor, por orden
+| # | Archivo | Qué es | Formato | Para qué |
+|---|---|---|---|---|
+| 1 | **4002** (y 3997) | Él grabando con el móvil justo encima del túnel, con los jugadores pasando debajo | Vídeo vertical | **Gancho del reel**: el primer segundo. Es lo más potente del material |
+| 2 | **3985 → 3986** | Sale del pasillo y se asoma al estadio; en 3986 se le ve de perfil mirando el campo | Vídeo horizontal | El momento de "entrar": recortar a vertical centrado en él |
+| 3 | **3987** | Él de perfil, mirando la grada | Vídeo vertical | Plano de reacción, justo después del 2 |
+| 4 | **4017** (y 4016) | Él en la grada mirando a cámara, con el tifo detrás | Foto vertical | **Plano final del reel** y portada del carrusel |
+| 5 | **4014** (y 4013) | Él con el tifo, mirando a cámara | Foto horizontal | Foto principal de la web y del carrusel (recortar a 4:5) |
+| 6 | **3969** | Subiendo las escaleras con el letrero del estadio delante (de espaldas) | Vídeo horizontal | Arranque de la historia ("llegada") |
+| 7 | **3983** (y 3984 en vídeo) | Agachado tocando la estrella de Griezmann | Foto y vídeo horizontales | Momento con historia. Con capucha no se le ve la cara: va de plano de apoyo, no de portada |
+| 8 | **3973** | Delante del letrero del estadio | Foto horizontal | Carrusel ("llegada"). Sale pequeño: recortar |
+| 9 | **4008 a 4010, 4019 a 4021** | Espectáculo de luces, tifo, bufandas y banderas | Vídeos verticales | Segundos de ambiente entre planos suyos |
+| 10 | **3993** | Marcador: "Jornada 12, domingo 8 de noviembre, 21:00", Atlético contra Barça | Foto vertical | Pone fecha y contexto en el carrusel |
+| 11 | **4005** | Su asiento | Vídeo vertical | Detalle para historias |
+
+### Cómo usarlo
+**Reel 1 "De un showcase en Puerto Rico al Metropolitano" (vertical, 20 a 25 s, con subtítulos):**
+1. 4002, 2 s. Texto: "Hace 3 meses jugaba un showcase en Puerto Rico."
+2. 3969, 2 s. Texto: "Hoy, esto."
+3. 3984, 2 s (la estrella).
+4. 3985 → 3986, 3 s (la entrada al estadio).
+5. 3987, 2 s.
+6. 4009 y 4020, 2 s cada uno (luces y bufandas).
+7. 4017, 3 s, con texto: "Y esta semana entrena con un club en España." (sin nombrar al club hasta que lo autorice)
+8. Cierre: "Escríbeme ESPAÑA si quieres vivir algo así."
+
+Sonido: el ambiente del estadio de los propios clips, más un audio de la biblioteca de Instagram. No usar el himno ni música del estadio como pista principal.
+
+**Carrusel "Su domingo en el Metropolitano" (4:5):** 4017 (portada), 3973, 3983, 3986 (fotograma), 3993, 4014 y un cierre con texto.
+
+**Web (página del caso):** 4014, 3983 y un fotograma de 3986.
+
+**Historias (cuando se pueda publicar):** 4005, 4006, 4011 y 3975 (la estrella sola).
+
+### Lo que no se usa
+- **3988 a 3991:** no es él (pendiente de confirmar quién es). No se publican sin su autorización.
+- **4001, 4003, 4004 y 4012:** los jugadores del Atlético y del Barça como protagonistas, o el partido. Por los derechos de imagen de los jugadores y de LaLiga, en una cuenta de empresa no. En 4002 y 3997 sí vale, porque el protagonista es él y los jugadores quedan al fondo.
+- **3977, 3978, 3980 a 3982:** repetidas o con la cara tapada por la capucha. Ya están 3983 y 3984.
+- **3996 y 3999:** el escudo del Atlético en el césped ocupa el centro. Como mucho, un segundo de ambiente; nunca en portada.
+
+### Lo que falta y se comprueba al descargar los vídeos
+- Si hay algún clip de él hablando (las preguntas del pasillo). En los primeros fotogramas no aparece ninguno.
+- La duración de cada vídeo y si el sonido vale.
+- Hasta dónde llega 3985 → 3986: si en algún momento se gira y se le ve la cara al ver el campo.
