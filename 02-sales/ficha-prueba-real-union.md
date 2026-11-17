@@ -1,5 +1,7 @@
 # Pruebas en el Real Unión de Irún: ficha del producto y plan para vender (borrador, 17/11/2026)
 
+> **Aviso (17/11, noche):** el artículo 19ter.6 del reglamento FIFA prohíbe cobrar o pagar por una prueba. El producto se replantea como **programa de entrenamiento de 12 días**, con prueba gratuita opcional si el club quiere evaluar al jugador. Ver `00-company/catalogo-productos-2027.md` (producto 4) y `08-knowledge-base/competencia-pruebas-y-academias.md`. Los mensajes de abajo hay que adaptarlos antes de usarlos.
+
 > Datos de Enrique (17/11/2026, WhatsApp a Joel) tras volver a reunirse con la directiva del Real Unión. Enrique quiere cerrar el producto entre finales de noviembre y principios de diciembre para empezar a llevar jugadores en enero. Contexto en `00-company/llamada-enrique-2026-11-09.md` y `referencia-precio-pruebas.md`.
 
 ## Lo que sabemos
