@@ -1,6 +1,6 @@
 # Caso Puerto Rico: plan de contenido completo (vuelta a redes)
 
-> Creado el 9/11/2026. Es el documento de trabajo para producir y publicar todo el contenido del caso. El contexto, las reglas y el consentimiento están en `caso-jugador-puerto-rico-nov-2026.md`. La entrevista final y el mensaje a la familia, en `caso-pr-entrevista-final-y-familia.md`. Las tareas con fecha están en la pestaña `Calendario diario` del Excel.
+> Creado el 9/11/2026. **Actualizado el 17/11: el Real Unión autoriza que se le nombre, y la llamada a la acción del caso pasa a ser "Escríbeme PRUEBA", porque el producto que vende este caso son las pruebas (`02-sales/ficha-prueba-real-union.md`).** Es el documento de trabajo para producir y publicar todo el contenido del caso. El contexto, las reglas y el consentimiento están en `caso-jugador-puerto-rico-nov-2026.md`. La entrevista final y el mensaje a la familia, en `caso-pr-entrevista-final-y-familia.md`. Las tareas con fecha están en la pestaña `Calendario diario` del Excel.
 
 ## 1. La estrategia, en cinco decisiones
 1. **Para qué:** que jugadores de 16 a 22 años y sus familias de Puerto Rico, EEUU y América Latina vean que venir a España con Always Up es real, y nos escriban. Lo que vendemos con este caso son las pruebas en clubes, el International Program 2027/28 y las becas.
@@ -51,12 +51,12 @@ En la carpeta "2026-11 Puerto Rico" los 23 archivos elegidos empiezan por númer
 | 6 a 10 | 05 → 06 | (sin texto: que se vea el estadio) |
 | 10 a 12 | 07 | (sin texto) |
 | 12 a 16 | 08 y 10 | (sin texto) |
-| 16 a 20 | 15 (foto, con zoom lento) | "Y esta semana entrena con un club en España." |
+| 16 a 20 | 15 (foto, con zoom lento) | "Y estas semanas ha entrenado con el Real Unión de Irún." |
 | 20 a 23 | Fondo negro | "¿Quieres vivir algo así? Escríbeme ESPAÑA" |
 
 Texto del post:
 ```
-Hace 3 meses jugaba un showcase en Puerto Rico. El domingo estaba en el Metropolitano viendo un Atlético contra Barça, y esta semana entrena con un club en España.
+Hace 3 meses jugaba un showcase en Puerto Rico. El domingo estaba en el Metropolitano viendo un Atlético contra Barça, y estas dos semanas ha entrenado con el Real Unión de Irún.
 
 No le prometimos nada. Le dimos la oportunidad de venir, entrenar aquí y ver de cerca cómo es el fútbol en España.
 
@@ -82,7 +82,7 @@ Texto del post: `Todos empiezan en algún sitio. Escríbeme ESPAÑA si quieres s
 4. Foto 23: "Atlético contra Barça, 8 de noviembre".
 5. Foto 17: "Su sitio en la grada".
 6. Foto 19: "Una noche que no se olvida".
-7. Fondo de color con texto: "Esta semana entrena con un club en España. ¿Quieres venir? Escríbeme ESPAÑA".
+7. Fondo de color con texto: "Dos semanas entrenando con el Real Unión de Irún. ¿Quieres vivirlo? Escríbeme PRUEBA".
 
 ### Bloque B: el entrenamiento (se graba del 10 al 22/11, si el club da permiso)
 **P5. Reel "Una semana entrenando en un club español"** (vertical, 20 a 30 s): llegada con la bolsa, botas, calentamiento y ejercicios, más su voz de la entrevista contando la diferencia con Puerto Rico. Si el club no autoriza que se le nombre, va sin escudos y sin nombre.
