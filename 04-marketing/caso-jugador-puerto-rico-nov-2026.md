@@ -139,3 +139,8 @@ Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de
 
 - **Corrección (9/11):** en una primera revisión Claude dijo que 3988 a 3991 no eran del jugador. Joel confirmó que sí lo son: la luz del estadio cambia el color de la chaqueta. En todas las fotos sale él.
 - **Pendiente:** revisar los vídeos enteros (duración, sonido y orientación) cuando Joel descargue la carpeta.
+
+## Actualización (17/11/2026)
+- **El Real Unión de Irún autoriza que se le nombre y mencione en redes.** Las piezas pueden decir "entrena con el Real Unión de Irún".
+- El jugador se va el 22 o el 23/11. Enrique vuelve a Irún el viernes 20/11: grabar ese entrenamiento y hacer la entrevista final (mensajes 1 y 2 de `caso-pr-entrevista-final-y-familia.md`) antes de que se vaya.
+- El club ya hace pruebas de pago y quiere hacerlas con nosotros: ver `02-sales/ficha-prueba-real-union.md`. El caso del jugador es la mejor publicidad de ese producto.
