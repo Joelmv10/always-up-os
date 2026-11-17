@@ -462,6 +462,29 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
+## Carrigaline United AFC (Joe Giltinan): email 1 (enviar 24/11/2026 a las 04:30 hora Nueva York)
+
+**Para:** joe.giltinan@marinochem.ie
+
+**Asunto:** Carrigaline girls in Spain
+
+```
+Hi Joe,
+
+I'm Joel, I run Always Up. I wrote to the club address earlier this month and the auto reply pointed me to you, so I hope you don't mind me getting in touch directly. I read in the Echo about your under 11 girls at the Barcelona Girls Cup in Salou, congratulations.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
 ## Dalkey United FC: email 1 (enviar 24/11/2026 a las 04:30 hora Nueva York)
 
 **Para:** chairman@dalkeyunited.ie
@@ -487,31 +510,6 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
-## Downtown United Soccer Club: email 1 (enviar 24/11/2026 a las 09:30 hora Nueva York)
-
-**Para:** info@dusc.net
-
-**Asunto:** A question about trips abroad for Downtown United
-
-```
-Hi team,
-
-I'm Joel, I run Always Up, and I'm based here in New York too. I saw Downtown United had a team heading to the Donosti Cup this summer. Could you pass this on to Alex Keaney or Jose Luis Rebay, or to whoever looks after trips abroad?
-
-We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
-
-One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
-
-Thanks a lot,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
-If you'd rather not hear from me, just reply and I won't email you again.
-```
-
 ## Letterkenny Rovers FC: email 1 (enviar 25/11/2026 a las 04:30 hora Nueva York)
 
 **Para:** info@letterkennyroversfc.ie
@@ -535,6 +533,31 @@ Thanks a lot,
 Joel Martinez
 Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Downtown United Soccer Club: email 1 (enviar 01/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** info@dusc.net
+
+**Asunto:** A question about trips abroad for Downtown United
+
+```
+Hi team,
+
+I'm Joel, I run Always Up, and I'm based here in New York too. I saw Downtown United had a team heading to the Donosti Cup this summer. Could you pass this on to Alex Keaney or Jose Luis Rebay, or to whoever looks after trips abroad?
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
 ## Intercontinental Football Academy of New England: email 1 (enviar 01/12/2026 a las 09:30 hora Nueva York)
@@ -679,75 +702,6 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Lou Fusz Athletic: email 1 (enviar 10/12/2026 a las 10:30 hora Nueva York)
-
-**Para:** matt.mueller@loufuszathletic.com
-
-**Asunto:** A week in Spain for Lou Fusz Athletic's academy teams
-
-```
-Hi Matt,
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw Lou Fusz Athletic is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
-
-Best,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
-If you'd rather not hear from me, just reply and I won't email you again.
-```
-
-## St. Louis Scott Gallagher: email 1 (enviar 15/12/2026 a las 10:30 hora Nueva York)
-
-**Para:** strittschuh@slsgsoccer.com
-
-**Asunto:** A week in Spain for St. Louis Scott Gallagher's academy teams
-
-```
-Hi Steve,
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw St. Louis Scott Gallagher is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
-
-Best,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
-If you'd rather not hear from me, just reply and I won't email you again.
-```
-
-## Bethesda Soccer Club: email 1 (enviar 16/12/2026 a las 09:30 hora Nueva York)
-
-**Para:** dbiss@bethesdasoccer.org
-
-**Asunto:** A week in Spain for Bethesda SC's academy teams
-
-```
-Hi Derek,
-
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
-
-I saw Bethesda SC is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
-
-Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
-
-Best,
-Joel Martinez
-Founder, Always Up
-joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
-Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
-If you'd rather not hear from me, just reply and I won't email you again.
-```
-
 ## Cincinnati United Premier: email 1 (enviar 16/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** rhands@cincinnatiunitedsc.com
@@ -771,18 +725,41 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Fort Lauderdale United FC: email 1 (enviar 16/12/2026 a las 09:30 hora Nueva York)
+## Lou Fusz Athletic: email 1 (enviar 16/12/2026 a las 10:30 hora Nueva York)
 
-**Para:** thiago@ftlutd.com
+**Para:** matt.mueller@loufuszathletic.com
 
-**Asunto:** A week in Spain for Fort Lauderdale United's academy teams
+**Asunto:** A week in Spain for Lou Fusz Athletic's academy teams
 
 ```
-Hi Thiago,
+Hi Matt,
 
-I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
-I saw Fort Lauderdale United was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+I saw Lou Fusz Athletic is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## St. Louis Scott Gallagher: email 1 (enviar 16/12/2026 a las 10:30 hora Nueva York)
+
+**Para:** strittschuh@slsgsoccer.com
+
+**Asunto:** A week in Spain for St. Louis Scott Gallagher's academy teams
+
+```
+Hi Steve,
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw St. Louis Scott Gallagher is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
 
@@ -806,6 +783,52 @@ Hi Fernando,
 I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
 
 I saw Tampa Bay United is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Bethesda Soccer Club: email 1 (enviar 17/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** dbiss@bethesdasoccer.org
+
+**Asunto:** A week in Spain for Bethesda SC's academy teams
+
+```
+Hi Derek,
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.
+
+I saw Bethesda SC is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Fort Lauderdale United FC: email 1 (enviar 17/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** thiago@ftlutd.com
+
+**Asunto:** A week in Spain for Fort Lauderdale United's academy teams
+
+```
+Hi Thiago,
+
+I'm Joel, I run Always Up. We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+I saw Fort Lauderdale United was down for the Donosti Cup in San Sebastián this summer, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
 
@@ -890,7 +913,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Michigan Jaguars FC: email 1 (enviar 12/01/2027 a las 09:30 hora Nueva York)
+## Michigan Jaguars FC: email 1 (enviar 13/01/2027 a las 09:30 hora Nueva York)
 
 **Para:** mo.hijazi@michiganjaguarsfc.com
 

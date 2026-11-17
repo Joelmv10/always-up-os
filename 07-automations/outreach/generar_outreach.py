@@ -377,6 +377,11 @@ PROSPECTS += [
     dict(key="carrigaline", club="Carrigaline United AFC", short="Carrigaline United", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 11), right=True,
          to="cuafc.sec@gmail.com", greet="Hi there,", person="Secretaría del club; Alan Hennessy (entrenador de las sub 11)", subj="A week in Spain for Carrigaline United", linkedin=None, dm="Redes de Carrigaline United",
          pais="Irlanda (Cork)", cat="Chicas sub 11 y sub 13; el mayor club amateur de Irlanda (1.700 jugadores)", motivo="Sub 11 chicas en el Barcelona Girls Cup de Salou (The Echo, 1/7/2026); también viajó un sub 13. Mercado irlandés y muchos equipos.", fuente="echolive.ie / carrigaline.clubzap.com/about", e1_body=CARRIGALINE),
+    # 17/11: la respuesta automática de la secretaría remite a Joe Giltinan. Texto aprobado por Joel el 17/11 ("OK Carrigaline").
+    dict(key="carrigalinejoe", club="Carrigaline United AFC (Joe Giltinan)", short="Carrigaline United", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 18), right=False,
+         to="joe.giltinan@marinochem.ie", greet="Hi Joe,", person="Joe Giltinan (Honorary Chairman); plan B: Mark Manning (Head of Male Football)", subj="Carrigaline girls in Spain", linkedin=None, dm="Redes de Carrigaline United",
+         pais="Irlanda (Cork)", cat="Chicas sub 11 y sub 13; el mayor club amateur de Irlanda (1.700 jugadores)", motivo="El correo del club no se lee; la respuesta automática remite a Joe Giltinan.", fuente="carrigaline.clubzap.com/pages/management-committee-members-24-25",
+         e1_body="{greet}\n\nI'm Joel, I run Always Up. I wrote to the club address earlier this month and the auto reply pointed me to you, so I hope you don't mind me getting in touch directly. I read in the Echo about your under 11 girls at the Barcelona Girls Cup in Salou, congratulations.\n\n" + _TRIP + "\n\n" + _PROOF + "\n\n" + _ASK + "\n\n" + _END),
     dict(key="letterkenny", club="Letterkenny Rovers FC", short="Letterkenny Rovers", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 11, 12), right=True,
          to="info@letterkennyroversfc.ie", greet="Hi there,", person="Correo oficial del club (sin responsable de viajes publicado)", subj="A week in Spain for Letterkenny Rovers", linkedin=None, dm="Redes de Letterkenny Rovers",
          pais="Irlanda (Donegal)", cat="Cantera, juega la liga nacional FAI", motivo="Viajaron al Barcelona Cup (Donegal Live, 2024).", fuente="donegallive.ie / letterkennyroversfc.ie", e1_body=LETTERKENNY),
@@ -450,7 +455,7 @@ for _p in PROSPECTS + PROSPECTS_US:
         _p["greet"] = "Hi Marius,"  # regla de un solo nombre; el email 1 y el follow-up 1 ya salieron con dos
     if _p["key"] == "virtu":  # programado con esta versión
         _p["e1_body"] = _p["e1_body"].replace(_FRASE, _FRASE + " We can also add a tournament, like MadCup in Madrid.")
-    if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte", "virtu"):  # ya programados: se quedan como están
+    if _p.get("sent") or _p["key"] in ("ballymun", "ross", "porte", "virtu", "carrigalinejoe"):  # ya programados o aprobados palabra por palabra: se quedan como están
         continue
     _b = _p["e1_body"]
     if re.search(r"Cup|tournament|trophy", _b) and _FRASE in _b:
