@@ -30,7 +30,7 @@
 - A quién, por orden: (1) clubes que ya viajan a torneos en España, sobre todo la Donosti Cup, porque podemos ofrecer la semana con la Real alrededor del torneo; (2) Greystones y sus recomendaciones; (3) clubes de Nueva York y Nueva Jersey, donde Joel puede ir en persona; (4) el resto de la lista fría.
 - Decisión pendiente: **una plaza gratis para el entrenador por cada 15 jugadores**, que es lo normal en los viajes de equipos y ayuda a que el entrenador lo empuje. La decidís Enrique y tú.
 
-**Giras de equipos universitarios (nuevo, dentro de Team Experience).** La NCAA permite a cada equipo una gira al extranjero cada cuatro años, y las universidades suelen anunciar en su web las giras que hacen. Primero la red de Joel (Mount Aloysius, Mercy, Florida Southern, Southern Miss, Saint Leo). Después, una lista de programas que hicieron gira hace unos cuatro años y les vuelve a tocar.
+**Giras de equipos universitarios (nuevo, dentro de Team Experience).** Desde el 15/04/2026, la División I de la NCAA permite una gira al extranjero cada año (antes era cada cuatro), y las universidades suelen anunciar en su web las giras que hacen. Primero la red de Joel (Mount Aloysius, Mercy, Florida Southern, Southern Miss, Saint Leo). Después, una lista de programas que hicieron gira hace unos cuatro años y les vuelve a tocar.
 
 **Coach Experience.** Se ofrece en cada conversación con un club o una universidad ("¿y vuestros entrenadores?"). Canales propios: entrenadores universitarios, directores de club por LinkedIn y la convención de enero. Se vende mejor si va unido a la formación UEFA que está preparando Enrique.
 

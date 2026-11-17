@@ -37,7 +37,7 @@
 5. Si el Soccer Stage se ofrece como producto de entrada.
 
 ## 2. Giras universitarias (nuevo, dentro de Team Experience)
-**Lo que sabemos:** la NCAA permite una gira al extranjero cada cuatro años, y las universidades anuncian las suyas. Joel tiene red (Mount Aloysius, Mercy, Florida Southern, Southern Miss y Saint Leo ya tienen nuestro mensaje).
+**Lo que sabemos:** desde el 15/04/2026 la División I de la NCAA permite una gira al extranjero cada año (antes era cada cuatro; fuente en `08-knowledge-base/competencia-experiencias-y-entrenadores.md`), y las universidades anuncian las suyas. Joel tiene red (Mount Aloysius, Mercy, Florida Southern, Southern Miss y Saint Leo ya tienen nuestro mensaje).
 
 **Hay que decidir:** fechas (pretemporada en agosto o mayo, al acabar el curso), precio por jugador y qué club recibe a equipos universitarios (nivel adulto).
 
