@@ -9,7 +9,7 @@
 
 **Lo que significa:** su objeción va a ser el precio, y la va a sacar él. Llega con dos preguntas: "¿me podéis conseguir algo en Florida?" y "¿cuánto cuesta?". Para la primera no se promete nada: se explica cómo evaluamos y qué tipo de opciones suele haber en JUCO y NAIA. Para la segunda, Joel tiene que llevar el precio decidido.
 
-**Precio (decisión de Joel antes del jueves):** a él le preocupa pagar mucho de golpe. Recomendación: ofrecer el pago en dos partes (como referencia, 250 $ para empezar y el resto más adelante) en vez del pago único de 2.000 $. Cómo se reparte exactamente lo decide Joel. Se dice en la llamada solo si pregunta, sin negociar.
+**Precio (decidido el 17/11):** el estándar, con sus tres planes: 2.500 € a la firma; 500 € a la firma y 3.000 € al aceptar una propuesta; o 250 € a la firma, 500 € con la primera propuesta y 3.000 € al aceptar. Para alguien a quien le preocupa pagar de golpe, el plan 3 es el que mejor encaja. Antes se pensaba: a él le preocupa pagar mucho de golpe. Recomendación: ofrecer el pago en dos partes (como referencia, 250 $ para empezar y el resto más adelante) en vez del pago único de 2.000 $. Cómo se reparte exactamente lo decide Joel. Se dice en la llamada solo si pregunta, sin negociar.
 
 **Cómo diferenciarnos de los agentes, sin hablar mal de nadie:** primero evaluamos su vídeo y sus notas y le decimos con sinceridad qué opciones vemos; no cobramos por prometerle una beca; trabajamos con universidades de todos los niveles, incluidos JUCO y NAIA; y le acompañamos hasta la firma.
 

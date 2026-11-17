@@ -70,6 +70,8 @@ Joel se queda con el 50% de la comisión por cada colocación que refiere. Sourc
 
 **Economía confirmada (2026-07-10):** el jugador paga a University Soccer entre $2.500-$4.000 por el servicio. El acuerdo 50/50 de Joel aplica a **cualquier jugador que firme, sea para universidad (University Soccer) o para colegio privado (GEE)** — mismo trato, "como si fuera un empleado de la empresa pero con acuerdo 50/50". David Rueda = CEO de University Soccer, confirmado que es el mismo David del acuerdo. Joel actúa como reclutador; todo el proceso (admisión, gestión, seguimiento) lo lleva University Soccer, con el OK de David para usar sus cifras de colocaciones en materiales de Always Up.
 
+**Precio estándar (confirmado por Joel el 17/11/2026, gráfico "Planes de Pago"):** el mismo servicio con tres opciones: (1) 2.500 € a la firma del contrato; (2) 500 € a la firma y 3.000 € al aceptar una propuesta; (3) 250 € a la firma, 500 € con la primera propuesta recibida y 3.000 € al aceptar. Con Omar (gemelos) se hizo una excepción. Es el precio para todos los demás, Pavel incluido.
+
 ## 3. International Development Program
 
 **Estado:** firmado con Real Sociedad. Estructura del programa ya documentada. **Corrección (2026-07-10):** la presentación y la web `realsociedadirp.com` las creó el propio Always Up (no es material generado por la Real Sociedad como se pensó inicialmente) — coherente con la operativa de la marca, ya que es Always Up quien capta jugadores para este programa.
