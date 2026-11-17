@@ -575,6 +575,31 @@
       "date": "2026-11-11",
       "task": "Confirmar que salieron los correos de hoy",
       "nota": "Salieron los 4 programados por Joel. NJ14 no (el turno automático falló)"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Jerry Losson",
+      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Matt Hardiman",
+      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Christian Gonzalez",
+      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-17",
+      "task": "LinkedIn: conectar con Reece Hands",
+      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-17",
+      "task": "LinkedIn: conectar con Derek Biss",
+      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
     }
   ],
   "textos": [
@@ -701,6 +726,21 @@
       "club": "Seacoast United",
       "to": "iscott@seacoastunited.com",
       "nota": "17/11: respuesta a Iain enviada (WorldStrides como posible socio)."
+    },
+    {
+      "club": "Bethesda Soccer Club",
+      "to": "Derek Biss",
+      "nota": "17/11: conectado sin nota. También William (Bill) Moravek, Sporting Director (2º grado, perfil comprobado). Bill organiza el European Academy Camp con técnicos de Fulham, PSV, Mónaco y KNVB: gancho para el mensaje si acepta."
+    },
+    {
+      "club": "Carrigaline United AFC",
+      "to": "Joe Giltinan",
+      "nota": "17/11: el contacto correcto se escribe Giltinan (Honorary Chairman), correo en carrigaline.clubzap.com/pages/management-committee-members-24-25. Otro posible: Mark Manning (Head of Male Football). Texto nuevo pendiente del OK de Joel."
+    },
+    {
+      "club": "Networking",
+      "to": "Cadyn Bittner",
+      "nota": "Aceptó el 16/11. Estudiante de Mount Aloysius College, no es prospecto: sin mensaje."
     }
   ],
   "clubes": [
