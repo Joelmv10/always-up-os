@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "10/11/2026 (5)"
+VERSION = "17/11/2026"
 
 ROSS = """{greet}
 
@@ -621,7 +621,7 @@ def build_sends():
                 note_ = item[4] if len(item) > 4 else t["LI"].format(first=who.split()[0])
                 rows.append(dict(date=d, club=p["club"], kind="LinkedIn conectar", to=who, subj="(nota de conexión)",
                                  body=note_, how=HOW_LI, tz=None, key=p["key"], li_link=how_, li_conf=conf_))
-        if p.get("stop_after_e1"):
+        if p.get("stop_after_e1") or p["key"] in PARADOS:  # PARADOS: contestaron o la dirección no sirve
             continue
         fu1 = (t["FU1_RIGHT"] if right and t["FU1_RIGHT"] else t["FU1"]).format(**sg)
         f1 = p.get("fu1_date", base + dt.timedelta(days=7))
@@ -642,10 +642,26 @@ def build_sends():
                          body=t["BU"].format(**sg), how=HOW_FU, tz=p["tz"], key=p["key"]))
     for x in LINKEDIN_EXTRA:
         rows.append(dict(x, how=HOW_LI))
+    # 17/11: los turnos automáticos no pudieron enviar del 11 al 17/11 (sin permisos). Lo pendiente de esos días se reparte desde el 18/11.
+    import json as _json
+    _reg = _json.load(open(os.path.join(HERE, "registro.json"), encoding="utf-8"))
+    _hechos = {(e["key"], e["kind"]) for e in _reg.get("envios", [])}
+    _delta = {}
+    for r in rows:
+        if r["kind"] in ("Email 1", "Formulario web") and D(2026, 11, 11) <= r["date"] <= D(2026, 11, 17) and (r["key"], r["kind"]) not in _hechos:
+            _nuevo = D(2026, 11, 17) if r["key"] in ("nj14", "nysc") else D(2026, 11, 18)  # 17/11: se aprovecha el hueco de hoy para los dos primeros correos de EEUU
+            _delta[r["key"]] = _nuevo - r["date"]
+            r["date"] = _nuevo
+    for r in rows:
+        if r["key"] in _delta and r["kind"] not in ("Email 1", "Formulario web", "LinkedIn conectar") and (r["key"], r["kind"]) not in _hechos:
+            r["date"] = r["date"] + _delta[r["key"]]
+        elif r["key"] not in _delta and r["kind"] in ENVIOS and D(2026, 11, 11) <= r["date"] <= D(2026, 11, 17) and (r["key"], r["kind"]) not in _hechos:
+            r["date"] = D(2026, 11, 18)
     rows.sort(key=lambda r: (r["date"], r["club"]))
     return nivela(rows)
 
 
+PARADOS = {"seacoast", "carrigaline"}  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
 CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco tiempo de Joel)
 ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
 

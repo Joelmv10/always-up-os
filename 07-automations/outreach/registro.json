@@ -111,6 +111,42 @@
       "kind": "Email 1",
       "date": "2026-11-10",
       "nota": "Salió a las 9:30 (comprobado por Joel)"
+    },
+    {
+      "key": "colorado",
+      "kind": "Email 1",
+      "date": "2026-11-10",
+      "nota": "Programado por Joel; salió el 10/11 a las 23:34 (antes de tiempo)"
+    },
+    {
+      "key": "carrigaline",
+      "kind": "Email 1",
+      "date": "2026-11-11",
+      "nota": "Programado por Joel; salió dos veces (4:33 y 5:45). Respuesta automática: correo no vigilado, contactar con Joe Giltenan"
+    },
+    {
+      "key": "keadue",
+      "kind": "Email 1",
+      "date": "2026-11-11",
+      "nota": "Programado por Joel"
+    },
+    {
+      "key": "seacoast",
+      "kind": "Email 1",
+      "date": "2026-11-11",
+      "nota": "Programado por Joel. Iain Scott contestó el 11/11: viajan solo con WorldStrides Sports"
+    },
+    {
+      "key": "nj14",
+      "kind": "Email 1",
+      "date": "2026-11-17",
+      "nota": "Enviado por Claude a las 13:14"
+    },
+    {
+      "key": "nysc",
+      "kind": "Email 1",
+      "date": "2026-11-17",
+      "nota": "Enviado por Claude a las 13:14"
     }
   ],
   "tareas": [
@@ -534,6 +570,11 @@
       "date": "2026-11-10",
       "task": "Omar: mensaje después de la llamada",
       "nota": "Enviado"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "Confirmar que salieron los correos de hoy",
+      "nota": "Salieron los 4 programados por Joel. NJ14 no (el turno automático falló)"
     }
   ],
   "textos": [
@@ -625,6 +666,21 @@
       "club": "Networking",
       "to": "LinkedIn 10/11",
       "nota": "Mensajes de Claude (aprobados por Joel): Jordan Salamido (Dakota Alliance, Team Experience), Ashley Holmes (Florida Southern), Danny Owens (Southern Miss) y Yannis Sapim (Saint Leo) sobre giras universitarias; Roberto Fonseca (agente, Magic Players) sobre pruebas; Jan-Henry Schäfer sobre pruebas."
+    },
+    {
+      "club": "Networking",
+      "to": "Jordan Salamido",
+      "nota": "15/11: no viajan en 2028; quizá en 2029. Volver a escribir a mediados de 2028."
+    },
+    {
+      "club": "NY Empire FC",
+      "to": "Rob Mannino",
+      "nota": "Tyler Botte aceptó el 15/11. Mensaje pendiente del OK de Joel."
+    },
+    {
+      "club": "Bollington United FC",
+      "to": "David Spruce",
+      "nota": "Aceptó el 11/11. Mensaje pendiente (el envío del 17/11 no cargó)."
     }
   ],
   "clubes": [
