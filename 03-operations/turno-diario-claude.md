@@ -19,7 +19,8 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
    - Cualquier respuesta, o cualquier mensaje distinto del aprobado, se deja redactado en el informe para que Joel lo apruebe. **No se envía sin su OK.**
    - Mandar la tanda de conexiones del día, de 5 a 8, sin nota, comprobando en el perfil que el cargo y el club coinciden. Si no hay nadie preparado, conectar con decisores de los leads de la Donosti Cup (`01-clients/leads-donosti-cup.md`).
    - Clic a clic, sin scripts masivos. Si LinkedIn pide verificación, captcha o inicio de sesión, parar y avisar.
-4. **Trabajo de crecimiento del día** (uno por día, en este orden de semana):
+4. **Prioridad hasta nuevo aviso (decisión de Joel, 17/11/2026): universidades de EEUU y entrenadores.** Desde el 15/04/2026 la División I de la NCAA permite una gira al extranjero cada año, y las universidades están terminando la temporada. Cada día, antes del trabajo del día de la semana, investigar de 5 a 10 programas universitarios (masculinos y femeninos; primero el noreste, Florida y la red de Joel) para giras en 2027 y 2028 y para Coach Experience: entrenador principal, correo comprobado en la web de atletismo de la universidad y un dato concreto (por ejemplo, una gira anterior o un torneo de pretemporada). Guardarlos en `01-clients/leads-universidades.md` y conectar en LinkedIn con los entrenadores (dentro de la tanda del día). Los correos solo salen cuando Joel apruebe la plantilla.
+5. **Trabajo de crecimiento del día** (uno por día, en este orden de semana):
    Para cada uno se puede delegar en el agente del puesto (`.claude/agents/`): `analista-mercado` (lunes y sábado), `prospeccion-clubes` (martes y jueves), `becas-y-pruebas` (miércoles), `marketing-redes` (viernes) y `alianzas-socios` (cuando un socio pida algo). El turno revisa lo que entregan antes de guardarlo.
    - **Lunes:** competencia. Qué hacen Sports Tours, SLT, Ertheo, las agencias de la Donosti Cup (Avanza Sports, Elite Futbol Experience, Futlab, PL Sports, GFI) y otras; precios, ofertas, contenido; qué nos beneficia, qué nos perjudica y qué hacemos. Va en `08-knowledge-base/competencia.md`.
    - **Martes:** nuevos clubes para Team y Coach Experience. Decisor y correo comprobados en la web del club (empezar por el nivel 1 de la Donosti Cup). Se preparan como tanda nueva en el generador, pasando el validador.
@@ -27,9 +28,9 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
    - **Jueves:** Coach Experience y giras universitarias. Universidades que hicieron gira al extranjero hace unos 4 años y entrenadores con quien conectar.
    - **Viernes:** informe semanal para Enrique (borrador de 5 líneas con números) y tendencias de contenido en Instagram y LinkedIn, con ideas aplicables al plan de redes.
    - **Sábado:** mercado y oportunidades nuevas (torneos, socios, eventos, convocatorias) y personas que nos pueden abrir puertas.
-5. **Excel:** si está cerrado (`[ "$(lsof | grep -c crm-ventas)" = 0 ]` y sin `~$crm-ventas.xlsx`), regenerarlo con el generador. Si está abierto, no se toca y se avisa en el informe.
-6. **Guardar:** actualizar `registro.json`, escribir el informe del día en `03-operations/informes/AAAA-MM-DD.md`, hacer commit (terminando con `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`) y push.
-7. **Informe final** (lo que lee Joel), corto y en español:
+6. **Excel:** si está cerrado (`[ "$(lsof | grep -c crm-ventas)" = 0 ]` y sin `~$crm-ventas.xlsx`), regenerarlo con el generador. Si está abierto, no se toca y se avisa en el informe.
+7. **Guardar:** actualizar `registro.json`, escribir el informe del día en `03-operations/informes/AAAA-MM-DD.md`, hacer commit (terminando con `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`) y push.
+8. **Informe final** (lo que lee Joel), corto y en español:
    - Lo que he hecho.
    - Lo que ha respondido la gente.
    - Lo que necesito que apruebes, con los textos listos.
