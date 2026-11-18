@@ -12,6 +12,8 @@ Los presets (qué incluye, qué no incluye, términos) están en PRESETS: revisa
 import argparse, io, json, os, sys
 import numpy as np
 from PIL import Image
+from reportlab import rl_config
+rl_config.useA85 = 0  # PDF binario: con ASCII85 Apple Mail los manda como texto y Gmail los enseña en blanco (17/11/2026)
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle

@@ -13,6 +13,8 @@ Dependencias: pip install reportlab pillow numpy
 import io, os, sys
 import numpy as np
 from PIL import Image, ImageOps
+from reportlab import rl_config
+rl_config.useA85 = 0  # PDF binario: con ASCII85 Apple Mail los manda como texto y Gmail los enseña en blanco (17/11/2026)
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors

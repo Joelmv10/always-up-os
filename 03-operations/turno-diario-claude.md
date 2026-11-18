@@ -45,3 +45,4 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
 - No tocar lo que Joel ya hizo en el Excel.
 - Para Enrique, solo cosas nuevas y concretas.
 - Si algo sale mal (un envío duplicado, un error de LinkedIn), se para, se cuenta en el informe y no se reintenta a ciegas.
+- Adjuntos: antes de mandar cualquier PDF, comprobar que es el archivo correcto y pasar `python3 07-automations/materiales/optimizar_pdf.py --comprobar archivo.pdf`. Después del envío, revisar en Enviados el nombre y el tamaño de cada adjunto (lección del 17/11/2026: a David le llegaron en blanco en Gmail).

@@ -8,6 +8,8 @@ Dependencias: reportlab, pillow, numpy y materiales.py (esta misma carpeta). Fot
 """
 import os
 
+from reportlab import rl_config
+rl_config.useA85 = 0  # PDF binario: con ASCII85 Apple Mail los manda como texto y Gmail los enseña en blanco (17/11/2026)
 from reportlab.lib import colors
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
