@@ -115,7 +115,17 @@ on run argv
     set r to reply original with opening window
     delay 1
     set content of r to cuerpo
-    tell r to make new bcc recipient at end of bcc recipients with properties {address:"%s"}
+    tell r
+      delete every to recipient
+      delete every cc recipient
+      make new to recipient at end of to recipients with properties {address:para}
+      make new bcc recipient at end of bcc recipients with properties {address:"%s"}
+    end tell
+    set destino to address of first to recipient of r
+    if (count of to recipients of r) is not 1 or destino is not para then
+      close window 1 saving no
+      return "destinatario incorrecto: " & destino
+    end if
     send r
   end tell
   return "ok"

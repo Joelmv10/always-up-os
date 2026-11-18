@@ -243,6 +243,8 @@ Lo que añadiríamos nosotros (Opinión):
 
 ## 3. Cursos de entrenador UEFA C y UEFA B
 
+> **Actualizado el 17/11/2026:** el estudio completo, con más vías en inglés (Gales, Gibraltar, Irlanda del Norte, Lituania), la diferencia con el título de Técnico Deportivo y las vías de producto para Always Up, está en `cursos-uefa-entrenadores.md`. Esta sección se mantiene como resumen; donde haya diferencias, manda el documento nuevo.
+
 ### 3.1 Cómo funciona la licencia (fuentes oficiales)
 
 **Quién la expide en España.**
@@ -327,7 +329,7 @@ Lo que añadiríamos nosotros (Opinión):
 
 ### 3.7 (e) Precio de mercado orientativo
 
-- **Licencia en inglés, residencial, en Europa:** de 3.900 a 4.850 € por nivel (WARUBI, Bayern).
+- **Licencia en inglés, residencial, en Europa:** de 3.900 a 4.850 € por nivel en WARUBI y el Bayern. **Corrección (17/11/2026):** hay opciones oficiales más baratas, como la federación galesa (2.000 £ el UEFA C intensivo y 3.000 £ el UEFA B intensivo, con pensión completa) y la de Gibraltar (700 £ y 900 £, a confirmar). Ver `cursos-uefa-entrenadores.md`.
 - **Licencia oficial en España para residentes:** 350 € la C (Valencia) y 1.200 € la A (Valencia, 2023).
 - **Combinado "UEFA en Alemania más semana en España" (Opinión):** el precio del socio alemán más el de nuestra semana de metodología (sección 2.6).
 
