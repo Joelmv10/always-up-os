@@ -147,6 +147,18 @@
       "kind": "Email 1",
       "date": "2026-11-17",
       "nota": "Enviado por Claude a las 13:14"
+    },
+    {
+      "key": "cedar",
+      "kind": "Follow-up 1",
+      "date": "2026-11-18",
+      "nota": "Enviado por Claude a las 09:34"
+    },
+    {
+      "key": "colorado",
+      "kind": "Follow-up 1",
+      "date": "2026-11-18",
+      "nota": "Enviado por Claude a las 09:34"
     }
   ],
   "tareas": [
