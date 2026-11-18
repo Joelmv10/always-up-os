@@ -13,7 +13,7 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
 ## El turno diario, paso a paso
 1. **Leer el estado:** `CLAUDE.md`, la memoria, el último informe en `03-operations/informes/`, `07-automations/outreach/registro.json` y `git log -5`.
 2. **Bandeja de joel.martinez@alwaysup.es** (Apple Mail, cuenta "Alwaysup", con `osascript`): buscar respuestas de clubes, rebotes y correos nuevos de posibles clientes. Para cada respuesta, dejar **un borrador en Mail** (no se envía) y explicarlo en el informe. Los rebotes se apuntan y se busca otro contacto.
-3. **LinkedIn** (navegador integrado, sesión de Joel):
+3. **LinkedIn** (navegador integrado, sesión de Joel; el navegador se usa SOLO para LinkedIn: cualquier otra web pide aprobación y deja el turno parado. Para investigar, WebSearch y WebFetch):
    - Mirar quién ha aceptado (Mi red → Contactos) y quién ha contestado (Mensajes).
    - A quien acepte, mandar el mensaje aprobado de la columna F de la pestaña LinkedIn - Conexiones del Excel (o del generador), comprobando antes que es la persona correcta.
    - Cualquier respuesta, o cualquier mensaje distinto del aprobado, se deja redactado en el informe para que Joel lo apruebe. **No se envía sin su OK.**

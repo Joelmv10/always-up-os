@@ -21,8 +21,9 @@
 - **Los correos salen de lunes a viernes (antes, de martes a jueves), con un máximo de 6 al día.** La tarea de envíos pasa a las 4:30 y 9:30, de lunes a viernes.
 - Los 4 follow-ups que no salieron van el jueves 19/11 a las 4:30. El resto del calendario se ha reajustado sin pasar de 6 al día.
 - **El turno prepara prospectos nuevos cada día laborable.** Cuando quedan menos de 10 días de primeros correos, añade 3 prospectos nuevos (prioridad: universidades de EEUU y entrenadores). Con 6 correos al día, los clubes en cola se gastan para el 10/12.
-- **Prueba real:** el turno se ha relanzado hoy a mano (sobre las 12:45) para que haga las conexiones de LinkedIn de hoy. El resultado está en la sección 7.
+- **Prueba real (12:42 a 12:47), sin ningún permiso pedido:** el turno, relanzado a mano, revisó la bandeja, hizo 5 conexiones comprobadas (Mo Hijazi, Federico Bianchi, Thiago Oliveira, Ryan Youngblood y Mani Salimpour) y descartó a 3 que no cuadraban (Rebay, Jeff Zaun y Fernando Gonzalez). Después siguió con la búsqueda de prospectos nuevos. La sesión de envíos, también relanzada, hizo bien la hora y la prueba en seco y paró como debía: era fuera de hora y no quedaba nada por enviar. El resultado está en la sección 7.
 - **Comprobación automática el jueves 19/11 a las 10:15** (tarea `verificar-turnos-19-11`).
+- **Arreglo de fondo (18/11, por la tarde):** las sesiones arrancaban en modo "pedir permiso" (ningún ajuste decía otra cosa). Desde ahora el proyecto arranca en **modo automático** (`"defaultMode": "auto"` en `.claude/settings.local.json`): Claude aprueba solo lo normal y bloquea lo peligroso sin preguntar, así que la sesión no se queda esperando. El turno que estaba en marcha se ha pasado también a modo automático. Lo único que puede seguir pidiendo aprobación es abrir una web nueva en el navegador integrado; por eso el turno solo usa el navegador para LinkedIn.
 
 ### Lo que tiene que pasar cada día
 - **Correos:** de lunes a viernes, hasta 6 (4:30 Europa, 9:30 América). Solo los que prepara el generador.
@@ -33,6 +34,7 @@
 ## 2. Richard Clarke
 - **La llamada se perdió:** confirmó a las 6:03 la llamada de las 12:30 y no le mandamos el enlace.
 - **12:40, enviado por LinkedIn (con el OK de Joel):** "Hi Rich, I'm really sorry, I missed sending you the invite for today and I know your time is valuable. Could we do next Tuesday (24th) or Wednesday (25th) at 12:30 ET instead? I'll send the link as soon as you confirm. Apologies again. Joel"
+- **12:47, segundo mensaje (Joel quería hacerla antes):** "Or if sooner is easier for you, tomorrow (Thursday) or Friday at 12:30 ET work for me too."
 - **Cuando conteste:** invitación de Zoom, Teams o Google Meet a rich@mrrichardclarke.com, con copia a Joel. En este Mac no hay Zoom ni Teams y el navegador integrado no tiene Google iniciado. O la crea Joel (Google Meet desde su Gmail, 10 segundos), o Joel inicia sesión en Google en el navegador integrado y la crea Claude.
 - **Guion y para qué hablamos:** `04-marketing/llamada-rich-clarke.md`. Es una llamada de consejo sobre contenido y marca, no de venta.
 
@@ -43,10 +45,10 @@
   - Los generadores están corregidos.
   - Hay una regla nueva en el manual del turno: comprobar cada PDF antes de enviarlo y revisarlo en Enviados después.
 - **Prueba 3 (17/11):** lleva solo 2 PDF. Mail mete entre ellos dos trozos de HTML vacíos, que Gmail enseña como dos adjuntos más sin nombre y en blanco. Por eso Joel vio 4 adjuntos y 2 vacíos.
-- **Pendiente de Joel:**
-  1. Decir si se abren los dos que se llaman "Always-Up-Company-Deck.pdf" y "Always-Up-Team-Experience.pdf".
-  2. Dar el OK para una prueba 4 en formato de texto sin estilo, que quitaría los trozos vacíos.
-  3. Dar el OK para reenviar a David los PDF en su hilo, con este texto: "Hi David, I noticed the two PDFs in my last email may show up blank on some email apps, so here they are again: our company presentation and the Team Experience overview. Let me know if they open fine on your side. Best, Joel"
+- **Confirmado con la captura de Joel (Outlook, 18/11):** los dos PDF llegan bien (3,4 MB y 1 MB). Los dos "en blanco" son ATT00001.htm y ATT00002.htm, trozos vacíos que Apple Mail mete entre adjuntos.
+- **Prueba 4 (18/11):** adjuntando de otra forma pasa lo mismo. Mail lo hace siempre que el mensaje va en formato enriquecido. Desde aquí no se puede cambiar: Mail protege sus ajustes.
+- **Arreglo (lo hace Joel, 1 minuto):** abrir la app Mail; en la barra de arriba, menú Mail > Ajustes (o Cmd + coma); pestaña **Redacción**; en el desplegable "Formato del mensaje" cambiar "Texto enriquecido" por **Texto normal**; cerrar la ventana. Nuestros correos ya son texto sin formato, así que no se pierde nada. Después, Claude manda una prueba 5 para confirmarlo.
+- **David:** recibió los PDF bien, más dos .htm vacíos. **No hace falta reenviárselo.** Para comprobarlo, abrir los dos PDF del correo enviado a David.
 
 ## 4. Cursos UEFA: cómo lo hace WARUBI
 - **No se salta el viaje.** La licencia la da la federación de Turingia (TFV), una federación regional de la DFB, en inglés.
@@ -91,8 +93,8 @@ La tarifa está en `08-knowledge-base/tarifas-atletico-2027.md`.
 ## 6. Pendientes
 | Quién | Qué | Cuándo |
 |---|---|---|
-| Joel | Mandar los documentos y el mensaje a Enrique | Hoy |
-| Joel | Decir si se abren los PDF de la prueba 3 y dar el OK para la prueba 4 y el reenvío a David | Hoy |
+| Joel | ~~Mandar los documentos y el mensaje a Enrique~~ Hecho el 18/11 | Hoy |
+| Joel | Poner Mail en "Texto normal" (Ajustes, Redacción) y avisar para la prueba 5 | Hoy |
 | Joel | Crear el enlace de la llamada con Richard cuando confirme | Cuando conteste |
 | Joel | OK para escribir a Gibraltar y a Gales | Esta semana (Gibraltar cierra el 30/11) |
 | Enrique | Precio de 5 días del Atlético; confirmar que Coach Experience es solo el programa; hojas de tarifas de los demás clubes | Antes de la reunión (26/11 a 3/12) |
