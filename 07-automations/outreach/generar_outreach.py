@@ -228,7 +228,7 @@ PROSPECTS_US = [
 
 # ------------------------------------------------- replanificación del 2/11/2026
 # Joel se atrasó desde el 20/10: nada de lo previsto para esas fechas consta como enviado. Se reagenda desde el 3/11.
-# Regla de volumen: envíos solo de martes a jueves y unos 6 al día como máximo (dominio nuevo).
+# Regla de volumen: hasta el 18/11, martes a jueves; desde el 19/11, lunes a viernes. Máximo 6 al día (dominio nuevo).
 REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
@@ -683,6 +683,7 @@ LI_ADELANTO = {"Jeff Oleck": D(2026, 11, 11), "Iain Scott": D(2026, 11, 11),
                "Thiago Oliveira": D(2026, 11, 18), "Mo Hijazi": D(2026, 11, 18)}
 
 
+LUNES_A_VIERNES_DESDE = D(2026, 11, 19)  # 18/11: Joel pide más alcance; desde el 19/11 se envía de lunes a viernes (máx. CAP_DIA al día)
 CERRADO_HASTA = D(2026, 11, 18)  # días ya pasados: lo enviado se queda en su fecha real y lo pendiente va después
 
 
@@ -718,7 +719,7 @@ def nivela(rows, fijos=None, cerrado_hasta=None):
             if d2 != d:
                 d = d2
                 continue
-            if (d.weekday() in (1, 2, 3) or d == VIERNES_PUENTE) and carga.get(d, 0) < CAP_DIA:
+            if (d.weekday() in (1, 2, 3) or d == VIERNES_PUENTE or (d >= LUNES_A_VIERNES_DESDE and d.weekday() < 5)) and carga.get(d, 0) < CAP_DIA:
                 break
             d += dt.timedelta(days=1)
         r["date"] = d

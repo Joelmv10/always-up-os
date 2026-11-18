@@ -1,6 +1,6 @@
 """Envía desde Apple Mail (cuenta joel.martinez@alwaysup.es) los correos del día que salen del generador.
 
-Lo usa el turno de envíos programado de Claude (martes a jueves). Joel lo autorizó el 10/11/2026.
+Lo usa el turno de envíos programado de Claude (de lunes a viernes desde el 19/11/2026). Joel lo autorizó el 10/11/2026.
 
 Uso:
     python3 enviar_correos.py --region europa|america [--fecha 2026-11-12] [--dry-run]
