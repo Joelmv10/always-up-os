@@ -28,7 +28,7 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
    - **Jueves:** Coach Experience y giras universitarias. Universidades que hicieron gira al extranjero hace unos 4 años y entrenadores con quien conectar.
    - **Viernes:** informe semanal para Enrique (borrador de 5 líneas con números) y tendencias de contenido en Instagram y LinkedIn, con ideas aplicables al plan de redes.
    - **Sábado:** mercado y oportunidades nuevas (torneos, socios, eventos, convocatorias) y personas que nos pueden abrir puertas.
-6. **Excel:** si está cerrado (`[ "$(lsof | grep -c crm-ventas)" = 0 ]` y sin `~$crm-ventas.xlsx`), regenerarlo con el generador. Si está abierto, no se toca y se avisa en el informe.
+6. **Excel:** regenerarlo con `/Applications/Xcode.app/Contents/Developer/usr/bin/python3 07-automations/outreach/generar_outreach.py --si-cerrado` (el propio script comprueba si está abierto y entonces no lo toca). Si está abierto, no se toca y se avisa en el informe.
 7. **Guardar:** actualizar `registro.json`, escribir el informe del día en `03-operations/informes/AAAA-MM-DD.md`, hacer commit (terminando con `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`) y push.
 8. **Informe final** (lo que lee Joel), corto y en español:
    - Lo que he hecho.

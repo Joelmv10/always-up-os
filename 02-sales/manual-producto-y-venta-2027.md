@@ -1,6 +1,6 @@
 # Manual de producto y venta 2027
 
-> **Interno, para Enrique y Joel.** Versión final para revisar. Es nuestro manual para vender cada paquete y para que cada cliente reciba el mejor servicio de España. Las fichas de los paquetes (programa, qué incluye, precio, plazos y condiciones) están en el anexo A del documento 1, "Always Up 2027: productos, posibilidades y decisiones para la reunión". Aquí está cómo se venden y cómo se cuidan.
+> **Documento de trabajo de Joel.** Es mi manual para empezar a vender en 2027; se irá completando con el uso. Es nuestro manual para vender cada paquete y para que cada cliente reciba el mejor servicio de España. Las fichas de los paquetes (programa, qué incluye, precio, plazos y condiciones) están en el anexo A del documento 1, "Always Up 2027: productos, posibilidades y decisiones para la reunión". Aquí está cómo se venden y cómo se cuidan.
 
 ## 1. Cómo nos posicionamos: la número 1
 **La promesa:** "Dentro de los clubes de LaLiga, como un profesional". No vendemos un tour con fotos en el estadio. El jugador o el entrenador entra en el día a día de un club profesional, con sus técnicos y en sus instalaciones. Y nosotros cuidamos cada detalle, desde el primer mensaje hasta después de volver a casa.
@@ -18,12 +18,12 @@
 
 **Cómo se dice al cliente:** "This is our [Madrid Week]. Every trip is tailored, so we can add days, friendlies, a second club or a tournament. Tell us what you need and we'll send you your own itinerary."
 
-**Módulos con precio (por jugador, estimación hasta tener las tarifas de los clubes):**
+**Módulos con precio (por jugador; con la tarifa 2027 del Atlético donde ya la tenemos):**
 
 | Módulo | Precio orientativo |
 |---|---|
-| Un día más de entrenamiento con alojamiento | 300 € |
-| Un amistoso más | 40 € |
+| Un día más de entrenamiento con alojamiento | 350 € (Atlético: 1.600 € la semana con residencia, unos 230 € de coste por día) |
+| Un amistoso más | Contra la cantera del Atlético: unos 110 € (el club cobra 1.300 € por partido y grupo). Contra un club local: unos 40 € |
 | Segunda ciudad y segundo club | Se suma la parte del otro paquete, más el tren o el autobús |
 | Partido del primer equipo | Precio de la entrada, más 10 € de gestión |
 | Torneo (Donosti Cup, MadCup y otros) | Precio del torneo, más 10 % de gestión |

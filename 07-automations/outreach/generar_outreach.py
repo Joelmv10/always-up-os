@@ -663,7 +663,11 @@ def build_sends():
         elif r["key"] not in _delta and r["kind"] in ENVIOS and D(2026, 11, 11) <= r["date"] <= D(2026, 11, 17) and (r["key"], r["kind"]) not in _hechos:
             r["date"] = D(2026, 11, 18)
     rows.sort(key=lambda r: (r["date"], r["club"]))
-    return nivela(rows)
+    rows.sort(key=lambda r: (r["date"], r["club"]))
+    # 18/11: la sesión de las 4:30 se quedó esperando un permiso y no envió los correos de Europa. Ese día queda cerrado
+    # con lo que sí salió (registro.json) y lo pendiente se reparte desde el 19/11 con el tope diario.
+    _fechas = {(e["key"], e["kind"]): D(*map(int, e["date"].split("-"))) for e in _reg.get("envios", []) if e.get("date")}
+    return nivela(rows, fijos=_fechas, cerrado_hasta=CERRADO_HASTA)
 
 
 PARADOS = {"seacoast", "carrigaline", "bollington"}  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
@@ -679,8 +683,13 @@ LI_ADELANTO = {"Jeff Oleck": D(2026, 11, 11), "Iain Scott": D(2026, 11, 11),
                "Thiago Oliveira": D(2026, 11, 18), "Mo Hijazi": D(2026, 11, 18)}
 
 
-def nivela(rows):
-    """Reparte los envíos: máximo CAP_DIA al día, de martes a jueves, y al menos 5 días entre correos a un mismo club."""
+CERRADO_HASTA = D(2026, 11, 18)  # días ya pasados: lo enviado se queda en su fecha real y lo pendiente va después
+
+
+def nivela(rows, fijos=None, cerrado_hasta=None):
+    """Reparte los envíos: máximo CAP_DIA al día, de martes a jueves, y al menos 5 días entre correos a un mismo club.
+    fijos: {(key, kind): fecha real de envío} para lo ya enviado desde cerrado_hasta; lo no enviado nunca cae en cerrado_hasta o antes."""
+    fijos = fijos or {}
     us = {p["club"] for p in PROSPECTS_US}
     carga, ultimo = {}, {}
     orden = sorted(rows, key=lambda r: (r["date"], r["kind"] in ("Email 1", "Formulario web"), r["club"]))
@@ -689,7 +698,15 @@ def nivela(rows):
             continue
         if r["kind"] not in ENVIOS:
             continue
+        if (r["key"], r["kind"]) in fijos:
+            d = fijos[(r["key"], r["kind"])]
+            r["date"] = d
+            carga[d] = carga.get(d, 0) + 1
+            ultimo[r["club"]] = max(ultimo.get(r["club"], d), d)
+            continue
         d = r["date"]
+        if cerrado_hasta and r["date"] >= cerrado_hasta - dt.timedelta(days=7) and d <= cerrado_hasta:
+            d = cerrado_hasta + dt.timedelta(days=1)
         if d == DIA_PROGRAMADO:
             carga[d] = carga.get(d, 0) + 1
             ultimo[r["club"]] = d
@@ -1737,5 +1754,22 @@ def main():
     print("OK. Tareas en calendario: %d, envíos: %d" % (len(cal), len(sends)))
 
 
+def excel_abierto():
+    """True si Joel tiene el Excel abierto (archivo de bloqueo ~$ o proceso con el archivo abierto)."""
+    import subprocess
+    if os.path.exists(os.path.join(os.path.dirname(CRM), "~$crm-ventas.xlsx")):
+        return True
+    try:
+        r = subprocess.run(["lsof", "-t", os.path.abspath(CRM)], capture_output=True, text=True, timeout=60)
+        return bool(r.stdout.strip())
+    except Exception:
+        return False
+
+
 if __name__ == "__main__":
+    import sys
+    # --si-cerrado: lo usa el turno automático. No regenera nada si Joel tiene el Excel abierto (18/11/2026).
+    if "--si-cerrado" in sys.argv and excel_abierto():
+        print("NO REGENERADO: el Excel está abierto. No se toca.")
+        sys.exit(0)
     main()
