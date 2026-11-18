@@ -99,3 +99,10 @@ La tarifa está en `08-knowledge-base/tarifas-atletico-2027.md`.
 | Joel | OK para escribir a Gibraltar y a Gales | Esta semana (Gibraltar cierra el 30/11) |
 | Enrique | Precio de 5 días del Atlético; confirmar que Coach Experience es solo el programa; hojas de tarifas de los demás clubes | Antes de la reunión (26/11 a 3/12) |
 | Claude | Comprobar las sesiones del 19/11 y avisar | 19/11, 10:15 |
+
+## 7. Resultado del turno relanzado (12:45)
+- **Funcionó sin pararse:** ningún comando pidió permiso.
+- **Bandeja:** sin respuestas ni rebotes.
+- **LinkedIn:** 7 conexiones sin nota, con el perfil comprobado (Mo Hijazi, Federico Bianchi, Thiago Oliveira, Ryan Youngblood, Mani Salimpour, Shawn Burke y Ashley Phillips). Cinco de la lista atrasada no aparecen con su club y quedan como "No encontrado".
+- **Universidades:** primera tanda en el generador (Buffalo, Northeastern y Southern Connecticut State), con la plantilla aprobada. Salen el 1/12, solo el primer correo.
+- **Para aprobar:** follow-up para universidades, mensaje de LinkedIn para entrenadores y mensaje a Marcos Landivar. Los textos están en `2026-11-18.md`.

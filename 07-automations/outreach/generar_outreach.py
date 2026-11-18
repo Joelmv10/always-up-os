@@ -464,6 +464,41 @@ for _p in PROSPECTS + PROSPECTS_US:
         _b = _b.replace("Thanks a lot,\n{sig}", _MAS + "Thanks a lot,\n{sig}")
     _p["e1_body"] = _b
 
+# ------------------------------------------- universidades de EEUU, tanda 1 (18/11/2026)
+# Plantilla aprobada por Joel el 17/11 (02-sales/plantilla-universidades.md). Solo el primer correo: los follow-ups del
+# generador hablan de equipos de cantera y Semana Santa, así que para universidades quedan parados (stop_after_e1) hasta
+# que Joel apruebe un follow-up propio. Correos comprobados el 18/11 en el directorio de atletismo de cada universidad.
+_UNI_P1 = ("I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: "
+           "Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish "
+           "academies and clubs. We handle the whole trip, from hotels to transport.")
+_UNI_STAFF = ("We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.")
+_UNI_END = "Would a quick call be useful? I'm happy to send a sample itinerary first.\n\nBest,\n{sig}"
+
+
+def _uni(key, club, short, to, coach, person, estado, division, p2, motivo, fuente, e1):
+    return dict(key=key, club=club, short=short, tz="America/New_York", lang="en", sent=False, e1=e1, to=to, greet="Hi Coach %s," % coach,
+                person=person, subj="Training at Atlético de Madrid and Real Sociedad for %s?" % short, linkedin=None,
+                dm="Redes del equipo de %s" % short, us=True, estado=estado, pais="EEUU (%s)" % estado, cat="Universidad %s" % division,
+                motivo=motivo, fuente=fuente, right=False, stop_after_e1=True,
+                e1_body="{greet}\n\n" + _UNI_P1 + "\n\n" + p2 + " " + _UNI_STAFF + "\n\n" + _UNI_END)
+
+
+UNIVERSIDADES = [
+    _uni("ubwsoc", "University at Buffalo (Women's Soccer)", "Buffalo", "shawnbur@buffalo.edu", "Burke", "Shawn Burke (Head Coach, Women's Soccer)", "Nueva York", "NCAA D1",
+         "I saw you took the team to Barcelona, Valencia and Madrid in 2016. With the NCAA now allowing Division I programs a foreign tour every year, a trip back to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip.",
+         "Gira de 7 días por Barcelona, Valencia y Madrid en primavera de 2016 con Shawn Burke, que sigue de entrenador (The Spectrum, 28/2/2016).",
+         "ubbulls.com/staff-directory / ubspectrum.com/article/2016/02/womens-soccer-to-take-trip", D(2026, 11, 23)),
+    _uni("neuwsoc", "Northeastern University (Women's Soccer)", "Northeastern", "a.phillips@northeastern.edu", "Phillips", "Ashley Phillips (Head Coach, Women's Soccer, desde 2016)", "Massachusetts", "NCAA D1",
+         "I saw the team went to Montpellier and Barcelona in 2018. With the NCAA now allowing Division I programs a foreign tour every year, a trip to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip.",
+         "Primer viaje al extranjero del programa: Montpellier y Barcelona, 2 al 11/3/2018, con Ashley Phillips (TopDrawerSoccer).",
+         "nuhuskies.com/staff-directory / topdrawersoccer.com/college-soccer-articles/northeastern-womens-soccer-heads-to-europe_aid43862", D(2026, 11, 23)),
+    _uni("scsuwsoc", "Southern Connecticut State University (Women's Soccer)", "Southern Connecticut", "cohena3@southernct.edu", "Cohen", "Adam Cohen (Head Women's Soccer Coach)", "Connecticut", "NCAA D2",
+         "I saw the team toured Costa Rica in 2023, so a trip to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip.",
+         "Gira por Costa Rica del 1 al 9/8/2023 con Adam Cohen (news.southernct.edu). División II: sin la frase de la regla de la NCAA para D1.",
+         "scsuowls.com/staff-directory / news.southernct.edu/?p=16074", D(2026, 11, 23)),
+]
+PROSPECTS_US += UNIVERSIDADES
+
 # Enlaces directos (4/11/2026). "Alta": perfil leído o club visible en el buscador. "Media": abrir y comprobar el club antes de conectar.
 LINKS = {
     "Dan Lester": ("https://www.linkedin.com/in/dan-lester-4079253b2/", "Confirmado el 4/11 en su perfil: Director & Head of Education en FEA Sports Group, que opera Holbeach United Football & Education Academy."),

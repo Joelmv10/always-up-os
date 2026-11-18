@@ -612,6 +612,71 @@
       "date": "2026-11-17",
       "task": "LinkedIn: conectar con Derek Biss",
       "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "LinkedIn: conectar con Mo Hijazi",
+      "estado": "Hecho",
+      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "LinkedIn: conectar con Thiago Oliveira",
+      "estado": "Hecho",
+      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "LinkedIn: conectar con Federico Bianchi",
+      "estado": "Hecho",
+      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "LinkedIn: conectar con Ryan Youngblood",
+      "estado": "Hecho",
+      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "LinkedIn: conectar con Mani Salimpour",
+      "estado": "Hecho",
+      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LinkedIn: conectar con Jose Luis Rebay",
+      "estado": "No encontrado",
+      "nota": "18/11: el único perfil es un entrenador de Bay Shore (NY) que no menciona Downtown United. No se conecta"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "LinkedIn: conectar con Jeff Zaun",
+      "estado": "No encontrado",
+      "nota": "18/11: no aparece en LinkedIn con este club. No se conecta"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "LinkedIn: conectar con Matt Mueller",
+      "estado": "No encontrado",
+      "nota": "18/11: no aparece en LinkedIn con este club. No se conecta"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "LinkedIn: conectar con Steve Trittschuh",
+      "estado": "No encontrado",
+      "nota": "18/11: no aparece en LinkedIn con este club. No se conecta"
+    },
+    {
+      "date": "2026-11-17",
+      "task": "LinkedIn: conectar con Fernando Gonzalez",
+      "estado": "No encontrado",
+      "nota": "18/11: no aparece en LinkedIn con este club. No se conecta"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "Revisión diaria",
+      "nota": "Turno relanzado a las 12:45: bandeja, LinkedIn (7 conexiones), 3 universidades al generador, informe 2026-11-18.md"
     }
   ],
   "textos": [
@@ -763,6 +828,28 @@
       "club": "Bollington United FC",
       "to": "David Spruce",
       "nota": "17/11: contesta por LinkedIn 'If you send us a poster/website I can forward on'. Se paran los follow-ups automáticos. Pendiente: respuesta con web y PDF (OK de Joel)."
+    },
+    {
+      "club": "Networking",
+      "to": "Marcos Landivar",
+      "nota": "Aceptó el 17/11. Compañero de Joel en Mercy (D2), scout. Posible prescriptor de becas y del programa de 12 días: mensaje propuesto en el informe del 18/11, pendiente del OK de Joel."
+    },
+    {
+      "club": "University at Buffalo (Women's Soccer)",
+      "to": "Shawn Burke",
+      "date": "2026-11-18",
+      "nota": "18/11: conexión sin nota (perfil: Head Women's Soccer Coach at University at Buffalo). Si acepta, el mensaje de clubes no sirve: texto propio pendiente del OK de Joel."
+    },
+    {
+      "club": "Northeastern University (Women's Soccer)",
+      "to": "Ashley Phillips",
+      "date": "2026-11-18",
+      "nota": "18/11: conexión sin nota (perfil: Northeastern University Head Women's Soccer Coach, desde 2016). Si acepta, texto propio pendiente del OK de Joel."
+    },
+    {
+      "club": "Networking",
+      "to": "Brandon Levine",
+      "nota": "18/11: aparece una invitación enviada hace 2 horas a Brandon Levine (Head Men's Soccer Coach, Felician University) que no mandó el turno. Confirmar con Joel."
     }
   ],
   "clubes": [
