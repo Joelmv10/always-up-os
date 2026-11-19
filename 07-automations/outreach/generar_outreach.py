@@ -718,7 +718,7 @@ def build_sends():
     return nivela(rows, fijos=_fechas, cerrado_hasta=CERRADO_HASTA)
 
 
-PARADOS = {"seacoast", "carrigaline", "bollington"}  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
+PARADOS = {"seacoast", "carrigaline", "bollington", "colorado"}  # colorado: Jeff Oleck contestó el 19/11, contrato exclusivo con WorldStrides hasta abril de 2028; volver a escribir en septiembre de 2027  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
 CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco tiempo de Joel)
 ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
 
