@@ -144,3 +144,14 @@ Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de
 - **El Real Unión de Irún autoriza que se le nombre y mencione en redes.** Las piezas pueden decir "entrena con el Real Unión de Irún".
 - El jugador se va el 22 o el 23/11. Enrique vuelve a Irún el viernes 20/11: grabar ese entrenamiento y hacer la entrevista final (mensajes 1 y 2 de `caso-pr-entrevista-final-y-familia.md`) antes de que se vaya.
 - El club ya hace pruebas de pago y quiere hacerlas con nosotros: ver `02-sales/ficha-prueba-real-union.md`. El caso del jugador es la mejor publicidad de ese producto.
+
+## Plan hasta que se va (acordado por Joel y Enrique el 19/11/2026)
+| Día | Qué | Qué grabar o pedir |
+|---|---|---|
+| Viernes 20/11 | Último entreno con el Real Unión. Enrique graba y le recoge | El entreno y un informe corto del entrenador |
+| Sábado 21 y domingo 22/11 | Con Enrique en Donosti, viendo varios partidos de la zona para ver el nivel | A él viendo los partidos y sus comentarios. Del partido, solo ambiente: sin caras de menores |
+| Lunes 23 y martes 24/11 | Entrena con otro club, en Ávila | El entreno, con permiso del club, y un informe corto del entrenador |
+| Martes 24/11 por la tarde | **Entrevista final**, después de Ávila, para que cuente los dos clubes | Entrevista, 3 frases a cámara y 3 fotos |
+| Miércoles 25/11 | Vuelve a Puerto Rico | Un clip de despedida en el aeropuerto |
+
+Pendiente: el nombre y la categoría del club de Ávila, si deja grabar y nombrarle, y si hace programas como el del Real Unión (para el mapa de clubes con acceso del catálogo).
