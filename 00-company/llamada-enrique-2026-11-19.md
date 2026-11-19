@@ -44,5 +44,49 @@ Enrique quiere empezar a llevar jugadores en enero. Para venderlo nos faltan est
 - Bollington (David Spruce) ha reenviado nuestro deck y la ficha a los equipos del club.
 - **Cursos UEFA:** Warubi no se salta el viaje: la licencia se saca en Alemania con la federación de Turingia. Vamos a escribir a Gibraltar (plazo: 30/11). Una pregunta para él: ¿conoce a alguien en una federación territorial que pudiera dar el curso en inglés?
 
+## Mensaje de WhatsApp para Enrique (19/11): qué saber y qué hacer este fin de semana
+Joel lo copia tal cual. Si Enrique no tiene a mano la entrevista final, se le reenvía el mensaje 2 de `04-marketing/caso-pr-entrevista-final-y-familia.md`.
+
+```
+Papá, te dejo todo por escrito para el finde.
+
+MAÑANA EN IRÚN, CON ADRIÁN
+1. Grabar el último entreno (el club ya dio permiso): llegada, calentamiento y 2 o 3 ejercicios donde se le vea bien. Vertical, clips cortos, sin zoom. A los otros chavales que no se les vea la cara.
+2. La entrevista final: 10 a 15 minutos, en horizontal, sitio tranquilo con luz de ventana, él con la camiseta de Always Up. Que conteste con frases completas. No le preguntes si le aceptan o si ficha. Si no tienes las preguntas a mano, te las reenvío.
+3. Al final, 3 frases cortas a cámara en vertical y 3 fotos (él solo, los dos juntos, y una con las botas o la bolsa).
+4. Pídele al entrenador un informe corto de cómo le ha visto. Le sirve a Adrián y es justo lo que vamos a vender en el programa del Real Unión.
+5. Si la madre no ha mandado aún su vídeo (30 a 60 segundos desde Puerto Rico), recuérdaselo.
+6. Todo a la carpeta de Drive "2026-11 Puerto Rico".
+7. Dime qué día y a qué hora vuela y quién le lleva al aeropuerto.
+
+REAL UNIÓN (ya que estás allí)
+Para empezar a llevar jugadores en enero me faltan estas respuestas:
+1. Lo plantearíamos como programa de entrenamiento de 12 días, con la evaluación gratis si el club quiere ver al jugador, porque el artículo 19ter.6 del reglamento FIFA no deja cobrar por la prueba en sí. ¿Les vale así?
+2. Los 500 € por jugador: ¿cómo los facturan? Si cobramos nosotros el paquete, ¿mantienen los 500 € o nos facturan directamente 1.000 €?
+3. Con qué equipo entrenaría el jugador, qué edades y qué nivel aceptan.
+4. Qué piden antes de aceptar a alguien (vídeo, currículum) y quién decide.
+5. Cuántas plazas al mes desde enero.
+6. El seguro médico y de accidentes, ¿lo pone el club o el jugador?
+7. Tener el acuerdo por escrito antes del 5/12.
+Mi propuesta de precio: paquete Always Up a 2.300 € (recogida en el aeropuerto, acompañamiento, vídeo e informe final). Nos quedan unos 1.300 € por jugador si mantienen los 500 €. Lo hablamos.
+
+PARA LA REUNIÓN (antes del 26/11)
+1. Atlético: el precio de 5 días. El que me pasaste es de 7.
+2. Atlético, Coach Experience: ¿cobran solo el programa (250 o 300 € por día), sin hotel ni comidas?
+3. Pedir a la Real, el Sporting, el Real Unión y el Depor su tarifa 2027 para todo, como la del Atlético. Sin eso no puedo cerrar precios en enero.
+4. Cerrar día y hora de la reunión, entre el 26/11 y el 3/12.
+
+CUANDO PUEDAS, CÓMO VA
+- Depor: ¿qué salió de la visita a su academia internacional?
+- Gonzalo Lamas: ¿qué modelo prefieres (comisión, marca propia o alianza anual)? Sin eso no puedo hacer la llamada con él.
+- Abogado: ¿quién y cuándo? Para menores y datos, el modelo del Real Unión y la autorización de imagen.
+- Los gemelos de Omar: seguimos esperando la valoración de David. ¿Se la puedes pedir?
+
+POR MI PARTE
+- Salen 6 correos al día de lunes a viernes. Hay 25 primeros correos en cola hasta el 10/12, sobre todo a universidades de EEUU.
+- Bollington (Inglaterra) ha pasado nuestro dossier a todos los equipos del club.
+- UEFA: voy a escribir a Gibraltar antes del 30/11. ¿Conoces a alguien en alguna federación territorial que pudiera dar el curso en inglés?
+```
+
 ## Respuestas de Enrique
 (Apuntar aquí después de la llamada.)
