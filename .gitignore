@@ -19,3 +19,6 @@ yarn-error.log*
 # Editores
 .vscode/
 .idea/
+
+# Registro local de permisos denegados en sesiones automaticas
+07-automations/hooks/denegados.log
