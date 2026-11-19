@@ -154,4 +154,4 @@ Cada jugador o equipo que venga con nosotros es contenido. Hace falta un "kit de
 | Martes 24/11 por la tarde | **Entrevista final**, después de Ávila, para que cuente los dos clubes | Entrevista, 3 frases a cámara y 3 fotos |
 | Miércoles 25/11 | Vuelve a Puerto Rico | Un clip de despedida en el aeropuerto |
 
-Pendiente: el nombre y la categoría del club de Ávila, si deja grabar y nombrarle, y si hace programas como el del Real Unión (para el mapa de clubes con acceso del catálogo).
+**Club de Ávila (Enrique, 19/11):** Colegio Diocesano de Ávila. Primer equipo en Tercera RFEF y juvenil en Liga Nacional. Pendiente: si deja grabar y nombrarle, y si haría programas como el del Real Unión y a qué precio (para el mapa de clubes con acceso del catálogo).

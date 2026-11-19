@@ -84,6 +84,7 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 **Objetivos vigentes (retomado agosto 2026, tras vacaciones):**
 - $200.000 facturados en Always Up en 2027 — **en riesgo real**, Renegades FC (el trato que "garantizaba" el objetivo) se perdió en agosto 2026. Ver `05-finance/modelo-financiero.md`.
 - Instagram: 10.000 seguidores antes de fin de 2026, 20.000 a finales de 2027.
+- **Objetivo común (19/11/2026): 3 ventas antes del 31/01/2027 (la primera antes del 31/12): una Team Experience, una Coach Experience y un jugador en el programa de 12 días.** Frentes, marcador y reglas en `00-company/objetivo-comun.md`; todo el trabajo de cada semana tiene que mover ese marcador.
 - **Máxima prioridad 2027 (Joel, 18/11/2026): cerrar al menos una Team Experience y una Coach Experience.** Tarifas reales del Atlético en `08-knowledge-base/tarifas-atletico-2027.md`.
 - **Primera venta real de Always Up en 1 mes** (desde agosto 2026) — objetivo con fecha, condiciona el trabajo de las próximas semanas. Ver plan de 30 días en `03-operations/roadmap-maestro.md`.
 - Contexto personal de Joel: nueva etapa en NY (nueva universidad, búsqueda de trabajo) — de fondo, no gestionado como tarea de Always Up salvo petición explícita. Recordatorio permanente: estatus F1 limita qué trabajo puede aceptar en EEUU.

@@ -909,7 +909,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Tampa Bay United: email 1 (enviar 08/12/2026 a las 09:30 hora Nueva York)
+## Tampa Bay United: email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** fgonzalez@tbusc.com
 
@@ -932,7 +932,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Bethesda Soccer Club: email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+## Bethesda Soccer Club: email 1 (enviar 10/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** dbiss@bethesdasoccer.org
 
@@ -955,7 +955,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Fort Lauderdale United FC: email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+## Fort Lauderdale United FC: email 1 (enviar 10/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** thiago@ftlutd.com
 
@@ -978,7 +978,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Sockers FC Chicago: email 1 (enviar 09/12/2026 a las 10:30 hora Nueva York)
+## Sockers FC Chicago: email 1 (enviar 10/12/2026 a las 10:30 hora Nueva York)
 
 **Para:** admin@sockersfcchicago.com
 
@@ -1003,7 +1003,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Capital Valley FC: email 1 (enviar 10/12/2026 a las 12:30 hora Nueva York)
+## Capital Valley FC: email 1 (enviar 11/12/2026 a las 12:30 hora Nueva York)
 
 **Para:** info@capvalleyfc.com
 
@@ -1026,7 +1026,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Chicago FC United: email 1 (enviar 10/12/2026 a las 10:30 hora Nueva York)
+## Chicago FC United: email 1 (enviar 11/12/2026 a las 10:30 hora Nueva York)
 
 **Para:** info@chicagofcunited.com
 
@@ -1051,7 +1051,7 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
-## Michigan Jaguars FC: email 1 (enviar 10/12/2026 a las 09:30 hora Nueva York)
+## Michigan Jaguars FC: email 1 (enviar 11/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** mo.hijazi@michiganjaguarsfc.com
 

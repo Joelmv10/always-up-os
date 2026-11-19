@@ -475,11 +475,19 @@ _UNI_STAFF = ("We can also add sessions for your staff with the clubs' coaches, 
 _UNI_END = "Would a quick call be useful? I'm happy to send a sample itinerary first.\n\nBest,\n{sig}"
 
 
+FU1_UNI = ("{greet}\n\nJust following up on my email from last week in case it got buried.\n\n"
+           "To give you an idea, a typical trip is a week in Spain: sessions with Atlético de Madrid and Real Sociedad coaches at their facilities, "
+           "friendlies against Spanish academy and club sides, a stadium tour, and hotels, meals and transport all handled. "
+           "Sessions for your staff can run alongside.\n\n"
+           "If a preseason or spring trip in 2027 or 2028 is on your radar, I'm happy to send a sample itinerary or jump on a quick call.\n\n"
+           "Best,\n{sig}")
+
+
 def _uni(key, club, short, to, coach, person, estado, division, p2, motivo, fuente, e1):
     return dict(key=key, club=club, short=short, tz="America/New_York", lang="en", sent=False, e1=e1, to=to, greet="Hi Coach %s," % coach,
                 person=person, subj="Training at Atlético de Madrid and Real Sociedad for %s?" % short, linkedin=None,
                 dm="Redes del equipo de %s" % short, us=True, estado=estado, pais="EEUU (%s)" % estado, cat="Universidad %s" % division,
-                motivo=motivo, fuente=fuente, right=False, stop_after_e1=True,
+                motivo=motivo, fuente=fuente, right=False, stop_after_e1=True, uni=True,
                 e1_body="{greet}\n\n" + _UNI_P1 + "\n\n" + p2 + " " + _UNI_STAFF + "\n\n" + _UNI_END)
 
 
@@ -674,6 +682,9 @@ def build_sends():
                 note_ = item[4] if len(item) > 4 else t["LI"].format(first=who.split()[0])
                 rows.append(dict(date=d, club=p["club"], kind="LinkedIn conectar", to=who, subj="(nota de conexión)",
                                  body=note_, how=HOW_LI, tz=None, key=p["key"], li_link=how_, li_conf=conf_))
+        if p.get("uni") and p["key"] not in PARADOS:  # universidades: un solo follow-up propio, aprobado por Joel el 19/11
+            rows.append(dict(date=ajusta(base + dt.timedelta(days=7), True), club=p["club"], kind="Follow-up 1", to=p["to"], subj=subj_re,
+                             body=FU1_UNI.format(**sg), how=HOW_FU, tz=p["tz"], key=p["key"]))
         if p.get("stop_after_e1") or p["key"] in PARADOS:  # PARADOS: contestaron o la dirección no sirve
             continue
         fu1 = (t["FU1_RIGHT"] if right and t["FU1_RIGHT"] else t["FU1"]).format(**sg)
