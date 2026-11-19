@@ -710,8 +710,145 @@ def build_partner(nombre="Gonzalo", anio="2028", slug="Gonzalo-Argentina"):
         c.setFillColor(CREAM); c.setFont("Helvetica-Bold", 10); c.drawString(DM, y, k.upper()); c.setFillColor(colors.white); c.setFont("Helvetica", 13); c.drawString(DM+90, y, v); y -= 26
     c.showPage(); c.save(); return out
 
+# ================================================================== PROGRAMA DE 12 DÍAS (jugadores de 18 o más)
+# Precio y condiciones: 00-company/catalogo-productos-2027.md (producto 4) y 02-sales/ficha-prueba-real-union.md.
+# Se vende como programa de entrenamiento, nunca como prueba de pago (reglamento FIFA, art. 19ter.6).
+PROG_PRECIO = "2.300 €"
+PROG_TXT = {
+    "es": dict(
+        file="Always-Up-Programa-12-dias-Real-Union.pdf", title="ENTRENA EN ESPAÑA", mini="PROGRAMA DE 12 DÍAS",
+        tag="12 días entrenando en el Real Unión de Irún, club fundador de LaLiga en 1929, para jugadores de 18 años o más.",
+        intro="Para jugadores que terminan la universidad o quieren dar el salto al fútbol europeo. Vives 12 días como un jugador más: entrenas con el club, "
+              "conoces cómo se trabaja en España y vuelves con vídeo e informe de tu nivel. Nosotros nos ocupamos de todo lo demás.",
+        chips=["18 años o más", "Fin de la universidad", "Salto a Europa", "Desde enero de 2027"],
+        h_inc="Qué incluye",
+        inc=[("12 días entrenando con el club,", "con su cuerpo técnico y en el grupo que encaje con tu nivel."),
+             ("Alojamiento y pensión completa", "durante toda la estancia."),
+             ("Recogida y despedida en el aeropuerto", "y acompañamiento de Always Up en español e inglés."),
+             ("Vídeo de tus entrenamientos", "para tu perfil y para enseñar a otros clubes."),
+             ("Informe final del cuerpo técnico:", "tu nivel y en qué tienes que mejorar."),
+             ("Ayuda con papeles y seguro", "antes de viajar.")],
+        price_t="Precio", price_b="por jugador, 12 días. Vuelos aparte.",
+        h_steps="Cómo funciona",
+        steps=[("Nos mandas tu vídeo", "Partidos recientes y tu currículum deportivo."), ("El club valida tu nivel", "Te decimos en unos días si encajas y en qué grupo."),
+               ("Reservas tu plaza", "Eliges las fechas y reservas con una señal."), ("Vienes a entrenar", "Te recogemos en el aeropuerto y te acompañamos.")],
+        h_know="Lo que tienes que saber",
+        know=[("No es una prueba ni un contrato.", "Vienes a entrenar y a aprender. Si el club quiere evaluarte para quedarte, te lo dirá: esa evaluación es gratuita y la decide solo el club."),
+              ("Plazas limitadas cada mes.", "El club acepta pocos jugadores a la vez para que entrenes de verdad con el grupo."),
+              ("Visado:", "para estancias cortas, muchos pasaportes (EEUU y casi toda América Latina) no lo necesitan. Te lo confirmamos según el tuyo.")],
+        trust="Always Up lleva equipos y entrenadores de todo el mundo a entrenar con el Atlético de Madrid, la Real Sociedad y el Sporting de Gijón.",
+        cta1="¿Te interesa? Escríbeme y lo vemos.", cta2="WhatsApp +1 (814) 329 1929  ·  joel.martinez@alwaysup.es  ·  Joel Martinez, Always Up"),
+    "en": dict(
+        file="Always-Up-12-Day-Program-Real-Union.pdf", title="TRAIN IN SPAIN", mini="12-DAY PROGRAM",
+        tag="12 days training at Real Unión de Irún, a founding club of LaLiga in 1929, for players aged 18 and over.",
+        intro="For players finishing college or looking to take the step into European football. For 12 days you live like one of the squad: you train with the club, "
+              "see how football is coached in Spain and leave with video and a report on your level. We take care of everything else.",
+        chips=["18 and over", "Finishing college", "Next step in Europe", "From January 2027"],
+        h_inc="What's included",
+        inc=[("12 days training with the club,", "with their coaching staff, in the group that fits your level."),
+             ("Accommodation and full board", "for the whole stay."),
+             ("Airport pick-up and drop-off,", "and support from Always Up in English and Spanish."),
+             ("Video of your training sessions", "for your profile and to show other clubs."),
+             ("Final report from the coaching staff:", "your level and what to work on."),
+             ("Help with paperwork and insurance", "before you travel.")],
+        price_t="Price", price_b="per player, 12 days. Flights not included.",
+        h_steps="How it works",
+        steps=[("Send us your video", "Recent games and your playing CV."), ("The club checks your level", "Within a few days we tell you if you fit and in which group."),
+               ("Book your place", "Pick your dates and book with a deposit."), ("Come and train", "We pick you up at the airport and look after you.")],
+        h_know="Good to know",
+        know=[("It's not a trial or a contract.", "You come to train and learn. If the club wants to assess you to stay, they'll tell you: that assessment is free and only the club decides."),
+              ("Limited places each month.", "The club takes few players at a time, so you really train with the group."),
+              ("Visa:", "for short stays, many passports (US and most of Latin America) don't need one. We'll confirm it for yours.")],
+        trust="Always Up takes teams and coaches from around the world to train with Atlético de Madrid, Real Sociedad and Sporting de Gijón.",
+        cta1="Interested? Message me and let's talk.", cta2="WhatsApp +1 (814) 329 1929  ·  joel.martinez@alwaysup.es  ·  Joel Martinez, Always Up"),
+}
+
+
+def build_programa(lang="es"):
+    t = PROG_TXT[lang]; out = f"{OUTDIR}/{t['file']}"; c = canvas.Canvas(out, pagesize=A4)
+    c.setTitle("Always Up - " + t["mini"].title()); c.setAuthor("Always Up")
+    y = f_hero(c, f"{NW}/au_p09_1.png", t["title"], t["tag"], (0.5, 0.0), hh=270, g0=0.50, g1=0.95, tb=70)
+    y -= 12; h = para(c, t["intro"], BODY, M, y, W-2*M); y -= h+4
+    y = f_chips(c, y, t["chips"]); y -= 8
+    y = f_h2(c, t["h_inc"], y)
+    pw = 150; colw = W-2*M-pw-14
+    ytop = y
+    yy = ytop
+    for head, body in t["inc"]:
+        c.setFillColor(RED); c.rect(M, yy-10, 5.5, 5.5, stroke=0, fill=1)
+        hh_ = para(c, f"<b>{head}</b> {body}", BODY, M+15, yy, colw-15); yy -= hh_+4
+    bx = W-M-pw; bh = 112
+    c.setFillColor(NAVY); c.roundRect(bx, ytop-bh, pw, bh, 6, stroke=0, fill=1)
+    c.setFillColor(CREAM); c.setFont("Helvetica-Bold", 9); c.drawString(bx+14, ytop-22, t["price_t"].upper())
+    c.setFillColor(colors.white); c.setFont("Helvetica-Bold", 28)
+    c.drawString(bx+14, ytop-56, PROG_PRECIO if lang == "es" else "€" + PROG_PRECIO.replace(" €", "").replace(".", ","))
+    para(c, t["price_b"], sty("pb", fontSize=8.8, leading=11.5, textColor=colors.white), bx+14, ytop-66, pw-26)
+    y = min(yy, ytop-bh) - 8
+    y = f_h2(c, t["h_steps"], y); f_steps(c, y, t["steps"]); y -= 62
+    y = f_h2(c, t["h_know"], y); y = f_bullets(c, t["know"], y, gap=4); y -= 4
+    h = para(c, t["trust"], sty("tr", fontName="Helvetica-Oblique", fontSize=9, leading=12, textColor=GREY), M, y, W-2*M); y -= h+10
+    f_cta(c, y, 50, t["cta1"], t["cta2"])
+    f_footer(c); c.showPage(); c.save(); return out
+
+
+# ================================================================== PROPUESTA GREYSTONES 2027 (cliente recurrente, en inglés)
+# Precios del catálogo 2027 (anexo A1, A6 y A7). Antes de mandarla, Enrique confirma el precio de 5 días con el Atlético
+# y si se mantiene el precio "desde" para un cliente de tres años.
+GREY_P5 = "€1,950"; GREY_P7 = "€2,600"; GREY_STAFF = "€450"; GREY_MW = "€3,600"; GREY_SW = "€2,400"
+
+
+def build_greystones():
+    out = os.path.abspath(os.path.join(HERE, "..", "..", "01-clients", "propuestas", "Always-Up-Greystones-2027-Proposal.pdf"))
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    c = canvas.Canvas(out, pagesize=A4); c.setTitle("Always Up - Greystones 2027 proposal"); c.setAuthor("Always Up")
+    y = f_hero(c, f"{NW}/au_p13_4.png", "GREYSTONES 2027",
+               "Your fourth year with Atlético de Madrid: a proposal for your teams and your coaching staff.", (0.5, 0.5), hh=262, g0=0.30, g1=0.95, tb=70)
+    y -= 14; y = f_h2(c, "Three years together", y)
+    y = f_bullets(c, [("2024:", "your coaches' Coach Experience and the club's first Team Experience at Atlético de Madrid."),
+                      ("2025:", "four teams, two at Easter and two in June."),
+                      ("2026:", "the league title, and a coach who said the trip played its part.")], y, gap=3); y -= 4
+    f_quote(c, y, 70, "No doubt our Atlético de Madrid Experience helped us win our league title... it gives players the belief they are special.",
+            "Greystones coach, after three years training with Always Up"); y -= 82
+    y = f_h2(c, "Our proposal for 2027", y)
+    cw = (W-2*M-16)/3; ch = 118
+    f_card(c, M, y, cw, ch, f"Madrid Week, 5 days<br/>from {GREY_P5} per player",
+           "Our usual format. Atlético de Madrid: 3 training sessions with club coaches, a match against their academy, history and values talk, stadium and museum, club residence with full board.")
+    f_card(c, M+cw+8, y, cw, ch, f"Madrid Week, 7 days<br/>from {GREY_P7} per player",
+           "The full Atlético week: 4 training sessions, 1 or 2 matches against their academy, a city afternoon and, if the calendar allows, a first-team match.")
+    f_card(c, M+2*(cw+8), y, cw, ch, f"Staff Program<br/>from {GREY_STAFF} per coach per day",
+           "While the team trains, your coaches spend 2 or 3 days with Atlético's coaching departments: methodology, planning and a corrected practical session.")
+    y -= ch+8
+    h = para(c, f"<b>Coaches on their own:</b> Spanish Methodology Week (5 days at Atlético, from {GREY_MW} per coach) or a 3-day Short Week (from {GREY_SW}). "
+                "One free staff place for every 15 paying players. Prices per person, flights not included. Final price confirmed once we have your dates and numbers.",
+             sty("gn", fontSize=8.8, leading=12, textColor=GREY), M, y, W-2*M); y -= h+14
+    f_photo_row(c, [(f"{NW}/au_p01_0.png", "TRAINING IN MADRID", (0.5, 0.6)), (f"{NW}/au_p13_3.png", "PRESS ROOM · ATLÉTICO", (0.5, 0.6)),
+                    (f"{IM}/tebro_p12_2.png", "SPORTS CITY · ATLÉTICO", (0.5, 0.5)), (f"{IM}/tebro_p07_2.png", "CLUB RESIDENCE", (0.5, 0.5))],
+                y, min(110, y-56), "WHERE YOUR TEAMS TRAIN AND STAY")
+    f_footer(c); c.showPage()
+
+    y = f_mini_header(c, "GREYSTONES 2027")
+    y = f_h2(c, "A real 5-day programme at Atlético de Madrid", y)
+    y = schedule_grid(c, M, y, W-2*M, 52, [16, 58, 16, 90, 16], 7.2, 8.8, 7.4, short=True)
+    f_legend(c, y-4, [(T_TRAIN, "Training"), (T_MATCH, "Matches"), (T_CLUB, "Club experience"), (T_MEAL, "Meals"), (T_TRAVEL, "Travel")]); y -= 22
+    y = f_h2(c, "What's included", y)
+    y = f_bullets(c, [("Atlético de Madrid:", "training with club coaches, matches against their academy (if the club accepts the level), history and values talk, stadium and museum, club certificate."),
+                      ("Stay:", "official club residence with full board and laundry, all transfers in Madrid."),
+                      ("Peace of mind:", "sports accident insurance (club) and travel medical insurance (ours), an Always Up coordinator 24 hours a day, daily photos for families and a video summary."),
+                      ("Not included:", "flights, the official club kit (€49, optional), first-team tickets (at cost) and personal expenses.")], y, gap=3); y -= 4
+    y = f_h2(c, "Dates and booking", y)
+    y = f_bullets(c, [("Easter 2027", "(Easter Sunday is 28 March): please confirm by 15 January 2027 so we can secure the residence."),
+                      ("June 2027:", "please confirm by 31 March 2027."),
+                      ("Payments:", "30% to book, 40% 90 days before arrival and 30% 30 days before.")], y, gap=3); y -= 8
+    f_steps(c, y, [("Tell us", "Teams, age groups, rough numbers and preferred dates."), ("We check", "Availability with Atlético within a week."),
+                   ("You book", "A 30% deposit holds your dates."), ("We handle it", "Programme, residence, transfers and families' info.")]); y -= 66
+    f_cta(c, y, 50, "Shall we hold your 2027 dates?", "Reply to this email or WhatsApp Joel: +1 (814) 329 1929")
+    f_footer(c); c.showPage(); c.save(); return out
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "todo"
+    if what == "programa": print(build_programa("es")); print(build_programa("en"))
+    if what == "greystones": print(build_greystones())
     if what in ("fichas", "todo"): print(build_team()); print(build_coach()); print(build_becas())
     if what in ("deck", "todo"): print(build_deck(False)); print(build_deck(True))
     if what == "partner": print(build_partner())

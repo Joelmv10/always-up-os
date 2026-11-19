@@ -185,7 +185,7 @@ def main():
         if s["kind"] != "Email 1" and (para.lower() in entrantes or dominio(para) in entrantes and dominio(para) not in ("gmail.com", "hotmail.com", "outlook.com", "yahoo.com")):
             informe.append("NO ENVIADO, PUEDE HABER CONTESTADO: %s (%s). Revisar la bandeja." % (s["club"], s["kind"]))
             continue
-        if hechos_hoy >= g.CAP_DIA:
+        if hechos_hoy >= g.cap_dia(hoy):
             informe.append("NO ENVIADO, TOPE DIARIO: %s (%s)" % (s["club"], s["kind"]))
             continue
         if a.dry_run:

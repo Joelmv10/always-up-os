@@ -731,6 +731,13 @@ def build_sends():
 
 PARADOS = {"seacoast", "carrigaline", "bollington", "colorado"}  # colorado: Jeff Oleck contestó el 19/11, contrato exclusivo con WorldStrides hasta abril de 2028; volver a escribir en septiembre de 2027  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
 CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco tiempo de Joel)
+CAP_DIA_DESDE_DIC = 8  # 19/11: Joel pide más carga; desde el 1/12, con un mes de envíos sin rebotes, hasta 8 al día
+SUBE_CAP = D(2026, 12, 1)
+
+
+def cap_dia(d):
+    d = d.date() if isinstance(d, dt.datetime) else d
+    return CAP_DIA_DESDE_DIC if d >= SUBE_CAP else CAP_DIA
 ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
 
 
@@ -778,7 +785,7 @@ def nivela(rows, fijos=None, cerrado_hasta=None):
             if d2 != d:
                 d = d2
                 continue
-            if (d.weekday() in (1, 2, 3) or d == VIERNES_PUENTE or (d >= LUNES_A_VIERNES_DESDE and d.weekday() < 5)) and carga.get(d, 0) < CAP_DIA:
+            if (d.weekday() in (1, 2, 3) or d == VIERNES_PUENTE or (d >= LUNES_A_VIERNES_DESDE and d.weekday() < 5)) and carga.get(d, 0) < cap_dia(d):
                 break
             d += dt.timedelta(days=1)
         r["date"] = d
