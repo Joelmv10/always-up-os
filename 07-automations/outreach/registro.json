@@ -159,6 +159,42 @@
       "kind": "Follow-up 1",
       "date": "2026-11-18",
       "nota": "Enviado por Claude a las 09:34"
+    },
+    {
+      "key": "ballymun",
+      "kind": "Follow-up 1",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
+    },
+    {
+      "key": "porte",
+      "kind": "Follow-up 1",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
+    },
+    {
+      "key": "hastings",
+      "kind": "Follow-up 2",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
+    },
+    {
+      "key": "holbeach_dan",
+      "kind": "Follow-up 1",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
+    },
+    {
+      "key": "akranes",
+      "kind": "Follow-up 2",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
+    },
+    {
+      "key": "keadue",
+      "kind": "Follow-up 1",
+      "date": "2026-11-19",
+      "nota": "Enviado por Claude a las 04:34"
     }
   ],
   "tareas": [
@@ -677,6 +713,11 @@
       "date": "2026-11-18",
       "task": "Revisión diaria",
       "nota": "Turno relanzado a las 12:45: bandeja, LinkedIn (7 conexiones), 3 universidades al generador, informe 2026-11-18.md"
+    },
+    {
+      "date": "2026-11-19",
+      "task": "Revisión diaria",
+      "nota": "Turno de las 7:30: David Spruce (Bollington) contesta 'Shared' (borrador en Mail), mensaje aprobado a Bill Moravek (Bethesda), 6 conexiones, informe 2026-11-19.md"
     }
   ],
   "textos": [
@@ -850,6 +891,68 @@
       "club": "Networking",
       "to": "Brandon Levine",
       "nota": "18/11: aparece una invitación enviada hace 2 horas a Brandon Levine (Head Men's Soccer Coach, Felician University) que no mandó el turno. Confirmar con Joel."
+    },
+    {
+      "club": "Networking",
+      "to": "Brandon Levine",
+      "nota": "Aceptó el 19/11. Entrenador universitario: el mensaje de clubes no sirve. Usar el de entrenadores universitarios cuando Joel lo apruebe."
+    },
+    {
+      "club": "Bollington United FC",
+      "to": "chair@bollingtonunited.co.uk",
+      "nota": "18/11 (18:17): David contesta por correo 'Shared' (ha pasado el deck y la ficha a los equipos). 19/11: borrador de agradecimiento en Mail, sin enviar."
+    },
+    {
+      "club": "Bethesda Soccer Club",
+      "to": "William (Bill) Moravek",
+      "date": "2026-11-19",
+      "nota": "Aceptó el 18/11 (Sporting Director, perfil comprobado). 19/11 a las 7:44: mensaje aprobado de la columna F enviado por Claude."
+    },
+    {
+      "club": "Networking",
+      "to": "Khalil Lazrek",
+      "nota": "Aceptó el 18/11 (Soccer Coach, Orlando City soccer academy). No estaba en nuestras listas: ¿lo invitó Joel? Mensaje propuesto en el informe del 19/11."
+    },
+    {
+      "club": "Networking",
+      "to": "Reyan Imler",
+      "nota": "Aceptó el 18/11. Exalumno de Mount Aloysius, estudiante de fisioterapia: no es prospecto, sin mensaje."
+    },
+    {
+      "club": "Southern Connecticut State University (Women's Soccer)",
+      "to": "Adam Cohen",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (perfil: Head Women's Soccer Coach at Southern CT State University). Correo 1 sale el 1/12."
+    },
+    {
+      "club": "Sockers FC Chicago",
+      "to": "Oleg Vatchev",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (Director Coach Education/Methodology, Sockers FC). Buen contacto para Coach Experience. Correo 1 del club sale el 9/12."
+    },
+    {
+      "club": "Chicago FC United",
+      "to": "Jeff DeGroot",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (MLS Next Academy Director, Chicago FC United). Correo 1 del club sale el 10/12."
+    },
+    {
+      "club": "Wake Forest University (Women's Soccer)",
+      "to": "Tony Daluz",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (Head Womens Soccer Coach at Wake Forest). Gira por España en febrero de 2023 con Navigo Sports Tours."
+    },
+    {
+      "club": "Essex County College (Men's Soccer)",
+      "to": "Pedro Sousa",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (Head Men's Soccer Coach, Essex County College, NJ, UEFA B). JUCO: sirve para giras y para becas."
+    },
+    {
+      "club": "Middlesex College (Soccer)",
+      "to": "Javier Velasco",
+      "date": "2026-11-19",
+      "nota": "19/11: conexión sin nota (Head Men and Women's Soccer Coach, Middlesex College, NJ). JUCO: sirve para giras y para becas."
     }
   ],
   "clubes": [

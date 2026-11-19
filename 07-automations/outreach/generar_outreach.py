@@ -496,6 +496,19 @@ UNIVERSIDADES = [
          "I saw the team toured Costa Rica in 2023, so a trip to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip.",
          "Gira por Costa Rica del 1 al 9/8/2023 con Adam Cohen (news.southernct.edu). División II: sin la frase de la regla de la NCAA para D1.",
          "scsuowls.com/staff-directory / news.southernct.edu/?p=16074", D(2026, 11, 23)),
+    # Tanda 2 (19/11/2026): correos comprobados en la página de entrenadores de cada universidad. D2 y D3: sin la frase de la regla de D1.
+    _uni("smcwsoc", "Saint Michael's College (Women's Soccer)", "Saint Michael's", "welles@smcvt.edu", "Elles", "Wendy Elles (Head Coach, Women's Soccer, desde 2013)", "Vermont", "NCAA D2",
+         "I saw the team had its preseason in Madrid and Barcelona in August 2024. A trip back to Spain could fit your 2027 or 2028 plans, this time training at the clubs themselves, as a preseason or a spring trip.",
+         "Pretemporada en Madrid y Barcelona del 9 al 18/8/2024 (The Defender). Wendy Elles sigue de entrenadora (14.ª temporada en 2026).",
+         "smcathletics.com/sports/womens-soccer/coaches / defender.smcvt.edu/?p=5233", D(2026, 11, 30)),
+    _uni("ycpwsoc", "York College of Pennsylvania (Women's Soccer)", "York", "kwakeman@ycp.edu", "Wakeman", "Kelly Wakeman (Head Coach, Women's Soccer)", "Pensilvania", "NCAA D3",
+         "I saw the team went to Spain in 2024, and the men's team went earlier this year. A trip in 2027 or 2028 could fit your plans too, as a preseason or a spring trip.",
+         "El equipo femenino viajó a España en 2024 y el masculino en marzo de 2026 (ycp.edu, 4/3/2026). D3: una gira cada 3 años, podría tocar en 2027.",
+         "ycpspartans.com/sports/womens-soccer/coaches / giving.ycp.edu/news/york-college-mens-soccer-heads-spain-once-lifetime-experience", D(2026, 11, 30)),
+    _uni("lvcmsoc", "Lebanon Valley College (Men's Soccer)", "Lebanon Valley", "grimes@lvc.edu", "Grimes", "Charlie Grimes (Head Coach, Men's Soccer, desde 2005)", "Pensilvania", "NCAA D3",
+         "I saw the team spent a week in southern Spain in 2024, based in Algeciras. A trip in 2027 or 2028 could show the players another side of Spanish football, in Madrid and San Sebastián, as a preseason or a spring trip.",
+         "Una semana en el sur de España en 2024 con base en Algeciras: 4-2 a la Algeciras Academy, 1-1 con el San Roque y un Málaga-Ibiza (La Vie, 8/4/2024).",
+         "godutchmen.com/sports/mens-soccer/coaches / wordpress.lvc.edu/lavie/2024/04/08/lvc-mens-soccer-team-travels-to-spain/", D(2026, 11, 30)),
 ]
 PROSPECTS_US += UNIVERSIDADES
 
