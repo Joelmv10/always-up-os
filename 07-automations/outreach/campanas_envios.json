@@ -1,0 +1,17 @@
+{
+  "_nota": "Envíos de campaña fuera del generador del Excel (textos aprobados por Joel). Los envía envio_campana.py el día indicado, con correo_smtp.py. Campaña 'programa-12-dias': texto A1 de 02-sales/campanas-2027/programa-12-dias.md, aprobado por Joel el 20/11/2026.",
+  "envios": [
+    {"fecha": "2026-11-23", "campana": "programa-12-dias", "para": "aragonpl@herkimer.edu", "nombre": "Pepe Aragon", "org": "Herkimer College (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://herkimer.prestosports.com/sports/msoc/coaches/Pepe_Aragon"},
+    {"fecha": "2026-11-23", "campana": "programa-12-dias", "para": "dalcew@mccc.edu", "nombre": "Widmarc Dalce", "org": "Mercer County Community College (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://www.mccc.edu/athletics_men_soccer.shtml"},
+    {"fecha": "2026-11-23", "campana": "programa-12-dias", "para": "draso@georgian.edu", "nombre": "Dino Raso", "org": "Georgian Court University (NCAA D2)", "jugadores": "seniors",
+     "fuente": "https://gculions.com/sports/mens-soccer/coaches"},
+    {"fecha": "2026-11-24", "campana": "programa-12-dias", "para": "Daniel.Fisher@ncc.edu", "nombre": "Dan Fisher", "org": "Nassau Community College (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://nassaulions.com/news/2025/7/31/mens-soccer-schedule-2025.aspx"},
+    {"fecha": "2026-11-24", "campana": "programa-12-dias", "para": "jsanchez1@bergen.edu", "nombre": "Jonathan Sanchez", "org": "Bergen Community College (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://bergencc.prestosports.com/information/directory/index"},
+    {"fecha": "2026-11-24", "campana": "programa-12-dias", "para": "ddimaggio@mvcc.edu", "nombre": "Dominic DiMaggio", "org": "Mohawk Valley Community College (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://mohawkvalley.prestosports.com/sports/msoc/coaches/Dominic_DiMaggio"}
+  ]
+}

@@ -59,7 +59,7 @@ Escríbeme ESPAÑA y te mando toda la información.
 | Acuerdo con el club y precio (50/50) | Falta | Enrique, antes del 5/12 |
 | Contrato revisado, seguro y cobro | Falta | Enrique (abogado, corredor y gestor), antes del 15/12 |
 | Página en la web | Falta | Claude escribe, Joel sube |
-| Lista de 15 entrenadores universitarios y de JUCO de la red de Joel | Falta | Joel la pasa o Claude la saca de LinkedIn |
+| Lista de entrenadores universitarios y de JUCO | **Hecho (20/11).** Red de Joel: Ashley Holmes (Florida Southern) y Yannis Sapim (Saint Leo), mensaje A1 enviado por LinkedIn el 20/11. Matthew Davis (Mount Aloysius), en persona por Joel. Brandon Levine y Pedro Sousa, más adelante (ya recibieron otro mensaje esta semana). En frío, con correo comprobado en la web de cada universidad: Herkimer, Mercer County y Georgian Court (23/11); Nassau, Bergen y Mohawk Valley (24/11). Salen con `07-automations/outreach/envio_campana.py` (tareas programadas). Pendientes de comprobar el correo: Brookdale (Brad Fraley), Westchester (Alfio Carrabotta), Caldwell (Max Correa), Molloy (John Fitzgerald), Monroe (Marcus DiBernardo) y Suffolk (Keith Ginsberg) | Claude |
 
 ## Metas
 - **Hasta el 31/12:** 10 solicitudes y 1 plaza guardada para enero o febrero.
