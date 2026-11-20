@@ -61,5 +61,6 @@ Siete de las 12 piezas son iguales en todos los productos. Si se hacen bien una 
 Becas sigue vendiéndose como hasta ahora.
 
 ## 5. Kits por producto
+- **Plazas, fechas y precios de 2027 (lo que se ofrece a clientes y socios) y la cuenta frente al objetivo:** `00-company/plan-plazas-2027.md` (20/11/2026).
 - Programa de 12 días: `02-sales/programa-12-dias/` (19/11/2026).
 - Team y Coach Experience: el manual de operación ya existe; falta el formulario de solicitud y la plantilla de propuesta (la de Greystones sirve de modelo: `01-clients/propuestas/`).

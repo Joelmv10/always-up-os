@@ -101,6 +101,7 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 - [ ] Gonzalo Lamas (socio Argentina, ~1.000 personas; 2027 ya cerrado con el Barça): llamada con Joel el martes 24/11, preparación con Enrique el lunes 23/11. Opciones cerradas para 2027, modelo de socio y guion en `01-clients/propuestas/gonzalo-2027-opciones.md`. Objetivo de Enrique: todo con tarifas cerradas en diciembre
 - [ ] Becas: Omar (gemelos) reactivado el 4/11, valoración pendiente de David. Claude lleva el seguimiento de becas: Joel pega los mensajes y copia las respuestas
 - [ ] Pruebas pagadas para mayores de 18 (línea 4 reactivada el 9/11): primer caso real, el jugador de Puerto Rico. El 17/11 el Real Unión confirma: 1.500 € por 12 días con alojamiento y comida, y 500 € a quien lleve al jugador. Cuentan con nosotros y se les puede nombrar en redes. Borrador de la ficha y del plan de venta en `02-sales/ficha-prueba-real-union.md`; Enrique quiere cerrarlo para empezar en enero. Prioridad recomendada sobre los demás servicios nuevos (ver `00-company/llamada-enrique-2026-11-09.md`)
+- [ ] Cerrar los productos de 2027: plazas, fechas, precios y lo que falta de cada club en `00-company/plan-plazas-2027.md` (20/11). Sesión de Coach Experience con Joel el miércoles 25/11; envío a federaciones el 1/12
 - [ ] Ampliar la lista de clubes objetivo a más volumen (3-4 candidatos serios, no 1-2)
 - [ ] Checklist legal menores/GDPR/seguros — falta revisión de abogado
 - [ ] Sesión dedicada aparte: estrategia de marca personal (Instagram @Joel_alwaysup) + Player Development
