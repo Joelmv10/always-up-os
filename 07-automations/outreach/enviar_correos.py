@@ -1,4 +1,8 @@
-"""Envía desde Apple Mail (cuenta joel.martinez@alwaysup.es) los correos del día que salen del generador.
+"""Envía desde joel.martinez@alwaysup.es los correos del día que salen del generador.
+
+Desde el 19/11/2026 el envío va por SMTP con correo_smtp.py (texto plano limpio, copia en Enviados por
+IMAP). Apple Mail se sigue usando solo para LEER Enviados y la bandeja. No volver a crear correos con
+"make new outgoing message" ni "set content": Mail los convierte en cita.
 
 Lo usa el turno de envíos programado de Claude (de lunes a viernes desde el 19/11/2026). Joel lo autorizó el 10/11/2026.
 
@@ -25,6 +29,7 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import generar_outreach as g  # noqa: E402
+import correo_smtp  # noqa: E402
 
 CUENTA = "Alwaysup"
 REMITENTE = "Joel Martinez <joel.martinez@alwaysup.es>"
@@ -192,19 +197,21 @@ def main():
             informe.append("ENVIARÍA: %s (%s) a %s | %s" % (s["club"], s["kind"], para, asunto))
             hechos_hoy += 1
             continue
-        with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
-            f.write(s["body"])
-            ruta = f.name
+        # Desde el 19/11/2026 se envía por SMTP (correo_smtp.py): el redactor de Mail convertía en cita
+        # todo el texto metido por script (">" en cada línea). NUEVO y RESPONDER quedan solo como referencia.
         try:
             if s["kind"] == "Email 1":
-                res = osa(NUEVO, para, asunto, ruta)
+                correo_smtp.nuevo(para, asunto, s["body"])
             else:
-                res = osa(RESPONDER, para, base, ruta)
-        finally:
-            os.unlink(ruta)
-        if res != "ok":
-            informe.append("NO ENVIADO (%s): %s (%s) a %s" % (res, s["club"], s["kind"], para))
+                correo_smtp.responder(para, base, s["body"])
+        except correo_smtp.ErrorCorreo as e:
+            informe.append("NO ENVIADO (%s): %s (%s) a %s" % (e, s["club"], s["kind"], para))
+            if "Llavero" in str(e):
+                break
             continue
+        except Exception as e:  # red, servidor: no se reintenta en esta sesión
+            informe.append("NO ENVIADO (error de conexión: %s): %s (%s) a %s" % (e, s["club"], s["kind"], para))
+            break
         reg.setdefault("envios", []).append({"key": s["key"], "kind": s["kind"], "date": hoy.isoformat(),
                                              "nota": "Enviado por Claude a las %s" % dt.datetime.now().strftime("%H:%M")})
         json.dump(reg, open(REGISTRO, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
