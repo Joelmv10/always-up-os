@@ -797,36 +797,69 @@ def build_programa(lang="es"):
 GREY_P5 = "€1,950"; GREY_P7 = "€2,600"; GREY_STAFF = "€450"; GREY_MW = "€3,600"; GREY_SW = "€2,400"
 
 
-def build_greystones():
-    out = os.path.abspath(os.path.join(HERE, "..", "..", "01-clients", "propuestas", "Always-Up-Greystones-2027-Proposal.pdf"))
+# ================================================================== PROPUESTA TEAM EXPERIENCE (plantilla para cualquier club, en inglés)
+# Uso: python3 materiales.py propuesta <ficha.json>   (ejemplo y campos en 01-clients/propuestas/fichas/)
+# Precios por defecto: catálogo 2027 (anexo A1, A6 y A7). Hasta que Enrique confirme el precio de 5 días del Atlético,
+# todo va como "from" y con la nota de precio final.
+TEAM_DEFAULT = {
+    "lang": "en",
+    "hero_img": "au_p13_4.png", "hero_focus": [0.5, 0.5],
+    "intro_h2": "Why Spain, and why with us",
+    "intro": [
+        ["Professional clubs:", "your players train with coaches from Atlético de Madrid, at the club's own facilities, and play against Spanish academy teams."],
+        ["Everything sorted:", "residence, meals, transfers, insurance and a coordinator 24 hours a day. You only book flights."],
+        ["Built for youth teams:", "we have been running these weeks since 2024, with a group programme and daily updates for families."],
+    ],
+    "quote": ["No doubt our Atlético de Madrid Experience helped us win our league title... it gives players the belief they are special.",
+              "Coach at Greystones (Ireland), after three years training with Always Up"],
+    "proposal_h2": "Our proposal for 2027",
+    "cards": [
+        ["Madrid Week, 5 days<br/>from {P5} per player",
+         "Our usual format. Atlético de Madrid: 3 training sessions with club coaches, a match against their academy, history and values talk, stadium and museum, club residence with full board."],
+        ["Madrid Week, 7 days<br/>from {P7} per player",
+         "The full Atlético week: 4 training sessions, 1 or 2 matches against their academy, a city afternoon and, if the calendar allows, a first-team match."],
+        ["Staff Program<br/>from {STAFF} per coach per day",
+         "While the team trains, your coaches spend 2 or 3 days with Atlético's coaching departments: methodology, planning and a corrected practical session."],
+    ],
+    "note": "<b>Coaches on their own:</b> Spanish Methodology Week (5 days at Atlético, from {MW} per coach) or a 3-day Short Week (from {SW}). "
+            "One free staff place for every 15 paying players. Prices per person, flights not included. Final price confirmed once we have your dates and numbers.",
+    "prices": {"P5": "€1,950", "P7": "€2,600", "STAFF": "€450", "MW": "€3,600", "SW": "€2,400"},
+    "dates": [
+        ["Easter 2027", "(Easter Sunday is 28 March): please confirm by 15 January 2027 so we can secure the residence."],
+        ["Summer 2027:", "please confirm by 31 March 2027."],
+        ["Payments:", "30% to book, 40% 90 days before arrival and 30% 30 days before."],
+    ],
+    "cta": ["Shall we hold your 2027 dates?", "Reply to this email or WhatsApp Joel: +1 (814) 329 1929"],
+}
+
+
+def build_propuesta_team(spec):
+    s = {**TEAM_DEFAULT, **spec}
+    s["prices"] = {**TEAM_DEFAULT["prices"], **spec.get("prices", {})}
+    P = s["prices"]
+    titulo = s["title"]
+    out = s.get("out") or os.path.join("01-clients", "propuestas", "Always-Up-%s-Proposal.pdf" % s["slug"])
+    out = out if os.path.isabs(out) else os.path.abspath(os.path.join(HERE, "..", "..", out))
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    c = canvas.Canvas(out, pagesize=A4); c.setTitle("Always Up - Greystones 2027 proposal"); c.setAuthor("Always Up")
-    y = f_hero(c, f"{NW}/au_p13_4.png", "GREYSTONES 2027",
-               "Your fourth year with Atlético de Madrid: a proposal for your teams and your coaching staff.", (0.5, 0.5), hh=262, g0=0.30, g1=0.95, tb=70)
-    y -= 14; y = f_h2(c, "Three years together", y)
-    y = f_bullets(c, [("2024:", "your coaches' Coach Experience and the club's first Team Experience at Atlético de Madrid."),
-                      ("2025:", "four teams, two at Easter and two in June."),
-                      ("2026:", "the league title, and a coach who said the trip played its part.")], y, gap=3); y -= 4
-    f_quote(c, y, 70, "No doubt our Atlético de Madrid Experience helped us win our league title... it gives players the belief they are special.",
-            "Greystones coach, after three years training with Always Up"); y -= 82
-    y = f_h2(c, "Our proposal for 2027", y)
-    cw = (W-2*M-16)/3; ch = 118
-    f_card(c, M, y, cw, ch, f"Madrid Week, 5 days<br/>from {GREY_P5} per player",
-           "Our usual format. Atlético de Madrid: 3 training sessions with club coaches, a match against their academy, history and values talk, stadium and museum, club residence with full board.")
-    f_card(c, M+cw+8, y, cw, ch, f"Madrid Week, 7 days<br/>from {GREY_P7} per player",
-           "The full Atlético week: 4 training sessions, 1 or 2 matches against their academy, a city afternoon and, if the calendar allows, a first-team match.")
-    f_card(c, M+2*(cw+8), y, cw, ch, f"Staff Program<br/>from {GREY_STAFF} per coach per day",
-           "While the team trains, your coaches spend 2 or 3 days with Atlético's coaching departments: methodology, planning and a corrected practical session.")
+    c = canvas.Canvas(out, pagesize=A4); c.setTitle("Always Up - %s proposal" % titulo.title()); c.setAuthor("Always Up")
+    y = f_hero(c, f"{NW}/{s['hero_img']}", titulo, s["tagline"], tuple(s["hero_focus"]), hh=262, g0=0.30, g1=0.95, tb=70)
+    y -= 14; y = f_h2(c, s["intro_h2"], y)
+    y = f_bullets(c, [tuple(b) for b in s["intro"]], y, gap=3); y -= 4
+    if s.get("quote"):
+        f_quote(c, y, 70, s["quote"][0], s["quote"][1]); y -= 82
+    y = f_h2(c, s["proposal_h2"], y)
+    cards = s["cards"]; n = len(cards); cw = (W-2*M-8*(n-1))/n; ch = 118
+    for i, (t, b) in enumerate(cards):
+        f_card(c, M+i*(cw+8), y, cw, ch, t.format(**P), b.format(**P))
     y -= ch+8
-    h = para(c, f"<b>Coaches on their own:</b> Spanish Methodology Week (5 days at Atlético, from {GREY_MW} per coach) or a 3-day Short Week (from {GREY_SW}). "
-                "One free staff place for every 15 paying players. Prices per person, flights not included. Final price confirmed once we have your dates and numbers.",
-             sty("gn", fontSize=8.8, leading=12, textColor=GREY), M, y, W-2*M); y -= h+14
+    if s.get("note"):
+        h = para(c, s["note"].format(**P), sty("gn", fontSize=8.8, leading=12, textColor=GREY), M, y, W-2*M); y -= h+14
     f_photo_row(c, [(f"{NW}/au_p01_0.png", "TRAINING IN MADRID", (0.5, 0.6)), (f"{NW}/au_p13_3.png", "PRESS ROOM · ATLÉTICO", (0.5, 0.6)),
                     (f"{IM}/tebro_p12_2.png", "SPORTS CITY · ATLÉTICO", (0.5, 0.5)), (f"{IM}/tebro_p07_2.png", "CLUB RESIDENCE", (0.5, 0.5))],
                 y, min(110, y-56), "WHERE YOUR TEAMS TRAIN AND STAY")
     f_footer(c); c.showPage()
 
-    y = f_mini_header(c, "GREYSTONES 2027")
+    y = f_mini_header(c, titulo)
     y = f_h2(c, "A real 5-day programme at Atlético de Madrid", y)
     y = schedule_grid(c, M, y, W-2*M, 52, [16, 58, 16, 90, 16], 7.2, 8.8, 7.4, short=True)
     f_legend(c, y-4, [(T_TRAIN, "Training"), (T_MATCH, "Matches"), (T_CLUB, "Club experience"), (T_MEAL, "Meals"), (T_TRAVEL, "Travel")]); y -= 22
@@ -836,19 +869,37 @@ def build_greystones():
                       ("Peace of mind:", "sports accident insurance (club) and travel medical insurance (ours), an Always Up coordinator 24 hours a day, daily photos for families and a video summary."),
                       ("Not included:", "flights, the official club kit (€49, optional), first-team tickets (at cost) and personal expenses.")], y, gap=3); y -= 4
     y = f_h2(c, "Dates and booking", y)
-    y = f_bullets(c, [("Easter 2027", "(Easter Sunday is 28 March): please confirm by 15 January 2027 so we can secure the residence."),
-                      ("June 2027:", "please confirm by 31 March 2027."),
-                      ("Payments:", "30% to book, 40% 90 days before arrival and 30% 30 days before.")], y, gap=3); y -= 8
+    y = f_bullets(c, [tuple(b) for b in s["dates"]], y, gap=3); y -= 8
     f_steps(c, y, [("Tell us", "Teams, age groups, rough numbers and preferred dates."), ("We check", "Availability with Atlético within a week."),
                    ("You book", "A 30% deposit holds your dates."), ("We handle it", "Programme, residence, transfers and families' info.")]); y -= 66
-    f_cta(c, y, 50, "Shall we hold your 2027 dates?", "Reply to this email or WhatsApp Joel: +1 (814) 329 1929")
+    f_cta(c, y, 50, s["cta"][0], s["cta"][1])
     f_footer(c); c.showPage(); c.save(); return out
+
+
+def build_greystones():
+    return build_propuesta_team({
+        "title": "GREYSTONES 2027", "slug": "Greystones-2027",
+        "tagline": "Your fourth year with Atlético de Madrid: a proposal for your teams and your coaching staff.",
+        "intro_h2": "Three years together",
+        "intro": [["2024:", "your coaches' Coach Experience and the club's first Team Experience at Atlético de Madrid."],
+                  ["2025:", "four teams, two at Easter and two in June."],
+                  ["2026:", "the league title, and a coach who said the trip played its part."]],
+        "quote": ["No doubt our Atlético de Madrid Experience helped us win our league title... it gives players the belief they are special.",
+                  "Greystones coach, after three years training with Always Up"],
+        "prices": {"P5": GREY_P5, "P7": GREY_P7, "STAFF": GREY_STAFF, "MW": GREY_MW, "SW": GREY_SW},
+        "dates": [["Easter 2027", "(Easter Sunday is 28 March): please confirm by 15 January 2027 so we can secure the residence."],
+                  ["June 2027:", "please confirm by 31 March 2027."],
+                  ["Payments:", "30% to book, 40% 90 days before arrival and 30% 30 days before."]],
+    })
 
 
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "todo"
     if what == "programa": print(build_programa("es")); print(build_programa("en"))
     if what == "greystones": print(build_greystones())
+    if what == "propuesta":
+        import json
+        print(build_propuesta_team(json.load(open(sys.argv[2], encoding="utf-8"))))
     if what in ("fichas", "todo"): print(build_team()); print(build_coach()); print(build_becas())
     if what in ("deck", "todo"): print(build_deck(False)); print(build_deck(True))
     if what == "partner": print(build_partner())

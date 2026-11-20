@@ -1,5 +1,7 @@
 # Plantilla de propuesta escrita (post-llamada)
 
+> **Team Experience, desde el 19/11/2026:** usar la plantilla nueva con el diseño de Greystones (`01-clients/propuestas/fichas/README.md`). Es la que se manda a clubes. El generador de abajo queda para Coach, campus, becas y programa.
+
 > **Desde 2026-10-02 la propuesta se genera como PDF con marca** con `07-automations/propuestas/generar_propuesta.py`: se rellena una ficha JSON por cliente (hay ejemplos en `07-automations/propuestas/ejemplos/`) y sale la propuesta lista para enviar. Presets: `team`, `coach`, `camp`, `becas`, `programa`. Revisar los presets (qué incluye / qué no incluye / condiciones) antes del primer uso real. La plantilla de texto de abajo sigue siendo la guía de contenido: el "Objetivo" siempre específico de la llamada, "siguiente paso" con fecha real.
 
 > Enviar siempre tras la "Experience Planning Call" / "Scholarship Assessment" / etc. — nunca dejar una llamada en "lo hablamos y os digo". Una sola plantilla reutilizable para los 4 servicios activos (no crear una por servicio). Ver [embudo-ventas.md](embudo-ventas.md) sección 5.5.
