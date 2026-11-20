@@ -56,9 +56,16 @@ def _ctx():
 
 
 def _imap():
-    m = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT, ssl_context=_ctx())
-    m.login(USUARIO, _clave())
-    return m
+    ultimo = None
+    for espera in (0, 20, 60):
+        time.sleep(espera)
+        try:
+            m = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT, ssl_context=_ctx())
+            m.login(USUARIO, _clave())
+            return m
+        except (imaplib.IMAP4.abort, ConnectionError, OSError) as e:
+            ultimo = e
+    raise ErrorCorreo("no se pudo conectar con el servidor de correo (IMAP) tras 3 intentos: %s" % ultimo)
 
 
 CARPETA_ENVIADOS = "INBOX.Sent"  # la que usa Mail para esta cuenta (comprobado el 19/11/2026)
@@ -155,9 +162,32 @@ def enviar(msg, con_copia_oculta=True):
         raise ErrorCorreo("No se envía, el texto no está limpio: " + "; ".join(problemas))
     destinos = [msg["To"]] + ([CCO] if con_copia_oculta else [])
     clave = _clave()
-    with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=_ctx(), timeout=60) as s:
-        s.login(USUARIO, clave)
+    # 20/11/2026: Hostinger cortó la conexión al tercer correo seguido ("Connection unexpectedly closed").
+    # Solo se reintenta la CONEXIÓN y el login (todavía no se ha mandado nada, así que no hay duplicados).
+    # Si falla durante el envío en sí, no se reintenta nunca.
+    s = None
+    for espera in (0, 30, 90):
+        time.sleep(espera)
+        try:
+            s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=_ctx(), timeout=60)
+            s.login(USUARIO, clave)
+            break
+        except (smtplib.SMTPServerDisconnected, smtplib.SMTPConnectError, ConnectionError, OSError):
+            try:
+                if s:
+                    s.close()
+            except Exception:
+                pass
+            s = None
+    if s is None:
+        raise ErrorCorreo("no se pudo conectar con el servidor de correo tras 3 intentos (no se ha enviado)")
+    try:
         rechazados = s.send_message(msg, to_addrs=destinos)
+    finally:
+        try:
+            s.quit()
+        except Exception:
+            pass
     if rechazados:
         raise ErrorCorreo("El servidor rechazó: %s" % rechazados)
     # Copia en Enviados para que Mail, registro y follow-ups la vean como siempre.

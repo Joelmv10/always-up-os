@@ -25,6 +25,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -180,6 +181,7 @@ def main():
             primeros[s["key"]] = s
 
     hechos_hoy = max(enviados_hoy, hoy_mail)
+    enviados_al_empezar = hechos_hoy
     informe = []
     for s in del_dia:
         para, asunto = s["to"].strip(), s["subj"]
@@ -199,6 +201,8 @@ def main():
             continue
         # Desde el 19/11/2026 se envía por SMTP (correo_smtp.py): el redactor de Mail convertía en cita
         # todo el texto metido por script (">" en cada línea). NUEVO y RESPONDER quedan solo como referencia.
+        if hechos_hoy > enviados_al_empezar:
+            time.sleep(45)  # 20/11: sin pausa, el servidor cortó la conexión al tercer correo seguido
         try:
             if s["kind"] == "Email 1":
                 correo_smtp.nuevo(para, asunto, s["body"])
@@ -206,7 +210,7 @@ def main():
                 correo_smtp.responder(para, base, s["body"])
         except correo_smtp.ErrorCorreo as e:
             informe.append("NO ENVIADO (%s): %s (%s) a %s" % (e, s["club"], s["kind"], para))
-            if "Llavero" in str(e):
+            if "Llavero" in str(e) or "conectar" in str(e):
                 break
             continue
         except Exception as e:  # red, servidor: no se reintenta en esta sesión

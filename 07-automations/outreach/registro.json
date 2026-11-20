@@ -207,6 +207,24 @@
       "kind": "Follow-up 1",
       "date": "2026-11-20",
       "nota": "Enviado por Claude a las 05:42"
+    },
+    {
+      "key": "soreide",
+      "kind": "Follow-up 2",
+      "date": "2026-11-20",
+      "nota": "Enviado por Claude a las 09:10"
+    },
+    {
+      "key": "virtu",
+      "kind": "Follow-up 1",
+      "date": "2026-11-20",
+      "nota": "Enviado por Claude a las 09:11"
+    },
+    {
+      "key": "whitehaven",
+      "kind": "Follow-up 2",
+      "date": "2026-11-20",
+      "nota": "Enviado por Claude a las 09:12"
     }
   ],
   "tareas": [
