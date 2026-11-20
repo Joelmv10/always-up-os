@@ -517,6 +517,19 @@ UNIVERSIDADES = [
          "I saw the team spent a week in southern Spain in 2024, based in Algeciras. A trip in 2027 or 2028 could show the players another side of Spanish football, in Madrid and San Sebastián, as a preseason or a spring trip.",
          "Una semana en el sur de España en 2024 con base en Algeciras: 4-2 a la Algeciras Academy, 1-1 con el San Roque y un Málaga-Ibiza (La Vie, 8/4/2024).",
          "godutchmen.com/sports/mens-soccer/coaches / wordpress.lvc.edu/lavie/2024/04/08/lvc-mens-soccer-team-travels-to-spain/", D(2026, 11, 30)),
+    # Tanda 3 (20/11/2026, turno diario): correos comprobados en la página de entrenadores o el directorio de atletismo de cada universidad.
+    _uni("icwsoc", "Ithaca College (Women's Soccer)", "Ithaca", "mquigg@ithaca.edu", "Quigg", "Mindy Quigg (Head Women's Soccer Coach)", "Nueva York", "NCAA D3",
+         "I saw the team spent spring break in Portugal in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Semana de primavera en Portugal del 10 al 17/3/2024 (athletics.ithaca.edu, 1/4/2024). D3: una gira cada 3 años, podría tocar en 2027.",
+         "athletics.ithaca.edu/sports/womens-soccer/coaches / athletics.ithaca.edu/news/2024/4/1/womens-soccer-a-spring-break-to-remember-ithaca-college-womens-soccer-and-their-journey-to-portugal.aspx", D(2026, 12, 4)),
+    _uni("clemwsoc", "Clemson University (Women's Soccer)", "Clemson", "eradwan@clemson.edu", "Radwanski", "Eddie Radwanski (Head Coach, Women's Soccer)", "Carolina del Sur", "NCAA D1",
+         "I saw the team made its first foreign tour to Spain in May 2024, starting in Barcelona. With the NCAA now allowing Division I programs a foreign tour every year, a trip back could fit your 2027 or 2028 plans, this time training in Madrid and San Sebastián.",
+         "Primera gira al extranjero del programa: España desde Barcelona, salida el 11/5/2024 (clemsontigers.com, foreign tour scrapbook).",
+         "clemsontigers.com/staff-directory / clemsontigers.com/foreign-tour-scrapbook-womens-soccer/", D(2026, 12, 4)),
+    _uni("trinewsoc", "Trine University (Women's Soccer)", "Trine", "krausea@trine.edu", "Krause", "Alyssa Krause (Head Coach, Women's Soccer)", "Indiana", "NCAA D3",
+         "I saw the program went to Portugal over spring break in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Portugal en la semana de primavera de 2024 (trine.edu, 2/4/2024), con el entrenador anterior, Gary Boughton. Alyssa Krause es la entrenadora actual. D3: podría tocar en 2027.",
+         "trinethunder.com/sports/womens-soccer/coaches / trine.edu/news/2024/soccer-portugal.aspx", D(2026, 12, 4)),
 ]
 PROSPECTS_US += UNIVERSIDADES
 

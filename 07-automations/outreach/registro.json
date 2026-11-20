@@ -730,6 +730,11 @@
       "date": "2026-11-19",
       "task": "Revisión diaria",
       "nota": "Turno de las 7:30: David Spruce (Bollington) contesta 'Shared' (borrador en Mail), mensaje aprobado a Bill Moravek (Bethesda), 6 conexiones, informe 2026-11-19.md"
+    },
+    {
+      "date": "2026-11-20",
+      "task": "Revisión diaria",
+      "nota": "Turno de las 7:30: bandeja sin respuestas ni rebotes, mensaje a Shawn Burke y Pedro Sousa, Khalil Lazrek contesta (abre club en Orlando), tanda 3 de universidades (Ithaca, Clemson, Trine), informe semanal. Conexiones no hechas: el diálogo de LinkedIn no se abría con el panel oculto"
     }
   ],
   "textos": [
@@ -965,6 +970,21 @@
       "to": "Javier Velasco",
       "date": "2026-11-19",
       "nota": "19/11: conexión sin nota (Head Men and Women's Soccer Coach, Middlesex College, NJ). JUCO: sirve para giras y para becas."
+    },
+    {
+      "club": "University at Buffalo (Women's Soccer)",
+      "to": "Shawn Burke",
+      "nota": "Aceptó el 19/11. 20/11 a las 7:38: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
+    },
+    {
+      "club": "Essex County College (Men's Soccer)",
+      "to": "Pedro Sousa",
+      "nota": "Aceptó el 19/11. 20/11 a las 7:39: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
+    },
+    {
+      "club": "Networking",
+      "to": "Khalil Lazrek",
+      "nota": "19/11: contesta 'I'll be starting a soccer club in orlando next season!'. Respuesta propuesta en el informe del 20/11 (Team y Coach Experience), pendiente del OK de Joel."
     }
   ],
   "clubes": [

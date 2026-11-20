@@ -909,6 +909,52 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
+## Clemson University (Women's Soccer): email 1 (enviar 04/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** eradwan@clemson.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Clemson?
+
+```
+Hi Coach Radwanski,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team made its first foreign tour to Spain in May 2024, starting in Barcelona. With the NCAA now allowing Division I programs a foreign tour every year, a trip back could fit your 2027 or 2028 plans, this time training in Madrid and San Sebastián. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Ithaca College (Women's Soccer): email 1 (enviar 04/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** mquigg@ithaca.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Ithaca?
+
+```
+Hi Coach Quigg,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team spent spring break in Portugal in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
 ## Tampa Bay United: email 1 (enviar 04/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** fgonzalez@tbusc.com
@@ -923,6 +969,29 @@ I'm Joel, I run Always Up. We take youth teams to Spain for a week of training a
 I saw Tampa Bay United is part of MLS NEXT, and thought a week in Spain could be a great fit for your older age groups. One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
 
 Would you be up for a quick call? If you'd rather see the details first, I'm happy to send a short overview.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Trine University (Women's Soccer): email 1 (enviar 04/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** krausea@trine.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Trine?
+
+```
+Hi Coach Krause,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the program went to Portugal over spring break in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
 
 Best,
 Joel Martinez
