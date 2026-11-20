@@ -5,7 +5,7 @@
 ## 1. Las campañas
 | Campaña | Archivo | Estado | Se lanza cuando | Primera meta |
 |---|---|---|---|---|
-| **Team Experience** | `team-experience.md` | **Activa** (correo frío y respuestas). Falta el ángulo de Semana Santa y la lista de la MadCup | Ya. Con el precio de 5 días, la ficha pasa a tener precio | 1 grupo de Semana Santa antes del 15/01 |
+| **Team Experience** | `team-experience.md` | **Activa** (correo frío y respuestas). Falta el ángulo de Semana Santa en los correos | Ya. Con el precio de 5 días, la ficha pasa a tener precio | 1 grupo de Semana Santa antes del 15/01 |
 | **Coach Experience** (federaciones de EEUU) | `01-clients/leads/coach-experience-asociaciones-eeuu.md` | Preparada. Sesión con Joel el miércoles 25 | Martes 1/12, con el precio de grupo de Enrique | 1 llamada con una federación en diciembre |
 | **Programa de 12 días** | `programa-12-dias.md` | Preparada. Mensajes listos | Solicitudes: en cuanto se publique el formulario. Reservas: desde el 15/12 | 1 plaza guardada para enero o febrero |
 | **Becas 2027/28** | `02-sales/campana-becas-2027-28.md` | Preparada. Textos para el OK de Joel | Ya | 10 conversaciones y 3 vídeos a la semana |
@@ -29,7 +29,7 @@
 - Bandeja y respuestas el mismo día.
 - Los 6 correos de la cola.
 - Conexiones de LinkedIn.
-- Las listas nuevas: la MadCup, los entrenadores universitarios para los 12 días y los leads antiguos de becas.
+- Las listas nuevas: los entrenadores universitarios para los 12 días y los leads antiguos de becas.
 - Los textos de cada respuesta.
 - El marcador de los viernes.
 
@@ -48,7 +48,7 @@
 ## 4. Las próximas 6 semanas
 | Semana | Qué sale |
 |---|---|
-| 23 al 27/11 | Lunes, Gonzalo con Enrique (y Greystones si dice que sí). Martes, llamada con Gonzalo. Miércoles, sesión de Coach Experience. Primera publicación de becas. Ángulo de Semana Santa en los correos a clubes irlandeses y británicos. Lista de la MadCup |
+| 23 al 27/11 | Lunes, Gonzalo con Enrique (y Greystones si dice que sí). Martes, llamada con Gonzalo. Miércoles, sesión de Coach Experience. Primera publicación de becas. Ángulo de Semana Santa en los correos a clubes irlandeses y británicos |
 | 30/11 al 4/12 | Envío a federaciones de EEUU (1/12). Mensajes a entrenadores universitarios para los 12 días. Reactivación de leads antiguos de becas. Reunión de Enrique con los clubes |
 | 7 al 11/12 | Precios finales en las fichas. Acuerdo con el Real Unión firmado. Propuesta a Gonzalo con lo que elija |
 | 14 al 18/12 | Venta abierta del programa de 12 días con reserva. Página en la web. Últimos correos de Semana Santa |

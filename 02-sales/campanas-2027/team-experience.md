@@ -13,7 +13,7 @@
 | B | **Clubes que ya han contestado** | Home Farm, Bollington, Khalil (club nuevo en Orlando) | Una llamada de 15 minutos y un plan concreto con fecha | Correo y LinkedIn | Activa |
 | C | **Clubes irlandeses y británicos en frío** | Los de la cola de envíos | Semana Santa en el Atlético | Correo (6 al día) y LinkedIn | Activa: cambiar el ángulo a Semana Santa (texto C1) |
 | D | **Clubes de EEUU en frío** | Los de la cola de envíos | Verano en el Atlético | Correo y LinkedIn | Activa |
-| E | **Clubes que van a la MadCup** (Madrid, finales de junio) | Por investigar: unos 20 | La semana con el Atlético justo antes o después del torneo, en la misma ciudad | Correo | **Nueva.** Claude saca la lista |
+| E | **Clubes que van a la MadCup** (Madrid, finales de junio) | Revisado el 20/11: en el sub-19 de 2026 casi no hay clubes de EEUU, Irlanda ni Reino Unido. Hay sobre todo academias de América Latina y África (Superior Squad Argentina, Club Atlético de La Plata, Tigres, Atlético Nacional) y un solo club de EEUU. El propio Atlético juega el torneo | La semana con el Atlético alrededor del torneo | Correo | **Baja prioridad** para Team Experience. Los equipos argentinos confirman el mercado de Gonzalo |
 | F | **Universidades de EEUU** (la División I puede hacer una gira al año) | Red de Joel y entrenadores ya contactados | Gira de pretemporada en agosto o de primavera de 2028 | LinkedIn y correo | Activa (tanda de universidades) |
 | G | **Clubes de Nueva York y Nueva Jersey en persona** | 2 o 3 al mes | Café o visita a un entrenamiento | Joel | Desde enero |
 
@@ -78,7 +78,7 @@ Hi [name], thanks again for sharing it with your teams. To make it easy for the 
 | Precio de 5 días del Atlético | Falta | Enrique (reunión del 26/11 al 3/12) |
 | Ficha en PDF con precio | El PDF actual dice "desde 1.950 €" y se queda así hasta el precio real. Se regenera en un minuto | Claude |
 | Propuesta para un club que contesta | Plantilla lista (`01-clients/propuestas/fichas/`) | Claude, con el OK de Joel |
-| Lista de la MadCup | Falta | Claude, antes del 27/11 |
+| Lista de la MadCup | Descartada por ahora (20/11): casi no van clubes de nuestros mercados | |
 | Greystones como referencia | Falta su permiso | Enrique |
 
 ## Metas
