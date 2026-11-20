@@ -57,6 +57,25 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
+## Estado (Joel, 20/11/2026)
+- Texto del primer correo: **OK de Joel**. Primeros tres: EPYSA, NorCal y Eastern New York.
+- **No se lanza todavía.** Joel quiere prepararlo bien con Claude en una sesión dentro de un par de días: a quién va (segmentos), qué material hace falta y precio de grupo. Propuesta: sesión el lunes 23 o el martes 24/11 y envío el martes 1/12. La semana del 23/11 es Acción de Gracias en EEUU (jueves 26/11), mala para correos en frío.
+
+### A quién van los correos de Coach Experience (para decidir en la sesión)
+| Segmento | Quién compra | Cómo compran | Prioridad |
+|---|---|---|---|
+| 1. Federaciones de cada estado | Director técnico o de formación de entrenadores (EPYSA, Eastern New York, New Jersey, Connecticut, Cal North, Washington) | Un viaje de grupo al año, con presupuesto de formación | **Primera** |
+| 2. Ligas y organizaciones grandes | Responsable técnico (NorCal Premier y similares) | Igual que las federaciones; a veces pagan parte del viaje | **Primera** |
+| 3. Clubes grandes con departamento de metodología | Director of Coaching o de metodología (por ejemplo, Sockers FC Chicago) | Formación para su plantilla de 20 a 50 entrenadores | Segunda (cuidado: varios ya reciben el correo de Team Experience) |
+| 4. Entrenadores universitarios | El head coach, para él y sus asistentes | Individual, en verano | Tercera |
+| 5. Entrenadores sueltos que quieren una licencia UEFA | El propio entrenador | Individual, con el UEFA C de Gibraltar | Cuando conteste Gibraltar |
+
+### Lo que hay que tener listo antes del envío
+1. Ficha de una página "Coach Education Week" para federaciones: programa de 5 días, qué incluye y certificado. **Borrador de Claude para la sesión.**
+2. Precio "desde" para grupos y tarifa de grupo del Atlético: **Enrique**.
+3. Gancho personal para cada contacto y su follow-up: Claude.
+4. Comprobar que siguen en el cargo los de Cal North y Connecticut: Claude.
+
 ## Qué hace falta para enviar
 1. **Joel:** OK al texto (o cambios). Recomiendo empezar por EPYSA, NorCal y Eastern New York: son los que ya demuestran que compran o los más cercanos.
 2. **Enrique:** confirmar con el Atlético la tarifa de grupo de entrenadores y el precio "desde" para grupos. No va en el primer correo, pero hay que tenerlo antes de la llamada.
