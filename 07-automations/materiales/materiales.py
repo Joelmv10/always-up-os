@@ -723,20 +723,21 @@ PROG_TXT = {
         chips=["18 años o más", "Fin de la universidad", "Salto a Europa", "Desde enero de 2027"],
         h_inc="Qué incluye",
         inc=[("12 días entrenando con el club,", "con su cuerpo técnico y en el grupo que encaje con tu nivel."),
-             ("Alojamiento y pensión completa", "durante toda la estancia."),
+             ("Alojamiento y pensión completa", "en el piso del club, compartido con otros jugadores."),
              ("Recogida y despedida en el aeropuerto", "y acompañamiento de Always Up en español e inglés."),
              ("Vídeo de tus entrenamientos", "para tu perfil y para enseñar a otros clubes."),
              ("Informe final del cuerpo técnico:", "tu nivel y en qué tienes que mejorar."),
-             ("Ayuda con papeles y seguro", "antes de viajar.")],
+             ("Kit de entrenamiento del club:", "camiseta, pantalón y sudadera.")],
         price_t="Precio", price_b="por jugador, 12 días. Vuelos aparte.",
         h_steps="Cómo funciona",
         steps=[("Nos mandas tu vídeo", "Partidos recientes y tu currículum deportivo."), ("El club valida tu nivel", "Te decimos en unos días si encajas y en qué grupo."),
                ("Reservas tu plaza", "Eliges las fechas y reservas con una señal."), ("Vienes a entrenar", "Te recogemos en el aeropuerto y te acompañamos.")],
         h_know="Lo que tienes que saber",
-        know=[("No es una prueba ni un contrato.", "Vienes a entrenar y a aprender. Si el club quiere evaluarte para quedarte, te lo dirá: esa evaluación es gratuita y la decide solo el club."),
-              ("Plazas limitadas cada mes.", "El club acepta pocos jugadores a la vez para que entrenes de verdad con el grupo."),
-              ("Visado:", "para estancias cortas, muchos pasaportes (EEUU y casi toda América Latina) no lo necesitan. Te lo confirmamos según el tuyo.")],
-        trust="Always Up lleva equipos y entrenadores de todo el mundo a entrenar con el Atlético de Madrid, la Real Sociedad y el Sporting de Gijón.",
+        know=[("No es una prueba ni un contrato.", "Vienes a entrenar y a aprender. Si el club quiere evaluarte, te lo dirá: es gratis y lo decide el club."),
+              ("Plazas limitadas cada mes.", "Pocos jugadores a la vez, para que entrenes de verdad con el grupo."),
+              ("Seguro:", "el del club cubre el campo y sus instalaciones; tú traes un seguro médico internacional."),
+              ("Visado:", "EEUU y casi toda América Latina no lo necesitan para estancias cortas.")],
+        trust="Always Up lleva equipos y entrenadores de todo el mundo al Atlético de Madrid, la Real Sociedad y el Sporting.",
         cta1="¿Te interesa? Escríbeme y lo vemos.", cta2="WhatsApp +1 (814) 329 1929  ·  joel.martinez@alwaysup.es  ·  Joel Martinez, Always Up"),
     "en": dict(
         file="Always-Up-12-Day-Program-Real-Union.pdf", title="TRAIN IN SPAIN", mini="12-DAY PROGRAM",
@@ -746,11 +747,11 @@ PROG_TXT = {
         chips=["18 and over", "Finishing college", "Next step in Europe", "From January 2027"],
         h_inc="What's included",
         inc=[("12 days training with the club,", "with their coaching staff, in the group that fits your level."),
-             ("Accommodation and full board", "for the whole stay."),
+             ("Accommodation and full board", "in the club's shared flat with other players."),
              ("Airport pick-up and drop-off,", "and support from Always Up in English and Spanish."),
              ("Video of your training sessions", "for your profile and to show other clubs."),
              ("Final report from the coaching staff:", "your level and what to work on."),
-             ("Help with paperwork and insurance", "before you travel.")],
+             ("Club training kit:", "shirt, shorts and sweatshirt.")],
         price_t="Price", price_b="per player, 12 days. Flights not included.",
         h_steps="How it works",
         steps=[("Send us your video", "Recent games and your playing CV."), ("The club checks your level", "Within a few days we tell you if you fit and in which group."),
@@ -758,6 +759,7 @@ PROG_TXT = {
         h_know="Good to know",
         know=[("It's not a trial or a contract.", "You come to train and learn. If the club wants to assess you to stay, they'll tell you: that assessment is free and only the club decides."),
               ("Limited places each month.", "The club takes few players at a time, so you really train with the group."),
+              ("Insurance:", "the club's policy covers anything on the pitch and at its facilities. You bring international medical insurance for common illness."),
               ("Visa:", "for short stays, many passports (US and most of Latin America) don't need one. We'll confirm it for yours.")],
         trust="Always Up takes teams and coaches from around the world to train with Atlético de Madrid, Real Sociedad and Sporting de Gijón.",
         cta1="Interested? Message me and let's talk.", cta2="WhatsApp +1 (814) 329 1929  ·  joel.martinez@alwaysup.es  ·  Joel Martinez, Always Up"),
@@ -767,7 +769,7 @@ PROG_TXT = {
 def build_programa(lang="es"):
     t = PROG_TXT[lang]; out = f"{OUTDIR}/{t['file']}"; c = canvas.Canvas(out, pagesize=A4)
     c.setTitle("Always Up - " + t["mini"].title()); c.setAuthor("Always Up")
-    y = f_hero(c, f"{NW}/au_p09_1.png", t["title"], t["tag"], (0.5, 0.0), hh=270, g0=0.50, g1=0.95, tb=70)
+    y = f_hero(c, f"{NW}/au_p09_1.png", t["title"], t["tag"], (0.5, 0.0), hh=240, g0=0.50, g1=0.95, tb=70)
     y -= 12; h = para(c, t["intro"], BODY, M, y, W-2*M); y -= h+4
     y = f_chips(c, y, t["chips"]); y -= 8
     y = f_h2(c, t["h_inc"], y)

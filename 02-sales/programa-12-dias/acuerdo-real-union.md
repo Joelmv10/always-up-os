@@ -21,6 +21,25 @@
 | 11. Exclusividad | Ninguna por ahora | |
 | 12. Duración | Temporada 2026/27, renovable | |
 
+## Respuestas del club (Enrique, 20/11/2026)
+| Pregunta | Respuesta | Qué cambia |
+|---|---|---|
+| Dónde duermen | **Piso del club, compartido.** Si esto crece, están dispuestos a alquilar más pisos | Ficha, contrato y guía de llegada ya lo dicen |
+| Recogida en el aeropuerto y contacto en Irún | Sí. Es un coste que "lo tenga quien lo tenga (ellos o nosotros), se suma a los costes, **porque el beneficio es 50/50**" | **Cambia el modelo económico** (ver abajo) |
+| Grabar dos sesiones | "No creo que haya problema" | Falta saber quién graba y si cuesta algo |
+| Kit | **El club incluye camiseta y pantalón de entrenamiento y sudadera.** Si el jugador quiere más ropa del club, se la venden | Ficha, contrato y guía de llegada ya lo dicen |
+| Seguro | **El del club cubre todo lo que pase en el campo y sus instalaciones; el nuestro, los traslados.** El jugador viene con un seguro médico internacional para enfermedades comunes | Contrato (cláusula 8), ficha y guía actualizados. Nuestro seguro de responsabilidad civil y traslados entra en la consulta al corredor |
+
+### Lo que queda por cerrar (lo nuevo es el 50/50)
+1. **El modelo 50/50.** Hasta ahora teníamos "1.500 € por jugador y 500 € a quien lo trae". Ahora el club habla de sumar todos los costes y repartir el beneficio a medias. Hay que dejar por escrito:
+   - **Quién fija el precio final al jugador.** Nuestra ficha dice 2.300 €; el club habló de 1.500 €.
+   - **Qué costes entran:** piso, comidas, kit, recogida, contacto, grabación. ¿Y nuestros costes de venta (anuncios, comisión de agentes, el tiempo de Joel)?
+   - **Quién cobra al jugador y cuándo se liquida** la parte de cada uno.
+   - **Que el 50/50 sea sobre el programa de entrenamiento y nunca sobre una "prueba"** (FIFA, art. 19ter).
+2. **Grabación:** quién graba y si tiene coste.
+3. **El informe final** con la plantilla de Always Up (¿lo probó el entrenador de Adrián hoy?).
+4. **Turnos y plazas** (punto 3 de la tabla de arriba).
+
 ## Mensaje para Enrique (mañana está en Irún)
 ```
 Papá, para montar bien lo del Real Unión antes de venderlo te dejo la hoja de condiciones con los puntos a cerrar. Si mañana puedes, pregúntales sobre todo cuatro cosas que nos faltan para la operación: 1) dónde duermen los jugadores (residencia, piso, hotel o familia); 2) si alguien del club puede recogerlos en el aeropuerto y ser su contacto allí, y cuánto cobraría; 3) si tienen un analista que pueda grabar dos sesiones de cada jugador; 4) si su seguro cubre los accidentes en los entrenamientos. Y si les parece bien la plaza a 1.000 € como programa en vez de 1.500 € menos 500 €: el club cobra lo mismo y así nadie paga por una prueba, que es lo que prohíbe la FIFA.

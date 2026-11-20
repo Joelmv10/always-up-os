@@ -4,7 +4,7 @@
 
 **1. Organizador.** Quality Servix Premium SL (marca Always Up), Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid). [NIF].
 
-**2. Qué contrata el jugador.** Un programa de entrenamiento de 12 días en un club de fútbol español (el club y el turno se indican en la confirmación), que incluye: entrenamiento con el club en el grupo que el club decida según su nivel; alojamiento y pensión completa; recogida y despedida en el aeropuerto indicado; persona de contacto durante la estancia; grabación de dos sesiones y vídeo resumen; informe final del cuerpo técnico; ayuda con la documentación y el seguro. No incluye vuelos, gastos personales ni nada que no figure en la confirmación.
+**2. Qué contrata el jugador.** Un programa de entrenamiento de 12 días en un club de fútbol español (el club y el turno se indican en la confirmación), que incluye: entrenamiento con el club en el grupo que el club decida según su nivel; alojamiento en el piso del club (compartido con otros jugadores) y pensión completa; kit de entrenamiento del club (camiseta, pantalón y sudadera); recogida y despedida en el aeropuerto indicado; persona de contacto durante la estancia; grabación de dos sesiones y vídeo resumen; informe final del cuerpo técnico; ayuda con la documentación y el seguro. No incluye vuelos, gastos personales ni nada que no figure en la confirmación.
 
 **3. Lo que no es.** No es una prueba, no garantiza ninguna evaluación, oferta, contrato ni fichaje, y el precio no depende de nada de eso. Si el club quiere evaluar al jugador para incorporarlo, lo hace aparte, sin coste y según las normas de la FIFA. Always Up no actúa como agente ni ofrece al jugador a clubes.
 
@@ -16,7 +16,7 @@
 
 **7. Cancelación por Always Up o por el club.** Si el programa no puede hacerse, se devuelve todo lo pagado o se cambia de fechas, a elección del jugador. Always Up no responde de vuelos ya comprados salvo [lo que diga el abogado].
 
-**8. Seguro.** El jugador viaja con seguro médico y de accidentes durante todo el programa: [lo contrata Always Up e incluye en el precio / lo aporta el jugador con estas coberturas mínimas].
+**8. Seguro.** El seguro del club cubre los accidentes en el campo y en sus instalaciones. El seguro de Always Up cubre los traslados que organiza. El jugador tiene que venir con un seguro médico internacional que cubra enfermedades comunes durante todo el programa [coberturas mínimas: las que diga el corredor] y enviar la póliza antes de viajar. Sin ese seguro no puede empezar el programa.
 
 **9. Normas.** El jugador respeta las normas del club y del alojamiento. Una falta grave (violencia, drogas, daños, ausencias sin aviso) permite al club o a Always Up terminar el programa sin devolución.
 

@@ -7,14 +7,15 @@ Vas a pasar 12 días entrenando con el Real Unión de Irún, uno de los clubes q
 
 **Tus fechas:** del [día] al [día] de [mes].
 **Tu llegada:** aeropuerto de [Biarritz / San Sebastián / Bilbao], vuelo [número], a las [hora]. Te espera [nombre] con un cartel de Always Up.
-**Dónde duermes:** [dirección y tipo de alojamiento]. Comidas incluidas: [desayuno, comida y cena].
+**Dónde duermes:** en el piso del club, compartido con otros jugadores ([dirección]). Comidas incluidas: [desayuno, comida y cena].
 **Tu contacto en Irún:** [nombre], [teléfono / WhatsApp], 24 horas.
 **Always Up:** Joel, +1 (814) 329 1929 (WhatsApp). Enrique, [teléfono].
-**Emergencias:** 112. Seguro médico: [compañía, número de póliza y teléfono de asistencia].
+**Emergencias:** 112. Lo que pase en el campo o en las instalaciones lo cubre el seguro del club. Para cualquier otra cosa, tu seguro médico internacional: [compañía, número de póliza y teléfono de asistencia].
 
 ## Qué llevar
 - Pasaporte en vigor (y lo que pida tu nacionalidad para entrar en España).
-- Tarjeta del seguro o la póliza en el móvil.
+- Tu seguro médico internacional (obligatorio, para enfermedades comunes): la tarjeta o la póliza en el móvil.
+- El club te da el kit de entrenamiento (camiseta, pantalón y sudadera). Si quieres más ropa del club, se puede comprar allí.
 - Botas de césped natural y de césped artificial, espinilleras, ropa de entrenamiento para frío y lluvia (en invierno, de 5 a 12 grados y llueve a menudo).
 - Chanclas, ropa de calle, cargador y adaptador de enchufe europeo (tipo C/F).
 - Tus medicamentos, con la receta.

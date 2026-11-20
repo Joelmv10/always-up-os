@@ -12,10 +12,10 @@
 | 2 | Ficha cerrada | ◐ | PDF hecho (`02-sales/assets/`). Falta el programa día a día real del club y los turnos | Enrique pide el planning; Claude lo mete | 5/12 | **Sí** (turnos) |
 | 3 | Coste y margen | ◐ | Estimación abajo. Se cierra con el precio de la plaza y del coordinador local | Claude | 5/12 | No |
 | 4 | Contrato con el jugador | ◐ borrador | `condiciones-jugador.md`, a revisar por el abogado | Abogado | 8/12 | **Sí** |
-| 5 | Seguros | ✗ | Médico de viaje para el jugador y accidentes durante los entrenamientos (¿lo cubre el club?) | Enrique con el club y un corredor | 15/12 | **Sí** |
+| 5 | Seguros | ◐ | Club: campo e instalaciones ✓. Jugador: trae seguro médico internacional ✓ (20/11). Falta nuestro seguro de traslados y responsabilidad civil | Enrique con un corredor | 15/12 | **Sí** |
 | 6 | Cobro | ✗ | Enlace de pago con tarjeta y transferencia; factura de Quality Servix | Enrique con el gestor | 15/12 | **Sí** |
 | 7 | Documentos del jugador | ✓ | Pasaporte en vigor; sin visado para EEUU y casi toda América Latina (menos de 90 días); ETIAS aún sin fecha | Claude | Hecho | No |
-| 8 | Proveedores locales | ✗ | Dónde duerme, quién le recoge, quién es su contacto allí y quién graba | Enrique pregunta al club (mañana, 20/11, está en Irún) | 5/12 | **Sí** |
+| 8 | Proveedores locales | ◐ | Piso del club compartido ✓, kit del club ✓, recogida y contacto ✓ (coste a repartir). Falta: quién graba, nombre y teléfono del contacto y dirección del piso | Enrique con el club | 5/12 | **Sí** |
 | 9 | Manual y guía de llegada | ◐ | Manual abajo; guía en `guia-de-llegada.md` (faltan dirección y teléfonos) | Claude | Con la pieza 8 | No |
 | 10 | Material | ◐ | PDF ✓, mensajes ✓ (`02-sales/mensajes-red-joel-programa-12-dias.md`), preguntas frecuentes ✓. Falta la página en la web | Claude escribe el texto; Joel lo sube a Hostinger | 15/12 | No |
 | 11 | Proceso de reserva | ◐ | Preguntas del formulario en `formulario-solicitud.md`; falta crearlo | Joel lo crea en Google Forms (15 min) | 15/12 | **Sí** |
@@ -24,6 +24,8 @@
 **Fecha realista de venta:** abrir el 15/12 para el **turno de febrero**. El de enero (si el club lo da) solo para alguien de confianza que se apunte a última hora.
 
 ## Coste estimado por jugador (a cerrar con el club)
+> **20/11/2026: el club plantea sumar todos los costes y repartir el beneficio 50/50.** La tabla de abajo es el modelo antiguo (plaza de 1.000 €). Hasta que Enrique cierre quién fija el precio y qué costes entran (ver `acuerdo-real-union.md`), el precio de 2.300 € queda en duda. El seguro médico ya no es coste nuestro: lo trae el jugador. El kit lo pone el club.
+
 | Concepto | Estimación | Nota |
 |---|---|---|
 | Plaza del Real Unión (entrenamiento, alojamiento y comidas) | 1.000 € | Propuesta: 1.500 € menos los 500 € que el club da a quien lleva al jugador, como plaza de programa y sin pago por prueba |
