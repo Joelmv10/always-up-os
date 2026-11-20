@@ -26,9 +26,9 @@ Para ellos, es un argumento de venta nuevo ("entrenar con un club de LaLiga") si
 ### Contactos comprobados (19/11/2026, en sus webs)
 | Prioridad | Empresa | Qué venden en España | Contacto | Canal | Mensaje |
 |---|---|---|---|---|---|
-| 1 | **Premier International Tours** (EEUU, socio oficial de giras de US Club Soccer) | Donosti Cup del 4 al 12 de julio de 2027 (desde 2.500 $) y Barcelona más Donosti Cup | Sin nombre ni correo publicado. Formulario en premierinternationaltours.com/contactus. Teléfono (800) 724-6076 | Formulario; buscar en LinkedIn al responsable de operaciones o de giras | A (Donosti) |
+| 1 | **Premier International Tours** (EEUU, socio oficial de giras de US Club Soccer) | Donosti Cup del 4 al 12 de julio de 2027 (desde 2.500 $) y Barcelona más Donosti Cup | Sin correo publicado. En LinkedIn (20/11): **Loek van Zijl**, "Expert in International Team Tours" (Denver), contacto de 2.º grado. Formulario en premierinternationaltours.com/contactus. Teléfono (800) 724-6076 | Formulario; buscar en LinkedIn al responsable de operaciones o de giras | A (Donosti) |
 | 2 | **DB Sports Tours** (Dublín) | Giras por España para clubes de EEUU e Irlanda, Donosti Cup, torneos en Cataluña | David Berber, Director. info@dbsportstours.com, +353 1 968 2686 | Correo | A (Donosti) |
-| 3 | **WorldStrides Sports** | Madrid y Donosti Cup, Barcelona y Madrid | Sin nombre confirmado: Eric McAleer (fundador de la división deportiva) ya no sale en su web de directivos. Buscar en LinkedIn "WorldStrides Sports" más soccer o Europe | LinkedIn | A (Donosti) |
+| 3 | **WorldStrides Sports** | Madrid y Donosti Cup, Barcelona y Madrid | En LinkedIn (20/11): **Eric McAleer, Senior Vice President, WorldStrides Sports** (fundador de la división; también director del Dundee United), 2.º grado con 7 contactos en común, entre ellos Shawn Burke. Y **Jonny Brown, Manager of Sales, Sports** (Kansas City) | LinkedIn | A (Donosti) |
 | 4 | **Global Image Sports** (desde 2025 dentro de Intrepid Sports Group) | Giras a medida en Madrid y Barcelona; trabajan con el Atlético, el Espanyol y el Málaga | Jordan Tant, Director of Football Operations. tours@globalimagesports.org | Correo a la atención de Jordan | B (norte) |
 | 5 | IFX Soccer (California) | Barcelona, Madrid, Valencia, Zaragoza, Cádiz | Sin nombre. Teléfono +1 510 599 4625; el correo está oculto en la web | Más adelante | B (norte) |
 | 6 | EF Tours | Ya compran al Atlético | | Más adelante, solo con Real Sociedad o Sporting | B (norte) |
@@ -86,5 +86,5 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 
 ## 6. Siguiente paso
 - Enrique: puntos 1 y 2 de la sección 4, en la reunión del 26/11 al 3/12 o antes por WhatsApp.
-- Claude (hecho el 19/11): contactos de la sección 3. Falta el nombre en Premier International Tours y en WorldStrides (LinkedIn, en el turno).
+- Claude (hecho el 19 y 20/11): contactos de la sección 3, con nombres en WorldStrides (Eric McAleer) y Premier International Tours (Loek van Zijl).
 - Cuando Enrique confirme los dos puntos y Joel dé el OK: Claude envía el correo a DB Sports Tours y a Global Image Sports, rellena el formulario de Premier International Tours y deja la conexión de LinkedIn de WorldStrides para Joel.
