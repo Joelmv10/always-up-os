@@ -1,5 +1,10 @@
 # Formulario de solicitud del programa de 12 días
 
+**Estado (19/11/2026):** creado por Claude en Google Forms, bilingüe, con 20 preguntas (correo y WhatsApp van por separado). **Sin publicar**: no acepta respuestas y no está compartido con nadie. Enlace de edición: https://docs.google.com/forms/d/1VkL6C1Xan5P2dGqIrrBYRLcuJ2Rn48j-mcO8VDsnpdY/edit
+- Pendiente 1: está en la cuenta de la universidad de Joel (Mount Aloysius College), que pone "creado dentro de Mount Aloysius College" al pie y puede desaparecer. Pasarlo a una cuenta de Always Up o al Gmail de Joel antes de publicarlo.
+- Pendiente 2: los turnos (8 a 19 de febrero, y marzo o más adelante) se confirman cuando el Real Unión cierre fechas.
+- Pendiente 3: al publicarlo, vincular las respuestas a una hoja de Google que solo vean Joel y Enrique.
+
 > Joel lo crea en Google Forms desde la cuenta de Always Up (15 minutos) y pega el enlace aquí. Dos versiones (español e inglés) o una bilingüe. Las respuestas van a una hoja de Google que solo ven Joel y Enrique. No se guardan en el repo.
 
 **Título:** Always Up · Programa de 12 días en España / 12-day program in Spain
