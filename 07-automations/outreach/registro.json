@@ -225,6 +225,12 @@
       "kind": "Follow-up 2",
       "date": "2026-11-20",
       "nota": "Enviado por Claude a las 09:12"
+    },
+    {
+      "key": "ballistic",
+      "kind": "Email 1",
+      "date": "2026-11-20",
+      "nota": "Enviado por Claude a las 09:34"
     }
   ],
   "tareas": [
