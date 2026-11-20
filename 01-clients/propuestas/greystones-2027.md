@@ -2,6 +2,8 @@
 
 > Greystones es nuestro único cliente recurrente (2024: Coach Experience y primera Team Experience; 2025: 4 equipos, 105.000 €). No tiene nada cerrado para 2027. Contacto: **Patrick** (tuvo a su hija Alexia a primeros de noviembre). Lo manda **Joel**, como el resto de mensajes a Patrick.
 
+**Estado (Joel, 19/11/2026, noche): la propuesta NO sale de momento.** Enrique les escribe primero para ver si quieren hacer algo en 2027. Precio orientativo que da Joel: **unos 1.500 $ por jugador, 5 días con el Atlético** (por confirmar). Cuando haya respuesta de Greystones, se ajusta el PDF con ese precio y con los cambios de Joel, y solo sale con su OK.
+
 **PDF:** `01-clients/propuestas/Always-Up-Greystones-2027-Proposal.pdf` (2 páginas, 1,6 MB). Se genera con `07-automations/materiales/materiales.py greystones`; los precios están en `GREY_P5`, `GREY_P7` y siguientes.
 
 ## Antes de mandarla: dos cosas que decide Enrique

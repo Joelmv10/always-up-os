@@ -2,6 +2,8 @@
 
 Cuando un club contesta con interés, o después de la llamada, se manda una propuesta en PDF con su nombre **ese mismo día**. Tiene el mismo diseño que la de Greystones: portada con foto, por qué con nosotros, testimonio, tres opciones con precio "desde", fotos, programa real de 5 días, qué incluye, fechas y pasos para reservar.
 
+**Regla de Joel (19/11/2026): la propuesta se prepara cuando el club contesta, y nunca sale sin el OK de Joel.** Joel cambiará varias cosas del modelo antes del primer envío. Los precios por defecto (1.950 € por 5 días) no valen: el orientativo actual es **unos 1.500 $ por jugador, 5 días con el Atlético**, por confirmar.
+
 ## Pasos
 1. Copia `home-farm-2027.json` con el nombre del club y cambia solo esto:
    - `title`: NOMBRE DEL CLUB 2027 (en mayúsculas)
@@ -23,5 +25,5 @@ Cuando un club contesta con interés, o después de la llamada, se manda una pro
 ## Fichas hechas
 | Club | Archivo | Estado |
 |---|---|---|
-| Greystones (Irlanda) | se genera con `materiales.py greystones` | Pendiente del precio de Enrique |
-| Home Farm FC (chicas U13 a U15, Dublín) | `home-farm-2027.json` | Lista. Se manda cuando contesten o pidan detalles |
+| Greystones (Irlanda) | se genera con `materiales.py greystones` | No sale de momento: Enrique les escribe primero |
+| Home Farm FC (chicas U13 a U15, Dublín) | `home-farm-2027.json` | Borrador de modelo. Si contestan, se ajusta con Joel y sale solo con su OK |
