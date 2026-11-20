@@ -61,7 +61,23 @@ def _imap():
     return m
 
 
+CARPETA_ENVIADOS = "INBOX.Sent"  # la que usa Mail para esta cuenta (comprobado el 19/11/2026)
+
+
+def _carpetas_sent(m):
+    nombres = []
+    for raw in m.list()[1] or []:
+        linea = raw.decode("utf-8", "replace")
+        nombre = re.search(r'"([^"]*)"\s*$|(\S+)\s*$', linea)
+        nombre = (nombre.group(1) or nombre.group(2)) if nombre else ""
+        if "sent" in nombre.lower():
+            nombres.append(nombre)
+    return nombres
+
+
 def _carpeta_enviados(m):
+    if CARPETA_ENVIADOS in _carpetas_sent(m):
+        return CARPETA_ENVIADOS
     typ, data = m.list()
     nombres = []
     for raw in data or []:
@@ -102,15 +118,14 @@ def buscar_original(para, asunto):
     """Message-ID y References del primer correo enviado a `para` con ese asunto exacto."""
     m = _imap()
     try:
-        carpeta = _carpeta_enviados(m)
-        m.select(_q(carpeta), readonly=True)
-        typ, data = m.search(None, "TO", _q(para))
-        ids = (data[0] or b"").split()
-        for i in ids:
-            typ, d = m.fetch(i, "(BODY.PEEK[HEADER.FIELDS (SUBJECT MESSAGE-ID REFERENCES DATE)])")
-            cab = email.message_from_bytes(d[0][1])
-            if _texto_cabecera(cab.get("Subject")) == asunto.strip():
-                return cab.get("Message-ID", "").strip(), cab.get("References", "").strip()
+        for carpeta in _carpetas_sent(m):
+            m.select(_q(carpeta), readonly=True)
+            typ, data = m.search(None, "TO", _q(para))
+            for i in (data[0] or b"").split():
+                typ, d = m.fetch(i, "(BODY.PEEK[HEADER.FIELDS (SUBJECT MESSAGE-ID REFERENCES DATE)])")
+                cab = email.message_from_bytes(d[0][1])
+                if _texto_cabecera(cab.get("Subject")) == asunto.strip() and cab.get("Message-ID"):
+                    return cab.get("Message-ID", "").strip(), cab.get("References", "").strip()
         return None, None
     finally:
         try:
