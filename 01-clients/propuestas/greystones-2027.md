@@ -2,9 +2,26 @@
 
 > Greystones es nuestro único cliente recurrente (2024: Coach Experience y primera Team Experience; 2025: 4 equipos, 105.000 €). No tiene nada cerrado para 2027. Contacto: **Patrick** (tuvo a su hija Alexia a primeros de noviembre). Lo manda **Joel**, como el resto de mensajes a Patrick.
 
-**Estado (Joel, 19/11/2026, noche): la propuesta NO sale de momento.** Enrique les escribe primero para ver si quieren hacer algo en 2027. Precio orientativo que da Joel: **unos 1.500 $ por jugador, 5 días con el Atlético** (por confirmar). Cuando haya respuesta de Greystones, se ajusta el PDF con ese precio y con los cambios de Joel, y solo sale con su OK.
+**Estado (Joel, 19/11/2026, noche): la propuesta NO sale de momento. 20/11: Enrique tiene que escribir ya (texto abajo).** Enrique les escribe primero para ver si quieren hacer algo en 2027. Precio orientativo que da Joel: **unos 1.500 $ por jugador, 5 días con el Atlético** (por confirmar). Cuando haya respuesta de Greystones, se ajusta el PDF con ese precio y con los cambios de Joel, y solo sale con su OK.
 
 **PDF:** `01-clients/propuestas/Always-Up-Greystones-2027-Proposal.pdf` (2 páginas, 1,6 MB). Se genera con `07-automations/materiales/materiales.py greystones`; los precios están en `GREY_P5`, `GREY_P7` y siguientes.
+
+## 20/11/2026: Enrique escribe ya (decisión de Joel)
+Joel: "que Enrique escriba a Greystones lo antes posible". Semana Santa se reserva antes del 15/01, así que diciembre es el último mes útil. Sin precio por escrito: solo sondear equipos, fechas y número de jugadores. La propuesta en PDF sale después, con el OK de Joel.
+
+**Correo o WhatsApp de Enrique a Patrick (inglés):**
+```
+Hi Patrick,
+
+Congratulations again on Alexia, I hope you are all doing well.
+
+We are starting to plan 2027 with Atlético and I wanted to check with you first. Would Greystones like to travel again next year, at Easter or in the summer? If Easter is an option, the club needs us to confirm by mid January so we can hold the residence.
+
+If you can give me a first idea of which teams and roughly how many players, we will put together a proposal for you. Happy to have a quick call whenever it suits you.
+
+Best regards,
+Enrique
+```
 
 ## Antes de mandarla: dos cosas que decide Enrique
 1. **El precio de 5 días.** La propuesta pone "desde 1.950 € por jugador", que sale de la tarifa 2027 del Atlético (1.600 € la semana; 5 días, unos 1.250 € prorrateando) con nuestro margen del 35 %. **Ojo:** el ticket medio de las Team Experience rondaba los 1.500 $ por jugador (unos 1.400 €; dato de CLAUDE.md) y unos 26.250 € por equipo. 1.950 € es una subida de alrededor de un 35 a 40 %. Opciones:

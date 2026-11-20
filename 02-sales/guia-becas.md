@@ -14,7 +14,7 @@
 
 1. **Evaluación inicial** — con un vídeo reciente jugando (partidos completos ayudan más que solo goles/highlights) y el expediente académico, evaluamos qué nivel de universidad tiene sentido real (NCAA Division I/II, NAIA, NJCAA — no todos apuntan a lo mismo, y eso está bien).
 2. **Perfil del jugador** — se prepara un perfil deportivo/académico para presentar a entrenadores.
-3. **Contacto con universidades** — nuestro partner (University Soccer) contacta directamente con entrenadores y coordinadores de reclutamiento.
+3. **Contacto con universidades** — nuestro partner especializado contacta directamente con entrenadores y coordinadores de reclutamiento.
 4. **Negociación y oferta** — cuando hay interés real, se negocia la beca (parcial o completa según el caso) y se gestiona todo el papeleo (admisión, visado).
 5. **Seguimiento durante la estancia** — no termina en la firma, se sigue el proceso durante la adaptación a EEUU.
 
@@ -24,7 +24,7 @@
 - Existen más de 110.000 becas de fútbol repartidas en ese sistema.
 - Alrededor del 24% de los atletas becados continúan después hacia estudios de posgrado — la beca no es solo fútbol, abre también una vía académica.
 
-*(Fuente: datos generales del sistema NCAA compartidos por nuestro partner University Soccer.)*
+*(Fuente: datos generales del sistema universitario de EEUU.)*
 
 ## Siguiente paso
 

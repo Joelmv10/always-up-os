@@ -2,6 +2,13 @@
 
 > Para la preparación de Joel y Enrique del **lunes 23/11** y la llamada con Gonzalo del **martes 24/11**. No se le envía nada por escrito sin el OK de Joel y Enrique. Precios del Atlético: tarifa 2026-2027 (`08-knowledge-base/tarifas-atletico-2027.md`); para 2028, "pendiente de actualización de precios de la temporada siguiente" (Enrique, 20/11).
 
+## PDF para la llamada (20/11)
+`01-clients/propuestas/Always-Up-Oferta-2027-Argentina-Gonzalo.pdf`: 11 páginas.
+- **Contenido:** resumen de los 5 productos, campus en 3 páginas (qué es, formatos y precio, quién hace qué y plazos), Coach Experience, 12 días, becas, Team Experience, cómo trabajamos y próximos pasos.
+- **Generador:** `07-automations/materiales/oferta_gonzalo_2027.py`. Los precios para el socio están en las constantes del principio (modelo A). Si Enrique decide otro modelo el lunes, se cambian y se regenera en un minuto.
+- **No se envía sin el OK de Joel y Enrique.**
+- **Cambio de Joel del 20/11:** Team Experience de 5 días a unos 1.500 € por jugador y sin fechas fijas. El programa de 12 días, con inicio cuando quiera el jugador.
+
 ## Lo que sabemos de Gonzalo
 - Trabaja con colegios y muchos chicos; habla de unas 1.000 personas.
 - Sus experiencias de 2027 ya están cerradas con el Barça. El Atlético lo intentó hace años "y no se hizo bien".
@@ -73,7 +80,7 @@
 ### 5. Team Experience en el Atlético (2028)
 - **Qué incluye:** residencia del club, pensión completa, 4 entrenamientos, 1 o 2 partidos contra la academia, estadio y museo, y certificado.
 - **Coste:** 1.600 € por jugador la semana (tarifa 2026-2027), más 49 € del kit.
-- **Precio:** público, desde 2.600 € los 7 días. Precio socio propuesto, unos 2.300 €.
+- **Precio:** referencia de unos 1.500 € por jugador los 5 días (decisión de Joel, 20/11). Ojo: con la tarifa de 7 días del Atlético el margen sería del 10 al 15 %. Falta el precio real de 5 días (ver `00-company/plan-plazas-2027.md`).
 - **Precio de 2028:** pendiente de la actualización del club.
 - **Preguntar** por qué no funcionó cuando lo intentó con el Atlético, y contarle nuestra relación dentro del club (Enrique).
 
