@@ -31,7 +31,7 @@
 | Seguro | **El del club cubre todo lo que pase en el campo y sus instalaciones; el nuestro, los traslados.** El jugador viene con un seguro médico internacional para enfermedades comunes | Contrato (cláusula 8), ficha y guía actualizados. Nuestro seguro de responsabilidad civil y traslados entra en la consulta al corredor |
 
 ### Lo que queda por cerrar (lo nuevo es el 50/50)
-1. **El modelo 50/50.** Hasta ahora teníamos "1.500 € por jugador y 500 € a quien lo trae". Ahora el club habla de sumar todos los costes y repartir el beneficio a medias. Hay que dejar por escrito:
+1. **El modelo 50/50** (números, escenarios y postura recomendada en `modelo-50-50.md`, 20/11). Hasta ahora teníamos "1.500 € por jugador y 500 € a quien lo trae". Ahora el club habla de sumar todos los costes y repartir el beneficio a medias. Hay que dejar por escrito:
    - **Quién fija el precio final al jugador.** Nuestra ficha dice 2.300 €; el club habló de 1.500 €.
    - **Qué costes entran:** piso, comidas, kit, recogida, contacto, grabación. ¿Y nuestros costes de venta (anuncios, comisión de agentes, el tiempo de Joel)?
    - **Quién cobra al jugador y cuándo se liquida** la parte de cada uno.

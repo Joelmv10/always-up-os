@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|---|
 | 1 | Acuerdo con el Real Unión | ✗ de palabra | Firmar la hoja de condiciones (`acuerdo-real-union.md`) | Enrique | 5/12 | **Sí** |
 | 2 | Ficha cerrada | ◐ | PDF hecho (`02-sales/assets/`). Falta el programa día a día real del club y los turnos | Enrique pide el planning; Claude lo mete | 5/12 | **Sí** (turnos) |
-| 3 | Coste y margen | ◐ | Estimación abajo. Se cierra con el precio de la plaza y del coordinador local | Claude | 5/12 | No |
+| 3 | Coste y margen | ◐ | Modelo 50/50 calculado y postura recomendada en `modelo-50-50.md` (20/11). Faltan los costes reales del club | Claude; Enrique pide las cifras al club | 5/12 | No |
 | 4 | Contrato con el jugador | ◐ borrador | `condiciones-jugador.md`, a revisar por el abogado | Abogado | 8/12 | **Sí** |
 | 5 | Seguros | ◐ | Club: campo e instalaciones ✓. Jugador: trae seguro médico internacional ✓ (20/11). Falta nuestro seguro de traslados y responsabilidad civil | Enrique con un corredor | 15/12 | **Sí** |
 | 6 | Cobro | ✗ | Enlace de pago con tarjeta y transferencia; factura de Quality Servix | Enrique con el gestor | 15/12 | **Sí** |
@@ -61,6 +61,7 @@
 
 ## Archivos del kit
 - `acuerdo-real-union.md`: hoja de condiciones para cerrar con el club.
+- `modelo-50-50.md`: números del reparto 50/50 con el club, postura para cerrar y mensaje para Enrique.
 - `condiciones-jugador.md`: contrato con el jugador (borrador para el abogado).
 - `formulario-solicitud.md`: preguntas del formulario.
 - `guia-de-llegada.md`: guía para el jugador antes de viajar.
