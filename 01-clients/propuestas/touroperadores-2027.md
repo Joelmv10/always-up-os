@@ -23,7 +23,19 @@ Para ellos, es un argumento de venta nuevo ("entrenar con un club de LaLiga") si
 | 2 | Touroperadores pequeños de EEUU (Level Up Sports Tours y otros 3 o 4) | Ya venden España; deciden rápido | Fundador (LinkedIn o correo de su web) |
 | 3 | EF Tours (deportes) | Volumen enorme, pero ya trabajan con el Atlético | Solo con Real Sociedad o Sporting, nunca con el Atlético |
 
-La búsqueda de nombres y correos comprobados la hace la sesión de crecimiento o el turno, y quedan aquí antes de enviar.
+### Contactos comprobados (19/11/2026, en sus webs)
+| Prioridad | Empresa | Qué venden en España | Contacto | Canal | Mensaje |
+|---|---|---|---|---|---|
+| 1 | **Premier International Tours** (EEUU, socio oficial de giras de US Club Soccer) | Donosti Cup del 4 al 12 de julio de 2027 (desde 2.500 $) y Barcelona más Donosti Cup | Sin nombre ni correo publicado. Formulario en premierinternationaltours.com/contactus. Teléfono (800) 724-6076 | Formulario; buscar en LinkedIn al responsable de operaciones o de giras | A (Donosti) |
+| 2 | **DB Sports Tours** (Dublín) | Giras por España para clubes de EEUU e Irlanda, Donosti Cup, torneos en Cataluña | David Berber, Director. info@dbsportstours.com, +353 1 968 2686 | Correo | A (Donosti) |
+| 3 | **WorldStrides Sports** | Madrid y Donosti Cup, Barcelona y Madrid | Sin nombre confirmado: Eric McAleer (fundador de la división deportiva) ya no sale en su web de directivos. Buscar en LinkedIn "WorldStrides Sports" más soccer o Europe | LinkedIn | A (Donosti) |
+| 4 | **Global Image Sports** (desde 2025 dentro de Intrepid Sports Group) | Giras a medida en Madrid y Barcelona; trabajan con el Atlético, el Espanyol y el Málaga | Jordan Tant, Director of Football Operations. tours@globalimagesports.org | Correo a la atención de Jordan | B (norte) |
+| 5 | IFX Soccer (California) | Barcelona, Madrid, Valencia, Zaragoza, Cádiz | Sin nombre. Teléfono +1 510 599 4625; el correo está oculto en la web | Más adelante | B (norte) |
+| 6 | EF Tours | Ya compran al Atlético | | Más adelante, solo con Real Sociedad o Sporting | B (norte) |
+
+Fuentes: [Premier International Tours](https://www.premierinternationaltours.com/spain-soccer-tours), [DB Sports Tours](https://dbsportstours.com/utah-state-youth-soccer-meets-barcelona/), [Global Image Sports](https://globalimagesports.com/contact), [IFX Soccer](https://ifxsoccer.com/soccer-tours-spain/), [WorldStrides, directivos](https://worldstrides.com/about/leadership/).
+
+**Ojo con DB Sports Tours:** también lleva clubes irlandeses, como nosotros. Puede ser socio o competencia. Si contesta, no compartimos nada de Greystones.
 
 ## 4. Lo que tienen que cerrar Joel y Enrique antes de enviar
 1. **¿Nos deja la Real Sociedad (y el Sporting) traer grupos de un touroperador?** Nuestro acuerdo es para equipos que traemos nosotros. Enrique lo pregunta.
@@ -36,7 +48,7 @@ La búsqueda de nombres y correos comprobados la hace la sesión de crecimiento 
 Hi [name], I'm Joel from Always Up. We run training sessions for youth teams with Real Sociedad and other Spanish clubs. I saw your Donosti Cup trips and think we could add something your groups would love. Happy to connect.
 ```
 
-**Correo:**
+**Correo A (los que van a la Donosti Cup):**
 ```
 Subject: A LaLiga training session for your Donosti Cup groups
 
@@ -54,6 +66,25 @@ Founder, Always Up
 joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 
+**Correo B (los que solo van a Madrid y Barcelona):**
+```
+Subject: Adding the north of Spain to your soccer tours
+
+Hi [name],
+
+I'm Joel Martinez from Always Up. We organise training sessions for youth teams in Spain with professional clubs, including Real Sociedad in San Sebastián and Sporting de Gijón.
+
+Your Spain tours focus on Madrid and Barcelona. If you ever want a different leg for your groups, we can set up 2 or 3 days in the Basque Country: training with Real Sociedad coaches, a friendly against a local academy side and a stadium visit. You keep running the trip; we handle the football side.
+
+Would a 15 minute call make sense to see if it fits your 2027 tours?
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
 ## 6. Siguiente paso
 - Enrique: puntos 1 y 2 de la sección 4, en la reunión del 26/11 al 3/12 o antes por WhatsApp.
-- Claude: nombres y correos de los 5 o 6 contactos de la sección 3, listos para el OK de Joel.
+- Claude (hecho el 19/11): contactos de la sección 3. Falta el nombre en Premier International Tours y en WorldStrides (LinkedIn, en el turno).
+- Cuando Enrique confirme los dos puntos y Joel dé el OK: Claude envía el correo a DB Sports Tours y a Global Image Sports, rellena el formulario de Premier International Tours y deja la conexión de LinkedIn de WorldStrides para Joel.
