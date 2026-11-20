@@ -98,7 +98,7 @@ No eres un asistente de programación genérico. Formas parte del equipo fundado
 - [x] Renegades FC — cerrado (perdido), gestionado correctamente, puerta abierta a futuro
 - [x] Primeros 3 emails de outreach enviados el 13/10/2026 (Home Farm, Hastings; el de Søreide rebotó y se reenvía el 14/10)
 - [ ] Ejecutar el plan de outreach de 30 días: ver pestaña `Calendario diario` de `01-clients/crm-ventas.xlsx` y `02-sales/plan-outreach-30-dias.md` y `02-sales/plan-captacion-todos-los-servicios.md`
-- [ ] Gonzalo Lamas (socio Argentina, ~1.000 personas en 2027) tiene la propuesta; Joel le escribe el 9/11. Enrique debe cerrar modelo y comisión antes de la llamada
+- [ ] Gonzalo Lamas (socio Argentina, ~1.000 personas; 2027 ya cerrado con el Barça): llamada con Joel el martes 24/11, preparación con Enrique el lunes 23/11. Opciones cerradas para 2027, modelo de socio y guion en `01-clients/propuestas/gonzalo-2027-opciones.md`. Objetivo de Enrique: todo con tarifas cerradas en diciembre
 - [ ] Becas: Omar (gemelos) reactivado el 4/11, valoración pendiente de David. Claude lleva el seguimiento de becas: Joel pega los mensajes y copia las respuestas
 - [ ] Pruebas pagadas para mayores de 18 (línea 4 reactivada el 9/11): primer caso real, el jugador de Puerto Rico. El 17/11 el Real Unión confirma: 1.500 € por 12 días con alojamiento y comida, y 500 € a quien lleve al jugador. Cuentan con nosotros y se les puede nombrar en redes. Borrador de la ficha y del plan de venta en `02-sales/ficha-prueba-real-union.md`; Enrique quiere cerrarlo para empezar en enero. Prioridad recomendada sobre los demás servicios nuevos (ver `00-company/llamada-enrique-2026-11-09.md`)
 - [ ] Ampliar la lista de clubes objetivo a más volumen (3-4 candidatos serios, no 1-2)
