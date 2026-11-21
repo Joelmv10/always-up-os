@@ -230,7 +230,7 @@
       "key": "ballistic",
       "kind": "Email 1",
       "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 09:34. REBOTE probable: MAILER-DAEMON@mailchannels.net 'Undelivered Mail Returned to Sender' a las 09:35 (1 minuto despues). Comprobar en Mail a que direccion corresponde y buscar otro correo de Jerry Losson / Ballistic United"
+      "nota": "Enviado por Claude a las 09:34. REBOTE probable: MAILER-DAEMON@mailchannels.net 'Undelivered Mail Returned to Sender' a las 09:35 (1 minuto despues). Comprobar en Mail a que direccion corresponde y buscar otro correo de Jerry Losson / Ballistic United. 21/11: REBOTE CONFIRMADO (jerrylosson@busc.org, cuenta inactiva; Jerry Losson ya no aparece en busc.org). Ballistic en PARADOS. Nuevo decisor comprobado en busc.org/about/directory: Brady Taylor (Director of Player Development & Coaching Education), bradytaylor@busc.org. Reenvío pendiente del OK de Joel"
     }
   ],
   "tareas": [
@@ -759,6 +759,11 @@
       "date": "2026-11-20",
       "task": "Revisión diaria",
       "nota": "Turno de las 7:30: bandeja sin respuestas ni rebotes, mensaje a Shawn Burke y Pedro Sousa, Khalil Lazrek contesta (abre club en Orlando), tanda 3 de universidades (Ithaca, Clemson, Trine), informe semanal. Conexiones no hechas: el diálogo de LinkedIn no se abría con el panel oculto"
+    },
+    {
+      "date": "2026-11-21",
+      "task": "Revisión diaria",
+      "nota": "Turno de las 7:30 (sábado): rebote de Ballistic confirmado, nuevo decisor Brady Taylor (reenvío pendiente de OK); LinkedIn sin respuestas nuevas; conexiones no hechas (panel oculto); convención de United Soccer Coaches 2027 investigada (02-sales/eventos-2027.md); informe 2026-11-21.md"
     }
   ],
   "textos": [
@@ -1009,6 +1014,21 @@
       "club": "Networking",
       "to": "Khalil Lazrek",
       "nota": "19/11: contesta 'I'll be starting a soccer club in orlando next season!'. Respuesta propuesta en el informe del 20/11 (Team y Coach Experience), pendiente del OK de Joel."
+    },
+    {
+      "club": "Networking",
+      "to": "Khalil Lazrek",
+      "nota": "20/11 a las 9:21: respuesta B enviada por LinkedIn con el OK de Joel. Sin contestación a 21/11."
+    },
+    {
+      "club": "Networking",
+      "to": "Iago Rimoldi Renda",
+      "nota": "Aceptó el 20/11. Estudiante de marketing, no es prospecto: sin mensaje."
+    },
+    {
+      "club": "Eastern Pennsylvania Youth Soccer",
+      "to": "Gary Stephenson",
+      "nota": "21/11: perfil comprobado (Assistant Technical Director, EPYSA), pero la invitación NO salió: con el panel del navegador oculto LinkedIn no abre el diálogo. Reintentar con el panel visible."
     }
   ],
   "clubes": [
