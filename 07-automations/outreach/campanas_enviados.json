@@ -1,0 +1,29 @@
+[
+ {
+  "fecha": "2026-11-23",
+  "hora": "10:30",
+  "campana": "programa-12-dias",
+  "para": "aragonpl@herkimer.edu",
+  "nombre": "Pepe Aragon",
+  "org": "Herkimer College (NJCAA)",
+  "message_id": "<179544783045.55835.12408097803987927374@alwaysup.es>"
+ },
+ {
+  "fecha": "2026-11-23",
+  "hora": "10:31",
+  "campana": "programa-12-dias",
+  "para": "dalcew@mccc.edu",
+  "nombre": "Widmarc Dalce",
+  "org": "Mercer County Community College (NJCAA)",
+  "message_id": "<179544787925.55835.391912153371876218@alwaysup.es>"
+ },
+ {
+  "fecha": "2026-11-23",
+  "hora": "10:32",
+  "campana": "programa-12-dias",
+  "para": "draso@georgian.edu",
+  "nombre": "Dino Raso",
+  "org": "Georgian Court University (NCAA D2)",
+  "message_id": "<179544792740.55835.2693327057466399742@alwaysup.es>"
+ }
+]
