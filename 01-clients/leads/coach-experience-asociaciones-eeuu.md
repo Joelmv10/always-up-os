@@ -22,6 +22,23 @@ Hasta ahora buscábamos entrenadores uno a uno. Pero las federaciones de cada es
 | 8 | Connecticut Junior Soccer Association | Courtney Leone, Programs Administrator ODP/Coaching Education | courtney@cjsa.org | Gestiona la formación de entrenadores y el ODP |
 | 9 | Washington Youth Soccer | Paul Bayly, Director of Coaching Education | Sin correo publicado (teléfono 415-810-0149) | Más adelante |
 
+### Ampliación del 23/11/2026 (sesión de crecimiento): 5 contactos nuevos y una comprobación
+| # | Organización | Persona y cargo | Correo | Gancho para el primer mensaje |
+|---|---|---|---|---|
+| 10 | Missouri Youth Soccer | Chris McGill, Director of Coaching & Player Development (lleva la formación de entrenadores y el ODP) | cmcgill@moyouthsoccer.org | Gancho IberCup (abajo) |
+| 11 | North Carolina Youth Soccer | John Trice, Associate Technical Director (ODP, Academy, Coaching Ed) | john@ncsoccer.org | Gancho IberCup |
+| 12 | North Carolina Youth Soccer | Bill Furjanic, Interim Executive Director / Technical Director | doc@ncsoccer.org | Segundo contacto en Carolina del Norte, solo si John no contesta |
+| 13 | Maryland State Youth Soccer | Gandalf French, Technical Director (supervisa el departamento de formación de entrenadores, el ODP y la Summer Soccer Academy) | Gandalf@msysa.org | Gancho IberCup |
+| 14 | Virginia Youth Soccer | Paul Shaw, Assistant Technical Director (coach educator de US Soccer). El director técnico es Gordon Miller, sin correo publicado | paul@vysa.com | Gancho IberCup. Dato de noviembre de 2024: comprobar antes de escribir |
+| 8 | Connecticut Junior Soccer Association | Courtney Leone | courtney@cjsa.org | **Comprobado el 23/11:** sigue en la web con el mismo cargo |
+| 7 | Cal North | Jeremy Williams | jwilliams@calnorth.org | **Sin comprobar:** la página de personal da error 404. Se queda fuera de la primera tanda |
+
+Sin correo publicado (no se escribe a ciegas): Florida Youth Soccer (Mike Strickler, Director of Coaching & Player Development, la página de personal da 404), Massachusetts Youth Soccer (Tommy Geis, Technical Director desde 2023, web con error de certificado) y Michigan (no aparece el cargo).
+
+**Gancho nuevo para las federaciones estatales:** US Youth Soccer paga la inscripción de 20 directores técnicos estatales para la IberCup Convention de Estoril (Portugal), del 16 al 18/12/2026 ([US Youth Soccer, 20/05/2026](https://www.usyouthsoccer.org/?p=14269)). Es decir, la formación en Europa ya está en la agenda de estos cargos este mismo invierno. Frase para el correo: "I saw US Youth Soccer is sending state technical leads to the IberCup Convention in Portugal this December, so I imagine international education is on your radar for 2027."
+
+Fuentes de la ampliación: [Missouri](https://www.missourisoccer.org/mysa/contact-us/), [North Carolina](https://www.ncsoccer.org/?p=2221), [Maryland](https://msysa.org/meet-the-team-2), [Virginia](https://www.vysa.com/?p=7509), [CJSA](https://www.cjsa.org/our-association/), [Florida](https://www.fysa.com/?p=2157), [Massachusetts (SoccerAmerica)](https://www.socceramerica.com/?p=1008).
+
 Fuentes: [EPYSA](https://www.epysa.org/coaching-education/), [NorCal Premier](https://norcalpremier.com/about/staff/), [ENYYSA](https://www.enysoccer.com/coaching-education-new/), [NJ Youth Soccer](https://www.njyouthsoccer.com/about-us/), [Cal North](https://www.calnorth.org/news/cal-north-names-jeremy-williams-as-technical-director-of-coaching-education), [CJSA](https://www.cjsa.org/our-association/), [Washington Youth Soccer](https://washingtonyouthsoccer.org/staff-directory/).
 
 ## La competencia (y un aviso sobre el precio)
@@ -48,6 +65,25 @@ Hi [name],
 I'm Joel Martinez from Always Up, based here in New York. We organise weeks in Spain for coaches with Atlético de Madrid and Real Sociedad: sessions led by their academy coaches, methodology and planning workshops, watching academy training and matches, and a practical session where their staff give feedback.
 
 [Gancho de la tabla. Ejemplos: "I saw your coaches are heading to Scotland in February, so international education is clearly part of your plan." / "I read about NorCal's coaching trip to Spain and how much the coaches got out of it."]
+
+Would a week in Spain for a group of your coaches fit your 2027 coaching education plans? We set the dates around your calendar. Happy to send a one-page outline or jump on a 15 minute call.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Primer correo, versión 23/11 (propuesta para la sesión del 25/11)
+Cambios sobre el aprobado el 20/11: quito "a practical session where their staff give feedback" y la Real Sociedad, porque no están en el programa del Atlético ni tienen precio (detalle en `02-sales/ficha-coach-education-week.md`). Lo demás es igual. Necesita el OK de Joel.
+```
+Subject: A coaching education week at Atlético de Madrid
+
+Hi [name],
+
+I'm Joel Martinez from Always Up, based here in New York. We organise weeks in Spain for coaches at Atlético de Madrid: watching academy training from U12 to U20, daily workshops with the club's departments (methodology, physical preparation, individual development, game analysis), academy games at the weekend and a stadium tour.
+
+[Gancho de la tabla.]
 
 Would a week in Spain for a group of your coaches fit your 2027 coaching education plans? We set the dates around your calendar. Happy to send a one-page outline or jump on a 15 minute call.
 
