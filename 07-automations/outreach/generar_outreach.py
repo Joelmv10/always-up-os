@@ -424,6 +424,27 @@ for _p in PROSPECTS_US:
             _p["subj"] = _s
         _p["motivo"] = _m; _p["fuente"] = _f; _p["cat"] = "Club que ya viaja a España"
 
+# ------------------------------------------- tanda de clubes del 23/11/2026 (turno diario; 01-clients/leads-nuevos-2026-11-23.md)
+MMYFC = "{greet}\n\nI'm Joel, I run Always Up. I read that Mount Merrion won the Barcelona Cup final in 2024, congratulations. Could you pass this on to Willie Boland, or to whoever looks after trips abroad?\n\n" + _TRIP + "\n\n" + _EASTER + "\n\n" + _END
+CATTERICK = "{greet}\n\nI'm Joel, I run Always Up. I saw in the club newsletter that your under 15s and under 16s played the Costa Daurada Cup in Salou.\n\n" + _TRIP + "\n\n" + _EASTER + "\n\n" + _ASK + "\n\n" + _END
+FCCOPA = "{greet}\n\nI'm Joel, I run Always Up, and I'm based here in New York. I saw FC Copa took its boys to the Donosti Cup in 2024, with stops in Madrid and Biarritz, so Spain is clearly on the club's radar. Could you pass this on to Roberto Aguas, or to whoever looks after trips abroad?\n\n" + _TRIP + "\n\n" + _PROOF + "\n\nWe're close enough for a coffee or a quick call if you're open to it, or I can send a short overview first.\n\nBest,\n{sig}"
+PROSPECTS += [
+    dict(key="mmyfc", club="Mount Merrion Youths FC", short="Mount Merrion", tz="Europe/Dublin", lang="en", sent=False, e1=D(2026, 12, 8), right=True,
+         to="info@mmyfc.ie", greet="Hi there,", person="Willie Boland (Director of Coaching); Paul McDonnell (Chairperson). Correo general del club", subj="A week in Spain for Mount Merrion", linkedin=None, dm="Redes de Mount Merrion",
+         pais="Irlanda (Dublín)", cat="Cantera (DDSL)", motivo="Ganó la final del Barcelona Cup 2024 en Salou y Cambrils, 4-0 a Letterkenny Rovers (Donegal Live). Sus equipos recaudan fondos para torneos fuera con permiso del club.", fuente="mmyfc.ie/faq / donegallive.ie", e1_body=MMYFC),
+    dict(key="catterick", club="Catterick Village JFC", short="Catterick Village", tz="Europe/London", lang="en", sent=False, e1=D(2026, 12, 8), right=True,
+         to="info@catterickvillagejfc.net", greet="Hi all,", person="Sin nombre actual publicado: correo del club (boletín de abril de 2023)", subj="A week in Spain for Catterick Village", linkedin=None, dm="Redes de Catterick Village",
+         pais="Reino Unido (North Yorkshire)", cat="Cantera, sub 15 y sub 16", motivo="Sub 15 y sub 16 en la Costa Daurada Cup de Salou en Semana Santa de 2023 (boletín del club).", fuente="issuu.com/cvjfcnewsletter/docs/april_2023_newsletter", e1_body=CATTERICK),
+]
+PROSPECTS_US += [
+    _us("fccopa", "FC Copa Academy", "FC Copa", "America/New_York", "info@fccopa.com", "Hi team,", "Roberto Aguas (President, Founder y Executive Director of Coaching)", "Nueva Jersey", D(2026, 12, 8)),
+]
+for _p in PROSPECTS_US:
+    if _p["key"] == "fccopa":
+        _p["e1_body"] = FCCOPA; _p["subj"] = "FC Copa and a week in Spain"; _p["cat"] = "Club que ya viaja a España"
+        _p["motivo"] = "Llevó a sus chicos a la Donosti Cup del 28/6 al 8/7/2024 con paradas en Madrid y Biarritz (fccopa.com, 20/6/2024). ECNL RL, en Nueva Jersey: se puede ir en persona."
+        _p["fuente"] = "fccopa.com / fccopa.com/post/off-to-donosti-cup"
+
 _E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 6), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
        "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "ballisticbrady": D(2026, 11, 24), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
@@ -538,6 +559,27 @@ UNIVERSIDADES = [
          "I saw the program went to Portugal over spring break in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
          "Portugal en la semana de primavera de 2024 (trine.edu, 2/4/2024), con el entrenador anterior, Gary Boughton. Alyssa Krause es la entrenadora actual. D3: podría tocar en 2027.",
          "trinethunder.com/sports/womens-soccer/coaches / trine.edu/news/2024/soccer-portugal.aspx", D(2026, 12, 4)),
+    # Tanda 4 (23/11/2026, turno diario): correos comprobados en la página de entrenadores de cada universidad (01-clients/leads-nuevos-2026-11-23.md).
+    _uni("pctmsoc", "Penn College (Men's Soccer)", "Penn College", "tsm6@pct.edu", "Mensch", "Tyler Mensch (Head Men's Soccer Coach)", "Pensilvania", "NCAA D3",
+         "I saw the team toured Scotland and England in the summer of 2023. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Gira por Escocia e Inglaterra del 28/7 al 6/8/2023 con Tyler Mensch, 61 personas entre jugadores, antiguos alumnos y familias (pct.edu, 11/8/2023). D3: le toca en 2026-2027.",
+         "pctwildcats.com/sports/mens-soccer/coaches / pct.edu/news/article/2023/08/11/mens-soccer-team-travels-to-europe", D(2026, 12, 7)),
+    _uni("hartwsoc", "Hartwick College (Women's Soccer)", "Hartwick", "knappb@hartwick.edu", "Knapp", "Brian Knapp (Head Women's Soccer Coach, desde 2017)", "Nueva York", "NCAA D3",
+         "I saw the team spent spring break in Portugal in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Lisboa y Oporto en la semana de primavera de 2024 (hartwick.edu, 29/3/2024). D3: podría tocar en 2027.",
+         "hartwickhawks.com/sports/womens-soccer/coaches / hartwick.edu/about-us/stories/womens-soccer-in-portugal", D(2026, 12, 7)),
+    _uni("cortmsoc", "SUNY Cortland (Men's Soccer)", "Cortland", "steven.axtell@cortland.edu", "Axtell", "Steve Axtell (Head Coach, Men's Soccer)", "Nueva York", "NCAA D3",
+         "I saw the men's and women's teams went to Italy over spring break in 2023. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Los dos equipos fueron a Italia en la semana de primavera de 2023 con Bravo Sports Tours (Dragon Chronicle, 29/3/2023). El artículo no nombra al entrenador: el texto habla del programa, no de él. D3: 2026-2027.",
+         "cortlandreddragons.com/sports/mens-soccer/coaches / sites.cortland.edu/dragon-chronicle/2023/03/29/cortland-womens-and-mens-soccer-travel-to-italy/", D(2026, 12, 7)),
+    _uni("hoodwsoc", "Hood College (Women's Soccer)", "Hood", "kovarik@hood.edu", "Kovarik", "Molly Kovarik (Head Coach, Women's Soccer, desde 2020)", "Maryland", "NCAA D3",
+         "I saw the team made its first trip abroad, to Croatia and Italy, in March 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip.",
+         "Primer viaje al extranjero del programa: Croacia e Italia del 9 al 18/3/2024, con recaudación de fondos (hood.edu). D3: 2027.",
+         "hoodathletics.com/sports/womens-soccer/coaches / hood.edu/discover/stories/womens-soccer-travel-abroad", D(2026, 12, 7)),
+    _uni("harvmsoc", "Harvard University (Men's Soccer)", "Harvard", "msoccer@fas.harvard.edu", "Shapiro", "Josh Shapiro (Head Coach desde 2020); buzón del programa", "Massachusetts", "NCAA D1",
+         "I saw the team's tour of Italy and Germany last March, with games against Como and Dortmund academy sides. With the NCAA now allowing Division I programs a foreign tour every year, a trip to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip.",
+         "Gira de 10 días por Italia y Alemania del 14 al 23/3/2025: Como sub 19, Vismara (AC Milan) y cantera del Dortmund (gocrimson.com, 24/3/2025). Correo: buzón del programa, publicado en su página de entrenadores.",
+         "gocrimson.com/sports/mens-soccer/coaches / gocrimson.com/news/2025/3/24/mens-soccer-mens-soccer-completes-comprehensive-foreign-tour-of-italy-germany.aspx", D(2026, 12, 7)),
 ]
 PROSPECTS_US += UNIVERSIDADES
 

@@ -1165,3 +1165,191 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
+
+## Catterick Village JFC: email 1 (enviar 09/12/2026 a las 04:30 hora Nueva York)
+
+**Para:** info@catterickvillagejfc.net
+
+**Asunto:** A week in Spain for Catterick Village
+
+```
+Hi all,
+
+I'm Joel, I run Always Up. I saw in the club newsletter that your under 15s and under 16s played the Costa Daurada Cup in Salou.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+Atlético ask us to confirm Easter groups by mid January, so if the club is thinking about a trip next Easter, now is a good moment to look at it.
+
+Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## FC Copa Academy: email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** info@fccopa.com
+
+**Asunto:** FC Copa and a week in Spain
+
+```
+Hi team,
+
+I'm Joel, I run Always Up, and I'm based here in New York. I saw FC Copa took its boys to the Donosti Cup in 2024, with stops in Madrid and Biarritz, so Spain is clearly on the club's radar. Could you pass this on to Roberto Aguas, or to whoever looks after trips abroad?
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+We're close enough for a coffee or a quick call if you're open to it, or I can send a short overview first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Hartwick College (Women's Soccer): email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** knappb@hartwick.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Hartwick?
+
+```
+Hi Coach Knapp,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team spent spring break in Portugal in 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Harvard University (Men's Soccer): email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** msoccer@fas.harvard.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Harvard?
+
+```
+Hi Coach Shapiro,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team's tour of Italy and Germany last March, with games against Como and Dortmund academy sides. With the NCAA now allowing Division I programs a foreign tour every year, a trip to Spain could fit your 2027 or 2028 plans, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Hood College (Women's Soccer): email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** kovarik@hood.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Hood?
+
+```
+Hi Coach Kovarik,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team made its first trip abroad, to Croatia and Italy, in March 2024. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## Mount Merrion Youths FC: email 1 (enviar 09/12/2026 a las 04:30 hora Nueva York)
+
+**Para:** info@mmyfc.ie
+
+**Asunto:** A week in Spain for Mount Merrion
+
+```
+Hi there,
+
+I'm Joel, I run Always Up. I read that Mount Merrion won the Barcelona Cup final in 2024, congratulations. Could you pass this on to Willie Boland, or to whoever looks after trips abroad?
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+Atlético ask us to confirm Easter groups by mid January, so if the club is thinking about a trip next Easter, now is a good moment to look at it.
+
+We also run coach trips, and I can send our presentation or jump on a quick video call, no commitment.
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+```
+
+## Penn College (Men's Soccer): email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** tsm6@pct.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Penn College?
+
+```
+Hi Coach Mensch,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the team toured Scotland and England in the summer of 2023. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
+## SUNY Cortland (Men's Soccer): email 1 (enviar 09/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** steven.axtell@cortland.edu
+
+**Asunto:** Training at Atlético de Madrid and Real Sociedad for Cortland?
+
+```
+Hi Coach Axtell,
+
+I'm Joel, a college player here in New York, and with my family I run Always Up. We take teams to Spain to train at professional clubs: Atlético de Madrid, Real Sociedad and Sporting de Gijón, with their coaches and at their facilities, plus friendlies against top Spanish academies and clubs. We handle the whole trip, from hotels to transport.
+
+I saw the men's and women's teams went to Italy over spring break in 2023. A trip in 2027 or 2028 could take the players to Spain, training at the clubs themselves, as a preseason or a spring trip. We can also add sessions for your staff with the clubs' coaches, so they bring Spanish methodology back into the season.
+
+Would a quick call be useful? I'm happy to send a sample itinerary first.
+
+Best,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```

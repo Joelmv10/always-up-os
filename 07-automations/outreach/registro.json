@@ -1,1323 +1,1346 @@
 {
-  "_nota": "Registro de lo que ha ocurrido de verdad (envíos y tareas hechas). El script lo aplica al Excel en cada ejecución, así el estado no depende de qué versión del archivo tenga abierta Joel. Se actualiza con lo que Joel cuenta en el chat.",
-  "envios": [
-    {
-      "key": "homefarm",
-      "kind": "Email 1",
-      "date": "2026-10-13"
-    },
-    {
-      "key": "hastings",
-      "kind": "Email 1",
-      "date": "2026-10-13"
-    },
-    {
-      "key": "soreide",
-      "kind": "Email 1",
-      "date": "2026-10-14",
-      "nota": "Enviado a mano 14/10 (8:34). El primer intento del 13/10 rebotó."
-    },
-    {
-      "key": "holbeach",
-      "kind": "Email 1",
-      "date": "2026-10-14",
-      "nota": "Salió programado 14/10 (4:41), posible duplicado. Callum Lawe ya no está en el club."
-    },
-    {
-      "key": "maidstone",
-      "kind": "Email 1",
-      "date": "2026-10-15"
-    },
-    {
-      "key": "whitehaven",
-      "kind": "Email 1",
-      "date": "2026-10-15"
-    },
-    {
-      "key": "akranes",
-      "kind": "Email 1",
-      "date": "2026-10-15"
-    },
-    {
-      "key": "ballymun",
-      "kind": "Email 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "porte",
-      "kind": "Email 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "ross",
-      "kind": "Email 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "soreide",
-      "kind": "Follow-up 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "whitehaven",
-      "kind": "Follow-up 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "hastings",
-      "kind": "Follow-up 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "homefarm",
-      "kind": "Follow-up 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "holbeach_dan",
-      "kind": "Email 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "virtu",
-      "kind": "Email 1",
-      "date": "2026-11-05"
-    },
-    {
-      "key": "stkevins",
-      "kind": "Email 1",
-      "date": "2026-11-06"
-    },
-    {
-      "key": "akranes",
-      "kind": "Follow-up 1",
-      "date": "2026-11-09",
-      "nota": "Enviado a mano el 9/11 por la noche"
-    },
-    {
-      "key": "maidstone",
-      "kind": "Follow-up 1",
-      "date": "2026-11-09",
-      "nota": "Enviado a mano el 9/11 por la noche"
-    },
-    {
-      "key": "bollington",
-      "kind": "Email 1",
-      "date": "2026-11-10",
-      "nota": "Salió a su hora (comprobado por Joel)"
-    },
-    {
-      "key": "cedar",
-      "kind": "Email 1",
-      "date": "2026-11-10",
-      "nota": "Salió a las 9:30 (comprobado por Joel)"
-    },
-    {
-      "key": "colorado",
-      "kind": "Email 1",
-      "date": "2026-11-10",
-      "nota": "Programado por Joel; salió el 10/11 a las 23:34 (antes de tiempo)"
-    },
-    {
-      "key": "carrigaline",
-      "kind": "Email 1",
-      "date": "2026-11-11",
-      "nota": "Programado por Joel; salió dos veces (4:33 y 5:45). Respuesta automática: correo no vigilado, contactar con Joe Giltenan"
-    },
-    {
-      "key": "keadue",
-      "kind": "Email 1",
-      "date": "2026-11-11",
-      "nota": "Programado por Joel"
-    },
-    {
-      "key": "seacoast",
-      "kind": "Email 1",
-      "date": "2026-11-11",
-      "nota": "Programado por Joel. Iain Scott contestó el 11/11: viajan solo con WorldStrides Sports"
-    },
-    {
-      "key": "nj14",
-      "kind": "Email 1",
-      "date": "2026-11-17",
-      "nota": "Enviado por Claude a las 13:14"
-    },
-    {
-      "key": "nysc",
-      "kind": "Email 1",
-      "date": "2026-11-17",
-      "nota": "Enviado por Claude a las 13:14"
-    },
-    {
-      "key": "cedar",
-      "kind": "Follow-up 1",
-      "date": "2026-11-18",
-      "nota": "Enviado por Claude a las 09:34"
-    },
-    {
-      "key": "colorado",
-      "kind": "Follow-up 1",
-      "date": "2026-11-18",
-      "nota": "Enviado por Claude a las 09:34"
-    },
-    {
-      "key": "ballymun",
-      "kind": "Follow-up 1",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "porte",
-      "kind": "Follow-up 1",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "hastings",
-      "kind": "Follow-up 2",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "holbeach_dan",
-      "kind": "Follow-up 1",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "akranes",
-      "kind": "Follow-up 2",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "keadue",
-      "kind": "Follow-up 1",
-      "date": "2026-11-19",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "maidstone",
-      "kind": "Follow-up 2",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 05:42"
-    },
-    {
-      "key": "ross",
-      "kind": "Follow-up 1",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 05:42"
-    },
-    {
-      "key": "soreide",
-      "kind": "Follow-up 2",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 09:10"
-    },
-    {
-      "key": "virtu",
-      "kind": "Follow-up 1",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 09:11"
-    },
-    {
-      "key": "whitehaven",
-      "kind": "Follow-up 2",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 09:12"
-    },
-    {
-      "key": "ballistic",
-      "kind": "Email 1",
-      "date": "2026-11-20",
-      "nota": "Enviado por Claude a las 09:34. REBOTE probable: MAILER-DAEMON@mailchannels.net 'Undelivered Mail Returned to Sender' a las 09:35 (1 minuto despues). Comprobar en Mail a que direccion corresponde y buscar otro correo de Jerry Losson / Ballistic United. 21/11: REBOTE CONFIRMADO (jerrylosson@busc.org, cuenta inactiva; Jerry Losson ya no aparece en busc.org). Ballistic en PARADOS. Nuevo decisor comprobado en busc.org/about/directory: Brady Taylor (Director of Player Development & Coaching Education), bradytaylor@busc.org. Reenvío pendiente del OK de Joel"
-    },
-    {
-      "key": "carrigalinejoe",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "dalkey",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 04:34"
-    },
-    {
-      "key": "letterkenny",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 04:36"
-    },
-    {
-      "key": "bethesda",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:34"
-    },
-    {
-      "key": "cincyunited",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:35"
-    },
-    {
-      "key": "dusc",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:36"
-    },
-    {
-      "key": "ifa",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:37"
-    },
-    {
-      "key": "nj14",
-      "kind": "Follow-up 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:38"
-    },
-    {
-      "key": "nysc",
-      "kind": "Follow-up 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:39"
-    },
-    {
-      "key": "unitedpdx",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:39"
-    },
-    {
-      "key": "wisconsin",
-      "kind": "Email 1",
-      "date": "2026-11-23",
-      "nota": "Enviado por Claude a las 09:40"
-    }
-  ],
-  "tareas": [
-    {
-      "date": "2026-10-13",
-      "task": "Revisión diaria",
-      "nota": "Hecho"
-    },
-    {
-      "date": "2026-10-13",
-      "task": "Omar: anotado",
-      "nota": "Hecho"
-    },
-    {
-      "date": "2026-10-13",
-      "task": "Prueba de entregabilidad",
-      "nota": "SPF, DKIM y DMARC en PASS; llegó a bandeja de Gmail"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Revisión diaria",
-      "nota": "Hecho"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "ENVIAR email 1 a Søreide",
-      "nota": "Enviado a mano 14/10 (8:34)"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "ENVIAR email 1 a Holbeach",
-      "nota": "Salió programado 14/10 (4:41)"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Confirmar que salieron",
-      "nota": "Revisado"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Comprobar si Søreide y Holbeach",
-      "nota": "Søreide 1 envío; Holbeach 2 o 3"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Opcional: pruebas de envío programado",
-      "nota": "Sale con Mail cerrado y Mac en reposo"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Prueba de spam con Microsoft",
-      "nota": "3 cuentas Outlook: todas en bandeja principal"
-    },
-    {
-      "date": "2026-10-14",
-      "task": "Daniel (MLS NEXT): enviar el follow-up",
-      "nota": "Enviado el 14/10"
-    },
-    {
-      "date": "2026-10-15",
-      "task": "ENVIAR email 1 a",
-      "nota": "Programado y enviado; copia CCO recibida"
-    },
-    {
-      "date": "2026-10-15",
-      "task": "Revisión diaria",
-      "nota": "Sin novedades"
-    },
-    {
-      "date": "2026-10-15",
-      "task": "Confirmar que salieron",
-      "nota": "Salieron (INBOX.Sent), sin rebotes"
-    },
-    {
-      "date": "2026-10-15",
-      "task": "Darme tu feedback sobre la ficha de Becas",
-      "nota": "Versión 3 aprobada como ficha oficial"
-    },
-    {
-      "date": "2026-10-16",
-      "task": "Revisión diaria",
-      "nota": "Sin novedades"
-    },
-    {
-      "date": "2026-10-16",
-      "task": "Revisión semanal 1",
-      "nota": "Sin respuestas ni rebotes en la primera semana"
-    },
-    {
-      "date": "2026-10-16",
-      "task": "Actualizar el CRM",
-      "nota": "CRM actualizado el 19/10"
-    },
-    {
-      "date": "2026-10-19",
-      "task": "Revisión diaria",
-      "nota": "Sin novedades"
-    },
-    {
-      "date": "2026-10-20",
-      "task": "Consultar con la oficina internacional",
-      "nota": "Ya consultado: sin problema con el F-1"
-    },
-    {
-      "date": "2026-11-03",
-      "task": "LinkedIn: conectar con Richard Clarke",
-      "nota": "Solicitud enviada con nota"
-    },
-    {
-      "date": "2026-11-03",
-      "task": "Greystones: mandar el WhatsApp a Patrick",
-      "nota": "Enviado. A la espera de respuesta"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Calentar el dominio",
-      "nota": "Enviados 2, los dos en bandeja principal. Joel decide no mandar el tercero"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "URGENTE: pasarme la dirección postal",
-      "nota": "Recibida. Ya está en los correos a EEUU"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Decirme si Gonzalo Lamas",
-      "nota": "Sí la tiene. Se retoma el 9/11"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Patrick: contestarle",
-      "nota": "Enviado. A la espera de que apruebe el texto"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Omar: contestarle",
-      "nota": "Enviado. Faltan notas e inglés"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "David: pasarle",
-      "nota": "Enviado. Valoración pedida para el 9/11"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "LinkedIn: conectar con Luke Johnston",
-      "nota": "Solicitud con nota enviada"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Programar en Apple Mail los envíos del jueves 05/11",
-      "nota": "Programados los atrasados para el jueves. St Kevin's por confirmar"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "Bloque de redes sociales (45 min)",
-      "estado": "Saltado",
-      "nota": "Sin tiempo hoy. Sigue el bloque del sábado 7/11"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "LinkedIn: conectar con Dan Lester",
-      "nota": "Solicitud con nota enviada"
-    },
-    {
-      "date": "2026-11-04",
-      "task": "LinkedIn: conectar con Callum Lawe",
-      "nota": "Solicitud enviada; Joel acortó la nota por el límite de 200 caracteres"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Revisión diaria",
-      "nota": "Respondió Home Farm y Omar. Patrick lo ha leído."
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Mirar que salieron los correos de hoy",
-      "nota": "9 de 10, sin rebotes. Los 3 últimos salieron a las 9:40, al abrir el Mac. St Kevin's no salió y va al 6/11"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Home Farm: contestar",
-      "nota": "Enviado con company deck y fichas de Team y Coach Experience"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Omar: pedirle las notas",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "David: pasarle los datos",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Programar en Apple Mail los envíos del viernes 06/11",
-      "nota": "St Kevin's programado"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Confirmar que salieron los correos de hoy",
-      "nota": "Ver la fila siguiente"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "David: contestarle sobre la valoración",
-      "nota": "Joel le dijo que vio los vídeos (esperaba más nivel por jugar en el Dallas) y que pasa a la familia el rango de precios del primer año"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Enrique: mandarle las 5 preguntas",
-      "nota": "Contestó: precio por cerrar; un solo jugador sin grupo, complicado; como pronto 2027/28; club asociado entrenando en Zubieta con entrenadores de la Real; comisión por definir"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Omar: mandarle la valoración",
-      "nota": "Enviado con propuesta de llamada lunes o martes"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "William (Francia, 19 años): contestar",
-      "nota": "Enviado el texto acordado con Enrique"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Caso PR: crear la carpeta de Drive",
-      "nota": "Creada. Naiara sube hoy lo del Metropolitano"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "ENVIAR",
-      "nota": "Salió (registrado en Enviados)"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Omar: fijar la hora",
-      "nota": "Martes 10/11 por la tarde"
-    },
-    {
-      "date": "2026-11-05",
-      "task": "Itrupo",
-      "nota": "Decisión de Joel: de momento no se contesta"
-    },
-    {
-      "date": "2026-11-06",
-      "task": "ENVIAR",
-      "nota": "Salió. Aparece 4 veces en Enviados (por confirmar)"
-    },
-    {
-      "date": "2026-11-06",
-      "task": "Revisión diaria",
-      "nota": "Hecho"
-    },
-    {
-      "date": "2026-11-06",
-      "task": "Confirmar que salieron",
-      "nota": "Salió St Kevin's, sin rebotes"
-    },
-    {
-      "date": "2026-11-07",
-      "task": "Bloque de redes",
-      "estado": "Saltado",
-      "nota": "Sin tiempo. Esta semana Joel avanza con su plan de agentes de redes"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Revisión diaria",
-      "nota": "Hecho"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Gonzalo Lamas",
-      "nota": "Enviado. A la espera de que conteste"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "LLAMADA con Enrique",
-      "nota": "Hecha. Resumen y recomendación en 00-company/llamada-enrique-2026-11-09.md"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Preparar la llamada con Omar",
-      "nota": "David: por jugador y año, normalmente todo incluido (universidad, alojamiento y comida)"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Caso PR: mandar a Enrique los cambios del Anexo",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Caso PR: mandar a Enrique los mensajes 1 y 2",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Becas: un último mensaje",
-      "nota": "Pavel: sí, llamada esta semana. Tania: no. Gonzalo Caro: cuenta equivocada. Francisco y Anita: sin respuesta"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Richard Clarke",
-      "nota": "Mensaje enviado"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "LinkedIn: conectar con Ken Donohoe",
-      "estado": "Saltado",
-      "nota": "Su perfil no dice St Kevin's: no se conecta"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Programar en Apple Mail los envíos del martes",
-      "nota": "Bollington y Cedar Stars programados. Akranes y Maidstone, enviados a mano esta noche"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "ENVIAR follow-up 1 a IA Akranes",
-      "nota": "Enviado a mano el 9/11 por la noche"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "ENVIAR follow-up 1 a Maidstone",
-      "nota": "Enviado a mano el 9/11 por la noche"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Formulario web: Cramond",
-      "estado": "Saltado",
-      "nota": "No hay formulario usable ni correo público (el de la web pide cuenta). Se deja"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Formulario web: NY Empire",
-      "estado": "Saltado",
-      "nota": "El formulario es para eventos y no admite mensaje. Pasa a LinkedIn (Rob Mannino)"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Caso PR: revisar lo que Naiara suba",
-      "nota": "Fotos revisadas a tamaño completo; de los vídeos, el primer fotograma. Detalle en 04-marketing/caso-jugador-puerto-rico-nov-2026.md"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Enrique: mandarle lo que añadimos",
-      "nota": "Enviado. Su respuesta, en 00-company/reuniones-enrique-semana-2026-11-09.md"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Pavel: proponerle",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Tania y Gonzalo Caro",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Confirmar que salieron los correos de hoy",
-      "nota": "Bollington y Cedar Stars salieron. Sin rebotes"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "ENVIAR email 1 a Bollington",
-      "nota": "Salió a su hora"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "ENVIAR email 1 a Cedar Stars",
-      "nota": "Salió a las 9:30"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "LinkedIn: conectar con Rob Mannino",
-      "nota": "No aparece. Conectado con Tyler Botte (EDP North Atlantic League Director)"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Caso PR: descargar la carpeta",
-      "estado": "Saltado",
-      "nota": "No hace falta: Joel ve los clips al montar P1 (18/11) y Claude revisa el borrador"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con David Spruce",
-      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Phil Swenda",
-      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Rob Mannino",
-      "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "LinkedIn: conectar con Jeff Oleck",
-      "nota": "Hecho por Claude el 10/11 (3 personas)"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "LinkedIn: conectar con Iain Scott",
-      "nota": "Hecho por Claude el 10/11 (Iain Scott y Martyn Keen)"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "LLAMADA con Omar",
-      "nota": "Hecha. Deciden en diciembre, cuando acabe el semestre"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Programar en Apple Mail los envíos del miércoles",
-      "nota": "Carrigaline, Colorado Rapids, Keadue, NJ14 y Seacoast programados"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Omar: mensaje después de la llamada",
-      "nota": "Enviado"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "Confirmar que salieron los correos de hoy",
-      "nota": "Salieron los 4 programados por Joel. NJ14 no (el turno automático falló)"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Jerry Losson",
-      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Matt Hardiman",
-      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Christian Gonzalez",
-      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-17",
-      "task": "LinkedIn: conectar con Reece Hands",
-      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-17",
-      "task": "LinkedIn: conectar con Derek Biss",
-      "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "LinkedIn: conectar con Mo Hijazi",
-      "estado": "Hecho",
-      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "LinkedIn: conectar con Thiago Oliveira",
-      "estado": "Hecho",
-      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "LinkedIn: conectar con Federico Bianchi",
-      "estado": "Hecho",
-      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "LinkedIn: conectar con Ryan Youngblood",
-      "estado": "Hecho",
-      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "LinkedIn: conectar con Mani Salimpour",
-      "estado": "Hecho",
-      "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LinkedIn: conectar con Jose Luis Rebay",
-      "estado": "Saltado",
-      "nota": "No encontrado en LinkedIn. 18/11: el único perfil es un entrenador de Bay Shore (NY) que no menciona Downtown United. No se conecta"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "LinkedIn: conectar con Jeff Zaun",
-      "estado": "Saltado",
-      "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "LinkedIn: conectar con Matt Mueller",
-      "estado": "Saltado",
-      "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "LinkedIn: conectar con Steve Trittschuh",
-      "estado": "Saltado",
-      "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
-    },
-    {
-      "date": "2026-11-17",
-      "task": "LinkedIn: conectar con Fernando Gonzalez",
-      "estado": "Saltado",
-      "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "Revisión diaria",
-      "nota": "Turno relanzado a las 12:45: bandeja, LinkedIn (7 conexiones), 3 universidades al generador, informe 2026-11-18.md"
-    },
-    {
-      "date": "2026-11-19",
-      "task": "Revisión diaria",
-      "nota": "Turno de las 7:30: David Spruce (Bollington) contesta 'Shared' (borrador en Mail), mensaje aprobado a Bill Moravek (Bethesda), 6 conexiones, informe 2026-11-19.md"
-    },
-    {
-      "date": "2026-11-20",
-      "task": "Revisión diaria",
-      "nota": "Turno de las 7:30: bandeja sin respuestas ni rebotes, mensaje a Shawn Burke y Pedro Sousa, Khalil Lazrek contesta (abre club en Orlando), tanda 3 de universidades (Ithaca, Clemson, Trine), informe semanal. Conexiones no hechas: el diálogo de LinkedIn no se abría con el panel oculto"
-    },
-    {
-      "date": "2026-11-21",
-      "task": "Revisión diaria",
-      "nota": "Turno de las 7:30 (sábado): rebote de Ballistic confirmado, nuevo decisor Brady Taylor (reenvío pendiente de OK); LinkedIn sin respuestas nuevas; conexiones no hechas (panel oculto); convención de United Soccer Coaches 2027 investigada (02-sales/eventos-2027.md); informe 2026-11-21.md"
-    },
-    {
-      "date": "2026-11-08",
-      "task": "Programar en Apple Mail los envíos del lunes",
-      "estado": "Saltado",
-      "nota": "22/11: los del 9/11 salieron a mano esa noche"
-    },
-    {
-      "date": "2026-11-09",
-      "task": "Confirmar que salieron",
-      "estado": "Hecho",
-      "nota": "22/11: comprobado (envíos del 9/11 en el registro)"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Enrique: cómo fue Donosti",
-      "estado": "Hecho",
-      "nota": "Resultado en 00-company/reuniones-enrique-semana-2026-11-09.md"
-    },
-    {
-      "date": "2026-11-10",
-      "task": "Enrique: hablar del precio del showcase",
-      "estado": "Hecho",
-      "nota": "Hablado en la misma conversación de Donosti"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "Revisión diaria",
-      "estado": "Hecho",
-      "nota": "Turno de Claude"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "Revisión diaria",
-      "estado": "Hecho",
-      "nota": "Turno de Claude"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "Revisión diaria",
-      "estado": "Hecho",
-      "nota": "Turno de Claude"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "Revisión diaria",
-      "estado": "Hecho",
-      "nota": "Turno de Claude"
-    },
-    {
-      "date": "2026-11-17",
-      "task": "Revisión diaria",
-      "estado": "Hecho",
-      "nota": "Turno de Claude, informe 2026-11-17.md"
-    },
-    {
-      "date": "2026-11-17",
-      "task": "Confirmar que salieron",
-      "estado": "Hecho",
-      "nota": "Turno: NJ14 y NYSC enviados por Claude"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "Confirmar que salieron",
-      "estado": "Hecho",
-      "nota": "Turno: comprobado"
-    },
-    {
-      "date": "2026-11-19",
-      "task": "Confirmar que salieron",
-      "estado": "Hecho",
-      "nota": "Turno: comprobado"
-    },
-    {
-      "date": "2026-11-20",
-      "task": "Confirmar que salieron",
-      "estado": "Hecho",
-      "nota": "Turno: comprobado; rebote de Ballistic"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "Redes: avanzar tu plan",
-      "estado": "Hecho",
-      "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
-    },
-    {
-      "date": "2026-11-14",
-      "task": "Redes: avanzar tu plan",
-      "estado": "Hecho",
-      "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "Bloque de redes sociales",
-      "estado": "Hecho",
-      "nota": "22/11: lo lleva el Content Studio"
-    },
-    {
-      "date": "2026-11-21",
-      "task": "Bloque de redes sociales",
-      "estado": "Hecho",
-      "nota": "22/11: lo lleva el Content Studio"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "Pavel: decidir el precio",
-      "estado": "Hecho",
-      "nota": "Precio decidido el 17/11 (guion de Pavel)"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "Revisión semanal",
-      "estado": "Hecho",
-      "nota": "Informes del turno"
-    },
-    {
-      "date": "2026-11-20",
-      "task": "Revisión semanal",
-      "estado": "Hecho",
-      "nota": "Informe semanal del 20/11"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "Actualizar el CRM",
-      "estado": "Hecho",
-      "nota": "Lo actualiza el turno de Claude"
-    },
-    {
-      "date": "2026-11-20",
-      "task": "Actualizar el CRM",
-      "estado": "Hecho",
-      "nota": "Lo actualiza el turno de Claude"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "Greystones 2027: decidir con Enrique",
-      "estado": "Hecho",
-      "nota": "19/11: Enrique les escribe primero para sondear 2027; la propuesta espera a las tarifas"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "Revisión del mes con Claude",
-      "estado": "Saltado",
-      "nota": "22/11: sustituida por el objetivo común (19/11) y el tablero de campañas (20/11)"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "Piloto: 5 mensajes",
-      "estado": "Saltado",
-      "nota": "22/11: pasa a la campaña de becas (mensaje de referidos de entrenadores)"
-    },
-    {
-      "date": "2026-11-19",
-      "task": "Home Farm: preguntar",
-      "estado": "Saltado",
-      "nota": "22/11: pasa al 25/11, último intento con la llamada de 15 minutos"
-    },
-    {
-      "date": "2026-11-20",
-      "task": "Opcional: DM",
-      "estado": "Saltado",
-      "nota": "Opcional, no hecho"
-    },
-    {
-      "date": "2026-11-21",
-      "task": "Opcional: DM",
-      "estado": "Saltado",
-      "nota": "Opcional, no hecho"
-    },
-    {
-      "date": "2026-11-11",
-      "task": "Web realsociedadirp.com",
-      "estado": "Saltado",
-      "nota": "Joel 22/11: no se hizo. Pasa al 26/11"
-    },
-    {
-      "date": "2026-11-12",
-      "task": "LLAMADA con Pavel",
-      "estado": "Saltado",
-      "nota": "Joel 22/11: la llamada no se hizo. Pavel entra en la reactivación de becas"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "Caso PR: confirmar la fecha",
-      "estado": "Hecho",
-      "nota": "Entrevista final: Enrique, martes 24/11"
-    },
-    {
-      "date": "2026-11-13",
-      "task": "Enrique: resultado de las reuniones",
-      "estado": "Hecho",
-      "nota": "Joel ya lo contó en el chat"
-    },
-    {
-      "date": "2026-11-16",
-      "task": "Patrick: si no ha contestado",
-      "estado": "Saltado",
-      "nota": "Patrick dejó en visto el borrador del testimonio. No insiste Joel: lo retoma Enrique el 23/11"
-    },
-    {
-      "date": "2026-11-18",
-      "task": "Caso PR: montar P1",
-      "estado": "Saltado",
-      "nota": "El contenido lo lleva el Content Studio (Always Up HQ)"
-    },
-    {
-      "date": "2026-11-22",
-      "task": "Ballistic United: decir",
-      "estado": "Hecho",
-      "nota": "OK de Joel el 22/11. Brady Taylor en la cola: primer correo el 1/12 (primer hueco libre)"
-    },
-    {
-      "date": "2026-11-22",
-      "task": "Pegar el brief del CEO",
-      "estado": "Saltado",
-      "nota": "Sustituido por el mensaje actualizado del 23/11"
-    }
-  ],
-  "textos": [
-    {
-      "club": "Networking",
-      "to": "Richard Clarke",
-      "date": "2026-11-03"
-    },
-    {
-      "club": "Hastings United (Girls Academy)",
-      "to": "Georgia Townsend",
-      "nota": "4/11: Joel la sigue. La conexión se retiró sin querer y LinkedIn obliga a esperar 3 semanas. Reintentar desde el 26/11."
-    },
-    {
-      "club": "Whitehaven AFC (Juniors Girls U13-U15)",
-      "to": "Luke Johnston",
-      "date": "2026-11-04",
-      "nota": "Solicitud con nota enviada el 4/11. Sigue de Chairman and Director (su perfil de LinkedIn, leído el 4/11)."
-    },
-    {
-      "club": "Holbeach United (Dan Lester)",
-      "to": "Dan Lester",
-      "date": "2026-11-04"
-    },
-    {
-      "club": "Holbeach United (Dan Lester)",
-      "to": "Callum Lawe",
-      "date": "2026-11-04",
-      "nota": "Joel acortó la nota por el límite de 200 caracteres."
-    },
-    {
-      "club": "Networking",
-      "to": "Richard Clarke",
-      "date": "2026-11-03",
-      "nota": "Aceptó la conexión el 4/11."
-    },
-    {
-      "club": "St Kevin's FC (Dublín)",
-      "to": "admin@skbfc.com",
-      "nota": "En Enviados aparece 4 veces (pendiente de confirmar si salieron 4 copias). Follow-up retrasado al 25/11."
-    },
-    {
-      "club": "St Kevin's FC (Dublín)",
-      "to": "Ken Donohoe",
-      "nota": "9/11: el perfil no dice St Kevin's. No se conecta."
-    },
-    {
-      "club": "Bollington United FC",
-      "to": "David Spruce",
-      "date": "2026-11-10",
-      "nota": "10/11: conexión enviada sin nota. Cuando acepte, mensaje de la columna F."
-    },
-    {
-      "club": "Cedar Stars Academy",
-      "to": "Phil Swenda",
-      "date": "2026-11-10",
-      "nota": "Phil no aparece. 10/11: conectado sin nota con Christian Henry (Director of Coaching), John Saverio Antunes (Head Coach U16 MLS NEXT) y Lautaro Sosa Mendoza (Girls Head Coach). También Juan Santamaria (VP & Sporting Director). Christian Henry ACEPTÓ el 10/11. Mensaje a Christian enviado por Claude el 10/11 a las 16:22."
-    },
-    {
-      "club": "NY Empire FC",
-      "to": "Rob Mannino",
-      "date": "2026-11-10",
-      "nota": "Rob no aparece. 10/11: conectado con Tyler Botte (EDP North Atlantic League Director, NY Club Soccer). Es una liga, no el club: puede abrir la puerta a muchos clubes."
-    },
-    {
-      "club": "Colorado Rapids Youth Soccer",
-      "to": "Jeff Oleck",
-      "date": "2026-11-10",
-      "nota": "10/11 (Claude, desde el perfil de Joel): Jeff Oleck (Director of International Travel), Danny Bills (Chief Sporting Director, Colorado Storm) y Maximilian Poland (11U-14U Boys Director). Sin nota."
-    },
-    {
-      "club": "Seacoast United",
-      "to": "Iain Scott",
-      "date": "2026-11-10",
-      "nota": "10/11 (Claude): Iain Scott (Director of Soccer Operations) y Martyn Keen (Director of Coaching, Maine). Sin nota."
-    },
-    {
-      "club": "Holbeach United",
-      "to": "Dan Lester",
-      "date": "2026-11-10",
-      "nota": "La invitación del 4/11 no estaba pendiente ni aceptada. Reenviada sin nota el 10/11."
-    },
-    {
-      "club": "Colorado Rapids Youth Soccer",
-      "to": "Jeff Oleck",
-      "nota": "10/11: Maximilian Poland aceptó y Claude le mandó el mensaje. Jeff y Danny pendientes."
-    },
-    {
-      "club": "Networking",
-      "to": "LinkedIn 10/11",
-      "nota": "Mensajes de Claude (aprobados por Joel): Jordan Salamido (Dakota Alliance, Team Experience), Ashley Holmes (Florida Southern), Danny Owens (Southern Miss) y Yannis Sapim (Saint Leo) sobre giras universitarias; Roberto Fonseca (agente, Magic Players) sobre pruebas; Jan-Henry Schäfer sobre pruebas."
-    },
-    {
-      "club": "Networking",
-      "to": "Jordan Salamido",
-      "nota": "15/11: no viajan en 2028; quizá en 2029. Volver a escribir a mediados de 2028."
-    },
-    {
-      "club": "NY Empire FC",
-      "to": "Rob Mannino",
-      "nota": "Tyler Botte aceptó el 15/11. Mensaje pendiente del OK de Joel."
-    },
-    {
-      "club": "Bollington United FC",
-      "to": "David Spruce",
-      "nota": "Aceptó el 11/11. Mensaje pendiente (el envío del 17/11 no cargó)."
-    },
-    {
-      "club": "Bollington United FC",
-      "to": "David Spruce",
-      "nota": "17/11: mensaje de LinkedIn enviado por Claude."
-    },
-    {
-      "club": "NY Empire FC",
-      "to": "Rob Mannino",
-      "nota": "17/11: mensaje a Tyler Botte enviado por Claude (pedirle consejo y que presente clubes de EDP)."
-    },
-    {
-      "club": "Networking",
-      "to": "Jordan Salamido",
-      "nota": "17/11: respuesta de agradecimiento enviada; ofrecido un resumen para 2029."
-    },
-    {
-      "club": "Seacoast United",
-      "to": "iscott@seacoastunited.com",
-      "nota": "17/11: respuesta a Iain enviada (WorldStrides como posible socio)."
-    },
-    {
-      "club": "Bethesda Soccer Club",
-      "to": "Derek Biss",
-      "nota": "17/11: conectado sin nota. También William (Bill) Moravek, Sporting Director (2º grado, perfil comprobado). Bill organiza el European Academy Camp con técnicos de Fulham, PSV, Mónaco y KNVB: gancho para el mensaje si acepta."
-    },
-    {
-      "club": "Carrigaline United AFC",
-      "to": "Joe Giltinan",
-      "nota": "17/11: el contacto correcto se escribe Giltinan (Honorary Chairman), correo en carrigaline.clubzap.com/pages/management-committee-members-24-25. Otro posible: Mark Manning (Head of Male Football). Texto nuevo pendiente del OK de Joel."
-    },
-    {
-      "club": "Networking",
-      "to": "Cadyn Bittner",
-      "nota": "Aceptó el 16/11. Estudiante de Mount Aloysius College, no es prospecto: sin mensaje."
-    },
-    {
-      "club": "Carrigaline United AFC",
-      "to": "Joe Giltinan",
-      "nota": "17/11: Joel aprueba el correo (\"OK Carrigaline\"). En el generador como carrigalinejoe, sale el 24/11 a las 4:30 (NY) con la sesión de envíos. Única edición: \"last week\" pasa a \"earlier this month\" por la fecha."
-    },
-    {
-      "club": "Bollington United FC",
-      "to": "David Spruce",
-      "nota": "17/11: contesta por LinkedIn 'If you send us a poster/website I can forward on'. Se paran los follow-ups automáticos. Pendiente: respuesta con web y PDF (OK de Joel)."
-    },
-    {
-      "club": "Networking",
-      "to": "Marcos Landivar",
-      "nota": "Aceptó el 17/11. Compañero de Joel en Mercy (D2), scout. Posible prescriptor de becas y del programa de 12 días: mensaje propuesto en el informe del 18/11, pendiente del OK de Joel."
-    },
-    {
-      "club": "University at Buffalo (Women's Soccer)",
-      "to": "Shawn Burke",
-      "date": "2026-11-18",
-      "nota": "18/11: conexión sin nota (perfil: Head Women's Soccer Coach at University at Buffalo). Si acepta, el mensaje de clubes no sirve: texto propio pendiente del OK de Joel."
-    },
-    {
-      "club": "Northeastern University (Women's Soccer)",
-      "to": "Ashley Phillips",
-      "date": "2026-11-18",
-      "nota": "18/11: conexión sin nota (perfil: Northeastern University Head Women's Soccer Coach, desde 2016). Si acepta, texto propio pendiente del OK de Joel."
-    },
-    {
-      "club": "Networking",
-      "to": "Brandon Levine",
-      "nota": "18/11: aparece una invitación enviada hace 2 horas a Brandon Levine (Head Men's Soccer Coach, Felician University) que no mandó el turno. Confirmar con Joel."
-    },
-    {
-      "club": "Networking",
-      "to": "Brandon Levine",
-      "nota": "Aceptó el 19/11. Entrenador universitario: el mensaje de clubes no sirve. Usar el de entrenadores universitarios cuando Joel lo apruebe."
-    },
-    {
-      "club": "Bollington United FC",
-      "to": "chair@bollingtonunited.co.uk",
-      "nota": "18/11 (18:17): David contesta por correo 'Shared' (ha pasado el deck y la ficha a los equipos). 19/11: borrador de agradecimiento en Mail, sin enviar."
-    },
-    {
-      "club": "Bethesda Soccer Club",
-      "to": "William (Bill) Moravek",
-      "date": "2026-11-19",
-      "nota": "Aceptó el 18/11 (Sporting Director, perfil comprobado). 19/11 a las 7:44: mensaje aprobado de la columna F enviado por Claude."
-    },
-    {
-      "club": "Networking",
-      "to": "Khalil Lazrek",
-      "nota": "Aceptó el 18/11 (Soccer Coach, Orlando City soccer academy). No estaba en nuestras listas: ¿lo invitó Joel? Mensaje propuesto en el informe del 19/11."
-    },
-    {
-      "club": "Networking",
-      "to": "Reyan Imler",
-      "nota": "Aceptó el 18/11. Exalumno de Mount Aloysius, estudiante de fisioterapia: no es prospecto, sin mensaje."
-    },
-    {
-      "club": "Southern Connecticut State University (Women's Soccer)",
-      "to": "Adam Cohen",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (perfil: Head Women's Soccer Coach at Southern CT State University). Correo 1 sale el 1/12."
-    },
-    {
-      "club": "Sockers FC Chicago",
-      "to": "Oleg Vatchev",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (Director Coach Education/Methodology, Sockers FC). Buen contacto para Coach Experience. Correo 1 del club sale el 9/12."
-    },
-    {
-      "club": "Chicago FC United",
-      "to": "Jeff DeGroot",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (MLS Next Academy Director, Chicago FC United). Correo 1 del club sale el 10/12."
-    },
-    {
-      "club": "Wake Forest University (Women's Soccer)",
-      "to": "Tony Daluz",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (Head Womens Soccer Coach at Wake Forest). Gira por España en febrero de 2023 con Navigo Sports Tours."
-    },
-    {
-      "club": "Essex County College (Men's Soccer)",
-      "to": "Pedro Sousa",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (Head Men's Soccer Coach, Essex County College, NJ, UEFA B). JUCO: sirve para giras y para becas."
-    },
-    {
-      "club": "Middlesex College (Soccer)",
-      "to": "Javier Velasco",
-      "date": "2026-11-19",
-      "nota": "19/11: conexión sin nota (Head Men and Women's Soccer Coach, Middlesex College, NJ). JUCO: sirve para giras y para becas."
-    },
-    {
-      "club": "University at Buffalo (Women's Soccer)",
-      "to": "Shawn Burke",
-      "nota": "Aceptó el 19/11. 20/11 a las 7:38: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
-    },
-    {
-      "club": "Essex County College (Men's Soccer)",
-      "to": "Pedro Sousa",
-      "nota": "Aceptó el 19/11. 20/11 a las 7:39: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
-    },
-    {
-      "club": "Networking",
-      "to": "Khalil Lazrek",
-      "nota": "19/11: contesta 'I'll be starting a soccer club in orlando next season!'. Respuesta propuesta en el informe del 20/11 (Team y Coach Experience), pendiente del OK de Joel."
-    },
-    {
-      "club": "Networking",
-      "to": "Khalil Lazrek",
-      "nota": "20/11 a las 9:21: respuesta B enviada por LinkedIn con el OK de Joel. Sin contestación a 21/11."
-    },
-    {
-      "club": "Networking",
-      "to": "Iago Rimoldi Renda",
-      "nota": "Aceptó el 20/11. Estudiante de marketing, no es prospecto: sin mensaje."
-    },
-    {
-      "club": "Eastern Pennsylvania Youth Soccer",
-      "to": "Gary Stephenson",
-      "nota": "21/11: perfil comprobado (Assistant Technical Director, EPYSA), pero la invitación NO salió: con el panel del navegador oculto LinkedIn no abre el diálogo. Reintentar con el panel visible."
-    }
-  ],
-  "clubes": [
-    [
-      "Home Farm FC (chicas U13-U15)",
-      "Respondió",
-      "5/11: tras el follow-up contesta 'No, it was sent to Coaches direct for them to have a look at it'. Sin más cadencia automática. Preguntar el 19/11 si no contestan."
-    ]
+ "_nota": "Registro de lo que ha ocurrido de verdad (envíos y tareas hechas). El script lo aplica al Excel en cada ejecución, así el estado no depende de qué versión del archivo tenga abierta Joel. Se actualiza con lo que Joel cuenta en el chat.",
+ "envios": [
+  {
+   "key": "homefarm",
+   "kind": "Email 1",
+   "date": "2026-10-13"
+  },
+  {
+   "key": "hastings",
+   "kind": "Email 1",
+   "date": "2026-10-13"
+  },
+  {
+   "key": "soreide",
+   "kind": "Email 1",
+   "date": "2026-10-14",
+   "nota": "Enviado a mano 14/10 (8:34). El primer intento del 13/10 rebotó."
+  },
+  {
+   "key": "holbeach",
+   "kind": "Email 1",
+   "date": "2026-10-14",
+   "nota": "Salió programado 14/10 (4:41), posible duplicado. Callum Lawe ya no está en el club."
+  },
+  {
+   "key": "maidstone",
+   "kind": "Email 1",
+   "date": "2026-10-15"
+  },
+  {
+   "key": "whitehaven",
+   "kind": "Email 1",
+   "date": "2026-10-15"
+  },
+  {
+   "key": "akranes",
+   "kind": "Email 1",
+   "date": "2026-10-15"
+  },
+  {
+   "key": "ballymun",
+   "kind": "Email 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "porte",
+   "kind": "Email 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "ross",
+   "kind": "Email 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "soreide",
+   "kind": "Follow-up 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "whitehaven",
+   "kind": "Follow-up 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "hastings",
+   "kind": "Follow-up 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "homefarm",
+   "kind": "Follow-up 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "holbeach_dan",
+   "kind": "Email 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "virtu",
+   "kind": "Email 1",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "stkevins",
+   "kind": "Email 1",
+   "date": "2026-11-06"
+  },
+  {
+   "key": "akranes",
+   "kind": "Follow-up 1",
+   "date": "2026-11-09",
+   "nota": "Enviado a mano el 9/11 por la noche"
+  },
+  {
+   "key": "maidstone",
+   "kind": "Follow-up 1",
+   "date": "2026-11-09",
+   "nota": "Enviado a mano el 9/11 por la noche"
+  },
+  {
+   "key": "bollington",
+   "kind": "Email 1",
+   "date": "2026-11-10",
+   "nota": "Salió a su hora (comprobado por Joel)"
+  },
+  {
+   "key": "cedar",
+   "kind": "Email 1",
+   "date": "2026-11-10",
+   "nota": "Salió a las 9:30 (comprobado por Joel)"
+  },
+  {
+   "key": "colorado",
+   "kind": "Email 1",
+   "date": "2026-11-10",
+   "nota": "Programado por Joel; salió el 10/11 a las 23:34 (antes de tiempo)"
+  },
+  {
+   "key": "carrigaline",
+   "kind": "Email 1",
+   "date": "2026-11-11",
+   "nota": "Programado por Joel; salió dos veces (4:33 y 5:45). Respuesta automática: correo no vigilado, contactar con Joe Giltenan"
+  },
+  {
+   "key": "keadue",
+   "kind": "Email 1",
+   "date": "2026-11-11",
+   "nota": "Programado por Joel"
+  },
+  {
+   "key": "seacoast",
+   "kind": "Email 1",
+   "date": "2026-11-11",
+   "nota": "Programado por Joel. Iain Scott contestó el 11/11: viajan solo con WorldStrides Sports"
+  },
+  {
+   "key": "nj14",
+   "kind": "Email 1",
+   "date": "2026-11-17",
+   "nota": "Enviado por Claude a las 13:14"
+  },
+  {
+   "key": "nysc",
+   "kind": "Email 1",
+   "date": "2026-11-17",
+   "nota": "Enviado por Claude a las 13:14"
+  },
+  {
+   "key": "cedar",
+   "kind": "Follow-up 1",
+   "date": "2026-11-18",
+   "nota": "Enviado por Claude a las 09:34"
+  },
+  {
+   "key": "colorado",
+   "kind": "Follow-up 1",
+   "date": "2026-11-18",
+   "nota": "Enviado por Claude a las 09:34"
+  },
+  {
+   "key": "ballymun",
+   "kind": "Follow-up 1",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "porte",
+   "kind": "Follow-up 1",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "hastings",
+   "kind": "Follow-up 2",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "holbeach_dan",
+   "kind": "Follow-up 1",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "akranes",
+   "kind": "Follow-up 2",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "keadue",
+   "kind": "Follow-up 1",
+   "date": "2026-11-19",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "maidstone",
+   "kind": "Follow-up 2",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 05:42"
+  },
+  {
+   "key": "ross",
+   "kind": "Follow-up 1",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 05:42"
+  },
+  {
+   "key": "soreide",
+   "kind": "Follow-up 2",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 09:10"
+  },
+  {
+   "key": "virtu",
+   "kind": "Follow-up 1",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 09:11"
+  },
+  {
+   "key": "whitehaven",
+   "kind": "Follow-up 2",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 09:12"
+  },
+  {
+   "key": "ballistic",
+   "kind": "Email 1",
+   "date": "2026-11-20",
+   "nota": "Enviado por Claude a las 09:34. REBOTE probable: MAILER-DAEMON@mailchannels.net 'Undelivered Mail Returned to Sender' a las 09:35 (1 minuto despues). Comprobar en Mail a que direccion corresponde y buscar otro correo de Jerry Losson / Ballistic United. 21/11: REBOTE CONFIRMADO (jerrylosson@busc.org, cuenta inactiva; Jerry Losson ya no aparece en busc.org). Ballistic en PARADOS. Nuevo decisor comprobado en busc.org/about/directory: Brady Taylor (Director of Player Development & Coaching Education), bradytaylor@busc.org. Reenvío pendiente del OK de Joel"
+  },
+  {
+   "key": "carrigalinejoe",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "dalkey",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 04:34"
+  },
+  {
+   "key": "letterkenny",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 04:36"
+  },
+  {
+   "key": "bethesda",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:34"
+  },
+  {
+   "key": "cincyunited",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:35"
+  },
+  {
+   "key": "dusc",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:36"
+  },
+  {
+   "key": "ifa",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:37"
+  },
+  {
+   "key": "nj14",
+   "kind": "Follow-up 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:38"
+  },
+  {
+   "key": "nysc",
+   "kind": "Follow-up 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:39"
+  },
+  {
+   "key": "unitedpdx",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:39"
+  },
+  {
+   "key": "wisconsin",
+   "kind": "Email 1",
+   "date": "2026-11-23",
+   "nota": "Enviado por Claude a las 09:40"
+  }
+ ],
+ "tareas": [
+  {
+   "date": "2026-10-13",
+   "task": "Revisión diaria",
+   "nota": "Hecho"
+  },
+  {
+   "date": "2026-10-13",
+   "task": "Omar: anotado",
+   "nota": "Hecho"
+  },
+  {
+   "date": "2026-10-13",
+   "task": "Prueba de entregabilidad",
+   "nota": "SPF, DKIM y DMARC en PASS; llegó a bandeja de Gmail"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Revisión diaria",
+   "nota": "Hecho"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "ENVIAR email 1 a Søreide",
+   "nota": "Enviado a mano 14/10 (8:34)"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "ENVIAR email 1 a Holbeach",
+   "nota": "Salió programado 14/10 (4:41)"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Confirmar que salieron",
+   "nota": "Revisado"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Comprobar si Søreide y Holbeach",
+   "nota": "Søreide 1 envío; Holbeach 2 o 3"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Opcional: pruebas de envío programado",
+   "nota": "Sale con Mail cerrado y Mac en reposo"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Prueba de spam con Microsoft",
+   "nota": "3 cuentas Outlook: todas en bandeja principal"
+  },
+  {
+   "date": "2026-10-14",
+   "task": "Daniel (MLS NEXT): enviar el follow-up",
+   "nota": "Enviado el 14/10"
+  },
+  {
+   "date": "2026-10-15",
+   "task": "ENVIAR email 1 a",
+   "nota": "Programado y enviado; copia CCO recibida"
+  },
+  {
+   "date": "2026-10-15",
+   "task": "Revisión diaria",
+   "nota": "Sin novedades"
+  },
+  {
+   "date": "2026-10-15",
+   "task": "Confirmar que salieron",
+   "nota": "Salieron (INBOX.Sent), sin rebotes"
+  },
+  {
+   "date": "2026-10-15",
+   "task": "Darme tu feedback sobre la ficha de Becas",
+   "nota": "Versión 3 aprobada como ficha oficial"
+  },
+  {
+   "date": "2026-10-16",
+   "task": "Revisión diaria",
+   "nota": "Sin novedades"
+  },
+  {
+   "date": "2026-10-16",
+   "task": "Revisión semanal 1",
+   "nota": "Sin respuestas ni rebotes en la primera semana"
+  },
+  {
+   "date": "2026-10-16",
+   "task": "Actualizar el CRM",
+   "nota": "CRM actualizado el 19/10"
+  },
+  {
+   "date": "2026-10-19",
+   "task": "Revisión diaria",
+   "nota": "Sin novedades"
+  },
+  {
+   "date": "2026-10-20",
+   "task": "Consultar con la oficina internacional",
+   "nota": "Ya consultado: sin problema con el F-1"
+  },
+  {
+   "date": "2026-11-03",
+   "task": "LinkedIn: conectar con Richard Clarke",
+   "nota": "Solicitud enviada con nota"
+  },
+  {
+   "date": "2026-11-03",
+   "task": "Greystones: mandar el WhatsApp a Patrick",
+   "nota": "Enviado. A la espera de respuesta"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Calentar el dominio",
+   "nota": "Enviados 2, los dos en bandeja principal. Joel decide no mandar el tercero"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "URGENTE: pasarme la dirección postal",
+   "nota": "Recibida. Ya está en los correos a EEUU"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Decirme si Gonzalo Lamas",
+   "nota": "Sí la tiene. Se retoma el 9/11"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Patrick: contestarle",
+   "nota": "Enviado. A la espera de que apruebe el texto"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Omar: contestarle",
+   "nota": "Enviado. Faltan notas e inglés"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "David: pasarle",
+   "nota": "Enviado. Valoración pedida para el 9/11"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "LinkedIn: conectar con Luke Johnston",
+   "nota": "Solicitud con nota enviada"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Programar en Apple Mail los envíos del jueves 05/11",
+   "nota": "Programados los atrasados para el jueves. St Kevin's por confirmar"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "Bloque de redes sociales (45 min)",
+   "estado": "Saltado",
+   "nota": "Sin tiempo hoy. Sigue el bloque del sábado 7/11"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "LinkedIn: conectar con Dan Lester",
+   "nota": "Solicitud con nota enviada"
+  },
+  {
+   "date": "2026-11-04",
+   "task": "LinkedIn: conectar con Callum Lawe",
+   "nota": "Solicitud enviada; Joel acortó la nota por el límite de 200 caracteres"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Revisión diaria",
+   "nota": "Respondió Home Farm y Omar. Patrick lo ha leído."
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Mirar que salieron los correos de hoy",
+   "nota": "9 de 10, sin rebotes. Los 3 últimos salieron a las 9:40, al abrir el Mac. St Kevin's no salió y va al 6/11"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Home Farm: contestar",
+   "nota": "Enviado con company deck y fichas de Team y Coach Experience"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Omar: pedirle las notas",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "David: pasarle los datos",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Programar en Apple Mail los envíos del viernes 06/11",
+   "nota": "St Kevin's programado"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Confirmar que salieron los correos de hoy",
+   "nota": "Ver la fila siguiente"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "David: contestarle sobre la valoración",
+   "nota": "Joel le dijo que vio los vídeos (esperaba más nivel por jugar en el Dallas) y que pasa a la familia el rango de precios del primer año"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Enrique: mandarle las 5 preguntas",
+   "nota": "Contestó: precio por cerrar; un solo jugador sin grupo, complicado; como pronto 2027/28; club asociado entrenando en Zubieta con entrenadores de la Real; comisión por definir"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Omar: mandarle la valoración",
+   "nota": "Enviado con propuesta de llamada lunes o martes"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "William (Francia, 19 años): contestar",
+   "nota": "Enviado el texto acordado con Enrique"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Caso PR: crear la carpeta de Drive",
+   "nota": "Creada. Naiara sube hoy lo del Metropolitano"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "ENVIAR",
+   "nota": "Salió (registrado en Enviados)"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Omar: fijar la hora",
+   "nota": "Martes 10/11 por la tarde"
+  },
+  {
+   "date": "2026-11-05",
+   "task": "Itrupo",
+   "nota": "Decisión de Joel: de momento no se contesta"
+  },
+  {
+   "date": "2026-11-06",
+   "task": "ENVIAR",
+   "nota": "Salió. Aparece 4 veces en Enviados (por confirmar)"
+  },
+  {
+   "date": "2026-11-06",
+   "task": "Revisión diaria",
+   "nota": "Hecho"
+  },
+  {
+   "date": "2026-11-06",
+   "task": "Confirmar que salieron",
+   "nota": "Salió St Kevin's, sin rebotes"
+  },
+  {
+   "date": "2026-11-07",
+   "task": "Bloque de redes",
+   "estado": "Saltado",
+   "nota": "Sin tiempo. Esta semana Joel avanza con su plan de agentes de redes"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Revisión diaria",
+   "nota": "Hecho"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Gonzalo Lamas",
+   "nota": "Enviado. A la espera de que conteste"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "LLAMADA con Enrique",
+   "nota": "Hecha. Resumen y recomendación en 00-company/llamada-enrique-2026-11-09.md"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Preparar la llamada con Omar",
+   "nota": "David: por jugador y año, normalmente todo incluido (universidad, alojamiento y comida)"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Caso PR: mandar a Enrique los cambios del Anexo",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Caso PR: mandar a Enrique los mensajes 1 y 2",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Becas: un último mensaje",
+   "nota": "Pavel: sí, llamada esta semana. Tania: no. Gonzalo Caro: cuenta equivocada. Francisco y Anita: sin respuesta"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Richard Clarke",
+   "nota": "Mensaje enviado"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "LinkedIn: conectar con Ken Donohoe",
+   "estado": "Saltado",
+   "nota": "Su perfil no dice St Kevin's: no se conecta"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Programar en Apple Mail los envíos del martes",
+   "nota": "Bollington y Cedar Stars programados. Akranes y Maidstone, enviados a mano esta noche"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "ENVIAR follow-up 1 a IA Akranes",
+   "nota": "Enviado a mano el 9/11 por la noche"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "ENVIAR follow-up 1 a Maidstone",
+   "nota": "Enviado a mano el 9/11 por la noche"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Formulario web: Cramond",
+   "estado": "Saltado",
+   "nota": "No hay formulario usable ni correo público (el de la web pide cuenta). Se deja"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Formulario web: NY Empire",
+   "estado": "Saltado",
+   "nota": "El formulario es para eventos y no admite mensaje. Pasa a LinkedIn (Rob Mannino)"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Caso PR: revisar lo que Naiara suba",
+   "nota": "Fotos revisadas a tamaño completo; de los vídeos, el primer fotograma. Detalle en 04-marketing/caso-jugador-puerto-rico-nov-2026.md"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Enrique: mandarle lo que añadimos",
+   "nota": "Enviado. Su respuesta, en 00-company/reuniones-enrique-semana-2026-11-09.md"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Pavel: proponerle",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Tania y Gonzalo Caro",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Confirmar que salieron los correos de hoy",
+   "nota": "Bollington y Cedar Stars salieron. Sin rebotes"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "ENVIAR email 1 a Bollington",
+   "nota": "Salió a su hora"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "ENVIAR email 1 a Cedar Stars",
+   "nota": "Salió a las 9:30"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "LinkedIn: conectar con Rob Mannino",
+   "nota": "No aparece. Conectado con Tyler Botte (EDP North Atlantic League Director)"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Caso PR: descargar la carpeta",
+   "estado": "Saltado",
+   "nota": "No hace falta: Joel ve los clips al montar P1 (18/11) y Claude revisa el borrador"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con David Spruce",
+   "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Phil Swenda",
+   "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Rob Mannino",
+   "nota": "Adelantado al 10/11 (ver pestaña LinkedIn)"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "LinkedIn: conectar con Jeff Oleck",
+   "nota": "Hecho por Claude el 10/11 (3 personas)"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "LinkedIn: conectar con Iain Scott",
+   "nota": "Hecho por Claude el 10/11 (Iain Scott y Martyn Keen)"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "LLAMADA con Omar",
+   "nota": "Hecha. Deciden en diciembre, cuando acabe el semestre"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Programar en Apple Mail los envíos del miércoles",
+   "nota": "Carrigaline, Colorado Rapids, Keadue, NJ14 y Seacoast programados"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Omar: mensaje después de la llamada",
+   "nota": "Enviado"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "Confirmar que salieron los correos de hoy",
+   "nota": "Salieron los 4 programados por Joel. NJ14 no (el turno automático falló)"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Jerry Losson",
+   "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Matt Hardiman",
+   "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Christian Gonzalez",
+   "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-17",
+   "task": "LinkedIn: conectar con Reece Hands",
+   "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-17",
+   "task": "LinkedIn: conectar con Derek Biss",
+   "nota": "Hecho por Claude el 17/11 (turno de la tarde), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "LinkedIn: conectar con Mo Hijazi",
+   "estado": "Hecho",
+   "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "LinkedIn: conectar con Thiago Oliveira",
+   "estado": "Hecho",
+   "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "LinkedIn: conectar con Federico Bianchi",
+   "estado": "Hecho",
+   "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "LinkedIn: conectar con Ryan Youngblood",
+   "estado": "Hecho",
+   "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "LinkedIn: conectar con Mani Salimpour",
+   "estado": "Hecho",
+   "nota": "Hecho por Claude el 18/11 (relanzamiento de las 12:45), sin nota. Perfil comprobado"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LinkedIn: conectar con Jose Luis Rebay",
+   "estado": "Saltado",
+   "nota": "No encontrado en LinkedIn. 18/11: el único perfil es un entrenador de Bay Shore (NY) que no menciona Downtown United. No se conecta"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "LinkedIn: conectar con Jeff Zaun",
+   "estado": "Saltado",
+   "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "LinkedIn: conectar con Matt Mueller",
+   "estado": "Saltado",
+   "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "LinkedIn: conectar con Steve Trittschuh",
+   "estado": "Saltado",
+   "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
+  },
+  {
+   "date": "2026-11-17",
+   "task": "LinkedIn: conectar con Fernando Gonzalez",
+   "estado": "Saltado",
+   "nota": "No encontrado en LinkedIn. 18/11: no aparece en LinkedIn con este club. No se conecta"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "Revisión diaria",
+   "nota": "Turno relanzado a las 12:45: bandeja, LinkedIn (7 conexiones), 3 universidades al generador, informe 2026-11-18.md"
+  },
+  {
+   "date": "2026-11-19",
+   "task": "Revisión diaria",
+   "nota": "Turno de las 7:30: David Spruce (Bollington) contesta 'Shared' (borrador en Mail), mensaje aprobado a Bill Moravek (Bethesda), 6 conexiones, informe 2026-11-19.md"
+  },
+  {
+   "date": "2026-11-20",
+   "task": "Revisión diaria",
+   "nota": "Turno de las 7:30: bandeja sin respuestas ni rebotes, mensaje a Shawn Burke y Pedro Sousa, Khalil Lazrek contesta (abre club en Orlando), tanda 3 de universidades (Ithaca, Clemson, Trine), informe semanal. Conexiones no hechas: el diálogo de LinkedIn no se abría con el panel oculto"
+  },
+  {
+   "date": "2026-11-21",
+   "task": "Revisión diaria",
+   "nota": "Turno de las 7:30 (sábado): rebote de Ballistic confirmado, nuevo decisor Brady Taylor (reenvío pendiente de OK); LinkedIn sin respuestas nuevas; conexiones no hechas (panel oculto); convención de United Soccer Coaches 2027 investigada (02-sales/eventos-2027.md); informe 2026-11-21.md"
+  },
+  {
+   "date": "2026-11-08",
+   "task": "Programar en Apple Mail los envíos del lunes",
+   "estado": "Saltado",
+   "nota": "22/11: los del 9/11 salieron a mano esa noche"
+  },
+  {
+   "date": "2026-11-09",
+   "task": "Confirmar que salieron",
+   "estado": "Hecho",
+   "nota": "22/11: comprobado (envíos del 9/11 en el registro)"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Enrique: cómo fue Donosti",
+   "estado": "Hecho",
+   "nota": "Resultado en 00-company/reuniones-enrique-semana-2026-11-09.md"
+  },
+  {
+   "date": "2026-11-10",
+   "task": "Enrique: hablar del precio del showcase",
+   "estado": "Hecho",
+   "nota": "Hablado en la misma conversación de Donosti"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "Revisión diaria",
+   "estado": "Hecho",
+   "nota": "Turno de Claude"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "Revisión diaria",
+   "estado": "Hecho",
+   "nota": "Turno de Claude"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "Revisión diaria",
+   "estado": "Hecho",
+   "nota": "Turno de Claude"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "Revisión diaria",
+   "estado": "Hecho",
+   "nota": "Turno de Claude"
+  },
+  {
+   "date": "2026-11-17",
+   "task": "Revisión diaria",
+   "estado": "Hecho",
+   "nota": "Turno de Claude, informe 2026-11-17.md"
+  },
+  {
+   "date": "2026-11-17",
+   "task": "Confirmar que salieron",
+   "estado": "Hecho",
+   "nota": "Turno: NJ14 y NYSC enviados por Claude"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "Confirmar que salieron",
+   "estado": "Hecho",
+   "nota": "Turno: comprobado"
+  },
+  {
+   "date": "2026-11-19",
+   "task": "Confirmar que salieron",
+   "estado": "Hecho",
+   "nota": "Turno: comprobado"
+  },
+  {
+   "date": "2026-11-20",
+   "task": "Confirmar que salieron",
+   "estado": "Hecho",
+   "nota": "Turno: comprobado; rebote de Ballistic"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "Redes: avanzar tu plan",
+   "estado": "Hecho",
+   "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
+  },
+  {
+   "date": "2026-11-14",
+   "task": "Redes: avanzar tu plan",
+   "estado": "Hecho",
+   "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "Bloque de redes sociales",
+   "estado": "Hecho",
+   "nota": "22/11: lo lleva el Content Studio"
+  },
+  {
+   "date": "2026-11-21",
+   "task": "Bloque de redes sociales",
+   "estado": "Hecho",
+   "nota": "22/11: lo lleva el Content Studio"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "Pavel: decidir el precio",
+   "estado": "Hecho",
+   "nota": "Precio decidido el 17/11 (guion de Pavel)"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "Revisión semanal",
+   "estado": "Hecho",
+   "nota": "Informes del turno"
+  },
+  {
+   "date": "2026-11-20",
+   "task": "Revisión semanal",
+   "estado": "Hecho",
+   "nota": "Informe semanal del 20/11"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "Actualizar el CRM",
+   "estado": "Hecho",
+   "nota": "Lo actualiza el turno de Claude"
+  },
+  {
+   "date": "2026-11-20",
+   "task": "Actualizar el CRM",
+   "estado": "Hecho",
+   "nota": "Lo actualiza el turno de Claude"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "Greystones 2027: decidir con Enrique",
+   "estado": "Hecho",
+   "nota": "19/11: Enrique les escribe primero para sondear 2027; la propuesta espera a las tarifas"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "Revisión del mes con Claude",
+   "estado": "Saltado",
+   "nota": "22/11: sustituida por el objetivo común (19/11) y el tablero de campañas (20/11)"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "Piloto: 5 mensajes",
+   "estado": "Saltado",
+   "nota": "22/11: pasa a la campaña de becas (mensaje de referidos de entrenadores)"
+  },
+  {
+   "date": "2026-11-19",
+   "task": "Home Farm: preguntar",
+   "estado": "Saltado",
+   "nota": "22/11: pasa al 25/11, último intento con la llamada de 15 minutos"
+  },
+  {
+   "date": "2026-11-20",
+   "task": "Opcional: DM",
+   "estado": "Saltado",
+   "nota": "Opcional, no hecho"
+  },
+  {
+   "date": "2026-11-21",
+   "task": "Opcional: DM",
+   "estado": "Saltado",
+   "nota": "Opcional, no hecho"
+  },
+  {
+   "date": "2026-11-11",
+   "task": "Web realsociedadirp.com",
+   "estado": "Saltado",
+   "nota": "Joel 22/11: no se hizo. Pasa al 26/11"
+  },
+  {
+   "date": "2026-11-12",
+   "task": "LLAMADA con Pavel",
+   "estado": "Saltado",
+   "nota": "Joel 22/11: la llamada no se hizo. Pavel entra en la reactivación de becas"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "Caso PR: confirmar la fecha",
+   "estado": "Hecho",
+   "nota": "Entrevista final: Enrique, martes 24/11"
+  },
+  {
+   "date": "2026-11-13",
+   "task": "Enrique: resultado de las reuniones",
+   "estado": "Hecho",
+   "nota": "Joel ya lo contó en el chat"
+  },
+  {
+   "date": "2026-11-16",
+   "task": "Patrick: si no ha contestado",
+   "estado": "Saltado",
+   "nota": "Patrick dejó en visto el borrador del testimonio. No insiste Joel: lo retoma Enrique el 23/11"
+  },
+  {
+   "date": "2026-11-18",
+   "task": "Caso PR: montar P1",
+   "estado": "Saltado",
+   "nota": "El contenido lo lleva el Content Studio (Always Up HQ)"
+  },
+  {
+   "date": "2026-11-22",
+   "task": "Ballistic United: decir",
+   "estado": "Hecho",
+   "nota": "OK de Joel el 22/11. Brady Taylor en la cola: primer correo el 1/12 (primer hueco libre)"
+  },
+  {
+   "date": "2026-11-22",
+   "task": "Pegar el brief del CEO",
+   "estado": "Saltado",
+   "nota": "Sustituido por el mensaje actualizado del 23/11"
+  },
+  {
+   "date": "2026-11-23",
+   "task": "Lista de reactivación de leads antiguos de becas",
+   "estado": "Hecho",
+   "nota": "7 leads priorizados en el informe del 23/11 (sección 3), por fila del Segmento C, con el texto aprobado y una variante para Pavel y Daniel. Joel los envía desde Instagram desde el 24/11."
+  },
+  {
+   "date": "2026-11-23",
+   "task": "Comprobar el correo de 6 entrenadores más",
+   "estado": "Hecho",
+   "nota": "Comprobados en la web: Caldwell (Max Correa), Molloy (John Fitzgerald, nuevo en 2026) y Monroe University (Marcus DiBernardo), en campanas_envios.json para el 30/11. Brookdale, Westchester y Suffolk sin correo personal comprobado (web bloqueada o solo teléfono). Detalle en 01-clients/leads-nuevos-2026-11-23.md"
+  },
+  {
+   "date": "2026-11-23",
+   "task": "Investigar 25 contactos nuevos",
+   "estado": "Hecho",
+   "nota": "Parcial: 8 con correo comprobado entran como tanda (Penn College, Hartwick, Cortland, Hood, Harvard el 7/12; Mount Merrion, Catterick Village y FC Copa el 8/12). Otros 4 vistos solo en el buscador y 8 sin correo. Sigue el 24/11 (martes, clubes nuevos)."
+  }
+ ],
+ "textos": [
+  {
+   "club": "Networking",
+   "to": "Richard Clarke",
+   "date": "2026-11-03"
+  },
+  {
+   "club": "Hastings United (Girls Academy)",
+   "to": "Georgia Townsend",
+   "nota": "4/11: Joel la sigue. La conexión se retiró sin querer y LinkedIn obliga a esperar 3 semanas. Reintentar desde el 26/11."
+  },
+  {
+   "club": "Whitehaven AFC (Juniors Girls U13-U15)",
+   "to": "Luke Johnston",
+   "date": "2026-11-04",
+   "nota": "Solicitud con nota enviada el 4/11. Sigue de Chairman and Director (su perfil de LinkedIn, leído el 4/11)."
+  },
+  {
+   "club": "Holbeach United (Dan Lester)",
+   "to": "Dan Lester",
+   "date": "2026-11-04"
+  },
+  {
+   "club": "Holbeach United (Dan Lester)",
+   "to": "Callum Lawe",
+   "date": "2026-11-04",
+   "nota": "Joel acortó la nota por el límite de 200 caracteres."
+  },
+  {
+   "club": "Networking",
+   "to": "Richard Clarke",
+   "date": "2026-11-03",
+   "nota": "Aceptó la conexión el 4/11."
+  },
+  {
+   "club": "St Kevin's FC (Dublín)",
+   "to": "admin@skbfc.com",
+   "nota": "En Enviados aparece 4 veces (pendiente de confirmar si salieron 4 copias). Follow-up retrasado al 25/11."
+  },
+  {
+   "club": "St Kevin's FC (Dublín)",
+   "to": "Ken Donohoe",
+   "nota": "9/11: el perfil no dice St Kevin's. No se conecta."
+  },
+  {
+   "club": "Bollington United FC",
+   "to": "David Spruce",
+   "date": "2026-11-10",
+   "nota": "10/11: conexión enviada sin nota. Cuando acepte, mensaje de la columna F."
+  },
+  {
+   "club": "Cedar Stars Academy",
+   "to": "Phil Swenda",
+   "date": "2026-11-10",
+   "nota": "Phil no aparece. 10/11: conectado sin nota con Christian Henry (Director of Coaching), John Saverio Antunes (Head Coach U16 MLS NEXT) y Lautaro Sosa Mendoza (Girls Head Coach). También Juan Santamaria (VP & Sporting Director). Christian Henry ACEPTÓ el 10/11. Mensaje a Christian enviado por Claude el 10/11 a las 16:22."
+  },
+  {
+   "club": "NY Empire FC",
+   "to": "Rob Mannino",
+   "date": "2026-11-10",
+   "nota": "Rob no aparece. 10/11: conectado con Tyler Botte (EDP North Atlantic League Director, NY Club Soccer). Es una liga, no el club: puede abrir la puerta a muchos clubes."
+  },
+  {
+   "club": "Colorado Rapids Youth Soccer",
+   "to": "Jeff Oleck",
+   "date": "2026-11-10",
+   "nota": "10/11 (Claude, desde el perfil de Joel): Jeff Oleck (Director of International Travel), Danny Bills (Chief Sporting Director, Colorado Storm) y Maximilian Poland (11U-14U Boys Director). Sin nota."
+  },
+  {
+   "club": "Seacoast United",
+   "to": "Iain Scott",
+   "date": "2026-11-10",
+   "nota": "10/11 (Claude): Iain Scott (Director of Soccer Operations) y Martyn Keen (Director of Coaching, Maine). Sin nota."
+  },
+  {
+   "club": "Holbeach United",
+   "to": "Dan Lester",
+   "date": "2026-11-10",
+   "nota": "La invitación del 4/11 no estaba pendiente ni aceptada. Reenviada sin nota el 10/11."
+  },
+  {
+   "club": "Colorado Rapids Youth Soccer",
+   "to": "Jeff Oleck",
+   "nota": "10/11: Maximilian Poland aceptó y Claude le mandó el mensaje. Jeff y Danny pendientes."
+  },
+  {
+   "club": "Networking",
+   "to": "LinkedIn 10/11",
+   "nota": "Mensajes de Claude (aprobados por Joel): Jordan Salamido (Dakota Alliance, Team Experience), Ashley Holmes (Florida Southern), Danny Owens (Southern Miss) y Yannis Sapim (Saint Leo) sobre giras universitarias; Roberto Fonseca (agente, Magic Players) sobre pruebas; Jan-Henry Schäfer sobre pruebas."
+  },
+  {
+   "club": "Networking",
+   "to": "Jordan Salamido",
+   "nota": "15/11: no viajan en 2028; quizá en 2029. Volver a escribir a mediados de 2028."
+  },
+  {
+   "club": "NY Empire FC",
+   "to": "Rob Mannino",
+   "nota": "Tyler Botte aceptó el 15/11. Mensaje pendiente del OK de Joel."
+  },
+  {
+   "club": "Bollington United FC",
+   "to": "David Spruce",
+   "nota": "Aceptó el 11/11. Mensaje pendiente (el envío del 17/11 no cargó)."
+  },
+  {
+   "club": "Bollington United FC",
+   "to": "David Spruce",
+   "nota": "17/11: mensaje de LinkedIn enviado por Claude."
+  },
+  {
+   "club": "NY Empire FC",
+   "to": "Rob Mannino",
+   "nota": "17/11: mensaje a Tyler Botte enviado por Claude (pedirle consejo y que presente clubes de EDP)."
+  },
+  {
+   "club": "Networking",
+   "to": "Jordan Salamido",
+   "nota": "17/11: respuesta de agradecimiento enviada; ofrecido un resumen para 2029."
+  },
+  {
+   "club": "Seacoast United",
+   "to": "iscott@seacoastunited.com",
+   "nota": "17/11: respuesta a Iain enviada (WorldStrides como posible socio)."
+  },
+  {
+   "club": "Bethesda Soccer Club",
+   "to": "Derek Biss",
+   "nota": "17/11: conectado sin nota. También William (Bill) Moravek, Sporting Director (2º grado, perfil comprobado). Bill organiza el European Academy Camp con técnicos de Fulham, PSV, Mónaco y KNVB: gancho para el mensaje si acepta."
+  },
+  {
+   "club": "Carrigaline United AFC",
+   "to": "Joe Giltinan",
+   "nota": "17/11: el contacto correcto se escribe Giltinan (Honorary Chairman), correo en carrigaline.clubzap.com/pages/management-committee-members-24-25. Otro posible: Mark Manning (Head of Male Football). Texto nuevo pendiente del OK de Joel."
+  },
+  {
+   "club": "Networking",
+   "to": "Cadyn Bittner",
+   "nota": "Aceptó el 16/11. Estudiante de Mount Aloysius College, no es prospecto: sin mensaje."
+  },
+  {
+   "club": "Carrigaline United AFC",
+   "to": "Joe Giltinan",
+   "nota": "17/11: Joel aprueba el correo (\"OK Carrigaline\"). En el generador como carrigalinejoe, sale el 24/11 a las 4:30 (NY) con la sesión de envíos. Única edición: \"last week\" pasa a \"earlier this month\" por la fecha."
+  },
+  {
+   "club": "Bollington United FC",
+   "to": "David Spruce",
+   "nota": "17/11: contesta por LinkedIn 'If you send us a poster/website I can forward on'. Se paran los follow-ups automáticos. Pendiente: respuesta con web y PDF (OK de Joel)."
+  },
+  {
+   "club": "Networking",
+   "to": "Marcos Landivar",
+   "nota": "Aceptó el 17/11. Compañero de Joel en Mercy (D2), scout. Posible prescriptor de becas y del programa de 12 días: mensaje propuesto en el informe del 18/11, pendiente del OK de Joel."
+  },
+  {
+   "club": "University at Buffalo (Women's Soccer)",
+   "to": "Shawn Burke",
+   "date": "2026-11-18",
+   "nota": "18/11: conexión sin nota (perfil: Head Women's Soccer Coach at University at Buffalo). Si acepta, el mensaje de clubes no sirve: texto propio pendiente del OK de Joel."
+  },
+  {
+   "club": "Northeastern University (Women's Soccer)",
+   "to": "Ashley Phillips",
+   "date": "2026-11-18",
+   "nota": "18/11: conexión sin nota (perfil: Northeastern University Head Women's Soccer Coach, desde 2016). Si acepta, texto propio pendiente del OK de Joel."
+  },
+  {
+   "club": "Networking",
+   "to": "Brandon Levine",
+   "nota": "18/11: aparece una invitación enviada hace 2 horas a Brandon Levine (Head Men's Soccer Coach, Felician University) que no mandó el turno. Confirmar con Joel."
+  },
+  {
+   "club": "Networking",
+   "to": "Brandon Levine",
+   "nota": "Aceptó el 19/11. Entrenador universitario: el mensaje de clubes no sirve. Usar el de entrenadores universitarios cuando Joel lo apruebe."
+  },
+  {
+   "club": "Bollington United FC",
+   "to": "chair@bollingtonunited.co.uk",
+   "nota": "18/11 (18:17): David contesta por correo 'Shared' (ha pasado el deck y la ficha a los equipos). 19/11: borrador de agradecimiento en Mail, sin enviar."
+  },
+  {
+   "club": "Bethesda Soccer Club",
+   "to": "William (Bill) Moravek",
+   "date": "2026-11-19",
+   "nota": "Aceptó el 18/11 (Sporting Director, perfil comprobado). 19/11 a las 7:44: mensaje aprobado de la columna F enviado por Claude."
+  },
+  {
+   "club": "Networking",
+   "to": "Khalil Lazrek",
+   "nota": "Aceptó el 18/11 (Soccer Coach, Orlando City soccer academy). No estaba en nuestras listas: ¿lo invitó Joel? Mensaje propuesto en el informe del 19/11."
+  },
+  {
+   "club": "Networking",
+   "to": "Reyan Imler",
+   "nota": "Aceptó el 18/11. Exalumno de Mount Aloysius, estudiante de fisioterapia: no es prospecto, sin mensaje."
+  },
+  {
+   "club": "Southern Connecticut State University (Women's Soccer)",
+   "to": "Adam Cohen",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (perfil: Head Women's Soccer Coach at Southern CT State University). Correo 1 sale el 1/12."
+  },
+  {
+   "club": "Sockers FC Chicago",
+   "to": "Oleg Vatchev",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (Director Coach Education/Methodology, Sockers FC). Buen contacto para Coach Experience. Correo 1 del club sale el 9/12."
+  },
+  {
+   "club": "Chicago FC United",
+   "to": "Jeff DeGroot",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (MLS Next Academy Director, Chicago FC United). Correo 1 del club sale el 10/12."
+  },
+  {
+   "club": "Wake Forest University (Women's Soccer)",
+   "to": "Tony Daluz",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (Head Womens Soccer Coach at Wake Forest). Gira por España en febrero de 2023 con Navigo Sports Tours."
+  },
+  {
+   "club": "Essex County College (Men's Soccer)",
+   "to": "Pedro Sousa",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (Head Men's Soccer Coach, Essex County College, NJ, UEFA B). JUCO: sirve para giras y para becas."
+  },
+  {
+   "club": "Middlesex College (Soccer)",
+   "to": "Javier Velasco",
+   "date": "2026-11-19",
+   "nota": "19/11: conexión sin nota (Head Men and Women's Soccer Coach, Middlesex College, NJ). JUCO: sirve para giras y para becas."
+  },
+  {
+   "club": "University at Buffalo (Women's Soccer)",
+   "to": "Shawn Burke",
+   "nota": "Aceptó el 19/11. 20/11 a las 7:38: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
+  },
+  {
+   "club": "Essex County College (Men's Soccer)",
+   "to": "Pedro Sousa",
+   "nota": "Aceptó el 19/11. 20/11 a las 7:39: mensaje de entrenadores universitarios (aprobado el 19/11) enviado por Claude."
+  },
+  {
+   "club": "Networking",
+   "to": "Khalil Lazrek",
+   "nota": "19/11: contesta 'I'll be starting a soccer club in orlando next season!'. Respuesta propuesta en el informe del 20/11 (Team y Coach Experience), pendiente del OK de Joel."
+  },
+  {
+   "club": "Networking",
+   "to": "Khalil Lazrek",
+   "nota": "20/11 a las 9:21: respuesta B enviada por LinkedIn con el OK de Joel. Sin contestación a 21/11."
+  },
+  {
+   "club": "Networking",
+   "to": "Iago Rimoldi Renda",
+   "nota": "Aceptó el 20/11. Estudiante de marketing, no es prospecto: sin mensaje."
+  },
+  {
+   "club": "Eastern Pennsylvania Youth Soccer",
+   "to": "Gary Stephenson",
+   "nota": "21/11: perfil comprobado (Assistant Technical Director, EPYSA), pero la invitación NO salió: con el panel del navegador oculto LinkedIn no abre el diálogo. Reintentar con el panel visible."
+  },
+  {
+   "club": "Eastern Pennsylvania Youth Soccer",
+   "to": "Gary Stephenson",
+   "nota": "23/11: segundo intento sin éxito. Con el panel del navegador oculto LinkedIn no abre el diálogo de invitación (no aparece en Enviadas). Pendiente con el panel visible."
+  }
+ ],
+ "clubes": [
+  [
+   "Home Farm FC (chicas U13-U15)",
+   "Respondió",
+   "5/11: tras el follow-up contesta 'No, it was sent to Coaches direct for them to have a look at it'. Sin más cadencia automática. Preguntar el 19/11 si no contestan."
   ]
+ ]
 }

@@ -12,6 +12,12 @@
     {"fecha": "2026-11-24", "campana": "programa-12-dias", "para": "jsanchez1@bergen.edu", "nombre": "Jonathan Sanchez", "org": "Bergen Community College (NJCAA)", "jugadores": "sophomores",
      "fuente": "https://bergencc.prestosports.com/information/directory/index"},
     {"fecha": "2026-11-24", "campana": "programa-12-dias", "para": "ddimaggio@mvcc.edu", "nombre": "Dominic DiMaggio", "org": "Mohawk Valley Community College (NJCAA)", "jugadores": "sophomores",
-     "fuente": "https://mohawkvalley.prestosports.com/sports/msoc/coaches/Dominic_DiMaggio"}
+     "fuente": "https://mohawkvalley.prestosports.com/sports/msoc/coaches/Dominic_DiMaggio"},
+    {"fecha": "2026-11-30", "campana": "programa-12-dias", "para": "mcorrea@caldwell.edu", "nombre": "Max Correa", "org": "Caldwell University (NCAA D2)", "jugadores": "seniors",
+     "fuente": "https://caldwellathletics.com/sports/mens-soccer/coaches"},
+    {"fecha": "2026-11-30", "campana": "programa-12-dias", "para": "jfitzgerald1@molloy.edu", "nombre": "John Fitzgerald", "org": "Molloy University (NCAA D2)", "jugadores": "seniors",
+     "fuente": "https://molloylions.com/sports/mens-soccer/coaches"},
+    {"fecha": "2026-11-30", "campana": "programa-12-dias", "para": "mdibernardo@monroeu.edu", "nombre": "Marcus DiBernardo", "org": "Monroe University (NJCAA)", "jugadores": "sophomores",
+     "fuente": "https://www.monroeumustangs.com/sports/mens-soccer/coaches"}
   ]
 }
