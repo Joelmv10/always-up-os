@@ -48,7 +48,7 @@ El contenido y las redes los lleva el Content Studio de la otra conversación: a
 
 ## Reglas que no se saltan
 - Nunca contraseñas, claves ni credenciales en el repo ni en los textos. Si algo pide iniciar sesión, se para y se avisa.
-- Correos: solo los del generador con fecha de hoy, ya validados. Máximo 6 al día, de martes a jueves. Nada de textos nuevos a clientes sin el OK de Joel.
+- Correos: solo los del generador con fecha de hoy, ya validados. Máximo 12 al día, de lunes a viernes (desde el 23/11/2026; el tope está en `cap_dia` del generador). Los de campaña (`envio_campana.py`) van aparte, unos 3 al día. Nada de textos nuevos a clientes sin el OK de Joel.
 - Nunca nombrar a University Soccer, nunca decir "agencia", nunca prometer becas ni fichajes. Urgencia solo si es real. Precios: nunca negociar por escrito sin Joel.
 - Tono humano: sin guiones largos ni " - ", sin palabras de IA. Correos solo en inglés o español.
 - Menores: nada de datos personales en el repo y nada de publicar sin consentimiento.

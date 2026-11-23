@@ -430,6 +430,10 @@ _E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026,
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
        "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
 _FU1 = {"stkevins": D(2026, 11, 25), "homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
+# 22/11: con el tope a 12, los primeros correos de clubes de EEUU que esperaban a diciembre se adelantan a esta semana,
+# antes de Acción de Gracias (del 25 al 27/11 no se envía a EEUU). Las universidades se quedan en su fecha (1 al 4/12).
+_E1.update({k: D(2026, 11, 23) for k in ("delco", "loufusz", "slsg", "cincyunited", "tbu", "bethesda")})
+_E1.update({k: D(2026, 11, 24) for k in ("ballisticbrady", "sockers", "jaguars", "chicagofcu", "albion", "ftl", "capvalley", "walnut")})
 for _p in PROSPECTS + PROSPECTS_US:
     if _p["key"] in _E1:
         _p["e1"] = _E1[_p["key"]]
@@ -752,8 +756,14 @@ CAP_DIA_DESDE_DIC = 8  # 19/11: Joel pide más carga; desde el 1/12, con un mes 
 SUBE_CAP = D(2026, 12, 1)
 
 
+CAP_DIA_ALCANCE = 12  # 22/11: Joel pide el máximo alcance. 12 al día de lunes a viernes desde el 23/11 (dominio con 6 semanas enviando, 2 rebotes por direcciones malas y ninguno por reputación).
+ALCANCE_DESDE = D(2026, 11, 23)  # Siguiente escalón (20 al día) solo si en la semana del 30/11 hay menos de un 3 % de rebotes y nada en spam.
+
+
 def cap_dia(d):
     d = d.date() if isinstance(d, dt.datetime) else d
+    if d >= ALCANCE_DESDE:
+        return CAP_DIA_ALCANCE
     return CAP_DIA_DESDE_DIC if d >= SUBE_CAP else CAP_DIA
 ENVIOS = ("Email 1", "Formulario web", "Follow-up 1", "Follow-up 2", "Cierre")
 
@@ -1218,6 +1228,12 @@ def build_calendar(sends):
         if x["task"].startswith("Lista de reactivación de leads antiguos de becas"):
             x["how"] += " Incluye a Pavel Gomez: la llamada del 12/11 no se hizo y sigue siendo un lead fuerte (17 años, ya en EEUU, clase de 2027)."
     add(D(2026, 11, 26), "Libre", 660, "International Program", "Web realsociedadirp.com: mandar los cambios a quien la lleve", "Sigue sin hacerse (11/11) y la web promete cosas que no podemos cumplir: integración en un equipo de la Real Sociedad, partidos de liga y programa de un mes todo el año. Pregunta a Enrique quién la lleva y mándale los textos (inglés y español, listos para pegar).", "06-web/realsociedadirp-cambios-2026-11.md", 10, "Joel", "media")
+    # --- 22/11/2026 (tarde): más alcance, brief para el Content Studio y plan maestro de ventas
+    add(D(2026, 11, 22), "Libre", 520, "Todos", "Pegar el brief del CEO en la conversación del Content Studio (Always Up HQ)", "Copia el mensaje entero (desde la línea de separación) y pégalo en la otra conversación. Le dice qué tiene que vender el contenido, a quién, con qué límites y cómo se mide.", "04-marketing/brief-content-studio-2026-11-22.md", 3, "Joel", "alta")
+    for dd in (D(2026, 11, 23), D(2026, 11, 26), D(2026, 11, 30), D(2026, 12, 3), D(2026, 12, 7), D(2026, 12, 10), D(2026, 12, 14), D(2026, 12, 17)):
+        add(dd, "Libre", 655, "Team/Coach", "Investigar 25 contactos nuevos con correo comprobado para la cola", "Clubes de Irlanda y Reino Unido (Semana Santa) y de EEUU (verano), y universidades para el programa de 12 días. Decisor y correo comprobados en la web de cada club. Con el tope de 12 al día, la cola de primeros correos se acaba el 4/12 si no entran contactos nuevos.", "07-automations/outreach/generar_outreach.py", 0, "Turno", "alta")
+    add(D(2026, 11, 27), "Libre", 660, "Todos", "Plan maestro de ventas 2027, versión 1", "Objetivo por producto y trimestre, las cuentas del embudo (correos, respuestas, llamadas, propuestas y ventas), canales, calendario de venta y lo que falta. La versión 2, con los precios de Enrique, el 4/12.", "02-sales/plan-maestro-ventas-2027.md", 0, "Turno", "alta")
+    add(D(2026, 12, 4), "Libre", 665, "Todos", "Revisar el tope de correos: ¿pasar de 12 a 20 al día?", "Solo si en la semana del 30/11 hay menos de un 3 % de rebotes y nada cae en spam. Para más de 20 al día hace falta un segundo dominio de envío (decisión de Joel y Enrique).", "07-automations/outreach/generar_outreach.py (cap_dia)", 0, "Turno", "media")
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
