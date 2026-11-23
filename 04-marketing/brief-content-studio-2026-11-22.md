@@ -4,7 +4,32 @@
 
 ---
 
-Te escribo desde la parte comercial de Always Up (repo `always-up-os`). Antes de desarrollar el calendario de enero, esto es lo que el negocio necesita del contenido.
+Te escribo desde la parte comercial de Always Up (repo `always-up-os`). Primero va lo que quiere Joel; después, lo que el negocio necesita del contenido.
+
+## 0. Lo que te pide Joel, por orden
+1. **Crear el mejor community manager experto** para las dos cuentas: la de Joel (@Joel_alwaysup) y la de Always Up. Será con quien Joel tenga todas las conversaciones de contenido en redes. La meta es la mejor comunidad de fútbol en redes: muchos seguidores y muchos clientes que confíen en nosotros.
+2. **Una auditoría de dónde estamos** en Instagram, TikTok, YouTube, LinkedIn y cualquier otra plataforma que el community manager crea necesaria: qué tenemos, qué funciona y qué no, con el análisis de ganchos, guiones y vídeos más y menos vistos. Usad la exportación de Instagram que ya leísteis.
+3. **El plan de redes de 2027**, hecho con los otros agentes (investigación de la competencia y de las cuentas más grandes, tendencias, qué vende y cómo). Tiene que responder:
+   - cómo nos posicionamos y qué queremos transmitir;
+   - a quién llegamos;
+   - qué objetivos tenemos y qué queremos conseguir;
+   - el plan paso a paso: métodos, planificación y organización;
+   - plataforma por plataforma y cuenta por cuenta.
+4. **Cómo funcionan los 5 agentes de la oficina** (Chief of Staff, Brand Strategist, Research & Intelligence, Creative Director y Producción) y cómo hablar con cada uno para tener la opinión de un experto en su ámbito. Explícaselo a Joel con ejemplos de preguntas.
+5. **Un calendario de publicaciones aparte:** solo lo que se sube cada mes, en qué plataforma y en qué cuenta. Separado del calendario de tareas del día a día.
+6. **Crear ya la cuenta corporativa de Always Up.** Hasta ahora todo ha ido en la cuenta de Joel. Preparad el nombre de usuario, la biografía, la foto y las destacadas. Ojo: hay un software que también se llama AlwaysUp, así que comprobad qué usuarios están libres. **La cuenta la crea Joel con su contraseña**, no un agente.
+7. **Las campañas de contenido de cada producto,** empezando por el caso de Adrián (abajo): la campaña y los vídeos.
+8. **Ideas para regalar a la comunidad.** La de Joel: un perfil deportivo del jugador hecho con IA, para que lo tenga y regalárselo. Como negocio me parece muy buena: es justo la información que necesitamos para becas y para el programa de 12 días, así que cada perfil es un lead.
+   - **Límite legal:** si el jugador tiene menos de 18 años, hace falta el consentimiento de sus padres y cumplir la protección de datos. Antes de lanzarlo, que lo vea Enrique con el abogado.
+   - Proponed más regalos de este tipo.
+9. **Las notas de marca personal de Joel** (sus palabras, resumidas):
+   - un plan con objetivos, metas y pasos diarios para su marca personal;
+   - un análisis profundo de la cuenta para crecer mucho y vender, porque hasta ahora no ha tenido ninguna venta;
+   - cómo ser constante, que hasta ahora no lo ha sido;
+   - la edición de vídeos: un plan con Naiara, cuánto cuesta un editor de reels y cómo organizarlo. Quedan 2 vídeos por editar.
+
+   **Un gasto fijo en un editor lo deciden Joel y Enrique.** Traed opciones con precio.
+10. **El Despacho:** Joel no puede abrir el detalle de las tareas que vienen de Always Up. El paso a paso ya viene en la columna «Cómo se hace, paso a paso», y el Despacho lo lee como `detail`, pero no se ve. Además, el 22/11 la última lectura del Excel fue a las 20:33 y los cambios llegaron a las 20:42, así que Joel vio tareas que ya estaban cerradas. Propuesta: que lea el Excel solo al abrirse, o que avise cuando la lectura tiene más de unas horas.
 
 ## 1. El objetivo
 Tenemos **3 ventas firmadas antes del 31/01/2027**: una Team Experience, una Coach Experience y un jugador en el programa de 12 días. Hacia los 200.000 $ de 2027. Hoy llevamos **0 ventas desde agosto y 0 llamadas**.
@@ -81,7 +106,21 @@ Las fechas que mandan:
 - **Campus del Atlético en Argentina con Gonzalo Lamas:** solo si firma tras la llamada del 24/11. Sería contenido en español para América Latina, con su marca y la nuestra.
 - **«Qué pasó después» de Adrián:** solo con autorización escrita.
 
-## 7. Cómo trabajamos entre las dos conversaciones
+## 7. Una campaña por producto: cómo se arranca cada una
+Cada vez que un producto esté listo para vender (precio cerrado, ficha y forma de cobro), la conversación de negocio manda un **brief de campaña** con este formato:
+- producto;
+- a quién se dirige;
+- el mensaje;
+- la llamada a la acción;
+- la meta y las fechas;
+- los límites;
+- el material que hay.
+
+Con ese brief, el community manager diseña la campaña para todas las plataformas y Joel la aprueba. El orden previsto, según se vayan cerrando los productos: el programa de 12 días (con el caso de Adrián), Team Experience, Coach Experience, becas y, si Gonzalo firma, el campus en Argentina.
+
+Además, el contenido de marca y de confianza de todos los productos no tiene que esperar a ninguna campaña: cómo trabajamos, quiénes somos y los clubes con los que trabajamos.
+
+## 8. Cómo trabajamos entre las dos conversaciones
 - **Fuente de verdad:** precios, clubes, qué incluye cada producto y lo que se puede decir sale de `00-company/productos-listos-para-vender.md` y `00-company/plan-plazas-2027.md`. Si algo no está ahí, no se dice: Joel me lo pregunta en la conversación de negocio.
 - **Cada pieza del calendario lleva escrito** a qué campaña apoya, su llamada a la acción y a dónde llegan los mensajes.
 - **Cada semana:** cuántos mensajes con ESPAÑA, BECA o de directores han llegado. Joel me los pasa y yo los convierto en conversaciones y llamadas.

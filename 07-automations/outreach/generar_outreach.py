@@ -1234,6 +1234,18 @@ def build_calendar(sends):
         add(dd, "Libre", 655, "Team/Coach", "Investigar 25 contactos nuevos con correo comprobado para la cola", "Clubes de Irlanda y Reino Unido (Semana Santa) y de EEUU (verano), y universidades para el programa de 12 días. Decisor y correo comprobados en la web de cada club. Con el tope de 12 al día, la cola de primeros correos se acaba el 4/12 si no entran contactos nuevos.", "07-automations/outreach/generar_outreach.py", 0, "Turno", "alta")
     add(D(2026, 11, 27), "Libre", 660, "Todos", "Plan maestro de ventas 2027, versión 1", "Objetivo por producto y trimestre, las cuentas del embudo (correos, respuestas, llamadas, propuestas y ventas), canales, calendario de venta y lo que falta. La versión 2, con los precios de Enrique, el 4/12.", "02-sales/plan-maestro-ventas-2027.md", 0, "Turno", "alta")
     add(D(2026, 12, 4), "Libre", 665, "Todos", "Revisar el tope de correos: ¿pasar de 12 a 20 al día?", "Solo si en la semana del 30/11 hay menos de un 3 % de rebotes y nada cae en spam. Para más de 20 al día hace falta un segundo dominio de envío (decisión de Joel y Enrique).", "07-automations/outreach/generar_outreach.py (cap_dia)", 0, "Turno", "media")
+    # --- 23/11/2026: presentación de Enrique para Argentina, William y lo que falta para el plan maestro de ventas 2027
+    GZ2 = "01-clients/propuestas/gonzalo-2027-revision-presentacion-enrique.md"
+    add(D(2026, 11, 23), "Ahora", 40, "Socios", "Contestar a Enrique la hora para preparar lo de Gonzalo", "Él prefiere lo más tarde posible: España va 6 horas por delante. Propuesta: 15:00 de Nueva York (21:00 en España). Antes de hablar, lee la revisión de su presentación: hay dos precios distintos para el mismo socio que hay que unificar hoy.", GZ2, 2, "Joel", "alta")
+    add(D(2026, 11, 23), "Libre", 465, "Socios", "Revisar con Enrique su presentación para grupos de Argentina (v2) y decidir los precios para Gonzalo", "Seis decisiones, con la recomendación de Claude en cada una: (1) precio de 5 días: 1.950 € en su presentación y unos 1.500 € en la nuestra; (2) precio de socio o precio final para las familias (modelo A o B); (3) si Gonzalo puede llevar grupos en 2027 o solo en 2028 (2027 lo tiene con el Barça); (4) quitar «clubes de EEUU y Reino Unido» de la portada interior; (5) qué incluye de verdad: seguro, médico, coordinador las 24 h y certificado; (6) los pagos 30/40/30 no encajan con reservas de Semana Santa en enero. Si cambia algo, Claude rehace la presentación esa tarde.", GZ2, 45, "Joel", "alta")
+    add(D(2026, 11, 23), "Libre", 475, "Programa 12 días", "William (19, Francia): contestarle por WhatsApp sobre los vídeos y la llamada", "Texto listo en el documento. No hablamos francés: se le ofrece la llamada en inglés o en español despacio, con un resumen por escrito. Se le pide que marque en cada clip su número y su camiseta, o un partido completo aunque sea grabado con el móvil. Es el candidato más claro del programa de 12 días.", "01-clients/leads/william-2026-11.md", 3, "Joel", "alta")
+    add(D(2026, 11, 23), "Libre", 525, "Todos", "Pegar el mensaje actualizado en la conversación del Content Studio", "Sustituye al del 22/11. Incluye todo lo que pediste: el community manager experto, la auditoría de las cuentas, el plan de redes de 2027, cómo usar los 5 agentes, el calendario de publicaciones aparte, la cuenta de Always Up, una campaña por producto empezando por el caso de Adrián y tus notas de marca personal.", "04-marketing/brief-content-studio-2026-11-22.md", 3, "Joel", "alta")
+    add(D(2026, 11, 24), "Libre", 680, "Socios", "Propuesta a Gonzalo con lo que elija en la llamada", "Con la decisión de Enrique y Joel sobre el modelo y los precios. Una sola presentación unificada, no dos.", GZ2, 0, "Turno", "alta")
+    add(D(2026, 12, 4), "Libre", 661, "Todos", "Plan maestro de ventas 2027, versión 2 (con los precios de Enrique)", "Precios cerrados por producto, margen real y el plan de ventas por trimestre ya con números finales.", "02-sales/plan-maestro-ventas-2027.md", 0, "Turno", "alta")
+    add(D(2026, 12, 7), "Libre", 662, "Todos", "Fichas con precio en inglés y en español de cada producto", "Team Experience, Coach Experience, programa de 12 días, becas y campus. Se regeneran con los precios de la reunión de Enrique. Cada ficha lista para que el Content Studio arranque la campaña de contenido de ese producto.", "02-sales/assets/", 0, "Turno", "alta")
+    add(D(2026, 12, 9), "Libre", 480, "Todos", "Sesión con Enrique: las decisiones abiertas de 2027", "Deportivo de la Coruña, International Program con la Real Sociedad, Staff Program, oportunidades profesionales en Alemania y segundo dominio de envío. Una hora. Claude prepara el orden del día con una recomendación en cada punto.", "02-sales/plan-maestro-ventas-2027.md", 60, "Joel", "alta")
+    add(D(2026, 12, 10), "Libre", 663, "Todos", "Textos de una página por producto para la web", "Claude los escribe en inglés y en español; Joel los sube. Sin precio hasta que el club lo confirme.", "06-web/", 0, "Turno", "media")
+    add(D(2026, 12, 15), "Libre", 485, "Todos", "Contratos tipo: club (Team y Coach Experience) y jugador (programa de 12 días)", "Con el abogado: reserva, cancelación, seguro y consentimiento de imagen. Sin esto no se cobra ninguna reserva.", PL, 0, "Enrique", "alta")
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
@@ -1709,6 +1721,25 @@ def apply_registro(wb):
                 cal.cell(row=r, column=9, value="Hecho")
                 if not cal.cell(row=r, column=10).value:
                     cal.cell(row=r, column=10, value=e.get("nota"))
+    # 23/11/2026: lo que hace el Turno se cierra solo con pruebas (envíos registrados, informe del día, correos de campaña).
+    dias_envio = {e["date"] for e in reg.get("envios", [])}
+    inf_dir = os.path.join(HERE, "..", "..", "03-operations", "informes")
+    dias_informe = {f[:10] for f in os.listdir(inf_dir) if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.md", f)} if os.path.isdir(inf_dir) else set()
+    camp = os.path.join(HERE, "campanas_enviados.json")
+    dias_campana = {h["fecha"] for h in json.load(open(camp, encoding="utf-8"))} if os.path.exists(camp) else set()
+    reglas = (("Confirmar que salieron los correos de hoy", dias_envio, "Comprobado por el turno: los envíos del día están en Enviados y en registro.json"),
+              ("Revisión diaria", dias_informe, "Hecha por el turno: ver el informe del día en 03-operations/informes/"),
+              ("Correos a entrenadores de JUCO", dias_campana, "Enviados por envio_campana.py: ver campanas_enviados.json"))
+    for r in range(5, cal.max_row + 1):
+        a_ = cal.cell(row=r, column=1).value
+        fecha = a_.date() if isinstance(a_, dt.datetime) else a_
+        if not isinstance(fecha, dt.date) or cal.cell(row=r, column=9).value != "Pendiente":
+            continue
+        for pref, dias, nota in reglas:
+            if (cal.cell(row=r, column=5).value or "").startswith(pref) and fecha.isoformat() in dias:
+                cal.cell(row=r, column=9, value="Hecho")
+                if not cal.cell(row=r, column=10).value:
+                    cal.cell(row=r, column=10, value=nota)
     for t in reg.get("tareas", []):
         d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
         for r in range(5, cal.max_row + 1):

@@ -1040,6 +1040,12 @@
       "task": "Ballistic United: decir",
       "estado": "Hecho",
       "nota": "OK de Joel el 22/11. Brady Taylor en la cola: primer correo el 1/12 (primer hueco libre)"
+    },
+    {
+      "date": "2026-11-22",
+      "task": "Pegar el brief del CEO",
+      "estado": "Saltado",
+      "nota": "Sustituido por el mensaje actualizado del 23/11"
     }
   ],
   "textos": [
