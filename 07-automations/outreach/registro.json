@@ -249,6 +249,54 @@
       "kind": "Email 1",
       "date": "2026-11-23",
       "nota": "Enviado por Claude a las 04:36"
+    },
+    {
+      "key": "bethesda",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:34"
+    },
+    {
+      "key": "cincyunited",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:35"
+    },
+    {
+      "key": "dusc",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:36"
+    },
+    {
+      "key": "ifa",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:37"
+    },
+    {
+      "key": "nj14",
+      "kind": "Follow-up 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:38"
+    },
+    {
+      "key": "nysc",
+      "kind": "Follow-up 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:39"
+    },
+    {
+      "key": "unitedpdx",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:39"
+    },
+    {
+      "key": "wisconsin",
+      "kind": "Email 1",
+      "date": "2026-11-23",
+      "nota": "Enviado por Claude a las 09:40"
     }
   ],
   "tareas": [
