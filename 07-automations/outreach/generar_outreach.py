@@ -233,7 +233,7 @@ REBASE = D(2026, 11, 4)  # lo anterior que no se hizo queda como Saltado
 HOY_A_MANO = None  # sin envíos a mano: los del 4/11 no salieron y se programan para el viernes 6/11
 VIERNES_PUENTE = D(2026, 11, 6)  # St Kevin's, que no salió el 5/11
 DIA_PROGRAMADO = D(2026, 11, 5)  # Joel programó todo lo atrasado para este jueves: no se reparte
-VERSION = "17/11/2026"
+VERSION = "22/11/2026"
 
 ROSS = """{greet}
 
@@ -938,8 +938,8 @@ def build_calendar(sends):
     """Devuelve lista de dicts: date, time (HH:MM NY o texto), sortkey, svc, task, how, where, mins."""
     C = []
 
-    def add(d, t, sk, svc, task, how, where="", mins=10):
-        C.append(dict(date=d, time=t, sk=sk, svc=svc, task=task, how=how, where=where, mins=mins))
+    def add(d, t, sk, svc, task, how, where="", mins=10, resp=None, prio=None):
+        C.append(dict(date=d, time=t, sk=sk, svc=svc, task=task, how=how, where=where, mins=mins, resp=resp, prio=prio))
 
     start, end = D(2026, 10, 13), D(2026, 12, 18)
     d = start
@@ -1161,6 +1161,46 @@ def build_calendar(sends):
     add(D(2026, 11, 10), "Libre", 650, "Instagram", "Caso PR: descargar la carpeta del Metropolitano a Descargas para que Claude revise los vídeos", "En Drive, abre la carpeta «2026-11 Puerto Rico», selecciona todo (Cmd+A), clic derecho y Descargar. Llega un .zip a Descargas: dime «descargado» y reviso los 25 vídeos enteros (duración, sonido y qué pasa en cada uno). Los 23 mejores ya están renombrados (01_ a 23_).", "Drive y chat con Claude", 3)
     add(D(2026, 11, 10), "Libre", 700, "Team/Coach", "LinkedIn: conectar con Rob Mannino (NY Empire FC, Club President)", "El formulario de su web es para eventos y no deja escribir mensaje, así que cambiamos de canal. Busca «Rob Mannino NY Empire» y comprueba que el perfil dice NY Empire. Nota (182 caracteres): «Hi Rob, I'm Joel, I run Always Up here in New York. We take youth teams to train at Atlético de Madrid and Real Sociedad. I saw ISX takes teams abroad and would love to connect. Joel». Ojo: sus juveniles (ISX) ya van a Brasil en 2027; lo nuestro sería para otro equipo o para 2028.", "LinkedIn", 5)
     add(D(2026, 11, 11), "Libre", 615, "International Program", "Web realsociedadirp.com: mandar los cambios a quien la lleve", "Acordado con Enrique: quitar lo que no podemos cumplir y poner «Próxima convocatoria: temporada 2027/28» con lista de espera. Textos en inglés y español, listos para pegar.", "06-web/realsociedadirp-cambios-2026-11.md", 10)
+    # --- 22/11/2026: el Despacho de Joel lee esta hoja. Responsable y prioridad en cada fila; fuera lo que ya no hace Joel.
+    # Desde el 17/11 los correos los envía y comprueba el turno de Claude con correo_smtp.py: ya no se programan en Apple Mail.
+    C[:] = [x for x in C if not (x["date"] >= D(2026, 11, 16) and x["task"].startswith("Programar en Apple Mail"))]
+    # El contenido y las redes los lleva el Content Studio (Always Up HQ): fuera los bloques genéricos de redes desde hoy.
+    C[:] = [x for x in C if not (x["date"] >= D(2026, 11, 22) and x["task"].startswith(("Bloque de redes sociales", "Redes: avanzar")))]
+    for x in C:
+        if x["date"] >= D(2026, 11, 17) and x["task"].startswith("ENVIAR"):
+            x["how"] = "Lo envía el turno de Claude con correo_smtp.py y lo comprueba en Enviados. No tienes que hacer nada. Si un club contesta, te llega en el informe con la respuesta preparada."
+            x["resp"] = "Turno"
+        if x["date"] >= D(2026, 11, 17) and x["task"].startswith("Confirmar que salieron"):
+            x["how"] = "Lo hace el turno de Claude: comprueba que cada correo está en Enviados y mira rebotes. Si hay un rebote, sale en el informe del día."
+            x["resp"] = "Turno"
+        if x["date"] >= D(2026, 11, 11) and x["task"].startswith("Revisión diaria"):
+            x["resp"] = "Turno"
+            x["how"] = "Turno de Claude a las 7:30 (y revisiones a las 11, 14, 17 y 20 h): bandeja, rebotes y LinkedIn. Lo que necesite tu OK o tu cuenta sale en «Tus tareas» del informe del día (03-operations/informes/)."
+    A, AU, PL, CE = add, "02-sales/campanas-2027/README.md", "00-company/plan-plazas-2027.md", "01-clients/leads/coach-experience-asociaciones-eeuu.md"
+    GZ = "01-clients/propuestas/gonzalo-2027-opciones.md"
+    # Semana del 23/11
+    A(D(2026, 11, 22), "Libre", 500, "Team/Coach", "Ballistic United: decir «OK Ballistic» (o no)", "El correo a Jerry Losson rebotó: ya no está en el club. Nuevo decisor comprobado en el directorio del club: Brady Taylor, que lleva la formación de entrenadores. Mismo primer correo, solo cambia el saludo. Con tu OK lo pongo en la cola.", "03-operations/informes/2026-11-21.md", 1, "Joel", "media")
+    A(D(2026, 11, 23), "7:30", 450, "Todos", "Dejar visible el panel del navegador de la app durante el turno", "Cmd+Shift+B en la app de Claude. Con el panel oculto, LinkedIn no abre el diálogo de invitación y llevamos dos días sin conexiones (Stephenson, Robertson, Bradbury, Meana y Brady Taylor esperan).", "", 1, "Joel", "media")
+    A(D(2026, 11, 23), "Libre", 460, "Programa 12 días", "Iniciar sesión en Google en el navegador de la app para publicar el formulario de solicitud", "Google pide verificar tu cuenta de la universidad y eso solo puedes hacerlo tú. Entra con tu contraseña en la pestaña de Google Forms del panel y di «hecho». Claude lo publica y conecta las respuestas a una hoja. El enlace va en la ficha y en los mensajes (no en contenido público hasta la validación legal).", "02-sales/campanas-2027/programa-12-dias.md", 3, "Joel", "alta")
+    A(D(2026, 11, 23), "Libre", 470, "Socios", "Preparar con Enrique la llamada con Gonzalo", "Con el documento de opciones. Decisiones que salen de aquí: modelo A (precio neto de socio) o B (comisión), qué productos se le ofrecen y con qué precio orientativo. Si cambia algo, Claude rehace el PDF esa misma tarde.", GZ, 45, "Joel", "alta")
+    A(D(2026, 11, 23), "Libre", 480, "Team/Coach", "Greystones: Enrique pregunta a Patrick cómo está el club y qué pasó con el equipo de chicas", "Solo un mensaje personal, sin propuesta ni precio. La propuesta va cuando tengamos las tarifas (tras la reunión del 26/11 al 3/12), con alternativas por si es cuestión de precio. Si hay ocasión, pedir el testimonio corto y la confirmación del consentimiento de imágenes de los padres (texto «Greystones 2»). Semana Santa se confirma antes del 15/01.", "01-clients/propuestas/greystones-2027.md", 10, "Enrique", "alta")
+    A(D(2026, 11, 23), "Libre", 490, "Becas", "Omar (gemelos): pedir a David la valoración", "Sin la valoración no se puede preparar la propuesta. Contacto de principios de diciembre con Omar ya en el calendario (1/12).", "", 5, "Enrique", "media")
+    A(D(2026, 11, 23), "Libre", 495, "Programa 12 días", "Matthew Davis (Mount Aloysius): escribirle en persona sobre el programa de 12 días", "Lo conoces: mejor un mensaje tuyo o en persona que el texto frío. Idea: sus jugadores de último año que quieren seguir jugando. Ficha en inglés en 02-sales/assets/.", "02-sales/campanas-2027/programa-12-dias.md", 5, "Joel", "media")
+    A(D(2026, 11, 23), "10:30", 630, "Programa 12 días", "Correos a entrenadores de JUCO y D2 (Herkimer, Mercer County y Georgian Court)", "Salen solos con envio_campana.py (tarea programada). Texto A1 aprobado el 20/11. El turno comprueba el envío y apunta las respuestas.", "07-automations/outreach/campanas_envios.json", 0, "Turno", "media")
+    A(D(2026, 11, 23), "Libre", 640, "Becas", "Lista de reactivación de leads antiguos de becas", "Sacar del CRM (Segmento C) los leads de 2025/26 que no cerraron, con el texto de reactivación aprobado. Joel los envía desde su Instagram.", "02-sales/campana-becas-2027-28.md", 0, "Turno", "media")
+    A(D(2026, 11, 23), "Libre", 645, "Programa 12 días", "Comprobar el correo de 6 entrenadores más (Brookdale, Westchester, Caldwell, Molloy, Monroe y Suffolk)", "En la web de atletismo de cada universidad. Los que salgan bien entran en campanas_envios.json para la semana del 30/11.", "02-sales/campanas-2027/programa-12-dias.md", 0, "Turno", "media")
+    A(D(2026, 11, 24), "Libre", 470, "Socios", "LLAMADA con Gonzalo Lamas (Argentina): oferta 2027", "Objetivo: que elija 1 o 2 productos de 2027 con número de personas y mes, y que acepte el modelo de trabajo. Guion corto en el documento. Sin negociar precio en la llamada. Después, pégame lo que se habló y preparo la propuesta.", GZ, 45, "Joel", "alta")
+    A(D(2026, 11, 24), "10:30", 630, "Programa 12 días", "Correos a entrenadores de JUCO (Nassau, Bergen y Mohawk Valley)", "Salen solos con envio_campana.py (tarea programada). El turno comprueba el envío.", "07-automations/outreach/campanas_envios.json", 0, "Turno", "media")
+    A(D(2026, 11, 24), "Libre", 650, "Coach Experience", "Preparar la ficha «Coach Education Week» y los textos para federaciones", "Para la sesión del miércoles: ficha de una página, gancho y seguimientos para EPYSA, NorCal y Eastern New York, y comprobar los contactos de Cal North y CJSA.", CE, 0, "Turno", "alta")
+    A(D(2026, 11, 25), "Libre", 470, "Coach Experience", "SESIÓN de Coach Experience con Claude", "Salimos con: (1) una frase publicable de qué incluye la Coach Experience (la necesita el envío del 1/12 y el contenido); (2) el precio de grupo que se puede decir; (3) el OK a los textos para las federaciones.", CE, 45, "Joel", "alta")
+    A(D(2026, 11, 25), "Libre", 480, "Todos", "Contestar los datos de Always Up que se pueden decir en público", "Los pide el Content Studio: tu cargo (cofundador o Director de Operaciones, igual en todas partes), si decimos que organizamos las experiencias en España, si se pueden nombrar los clubes con acuerdo, qué experiencias se pueden contar, qué incluye la Coach Experience (sale de la sesión de hoy) y si Enrique aparece en el contenido. Decidir con Enrique.", "", 15, "Joel", "alta")
+    A(D(2026, 11, 25), "Libre", 640, "Team/Coach", "Home Farm: último intento con la llamada de 15 minutos", "Texto B de la campaña de Team Experience, en el mismo hilo. Sale con el OK de Joel.", "02-sales/campanas-2027/team-experience.md", 0, "Turno", "media")
+    A(D(2026, 11, 26), "Libre", 640, "Team/Coach", "Bollington: ofrecer la llamada a sus entrenadores", "Han reenviado la ficha a sus equipos. Mensaje corto en el mismo hilo con el texto B. Sale con el OK de Joel.", "02-sales/campanas-2027/team-experience.md", 0, "Turno", "media")
+    A(D(2026, 11, 26), "Libre", 480, "Todos", "Reunión de Enrique con los clubes (del 26/11 al 3/12): precio de 5 días del Atlético y alojamiento de entrenadores", "Sin el precio de 5 días, los 1.500 € de Team Experience son una estimación y el margen no está claro. Preguntar también si la Real Sociedad acepta grupos de touroperador y a qué precio.", PL, 0, "Enrique", "alta")
+    A(D(2026, 11, 30), "Libre", 460, "Eventos", "Decidir si vas a la convención de United Soccer Coaches (Kansas City, 20 al 23/01)", "495 $ hasta el 1/12, después 565 $. Si es sí: te inscribes tú (Claude no mete datos de pago) y Claude prepara 10 o 15 citas con nuestras listas. Si es un gasto grande, consúltalo con Enrique. Por el F1, ir a conocer gente no es trabajar; si dudas, pregunta en la oficina internacional.", "02-sales/eventos-2027.md", 5, "Joel", "alta")
+    A(D(2026, 12, 1), "10:00", 600, "Coach Experience", "Envío a federaciones de EEUU (EPYSA, NorCal, Eastern New York y el resto de la lista)", "Con los textos aprobados en la sesión del 25/11. Los envía el turno con correo_smtp.py y comprueba cada uno. Incluye el correo a Shawn Burke.", CE, 0, "Turno", "alta")
+    A(D(2026, 12, 5), "Libre", 480, "Programa 12 días", "Acuerdo con el Real Unión (reparto 50/50 y precio final)", "Sin el acuerdo, los 2.300 € siguen sin confirmar y no se abren reservas.", "02-sales/campanas-2027/programa-12-dias.md", 0, "Enrique", "alta")
+    A(D(2026, 12, 15), "Libre", 480, "Todos", "Abogado, seguro y forma de cobro listos (contrato revisado y validación legal)", "Sin esto no se cobra la reserva del 30 % ni se publica contenido del programa de 12 días ni de becas.", PL, 0, "Enrique", "alta")
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 
@@ -1229,6 +1269,23 @@ def read_saved(wb, sheet, key_cols, val_cols, header_row=4):
     return saved
 
 
+def _resp_prio(t):
+    """Responsable y prioridad para el Despacho de Joel (22/11/2026). Lo explícito manda; si no, se deduce."""
+    task = t["task"]
+    resp = t.get("resp")
+    if not resp:
+        resp = "Turno" if (task.startswith(("ENVIAR", "Confirmar que salieron", "LinkedIn: conectar", "Actualizar el CRM")) and t["date"] >= D(2026, 11, 17)) else "Joel"
+    prio = t.get("prio")
+    if not prio:
+        if task.startswith(("LLAMADA", "URGENTE", "SESIÓN")):
+            prio = "alta"
+        elif task.startswith(("Opcional", "Bloque de redes", "Redes:", "Revisión diaria", "Confirmar que salieron", "ENVIAR", "Programar en Apple Mail")):
+            prio = "baja"
+        else:
+            prio = "media"
+    return resp, prio
+
+
 def sheet_calendar(wb, cal):
     saved = read_saved(wb, "Calendario diario", (1, 5), (9, 10))
     # Lo saltado de semanas pasadas ya no se enseña: confundía con tareas pendientes (4/11/2026).
@@ -1246,19 +1303,26 @@ def sheet_calendar(wb, cal):
     ws = fresh(wb, "Calendario diario", 0)
     title(ws, "Calendario diario (versión %s)" % VERSION,
           "Qué haces tú cada día, a qué hora y cómo. Las horas son de Nueva York. Los correos se programan la víspera en Apple Mail (Enviar más tarde) para las 09:30 de cada club; a las 08:00 compruebas que salieron. "
-          "Cambia la columna Estado a Hecho al terminar. Hoy se marca en amarillo. Si algo queda Pendiente de un día anterior, sale en rojo.", span=9)
+          "Cambia la columna Estado a Hecho al terminar. Hoy se marca en amarillo. Si algo queda Pendiente de un día anterior, sale en rojo. Responsable: Joel, Enrique o Turno (Claude).", span=12)
     head(ws, 4, ["Fecha", "Día", "Hora (NY)", "Servicio", "Tarea", "Cómo se hace, paso a paso", "Dónde está el texto", "Min", "Estado"],
          [11, 11, 9, 16, 40, 78, 24, 6, 12])
     ws.cell(row=4, column=10, value="Notas / resultado")
     c = ws.cell(row=4, column=10)
     c.fill = PatternFill("solid", fgColor=NAVY); c.font = Font(bold=True, color="FFFFFF"); c.border = BORDER
     ws.column_dimensions["J"].width = 36
+    for col, lab, w in ((11, "Responsable", 12), (12, "Prioridad", 10)):
+        c = ws.cell(row=4, column=col, value=lab)
+        c.fill = PatternFill("solid", fgColor=NAVY); c.font = Font(bold=True, color="FFFFFF"); c.border = BORDER
+        ws.column_dimensions[openpyxl.utils.get_column_letter(col)].width = w
     svc_col = {"Team/Coach": LBLUE, "Becas": LGRN, "Instagram": "F3E8FF", "Brasil/Campus": LYEL, "Campus Internacional": LYEL,
                "International Program": LYEL, "GEE / Fichas": LYEL, "Todos": GREY, "Transversal": GREY}
     r = 5
     last_week = None
-    dv = DataValidation(type="list", formula1='"Pendiente,Hecho,Saltado"', allow_blank=True)
+    dv = DataValidation(type="list", formula1='"Pendiente,Hecho,Saltado,No encontrado"', allow_blank=True)
     ws.add_data_validation(dv)
+    dv_resp = DataValidation(type="list", formula1='"Joel,Enrique,Turno"', allow_blank=True)
+    dv_prio = DataValidation(type="list", formula1='"alta,media,baja"', allow_blank=True)
+    ws.add_data_validation(dv_resp); ws.add_data_validation(dv_prio)
     first = r
     for t in cal:
         wk = t["date"].isocalendar()[1]
@@ -1266,13 +1330,13 @@ def sheet_calendar(wb, cal):
             monday = t["date"] - dt.timedelta(days=t["date"].weekday())
             sunday = monday + dt.timedelta(days=6)
             ws.cell(row=r, column=1, value="SEMANA  %s a %s" % (monday.strftime("%d/%m"), sunday.strftime("%d/%m")))
-            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=10)
+            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=12)
             ws.cell(row=r, column=1).fill = PatternFill("solid", fgColor=RED)
             ws.cell(row=r, column=1).font = Font(bold=True, color="FFFFFF", size=11)
             ws.row_dimensions[r].height = 22
             r += 1
             last_week = wk
-        vals = [t["date"], spanish_day(t["date"]).capitalize(), t["time"], t["svc"], t["task"], t["how"], t["where"], t["mins"] or None, "Pendiente", None]
+        vals = [t["date"], spanish_day(t["date"]).capitalize(), t["time"], t["svc"], t["task"], t["how"], t["where"], t["mins"] or None, "Pendiente", None] + list(_resp_prio(t))
         informative = False
         for i, v in enumerate(vals, 1):
             cell = ws.cell(row=r, column=i, value=v)
@@ -1297,16 +1361,18 @@ def sheet_calendar(wb, cal):
             ws.cell(row=r, column=9, value="Automático")
         else:
             dv.add(ws.cell(row=r, column=9))
+        dv_resp.add(ws.cell(row=r, column=11)); dv_prio.add(ws.cell(row=r, column=12))
         ws.row_dimensions[r].height = min(max(est_height(t["how"], 78), est_height(t["task"], 40), 30), 330)
         r += 1
     last = r - 1
-    rng = "A%d:J%d" % (first, last)
+    rng = "A%d:L%d" % (first, last)
     ws.conditional_formatting.add(rng, FormulaRule(formula=["$I%d=\"Hecho\"" % first], font=Font(color="999999", strike=True), stopIfTrue=True))
     ws.conditional_formatting.add(rng, FormulaRule(formula=["$A%d=TODAY()" % first], fill=PatternFill("solid", bgColor="FFF2CC", fgColor="FFF2CC")))
     ws.conditional_formatting.add("I%d:I%d" % (first, last), FormulaRule(formula=["AND(ISNUMBER($A%d),$A%d<TODAY(),$I%d=\"Pendiente\")" % (first, first, first)],
                                   font=Font(color="C00000", bold=True)))
     ws.freeze_panes = "A5"
-    ws.auto_filter.ref = "A4:J%d" % last
+    ws.conditional_formatting.add("L%d:L%d" % (first, last), FormulaRule(formula=["$L%d=\"alta\"" % first], font=Font(color="C00000", bold=True)))
+    ws.auto_filter.ref = "A4:L%d" % last
     ws.sheet_properties.tabColor = RED
 
 
@@ -1596,6 +1662,20 @@ def apply_registro(wb):
                 old = str(sa.cell(row=r, column=15).value or "")
                 if nota not in old:
                     sa.cell(row=r, column=15, value=(old + " | " + nota).strip(" |"))
+    # 22/11/2026: cada envío del registro cierra su fila «ENVIAR ...» del calendario (misma fecha o anterior), sin apuntarlo dos veces.
+    for e in reg.get("envios", []):
+        p = people.get(e["key"])
+        if not p:
+            continue
+        d = dt.datetime.strptime(e["date"], "%Y-%m-%d").date()
+        tarea = "ENVIAR %s a %s" % (e["kind"].lower(), label(p["club"]))
+        for r in range(5, cal.max_row + 1):
+            a = cal.cell(row=r, column=1).value
+            fecha = a.date() if isinstance(a, dt.datetime) else a
+            if isinstance(fecha, dt.date) and fecha <= d and cal.cell(row=r, column=5).value == tarea and cal.cell(row=r, column=9).value == "Pendiente":
+                cal.cell(row=r, column=9, value="Hecho")
+                if not cal.cell(row=r, column=10).value:
+                    cal.cell(row=r, column=10, value=e.get("nota"))
     for t in reg.get("tareas", []):
         d = dt.datetime.strptime(t["date"], "%Y-%m-%d").date()
         for r in range(5, cal.max_row + 1):

@@ -36,6 +36,16 @@ Funcionan mientras la app de Claude esté abierta en el Mac de Joel (encendido, 
    - Lo que necesito que apruebes, con los textos listos.
    - Tus tareas de hoy (qué, cuándo y cómo).
 
+## El Despacho de Joel (desde el 22/11/2026)
+Joel ve todas sus tareas en el Despacho, un panel local que hizo en otro repo, `joel-personal-brand-os`. **Ese repo no se toca nunca desde aquí.** El Despacho solo lee tres fuentes de este repo:
+1. **La hoja «Calendario diario» del Excel.** Es la fuente principal. Las tareas se crean en `build_calendar` de `generar_outreach.py` y cada una lleva su responsable (Joel, Enrique o Turno) y su prioridad (alta, media o baja). Si no las tiene, las deduce `_resp_prio`. Lo que ya está hecho se apunta en `registro.json` > `tareas`, con estado Hecho, Saltado o No encontrado. Los envíos de `registro.json` > `envios` cierran solos su fila «ENVIAR ...».
+2. **La tabla «Los primeros clientes de 2027»** de `02-sales/campanas-2027/README.md`. La columna «Cuándo» va siempre como dd/mm; «esta semana» no vale.
+3. **«Tus tareas» del informe diario.** Cada línea con el formato `**dd/mm:** qué hacer` o `**Antes del dd/mm:** qué decidir`.
+
+Cada reunión, llamada o decisión con fecha entra en el Calendario diario el mismo día que se acuerda. Al cerrar el turno, lo hecho se apunta en `registro.json` y se regenera con `--si-cerrado`.
+
+El contenido y las redes los lleva el Content Studio de la otra conversación: aquí no se planifican tareas de contenido nuevas.
+
 ## Reglas que no se saltan
 - Nunca contraseñas, claves ni credenciales en el repo ni en los textos. Si algo pide iniciar sesión, se para y se avisa.
 - Correos: solo los del generador con fecha de hoy, ya validados. Máximo 6 al día, de martes a jueves. Nada de textos nuevos a clientes sin el OK de Joel.

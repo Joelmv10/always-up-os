@@ -12,17 +12,18 @@
 | **Socios con volumen** (Gonzalo, SADE y touroperadores) | `01-clients/propuestas/gonzalo-2027-opciones.md` y `touroperadores-2027.md` | Gonzalo: PDF listo para el martes 24. Touroperadores: esperan a la Real Sociedad | Gonzalo: martes 24. Touroperadores: cuando Enrique confirme | Gonzalo elige 1 o 2 productos de 2027 |
 
 ## 2. Los primeros clientes de 2027 (lo más cerca de cerrar)
+> El Despacho de Joel lee esta tabla (22/11): la columna «Cuándo» siempre con fecha dd/mm; «Quién» es Joel, Enrique o Turno.
 | # | Quién | Producto | Siguiente paso | Quién | Cuándo |
 |---|---|---|---|---|---|
-| 1 | **Greystones** (Patrick) | Team Experience de Semana Santa o junio | Enrique les escribe (texto en `01-clients/propuestas/greystones-2027.md`) | Enrique | Lunes 23, si lo confirma |
-| 2 | **Gonzalo Lamas** | Campus en julio o un grupo de entrenadores | Llamada con la oferta en PDF | Joel | Martes 24 |
-| 3 | **Home Farm** | Team Experience | Sin respuesta desde el 5/11. Último intento con la llamada de 15 minutos (texto B de Team Experience) | Claude, con el OK de Joel | 25/11 |
-| 4 | **Bollington** | Team Experience | Ha reenviado la ficha a sus equipos. Esperar 7 días y ofrecer la llamada a los entrenadores | Claude, con el OK de Joel | 26/11 |
+| 1 | **Greystones** (Patrick) | Team Experience de Semana Santa o junio | Enrique pregunta cómo está el club y qué pasó con el equipo de chicas, sin propuesta. La propuesta, con alternativas, va cuando tengamos las tarifas (`01-clients/propuestas/greystones-2027.md`) | Enrique | 23/11 |
+| 2 | **Gonzalo Lamas** | Campus en julio o un grupo de entrenadores | Llamada con la oferta en PDF | Joel | 24/11 |
+| 3 | **Home Farm** | Team Experience | Sin respuesta desde el 5/11. Último intento con la llamada de 15 minutos (texto B de Team Experience) | Turno, con el OK de Joel | 25/11 |
+| 4 | **Bollington** | Team Experience | Ha reenviado la ficha a sus equipos. Esperar 7 días y ofrecer la llamada a los entrenadores | Turno, con el OK de Joel | 26/11 |
 | 5 | **William** (19, Francia) | 12 días o becas | Esperar sus vídeos y proponer el programa de 12 días | Joel | Cuando mande los vídeos |
-| 6 | **Omar (gemelos)** | Becas | Valoración de David | Enrique se la pide | Esta semana |
-| 7 | **Khalil Lazrek** (club nuevo en Orlando) | Team o Coach Experience para su primer año | Mantener el contacto y volver en enero con una idea para su club | Joel | Enero |
-| 8 | **Shawn Burke y Pedro Sousa** | Coach Experience; Pedro también para jugadores de JUCO (12 días) | Shawn: correo del 1/12. Pedro: texto A1 de 12 días | Claude y Joel | 1/12 |
-| 9 | **EPYSA, NorCal y Eastern New York** | Coach Experience de grupo | Envío del 1/12 tras la sesión | Claude, con el OK de Joel | 1/12 |
+| 6 | **Omar (gemelos)** | Becas | Valoración de David | Enrique | 23/11 |
+| 7 | **Khalil Lazrek** (club nuevo en Orlando) | Team o Coach Experience para su primer año | Mantener el contacto y volver en enero con una idea para su club | Joel | 11/01 |
+| 8 | **Shawn Burke y Pedro Sousa** | Coach Experience; Pedro también para jugadores de JUCO (12 días) | Shawn: correo del 1/12. Pedro: texto A1 de 12 días | Turno y Joel | 01/12 |
+| 9 | **EPYSA, NorCal y Eastern New York** | Coach Experience de grupo | Envío del 1/12 tras la sesión | Turno, con el OK de Joel | 01/12 |
 
 ## 3. El reparto del trabajo
 **Claude, cada día (turno de las 7:30 y siguientes):**

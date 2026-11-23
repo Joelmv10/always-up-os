@@ -764,6 +764,174 @@
       "date": "2026-11-21",
       "task": "Revisión diaria",
       "nota": "Turno de las 7:30 (sábado): rebote de Ballistic confirmado, nuevo decisor Brady Taylor (reenvío pendiente de OK); LinkedIn sin respuestas nuevas; conexiones no hechas (panel oculto); convención de United Soccer Coaches 2027 investigada (02-sales/eventos-2027.md); informe 2026-11-21.md"
+    },
+    {
+      "date": "2026-11-08",
+      "task": "Programar en Apple Mail los envíos del lunes",
+      "estado": "Saltado",
+      "nota": "22/11: los del 9/11 salieron a mano esa noche"
+    },
+    {
+      "date": "2026-11-09",
+      "task": "Confirmar que salieron",
+      "estado": "Hecho",
+      "nota": "22/11: comprobado (envíos del 9/11 en el registro)"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Enrique: cómo fue Donosti",
+      "estado": "Hecho",
+      "nota": "Resultado en 00-company/reuniones-enrique-semana-2026-11-09.md"
+    },
+    {
+      "date": "2026-11-10",
+      "task": "Enrique: hablar del precio del showcase",
+      "estado": "Hecho",
+      "nota": "Hablado en la misma conversación de Donosti"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "Revisión diaria",
+      "estado": "Hecho",
+      "nota": "Turno de Claude"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "Revisión diaria",
+      "estado": "Hecho",
+      "nota": "Turno de Claude"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "Revisión diaria",
+      "estado": "Hecho",
+      "nota": "Turno de Claude"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "Revisión diaria",
+      "estado": "Hecho",
+      "nota": "Turno de Claude"
+    },
+    {
+      "date": "2026-11-17",
+      "task": "Revisión diaria",
+      "estado": "Hecho",
+      "nota": "Turno de Claude, informe 2026-11-17.md"
+    },
+    {
+      "date": "2026-11-17",
+      "task": "Confirmar que salieron",
+      "estado": "Hecho",
+      "nota": "Turno: NJ14 y NYSC enviados por Claude"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "Confirmar que salieron",
+      "estado": "Hecho",
+      "nota": "Turno: comprobado"
+    },
+    {
+      "date": "2026-11-19",
+      "task": "Confirmar que salieron",
+      "estado": "Hecho",
+      "nota": "Turno: comprobado"
+    },
+    {
+      "date": "2026-11-20",
+      "task": "Confirmar que salieron",
+      "estado": "Hecho",
+      "nota": "Turno: comprobado; rebote de Ballistic"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "Redes: avanzar tu plan",
+      "estado": "Hecho",
+      "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
+    },
+    {
+      "date": "2026-11-14",
+      "task": "Redes: avanzar tu plan",
+      "estado": "Hecho",
+      "nota": "22/11: Oficina de Contenido y Content Studio montados en joel-personal-brand-os"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "Bloque de redes sociales",
+      "estado": "Hecho",
+      "nota": "22/11: lo lleva el Content Studio"
+    },
+    {
+      "date": "2026-11-21",
+      "task": "Bloque de redes sociales",
+      "estado": "Hecho",
+      "nota": "22/11: lo lleva el Content Studio"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "Pavel: decidir el precio",
+      "estado": "Hecho",
+      "nota": "Precio decidido el 17/11 (guion de Pavel)"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "Revisión semanal",
+      "estado": "Hecho",
+      "nota": "Informes del turno"
+    },
+    {
+      "date": "2026-11-20",
+      "task": "Revisión semanal",
+      "estado": "Hecho",
+      "nota": "Informe semanal del 20/11"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "Actualizar el CRM",
+      "estado": "Hecho",
+      "nota": "Lo actualiza el turno de Claude"
+    },
+    {
+      "date": "2026-11-20",
+      "task": "Actualizar el CRM",
+      "estado": "Hecho",
+      "nota": "Lo actualiza el turno de Claude"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "Greystones 2027: decidir con Enrique",
+      "estado": "Hecho",
+      "nota": "19/11: Enrique les escribe primero para sondear 2027; la propuesta espera a las tarifas"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "Revisión del mes con Claude",
+      "estado": "Saltado",
+      "nota": "22/11: sustituida por el objetivo común (19/11) y el tablero de campañas (20/11)"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "Piloto: 5 mensajes",
+      "estado": "Saltado",
+      "nota": "22/11: pasa a la campaña de becas (mensaje de referidos de entrenadores)"
+    },
+    {
+      "date": "2026-11-19",
+      "task": "Home Farm: preguntar",
+      "estado": "Saltado",
+      "nota": "22/11: pasa al 25/11, último intento con la llamada de 15 minutos"
+    },
+    {
+      "date": "2026-11-20",
+      "task": "Opcional: DM",
+      "estado": "Saltado",
+      "nota": "Opcional, no hecho"
+    },
+    {
+      "date": "2026-11-21",
+      "task": "Opcional: DM",
+      "estado": "Saltado",
+      "nota": "Opcional, no hecho"
     }
   ],
   "textos": [
