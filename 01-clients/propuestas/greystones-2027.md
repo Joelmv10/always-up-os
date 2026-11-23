@@ -58,3 +58,7 @@ Hi Patrick, hope you're all doing well with Alexia! I've put together a short pr
 ## Después
 - Si contesta: llamada de 15 minutos. Preguntas: qué equipos y edades, cuántos jugadores, fechas, presupuesto por jugador y si los entrenadores quieren el Staff Program.
 - En la misma llamada, retomar lo que dejó pendiente el 4/11: presentarnos a 2 clubes de su liga y su testimonio firmado.
+
+## 22/11/2026: estado del testimonio
+- Patrick dejó en visto el último mensaje de Joel. Era el borrador del testimonio, con dos preguntas: cómo quiere que aparezcan su nombre y su cargo, y si podemos usar el nombre y el escudo del club. Acaba de ser padre, así que el silencio es normal.
+- Joel no le vuelve a escribir. Enrique retoma la relación el 23/11 preguntando cómo está el club. Si sale el tema, solo pregunta si pudo ver el borrador. **Hasta que Patrick lo apruebe por escrito, no se usa el testimonio** ni la frase de Greystones en los correos de seguimiento.

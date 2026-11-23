@@ -213,6 +213,8 @@ PROSPECTS_US = [
     _us("cedar", "Cedar Stars Academy", "Cedar Stars Academy", "America/New_York", "phil.swenda@cedarstars.com", "Hi Phil,", "Phil Swenda (Academy Director, Monmouth)", "Nueva Jersey", D(2026, 11, 3), li=("Phil Swenda", "Pega en el buscador de LinkedIn: Phil Swenda Cedar Stars Academy", "Sin enlace directo. Comprueba que dice Cedar Stars.")),
     _us("ifa", "Intercontinental Football Academy of New England", "IFA New England", "America/New_York", "mhardiman@ifanewengland.com", "Hi Matt,", "Matt Hardiman (consultas de chicos)", "Massachusetts", D(2026, 11, 3), li=("Matt Hardiman", "https://www.linkedin.com/in/matt-hardiman-3639a459/", "Alta: aparece como IFA New England (Boston).")),
     _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 11, 4), li=("Jerry Losson", "Pega en el buscador de LinkedIn: Jerry Losson Ballistic United", "Sin enlace directo. Comprueba que dice Ballistic United.")),
+    # 22/11: OK de Joel. Sustituye a Jerry Losson (rebotó el 20/11). Comprobado en busc.org/about/directory el 21/11. Mismo primer correo, solo cambia el saludo.
+    _us("ballisticbrady", "Ballistic United (Brady Taylor)", "Ballistic United", "America/Los_Angeles", "bradytaylor@busc.org", "Hi Brady,", "Brady Taylor (Director of Player Development & Coaching Education)", "California", D(2026, 11, 24), li=("Brady Taylor", "Pega en el buscador de LinkedIn: Brady Taylor Ballistic United", "Comprueba que dice Ballistic United.")),
     _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 11, 4), right="Jeff Zaun", li=("Jeff Zaun", "Pega en el buscador de LinkedIn: Jeff Zaun FC Delco", "Sin enlace directo. Comprueba que dice FC Delco.")),
     _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 11, 4), li=("Mo Hijazi", "https://www.linkedin.com/in/mo-hijazi-757b3829/", "Media-alta: Dearborn, Míchigan; entrenador y director de coaching. Comprueba que menciona Michigan Jaguars.")),
     _us("loufusz", "Lou Fusz Athletic", "Lou Fusz Athletic", "America/Chicago", "matt.mueller@loufuszathletic.com", "Hi Matt,", "Matt Mueller (Director of Coaching and Competition)", "Misuri", D(2026, 11, 10), li=("Matt Mueller", "Pega en el buscador de LinkedIn: Matt Mueller Lou Fusz Athletic", "Nombre muy común: el perfil que sale en buscadores es de otra empresa. Comprueba que dice Lou Fusz Athletic.")),
@@ -424,7 +426,7 @@ for _p in PROSPECTS_US:
 
 _E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026, 11, 5), "ross": D(2026, 11, 5), "stkevins": D(2026, 11, 6), "ballymun": D(2026, 11, 5),
        "bollington": D(2026, 11, 10), "cramond": D(2026, 11, 10),
-       "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
+       "cedar": D(2026, 11, 10), "nyempire": D(2026, 11, 10), "seacoast": D(2026, 11, 11), "nj14": D(2026, 11, 11), "ifa": D(2026, 11, 17), "ballistic": D(2026, 11, 17), "ballisticbrady": D(2026, 11, 24), "delco": D(2026, 12, 1), "walnut": D(2026, 12, 1),
        "loufusz": D(2026, 12, 2), "slsg": D(2026, 12, 2), "cincyunited": D(2026, 12, 3), "tbu": D(2026, 12, 3), "bethesda": D(2026, 12, 8),
        "sockers": D(2026, 12, 8), "jaguars": D(2026, 12, 9), "chicagofcu": D(2026, 12, 9)}
 _FU1 = {"stkevins": D(2026, 11, 25), "homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
@@ -1201,6 +1203,21 @@ def build_calendar(sends):
     A(D(2026, 12, 1), "10:00", 600, "Coach Experience", "Envío a federaciones de EEUU (EPYSA, NorCal, Eastern New York y el resto de la lista)", "Con los textos aprobados en la sesión del 25/11. Los envía el turno con correo_smtp.py y comprueba cada uno. Incluye el correo a Shawn Burke.", CE, 0, "Turno", "alta")
     A(D(2026, 12, 5), "Libre", 480, "Programa 12 días", "Acuerdo con el Real Unión (reparto 50/50 y precio final)", "Sin el acuerdo, los 2.300 € siguen sin confirmar y no se abren reservas.", "02-sales/campanas-2027/programa-12-dias.md", 0, "Enrique", "alta")
     A(D(2026, 12, 15), "Libre", 480, "Todos", "Abogado, seguro y forma de cobro listos (contrato revisado y validación legal)", "Sin esto no se cobra la reserva del 30 % ni se publica contenido del programa de 12 días ni de becas.", PL, 0, "Enrique", "alta")
+    # --- 22/11/2026 (respuestas de Joel a las tareas antiguas)
+    # El contenido del caso PR lo lleva el Content Studio (Always Up HQ). Aquí solo quedan las tareas legales del caso.
+    C[:] = [x for x in C if not (x["date"] >= D(2026, 11, 22) and (x["task"].startswith(("Caso PR: montar", "Caso PR: grabarte", "Caso PR: publicar", "Caso PR: pasarme el inventario", "Redes: preparar el perfil para la vuelta"))))]
+    for x in C:
+        if x["task"].startswith("Caso PR: entrevista final y fotos"):
+            x["date"] = D(2026, 11, 24)
+            x["task"] = "Caso PR: entrevista final y fotos de Adrián"
+            x["how"] = "La hace Enrique el martes. De 10 a 15 minutos con la guía, frases cortas a cámara y tres fotos (con la camiseta, con Enrique, con la bolsa o las botas). Todo a la carpeta de Drive, nada al repo. El material lo trabaja después el Content Studio."
+            x["where"] = "04-marketing/caso-pr-entrevista-final-y-familia.md"
+            x["resp"], x["prio"] = "Enrique", "alta"
+        if x["task"].startswith("Greystones: Enrique pregunta a Patrick"):
+            x["how"] += " Contexto: Patrick dejó en visto el borrador del testimonio que le mandó Joel; acaba de ser padre, así que el silencio es normal. No se le insiste: si sale el tema, Enrique solo pregunta si pudo verlo."
+        if x["task"].startswith("Lista de reactivación de leads antiguos de becas"):
+            x["how"] += " Incluye a Pavel Gomez: la llamada del 12/11 no se hizo y sigue siendo un lead fuerte (17 años, ya en EEUU, clase de 2027)."
+    add(D(2026, 11, 26), "Libre", 660, "International Program", "Web realsociedadirp.com: mandar los cambios a quien la lleve", "Sigue sin hacerse (11/11) y la web promete cosas que no podemos cumplir: integración en un equipo de la Real Sociedad, partidos de liga y programa de un mes todo el año. Pregunta a Enrique quién la lleva y mándale los textos (inglés y español, listos para pegar).", "06-web/realsociedadirp-cambios-2026-11.md", 10, "Joel", "media")
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 

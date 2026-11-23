@@ -932,6 +932,48 @@
       "task": "Opcional: DM",
       "estado": "Saltado",
       "nota": "Opcional, no hecho"
+    },
+    {
+      "date": "2026-11-11",
+      "task": "Web realsociedadirp.com",
+      "estado": "Saltado",
+      "nota": "Joel 22/11: no se hizo. Pasa al 26/11"
+    },
+    {
+      "date": "2026-11-12",
+      "task": "LLAMADA con Pavel",
+      "estado": "Saltado",
+      "nota": "Joel 22/11: la llamada no se hizo. Pavel entra en la reactivación de becas"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "Caso PR: confirmar la fecha",
+      "estado": "Hecho",
+      "nota": "Entrevista final: Enrique, martes 24/11"
+    },
+    {
+      "date": "2026-11-13",
+      "task": "Enrique: resultado de las reuniones",
+      "estado": "Hecho",
+      "nota": "Joel ya lo contó en el chat"
+    },
+    {
+      "date": "2026-11-16",
+      "task": "Patrick: si no ha contestado",
+      "estado": "Saltado",
+      "nota": "Patrick dejó en visto el borrador del testimonio. No insiste Joel: lo retoma Enrique el 23/11"
+    },
+    {
+      "date": "2026-11-18",
+      "task": "Caso PR: montar P1",
+      "estado": "Saltado",
+      "nota": "El contenido lo lleva el Content Studio (Always Up HQ)"
+    },
+    {
+      "date": "2026-11-22",
+      "task": "Ballistic United: decir",
+      "estado": "Hecho",
+      "nota": "OK de Joel el 22/11. Brady Taylor en la cola: primer correo el 1/12 (primer hueco libre)"
     }
   ],
   "textos": [
