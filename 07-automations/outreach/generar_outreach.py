@@ -1262,7 +1262,7 @@ def build_calendar(sends):
         if x["task"].startswith("Caso PR: entrevista final y fotos"):
             x["date"] = D(2026, 11, 24)
             x["task"] = "Caso PR: entrevista final y fotos de Adrián"
-            x["how"] = "La hace Enrique el martes. De 10 a 15 minutos con la guía, frases cortas a cámara y tres fotos (con la camiseta, con Enrique, con la bolsa o las botas). Todo a la carpeta de Drive, nada al repo. El material lo trabaja después el Content Studio."
+            x["how"] = "La hace Enrique el martes, con Naiara si puede. Guía nueva con el Metropolitano, el Real Unión, Ávila, Donosti y Anoeta: 04-marketing/caso-pr-entrevista-final-v2.md. De 15 minutos con la guía, frases cortas a cámara y tres fotos (con la camiseta, con Enrique, con la bolsa o las botas). Todo a la carpeta de Drive, nada al repo. El material lo trabaja después el Content Studio."
             x["where"] = "04-marketing/caso-pr-entrevista-final-y-familia.md"
             x["resp"], x["prio"] = "Enrique", "alta"
         if x["task"].startswith("Greystones: Enrique pregunta a Patrick"):
@@ -1288,6 +1288,13 @@ def build_calendar(sends):
     add(D(2026, 12, 9), "Libre", 480, "Todos", "Sesión con Enrique: las decisiones abiertas de 2027", "Deportivo de la Coruña, International Program con la Real Sociedad, Staff Program, oportunidades profesionales en Alemania y segundo dominio de envío. Una hora. Claude prepara el orden del día con una recomendación en cada punto.", "02-sales/plan-maestro-ventas-2027.md", 60, "Joel", "alta")
     add(D(2026, 12, 10), "Libre", 663, "Todos", "Textos de una página por producto para la web", "Claude los escribe en inglés y en español; Joel los sube. Sin precio hasta que el club lo confirme.", "06-web/", 0, "Turno", "media")
     add(D(2026, 12, 15), "Libre", 485, "Todos", "Contratos tipo: club (Team y Coach Experience) y jugador (programa de 12 días)", "Con el abogado: reserva, cancelación, seguro y consentimiento de imagen. Sin esto no se cobra ninguna reserva.", PL, 0, "Enrique", "alta")
+    # --- 23/11/2026 (tarde): v4 de Enrique, entrevista de Adrián y guion de Gonzalo
+    for x in C:
+        if x["task"].startswith("LLAMADA con Gonzalo Lamas"):
+            x["how"] = "Guion completo, con qué decir, precios por opción, preguntas difíciles y lo que no se dice. Antes, 10 minutos: confirmar con Enrique el modelo A o B y si los precios de su presentación (2.200 € y 1.500 €) son para Gonzalo o para el cliente final. Después, pegar en el chat lo que se habló."
+            x["where"] = "01-clients/propuestas/gonzalo-llamada-2026-11-24.md"
+    add(D(2026, 11, 23), "Ahora", 41, "Socios", "Mandar a Enrique la v5 de su presentación y la lista de cambios", "Archivo Always_Up_Propuesta_Grupos_Argentina_v5.pptx: su v4 con 3 cambios de texto (ATLÉTICO con tilde, Greystones sin nombre, International Program desde 2027/28). Y las 5 cosas que decide él: los precios (margen del 8 % con 1.500 € los 5 días), Semana Santa el 15/01 o el 15/02, el Deportivo, los pagos y el médico.", "01-clients/propuestas/gonzalo-2027-revision-presentacion-enrique.md", 3, "Joel", "alta")
+    add(D(2026, 11, 23), "Ahora", 42, "Programa 12 días", "Mandar a Enrique y a Naiara la entrevista final de Adrián (martes 24/11)", "Copiar el bloque del documento y mandarlo por WhatsApp. Antes de empezar, que Enrique pida permiso al Diocesano de Ávila para nombrarlo. Incluye 2 o 3 respuestas en inglés para las familias de EEUU.", "04-marketing/caso-pr-entrevista-final-v2.md", 3, "Joel", "alta")
     C.sort(key=lambda x: (x["date"], x["sk"]))
     return C
 

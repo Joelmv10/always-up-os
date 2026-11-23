@@ -48,3 +48,31 @@ En los dos casos, la presentación sirve como folleto para que Gonzalo la enseñ
 1. Hoy, Joel y Enrique deciden los puntos 1, 2 y 3.
 2. Claude hace la v3 a partir del archivo de Enrique, con sus diseños y fotos y los cambios de los puntos 4 a 6, y unifica nuestra oferta en PDF para que todo vaya en **un solo documento** con los mismos precios.
 3. El martes, en la llamada, no se le manda nada por escrito hasta después. Si elige algo, la propuesta sale esa misma semana.
+
+---
+
+## Versión 4 de Enrique (23/11, tarde) y versión 5 de Claude
+La v4 ya corrige varias cosas de la v2:
+- quita "clubes de EEUU y Reino Unido";
+- quita el seguro médico de viaje;
+- mete el kit dentro del precio;
+- añade el Deportivo y los servicios.
+
+**Archivo para Enrique:** `01-clients/propuestas/Always_Up_Propuesta_Grupos_Argentina_v5.pptx`. Es su v4 con solo 3 cambios de texto; el diseño y las fotos no se tocan:
+1. **Portada:** "ATLETICO" pasa a "ATLÉTICO".
+2. **Diapositiva 2:** "la semana real de Greystones" pasa a "la semana real de un club irlandés". A un tercero no se le nombra a un cliente sin su permiso, y Patrick todavía no ha contestado al del testimonio.
+3. **Diapositiva 8, International Program:** se añade "desde la temporada 2027/28". Es lo que Enrique acordó el 9/11: no hay incorporaciones antes.
+
+**Lo que no he cambiado porque lo decidís vosotros:**
+1. **Los precios: 2.200 € los 7 días y 1.500 € los 5 días.** Con la tarifa del Atlético (1.600 € los 7 días, unos 1.250 € los 5 días), el kit ya incluido (49 €) y una plaza gratis de entrenador por equipo de 15:
+
+   | Precio | Cobramos (15 jugadores) | Pagamos al club | Margen, sin contar el coordinador |
+   |---|---|---|---|
+   | 2.200 € (7 días) | 33.000 € | 26.384 € | 20 % |
+   | 1.500 € (5 días) | 22.500 € | 20.784 € | 8 % |
+
+   Si es el precio final para las familias y Gonzalo cobra encima, nuestro margen baja todavía más. **Recomendación:** si el Atlético os ha dado ya un precio de 5 días más bajo, decídmelo y lo recalculo. Si no, en la llamada se dice "precio orientativo de 2026-2027; el de 2028 lo actualiza el club", sin compromiso.
+2. **Semana Santa "antes del 15/02/2027".** En nuestros correos a clubes irlandeses decimos que el Atlético pide confirmar a mediados de enero. ¿Cuál es la fecha buena? Las dos cosas tienen que decir lo mismo.
+3. **El Deportivo** aparece como uno de nuestros cuatro clubes, en la gira del norte y en los campus. Todavía está en negociación. Si Gonzalo pide el Deportivo y no se cierra, quedamos mal. Se puede dejar si Enrique lo ve cerca de firmar.
+4. **Pagos 30/40/30 a 90 días:** no encajan con quien reserve a menos de 90 días de la salida. Propuesta: "si faltan menos de 90 días, 70 % al reservar".
+5. **"Médico en el centro y fisioterapia":** confirmarlo con el club.
