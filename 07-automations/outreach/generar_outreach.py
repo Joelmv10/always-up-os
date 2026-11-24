@@ -792,7 +792,7 @@ def build_sends():
     return nivela(rows, fijos=_fechas, cerrado_hasta=CERRADO_HASTA)
 
 
-PARADOS = {"seacoast", "carrigaline", "bollington", "colorado", "ballistic"}  # ballistic: jerrylosson@busc.org rebotó el 20/11 (cuenta inactiva); buscar otro decisor antes de reanudar  # colorado: Jeff Oleck contestó el 19/11, contrato exclusivo con WorldStrides hasta abril de 2028; volver a escribir en septiembre de 2027  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
+PARADOS = {"seacoast", "carrigaline", "bollington", "colorado", "ballistic", "wisconsin"}  # wisconsin: contestó el 23/11, interesado, pide resumen y precio (borrador 2026-11-23-wisconsin.txt)  # ballistic: jerrylosson@busc.org rebotó el 20/11 (cuenta inactiva); buscar otro decisor antes de reanudar  # colorado: Jeff Oleck contestó el 19/11, contrato exclusivo con WorldStrides hasta abril de 2028; volver a escribir en septiembre de 2027  # bollington: David Spruce contestó por LinkedIn el 17/11 (pide póster o web para reenviar)  # 17/11: Seacoast viaja solo con WorldStrides; el correo de Carrigaline no se lee (contacto: Joe Giltenan)
 CAP_DIA = 6  # correos y formularios al día como máximo (dominio joven y poco tiempo de Joel)
 CAP_DIA_DESDE_DIC = 8  # 19/11: Joel pide más carga; desde el 1/12, con un mes de envíos sin rebotes, hasta 8 al día
 SUBE_CAP = D(2026, 12, 1)
