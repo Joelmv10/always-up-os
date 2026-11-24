@@ -215,6 +215,8 @@ PROSPECTS_US = [
     _us("ballistic", "Ballistic United", "Ballistic United", "America/Los_Angeles", "jerrylosson@busc.org", "Hi Jerry,", "Jerry Losson (MLS NEXT Director of Coaching)", "California", D(2026, 11, 4), li=("Jerry Losson", "Pega en el buscador de LinkedIn: Jerry Losson Ballistic United", "Sin enlace directo. Comprueba que dice Ballistic United.")),
     # 22/11: OK de Joel. Sustituye a Jerry Losson (rebotó el 20/11). Comprobado en busc.org/about/directory el 21/11. Mismo primer correo, solo cambia el saludo.
     _us("ballisticbrady", "Ballistic United (Brady Taylor)", "Ballistic United", "America/Los_Angeles", "bradytaylor@busc.org", "Hi Brady,", "Brady Taylor (Director of Player Development & Coaching Education)", "California", D(2026, 11, 24), li=("Brady Taylor", "Pega en el buscador de LinkedIn: Brady Taylor Ballistic United", "Comprueba que dice Ballistic United.")),
+    # 23/11: OK de Joel ("OK Downtown"). La respuesta automática de info@dusc.net remite a Werner Dasbach (zona 3, U15 a U19 chicos). Texto del borrador 03-operations/borradores/2026-11-23-downtown-united.txt.
+    _us("duscwerner", "Downtown United Soccer Club (Werner Dasbach)", "Downtown United", "America/New_York", "werner.dasbach@dusc.net", "Hi Werner,", "Werner Dasbach (director de la zona 3, U15 a U19 chicos)", "Nueva York", D(2026, 11, 24)),
     _us("delco", "FC Delco", "FC Delco", "America/New_York", "info@fcdelco.org", "Hi team,", "Jeff Zaun (Director de MLS NEXT; email personal sin confirmar)", "Pensilvania", D(2026, 11, 4), right="Jeff Zaun", li=("Jeff Zaun", "Pega en el buscador de LinkedIn: Jeff Zaun FC Delco", "Sin enlace directo. Comprueba que dice FC Delco.")),
     _us("jaguars", "Michigan Jaguars FC", "Michigan Jaguars", "America/New_York", "mo.hijazi@michiganjaguarsfc.com", "Hi Mo,", "Mo Hijazi (Director of Coaching, Dearborn; hay varias sedes)", "Míchigan", D(2026, 11, 4), li=("Mo Hijazi", "https://www.linkedin.com/in/mo-hijazi-757b3829/", "Media-alta: Dearborn, Míchigan; entrenador y director de coaching. Comprueba que menciona Michigan Jaguars.")),
     _us("loufusz", "Lou Fusz Athletic", "Lou Fusz Athletic", "America/Chicago", "matt.mueller@loufuszathletic.com", "Hi Matt,", "Matt Mueller (Director of Coaching and Competition)", "Misuri", D(2026, 11, 10), li=("Matt Mueller", "Pega en el buscador de LinkedIn: Matt Mueller Lou Fusz Athletic", "Nombre muy común: el perfil que sale en buscadores es de otra empresa. Comprueba que dice Lou Fusz Athletic.")),
@@ -453,6 +455,14 @@ _E1 = {"holbeach_dan": D(2026, 11, 5), "virtu": D(2026, 11, 5), "porte": D(2026,
 _FU1 = {"stkevins": D(2026, 11, 25), "homefarm": D(2026, 11, 5), "hastings": D(2026, 11, 5), "soreide": D(2026, 11, 5), "whitehaven": D(2026, 11, 5), "maidstone": D(2026, 11, 10), "akranes": D(2026, 11, 10)}
 # 22/11: con el tope a 12, los primeros correos de clubes de EEUU que esperaban a diciembre se adelantan a esta semana,
 # antes de Acción de Gracias (del 25 al 27/11 no se envía a EEUU). Las universidades se quedan en su fecha (1 al 4/12).
+for _p in PROSPECTS_US:
+    if _p["key"] == "duscwerner":
+        _p["subj"] = "A question about trips abroad for Downtown United"
+        _p["e1_body"] = ("{greet}\n\nI'm Joel, I run Always Up, and I'm based here in New York too. I wrote to the club's info address recently and the auto reply listed you for the U15 to U19 boys. I saw Downtown United had a team at the Donosti Cup this summer.\n\n"
+                         "We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted.\n\n"
+                         "One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.\n\n"
+                         "Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?\n\n" + _END)
+_E1["duscwerner"] = D(2026, 11, 24)
 _E1.update({k: D(2026, 11, 23) for k in ("delco", "loufusz", "slsg", "cincyunited", "tbu", "bethesda")})
 _E1.update({k: D(2026, 11, 24) for k in ("ballisticbrady", "sockers", "jaguars", "chicagofcu", "albion", "ftl", "capvalley", "walnut")})
 for _p in PROSPECTS + PROSPECTS_US:

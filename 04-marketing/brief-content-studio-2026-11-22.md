@@ -81,7 +81,7 @@ Las fechas que mandan:
   - un día tipo de la semana, hora a hora;
   - qué hace un club cuando vuelve: entrenadores con ideas nuevas y jugadores con otra mentalidad;
   - las preguntas de un director antes de viajar (seguridad, quién acompaña, qué incluye).
-- **Testimonio de Greystones:** **no se usa** hasta que Patrick lo apruebe por escrito, y ahora mismo no lo ha hecho.
+- **Greystones:** desde el 23/11, Patrick permite usar el nombre del club. La cita del testimonio y el escudo todavía no: hasta que lo confirme, solo el nombre y los hechos (viajan con nosotros desde 2024 y ganaron su primera liga).
 - **Imágenes:** fotos de menores de viajes anteriores solo con consentimiento confirmado. Si no, instalaciones, staff y planos sin caras.
 - **Meta:** que 3 directores contesten o pidan una llamada citando una publicación.
 

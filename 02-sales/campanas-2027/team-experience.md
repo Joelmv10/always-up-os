@@ -65,7 +65,7 @@ joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
 ```
 Hi [name], one more thing that might help: Greystones in Ireland have travelled with us for three years, and their coaches say the week at Atlético played a part in winning their first league title. Happy to put you in touch with them if useful.
 ```
-> Ojo: ofrecer el contacto con Greystones solo cuando Enrique confirme que Patrick acepta hacer de referencia.
+> 23/11: Patrick ya permite **usar el nombre de Greystones**. Lo que falta es que acepte **ser contacto de referencia** ("Happy to put you in touch"): hasta entonces, el follow-up del día 10 va sin esa última frase.
 
 **B. Paso a llamada con los que han contestado:**
 ```

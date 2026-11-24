@@ -58,9 +58,9 @@ La v4 ya corrige varias cosas de la v2:
 - mete el kit dentro del precio;
 - añade el Deportivo y los servicios.
 
-**Archivo para Enrique:** `01-clients/propuestas/Always_Up_Propuesta_Grupos_Argentina_v5.pptx`. Es su v4 con solo 3 cambios de texto; el diseño y las fotos no se tocan:
+**Archivo para Enrique:** `01-clients/propuestas/Always_Up_Propuesta_Grupos_Argentina_v5.pptx`. Es su v4 con solo 2 cambios de texto (eran 3; el de Greystones se deshizo); el diseño y las fotos no se tocan:
 1. **Portada:** "ATLETICO" pasa a "ATLÉTICO".
-2. **Diapositiva 2:** "la semana real de Greystones" pasa a "la semana real de un club irlandés". A un tercero no se le nombra a un cliente sin su permiso, y Patrick todavía no ha contestado al del testimonio.
+2. ~~Diapositiva 2: quitar el nombre de Greystones.~~ **Deshecho el 23/11:** Patrick ha dado permiso a Enrique para usar el nombre del club, así que la diapositiva 2 vuelve a decir "la semana real de Greystones", como en la v4.
 3. **Diapositiva 8, International Program:** se añade "desde la temporada 2027/28". Es lo que Enrique acordó el 9/11: no hay incorporaciones antes.
 
 **Lo que no he cambiado porque lo decidís vosotros:**

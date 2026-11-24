@@ -934,6 +934,31 @@ Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid)
 If you'd rather not hear from me, just reply and I won't email you again.
 ```
 
+## Downtown United Soccer Club (Werner Dasbach): email 1 (enviar 01/12/2026 a las 09:30 hora Nueva York)
+
+**Para:** werner.dasbach@dusc.net
+
+**Asunto:** A question about trips abroad for Downtown United
+
+```
+Hi Werner,
+
+I'm Joel, I run Always Up, and I'm based here in New York too. I wrote to the club's info address recently and the auto reply listed you for the U15 to U19 boys. I saw Downtown United had a team at the Donosti Cup this summer.
+
+We take youth teams to Spain for a week of training at Atlético de Madrid and Real Sociedad facilities, with matches against local academy sides, a stadium tour, and accommodation and meals all sorted. We can also add a tournament, like MadCup in Madrid or the Donosti Cup.
+
+One of our partner clubs in Ireland won their first ever league title after a few years of coming out with us, and their coaches said the trip helped.
+
+Are you the right person to talk to about trips abroad, or is there someone else at the club I should speak to?
+
+Thanks a lot,
+Joel Martinez
+Founder, Always Up
+joel.martinez@alwaysup.es | +1 (814) 329 1929 | alwaysup.es
+Quality Servix Premium SL | Calle Colquide 6, 3, Esc 2, 28231 Las Rozas (Madrid), Spain
+If you'd rather not hear from me, just reply and I won't email you again.
+```
+
 ## Fort Lauderdale United FC: email 1 (enviar 01/12/2026 a las 09:30 hora Nueva York)
 
 **Para:** thiago@ftlutd.com

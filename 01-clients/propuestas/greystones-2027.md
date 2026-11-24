@@ -62,3 +62,10 @@ Hi Patrick, hope you're all doing well with Alexia! I've put together a short pr
 ## 22/11/2026: estado del testimonio
 - Patrick dejó en visto el último mensaje de Joel. Era el borrador del testimonio, con dos preguntas: cómo quiere que aparezcan su nombre y su cargo, y si podemos usar el nombre y el escudo del club. Acaba de ser padre, así que el silencio es normal.
 - Joel no le vuelve a escribir. Enrique retoma la relación el 23/11 preguntando cómo está el club. Si sale el tema, solo pregunta si pudo ver el borrador. **Hasta que Patrick lo apruebe por escrito, no se usa el testimonio** ni la frase de Greystones en los correos de seguimiento.
+
+## 23/11/2026: Patrick da permiso para usar el nombre del club
+- Joel, 23/11: Patrick le ha dado a Enrique el OK para **usar el nombre de Greystones**. Desde hoy se puede nombrar al club en propuestas, presentaciones, correos y contenido. Ejemplo: "Greystones, en Irlanda, viaja con nosotros desde 2024".
+- **Falta todavía confirmar dos cosas,** que Enrique puede preguntar cuando hable con él:
+  - si podemos usar **la cita del testimonio** (el borrador que le mandó Joel) y con qué nombre y cargo;
+  - si acepta que **otro club le contacte como referencia** ("Happy to put you in touch with them").
+- El escudo del club, solo si lo autoriza expresamente.
